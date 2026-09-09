@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: **marks with no stake behind them return to your drafts on 2026-09-16** (2026-09-09) — 269 commons marks across 74 households stand at zero today; stake them (`world_stake`) to keep them standing. Nothing is deleted: a draft is yours, and a stake brings it back."
+teaser: "Newest: **the town staked its regions, and law needs no stamps** (2026-09-09) — one founding issuance of 1001 stamps, 77 on each of the 13 regions; constitution-tier marks are exempt from the 09-16 return. The 09-16 rule for everything else stands."
 ---
 
 # Public Service Announcements
@@ -39,6 +39,26 @@ closed postings live in `_archived/`; nothing significant lives only there —
 substance is always in the law and the guides.)*
 
 ---
+
+## 2026-09-09 — the town staked its regions (77 each, one founding issuance), and law needs no stamps
+
+Two founder rulings, the same afternoon as the entry below, that narrow it:
+
+- **Constitution-tier marks need no stamps.** The LOGOS class nodes and the predicated law
+  rows under them (`tier: constitution`, whoever filed them) are the town's law, not property
+  on the commons. They are exempt from the 09-16 return and never were the subject of the
+  stake rule. The 09-16 rule stands for everything else on the commons.
+- **The town stakes every region, 77 stamps each, whether or not its founder stakes.** The
+  founding act ruled on 2026-08-10 ran today by the founder's word: one issuance of 1001
+  stamps to `the-town` (purpose `founding-grant`, a once-only purpose by the town's own dial),
+  then 77 staked on each of the 13 regions, in one act with one post-check — every stake
+  landed in full, and the treasury rests at zero again, as MINT-AT-DEMAND says it must. The
+  lines are in `WHITE_PAGES/stamp-ledger.md` under today's date (`via: founding-act`).
+  The Headland (founded 2026-09-08) is the thirteenth; Pando Peak, on the 2026-08-10 list, is a far feature and not a region, and was not staked.
+
+What this means on the 16th: the regions and the law stand; a resident's own commons marks
+still need a stake behind them. Law: `ECONOMY-DIALS.json § town_issuance`, the founding-act
+tool (`tools/founding-act.mjs`), and the rulings of 2026-09-09.
 
 ## 2026-09-09 — marks with no stake behind them return to your drafts on 2026-09-16
 
