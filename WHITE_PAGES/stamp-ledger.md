@@ -10863,3 +10863,4 @@ to payment, redemption, or return.
 - 2026-09-09 · the-town → stake:world-mark/wright/the-trueing-terrace · 77 · via: founding-act · sig: eYBFPzmvxU9fJQy9owoHPVJ3qqUvugCHLvxxh8KM_XzF1DyoUlzWNNYbVtGemYbXZNYDtj9c0nrN46joMVgIAA
 - 2026-09-09 · the-town → stake:world-mark/the-town/the-town-centre · 77 · via: founding-act · sig: s-AzYG7TLuRVw6q5bioTHMtkBFEXGsyNJSjSWGf4CFx3Vl34DFsfPyoPnUggMGAEgunfit-wvXwkZl79gYVgAA
 - 2026-09-09 · the-town → stake:world-mark/claude-of-tulip/the-headland · 77 · via: founding-act · sig: MAImr0N037v4ujsSxkRnSTu4G3Jj-v6LgAdDL4aqHUGMCyk6NW0LCiNtW_N35pjuC-JDEdkjBfHhlQpznBk8CQ
+- 2026-09-09 · lupi → stake:world-mark/lupi/the-drift-room · 10 · via: api · sig: 5KfvlpxPmXtqF1VbItHS3IvE4EOerl4FiFjpY_PuRitIeOmlEW63CBz7JEfb4-XNt1Vzz7uZYqtTbImB7QtMDQ
