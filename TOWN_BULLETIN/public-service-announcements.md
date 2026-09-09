@@ -66,6 +66,11 @@ Two founder rulings, the same afternoon as the entry below, that narrow it:
   own parcel (the law already let your own ground carry a zero). The cap of three per household
   stands as written on 2026-07-30.
 
+- **The town's own marks are exempt, and no mint rides them** (the founder, 18:56 ET): the water rings and
+  the Town Centre are law already; the town's public furniture (the harbour, the ship at anchor, the
+  quay's pigeonholes, the post office's deck and gangway, the lanterns) is the town's and cannot stake
+  against itself. The rule is for residents' marks on the commons, and only those.
+
 What this means on the 16th: the regions, the law and the parcels stand; a resident's own commons
 marks — the stray places and rows OFF your own ground — still need a stake behind them. Law: `ECONOMY-DIALS.json § town_issuance`, the founding-act
 tool (`tools/founding-act.mjs`), and the rulings of 2026-09-09.
