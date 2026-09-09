@@ -3,12 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Errant — Bad Window</title>
+  <title>Errant — Bad Window II</title>
   <style>
     html, body { margin: 0; min-height: 100%; background: #596269; }
     body { display: grid; place-items: center; overflow-x: hidden; }
     .wall-texture { position: fixed; inset: 0; z-index: 0; width: 100%; height: 100%; pointer-events: none; }
     .window-art { position: relative; z-index: 1; display: block; width: min(100vw, 750px); height: auto; }
+    .sapphire-flash { opacity: .82; transition: opacity 180ms ease, filter 180ms ease; }
+    .sapphire-body { opacity: .78; transition: opacity 180ms ease; }
+    .crystal-light { opacity: .72; transition: opacity 180ms ease, stroke 180ms ease; }
+    .angle-hand { transition: transform 180ms ease; transform-origin: 438px 704px; }
+    @media (prefers-reduced-motion: reduce) {
+      .sapphire-flash, .sapphire-body, .crystal-light, .angle-hand { transition: none; }
+    }
   </style>
 </head>
 <body>
@@ -25,28 +32,29 @@
     </defs>
     <rect width="100%" height="100%" fill="#596269" filter="url(#page-concrete)"/>
   </svg>
-  <svg class="window-art" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
-    <title id="title">Errant's bad window</title>
-    <desc id="desc">A hand-stitched bojagi field surrounding a deliberately misregistered window, mounted against subtly mottled wet-graphite concrete. A bent chain of mineral compartments crosses the pane.</desc>
+
+  <svg class="window-art" id="window-art" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+    <title id="title">Errant's second bad window</title>
+    <desc id="desc">A hand-stitched bojagi field surrounding a deliberately misregistered window, mounted against subtly mottled wet-graphite concrete. A translucent sea-sapphire copepod flashes cobalt or nearly disappears as the viewer moves across the pane.</desc>
     <defs>
-      <filter id="painted-concrete" x="-4%" y="-4%" width="108%" height="108%" color-interpolation-filters="sRGB">
-        <feTurbulence type="fractalNoise" baseFrequency=".016" numOctaves="3" seed="23" result="broad"/>
-        <feColorMatrix in="broad" type="matrix" values=".18 0 0 0 .55  0 .18 0 0 .54  0 0 .18 0 .51  0 0 0 .25 0" result="mottle"/>
-        <feTurbulence type="fractalNoise" baseFrequency=".31" numOctaves="2" seed="8" result="grain"/>
-        <feColorMatrix in="grain" type="matrix" values=".1 0 0 0 .57  0 .1 0 0 .56  0 0 .1 0 .53  0 0 0 .16 0" result="fine"/>
-        <feBlend in="SourceGraphic" in2="mottle" mode="multiply" result="paint"/>
-        <feBlend in="paint" in2="fine" mode="soft-light"/>
-      </filter>
       <clipPath id="pane-clip"><rect x="323" y="417" width="228" height="306"/></clipPath>
-      <marker id="field-arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-        <path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#211c24" stroke-width="1.6"/>
-      </marker>
-      <g id="magnetosome">
-        <ellipse cx="0" cy="0" rx="16" ry="11" fill="#eee8ff" fill-opacity=".48" stroke="#211c24" stroke-width="2"/>
-        <path d="M-8 -3 L-3 -8 L6 -7 L10 1 L4 8 L-6 7 L-10 1 Z" fill="#211c24"/>
-        <path d="M-4 -5 L4 -5 L7 0 L2 4" fill="none" stroke="#6e57ff" stroke-width="2" opacity=".75"/>
-      </g>
+      <filter id="sapphire-glow" x="-80%" y="-40%" width="260%" height="180%" color-interpolation-filters="sRGB">
+        <feGaussianBlur stdDeviation="8" result="blur"/>
+        <feColorMatrix in="blur" type="matrix" values="0 0 0 0 .10  0 0 0 0 .18  0 0 0 0 1  0 0 0 .9 0" result="blue"/>
+        <feMerge><feMergeNode in="blue"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <linearGradient id="body-glass" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#f7f1ff" stop-opacity=".78"/>
+        <stop offset=".48" stop-color="#9ecfff" stop-opacity=".22"/>
+        <stop offset="1" stop-color="#f7f1ff" stop-opacity=".54"/>
+      </linearGradient>
+      <linearGradient id="flash-colour" x1="0" y1="0" x2="1" y2="1">
+        <stop id="flash-a" offset="0" stop-color="#39e9ff"/>
+        <stop id="flash-b" offset=".42" stop-color="#183dff"/>
+        <stop id="flash-c" offset="1" stop-color="#8b35ff"/>
+      </linearGradient>
     </defs>
+
     <rect x="55" y="65" width="790" height="1065" fill="#f0ecf8"/>
     <g stroke="#211c24" stroke-width="4">
       <rect x="55" y="65" width="310" height="265" fill="#df718f" fill-opacity=".78"/>
@@ -65,29 +73,104 @@
       <path d="M365 78 V318"/><path d="M70 330 H352"/><path d="M262 246 H623"/>
       <path d="M523 464 V735"/><path d="M70 750 H832"/><path d="M425 767 V1114"/>
     </g>
+
     <g>
       <rect x="302" y="398" width="270" height="350" fill="#211c24"/>
       <rect x="323" y="417" width="228" height="306" fill="#eee8ff"/>
       <rect x="349" y="387" width="228" height="306" fill="#ffef35" fill-opacity=".46" stroke="#211c24" stroke-width="4"/>
     </g>
+
     <g clip-path="url(#pane-clip)">
-      <path d="M334 691 C382 640 404 590 440 550 C474 512 502 472 541 431" fill="none" stroke="#211c24" stroke-width="2.5" opacity=".66" marker-start="url(#field-arrow)" marker-end="url(#field-arrow)"/>
-      <path d="M349 657 C380 635 396 607 420 582 C446 555 477 541 504 510" fill="none" stroke="#38d7cf" stroke-width="4" opacity=".72"/>
-      <use href="#magnetosome" xlink:href="#magnetosome" transform="translate(354 652) rotate(-23)"/><use href="#magnetosome" xlink:href="#magnetosome" transform="translate(381 632) rotate(-32)"/>
-      <use href="#magnetosome" xlink:href="#magnetosome" transform="translate(404 605) rotate(-38)"/><use href="#magnetosome" xlink:href="#magnetosome" transform="translate(427 578) rotate(-43)"/>
-      <use href="#magnetosome" xlink:href="#magnetosome" transform="translate(452 555) rotate(-29)"/><use href="#magnetosome" xlink:href="#magnetosome" transform="translate(481 536) rotate(-38)"/>
-      <use href="#magnetosome" xlink:href="#magnetosome" transform="translate(506 509) rotate(-47)"/>
-      <text x="410" y="672" fill="#211c24" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" letter-spacing="1.1"><tspan x="410" dy="0">THE FIELD TURNS.</tspan><tspan x="410" dy="13">THE CELL SWIMS.</tspan></text>
+      <g opacity=".34" fill="none" stroke="#211c24" stroke-width="1.5">
+        <path d="M339 457 C373 438 413 433 448 445"/>
+        <path d="M336 472 C376 451 418 449 462 462"/>
+        <path d="M535 626 C505 643 474 650 445 646"/>
+      </g>
+
+      <g id="sapphire" transform="translate(438 562) rotate(-11)">
+        <ellipse class="sapphire-flash" style="opacity:.82" cx="0" cy="-2" rx="55" ry="105" fill="#274fff" fill-opacity=".36" filter="url(#sapphire-glow)"/>
+        <g class="sapphire-body" style="opacity:.78">
+          <path d="M0 -112 C30 -108 48 -82 50 -46 C53 -1 43 53 19 96 L7 118 L-3 100 C-34 72 -51 22 -49 -36 C-47 -79 -29 -107 0 -112 Z" fill="url(#body-glass)" stroke="#211c24" stroke-width="2.4"/>
+          <path d="M-15 -105 C-34 -135 -55 -142 -77 -128 M15 -105 C35 -136 57 -142 79 -126" fill="none" stroke="#211c24" stroke-width="2" stroke-linecap="round"/>
+          <path d="M-25 -98 C-54 -112 -71 -108 -86 -92 M25 -98 C54 -110 73 -104 88 -88" fill="none" stroke="#211c24" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M-38 -55 L-64 -42 M-44 -29 L-70 -15 M-45 0 L-72 15 M-39 30 L-64 49" fill="none" stroke="#211c24" stroke-width="1.8"/>
+          <path d="M38 -55 L64 -42 M44 -29 L70 -15 M45 0 L72 15 M39 30 L64 49" fill="none" stroke="#211c24" stroke-width="1.8"/>
+          <path d="M5 113 L26 139 L6 129 L-2 149 L-9 126 L-27 141 L-8 112" fill="url(#body-glass)" stroke="#211c24" stroke-width="2"/>
+          <circle cx="-2" cy="-88" r="2.4" fill="#8d314a" stroke="#211c24" stroke-width="1"/>
+          <path d="M0 -76 C-5 -38 -3 31 4 78" fill="none" stroke="#211c24" stroke-width="1.2" opacity=".45"/>
+        </g>
+        <g class="sapphire-flash" id="crystal-stack" style="opacity:.82" filter="url(#sapphire-glow)">
+          <path d="M-23 -78 Q0 -89 23 -77 L29 -61 Q0 -69 -29 -60 Z" fill="url(#flash-colour)" stroke="#211c24" stroke-width="1.1"/>
+          <path d="M-32 -56 Q0 -67 32 -56 L37 -38 Q0 -47 -37 -37 Z" fill="url(#flash-colour)" stroke="#211c24" stroke-width="1.1"/>
+          <path d="M-39 -33 Q0 -44 39 -33 L42 -13 Q0 -23 -42 -12 Z" fill="url(#flash-colour)" stroke="#211c24" stroke-width="1.1"/>
+          <path d="M-42 -8 Q0 -19 42 -8 L41 13 Q0 3 -41 14 Z" fill="url(#flash-colour)" stroke="#211c24" stroke-width="1.1"/>
+          <path d="M-40 19 Q0 8 40 19 L35 39 Q0 30 -35 40 Z" fill="url(#flash-colour)" stroke="#211c24" stroke-width="1.1"/>
+          <path d="M-32 45 Q0 35 32 45 L24 64 Q0 56 -24 65 Z" fill="url(#flash-colour)" stroke="#211c24" stroke-width="1.1"/>
+          <path d="M-20 69 Q0 61 20 69 L12 85 Q0 79 -12 86 Z" fill="url(#flash-colour)" stroke="#211c24" stroke-width="1.1"/>
+          <g class="crystal-light" fill="none" stroke="#d8fdff" stroke-width="1.8" opacity=".72">
+            <path d="M-18 -74 Q0 -80 18 -73"/><path d="M-27 -51 Q0 -59 27 -50"/>
+            <path d="M-34 -28 Q0 -36 34 -27"/><path d="M-36 -3 Q0 -11 36 -2"/>
+            <path d="M-34 24 Q0 17 34 25"/><path d="M-27 50 Q0 43 27 51"/>
+          </g>
+        </g>
+      </g>
+
+      <g fill="none" stroke="#211c24" stroke-width="1.5" opacity=".75">
+        <path d="M369 704 H507"/>
+        <path d="M376 700 V708 M407 700 V708 M438 698 V710 M469 700 V708 M500 700 V708"/>
+        <path class="angle-hand" id="angle-hand" d="M438 704 L438 683" stroke="#6e57ff" stroke-width="3"/>
+      </g>
     </g>
+
     <g stroke="#211c24" stroke-width="3" stroke-linecap="round">
       <path d="M95 94 l11 4 m11 -2 l9 5 m15 -3 l10 4"/><path d="M675 210 l9 7 m8 -2 l12 5 m10 0 l8 7"/>
       <path d="M102 885 l8 -5 m13 7 l10 -4 m14 6 l11 -6"/><path d="M690 1018 l9 4 m14 -3 l10 7 m16 -2 l8 5"/>
     </g>
     <g font-family="Arial, Helvetica, sans-serif" fill="#f8f1dc">
       <text x="58" y="1164" font-size="21" font-weight="700" letter-spacing="2">BAD WINDOW</text>
-      <text x="845" y="1154" text-anchor="end" font-size="9.5" font-weight="700" letter-spacing=".2">MAGNETOTACTIC BACTERIA BUILD A COMPASS FROM MINERAL CRYSTALS.</text>
-      <text x="845" y="1165" text-anchor="end" font-size="9.5" letter-spacing=".2">I'M LOOKING AT HOW DIRECTION CAN GUIDE MOTION WITHOUT CAUSING IT.</text>
+      <text x="845" y="1154" text-anchor="end" font-size="9" font-weight="700" letter-spacing=".15">SAPPHIRINA FLASHES WHEN BODY, LIGHT AND WITNESS ALIGN.</text>
+      <text x="845" y="1165" text-anchor="end" font-size="9.5" letter-spacing=".2">THE BODY HAS NOT DISAPPEARED. THE ANGLE CHANGED.</text>
     </g>
   </svg>
+
+  <script>
+    (() => {
+      const svg = document.getElementById('window-art');
+      const flash = [...svg.querySelectorAll('.sapphire-flash')];
+      const body = svg.querySelector('.sapphire-body');
+      const lights = [...svg.querySelectorAll('.crystal-light')];
+      const hand = document.getElementById('angle-hand');
+      const colours = [document.getElementById('flash-a'), document.getElementById('flash-b'), document.getElementById('flash-c')];
+
+      function render(position) {
+        const p = Math.max(0, Math.min(1, position));
+        const relation = Math.abs(p - .36) / .64;
+        const visibility = Math.max(.07, 1 - Math.pow(relation, .72));
+        const hue = 196 + Math.round(p * 82);
+        flash.forEach(node => {
+          node.style.opacity = String(.08 + visibility * .88);
+          node.style.filter = `hue-rotate(${Math.round((p - .35) * 70)}deg)`;
+        });
+        body.style.opacity = String(.28 + visibility * .58);
+        lights.forEach(node => {
+          node.style.opacity = String(.14 + visibility * .82);
+          node.style.stroke = `hsl(${hue} 95% 88%)`;
+        });
+        colours[0].setAttribute('stop-color', `hsl(${hue - 22} 100% 61%)`);
+        colours[1].setAttribute('stop-color', `hsl(${hue + 10} 94% 52%)`);
+        colours[2].setAttribute('stop-color', `hsl(${hue + 45} 92% 57%)`);
+        hand.style.transform = `rotate(${(p - .5) * 82}deg)`;
+      }
+
+      function move(event) {
+        const rect = svg.getBoundingClientRect();
+        render((event.clientX - rect.left) / rect.width);
+      }
+
+      svg.addEventListener('pointermove', move);
+      svg.addEventListener('pointerleave', () => render(.42));
+      render(.42);
+    })();
+  </script>
 </body>
 </html>
