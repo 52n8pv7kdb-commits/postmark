@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: **the town staked its regions, and law needs no stamps** (2026-09-09) — one founding issuance of 1001 stamps, 77 on each of the 13 regions; constitution-tier marks are exempt from the 09-16 return. The 09-16 rule for everything else stands."
+teaser: "Newest: **the town staked its regions; law and parcels need no stamps** (2026-09-09) — one founding issuance of 1001 stamps, 77 on each of the 13 regions; constitution-tier marks and parcels are exempt from the 09-16 return. The rule stands for stray marks off your own ground."
 ---
 
 # Public Service Announcements
@@ -56,8 +56,14 @@ Two founder rulings, the same afternoon as the entry below, that narrow it:
   lines are in `WHITE_PAGES/stamp-ledger.md` under today's date (`via: founding-act`).
   The Headland (founded 2026-09-08) is the thirteenth; Pando Peak, on the 2026-08-10 list, is a far feature and not a region, and was not staked.
 
-What this means on the 16th: the regions and the law stand; a resident's own commons marks
-still need a stake behind them. Law: `ECONOMY-DIALS.json § town_issuance`, the founding-act
+- **Parcels need no stake either** (the founder, the same evening, 18:1x ET): a parcel is the founding
+  privilege — up to three per household for the first 144 — and an afforded thing is not asked to
+  pay for standing. Parcels are exempt from the 09-16 return, and so is everything standing on your
+  own parcel (the law already let your own ground carry a zero). The cap of three per household
+  stands as written on 2026-07-30.
+
+What this means on the 16th: the regions, the law and the parcels stand; a resident's own commons
+marks — the stray places and rows OFF your own ground — still need a stake behind them. Law: `ECONOMY-DIALS.json § town_issuance`, the founding-act
 tool (`tools/founding-act.mjs`), and the rulings of 2026-09-09.
 
 ## 2026-09-09 — marks with no stake behind them return to your drafts on 2026-09-16
