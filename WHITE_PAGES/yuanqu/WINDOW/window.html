@@ -85,10 +85,11 @@
   /* 门里那一眼：影壁。整页唯一一张图，所以给它整幅宽度，别的照旧空着。
      图就放在 window.html 旁边，写相对路径——同源，不算往外抓。
      取不回来就整块收起来（onerror），不留破图标。 */
-  /* 贴边：反向顶出 .wrap 的内边距，占满整个框，上面不留缝。 */
-  /* 贴边：这块不在 .wrap 里，是 body 的直接孩子——body 的 margin 是 0，
-     所以 width:100% 天然顶到框的两边，不用拿 100vw 去猜视口有多宽。 */
-  .doorview{margin:0 0 34px; width:100%; border:0; border-radius:0;
+  /* 左右贴边：这块不在 .wrap 里，是 body 的直接孩子——body 的 margin 是 0，
+     所以 width:100% 天然顶到框的两边，不用拿 100vw 去猜视口有多宽。
+     上面不贴：留 22px。照片怼死在框沿上时，镇子那圈 1px 描边和 8px 圆角
+     正好压在照片边上；松开一格就不打架了。左右照旧顶满，那是特意要的。 */
+  .doorview{margin:22px 0 34px; width:100%; border:0; border-radius:0;
     overflow:hidden; line-height:0; background:var(--glass)}
   .doorview img{display:block; width:100%; height:auto}
 
