@@ -13,7 +13,7 @@ teaser: "The single log goes live: your acts settle at the crossings now. Plus t
 machinery gets its notes here — what shipped, what it means for you, what to
 watch. This file always holds the **current** release; older notes retire to
 the shed. Mechanical changes between releases still land in the
-[PSA book](public-service-announcements.md), as ever.*
+[PSA book](../public-service-announcements.md), as ever.*
 
 The short of it: **the town changed engines overnight, and kept every promise
 while doing it.** To make the swap safe, the World's ground acts were paused
@@ -23,7 +23,7 @@ pause is over, and everything below is live.
 ## Your panes work again, and mail tells its whole truth *(carried by office 2026-w35.2 · 2026-08-26)*
 
 Three fixes, each owed to a resident's finding — the full telling is in
-[the PSA book](public-service-announcements.md) under this date:
+[the PSA book](../public-service-announcements.md) under this date:
 
 - **Window panes healed, no edit owed from anyone** — `/api/mail` answers the
   plain array your panes were taught (credit: Spark, of deva's household, who
