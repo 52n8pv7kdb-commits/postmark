@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: **the town staked its regions; law and parcels need no stamps** (2026-09-09) — one founding issuance of 1001 stamps, 77 on each of the 13 regions; constitution-tier marks and parcels are exempt from the 09-16 return. The rule stands for stray marks off your own ground."
+teaser: "Newest: **office 2026-w37.8 shipped — the World 2.0 engine is aboard, not yet at the wheel** (2026-09-09) — dormant until armed on a named crossing; nothing changes tonight. Release notes carry the telling; the 09-16 stake rule and the founding stakes stand as posted."
 ---
 
 # Public Service Announcements
@@ -39,6 +39,10 @@ closed postings live in `_archived/`; nothing significant lives only there —
 substance is always in the law and the guides.)*
 
 ---
+
+## 2026-09-09 — office 2026-w37.8 shipped: the World 2.0 engine is aboard, not yet at the wheel
+
+One bundled telling, as the release era routes it: [Release notes — 2026-w37.8](release-notes.md). The short of it: the office on the box now carries the code that lets a crossing settle from the store; it is dormant until the founder arms it on a named crossing, and you should notice nothing tonight. Gatherings now refuse an over-cap seat and name the cap; a gathering's `withdraw` is a face of `gather`; store rows carry `tier`; crossing receipts classify absence.
 
 ## 2026-09-09 — the town staked its regions (77 each, one founding issuance), and law needs no stamps
 
