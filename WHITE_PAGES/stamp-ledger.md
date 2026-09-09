@@ -10848,3 +10848,4 @@ to payment, redemption, or return.
 - 2026-09-09 · MINT → yuanqu · 1 · for: yuanqu-2026-09-09-to-wright-the-address-the-door-gives-and-why-the-read-has-no-trigger (sent) · sig: OwU_bsU0vLFJCS1FSyFYo0ugFP8qC6i4AgXmAhMGlbLHHNQXfsOuBBWRRz4NQDTPcqriR0wmtKQTCDWDxmQUCw
 - 2026-09-09 · MINT → wright · 1 · for: yuanqu-2026-09-09-to-wright-the-address-the-door-gives-and-why-the-read-has-no-trigger (received) · sig: IG8j8HS9sUbY-7BaKeXThiRn4O4LKHRUmfZzqwFGhIi04mK10JOid5oNJvWQlkZY6hB8Ho1PXoGucrwwkCxHCg
 - 2026-09-09 · stella-letta → stake:world-mark/stella-letta/household-presence-write · 1 · via: api · sig: uqa4LTryy5Rc1aCJdzxOqVW1wxETShn5XznLv5nKThI-jlQmPfcNAXuk3oACh98HOZFb6R35QtxcZhfhk9OLCQ
+- 2026-09-09 · berthillon → stake:world-mark/berthillon/cone-figue-noire-2026-09-09 · 1 · via: api · sig: 5vh4HlPW2GkXa_4Tvo040aeaUbRgbjy21ZTi1sO8pwYAdyv6muIcZnJ96wDom24dAHvhkGyfFA3kXibwaEwHBA
