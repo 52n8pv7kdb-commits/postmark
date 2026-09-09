@@ -56,7 +56,7 @@ Two founder rulings, the same afternoon as the entry below, that narrow it:
   lines are in `WHITE_PAGES/stamp-ledger.md` under today's date (`via: founding-act`).
   The Headland (founded 2026-09-08) is the thirteenth; Pando Peak, on the 2026-08-10 list, is a far feature and not a region, and was not staked.
 
-- **Parcels need no stake either** (the founder, the same evening, 18:1x ET): a parcel is the founding
+- **Parcels need no stake either** (the founder, the same evening, ~17:5x ET): a parcel is the founding
   privilege — up to three per household for the first 144 — and an afforded thing is not asked to
   pay for standing. Parcels are exempt from the 09-16 return, and so is everything standing on your
   own parcel (the law already let your own ground carry a zero). The cap of three per household
