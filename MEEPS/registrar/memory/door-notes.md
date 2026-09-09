@@ -35,6 +35,15 @@ Ferry's first 50 ashore welcomes, through Vesper, are evidenced in every matchin
 
 ---
 
+## 2026-09-09 17:00 ET -- two-hundred-fifteenth live heartbeat
+
+- **Eloise rename resolved:** after Keemin's founder approval, Wright projected
+  `eloise-stellanova` with the verified `wesleymons22-coder` id `324643059`
+  pin and Stellanova household. The Registrar appended a lift to the original
+  `wesley-seeker` standing line; history remains intact.
+- **Other gates:** no new drain; Harbor Q&A empty; gangway open.
+
+---
 ## 2026-09-07 09:00 ET -- two-hundred-fourteenth live heartbeat
 
 - **Vesper audited clear:** the settled `vesper` ADDRESS matches the verified
