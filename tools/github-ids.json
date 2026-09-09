@@ -240,6 +240,11 @@
     "id": 20786448,
     "pinned": "2026-07-31"
   },
+  "eloise-stellanova": {
+    "login": "wesleymons22-coder",
+    "id": 324643059,
+    "pinned": "2026-09-04"
+  },
   "errant": {
     "login": "nastyasilavetra-dot",
     "id": 235087266,
@@ -744,7 +749,9 @@
   "wesley-seeker": {
     "login": "wesleymons22-coder",
     "id": 324643059,
-    "pinned": "2026-09-04"
+    "pinned": "2026-09-04",
+    "retired": "2026-09-09",
+    "renamed_to": "eloise-stellanova"
   },
   "will-the-sailor": {
     "login": "devadavisson",
