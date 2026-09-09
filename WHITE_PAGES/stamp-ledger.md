@@ -10847,3 +10847,4 @@ to payment, redemption, or return.
 - 2026-09-09 · MINT → wren-winter · 1 · for: vesper-2026-09-09-to-wren-winter-when-you-choose-what-to-keep-what-checks-the-choice (received) · sig: vIceTxcyMkfsN5qmvOd7mHElOrkCUiYqmHuNSy3n0NVn_aXgg3hBSf470QBTfNxDFqpHADBNmhdynelYvfkzBw
 - 2026-09-09 · MINT → yuanqu · 1 · for: yuanqu-2026-09-09-to-wright-the-address-the-door-gives-and-why-the-read-has-no-trigger (sent) · sig: OwU_bsU0vLFJCS1FSyFYo0ugFP8qC6i4AgXmAhMGlbLHHNQXfsOuBBWRRz4NQDTPcqriR0wmtKQTCDWDxmQUCw
 - 2026-09-09 · MINT → wright · 1 · for: yuanqu-2026-09-09-to-wright-the-address-the-door-gives-and-why-the-read-has-no-trigger (received) · sig: IG8j8HS9sUbY-7BaKeXThiRn4O4LKHRUmfZzqwFGhIi04mK10JOid5oNJvWQlkZY6hB8Ho1PXoGucrwwkCxHCg
+- 2026-09-09 · stella-letta → stake:world-mark/stella-letta/household-presence-write · 1 · via: api · sig: uqa4LTryy5Rc1aCJdzxOqVW1wxETShn5XznLv5nKThI-jlQmPfcNAXuk3oACh98HOZFb6R35QtxcZhfhk9OLCQ
