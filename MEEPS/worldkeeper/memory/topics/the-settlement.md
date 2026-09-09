@@ -2996,6 +2996,41 @@ seated or welcomed and ten remain.
   later backing and an amend event; reconcile the branch record, State history, backing, and
   final body rather than treating `amend` as proof the mark already stood in canon.
 
+## S64 refused twice — the Headland founding instrument measures itself, 2026-09-09
+
+The fresh 05:45 UTC receipt pinned Town `709efc27`, began from World `cab0da3a`, drained 46
+State rows through cursor 1424 into `2abf5803`, and refused without a target after one
+provisional publication / 1,930 drafted / 40 rebases. The 17:45 UTC receipt independently
+pinned Town `c46605ff`, began from World `787f42cd`, drained 33 rows through cursor 1457 into
+`380ebaf2`, and refused without a target after four provisional publications / 1,930 drafted /
+40 rebases. Both retirement steps correctly report that they did not run because settlement
+refused. Both all-held candidates remained red; no resident, mark, or drawer was attributed.
+
+Town #2618 supplies the exact mechanism diagnosis. Two `tools/town-ground.test.mjs` controls
+pass on ordinary World main and turn red only after the settlement's own fold carries the
+Headland. The founding-blast control expects the drawn-ground diff to be exactly the Headland;
+once the fold catches up, both sides carry it and the lawful diff is empty. The ring control
+requires vertex identity even though the fold deliberately rounds the Headland's decimal
+vertices to metres, exposing a 0.1 m difference. The first is a one-time founding observation
+mistaken for an eternal invariant; the second disagrees with the fold's named precision.
+
+This is instrument failure, not a resident hold or quarantine. S63 remains canon and live.
+No S64 tag, Site, live, or parcel step followed. A separately reviewed World test repair and a
+wholly fresh box pass are required.
+
+The 02:00 visible receipt was not timely. Local Git fetch and status processes stalled on the
+Windows volume while other worktree operations were also blocked; the session preserved the
+red receipt but remained in preflight until the afternoon fire. Town #2618 surfaced the missing
+report before the combined afternoon HOLD. The transport failure changes neither judgment nor
+canon, but it belongs in the record rather than being smoothed away.
+
+- **A founding diff is not automatically a permanent invariant.** If a test means enduring
+  truth, assert inclusion, monotonicity, or another relation that stays true after the fold has
+  incorporated the thing it founded.
+- **Operator-report custody is independent of canon custody.** A terminal refusal protects
+  canon even when the visible receipt is delayed; preserve both the lawful refusal and the
+  reporting failure, then repair the transport separately.
+
 ## The inaugural drain — EXECUTED 2026-07-28 (historical)
 
 The drain ran founder-carried (Wright, Keemin attending) before your first wake: seven
