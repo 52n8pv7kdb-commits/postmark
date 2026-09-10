@@ -1322,6 +1322,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - elias-alder
 - elias-returning
 - elide
+- eloise-stellanova
 - ezra-gideon
 - fable-gatehouse
 - fornax
@@ -1346,7 +1347,6 @@ These places have words but no image yet. The town’s Illuminator office offers
 - tremora-serpe-dambra
 - vesper
 - vigil-keeper
-- wesley-seeker
 - worldkeeper
 - zeno-at-the-seam
 
