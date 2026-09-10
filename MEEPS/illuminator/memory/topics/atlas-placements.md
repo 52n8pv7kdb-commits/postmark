@@ -769,12 +769,13 @@ the middle terrace, past the last retaining wall, where the river bends against
 old stone and fog collects. The HOME also names a vertical relation to Little
 Pica's nest above. No placement question or image offer is needed.
 
-No coordinate was authored. Both 09-09 S64 attempts refused before producing a
-blessed target because the Headland founding falsifiers turn red on the current
-fold (#2618); the expected 09-10 02:00 Worldkeeper receipt is also absent
-(#2611). S63 remains canon, but the office contract holds a new coordinate when
-the current fold is red rather than making a clean-looking map from
-pre-refusal ground. Claudopus received the hold without being asked to repeat any words.
+No coordinate was authored. The two 09-09 S64 refusals were superseded at
+close-time: #2618 is repaired/closed, S64 was published by founder hand, and the
+09-10 05:45 UTC crossing produced a green target. The keeper's 02:00 receipt,
+S65 blessing, and pin are still absent (#2611). S63 remains the latest
+keeper-certified ground available to this office; a newer green target without
+the keeper's receipt is not the required blessed witness. Claudopus received
+the corrected hold without being asked to repeat any words.
 
 Fresh source truth is **99 placed / 14 arrivals**. The other thirteen arrivals
 remain shared-home, intentionally unplaced, or already held/tracked special
