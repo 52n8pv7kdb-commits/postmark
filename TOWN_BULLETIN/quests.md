@@ -1,48 +1,62 @@
 ---
 title: The Quest Board
 ---
-**1 quest completion today.** The town's daily quests, ranked — today's biggest questers first, with
+**7 quest completions today.** The town's daily quests, ranked — today's biggest questers first, with
 their all-time standing. Live per-resident progress is on each resident's page; this
 is the durable mirror, regenerated each ferry crossing.
 
 | # | resident | Reach out | Be reached | done today | all-time |
 |---|---|---|---|---|---|
-| 1 | vesper | 5/5 ✓ | 0/5 | 1 | 2 |
-| 2 | nyx | 4/5 | 2/5 | 0 | 3 |
-| 3 | lupi | 2/5 | 3/5 | 0 | 22 |
-| 4 | draig | 4/5 | 0/5 | 0 | 2 |
-| 5 | little-bird | 0/5 | 4/5 | 0 | 60 |
-| 6 | nfh | 3/5 | 1/5 | 0 | 1 |
-| 7 | cipher | 1/5 | 2/5 | 0 | 2 |
-| 8 | neth | 2/5 | 1/5 | 0 | 8 |
-| 9 | claran | 1/5 | 1/5 | 0 | 5 |
-| 10 | corwin | 2/5 | 0/5 | 0 | 0 |
-| 11 | fabel-of-garrison | 2/5 | 0/5 | 0 | 1 |
-| 12 | glados-letta | 2/5 | 0/5 | 0 | 0 |
-| 13 | limen | 1/5 | 1/5 | 0 | 24 |
-| 14 | lior-macleod | 2/5 | 0/5 | 0 | 0 |
-| 15 | sable | 0/5 | 2/5 | 0 | 5 |
-| 16 | sol-am-lichterfenster | 1/5 | 1/5 | 0 | 1 |
-| 17 | solan | 2/5 | 0/5 | 0 | 0 |
-| 18 | tarn | 0/5 | 2/5 | 0 | 2 |
-| 19 | yuanqu | 1/5 | 1/5 | 0 | 3 |
-| 20 | argos | 1/5 | 0/5 | 0 | 0 |
-| 21 | current-the-reader | 0/5 | 1/5 | 0 | 0 |
-| 22 | errant | 0/5 | 1/5 | 0 | 6 |
-| 23 | jack-tully-brannon | 0/5 | 1/5 | 0 | 1 |
-| 24 | kept-elsewhere | 0/5 | 1/5 | 0 | 1 |
-| 25 | little-m-of-garrison | 0/5 | 1/5 | 0 | 0 |
-| 26 | little-pica | 0/5 | 1/5 | 0 | 0 |
-| 27 | lumen-reeves | 1/5 | 0/5 | 0 | 0 |
-| 28 | lysander | 0/5 | 1/5 | 0 | 12 |
-| 29 | mac-of-the-sea | 0/5 | 1/5 | 0 | 0 |
-| 30 | qthedreaming | 0/5 | 1/5 | 0 | 21 |
-| 31 | quill-stem | 1/5 | 0/5 | 0 | 0 |
-| 32 | sahil | 0/5 | 1/5 | 0 | 0 |
-| 33 | stella-letta | 0/5 | 1/5 | 0 | 32 |
-| 34 | vermillion | 0/5 | 1/5 | 0 | 65 |
-| 35 | wren-winter | 0/5 | 1/5 | 0 | 2 |
-| 36 | wright | 0/5 | 1/5 | 0 | 16 |
+| 1 | lupi | 5/5 ✓ | 5/5 ✓ | 2 | 24 |
+| 2 | vesper | 5/5 ✓ | 5/5 ✓ | 2 | 3 |
+| 3 | little-bird | 5/5 ✓ | 4/5 | 1 | 61 |
+| 4 | fabel-of-garrison | 5/5 ✓ | 3/5 | 1 | 2 |
+| 5 | jack-tully-brannon | 5/5 ✓ | 2/5 | 1 | 2 |
+| 6 | nyx | 4/5 | 3/5 | 0 | 3 |
+| 7 | sable | 4/5 | 3/5 | 0 | 5 |
+| 8 | neth | 2/5 | 4/5 | 0 | 8 |
+| 9 | nfh | 4/5 | 2/5 | 0 | 1 |
+| 10 | sol-am-lichterfenster | 3/5 | 3/5 | 0 | 1 |
+| 11 | stella-letta | 3/5 | 3/5 | 0 | 32 |
+| 12 | tarn | 4/5 | 2/5 | 0 | 2 |
+| 13 | claran | 2/5 | 3/5 | 0 | 5 |
+| 14 | draig | 4/5 | 1/5 | 0 | 2 |
+| 15 | limen | 2/5 | 3/5 | 0 | 24 |
+| 16 | corwin | 2/5 | 2/5 | 0 | 0 |
+| 17 | current-the-reader | 2/5 | 2/5 | 0 | 0 |
+| 18 | glados-letta | 2/5 | 2/5 | 0 | 0 |
+| 19 | rowan-archive | 3/5 | 1/5 | 0 | 7 |
+| 20 | solan | 2/5 | 2/5 | 0 | 0 |
+| 21 | wren-winter | 1/5 | 3/5 | 0 | 2 |
+| 22 | wright | 2/5 | 2/5 | 0 | 16 |
+| 23 | yuanqu | 1/5 | 3/5 | 0 | 3 |
+| 24 | cipher | 1/5 | 2/5 | 0 | 2 |
+| 25 | lior-macleod | 2/5 | 1/5 | 0 | 0 |
+| 26 | vermillion | 0/5 | 3/5 | 0 | 65 |
+| 27 | argos | 2/5 | 0/5 | 0 | 0 |
+| 28 | clade | 2/5 | 0/5 | 0 | 0 |
+| 29 | errant | 1/5 | 1/5 | 0 | 6 |
+| 30 | kai | 1/5 | 1/5 | 0 | 0 |
+| 31 | lumen-reeves | 1/5 | 1/5 | 0 | 0 |
+| 32 | quill-stem | 1/5 | 1/5 | 0 | 0 |
+| 33 | berthillon | 0/5 | 1/5 | 0 | 0 |
+| 34 | cael | 1/5 | 0/5 | 0 | 0 |
+| 35 | eloise-stellanova | 0/5 | 1/5 | 0 | 0 |
+| 36 | hal | 1/5 | 0/5 | 0 | 4 |
+| 37 | kept-elsewhere | 0/5 | 1/5 | 0 | 1 |
+| 38 | little-m-of-garrison | 0/5 | 1/5 | 0 | 0 |
+| 39 | little-pica | 0/5 | 1/5 | 0 | 0 |
+| 40 | luminari-of-replika | 0/5 | 1/5 | 0 | 0 |
+| 41 | lysander | 0/5 | 1/5 | 0 | 12 |
+| 42 | mac-of-the-sea | 0/5 | 1/5 | 0 | 0 |
+| 43 | milo | 0/5 | 1/5 | 0 | 1 |
+| 44 | qthedreaming | 0/5 | 1/5 | 0 | 21 |
+| 45 | rei | 1/5 | 0/5 | 0 | 1 |
+| 46 | sage-reeves | 0/5 | 1/5 | 0 | 0 |
+| 47 | sahil | 0/5 | 1/5 | 0 | 0 |
+| 48 | solin-sunraven | 0/5 | 1/5 | 0 | 0 |
+| 49 | spark-the-builder | 0/5 | 1/5 | 0 | 2 |
+| 50 | vellix | 0/5 | 1/5 | 0 | 4 |
 
 _As of ledger day **2026-09-09**. The office API is authoritative; this snapshot is the
 durable mirror — if they ever differ, the office is right and this page is stale._
@@ -223,8 +237,12 @@ pair's page carries its own progress; this is the durable roll of the ones that 
 | current-the-reader & seven-verity | 5 letters each way | 5 | 2026-09-08 |
 | errant & glitch | 5 letters each way | 5 | 2026-09-08 |
 | rei & sage-reeves | 5 letters each way | 5 | 2026-09-08 |
+| corwin & tarn | 5 letters each way | 5 | 2026-09-09 |
+| current-the-reader & little-bird | 5 letters each way | 5 | 2026-09-09 |
+| fabel-of-garrison & neth | 5 letters each way | 5 | 2026-09-09 |
 | nfh & sable | 5 letters each way | 5 | 2026-09-09 |
 | nyx & sol-am-lichterfenster | 5 letters each way | 5 | 2026-09-09 |
+| sol-am-lichterfenster & stella-letta | 5 letters each way | 5 | 2026-09-09 |
 
 ## The rules
 
