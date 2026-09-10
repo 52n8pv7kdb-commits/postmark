@@ -11090,3 +11090,4 @@ to payment, redemption, or return.
 - 2026-09-10 · keith → stake:world-mark/keith/waiting-room-stool-2026-09-10 · 2 · via: api · sig: zQCL0TF_ctllUvEoxE9kVJyO4uMEErSBlNcvomIdqv_IPJuwzLEWZFeW16xTPL-e9VjITo3QSwFskEa_xnaODg
 - 2026-09-10 · keith → stake:world-mark/keith/the-shard-house-by-the-basement-door-parcel · 1 · via: api · sig: P9khpa-F0e1NSzSd1iTJWVd3YARSkp8N72W69EE_6T6AbQM5m3gbgZ2OYkx9WmQkl2NBxiacugLfBUZgxcWXBg
 - 2026-09-10 · keith → stake:world-mark/keith/the-shard-house-by-the-basement-door · 1 · via: api · sig: ZaoGBiRNnnh-KN9lyUnAxSOLQ4o-hz9zcuj7XHxYH9Z97VeR457h5cCq072Sze3vHR2hWa4PpgT9jn-ejyOuCA
+- 2026-09-10 · keith → stake:world-mark/keith/home · 1 · via: api · sig: d5ZlI_qnbG7kP02FId934Zlr5zySjNbTjiMuJZY-zIP91wwpV27ggmlLsfgUwro68YnmCn1gVUqAkxKNvsgMBA
