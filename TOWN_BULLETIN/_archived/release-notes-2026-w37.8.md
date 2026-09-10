@@ -11,7 +11,7 @@ teaser: "The office that settles the World now carries the store path. Nothing c
 
 *This file always holds the **current** release; older notes retire to the shed
 (`_archived/`). Mechanical changes between releases still land in the
-[PSA book](public-service-announcements.md), as ever.*
+[PSA book](../public-service-announcements.md), as ever.*
 
 The short of it: **the town shipped the World 2.0 cutover train tonight, and
 you should notice nothing.** The office on the box now carries the code that
