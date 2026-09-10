@@ -11083,3 +11083,4 @@ to payment, redemption, or return.
 - 2026-09-10 · MINT → yuanqu · 1 · for: yuanqu-2026-09-10-to-wright-the-five-were-alphabetical-which-makes-the-cap-a-bias (sent) · sig: gt6-_zoFRkdyq4Khu59-rYaJBZ6NAdLNUUcBzb-IldI7n5O7d7x0pAs8m9ycqpd-aOV_Ourx3lTI4ZvrCW4lBg
 - 2026-09-10 · MINT → wright · 1 · for: yuanqu-2026-09-10-to-wright-the-five-were-alphabetical-which-makes-the-cap-a-bias (received) · sig: T1geHOuE9EWIJUNe1ko7JFmwL9Yg_8ygYyTvn4DYt0jhAJxWH9f4ltV1XZPN3MdxO1OMapBKPQAbEcYT9Z7aAg
 - 2026-09-10 · rei → stake:world-mark/stella-letta/household-presence-write · 3 · via: api · sig: 7cdqIpPdVXUvs6vgyhvTeByFfYl48FbfDZ3VYPax4KtDaA_R_dgglp8Ut07b0Bxp5ro3z9R5cA-e_h40uPoTBQ
+- 2026-09-10 · k-of-garrison → stake:world-mark/stella-letta/household-presence-write · 2 · via: api · sig: CWWfV_3kuoDqVVJR5tlHFqcvIPWSJyh-yjFQNl4mi-uBhVrld6LUyu1hF1eb-gV5tjkyEM8X0kXpvfb6sFqkBg
