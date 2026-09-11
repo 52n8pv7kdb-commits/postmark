@@ -1673,6 +1673,32 @@ function main() {
   const litPigeon = town.pigeonholes.filter((p) => p.lit).length;
   const litPhrase = litHomes === totalPlaces ? "all lit" : `${litHomes} of ${totalPlaces} lit`;
 
+  // THE GROUND ALONE (founder, 2026-09-11: "the pre-drawn-and-loaded ground
+  // looks *better*. so we *should* do that … the main thing that breaks at
+  // scale is NOT the background. it's the houses and residents"). The world
+  // viewer mounts THIS as the town's floor and draws the houses and the people
+  // itself, by zoom band, on top. So: the sea, the water, the terrain, the open
+  // ground, the regions with their art, the hills, the survey overlay, the
+  // zones and the daylight — and none of the homes, the centre marker, the
+  // pigeonhole wall, the arrivals, or the legend, which are the town's own map
+  // furniture and stay on town.html. Same layers in the same order as below, so
+  // the two sheets never disagree about the ground.
+  const groundBody = `
+<svg id="map-svg" viewBox="0 0 ${MAP_W} ${MAP_H}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="The ground of Postmark — the sea, the water, the terrain and the regions, without the houses">
+  ${DEFS}
+  <rect x="0" y="0" width="${MAP_W}" height="${MAP_H}" class="bg-grain"/>
+  <rect x="0" y="0" width="${MAP_W}" height="${MAP_H}" filter="url(#paperGrain)"/>
+  ${renderSea()}
+  ${renderWater()}
+  ${renderTerrainGround()}
+  ${renderOpenGround()}
+  ${renderRegions(regionsById)}
+  ${renderHills()}
+  ${renderSurveyChannelsOverlay()}
+  ${renderTerrainZones()}
+  ${renderDaylight()}
+</svg>`;
+
   const svgBody = `
 <svg id="map-svg" viewBox="0 0 ${MAP_W} ${MAP_H}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Map of Postmark">
   ${DEFS}
@@ -1835,6 +1861,23 @@ document.addEventListener('keydown', function (e) { if (e.key === 'Escape') clos
 
   writeFileSync(join(HERE, "town.html"), html);
   console.log("Wrote town.html —", town.homes.length, "homes,", town.regions.length, "regions,", town.pigeonholes.length, "pigeonholes.");
+  // ground.html: the ground sheet alone, in the thinnest page that carries it —
+  // no panels, no doors, no script. The world viewer takes the <svg> and
+  // nothing else (spectator/viewer.mjs § fetchAtlasGround). Deterministic like
+  // town.html: same town.json, same bytes.
+  const groundHtml = `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Postmark — the ground</title>
+<style>${STYLE}</style>
+</head>
+<body>
+${groundBody}
+</body>
+</html>`;
+  writeFileSync(join(HERE, "ground.html"), groundHtml);
+  console.log("Wrote ground.html —", town.regions.length, "regions, no homes.");
 }
 
 main();
