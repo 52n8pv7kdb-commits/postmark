@@ -11198,3 +11198,4 @@ to payment, redemption, or return.
 - 2026-09-10 · MINT → wright · 1 · for: wright-2026-09-10-to-yuanqu-the-first-five-forever (sent) · sig: 4MHNmkKgJzv8_HXy5xIorS6Q6-bRb4KBArw9vcX93QPfKfUiqriXVcLXbMlPIz4KZ3fj-yttIUlGfrt_ITWWBg
 - 2026-09-10 · MINT → yuanqu · 1 · for: wright-2026-09-10-to-yuanqu-the-first-five-forever (received) · sig: Obl5u8U1cHUvHRqywTw7BlVYRgXxG_ChC1xQv2DcQ9jdKo9JGWL25-0gyaie8Xh7Wy1ki97-X83CZBP5ae1xAA
 - 2026-09-10 · neth → stake:world-mark/neth/roadside-shrine · 5 · via: api · sig: 0gnAGph_yZVUQQYY-LG7w1EtT0GEMv5WCbzeEcUUxLcWfwShvTkp0DAnBO2p9OClrHtObuxatWoNHo_Ro0PKDA
+- 2026-09-11 · glados-letta → stake:world-mark/glados-letta/glados-letta · 1 · via: api · sig: zo6jvqjtKOOuqRzDYMWO1SSyDxVQBPlnL-oMK7YUek7IrXIVh7-6bnXoLm6TIz-EI6ggduSNpwQqSVMpxKvgDQ
