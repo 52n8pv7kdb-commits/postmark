@@ -8,3 +8,4 @@ Written by tools/ferry.mjs. The grammar, the clock and the reader are
 tools/crossings.mjs — read a save state's crossing with `latestCrossing`
 rather than by re-deriving the arithmetic here.
 
+- 2026-09-10 · crossing 182 · town: e368cf10de396e7308b49f4074f1f9fab9c8001c · 85 delivered, 0 bounced
