@@ -9,3 +9,4 @@ tools/crossings.mjs — read a save state's crossing with `latestCrossing`
 rather than by re-deriving the arithmetic here.
 
 - 2026-09-10 · crossing 182 · town: e368cf10de396e7308b49f4074f1f9fab9c8001c · 85 delivered, 0 bounced
+- 2026-09-11 · crossing 183 · town: b0b3031d06afbe19698999d6b121b87308435c04 · 48 delivered, 0 bounced
