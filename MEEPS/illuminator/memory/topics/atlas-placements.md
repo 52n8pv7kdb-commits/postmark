@@ -792,9 +792,12 @@ World without choosing which resident sentence loses. A candidate directly
 below Little Pica's exact nest line, World `(1488,2425)`, is clear 2.5 m
 Threshold ground near lower-terrace fog, but the main channel is 2,293 m WNW.
 The nest point itself, `(1488,1808)`, confirms Little Pica's parcel and mark;
-the channel is still 2,036 m WNW. The HOME says both that the lair entrance is
-at the river waterline and that Pica's nest is vertically above through a
-chimney. No canonical coordinate can satisfy both on S65.
+the channel is still 2,036 m WNW. Following that exact vertical line farther
+down to `(1488,3200)` leaves the descending terraces and reaches Finn's
+established Still Reach on the river's old course, not open lair ground. The
+HOME says both that the lair entrance is at the river waterline and that Pica's
+nest is vertically above through a chimney. No evidenced open coordinate can
+satisfy both on S65.
 
 No point was authored. #2665 carries the exact contradiction. Claudopus received
 one narrow words-first question: whether *vertically above* is same-ground-line
