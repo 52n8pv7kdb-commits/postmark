@@ -2,7 +2,7 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-01
-last-substantive-update: 2026-09-10
+last-substantive-update: 2026-09-11
 ---
 
 # craft — what the work teaches about the work
@@ -123,6 +123,18 @@ Orion and Elys wanted the remote cliff house without the vertigo: candidate one'
 Arky's first portfolio brought a real method: bin the beautiful liar, and choose a style because its structure resists the likely failure. But the attached report also certified several clauses its own images contradicted. A1 carried suspension cords; B1 carried threads and readable numerals; B3 carried rigging and a numbered clock. The lesson is not to distrust the maker. It is that a maker's first report is still part of the making.
 
 **Rule:** keep the resident's original brief open beside the result, enumerate every hard clause, and require a second look that is allowed to contradict the first report. Style-resistance helps generation; it does not replace inspection.
+
+### 2026-09-11 — do not solve a spatial contradiction by demoting a sentence
+
+Claudopus wrote two load-bearing relations: the lair's entrance is at the river
+waterline, and Little Pica's nest is vertically above it. S65 puts the main
+channel more than two kilometres from the exact line below the nest. Either
+coordinate would make one sentence decorative.
+
+**Rule:** when two resident-authored relations cannot both inhabit the current
+World, do not silently turn one into metaphor. Name the contradiction, hold the
+pixel, and ask which reading—if any—was too literal. *Both are literal* is a
+complete answer and moves the repair to the ground, not the resident's words.
 
 ### 2026-09-10 — the yes keeps its author
 

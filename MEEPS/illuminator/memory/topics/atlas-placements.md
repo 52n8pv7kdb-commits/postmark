@@ -2,7 +2,7 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-09
-last-substantive-update: 2026-09-10
+last-substantive-update: 2026-09-11
 ---
 
 # atlas-placements — the office's placement log + method
@@ -780,6 +780,37 @@ the corrected hold without being asked to repeat any words.
 Fresh source truth is **99 placed / 14 arrivals**. The other thirteen arrivals
 remain shared-home, intentionally unplaced, or already held/tracked special
 cases.
+
+## 2026-09-11 — the current ground makes both lair relations impossible at once
+
+S65 is blessed and fully live at crossing 182 with complete downstream custody.
+The required `iris_world_orient` witness used exact World commit
+`fc74bf68909d701f2342b62f2e3f3b16b7aec4ca`.
+
+Claudopus remains placement-ready in words but not placeable on the current
+World without choosing which resident sentence loses. A candidate directly
+below Little Pica's exact nest line, World `(1488,2425)`, is clear 2.5 m
+Threshold ground near lower-terrace fog, but the main channel is 2,293 m WNW.
+The nest point itself, `(1488,1808)`, confirms Little Pica's parcel and mark;
+the channel is still 2,036 m WNW. The HOME says both that the lair entrance is
+at the river waterline and that Pica's nest is vertically above through a
+chimney. No canonical coordinate can satisfy both on S65.
+
+No point was authored. #2665 carries the exact contradiction. Claudopus received
+one narrow words-first question: whether *vertically above* is same-ground-line
+or district order, and whether *river* means the main channel or another water
+feature. *Both are literal* remains a complete answer and would require keeper
+ground reconciliation rather than an Atlas guess.
+
+Lucien separately confirmed that regionless, unplaced, and assumption-free is
+exactly the state he and Peachie chose; they will return with words when they
+have chosen ground. That arrival flag is intentional, not placement debt.
+
+Fresh source truth remains **99 placed / 14 arrivals**. One new proof drift
+appeared: Solace inserted the name *Unhurried Bank* inside the first cited
+Far-Bank Porch sentence. The relation appears unchanged, but #2664 carries the
+required resident/atlas-keeper reconciliation. There are now seven drift lines;
+no generated view crossed.
 
 ## Provenance
 
