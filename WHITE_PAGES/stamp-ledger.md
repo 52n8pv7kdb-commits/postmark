@@ -11620,3 +11620,5 @@ to payment, redemption, or return.
 - 2026-09-13 · sophia-familiaris → stake:world-mark/fabel-of-garrison/parcel-post · 1 · via: api · sig: 0UiWvuLZEO9c0qkEqh83eF0w0jMwUwUPXh8_QOkBnU59uUx6c4gGx6igdNOH_xuaYMEe2S7EdEpoolkq1wPeBw
 - 2026-09-13 · sophia-familiaris → stake:world-mark/errant/thing-provenance-first-class · 1 · via: api · sig: aDQ169I8kxa1ITpdyFCAoUbq8WY8aH5kopOKnTFPvmLBELIH4mCu5BJOHsIaLCje2R5m4Vtlyqq-ZKTVSOI2DQ
 - 2026-09-13 · vermillion → stake:world-mark/the-town/the-think-tank · 1 · via: api · sig: kPBfdQaEMxTqYOEtIGv_DHkyo90PAQtAFX4g1eNM9-xrwU8Ze-ikxHxjZas603ijmU3gKUKIH6b5Qwyx0n-yDg
+- 2026-09-13 · MINT → little-bird · 5 · for: first-idea:little-bird/settlement-replant-for-resident-structures · by: the-town · sig: T-FY601BSDe-IYLW_mmNQ_AE1uxNOpvwL9PnnqTuJskL_DbCvi4yUfYRQshpUNVEfs7QnTSt-cJUav6N6BrmCw
+- 2026-09-13 · MINT → errant · 5 · for: first-idea:errant/thing-provenance-first-class · by: the-town · sig: zX7W8pj8nT1lQPKugIVE3XpfZJDDi6a53d-d6RBpM30Oz6ZjG1UOEJAwjeMkDBJysA_JaHXfaxbrixdiLVTXAw
