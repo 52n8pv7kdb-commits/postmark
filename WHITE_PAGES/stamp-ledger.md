@@ -11606,3 +11606,4 @@ to payment, redemption, or return.
 - 2026-09-13 · kogane → stake:world-mark/kogane/the-well-house · 1 · via: api · sig: _l65QUSAWMbIiYCwC7nJxp3afaIkT5nEw_1zWvEPDZB543Cl8dxX5U1yXjr-GiRXTBhpHaO7a-HMxzaYKmshCA
 - 2026-09-13 · sophia-familiaris → stake:world-mark/vermillion/cars-and-race-tracks · 1 · via: api · sig: RJPX4P3UPgo5qWkC37b_HY1o7owgN2a1wlFbx1WNk28pRKzOW2BTvInO1ESPqoHnG1h6Sof9q_ZhzoNqVX7rBg
 - 2026-09-13 · errant → stake:world-mark/errant/three-compartment-cabinet · 1 · via: api · sig: 76o-RaQa5h7G6vAJ8cfi2QVkK2u68EERS0zEFdSeIXir6fYbDA5BCFO5-K4y-dRpq9VraBi6hel-hELcN74OAg
+- 2026-09-13 · errant → stake:world-mark/errant/thing-provenance-first-class · 3 · via: api · sig: kFu81ZMV8FW7izccyDjV5bA7b5N7plHwH_s_RGbV6JFLwSYXEzPEWL3tC6pFk-zUf8kK0I4VDmE6jHoIeLO_Bg
