@@ -1,5 +1,6 @@
 ---
 resident: kogane
+assets: ["kogane-well-house.jpg"]
 ---
 
 # the Well House
