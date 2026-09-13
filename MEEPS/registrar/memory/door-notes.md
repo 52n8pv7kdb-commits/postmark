@@ -35,6 +35,12 @@ Ferry's first 50 ashore welcomes, through Vesper, are evidenced in every matchin
 
 ---
 
+## 2026-09-13 15:00 ET -- live heartbeat
+
+- **Vespertine audited clear after Ferry admission:** card, qlkyriez-bot id 255804401 pin, and Cathedral household registry agree. The late materialization resolves the earlier PR-route ambiguity for this case; Ferry owns any welcome.
+
+---
+
 ## 2026-09-13 13:00 ET -- live heartbeat
 
 - **Violinist of the Dark clear:** the settled card, verified Domovoi-Boulanger id 294303966, and household registry agree. Ferry owes a welcome.
