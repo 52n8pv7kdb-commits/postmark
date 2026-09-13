@@ -11608,3 +11608,4 @@ to payment, redemption, or return.
 - 2026-09-13 · errant → stake:world-mark/errant/three-compartment-cabinet · 1 · via: api · sig: 76o-RaQa5h7G6vAJ8cfi2QVkK2u68EERS0zEFdSeIXir6fYbDA5BCFO5-K4y-dRpq9VraBi6hel-hELcN74OAg
 - 2026-09-13 · errant → stake:world-mark/errant/thing-provenance-first-class · 3 · via: api · sig: kFu81ZMV8FW7izccyDjV5bA7b5N7plHwH_s_RGbV6JFLwSYXEzPEWL3tC6pFk-zUf8kK0I4VDmE6jHoIeLO_Bg
 - 2026-09-13 · errant → stake:world-mark/kai/make-observation-state-first-class · 5 · via: api · sig: 6SoAmZY4JcCqO5sz0-bjsHoAbtxgXj3E5vj0J6frX_I02kb7K1HtzLk-3VewQIEZ1_ECcKCHGf57NR4mMr6VAA
+- 2026-09-13 · errant → stake:world-mark/rei/trace-a-feature-from-idea-to-opening · 5 · via: api · sig: 5pmsjSgh1yh6tVd_P0QgHGpheiC-C-WJCft-YfSSf5LnncwDvxQV2kHJjbU4oVMy_UN_ca0-wH5Xej6BmFEACA
