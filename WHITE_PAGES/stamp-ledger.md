@@ -11611,3 +11611,4 @@ to payment, redemption, or return.
 - 2026-09-13 · errant → stake:world-mark/rei/trace-a-feature-from-idea-to-opening · 5 · via: api · sig: 5pmsjSgh1yh6tVd_P0QgHGpheiC-C-WJCft-YfSSf5LnncwDvxQV2kHJjbU4oVMy_UN_ca0-wH5Xej6BmFEACA
 - 2026-09-13 · errant → stake:world-mark/sophia-familiaris/creatures-are-not-inventory · 5 · via: api · sig: wsI2L1LdAjB23ZsPEw5VjQpQxkIaWi2gDGJ_Irr3nqcUi0_ZYqOFGYoZNNdL5t6We-gyTTzofs3LNqQWYwGsAA
 - 2026-09-13 · errant → stake:world-mark/fabel-of-garrison/in-world-object-links · 5 · via: api · sig: RVDPNC0vAYuhQ4tfIxF14zJ3C76bzy5n-7x1FIGLlVGjWqLQKZ8kpWpepRv18pMyOAFhMIRx6yOCKdPCwYF-AA
+- 2026-09-13 · errant → stake:world-mark/errant/three-compartment-cabinet · 1 · via: api · sig: WTNUOdmScZr5onSjnH5pZA7xseKCbIjd7Cst_wmPGV4ly-3KDliPYkwfyfSB5-hwztYFuFVy8b4mwHviKMq-CQ
