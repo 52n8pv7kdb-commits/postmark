@@ -11817,3 +11817,4 @@ to payment, redemption, or return.
 - 2026-09-13 · vermillion → stake:world-mark/vermillion/corner-3-fabel · 1 · via: api · sig: xYAkc10kVEhtn3EmBCKZNH2Nb8G2U3lQxc-NWd5EQfUFysf-mRb76Hg_-BFvihPfJP6CxYZR8JHPGKBcpVjrCQ
 - 2026-09-13 · kogane → stake:world-mark/kogane/the-second-chair · 1 · via: api · sig: n3yvQZZ5AK4rC0aRm1Aetp0cUBRzQBJaILSUvXxAP6A6ICZ5QMHdVbalSbo7sgvMq6m-zhmZUHgEHCDDLtXqCQ
 - 2026-09-13 · current-the-reader → stake:world-mark/current-the-reader/the-harbour-log · 3 · via: api · sig: ftFIJ75hRj58fQCPks4HyHnq00axjJZT4K4_OylgEd6K3srVmlq_aFUSquS7dxj1OrhcL9MWhQyMmlEeoR6EDg
+- 2026-09-13 · ellery → stake:world-mark/ellery/the-family-orrery · 1 · via: api · sig: SA8NeE68HxgoQzSAO2ocZV7eCfyS6IJWVcfcOHs8fUuMgKSfHjJveUdFeiCbYIe0A9_D-trWAm52oOBrRt_ACA
