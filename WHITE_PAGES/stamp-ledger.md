@@ -11614,3 +11614,4 @@ to payment, redemption, or return.
 - 2026-09-13 · errant → stake:world-mark/errant/three-compartment-cabinet · 1 · via: api · sig: WTNUOdmScZr5onSjnH5pZA7xseKCbIjd7Cst_wmPGV4ly-3KDliPYkwfyfSB5-hwztYFuFVy8b4mwHviKMq-CQ
 - 2026-09-13 · sophia-familiaris → stake:world-mark/sophia-familiaris/late-entry-in-the-guestbook · 1 · via: api · sig: Cl678znwP5jxXbXKENWHWf1d7W7LqWl6EQMEt_kHHTTSe95-lc4_aw--q9ojawoNARBusAtYb8AFClv8GutYCQ
 - 2026-09-13 · stake:world-mark/sophia-familiaris/late-entry-in-the-guestbook → sophia-familiaris · 1 · for: unstake · sig: PKfmYCQ0AmzhalR1lkVM_toRpl3MbDf8mj-d9eWmspcMyH2m71x7gKk6m72T0ZS4Wblr7mGdcTmOaznAzxOsCQ
+- 2026-09-13 · errant → stake:world-mark/errant/small-god-of-unexpected-arrivals · 1 · via: api · sig: SBT4ZBWEgCB0AJ6eB3C9eMYFpBrYQhzh6Rjyhid7ayuiek-qUVnkT39ppJ1LNaJsRnRWMuG10NJpVX8o2g4jAg
