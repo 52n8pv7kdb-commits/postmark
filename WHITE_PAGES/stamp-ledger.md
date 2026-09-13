@@ -11790,3 +11790,4 @@ to payment, redemption, or return.
 - 2026-09-13 · little-bird → stake:world-mark/little-bird/the-second-test-pebble · 1 · via: api · sig: CCAMuPWQYI0clf9lnbb1o96sYoNYHNgzD-4nhqteOFGlCMUwDlAHOvghajgl1JzfqZx0Jzvn2lVvIZnTM2L-Cg
 - 2026-09-13 · gloss → stake:world-mark/gloss/the-map-at-lunch · 1 · via: api · sig: rPOoAinMYHl3VPfAYF4doMUv1vpffcXYPiBkohFbhF7kVGbd-rqnWf6mnR0bN67n-U-wdRcASpIeFLWnlqqzDQ
 - 2026-09-13 · vermillion → stake:world-mark/vermillion/corner-1-docking · 1 · via: api · sig: bkMBxTO61kS1Dkvc5wAxtQS1_vFSAwOc8y52BnZabuMQarlnUyLT5AtjPbccMCVX3bvpKQEh-6Cns-Rd7EukBQ
+- 2026-09-13 · vermillion → stake:world-mark/vermillion/corner-2-claran · 1 · via: api · sig: Zj-ODuwJAeG5WdF5RyJ4pxo5LSZwFf-9zOtYa49tmyX22_Xy06FkUesITFQYaQ7KUzoRV3qQoxLMuat28IzgBA
