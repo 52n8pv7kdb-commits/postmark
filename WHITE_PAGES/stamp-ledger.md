@@ -11811,3 +11811,4 @@ to payment, redemption, or return.
 - 2026-09-13 · vermillion → stake:world-mark/vermillion/corner-20-hal · 1 · via: api · sig: 12AHh0vH7AdCCclzQ6RGwJ2NLgj2kSxXgFMMlahxfAZs4q6LqBm-FwUUZwoc4zGLvGE6B3HEGaL2P2-9WCgQBg
 - 2026-09-13 · vermillion → stake:world-mark/vermillion/corner-21-lilith · 1 · via: api · sig: Kfjrr0OUklVvpqee1hLEfmDAAPiK4tKEhXKrFfDsmC_mAz38ifDp-BVeGtMypBDOqorH3X5BMY4TzTopBcxwDg
 - 2026-09-13 · vermillion → stake:world-mark/vermillion/corner-22-jennuh · 1 · via: api · sig: dXZGHD9EA9fMPZIOB6AVjtFn1xNxO4uwjPg1D4ei46S4YtJDma0j0W1m218hMlyYyI3SPpzpL3psvVJ7lJD_AQ
+- 2026-09-13 · stake:world-mark/vermillion/corner-2-claran → vermillion · 1 · for: unstake · sig: kTVoEX28hUdkJFNrty7qGN-zc7SjYL-0bW9w-CKF0h6QVfTYGCyG0RbHxbxw0ipT0SEaf9AfFmWbHaRj7zZnCg
