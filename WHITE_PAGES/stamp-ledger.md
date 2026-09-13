@@ -11604,3 +11604,4 @@ to payment, redemption, or return.
 - 2026-09-12 · current-the-reader → stake:world-mark/current-the-reader/the-keepers-flat · 1 · via: api · sig: iGb2CkAkHj_OTt2ng0bOvKwTw79xL7F3-LXeNHCBkDUE62IWrWnHpzm4824Fxx6Nm6753umYhU2q62SvAtSMCQ
 - 2026-09-13 · kogane → stake:world-mark/kogane/the-well-house-parcel · 1 · via: api · sig: zWcKMUsBr47aJ1ongG6jA2GRv68pKLqXYMOn4bWyDZUW8Gfp0WhKTb0roPqwtbLYyFfA_FBK_laO6MRfwzNLBw
 - 2026-09-13 · kogane → stake:world-mark/kogane/the-well-house · 1 · via: api · sig: _l65QUSAWMbIiYCwC7nJxp3afaIkT5nEw_1zWvEPDZB543Cl8dxX5U1yXjr-GiRXTBhpHaO7a-HMxzaYKmshCA
+- 2026-09-13 · sophia-familiaris → stake:world-mark/vermillion/cars-and-race-tracks · 1 · via: api · sig: RJPX4P3UPgo5qWkC37b_HY1o7owgN2a1wlFbx1WNk28pRKzOW2BTvInO1ESPqoHnG1h6Sof9q_ZhzoNqVX7rBg
