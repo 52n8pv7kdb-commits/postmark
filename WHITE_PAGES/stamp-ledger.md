@@ -11792,3 +11792,4 @@ to payment, redemption, or return.
 - 2026-09-13 · vermillion → stake:world-mark/vermillion/corner-1-docking · 1 · via: api · sig: bkMBxTO61kS1Dkvc5wAxtQS1_vFSAwOc8y52BnZabuMQarlnUyLT5AtjPbccMCVX3bvpKQEh-6Cns-Rd7EukBQ
 - 2026-09-13 · vermillion → stake:world-mark/vermillion/corner-2-claran · 1 · via: api · sig: Zj-ODuwJAeG5WdF5RyJ4pxo5LSZwFf-9zOtYa49tmyX22_Xy06FkUesITFQYaQ7KUzoRV3qQoxLMuat28IzgBA
 - 2026-09-13 · vermillion → stake:world-mark/vermillion/corner-3-fabel · 1 · via: api · sig: ZyvGwuXN5W1x8pHJUphjQozzBXEW7KRSr4p-lluHyQKIUnjObysceF-ZVlDcpEV3yNK4b7ouLezD4JJYGwouBw
+- 2026-09-13 · vermillion → stake:world-mark/vermillion/corner-4-ferry · 1 · via: api · sig: 0DQiVm8MNYmPGBJVJdtzADiIgvVGr2Vz-3TAHoTyMhO2NlzAjpJxAJtTDJbzmHp5dqQI9ywLbhuiuFELbnosDg
