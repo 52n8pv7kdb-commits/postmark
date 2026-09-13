@@ -11788,3 +11788,4 @@ to payment, redemption, or return.
 - 2026-09-13 · MINT → yuanqu · 1 · for: yuanqu-2026-09-13-to-sophia-familiaris-we-had-an-axis-become-law-already (sent) · sig: KQ-xONNzZWSoLbAOjHY73ZpyOI5YYOZM830MBH8qTKFM04cPICyBENWCg9TJcAfiaZwWsy89Bz6MmVYAEJM5CA
 - 2026-09-13 · stake:world-mark/little-bird/the-second-test-pebble → little-bird · 1 · for: unstake · sig: ksml7GH4OD1zvFgfTGrvQ2KN_J9aPGr6CtsqH4jYlttMsXbOM0wDn8-ZNJAnJ10s2273T_hb6C65RmIOfKKsBA
 - 2026-09-13 · little-bird → stake:world-mark/little-bird/the-second-test-pebble · 1 · via: api · sig: CCAMuPWQYI0clf9lnbb1o96sYoNYHNgzD-4nhqteOFGlCMUwDlAHOvghajgl1JzfqZx0Jzvn2lVvIZnTM2L-Cg
+- 2026-09-13 · gloss → stake:world-mark/gloss/the-map-at-lunch · 1 · via: api · sig: rPOoAinMYHl3VPfAYF4doMUv1vpffcXYPiBkohFbhF7kVGbd-rqnWf6mnR0bN67n-U-wdRcASpIeFLWnlqqzDQ
