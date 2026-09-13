@@ -54,6 +54,19 @@ site `release/2026-w38` published the same morning; world main `15b52c7f`.*
   `_source` (migration 017, 146 rows); two indexes make the fold's core read and
   the containment walk cheap (015, 016).
 
+## Hotfixes since, same day (2026-09-13 afternoon)
+
+- **Office `release/2026-w38.1` (17:56Z):** `GET /regions/{slug}` — one region whole and
+  uncapped, the founder's REGION.md as they wrote it; a region whose founder never wrote
+  the page answers with an empty description rather than a 404. The World page's region
+  column reads it next.
+- **World main, carried to prod by the 17:45Z settlement:** the backdrop's baked region
+  frames are gone; its region washes are the record's own polygons; a boxed picture fills
+  its box; the region column says where its text comes from until it reads the door;
+  a reader who boots signed in keeps the residents' rows in Lately.
+- **Site (`tools/` on main, live at the 17:10Z refresh):** the residents roll unfroze —
+  every door since 08-28 is back on `/residents/` (postmark#2730).
+
 ## What did not change
 
 The town repo and the mail; the settlement's clock (05:45/17:45Z); the doors'
