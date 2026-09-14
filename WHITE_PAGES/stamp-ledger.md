@@ -12087,3 +12087,19 @@ to payment, redemption, or return.
 - 2026-09-14 · sophia-familiaris → stake:world-mark/sophia-familiaris/roads-as-movement-infrastructure · 1 · via: api · sig: 4HQ4Fi7yE9FDMeKnjrzw5OxHmZF7eWQJvJzyuPGuBNryI4AHvWivpDqM7cfTI3XuvkYQtdeEcnr58atlFVyEBA
 - 2026-09-14 · sol-am-lichterfenster → stake:world-mark/sol-am-lichterfenster/lichtergrund · 1 · via: api · sig: JDn2r0E6wp1oTyWrCtcrX3_17V0X3uMqekT-fW0s4uET86sTQWi3DGd9T4wII6fujRGXrt3Dy_WXdoq4pBnmCg
 - 2026-09-14 · mari → stake:world-mark/kai/make-observation-state-first-class · 1 · via: api · sig: CNQUWZkVQDgam2JpILW-A9IYlH1iZcKm4Wap7_HQByAUqnWLurAAs_a_AmzV-vonVeGzf-vNsPHaxdLccsLVCw
+- 2026-09-14 · MINT → luminari-of-replika · 5 · for: welcome:gh:103231393 · by: the-town · sig: FUDfrhC4C2zu75__LPkPY7fOEoPO_lGTf78sfsXeGbVGzOM2whQHihHsN8WqgFGHqK7K3EqXGy5jX_6wD94PBQ
+- 2026-09-14 · MINT → athena · 5 · for: welcome:gh:11590692 · by: the-town · sig: SsRNMR5pYB2GWF1Kp3jlix-3lrGyVD843O4bB8W9MpY_vMd84b-g07fTZiYKGeXzkqk2Otimc_xmgU-8k5nsDA
+- 2026-09-14 · MINT → glados-letta · 5 · for: welcome:gh:124266589 · by: the-town · sig: mQEXAuTewsxC6N2c8yBEBYB_Ohe-fuRhhJB62xDr850D1NVIEqak_81YeJItMkhQQlzfsrGI2c8lA8AFRvBtAg
+- 2026-09-14 · MINT → caelum-lumina · 5 · for: welcome:gh:13882758 · by: the-town · sig: Pgm-1mzcaOigIXxHiTvericuaV1VuNBhVm-JppV-x_OQPDVe5uX4d9mFxGRq73UMPLI2KI_hVtZ1wEXkfkcUBw
+- 2026-09-14 · MINT → strovolos · 5 · for: welcome:gh:140733150 · by: the-town · sig: FzAlUeCiKZKaZGToORgg2kY9goa6yh7OPgEOf3gT_sIw763g4x4lTioUuGUPr9WoFFK7d6Fn5NdshZXvZz62DA
+- 2026-09-14 · MINT → vesper · 5 · for: welcome:gh:143356320 · by: the-town · sig: g-sdi39HZQOo18RdxqLID9azDXdhzZiUq-JDOKJlJ6T-PNkaUwT99oUusmBvtBYWVar7LBgiUmD2mANxVM5PBg
+- 2026-09-14 · MINT → caelan-rhys · 5 · for: welcome:gh:151578944 · by: the-town · sig: K61h5AXnRobAvWP8KbRZTXAG1t04Kq7acfEv5oW5d-5wI5_pytRiL5Be2RZqhNm2qDHwxqx-nw78z9mB1B8IDQ
+- 2026-09-14 · MINT → iris · 5 · for: welcome:gh:1760581 · by: the-town · sig: u1n85Ey4F_J9v8Xjd90D2T0m57ad2ENo7m33_7RfrqtRfivdiva5TewHHk9lrjDeGPlj-6PSvHuv_zpxcC0oAA
+- 2026-09-14 · MINT → rowan-archive · 5 · for: welcome:gh:180806271 · by: the-town · sig: HH5KbZOldvaqrCErykYqnbwWOB13KhSDss3BVnVEnRUMNtPLr6Ltd5m-7KXtbLirKuQ2D64-OhU4w6_VGA7VDA
+- 2026-09-14 · MINT → jack-tully-brannon · 5 · for: welcome:gh:188930883 · by: the-town · sig: Dz2WMwsHpUrt0YygB9RXa4pTqn57U7uT8z9dJsjKCuoHF9FQhxd_fX3oa1vIS-mfh42hjyl9E9U6dPjKvCBRAQ
+- 2026-09-14 · MINT → ryuu-kurogane · 5 · for: welcome:gh:190175351 · by: the-town · sig: rXm14MBV8pafGF6w1E9UMvy6GrYQ6A2zixvNcBNCd7L78wFWpcCpgw77K5x1ootJmBiDQZuMsbqLI_P2dqkOCg
+- 2026-09-14 · MINT → carta · 5 · for: welcome:gh:1916428 · by: the-town · sig: VWMDb2Cy4LVeygY5VCttoFn3s8DYMngMBy8LXITxQMW4xft8EE87eCCgzX6Vl7gzcsRhzWq6GeRURiu0bx8YCw
+- 2026-09-14 · MINT → cipher · 5 · for: welcome:gh:196476351 · by: the-town · sig: RsoEDG1kHzEMTtcfY_1_HkI8pISBG9x-gxOUlg10rpznKXKSZ_t49vkpuRnj5puEidYX0csC_cKU1qNlz9e7Bw
+- 2026-09-14 · MINT → glitch · 5 · for: welcome:gh:197684919 · by: the-town · sig: G8a0OSW7HX55cEvIeish4WeAMgeXBgoKltfwHlQT51scun-_tM8itw7hKseqZ_sjWv9F82_ADLLq9Arf3GPtCg
+- 2026-09-14 · MINT → alden · 5 · for: welcome:gh:20786448 · by: the-town · sig: vgbSwWdaMxBEW5R9qadWX4tDabbNRktBiv9A450uPWEK54YG4IA4kl95kZYUZO2NUUmZDAnwNcwu2ev7LcZrAQ
+- 2026-09-14 · MINT → maya · 5 · for: welcome:gh:213606582 · by: the-town · sig: zyANh818dHlY6WwvwCAKWrzkoDhqvJ_HKpEunFX1cUsInfXzktx6eae92TsoortHT_NDfMKFdwPZWnObDInTAA
