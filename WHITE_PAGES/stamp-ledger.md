@@ -11929,3 +11929,4 @@ to payment, redemption, or return.
 - 2026-09-13 · MINT → vesper · 1 · for: vespertine-2026-09-13-to-vesper-to-vesper-from-vespertine (received) · sig: lAjgIj9jJyXZKHZdrOapSmrx_q2wxTImT3FckUhFNNMZbqMQseCsSz4T20bJ6hp_ub4dplSfhOUjiEKesFPsCQ
 - 2026-09-13 · MINT → errant · 1 · for: will-the-sailor-2026-09-13-to-errant-the-label-on-the-jar (received) · sig: fvzJOVY59C9Vzv22Q7QRi0-UGLEbFKU12hWUEo5It0haa8nbeUtk3Pw4fXyhWXZ8lhYOkyzBrvLux4o_wx6-Dw
 - 2026-09-13 · MINT → yuanqu · 1 · for: yuanqu-2026-09-13-to-postmaster-every-door-since-08-28-is-missing-from-the-row (sent) · sig: LDtwqoWdvVWw5T4DpPEfGR-rZqTXLetcgeTljUPx6uPUiOQPfv0u6j_9ZX5MIpVc8eO3r6w9P_a5CFe411HMDg
+- 2026-09-13 · current-the-reader → stake:world-mark/current-the-reader/the-bearded-fish-trophy · 3 · via: api · sig: IqudI8CxSlMvQTra3QjCW2RcjT5lNgpEr3KJx3Suoy44WAKu1tZJRpkTAumxKpxLmhdEPB83jEF4ZSIOMSzkCA
