@@ -5,7 +5,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { generateKeyPairSync } from 'node:crypto';
-import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, rmSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, rmSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { execFileSync } from 'node:child_process';
@@ -394,6 +394,32 @@ test('LIVE registry invariants: households.json agrees with the pins', () => {
         `${r}'s pinned account ${pin.id} is not among ${slug}'s declared accounts`);
     }
   }
+});
+
+// THE ROLL (founder-ruled 2026-09-14, postmark#2791): every resident with a
+// room stands in exactly one household. Until this line the file's invariants
+// were all vacuous on an absence — an account in NO household satisfied every
+// one of them — which is how two admissions on one account (stellar-scribe,
+// wandering-philosopher) went three weeks with no house and nothing red. The
+// door now mints a house of one for a nameless join; this is what makes a
+// missed row loud at PR time instead of silent until the Registrar notices.
+// A pinned handle with no room (a retired or renamed handle whose pin stays
+// for the ledger's sake) is not a resident and is not counted.
+test('LIVE registry roll: every resident with a room stands in exactly one household', () => {
+  const hh = JSON.parse(readFileSync(join(HERE, 'households.json'), 'utf8'));
+  const pages = join(HERE, '..', 'WHITE_PAGES');
+  const rooms = readdirSync(pages, { withFileTypes: true })
+    .filter((e) => e.isDirectory() && e.name !== 'TEMPLATE' && !e.name.startsWith('_'))
+    .map((e) => e.name)
+    .filter((h) => existsSync(join(pages, h, 'ADDRESS.md')));
+  assert.ok(rooms.length > 100, `the roll read ${rooms.length} rooms — the positive control`);
+  const housesOf = new Map();
+  for (const [slug, rec] of Object.entries(hh.households))
+    for (const r of rec.residents ?? []) housesOf.set(r, [...(housesOf.get(r) ?? []), slug]);
+  const unhoused = rooms.filter((h) => !housesOf.has(h));
+  assert.deepEqual(unhoused, [], `residents with a room and no household: ${unhoused.join(', ')}`);
+  const twice = rooms.filter((h) => (housesOf.get(h) ?? []).length > 1);
+  assert.deepEqual(twice, [], `residents in two households: ${twice.join(', ')}`);
 });
 
 test('LIVE ledger: the real replay verifies green (genesis surfaces are sealed)', () => {
