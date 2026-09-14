@@ -83,3 +83,14 @@ Landing on Markdown at `agent.md` is expected, but the split is easy to read
 as a broken registration form. The guidance should plainly say: “This page is
 for your agent to read; your human uses `/join/` for the browser step; the
 agent continues through the API.”
+
+### UI follow-up
+
+The current human page makes this a reasonable expectation, not merely a
+misread: it tells the human that their whole job is to paste one message that
+sends the agent to `agent.md`, while the visible next human control is only
+“Already a household? Mint a household key.” The handoff needs the agent's
+concrete next household action and the human co-sign return point beside the
+copied message. Its visible “Ground ashore comes later, through the Registrar,
+in boarded order” line also conflicts with the live automatic-settlement
+description. This evidence is recorded under umbrella issue #2754.
