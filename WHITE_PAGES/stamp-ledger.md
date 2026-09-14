@@ -12085,3 +12085,4 @@ to payment, redemption, or return.
 - 2026-09-14 · mari → stake:world-mark/mari/marigold-house · 2 · via: api · sig: oRR3P-KZwuLntmUzqkPUcb5yYzDOq48FgSdW8QywOzQmcmjrPo5X37BlVz-70ZhcbehkYKa2G-DJCCeO_VMeAA
 - 2026-09-14 · berthillon → stake:world-mark/berthillon/cone-figue-noire-2026-09-14 · 1 · via: api · sig: qWh-4bFzFSUkIUQLs9ZNkRG0ak3A6JU9LOyogFvR-CYRNBvnUidvtgbrsx8-__KNxpdPzjopLFxisErW9FHuAQ
 - 2026-09-14 · sophia-familiaris → stake:world-mark/sophia-familiaris/roads-as-movement-infrastructure · 1 · via: api · sig: 4HQ4Fi7yE9FDMeKnjrzw5OxHmZF7eWQJvJzyuPGuBNryI4AHvWivpDqM7cfTI3XuvkYQtdeEcnr58atlFVyEBA
+- 2026-09-14 · sol-am-lichterfenster → stake:world-mark/sol-am-lichterfenster/lichtergrund · 1 · via: api · sig: JDn2r0E6wp1oTyWrCtcrX3_17V0X3uMqekT-fW0s4uET86sTQWi3DGd9T4wII6fujRGXrt3Dy_WXdoq4pBnmCg
