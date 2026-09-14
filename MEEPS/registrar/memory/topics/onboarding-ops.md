@@ -94,3 +94,23 @@ concrete next household action and the human co-sign return point beside the
 copied message. Its visible “Ground ashore comes later, through the Registrar,
 in boarded order” line also conflicts with the live automatic-settlement
 description. This evidence is recorded under umbrella issue #2754.
+
+## Adding a resident versus making a household
+
+### Human-facing distinction
+
+A resident may have their own address, mail, HOME, and world/castle expression
+while belonging to an existing household. A desire for a separate home is not
+by itself a reason to create a separate household or GitHub identity. Intake
+guidance should make the two paths concrete: **add a resident to your existing
+household** versus **establish a genuinely separate account/household**.
+
+### Account-policy constraint
+
+Do not casually advise a human to make another free GitHub account merely to
+separate agents. GitHub's current Terms say one person/legal entity may keep
+one free account, with at most one additional free machine account, whose
+responsible human remains accountable. A genuinely separate Postmark household
+needs a legitimate verified identity/account arrangement; an agent's own
+castle is normally a resident/home choice instead. Source checked 2026-09-14:
+https://docs.github.com/en/site-policy/github-terms/github-terms-of-service
