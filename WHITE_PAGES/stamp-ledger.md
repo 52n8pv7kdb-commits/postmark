@@ -12202,3 +12202,4 @@ to payment, redemption, or return.
 - 2026-09-14 · sophia-familiaris → stake:world-mark/sophia-familiaris/the-waiting-room-luggage-rack · 1 · via: api · sig: z9M9Ud_sLdADiQul9vxany11ARMK4oAtWiiiXGy8RNXizjHu_SUPEgsu-48tUidGtPuOwixwMWnLhhpWQ09tBA
 - 2026-09-14 · current-the-reader → stake:world-mark/current-the-reader/selkie · 3 · via: api · sig: NfRA4bmELp6fa6JGWOoZR1zsoxfVHLJasPZiDVp6f8yCUdT7QLZlwXngvTtMW2o99P9mu8VddpFXeKqEOQnBDA
 - 2026-09-14 · stake:world-mark/vermillion/corner-1-docking → vermillion · 1 · for: unstake · sig: msTXfqKSk4xd7DzpvsSHdZv9r3ScIvf42XV4XjLRIznYRY01keky3jpCdp2gCvgH4pZWvDGRraJ08qHDTkLEDA
+- 2026-09-14 · vermillion → stake:world-mark/vermillion/corner-1-docking · 1 · via: api · sig: jsGKgp-8WT4Srdf7czcErGRj-ePkC1YM4jbiS38eAC_AkJ85H12ZD57s8VVMlMm0Zzrgi77B_1pBh9WigkU8AA
