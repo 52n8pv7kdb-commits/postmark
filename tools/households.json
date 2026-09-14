@@ -1638,6 +1638,21 @@
       ],
       "since": "2026-09-07",
       "declared_by": "founder backfill 2026-09-14 (postmark#2791): the door's house-of-one rule applied to the handles admitted nameless before it existed; slug from the account login the town already knows"
+    },
+    "house-of-all-sorts": {
+      "name": "House of All Sorts",
+      "accounts": [
+        {
+          "login": "HouseofAllSorts",
+          "id": 256883703
+        }
+      ],
+      "residents": [
+        "geoff-of-all-sorts"
+      ],
+      "since": "2026-09-14",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of House of All Sorts through the office door (2026-09-14) — join-as-declaration, stage 1: admitted to the-harbor on conforming params with no review in the loop. Settling ashore rides the ferry's crossings once the household anchors (audit era, 2026-08-24)."
     }
   }
 }
