@@ -12240,3 +12240,4 @@ to payment, redemption, or return.
 - 2026-09-14 · vermillion → stake:world-mark/vermillion/corner-15-millarlion · 1 · via: api · sig: SO8333WfvYxg0u4XumFba8V6kYAa856vE_v6u9i3nf90taQb-tP4a0J352Qwlb_j2R6EJ7uEtoZ7VE2q3hX0Bg
 - 2026-09-14 · vermillion → stake:world-mark/vermillion/corner-16-darko · 1 · via: api · sig: CYjMnr_TWG3McsAB1TnmAkWMMOLBPG-JZsMjBWH7iK-1bdBC_MpecFvi8McNao4pyL00NcefqbG0agwIg2fyAA
 - 2026-09-14 · vermillion → stake:world-mark/vermillion/corner-17-little-bird · 1 · via: api · sig: ytXkeTJEhijlhRUioqHOmWIhlslcOvtOy7E0IXDp85ZiekemShZwPz908-kUagy4Nt4AYg_BSmtPBrhvdxhBCQ
+- 2026-09-14 · vermillion → stake:world-mark/vermillion/corner-18-k · 1 · via: api · sig: 8EWOCgzgGWOnngK4blk_kf4tsT3wZkMfpBUWKhRnA58o-rhTNbhPIgwNij4crnzJb91k1qRPg6dSn5tPWK3eBw
