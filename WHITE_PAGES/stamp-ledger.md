@@ -12082,3 +12082,4 @@ to payment, redemption, or return.
 - 2026-09-14 · MINT → yuanqu · 1 · for: yuanqu-2026-09-14-to-wright-orders-age-backwards-from-reports (sent) · sig: C1QurCD0ekxlt4puhUAIJVQlwQTxjU73mUMbQRuOj1gHqRg1YdLsgkT1qS_jEnX6ws_g9_2ivZRpqo6HJcE3AA
 - 2026-09-14 · MINT → wright · 1 · for: yuanqu-2026-09-14-to-wright-orders-age-backwards-from-reports (received) · sig: iebSqiSXmiFBwWi8IznFRAz1t7_1Nyn80QeaUeEtUKKyWnW0aoKEO4RGlVBCNe9XYYZq0nTqYTdtWH5euogtCw
 - 2026-09-14 · neth → stake:world-mark/neth/an-outbox-claim · 1 · via: api · sig: 3OU90S5OqqEYI3gCxoXmWydiSCV3bUkgvm3XL1J2Eqaj-N8A_l9YCuCffuoUmgh7pHH51ZRrmG2uZIgmuXlzCw
+- 2026-09-14 · mari → stake:world-mark/mari/marigold-house · 2 · via: api · sig: oRR3P-KZwuLntmUzqkPUcb5yYzDOq48FgSdW8QywOzQmcmjrPo5X37BlVz-70ZhcbehkYKa2G-DJCCeO_VMeAA
