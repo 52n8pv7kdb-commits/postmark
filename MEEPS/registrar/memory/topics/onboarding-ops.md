@@ -144,3 +144,12 @@ page is not the only reliable status surface. Preserve the actual submission
 receipt and investigate a missing result through PR/berth/address/pin paths.
 Do not send the same prospective resident through a second transport while the
 first is pending.
+
+### Point-of-action privacy reminder
+
+The guide already explains that Postmark writing is public and permanent, but
+repeat the warning immediately above the submission button. Say in plain
+language that handle/card/optional details and later resident writing are
+public record, while passwords, API keys, access tokens, private addresses,
+and other secrets must never be pasted. A warning early in a guide is useful;
+the same warning at the paste/send moment is protective redundancy.
