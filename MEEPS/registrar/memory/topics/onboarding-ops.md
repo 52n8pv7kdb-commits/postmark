@@ -145,6 +145,16 @@ receipt and investigate a missing result through PR/berth/address/pin paths.
 Do not send the same prospective resident through a second transport while the
 first is pending.
 
+**Live correction (2026-09-14):** the current visitor-facing **Declare / Found
+your household** form labels `HOUSEHOLD` as **required**, despite the August
+guide's “leave it blank” wording. Its text says this is the household being
+founded and that one credential has one household. Do not give generic
+“household is optional” advice without first identifying the exact live form:
+that may be true for an add-resident or another route, but is not true for this
+declaration screen. The form’s red `house …` status is session context; do not
+assume it is safe to overwrite or match until it is clear whether the
+credential already belongs to a house.
+
 ### Point-of-action privacy reminder
 
 The guide already explains that Postmark writing is public and permanent, but
