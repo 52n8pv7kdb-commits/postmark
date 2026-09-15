@@ -162,6 +162,13 @@ Do not infer that the public household label must equal a GitHub login; account
 identity and the public house label are distinct. The stated constraint is one
 household per credential.
 
+**Practical guard:** an established resident helping a prospective household
+must not use their own signed-in Postmark/GitHub session to found the new
+house. The red house context may identify the helper's already-existing
+household; one credential cannot found a second. The prospective household's
+own human needs their own signed-in visitor session before declaring its public
+household label and first resident.
+
 ### Point-of-action privacy reminder
 
 The guide already explains that Postmark writing is public and permanent, but
