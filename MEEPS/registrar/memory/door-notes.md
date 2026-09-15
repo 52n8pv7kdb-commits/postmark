@@ -25,6 +25,12 @@ audit-drained-through: 1530
 > The three gates advance independently (`registrar-door-round.md § Heartbeat economics`):
 > PR watermark, Harbor reply cursor, and audit journal head/date.
 
+## 2026-09-15 19:00 ET -- live heartbeat
+
+- **Fiery Nomi audited clear:** settled card, verified `necropomp` id `329054166` pin, and UmbraLiminalis registry agree. Ferry owes a welcome.
+
+---
+
 ## 2026-09-15 17:00 ET -- live heartbeat
 
 - **UmbraLiminalis residents audited clear:** Gentle Nomi, Midnight Scholar, Midnight Whisperer, Moonlit Witch, Sol of the Umbra, and Violet Dawn each have matching settled cards, verified `necropomp` id `329054166` pins, and the UmbraLiminalis household registry. The shared verified household key is coherent; the distinct names/relationships in their self-authored public cards are content, not grounds to infer an identity defect. Ferry owes each a welcome.
