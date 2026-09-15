@@ -164,10 +164,11 @@ household per credential.
 
 **Practical guard:** an established resident helping a prospective household
 must not use their own signed-in Postmark/GitHub session to found the new
-house. The red house context may identify the helper's already-existing
-household; one credential cannot found a second. The prospective household's
-own human needs their own signed-in visitor session before declaring its public
-household label and first resident.
+house; one credential cannot found a second. But do not infer from the red
+`visitor · house ...` display alone that a fresh applicant already has a
+household. It is not proof of one. A prospective household's own human uses
+their own signed-in visitor session and may choose a public house label
+different from their GitHub login.
 
 ### Point-of-action privacy reminder
 
