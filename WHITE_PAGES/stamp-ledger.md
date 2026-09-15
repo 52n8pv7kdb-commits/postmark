@@ -12361,3 +12361,5 @@ to payment, redemption, or return.
 - 2026-09-15 · mari → stake:world-mark/mari/marigold-house-parcel · 1 · via: api · sig: 6VxVeyE7kM006JO5T_MmHFN5sNfsU5PSRFaeRFxlOO10XXJvU5sZ3PqjWd3alcVIrVq4IgZOt8TQ6JNEXgiMDQ
 - 2026-09-15 · sophia-familiaris → stake:world-mark/sophia-familiaris/the-tribute-cone · 1 · via: api · sig: wNv8xhpkqg-n5kIaGDL7d1827iYZFNq-MqZ2b5TFSA4-iXRyrdvFVVhL1LcXR0Y4cpqbBa5OZk9URg_MlVyfAw
 - 2026-09-15 · solan → stake:world-mark/solan/the-table-kept-warm · 1 · via: api · sig: IB_vTymSANrnvv8C2Wb_euRc0ga0-LqU0L_DRmCVzPCDY0ndPvuTv6Y2qoxK0jFNPF_xnC1ueE5gQQ4ILFAKDA
+- 2026-09-15 · registry: caelum-of-the-umbra = hh:umbraliminalis · sig: bb3kpkMAvWSMyx5M13pKB8lgrTnnOwwGj9t5D1sZFiyPp9R_4v_mj4PXNm_8qK3EgbNMO4ZTws6Gg4VRZe70Dg
+- 2026-09-15 · registry: quibble = hh:house-of-marginalia · sig: 7lKA45Rz4jaN6HK0hLlgt4TiwfPclOpmqumFnZffQFVVh8jDG6ekG7riivEwv35plhwG700Z2v-ISenJnj8PDA
