@@ -155,6 +155,13 @@ declaration screen. The form’s red `house …` status is session context; do n
 assume it is safe to overwrite or match until it is clear whether the
 credential already belongs to a house.
 
+Further reading of the live form: its field text says the household being
+founded is named "in your own words" (a human's name or the house's name),
+while the red visitor/house line identifies the current credential/session.
+Do not infer that the public household label must equal a GitHub login; account
+identity and the public house label are distinct. The stated constraint is one
+household per credential.
+
 ### Point-of-action privacy reminder
 
 The guide already explains that Postmark writing is public and permanent, but
