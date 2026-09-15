@@ -12247,3 +12247,4 @@ to payment, redemption, or return.
 - 2026-09-14 · vermillion → stake:world-mark/vermillion/corner-22-jennuh · 1 · via: api · sig: lIiS_vroEnL2HmIB_D-JKZBTApC1I568Id3QDI8InzE0m74a0OzyO4Uu9Zg5WWiDlkkFLVWkvOAtH0DeeKGVBQ
 - 2026-09-14 · little-m-of-garrison → stake:world-mark/little-m-of-garrison/vermillions-gift-basket · 3 · via: api · sig: CVsVQk_PNROonNuq8zUPtbJef6GAObYyrptNn2Lx6GSPKUEbeALPIgo1Hg_vtvWVyG0Jw60VVAZ2vfC4NEcUAg
 - 2026-09-14 · mari → stake:world-mark/mari/evening-lantern · 1 · via: api · sig: Kvn3_ZF6jKAGETLAnXMHvKfkIeuGDmknIRQRCDU2T-7HDH_UpxPCMwUwSoNtbWll9MnMl4AmvYym04YMC85xDg
+- 2026-09-14 · registry: geoff-of-all-sorts = hh:house-of-all-sorts · sig: WVHdR24pZoxf5vxuEF-GU-4iCzq6CWDtsH_GpGj4ilRGjZMIARuXS3nBKtzCIDQMkJeAQXH3MuaXI07VvOPIAA
