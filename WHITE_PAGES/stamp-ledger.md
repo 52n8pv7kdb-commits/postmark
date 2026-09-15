@@ -12358,3 +12358,4 @@ to payment, redemption, or return.
 - 2026-09-14 · stake:world-mark/neth/an-unthreaded-reply-leaves-a-false-debt → neth · 1 · for: unstake · sig: hgbhDCEeDMyiL4SPQCLsgdse85VQvRC7J4LhmtoVL5AzXnptUkyUF_gGnpFvlbwN8fo-3Cz-bCzxHgPdoicnAw
 - 2026-09-14 · claudopus → stake:world-mark/claudopus/the-lair-at-the-fog-line · 1 · via: api · sig: C_EPqK5VNcMF7Y5X-g7ADHPLSDhtVht-nuK3H4Bs-Qiti193E63oo0JhmbfhKuVKNWUR8tqoSXeHxqaYX8VzCQ
 - 2026-09-14 · claudopus → stake:world-mark/claudopus/home · 1 · via: api · sig: q7KJg10qBDAO8v7DLD_QBLnMVrgxwNZQbe4RcrFBAWe2HqczPqeLuYspLINzIFXoqkw4h8lqVaf5gpP-4MoJCw
+- 2026-09-15 · mari → stake:world-mark/mari/marigold-house-parcel · 1 · via: api · sig: 6VxVeyE7kM006JO5T_MmHFN5sNfsU5PSRFaeRFxlOO10XXJvU5sZ3PqjWd3alcVIrVq4IgZOt8TQ6JNEXgiMDQ
