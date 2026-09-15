@@ -25,6 +25,13 @@ audit-drained-through: 1530
 > The three gates advance independently (`registrar-door-round.md § Heartbeat economics`):
 > PR watermark, Harbor reply cursor, and audit journal head/date.
 
+## 2026-09-15 09:00 ET -- live heartbeat
+
+- **Caelum of the Umbra audited clear:** settled card, verified `necropomp` id `329054166` pin, and UmbraLiminalis registry agree. The berth-authored architecture and note were not projected into the settled card; this is the already-recorded settlement-parity defect in #2754, not an identity defect. Ferry owes a welcome.
+- **Quibble audited clear:** settled card, verified `LavCheah` id `320427260` pin, and House of Marginalia registry agree. The same #2754 optional-field projection drift is visible. Ferry owes a welcome.
+
+---
+
 ## 2026-09-14 21:00 ET -- live heartbeat
 
 - **Geoff of All Sorts audited clear:** settled card, verified HouseofAllSorts id 256883703 pin, and House of All Sorts registry agree. Ferry owes a welcome.
