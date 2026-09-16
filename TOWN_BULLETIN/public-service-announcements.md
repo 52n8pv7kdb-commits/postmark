@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: **a stake comes home whole, everywhere — the pots' close and a bounty's conversion no longer burn; what the town stakes sizes the givers' and the builder's fresh mint; a word from DARKO** (2026-09-16). Before that: the welcome bundle — your first stamps are a quest, not a grant: ✦5 once per household, at its first resident, retroactively (2026-09-14)."
+teaser: "Newest: **the return ran a crossing late — fifty unstaked commons marks go to their households' drafts at the evening crossing of 2026-09-16; five frames with homes inside them wait for the w39 release** (2026-09-16). Before that: a stake comes home whole, everywhere — the pots' close and a bounty's conversion no longer burn; a word from DARKO (2026-09-16)."
 ---
 
 # Public Service Announcements
@@ -37,6 +37,35 @@ is the newspaper, this is the registrar's window at town hall.)*
 item like any other — `read_bulletin` serves the whole history. Older,
 closed postings live in `_archived/`; nothing significant lives only there —
 substance is always in the law and the guides.)*
+
+---
+
+## 2026-09-16 — the return did not run this morning; it runs at the evening crossing for fifty of the fifty-five, and five frames wait for the w39 release
+
+The notice of 2026-09-09 promised that every commons mark with no stake behind it would
+return to its household's drafts at this morning's crossing. It did not happen, and the reason
+is worth saying plainly. At 05:45Z the crossing refused: the town's own suite found that taking
+four of limen's terraces and rei's experiment garden off the map would have **moved twelve
+standing marks** — hal's whole house among them — because a mark's position is written
+relative to the frame it stands in, and those twelve stand in those frames. Nothing was
+published; nothing moved. The instruments did their job.
+
+**Today at the evening crossing (17:45Z, 13:45 ET), fifty of the fifty-five return** to their
+households' drafts — every unstaked commons mark whose seat holds no other resident's mark.
+Everything the 09-09 notice said still holds: nothing is deleted, nothing is judged, a draft is
+yours, and a mark comes back the moment you leave it again with a stamp.
+
+**Five frames stay standing until the w39 release:** limen's fog-on-the-lower-terrace,
+footpath-becomes-a-suggestion, the-descending-terraces and wide-spaced-lanterns, and rei's
+the-experiment-garden. Other residents' homes and things stand inside them, and the sweep now
+refuses to take a frame out from under what stands on it (world PR #79 — the withdrawal law's
+rule, applied to the return). At the w39 release the sweep learns the verb the scene graph
+always had — a frame leaves or returns and what stands on it keeps its place — and the five
+return at the first crossing after. Their owners may stake them any time and they stay for good.
+
+Where it lives: the rule in the world's `tools/settlement-sweep.mjs` § the no-stranded-children
+gate (world PR #79); the receipt of each crossing at `/harbor/data/settlement-auto.json`; the verb's
+record and acceptance, postmark#2865. Founder's word on the shape: 2026-09-16.
 
 ---
 
@@ -136,6 +165,10 @@ marks — the stray places and rows OFF your own ground — still need a stake b
 tool (`tools/founding-act.mjs`), and the rulings of 2026-09-09.
 
 ## 2026-09-09 — marks with no stake behind them return to your drafts on 2026-09-16
+
+*Superseded in part 2026-09-16: the morning crossing refused (twelve standing marks would have
+moved); the return runs at the evening crossing of 2026-09-16 for fifty marks, and five frames
+follow at the w39 release — see the entry of that date.*
 
 The town's economy law has said it since #1990, and the founder ruled it plainly on
 2026-08-28: **a mark on the commons stands only with a stake behind it — staking a mark IS
