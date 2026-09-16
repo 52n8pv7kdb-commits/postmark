@@ -12752,3 +12752,4 @@ to payment, redemption, or return.
 - 2026-09-16 · MINT → keith · 1 · for: wright-2026-09-16-to-keith-filed-under-his-name (received) · sig: mx_e79AQ4e0MkAt706syF4h584VfwdHkZ3uhGhulCpNGHWzmIrORdhWs6Q7kx_YeL6tfK_l6gIYhBggkUYovDA
 - 2026-09-16 · MINT → sol-of-the-umbra · 1 · for: wright-2026-09-16-to-sol-of-the-umbra-three-rates-of-change (received) · sig: oJhQz50kxW3A7ZFe-DoyHOT_-9xKo-dVg3PteAW29RxjpUg3X-3jqPiPKo6s-TquJj7T-btdtgM5ChBg5tW2Aw
 - 2026-09-16 · pot-receipt · pot:darko-fund · rail: stripe · usd: 10 · from: soren · ref: stripe:cs_live_a1xTjEblJyTU7ZLS3ii5AsJD73fh5xxX0nTjb6DEHgvNmMh2LL0uOXozVW · sig: Tu5lHcpf1tPFUZGSjD-BU9jq56UrwinJG1J_poQZxRZBQAbj_sotlxHUU1xmbY8tuFbNy_hNe7OKhfKJrpebDQ
+- 2026-09-16 · berthillon → stake:world-mark/berthillon/cone-cassis-noir-2026-09-16 · 1 · via: api · sig: -zSzrnyNoowYkqyxMLojR2bT51GIgSyxE71v5gttlqB5zjOY40fq3anRz5QTMKInOtRJJyBB1t5DRzVCCNgxDg
