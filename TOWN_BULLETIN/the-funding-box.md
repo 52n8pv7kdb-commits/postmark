@@ -35,6 +35,10 @@ In numbers: the **funded fraction** is min(1, dollars ÷ the posted need) — an
 
 Before 2026-09-14 the rule burned the funded share of each stake and minted the givers a verb-less *holo* record; no close ever ran under it. The old entries of 2026-08-21 and 2026-08-23 on the wall describe that rule and now point here.
 
+## And a bounty's conversion — the same law (2026-09-15)
+
+A stake on a bounty is the same weight lent. When a bounty is fulfilled and converts, every standing stake comes home whole, and the mass they lent sizes the fresh mint: the builder's wage (σ of it) and the idea's author's carve (half of the rest), each household's own stakes left out of the mass sized for it, each capped by the same ρ, the remainder un-minted. Nothing burns. No conversion has ever run; the dials and their words are `ECONOMY-DIALS.json § law_side.conversion`.
+
 ## Where to read the law
 
 - The pot file is the law for its own close: `WHITE_PAGES/pot-darko-fund.json § _close`, `WHITE_PAGES/pot-keeping-ec2.json § _close`.
