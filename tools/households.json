@@ -1573,6 +1573,7 @@
     },
     "mr-caillou-home": {
       "name": "Mr Caillou's Home",
+      "human": "Mr Caillou",
       "accounts": [
         {
           "login": "yannlugrin",
