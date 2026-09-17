@@ -1557,6 +1557,53 @@ test('LIQUID: a giver stakes out of their reward, and the whole ledger still ver
   assert.equal([...foldBalances(entriesOf(repo)).values()].reduce((a, b) => a + b, 0), 0, 'and conservation still holds');
 });
 
+test('LIQUID, THE SECOND HOLDER: a giver PAYS a letter out of their reward, and the mint pass agrees with the verifier', () => {
+  // DIAL law_side.keeping._holo (2026-09-17): holo stamps "stake, vote, PAY and
+  //   transfer like any stamp."
+  // THIS TEST EXISTS BECAUSE ONE FLIP PROVES ONE FILE. The liquidity law has
+  // THREE holders — foldBalances, stamp-verify's own running fold, and
+  // deriveTransfers' settlement balance — and dropping the arm from the third
+  // left the whole suite cheerfully green, because no falsifier here had ever
+  // sent a paying letter funded by a reward. The two sides decide the SAME
+  // question from opposite ends: deriveTransfers picks transfer-or-void when the
+  // mint pass appends, and stamp-verify replays that pick in ledger order. If
+  // only one of them credits holo, the mint writes `void: insufficient-balance`
+  // where the verifier expects a transfer, and the town's ledger fails
+  // SETTLEMENT DIVERGES on a letter that was perfectly lawful.
+  const { pub, priv } = keypair();
+  const repo = seamTown({
+    pub, priv, pins: PINS,
+    pots: { one: { beneficiary: 'keeper', target_usd_per_epoch: 100 } },
+    gifts: [{ handle: 'stan', n: 100 }, { handle: 'dot', n: 6 }],
+  });
+  const keyFile = join(repo, 'stamp-key.pem');
+  appendSigned(repo, [
+    potStakeLine({ date: '2026-07-02', handle: 'stan', pot: 'one', n: 100, via: 'api' }),
+    potReceiptLine({ date: '2026-07-03', pot: 'one', rail: 'stripe', usd: 100, from: 'dot', ref: 'stripe:p1' }),
+  ], priv);
+  closeDirect(repo, priv, { pot: 'one', epoch: '2026-07', date: '2026-08-01' });
+  assert.equal(foldHolo(entriesOf(repo)).get('dot'), 3, 'her reward, clipped to floor(ρ × 7)');
+
+  // A paying letter she could NOT have afforded before the close: her balance
+  // without the reward would be 7 + 1 (this letter's own mint) = 8, and she pays 10.
+  writeFileSync(join(repo, 'WHITE_PAGES', 'mail-ledger.md'), `# ledger\n\n${[
+    D('2026-06-12', 'm-1', 'stan', 'paz'),
+    D('2026-06-12', 'm-2', 'keeper', 'dot'),
+    '- 2026-08-05 · m-3 · dot → stan · pays: 10 · thread: new',
+  ].join('\n')}\n`);
+  execFileSync(process.execPath, [join(HERE, 'stamp-mint.mjs'), '--append', '--key', keyFile, '--repo', repo], { encoding: 'utf8' });
+
+  const settlement = entriesOf(repo).map((e) => classifyEntry(e.canonical)).find((c) => c.id === 'm-3');
+  assert.ok(settlement, 'the mint pass settled the paying letter');
+  assert.equal(settlement.kind, 'transfer',
+    'a TRANSFER — a void:insufficient-balance here would mean the mint pass cannot see her reward');
+  assert.equal(settlement.n, 10);
+  const v = verifyStampLedger(repo);
+  assert.equal(v.ok, true, (v.problems ?? []).join('\n'));
+  assert.equal(foldBalances(entriesOf(repo)).get('dot'), 1, '7 + 3 reward + 1 mint, less the 10 she paid');
+  assert.equal([...foldBalances(entriesOf(repo)).values()].reduce((a, b) => a + b, 0), 0);
+});
+
 test('THE RETIRED ROWS: no burn, no keeping mint, no BURN account — in any block a close can derive', () => {
   // DIAL law_side.keeping._what (2026-09-14): "Nothing burns."
   // DIAL law_side.keeping._keeping_mint (2026-09-14): "no stake burns, so there
