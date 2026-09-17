@@ -462,14 +462,22 @@ const ISSUANCE_RE = /^- (\d{4}-\d{2}-\d{2}) · MINT → (\S+) · ([1-9]\d*) · f
 //          The base is read from the prefix the close lands on, never including
 //          the mint the close is about to write, which is what keeps the
 //          verifier's re-derivation from the same prefix byte-identical.
-//   - THE CAP IS PER CLOSE (2026-09-14, unchanged by the 09-17 ruling): "a
-//     household's funding mint from one close is capped at ρ × its earned base."
-//     It is not a cap on holdings — a second close offers a fresh cap, now
-//     against a base the first close raised. That is the founder's "it compounds
-//     by design", and it is the one place this seam's arithmetic has no ceiling
-//     of its own: the genesis declaration's "the line floors at half of parity"
-//     has no mechanism behind it under a per-close cap on a compounding base.
-//     Flagged on the record (POS-33 report, #2811), NOT invented here.
+//   - THE CAP IS A CAP ON HOLDINGS (AMENDED 2026-09-17, the founder's second
+//     ruling of the day, verbatim: "ceiling cap is fine"). From 2026-09-14 until
+//     this amendment the cap was PER CLOSE — a fresh cap at every close, over a
+//     base each close had raised — so the compound had no ceiling of its own and
+//     the genesis declaration's "the line floors at half of parity" had nothing
+//     enforcing it. That was flagged on the record (POS-33 report, #2811); this
+//     is the founder's answer to it. Now: a household's HOLO AFTER a close is
+//     capped at ρ × its all-sources mint BEFORE the close, so a close may mint
+//     that household at most
+//         max(0, floor(ρ × base) − the holo the household already holds)
+//     The BASE still compounds exactly as ruled at 04:2x — it is the all-sources
+//     mint, primary and holo — and that is what keeps "it compounds by design"
+//     true. What changed is only the SHAPE of the clip. At ρ = 0.5 the iteration
+//     converges on holo ≤ primary per household: "money's share of a household
+//     may never pass ρ" — the constitution's sentence as arithmetic, which is
+//     what the site's own ownership gauge has always drawn.
 //   - self-stake exclusion is PAYER-SIDE and by HOUSEHOLD (widened 2026-09-14
 //     from handle): "a payer's household's stakes are excluded from the mass that
 //     sizes that payer's mint. Sole-staker-sole-payer mints zero." There is no
@@ -1609,6 +1617,18 @@ export function deriveEpochClose({ entries, households, pot, potMeta, epoch, dat
     mintByHH.set(k, (mintByHH.get(k) ?? 0) + n);
   }
 
+  // WHAT THE HOUSEHOLD ALREADY HOLDS — the second term of the holdings cap
+  // (2026-09-17, "ceiling cap is fine"). Read with foldHolo over the SAME prefix
+  // the base above is read from, so the cap's two numbers are measured at one
+  // instant and the verifier re-derives both from the same bytes. Under the
+  // retired per-close shape this term did not exist: the cap was re-offered
+  // whole at every close, which is exactly why the compound had no ceiling.
+  const holoByHH = new Map();
+  for (const [handle, n] of foldHolo(entries)) {
+    const k = hhKey(handle);
+    holoByHH.set(k, (holoByHH.get(k) ?? 0) + n);
+  }
+
   // THE GIVERS' MINT — "the funding mint M = floor(fraction × the open staked
   // mass) is minted fresh to the payers by dollar share of the roll, a payer's
   // own household's stakes excluded from the mass sized for that payer, floors
@@ -1622,13 +1642,25 @@ export function deriveEpochClose({ entries, households, pot, potMeta, epoch, dat
   // a stamp or two, and per-receipt flooring is the one already tested. Every
   // remainder is un-minted either way: the seam keeps the change.
   //
-  // THE CAP IS PER CLOSE, NOT PER HOLDING (2026-09-14): "a household's funding
-  // mint from one close is capped at ρ × its earned base". So the clip is
-  // against what this close has already granted that household, and NOT against
-  // what the household already holds — a second close offers a fresh cap, over a
-  // base the first close raised. The town has no ceiling on the compound under
-  // this shape; the genesis declaration's "the line floors at half of parity" has
-  // no mechanism behind it. Reported to the founder on #2811, not decided here.
+  // THE CAP IS ON HOLDINGS (AMENDED 2026-09-17 — the founder: "ceiling cap is
+  // fine"): "a household's holo after the close is capped at ρ × its all-sources
+  // mint before it — money's share of a household may never pass ρ". So the clip
+  // is against THREE things at once: what the household already HOLDS (foldHolo
+  // over the same prefix the base is read from), what this close has already
+  // granted it, and its raw share. The room left is
+  //     max(0, floor(ρ × base) − heldBefore − grantedThisClose)
+  // and the inner value may be NEGATIVE before the clamp — a household already
+  // past its ceiling (holdings from a close run under the retired per-close
+  // shape) mints ZERO rather than any negative thing.
+  //
+  // The base still compounds, exactly as ruled at 04:2x: it is the all-sources
+  // mint, so each close raises the ceiling the NEXT close measures against. What
+  // this amendment adds is that the ceiling is measured against the HOLDINGS
+  // rather than re-offered whole, and that is what gives the compound a limit.
+  // At ρ = 0.5 the iteration converges on holo ≤ primary per household — the
+  // constitutional sentence ("money can come to own up to half of Postmark; it
+  // can never own more") stated exactly, one household at a time. The
+  // convergence is proved by falsifier, never by arithmetic asserted here.
   //
   // ONE HOLO ROW PER RECEIPT, ALWAYS — including the zeros. The count is what
   // varies; the row itself is not optional, because it does double duty: it is
@@ -1648,8 +1680,9 @@ export function deriveEpochClose({ entries, households, pot, potMeta, epoch, dat
       const massForPayer = S - (stakedByHH.get(pHH) ?? 0); // nothing you fully control mints for you
       const mp = scale(massForPayer);
       const raw = Math.floor((mp * r.usd) / D);
-      const capThisClose = Math.floor(dial.rho * (mintByHH.get(pHH) ?? 0));
-      h = Math.max(0, Math.min(raw, capThisClose - (grantedThisClose.get(pHH) ?? 0)));
+      const capHoldings = Math.floor(dial.rho * (mintByHH.get(pHH) ?? 0));
+      const heldBefore = holoByHH.get(pHH) ?? 0;
+      h = Math.max(0, Math.min(raw, capHoldings - heldBefore - (grantedThisClose.get(pHH) ?? 0)));
       if (h > 0) grantedThisClose.set(pHH, (grantedThisClose.get(pHH) ?? 0) + h);
     }
     holos.push({ handle: r.from, n: h, ref: r.ref });
@@ -1684,8 +1717,17 @@ export function deriveEpochClose({ entries, households, pot, potMeta, epoch, dat
       fundingMint: holoTotal,
       unmintedRemainder: S_scaled - holoTotal,
       receipts: receipts.length,
-      // per payer, for the tool's report: the cap's base shown as primary + holo,
-      // so a reader can see WHY a payer was clipped without re-folding the ledger.
+      // per payer, for the tool's report: the cap's base shown as primary + holo
+      // AND the holdings the cap is measured against, so a reader can see WHY a
+      // payer was clipped without re-folding the ledger.
+      //
+      // `holoHeldBefore` is ONE number wearing two hats, and that is the whole
+      // mechanism of the 09-17 holdings cap: the household's prior holo is
+      // inside the base (it raises the ceiling, "it compounds by design") and is
+      // subtracted from it (it has already been spent against that ceiling). At
+      // ρ = 0.5 those two roles cancel to holo ≤ primary, which is why the
+      // report prints the same figure on both sides of the line rather than
+      // carrying a second field that could only ever equal it.
       payers: [...new Set(receipts.filter((r) => funding(r) && isResident(r.from)).map((r) => r.from))]
         .sort((a, b) => a.localeCompare(b))
         .map((handle) => {
@@ -1697,9 +1739,10 @@ export function deriveEpochClose({ entries, households, pot, potMeta, epoch, dat
             handle, household: k, usd,
             massForPayer: S - (stakedByHH.get(k) ?? 0),
             mint: holos.filter((x) => x.handle === handle).reduce((a, x) => a + x.n, 0),
-            capThisClose: Math.floor(dial.rho * (mintByHH.get(k) ?? 0)),
+            capHoldings: Math.floor(dial.rho * (mintByHH.get(k) ?? 0)),
+            holoHeldBefore: holoHH,
+            roomLeft: Math.max(0, Math.floor(dial.rho * (mintByHH.get(k) ?? 0)) - holoHH),
             basePrimary: primaryHH,
-            baseHolo: holoHH,
           };
         }),
     },

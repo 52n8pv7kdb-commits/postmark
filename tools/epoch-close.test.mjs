@@ -525,9 +525,18 @@ test('a payer who also staked: the mass sized for them excludes their own househ
 });
 
 test('the ρ-cap clips the givers\' mint — and never touches the stakes coming home', () => {
-  // DIAL law_side.keeping._what (AMENDED 2026-09-14): "a household's funding
-  //   mint from one close is capped at rho × its all-sources mint before this
-  //   close".
+  // DIAL law_side.keeping._what (AMENDED 2026-09-17): "a household's holo after
+  //   the close is capped at rho × its all-sources mint before it — money's
+  //   share of a household may never pass rho".
+  // THE SENTENCE THIS REPLACES (the dial's own 2026-09-14 line, kept here so the
+  //   diff review can see which shape is asserted): "a household's funding mint
+  //   from one close is capped at rho × its earned base." That was a cap on ONE
+  //   CLOSE'S MINT; this is a cap on HOLDINGS.
+  // A FIRST close cannot tell the two shapes apart, and that is not a hole — it
+  //   is why the live instance's arithmetic did not move when the shape did. A
+  //   household holding no holo has room == cap, so the two clips agree exactly.
+  //   The shapes diverge from the SECOND close on, which is what the next two
+  //   falsifiers are for.
   // DIAL law_side.keeping._rho_owner (R10, Keemin 2026-08-21): "THIS FIELD IS
   //   THE OWNER OF THE NUMBER — 'every other surface reads it rather than
   //   restating it'." So the number below is not written here either: it is read
@@ -553,8 +562,12 @@ test('the ρ-cap clips the givers\' mint — and never touches the stakes coming
   assert.equal(d.report.fundingMintSized, 300, 'the mass lent 300');
   assert.equal(d.report.fundingMint, Math.floor(rho * 101), 'raw 300 clips to floor(ρ · base) = 50');
   assert.equal(d.report.fundingMint, 50);
-  assert.equal(d.report.payers.find((p) => p.handle === 'paz').capThisClose, 50,
-    'and the report SAYS the cap, so a clipped giver can see why without re-folding the ledger');
+  const pazRow = d.report.payers.find((p) => p.handle === 'paz');
+  assert.equal(pazRow.capHoldings, 50,
+    'and the report SAYS the ceiling, so a clipped giver can see why without re-folding the ledger');
+  assert.equal(pazRow.holoHeldBefore, 0, 'she held no holo going in — this is her first close');
+  assert.equal(pazRow.roomLeft, 50,
+    'so the room left IS the whole ceiling, and the holdings cap and the retired per-close cap agree here');
   assert.equal(d.report.dollarsWitnessed, 150, 'the record remembers every dollar');
   assert.equal(d.rows.find((r) => r.kind === 'holo').n, 50, 'and the holo row exactly what minted');
   assert.equal(d.rows.find((r) => r.kind === 'holo').ref, 'stripe:pi_4', 'pointing at the receipt the dollars rode in on');
@@ -562,16 +575,26 @@ test('the ρ-cap clips the givers\' mint — and never touches the stakes coming
   assert.equal(verifyStampLedger(repo).ok, true);
 });
 
-test('THE RULING\'S OWN FALSIFIER: the ρ base is the ALL-SOURCES mint — a giver\'s prior holo raises their own ceiling', () => {
-  // THE FOUNDER, 2026-09-17, verbatim: "for POS-33, I'm good to let funding
-  //   minted stamps contribute to the max stamps you can get from another fund.
-  //   it compounds by design."
-  // DIAL law_side.keeping._keeping_mint (AMENDED 2026-09-17): "the rho base is
-  //   the household's ALL-SOURCES mint before the close — primary and holo".
-  // THE READING THIS OVERTURNS (the dial's own 2026-09-14 line): "The rho base
-  //   is earned primary mint alone." Two rounds, and the SAME close derives 50
-  //   under the retired base and 75 under the ruled one. Only the ruled one may
-  //   pass, and the retired number is named so a reviewer can see which is which.
+test('THE RULING\'S OWN FALSIFIER: the base is the ALL-SOURCES mint and the cap is on HOLDINGS — one fixture, four numbers, one lawful', () => {
+  // THE FOUNDER, 2026-09-17 04:2x, verbatim: "for POS-33, I'm good to let
+  //   funding minted stamps contribute to the max stamps you can get from
+  //   another fund. it compounds by design."
+  // THE FOUNDER, 2026-09-17 09:0x, verbatim: "ceiling cap is fine."
+  // DIAL law_side.keeping._what (AMENDED 2026-09-17): "a household's holo after
+  //   the close is capped at rho × its all-sources mint before it — money's
+  //   share of a household may never pass rho ... the CAP is on holdings, not on
+  //   one close's mint ... so a close mints a household at most the room left:
+  //   max(0, floor(rho × base) − the holo it already holds)".
+  //
+  // TWO ROUNDS, AND THE SAME SECOND CLOSE DERIVES FOUR DIFFERENT NUMBERS — one
+  // for each shape the law has worn. The fixture is built so that no two of them
+  // collide, which is what makes it a falsifier rather than a green suite:
+  //    50 — per-close cap on primary-only base   (the retired 2026-09-14 rule)
+  //    75 — per-close cap on all-sources base    (the 2026-09-17 04:2x rule)
+  //     0 — holdings cap on primary-only base    (the base the ruling widened)
+  //    25 — holdings cap on all-sources base     (THE LAW, both rulings together)
+  // Only 25 may pass, and the three rejected numbers are named below so a
+  // reviewer reading the diff can see which shape the engine is in.
   const { pub, priv } = keypair();
   const repo = seamTown({
     pub, priv, pins: PINS,
@@ -596,41 +619,177 @@ test('THE RULING\'S OWN FALSIFIER: the ρ base is the ALL-SOURCES mint — a giv
     'but her all-sources mint did — that is the whole of the amendment');
   assert.equal(r1.report.returned, 200, 'and vic\'s stake came home whole');
 
-  // ROUND 2 — paz gives again, to a different pot, and her OWN round-1 reward is
-  // in the base her cap is computed from.
+  // ROUND 2 — paz gives again, to a different pot. Her OWN round-1 reward is in
+  // the base her ceiling is computed from AND is subtracted from that ceiling.
+  // One number, two roles: that is the whole mechanism of the holdings cap.
   //   primary mint                 = 101
-  //   holo from round 1 (counts)   =  50
-  //   ρ base                       = 151  → cap = floor(0.5 · 151) = 75
-  //   the retired base (primary)   = 101  → cap = floor(0.5 · 101) = 50
+  //   holo from round 1            =  50
+  //   ρ base (all sources)         = 151  → ceiling = floor(0.5 · 151) = 75
+  //   holo already held            =  50  → ROOM LEFT = 75 − 50            = 25
+  //   under the primary-only base  = 101  → ceiling 50, held 50, room       = 0
+  //   under the retired per-close shape                                     = 75
   appendSigned(repo, [
     potStakeLine({ date: '2026-08-02', handle: 'stan', pot: 'two', n: 400, via: 'api' }),
     potReceiptLine({ date: '2026-08-03', pot: 'two', rail: 'usdc', usd: 100, from: 'paz', ref: 'usdc:r2' }),
   ], priv);
   const r2 = closeDirect(repo, priv, { pot: 'two', epoch: '2026-08', date: '2026-09-01' });
   assert.equal(r2.report.fundingMintSized, 400);
-  assert.equal(r2.report.fundingMint, 75,
-    'ρ base = primary + holo = 101 + 50 = 151; floor(0.5 · 151) = 75');
+  assert.equal(r2.report.fundingMint, 25,
+    'ceiling = floor(0.5 · (101 + 50)) = 75; she already holds 50; the room left is 25');
+  assert.notEqual(r2.report.fundingMint, 75,
+    'the RETIRED PER-CLOSE shape would re-offer the whole ceiling — 75, the 09-17 04:2x number');
   assert.notEqual(r2.report.fundingMint, 50,
-    'the RETIRED base (primary mint alone) would clip her at 50 — the number the 09-14 dial named');
-  assert.equal(r2.report.payers.find((p) => p.handle === 'paz').basePrimary, 101);
-  assert.equal(r2.report.payers.find((p) => p.handle === 'paz').baseHolo, 50,
-    'and the report shows the base broken out, so the cap is auditable from the printout');
-  assert.equal(r2.rows.find((r) => r.kind === 'holo').n, 75);
-  assert.equal(verifyStampLedger(repo).ok, true, 'and the verifier re-derives the same base from the same prefix');
+    'the RETIRED primary-only base under that shape would clip her at 50 — the 09-14 number');
+  assert.notEqual(r2.report.fundingMint, 0,
+    'a holdings cap over the primary-only base would give her nothing — and the base is all-sources, as ruled');
+  const p2 = r2.report.payers.find((p) => p.handle === 'paz');
+  assert.equal(p2.basePrimary, 101);
+  assert.equal(p2.holoHeldBefore, 50,
+    'and the report shows what she held going in, so the clip is auditable from the printout');
+  assert.equal(p2.capHoldings, 75, 'the ceiling on her household\'s holo AFTER this close');
+  assert.equal(p2.roomLeft, 25, 'ceiling minus held — the number the mint was actually clipped to');
+  assert.equal(r2.rows.find((r) => r.kind === 'holo').n, 25);
+  assert.equal(verifyStampLedger(repo).ok, true, 'and the verifier re-derives the same two numbers from the same prefix');
 
-  // IT COMPOUNDS, BY DESIGN — and the cap is PER CLOSE, so nothing in the dial
-  // bounds the compound. R12's retired reason for admitting a source into the
-  // base was "the loop cannot compound — verb-less → never re-stakable"; holo is
-  // re-stakable now, so that reason is gone and the founder took the trade
-  // knowingly. Asserted rather than assumed, because it is the consequence the
-  // lane flagged to him on #2811.
-  assert.ok(r2.report.payers.find((p) => p.handle === 'paz').capThisClose
-    > Math.floor(keepingDial(repo).rho * 101),
-    'round 2\'s cap is strictly larger than round 1\'s, and round 1\'s own mint is why');
+  // IT STILL COMPOUNDS, BY DESIGN — the BASE is what the 04:2x ruling widened,
+  // and widening it is what raises the ceiling from 50 to 75. R12's retired
+  // reason for admitting a source into the base was "the loop cannot compound —
+  // verb-less → never re-stakable"; holo is re-stakable now, so that reason is
+  // gone and the founder took the trade knowingly. What the 09:0x ruling added
+  // is that the ceiling is measured against the HOLDINGS, so the compound has a
+  // limit: the convergence falsifier below is where that is proved.
+  assert.ok(p2.capHoldings > Math.floor(keepingDial(repo).rho * 101),
+    'round 2\'s ceiling is strictly larger than round 1\'s, and round 1\'s own mint is why');
+  assert.ok(p2.roomLeft < Math.floor(keepingDial(repo).rho * 101),
+    'and the ROOM is strictly smaller than round 1\'s, which is the ceiling doing its work');
   const own = foldOwnership(entriesOf(repo)).get('paz');
-  assert.equal(own.holo, 125);
-  assert.equal(own.minted, 101 + 125, 'all sources: primary + holo');
+  assert.equal(own.holo, 75);
+  assert.equal(own.minted, 101 + 75, 'all sources: primary + holo');
   assert.equal(own.ownership, own.minted, 'holo is inside minted, never a second addend');
+});
+
+test('THE CEILING HOLDS A HOUSEHOLD ALREADY PAST IT TO ZERO — negative room is not a negative mint', () => {
+  // DIAL law_side.keeping._what (AMENDED 2026-09-17): "a close mints a household
+  //   at most the room left: max(0, floor(rho × base) − the holo it already
+  //   holds)". The clamp at 0 is the part this asserts.
+  //
+  // THE FIXTURE CANNOT BE A LAWFUL LEDGER, AND THAT IS THE FINDING. Under the
+  // holdings cap no close can put a household PAST its ceiling — each close
+  // clips to the room, so the room can reach 0 and never go below it. The
+  // over-held state is reachable only from holo written under the RETIRED
+  // per-close shape (which no close ever ran under — the live ledger holds 0
+  // holo rows) or from a hand-written row. So the fixture writes the row by
+  // hand, on a fork, and the ledger's own verifier is asserted RED on it: this
+  // is a defensive clamp on a branch the town cannot otherwise reach, and
+  // saying so is more honest than a fixture that pretends otherwise.
+  //
+  // The numbers are the brief's own: primary 10, prior holo 100, base 110,
+  // ceiling floor(0.5 · 110) = 55, room 55 − 100 = −45 → MINTS 0.
+  // The flip (the retired per-close shape) mints 55 and reds this test.
+  const { pub, priv } = keypair();
+  const repo = seamTown({
+    pub, priv, pins: PINS,
+    pots: { ec2: { beneficiary: 'keeper', target_usd_per_epoch: 100 } },
+    gifts: [{ handle: 'paz', n: 9 }, { handle: 'stan', n: 400 }],
+  });
+  appendSigned(repo, [
+    potStakeLine({ date: '2026-07-02', handle: 'stan', pot: 'ec2', n: 400, via: 'api' }),
+    potReceiptLine({ date: '2026-07-03', pot: 'ec2', rail: 'usdc', usd: 100, from: 'paz', ref: 'usdc:over' }),
+  ], priv);
+
+  // the hand-written prior holo — a fork, so the lawful repo above stays clean
+  const over = mkForkAppend(repo, priv,
+    holoMintLine({ date: '2026-07-15', handle: 'paz', n: 100, pot: 'ec2', epoch: '2026-06', ref: 'usdc:legacy' }));
+  assert.equal(verifyStampLedger(over).ok, false,
+    'the fixture is deliberately unlawful — no derivation produces that row, and the verifier says so');
+
+  const e = entriesOf(over);
+  assert.equal(foldPrimaryMint(e).get('paz'), 10, 'primary 10 — the gift of 9 plus her one correspondence mint');
+  assert.equal(foldHolo(e).get('paz'), 100, 'and 100 holo already held');
+  assert.equal(foldMintCount(e).get('paz'), 110, 'so the all-sources base is 110');
+
+  const d = deriveEpochClose({
+    entries: e, households: householdKeys(over), pot: 'ec2', potMeta: potFile(over, 'ec2'),
+    epoch: '2026-07', date: '2026-08-01', dial: keepingDial(over),
+  });
+  assert.equal(d.ok, true, d.error);
+  const p = d.report.payers.find((x) => x.handle === 'paz');
+  assert.equal(p.capHoldings, 55, 'the ceiling: floor(0.5 · 110)');
+  assert.equal(p.holoHeldBefore, 100, 'and she is already past it');
+  assert.equal(p.roomLeft, 0, 'the room is clamped at 0 — the report never shows a negative');
+  assert.equal(d.report.fundingMint, 0, 'so this close mints her NOTHING');
+  assert.notEqual(d.report.fundingMint, 55,
+    'the retired per-close shape would hand her the whole ceiling again — 55 — which is the flip');
+  assert.equal(d.rows.find((r) => r.kind === 'holo').n, 0,
+    'and the row is still written, at 0: the receipt\'s one mint chance is spent either way');
+  assert.equal(d.report.unmintedRemainder, 400, 'the whole mass is un-minted — the seam keeps the change');
+  assert.equal(d.report.returned, 400, 'and stan\'s stake still comes home whole; the ceiling never touches a stake');
+});
+
+test('CONVERGENCE: iterate the close and money\'s share of a household stops at ρ — holo ≤ primary at ρ = 0.5', () => {
+  // THE FOUNDER, 2026-09-17 09:0x, verbatim: "ceiling cap is fine."
+  // DIAL law_side.keeping._rho_owner (AMENDED 2026-09-17): "At rho = 0.5 the
+  //   iteration converges on holo ≤ primary per household — R10's genesis floor
+  //   restored as arithmetic, and the constitution's own sentence ('money can
+  //   come to own up to half of Postmark; it can never own more') stated one
+  //   household at a time."
+  //
+  // THIS IS THE FALSIFIER THE SHAPE EXISTS FOR. The per-close cap it replaces
+  // was green on every single-close test in this file; it failed only under
+  // ITERATION, which is the one thing no other falsifier here does. So: give
+  // paz a fresh pot every round, let her fund it, and close it — until the close
+  // mints her nothing. Then read her holdings against her primary mint.
+  //
+  // Under the ruled shape the mints fall 50, 25, 13, 6, 3, 2, 1, 0 and holo
+  // settles at 100 against primary 101. Under the flip (the retired per-close
+  // shape) the mints RISE — 50, 75, 113, … — the loop never reaches 0, and both
+  // assertions below red: the bound on rounds, and holo ≤ primary.
+  const { pub, priv } = keypair();
+  const ROUNDS = 20; // a bound, not an expectation — reaching it IS the failure
+  const pots = {};
+  for (let i = 1; i <= ROUNDS; i++) pots[`r${i}`] = { beneficiary: 'keeper', target_usd_per_epoch: 100 };
+  const repo = seamTown({
+    pub, priv, pins: PINS, pots,
+    gifts: [{ handle: 'paz', n: 100 }, { handle: 'stan', n: 400 }],
+  });
+  const rho = keepingDial(repo).rho;
+  assert.equal(rho, 0.5, 'the fixture runs at R10\'s launch dial, which is the constitutional ceiling');
+  const primary = foldPrimaryMint(entriesOf(repo)).get('paz');
+  assert.equal(primary, 101, 'her primary mint is fixed for the whole iteration — she only ever GIVES');
+
+  const mints = [];
+  let round = 0;
+  while (round < ROUNDS) {
+    round += 1;
+    const pot = `r${round}`;
+    const mm = String(round).padStart(2, '0');
+    appendSigned(repo, [
+      // stan's stake comes home whole at each close, so he re-lends the same 400
+      potStakeLine({ date: `2026-${mm}-02`, handle: 'stan', pot, n: 400, via: 'api' }),
+      potReceiptLine({ date: `2026-${mm}-03`, pot, rail: 'usdc', usd: 100, from: 'paz', ref: `usdc:c${round}` }),
+    ], priv);
+    const d = closeDirect(repo, priv, { pot, epoch: `2026-${mm}`, date: `2026-${mm}-28` });
+    mints.push(d.report.fundingMint);
+    if (d.report.fundingMint === 0) break;
+  }
+
+  assert.ok(round < ROUNDS,
+    `the iteration must REACH a close that mints nothing; it ran ${round} rounds minting ${mints.join(', ')}`);
+  assert.deepEqual(mints, [50, 25, 13, 6, 3, 2, 1, 0],
+    'and it falls the whole way — each round\'s mint is the room the last one left');
+  for (let i = 1; i < mints.length; i++) {
+    assert.ok(mints[i] <= mints[i - 1], 'never a round that mints more than the one before it');
+  }
+
+  const e = entriesOf(repo);
+  const holo = foldHolo(e).get('paz');
+  assert.equal(holo, 100, 'her holdings settle exactly one below her primary mint');
+  assert.ok(holo <= primary,
+    `MONEY'S SHARE STOPS AT ρ: holo ${holo} ≤ primary ${primary} at ρ = ${rho}`);
+  assert.ok(holo <= rho * foldMintCount(e).get('paz'),
+    'stated the other way: her holo never passes ρ × her all-sources mint');
+  assert.equal(verifyStampLedger(repo).ok, true,
+    'and the whole iterated ledger verifies — every close in it is derivable, byte for byte');
 });
 
 test('D5: intake refuses dollars past the posted target, and names the headroom', () => {

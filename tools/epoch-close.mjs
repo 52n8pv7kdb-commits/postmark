@@ -390,16 +390,23 @@ function main() {
     console.log(`stakes open:          ${report.stakesOpen}`);
     console.log(`returned WHOLE:       ${report.returned}  (every open stake comes home — a stake is weight lent; nothing burns)`);
     console.log(`the mass sizes:       ${report.fundingMintSized}  (floor of the funded fraction × the staked mass — the givers' mint before exclusions, floors and the cap)`);
-    console.log(`  minted to givers:   ${report.fundingMint}  (holo rows — liquid, by dollar share of the roll, own household's stakes excluded, ρ-capped per close)`);
+    console.log(`  minted to givers:   ${report.fundingMint}  (holo rows — liquid, by dollar share of the roll, own household's stakes excluded, clipped to the room left under each household's holdings cap)`);
     console.log(`  un-minted:          ${report.unmintedRemainder}  (the seam keeps the change)`);
     if (report.payers.length) {
       console.log('per giver:');
       for (const p of report.payers) {
-        const clipped = p.capThisClose < p.mint || p.mint === p.capThisClose;
+        // THE HOLDINGS CAP IN FULL (2026-09-17): the ceiling on this household's
+        // holo AFTER the close, what it held going in, and the room that left —
+        // which is the number the mint was actually clipped to. A giver who
+        // minted nothing because the household is already at its ceiling reads
+        // `room 0` and needs nothing else to understand why.
+        const atCeiling = p.mint === p.roomLeft;
         console.log(`  ${p.handle.padEnd(22)}$${String(p.usd).padStart(4)} of $${report.dollarsFunding}` +
           `  mass ${String(p.massForPayer).padStart(5)}` +
           `  mint ${String(p.mint).padStart(5)}` +
-          `  cap ${String(p.capThisClose).padStart(5)} = ρ × (${p.basePrimary} primary + ${p.baseHolo} holo)${clipped && p.mint === p.capThisClose ? '  ← AT THE CAP' : ''}`);
+          `  cap ${String(p.capHoldings).padStart(5)} = ρ × (${p.basePrimary} primary + ${p.holoHeldBefore} holo)` +
+          `  held ${String(p.holoHeldBefore).padStart(5)}` +
+          `  room ${String(p.roomLeft).padStart(5)}${atCeiling ? '  ← AT THE CEILING' : ''}`);
       }
     }
     console.log(`rows (${lines.length}):`);
