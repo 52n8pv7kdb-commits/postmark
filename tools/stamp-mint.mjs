@@ -820,8 +820,37 @@ export function deriveTransfers(deliveries, households, { laws = [], revisions =
     else if (c.kind === 'gift') add(c.handle, c.n);     // founder gift — recorded before any settlement we'd append, so it funds later pays
     else if (c.kind === 'first-idea') add(c.handle, c.n); // first-idea quest mint — same in-place assertion class as a gift
     else if (c.kind === 'welcome') add(c.handle, c.n);  // welcome bundle — the same in-place assertion class, paid once per household at its first resident
+    // THE FOURTH ARM, and the fix REQUIRED it (2026-09-17). Town issuance is the
+    // same in-place assertion class as a gift — `MINT → <treasury> · n · for:
+    // issuance:…` — and it was missing here. It went unnoticed because it
+    // CANCELLED, exactly, against the world-stake arm missing below it: the
+    // treasury has minted 1,001 stamps by issuance and staked all 1,001 on world
+    // marks, so this fold's answer for `the-town` was 0 and foldBalances' answer
+    // was 0, and the parity looked held at the one handle where both errors were
+    // largest. Adding the world-stake debit alone would have put this fold 1,001
+    // below the verifier at the treasury — a divergence the fix itself would have
+    // introduced. Two wrongs summing to zero is not a right; it is a control
+    // that cannot fail.
+    else if (c.kind === 'town-issuance') add(c.handle, c.n);
     else if (c.kind === 'pot-stake') add(c.handle, -c.n);      // keeping escrow out
     else if (c.kind === 'pot-return') add(c.handle, c.n);      // unmatched stakes back at close
+    // THE THREE ARMS THIS FOLD WAS MISSING (2026-09-17). Liquidity has three
+    // holders and they must agree BY CONSTRUCTION, because two of them decide
+    // the same question from opposite ends: this fold picks transfer-or-void
+    // when the mint pass appends, and stamp-verify's running fold replays that
+    // pick in ledger order against its own balance. foldBalances and that
+    // running fold are both keyed on the raw movement shape, so all three rows
+    // below are already structural to them — they were invisible only HERE.
+    //
+    // A disagreement is not a rounding difference. Under-credit and the mint
+    // writes `void: insufficient-balance` where the verifier expects a transfer;
+    // over-credit and it writes a transfer the verifier refuses AND the running
+    // fold reports the sender overdrawn, so the whole ledger fails verification
+    // until a hand repairs it. Same arithmetic as the other two holders, nothing
+    // clever: escrow out debits, escrow home credits.
+    else if (c.kind === 'pot-unstake') add(c.handle, c.n);     // the staker's own way out, before any close — the stamps go home to liquid exactly as a pot-return's do; the only thing it does NOT share with pot-return is the closed-epoch marker, and that difference lives in foldClosedEpochs, not in a balance
+    else if (c.kind === 'world-stake') add(c.handle, -c.n);    // world-mark escrow out — the OVER-CREDIT direction if omitted, which is the dangerous one: this fold would fund a `pays:` out of stamps already escrowed on a mark
+    else if (c.kind === 'world-unstake') add(c.handle, c.n);   // world-mark escrow home
     // keeping-burn drains the escrow account, never a handle; the arrow-free
     // trio (keeping-mint/holo/receipt) moves nothing at all — R12's
     // keeping mint carries NO liquid coin, so it can never fund a later `pays:`
