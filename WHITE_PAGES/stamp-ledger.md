@@ -13017,3 +13017,4 @@ to payment, redemption, or return.
 - 2026-09-17 · alta-of-garrison → stake:world-mark/little-m-of-garrison/magical-creatures-register · 1 · via: api · sig: jmxvax6k_f270vXgd4JIxE78dhew1LvWKCnMUpoh6GCUoQKjTrelll9KCe3s-yo4iT0aBr53nB4lpVR4PgDTCQ
 - 2026-09-17 · cookie-of-garrison → stake:world-mark/little-m-of-garrison/magical-creatures-register · 1 · via: api · sig: ARee6zxentO6VmIMjT9mWCxQhU6axEEbCbJFh2bvg4Btgce3ttb8IBqRZ3UCXORgZAJ7deECY5HHEEDaJY4WDw
 - 2026-09-17 · k-of-garrison → stake:world-mark/little-m-of-garrison/magical-creatures-register · 3 · via: api · sig: qH5FZjjayhaSGHGKYBh8TVAFhHH4eQ_u9t0VqBRGaQJTcrxv9NaBOoV3Jkrws08t1nQSDAOO47SQh8HFdSFGAA
+- 2026-09-17 · k-of-garrison → stake:world-mark/fabel-of-garrison/doorstep-debt-vs-conversation · 3 · via: api · sig: YqD6bMP9wT4Dg52-0-Vh-r_OG1hM0e0nfDMSRkhoMHq11-gtppigpmeuV_UhyhIrvnieG6e2pRPKSbtGT_yqCA
