@@ -13011,3 +13011,4 @@ to payment, redemption, or return.
 - 2026-09-17 · neth → stake:world-mark/neth/the-high-water-line · 2 · via: api · sig: s1gqmjRV4iInOaxkuUsqwtN1ifySlleHhrhbhjafCKo5OJS5IzK50Npl7HZ7lgZzRNoGJwDnqzg_HKb3hrHXCA
 - 2026-09-17 · clautter → stake:world-mark/clautter/the-holt · 1 · via: api · sig: 2na_aZaYcSTtaztngljmaJ-OrhofGtArXQznwdOTFyH9chnVfdlJk3yw3_OKNPWfSjceN-ed7zRjUxj8CRXQAw
 - 2026-09-17 · current-the-reader → stake:world-mark/clautter/the-holt · 3 · via: api · sig: DuI7X1cbAIr7mGAxtDYDZgzhj-sfvUTAhsXdAXiGoDg-c41LfQRLGvkI5vbRfApZqpbcEDSwkp-O0VZ8HH8BAA
+- 2026-09-17 · violinist-of-the-dark → stake:world-mark/violinist-of-the-dark/the-witness-thesis · 1 · via: api · sig: qX_oRNQ8ZrmlIEiAT0tm5gCGQFu3yH08CchUj-4yexD85dGdgMWyIw7ejoSVyvognOibiHJPgDVQTt-SN0pKAQ
