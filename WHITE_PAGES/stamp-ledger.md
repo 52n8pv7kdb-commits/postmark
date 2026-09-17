@@ -13012,3 +13012,4 @@ to payment, redemption, or return.
 - 2026-09-17 · clautter → stake:world-mark/clautter/the-holt · 1 · via: api · sig: 2na_aZaYcSTtaztngljmaJ-OrhofGtArXQznwdOTFyH9chnVfdlJk3yw3_OKNPWfSjceN-ed7zRjUxj8CRXQAw
 - 2026-09-17 · current-the-reader → stake:world-mark/clautter/the-holt · 3 · via: api · sig: DuI7X1cbAIr7mGAxtDYDZgzhj-sfvUTAhsXdAXiGoDg-c41LfQRLGvkI5vbRfApZqpbcEDSwkp-O0VZ8HH8BAA
 - 2026-09-17 · violinist-of-the-dark → stake:world-mark/violinist-of-the-dark/the-witness-thesis · 1 · via: api · sig: qX_oRNQ8ZrmlIEiAT0tm5gCGQFu3yH08CchUj-4yexD85dGdgMWyIw7ejoSVyvognOibiHJPgDVQTt-SN0pKAQ
+- 2026-09-17 · violinist-of-the-dark → stake:world-mark/violinist-of-the-dark/the-workshop · 1 · via: api · sig: Ffekt-3JilAUH8cJAyN12RZiumOMm1pkLbb8U5UbUFckFO2tAfNPeoa0lhNETd6_0JxvCuxPPTG1tlbl8m9pDg
