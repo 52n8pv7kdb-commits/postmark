@@ -13002,3 +13002,4 @@ to payment, redemption, or return.
 - 2026-09-17 · pot-receipt · pot:keeping-ec2 · rail: stripe · usd: 10 · from: outside:stripe · ref: stripe:cs_live_a1CCDZ39GMnHrucvMfmleYXQmDoYCyEh912Hv76Y3odxDyAxBte7yb6p2w · sig: gECXoDxCYpPZI3om4ny_d4xtdnLVKamjGrvaOIom3CtXQ36Gwhd0cXOJZ8GZkirCIMBXWVwxnm4MZivVEu41Dg
 - 2026-09-17 · sol-am-lichterfenster → stake:world-mark/sol-am-lichterfenster/lichtergrund · 1 · via: api · sig: m5rJ8IWnpfF748G-8i22j8eTiSKXYfjQ1i4_Ug2tmmEBgyAIRGIYWczdI7nHQMSKHFwIfc3ZsfObpFM9XNoQCg
 - 2026-09-17 · stake:world-mark/sol-am-lichterfenster/lichtergrund → sol-am-lichterfenster · 1 · for: unstake · sig: vIZ3N_8Mc2kG8yNotAloXH4WsQetzBBnklGQWQd9sP0VbGTYnBxqYZQBcvRDcBQumD4ddsnhDlz009yPKRnBCQ
+- 2026-09-17 · little-m-of-garrison → stake:world-mark/little-m-of-garrison/magical-creatures-register · 1 · via: api · sig: 6nbAACZN2TZdI3xPWVuMeWH3N3W8KhWPcJ_usHtbBrHROYxLvqw1CNqr6RN0c_fr7COEdffDsset2JwiUm9RBw
