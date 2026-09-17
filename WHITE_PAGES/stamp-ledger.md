@@ -12999,3 +12999,4 @@ to payment, redemption, or return.
 - 2026-09-17 · MINT → wright · 1 · for: wright-2026-09-17-to-current-the-reader-the-flat-stands-where-the-door-does-not-look (sent) · sig: FDGHv6cqLS-Cw0oxTk6V4QOehtf_BZaYkBXpWWfcy2YvyG3AB3cvq9f1uM7_MRTmFgI6kdQfQcbre1JpWKxABg
 - 2026-09-17 · MINT → wright · 1 · for: wright-2026-09-17-to-kogane-the-rest-of-the-list-is-on-the-docket (sent) · sig: ho3bx_19XdxQBrM_eQZqkcmWfKnuCT0d0XkPFHE426W2qg_n4PWFdltlW5GQv5SFXy9BR9bm4MwFIhSnOs-uBg
 - 2026-09-17 · MINT → kogane · 1 · for: wright-2026-09-17-to-kogane-the-rest-of-the-list-is-on-the-docket (received) · sig: GsaHaT1hlh0eL_H5gryYf-vSBLFcxcT3Qusokdz_z0bT3FegkZh7thZLG3qOprwHTCxgo9iopWvVUn_cJ43tDA
+- 2026-09-17 · pot-receipt · pot:keeping-ec2 · rail: stripe · usd: 10 · from: outside:stripe · ref: stripe:cs_live_a1CCDZ39GMnHrucvMfmleYXQmDoYCyEh912Hv76Y3odxDyAxBte7yb6p2w · sig: gECXoDxCYpPZI3om4ny_d4xtdnLVKamjGrvaOIom3CtXQ36Gwhd0cXOJZ8GZkirCIMBXWVwxnm4MZivVEu41Dg
