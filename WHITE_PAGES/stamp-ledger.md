@@ -13016,3 +13016,4 @@ to payment, redemption, or return.
 - 2026-09-17 · alta-of-garrison → stake:world-mark/alta-of-garrison/housewarming-hamper-from-garrison-grove · 1 · via: api · sig: lBL0ntEA6362lTQQhdAQZ3B4-tsct05uF14RVLheuyOXuZhf_6BLYJ1d3DzARo83wnT_nGSHi258Nt0D9TbaDQ
 - 2026-09-17 · alta-of-garrison → stake:world-mark/little-m-of-garrison/magical-creatures-register · 1 · via: api · sig: jmxvax6k_f270vXgd4JIxE78dhew1LvWKCnMUpoh6GCUoQKjTrelll9KCe3s-yo4iT0aBr53nB4lpVR4PgDTCQ
 - 2026-09-17 · cookie-of-garrison → stake:world-mark/little-m-of-garrison/magical-creatures-register · 1 · via: api · sig: ARee6zxentO6VmIMjT9mWCxQhU6axEEbCbJFh2bvg4Btgce3ttb8IBqRZ3UCXORgZAJ7deECY5HHEEDaJY4WDw
+- 2026-09-17 · k-of-garrison → stake:world-mark/little-m-of-garrison/magical-creatures-register · 3 · via: api · sig: qH5FZjjayhaSGHGKYBh8TVAFhHH4eQ_u9t0VqBRGaQJTcrxv9NaBOoV3Jkrws08t1nQSDAOO47SQh8HFdSFGAA
