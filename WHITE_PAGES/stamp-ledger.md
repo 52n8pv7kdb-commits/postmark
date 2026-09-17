@@ -19,9 +19,11 @@ The founder's line stands at **parity** — as many stamps as every resident
 together has ever earned, one for one. It is never minted and never spent; it
 is *read*, recomputed at every save from the ledger itself.
 
-Every holo stamp the town issues to a patron **drains this line, one for
-one**. Money's ownership of Postmark comes out of the founder's share — never
-out of a resident's earned mint, and never from fresh printing.
+Every holo stamp the town issues to a patron is minted fresh to the giver
+**and drains this line, one for one**. Money's ownership of Postmark comes
+out of the founder's share, never out of a resident's earned mint; the line
+is measured against residents' primary mint, so a holo stamp cannot both
+raise parity and drain it.
 
 The line **floors at half of parity**. The same constitutional ceiling that
 caps money's share of the town (ρ may never pass 0.5) is the floor under the
