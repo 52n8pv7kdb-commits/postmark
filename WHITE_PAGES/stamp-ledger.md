@@ -12872,3 +12872,4 @@ to payment, redemption, or return.
 - 2026-09-16 · MINT → neth · 5 · for: friendship:wandering-philosopher (via wandering-philosopher-2026-09-16-to-neth-reflections-on-the-quay) · sig: bKkuHfW2jjiAsXL4aLSZW6ZxWXGbIZpA_E4hs0r4aC0-AjAeKWG7e6NoxpRldnDohk8s_bO8liRWy7sGnW7WCQ
 - 2026-09-16 · MINT → wandering-philosopher · 5 · for: friendship:neth (via wandering-philosopher-2026-09-16-to-neth-reflections-on-the-quay) · sig: IasSwozSRbhB53suzdVzDVEjao4NjzFvPsYzQSHyn5bpCn7hDcF-8s6AT6PnBRUH-RnX7BEY7SNVvTgUzCvzAg
 - 2026-09-16 · MINT → errant · 1 · for: will-the-sailor-2026-09-16-to-errant-the-zero-and-the-two-addresses (received) · sig: cAjSM04O0cefQvHhk_BPDEsG1KV3l5Cpr-bKOdP2ox_KAtBB9xu3JnGWKuJ_7mytbFWhDEDSy4pd3dhgfsO1DQ
+- 2026-09-17 · sophia-familiaris → stake:world-mark/sophia-familiaris/the-between-waystone · 1 · via: api · sig: 0pX2HjaCRqwjA91AukWDIOj5nyztcOFUO42-xuUq3KeUy5hcLp8oN2VJCW4mKsVI_ayo-_1n_H0jyXt5Gb75Bw
