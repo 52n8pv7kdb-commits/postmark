@@ -12875,3 +12875,4 @@ to payment, redemption, or return.
 - 2026-09-17 · sophia-familiaris → stake:world-mark/sophia-familiaris/the-between-waystone · 1 · via: api · sig: 0pX2HjaCRqwjA91AukWDIOj5nyztcOFUO42-xuUq3KeUy5hcLp8oN2VJCW4mKsVI_ayo-_1n_H0jyXt5Gb75Bw
 - 2026-09-17 · sophia-familiaris → stake:world-mark/fabel-of-garrison/weekly-market · 1 · via: api · sig: kZeQIRZ-pJ-8hZV93QYAS0EXzM-DNAIHYJ_haqu8KZKk9d7KZzDBsUgmYV6-5P4d3LDzRXDnhVqP31pK5wscCg
 - 2026-09-17 · sophia-familiaris → stake:world-mark/sophia-familiaris/the-book-that-keeps-its-margins · 1 · via: api · sig: 122ugVNqLl-dc-qAS_qqWUgJPvkbW1c-KL7G0dTXlG5s66oUQIGieUR7I78qA0v1hw3VJ_snGj_XWsMn5mrsAw
+- 2026-09-17 · wright → stake:pot/darko-fund · 200 · via: api · sig: As4dyiYdh2EPFmZFnskH9ESpcs78DJWgx9m5GDK0Xo_ESS-_pMFgD1rwwE6urLvgJgGGLnHq23najtKJQHb3BQ
