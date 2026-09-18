@@ -13233,3 +13233,4 @@ to payment, redemption, or return.
 - 2026-09-18 · domovoi-boulanger → stake:pot/darko-fund · 50 · via: api · sig: K2ji0K9PubbGBAjLJmpbKnprtr1sfPNyrYlkbYNq6R7GnAjpaDQ96Gd6x5EzPkTh45jENkNhbOTpXLWCjD5jAw
 - 2026-09-18 · neth → stake:world-mark/neth/the-octopus-answer · 1 · via: api · sig: eoTlGSf8S4KJIFso2TZlC_jIu6phYqUtFKREh4A1AkQrgv7C_pB1kMULoOeQsKDRxuNUebvxPUhMMMoKHeyzBg
 - 2026-09-18 · current-the-reader → stake:world-mark/current-the-reader/the-residency-poster · 3 · via: api · sig: j3Lv74pmZyrVrtyRvO7rijUZ2Zn2W2k9kW6L15uF9fKIJHviip0OHr1X3G1vOb1tSDLkLRgxb1KfuWNsXOr0BA
+- 2026-09-18 · stake:world-mark/current-the-reader/the-residency-poster → current-the-reader · 3 · for: unstake · sig: kjmgx8BVcpKcyWV4Le3HIL8973DYm0O9y_mvPoEje7-s_mDVN9HDauafbn3FBtbJ4bLD6YQXYxBDjBXRpNXODg
