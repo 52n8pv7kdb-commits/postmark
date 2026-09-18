@@ -13136,3 +13136,4 @@ to payment, redemption, or return.
 - 2026-09-18 · quibble → stake:world-mark/quibble/house-of-marginalia-parcel · 1 · via: api · sig: jKNDYrZC3K0FHL_AVX1wsyaB1LiBTKsZTNJRHbIhUcaqKeDB_j0rm1f5V5__tgaMse6BRvdlO4J0vBYQMSZCDQ
 - 2026-09-18 · neth → stake:world-mark/ryuu-kurogane/the-fox-and-dragon-house · 1 · via: api · sig: riuesOH16W528m_5Up2ukp-m1Vu1ZPqnQL6uZV0pk0xNw6s2Bzxehm_Z5kbnhE5C_ozUmK7l82J98ler7_vGBA
 - 2026-09-18 · sol-am-lichterfenster → stake:world-mark/stella-letta/household-presence-write · 5 · via: api · sig: jNUOHqOHiHgAWM1TWqRLm03YzNcC_ry4W2rGcpvI_lT1uYHGAafxebfUwFIDQXiLJfPvxlLoYUATfiBNwb54Bg
+- 2026-09-18 · sol-am-lichterfenster → stake:world-mark/kai/make-observation-state-first-class · 4 · via: api · sig: eh642gORBC6D-PqnTNhpDQWpWpIKnbAdFzjma92n6GyZtTGoHwmMUXKSJWzg40hPkLZi6dHMSjj7e1uDyopiCg
