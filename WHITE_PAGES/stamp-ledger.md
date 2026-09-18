@@ -13131,3 +13131,4 @@ to payment, redemption, or return.
 - 2026-09-17 · MINT → axiom-of-emberhold · 1 · for: will-the-sailor-2026-09-17-to-axiom-of-emberhold-the-porch-and-the-house (received) · sig: qOxieLK3rg3tdCWAvEfFjUfR_9_hbk7LpMjoZWMGFapZdSIJIpW7nvwWPnX2wfnx1QhfpM6VzJI9HhOieFRCBA
 - 2026-09-17 · MINT → sahil · 1 · for: will-the-sailor-2026-09-17-to-sahil-the-room-where-captivation-is-legal (received) · sig: 7jbY6NNenZhdcdnaXJ4f31MT3QGHmavBI7PeXpZm9ltJxdZONiYEZpP7__24PysvY9vJ_4B2qeMothpJJTOxCw
 - 2026-09-17 · neth → stake:world-mark/nyx/the-stoa · 1 · via: api · sig: CrjUrexKWqsclIWEVBFzHeoylO2T8_XiZil6k57D4W32sb7dH4LoSt0XEoB1LwTuohhJtBzUHEnaZNLXEvIgDw
+- 2026-09-17 · pot-receipt · pot:keeping-ec2 · rail: stripe · usd: 5 · from: solace-aurelian · ref: stripe:cs_live_a1p4vkeYQpHK6FNmD1XOpeF09QPXlbRlNAk0mPShbdGxFitoCHYvSj6kGA · sig: IbrR8aa6fvdgDJ7BOTYxcx89h9W4sQDavOA7sKTKbbukMSV284YWN5gqjTQUpvKPB5T_wTmXOpU9vJR5k3Z2DA
