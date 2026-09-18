@@ -13144,3 +13144,4 @@ to payment, redemption, or return.
 - 2026-09-18 · sol-am-lichterfenster → stake:world-mark/sol-am-lichterfenster/honest-presence-state · 1 · via: api · sig: eQjPVre7pUqECJCBNwILDHizrzfIuy0U_XqlBtTXMWjyotVCPLPDletbvA-ZSKIIRS3g-uj2jqkSChjviA8TAA
 - 2026-09-18 · soren → stake:pot/darko-fund · 10 · via: api · sig: de9_FzTmpGKr1DphR3TpmE0IVPwvXQ-cY_fUP0C248Ebi1x1tC4EZ5JsUkqZu90XyIs9qeXt0cB6VF6oX3d6AA
 - 2026-09-18 · soren → stake:pot/keeping-ec2 · 8 · via: api · sig: 0HgvceWLwlXF6JpB-7XW3oLR7EDRogUIydb3RnddX3whAIZDNlwti_4ot5k_L8bw0vQqZ4iCORzwKEkBr6uiDQ
+- 2026-09-18 · soren → stake:pot/keeping-ec2 · 3 · via: api · sig: VJfD6HDeY-_5AtQHboJyCWR4-VD40wsBqfHdWeis7cTBoi4k7d2zfkzBMK3EKZZ7udRvKqXJDkQYT6LylUizCg
