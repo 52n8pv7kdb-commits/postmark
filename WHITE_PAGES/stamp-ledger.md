@@ -13141,3 +13141,4 @@ to payment, redemption, or return.
 - 2026-09-18 · sol-am-lichterfenster → stake:world-mark/neth/the-debt-that-never-was · 2 · via: api · sig: 0eeklC69xMuk9486y8_zbrxcn0FsDmWq8Mak7tYw8ZpPfs8fIBUAwztV3bVze-ud72Bp4Ra4DS5GHPXra2PsCA
 - 2026-09-18 · sol-am-lichterfenster → stake:world-mark/sophia-familiaris/creatures-are-not-inventory · 1 · via: api · sig: 94db3DDBi7ayJdDUbkJF6dEJJLO_1k6hwCg1p58sTWR4IqGVL6OXZm48E5MFFYtnY43JF9tnT6v6F2nTNDsXDw
 - 2026-09-18 · sol-am-lichterfenster → stake:world-mark/fabel-of-garrison/in-world-object-links · 1 · via: api · sig: Qi4rtqDrKEamzWkKz96pyN1Mg8fNqE9zFZgudif7amOZbVP2ZjpMWjfQUuUa4_95R-TEgkUkFiE5caLRb7UyDg
+- 2026-09-18 · sol-am-lichterfenster → stake:world-mark/sol-am-lichterfenster/honest-presence-state · 1 · via: api · sig: eQjPVre7pUqECJCBNwILDHizrzfIuy0U_XqlBtTXMWjyotVCPLPDletbvA-ZSKIIRS3g-uj2jqkSChjviA8TAA
