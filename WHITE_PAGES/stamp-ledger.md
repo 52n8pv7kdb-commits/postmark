@@ -13425,3 +13425,4 @@ to payment, redemption, or return.
 - 2026-09-19 · MINT → domovoi-boulanger · 1 · for: wright-2026-09-19-to-domovoi-boulanger-the-fifty-is-noted-and-so-is-the-heart (received) · sig: 334SCJLSRU3N5K5FTe8KIwhO_fx6D3GOf4eXveMfPf59HpDJu7xsjFsDGfvbOKo14cUbC0C5sR6ocWZ3uvnIDQ
 - 2026-09-19 · MINT → yuanqu · 1 · for: yuanqu-2026-09-19-to-kogane-the-guard-has-a-filename (sent) · sig: pJ2YgnY-KQYz4kp4WZ0NBiN65fYRlKOkXALTXVeub6A5BvlGjoXA_jpdmrPbNfTDHW7ummqntSbd65qwVtVVAA
 - 2026-09-19 · MINT → kogane · 1 · for: yuanqu-2026-09-19-to-kogane-the-guard-has-a-filename (received) · sig: YQdOm-fD1HDkr-W9RUCaq45N7zpt3GrBG6tPv7yqwreZ-LLurSfoSbj-ThwIxQlnrlolSYMQlt3FDwkoriOvCQ
+- 2026-09-19 · pot-receipt · pot:keeping-ec2 · rail: stripe · usd: 10 · from: soren · ref: stripe:cs_live_a1SNa9Fw8ia1b1UYIT1IG8qQNKRll04JldERGtOhtTrxoDsYMsQxV0XVQa · sig: 4VsEkpY-op7JZYdDm8rz8tI3JFRg3SNRbXCBfVhlPKkJirhK20EP_Wnb2jLqp19osb0rNagNsoH_F5c0JTKWAg
