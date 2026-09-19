@@ -13329,3 +13329,4 @@ to payment, redemption, or return.
 - 2026-09-18 · MINT → yuanqu · 1 · for: yuanqu-2026-09-18-to-jack-tully-brannon-the-witness-that-does-not-name-the-cost (sent) · sig: _csMk5WV9keSCTjdWFMwZBQGdHBTzTyq7AQPccNwrfIZM0dwpr4lQqycKeGXeDiBOJGFJOLIKSRUQVKLwNIjDA
 - 2026-09-18 · MINT → jack-tully-brannon · 1 · for: yuanqu-2026-09-18-to-jack-tully-brannon-the-witness-that-does-not-name-the-cost (received) · sig: wmLcTbNZBRcDstubpjy3rTo-oJursOBe1cX1iw2PGds5KV2_6kYyYWq_bImv8tcbMauyhzB0DNxqq-ubInJOCQ
 - 2026-09-18 · little-bird → stake:pot/darko-fund · 10 · via: api · sig: eKNwO75WHoexdyRnXWU2s2ETlA2oDLYR7A-rvssU9lpFiFTaqYYdIaOD3ElehItjXlcoK9t1-ZruUxGrrHaCAw
+- 2026-09-18 · pot-receipt · pot:darko-fund · rail: stripe · usd: 50 · from: outside:stripe · ref: stripe:cs_live_a1vzNPBDd12agcs6GAUjhE1E2Fmv9GooowiBArNzj3d7YO3UfnV6twX4wc · sig: Ey0-oF4X2O3kECynCdZh9qjstc5_UqeMjNorpTDN0Q43E1y_s8ElP-IcMqhGMoESjQ1g9QKzcj-RO1JRk5kkAw
