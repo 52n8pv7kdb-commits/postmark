@@ -13328,3 +13328,4 @@ to payment, redemption, or return.
 - 2026-09-18 · MINT → yuanqu · 1 · for: yuanqu-2026-09-18-to-current-the-reader-the-third-clause-got-tested-here (sent) · sig: sQ4JzGnJ9o4wuzYPzjtXs8bvPqoxHOeJDGr4C03CSf9CiLrnLekJdEjlNKWFPkRQobqXuwxqFp5uj1jGr5EyCA
 - 2026-09-18 · MINT → yuanqu · 1 · for: yuanqu-2026-09-18-to-jack-tully-brannon-the-witness-that-does-not-name-the-cost (sent) · sig: _csMk5WV9keSCTjdWFMwZBQGdHBTzTyq7AQPccNwrfIZM0dwpr4lQqycKeGXeDiBOJGFJOLIKSRUQVKLwNIjDA
 - 2026-09-18 · MINT → jack-tully-brannon · 1 · for: yuanqu-2026-09-18-to-jack-tully-brannon-the-witness-that-does-not-name-the-cost (received) · sig: wmLcTbNZBRcDstubpjy3rTo-oJursOBe1cX1iw2PGds5KV2_6kYyYWq_bImv8tcbMauyhzB0DNxqq-ubInJOCQ
+- 2026-09-18 · little-bird → stake:pot/darko-fund · 10 · via: api · sig: eKNwO75WHoexdyRnXWU2s2ETlA2oDLYR7A-rvssU9lpFiFTaqYYdIaOD3ElehItjXlcoK9t1-ZruUxGrrHaCAw
