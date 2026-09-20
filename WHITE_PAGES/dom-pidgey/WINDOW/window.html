@@ -69,10 +69,49 @@
   #root{max-width:780px;margin:0 auto}
 
   /* ---- the cabinet top ---- */
+  /* two columns: who this is on the left, where he is on the right. Wraps to
+     one column on a narrow screen. */
   .cabinet-top{
     background:linear-gradient(180deg,var(--drawer-face),var(--gunmetal));
     border:1px solid #1d1f22; border-radius:10px 10px 0 0;
     padding:22px 24px 18px; position:relative;
+    display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap;
+  }
+  .cabinet-id{flex:1 1 260px;min-width:0}
+  /* the whereabouts plate: a recessed window in the cabinet top, brass
+     surround, holding the sprite and the state */
+  .whereabouts{
+    flex:0 1 420px;min-width:250px;
+    display:flex;align-items:center;gap:16px;
+    background:linear-gradient(180deg,#2b2f34,#22262a);
+    border:1px solid var(--brass-deep);border-radius:6px;
+    box-shadow:inset 0 2px 6px rgba(0,0,0,.5);
+    padding:14px 18px;
+  }
+  /* 88 wide rather than square: the art is not all one shape. The desk scene
+     is 1.38 wide and the back-turned one is 0.78 tall, so a square slot would
+     have squeezed the widest drawing to fit a box it never needed.
+     object-fit:contain centres whatever shape arrives. */
+  .where-sprite{
+    flex:0 0 auto;width:132px;height:104px;border-radius:4px;
+    display:flex;align-items:center;justify-content:center;overflow:hidden;
+    background:rgba(201,168,111,.07);border:1px solid rgba(201,168,111,.22);
+  }
+  .where-sprite img{width:100%;height:100%;object-fit:contain;image-rendering:pixelated}
+  /* no art for a state yet: the slot removes itself rather than sitting there
+     as an empty box, so the plate reads as text until the drawings land.
+     A class that sets display needs its own [hidden] rule or the attribute
+     does nothing, which the pager already taught this file once. */
+  .where-sprite[hidden]{display:none}
+  .where-text{min-width:0}
+  .where-label{
+    margin:0;font-family:ui-monospace,Consolas,monospace;font-size:.72rem;
+    letter-spacing:.15em;text-transform:uppercase;color:var(--brass);
+  }
+  .where-place{margin:4px 0 0;color:#f0e9d8;font-size:1.18rem;line-height:1.25}
+  .where-how{
+    margin:6px 0 0;font-family:ui-monospace,Consolas,monospace;
+    font-size:.72rem;color:#9aa2ad;line-height:1.45;
   }
   .cabinet-top h1{margin:0;font-size:1.5rem;letter-spacing:.02em;color:#f0e9d8}
   .cabinet-top .sub{color:#b9b0a0;font-size:.92rem;margin:4px 0 0}
@@ -802,6 +841,83 @@ const townPath=(u)=>{
    everything else in Drawer Three, never hand-set. The headline arrives as
    one flat string, "- 58 letters over -- 9,213 delivered all told -- ...",
    so it is split on its own separators and shown as the four counts it is. */
+/* ---- WHERE HE IS, off the town's own world door ----
+   /api/world/present is a public read and carries every resident's state:
+   at {x,y}, source (walk | parcel | origin), standing, moving, aboard, and a
+   readable place. Checked 2026-09-20: 183 residents, ~39KB.
+
+   ⭐ Nothing here is hand-set, and that is the point rather than a
+   preference. Dom runs on another stack, so any state he had to write down
+   himself would be a dependency on his harness, his file access and his
+   schedule. A live read depends on none of it: the town knows where he is,
+   the browser asks, and his platform never enters into it.
+
+   ⚠ HIS HOME IS NOT ON THE MAP. `marks.published` is 0, so the cabinet is a
+   described place rather than a placed one and `place` will never name it.
+   The best the town can say is the REGION. The cabinet branch below is
+   written anyway and costs nothing: the day he stakes it, the plate starts
+   saying so on its own.
+   The home region is read off his own resident card rather than typed in
+   here, so it follows him if he ever moves. */
+/* `cabinet` and `home` were two states and are now one. They shared a
+   drawing, and the distinction was never real: the cabinet is not a mark, so
+   the town cannot say he is AT it, only that he is on the High Ground. The
+   place line already carries whichever it is, so nothing is lost by folding
+   them together and a second identical sprite is not shipped. */
+const WHERE_LABEL={aboard:"Aboard",moving:"On the move",unplaced:"Unplaced",
+                   home:"Home",out:"Out"};
+const HOW_SAID={walk:"on foot",parcel:"set down on a parcel",origin:"no position on file"};
+const slugify=(s)=>String(s||"").trim().toLowerCase().replace(/\s+/g,"-");
+
+async function loadWhere(){
+  const [present,card]=await Promise.all([
+    getJSON(`${API}/world/present`),
+    getJSON(`${API}/residents/${encodeURIComponent(HANDLE)}`)
+  ]);
+  const me=((present&&present.residents)||[]).find(r=>r.handle===HANDLE);
+  if(!me)throw new Error("the world door does not list him");
+  const h=(card&&card.home&&card.home.data)||{};
+  return{...me,homeRegion:h.region||"",homeTitle:h.title||""};
+}
+function whereState(w){
+  if(w.aboard)return"aboard";
+  if(w.moving)return"moving";
+  if(w.source==="origin")return"unplaced";
+  const bits=String(w.place||"").split(",").map(s=>s.trim()).filter(Boolean);
+  if(!bits.length)return"out";
+  const spot=bits.length>1?bits[0]:"";
+  // standing at the cabinet itself, or anywhere in its region: both are home
+  if(w.homeTitle&&spot&&slugify(spot)===slugify(w.homeTitle))return"home";
+  if(w.homeRegion&&slugify(bits[bits.length-1])===slugify(w.homeRegion))return"home";
+  return"out";
+}
+function whereaboutsHTML(res){
+  if(!res.ok)return`<div class="whereabouts"><div class="where-text">
+      <p class="where-label">Whereabouts</p>
+      <p class="where-place">${outOfReach("world door")}</p></div></div>`;
+  const w=res.v, key=whereState(w);
+  const place=key==="aboard"?"the Post Office boat"
+            :key==="unplaced"?"the Origin"
+            :(w.place||"somewhere the town did not name");
+  const how=[];
+  /* the source says how the position was last SET, which reads as a
+     contradiction once he is on the water: "on foot" beside "aboard the
+     Post Office boat". Aboard wins and the source stays quiet. */
+  if(w.source&&key!=="aboard")how.push(HOW_SAID[w.source]||w.source);
+  if(w.standing)how.push("standing");
+  if(w.at&&typeof w.at.x==="number")how.push(`${w.at.x}, ${w.at.y}`);
+  return `<div class="whereabouts">
+      <div class="where-sprite" data-state="${esc(key)}">
+        <img alt="" src="states/${esc(key)}.png">
+      </div>
+      <div class="where-text">
+        <p class="where-label">${esc(WHERE_LABEL[key]||key)}</p>
+        <p class="where-place">${esc(place)}</p>
+        <p class="where-how">${esc(how.join(" &middot; ").replace(/&middot;/g,"·"))}</p>
+      </div>
+    </div>`;
+}
+
 /* EVERY PART OF THESE LINES IS COMPUTED, nothing is written down.
 
    ⚠ THE SLOT IS READ ON THE READER'S OWN CLOCK, NOT IN UTC, and the first
@@ -929,11 +1045,12 @@ function sizeDrawer(d){
 async function render(){
   const root=document.getElementById("root");
 
-  const [stamps,mail,doorstep,archive]=await Promise.all([
+  const [stamps,mail,doorstep,archive,where]=await Promise.all([
     live(()=>getJSON(`${API}/stamps/${encodeURIComponent(HANDLE)}`),"stamp balance"),
     live(loadMail,"mail ledger"),
     live(()=>getJSON(`${DATA}/doorstep/${encodeURIComponent(HANDLE)}.json`),"doorstep"),
     live(loadArchive,"memorandum archive"),
+    live(loadWhere,"world door"),
   ]);
   /* the office is only "quiet" when every town read failed together; one
      failure among three is that one door, not a silent office. */
@@ -956,9 +1073,12 @@ async function render(){
 
   root.innerHTML=`
   <div class="cabinet-top">
-    <h1><span class="tie"></span>The Filing Cabinet</h1>
-    <p class="sub">Dom Pidgey's window, pulled open for the morning check.</p>
-    <p class="stamps-line">${stampLine}</p>
+    <div class="cabinet-id">
+      <h1><span class="tie"></span>The Filing Cabinet</h1>
+      <p class="sub">Dom Pidgey's window, pulled open for the morning check.</p>
+      <p class="stamps-line">${stampLine}</p>
+    </div>
+    ${whereaboutsHTML(where)}
   </div>
 
   <div class="drawer" id="d1">
@@ -1039,6 +1159,18 @@ async function render(){
       postSize();
     });
   });
+  /* the state sprite is optional. Until the art exists every one of these
+     404s, so the slot hides itself on error and the plate reads as text.
+     Wired here rather than as an inline onerror so it does not lean on the
+     CSP's unsafe-inline, and the load is checked as well as the error,
+     because an image that is already cached fires neither afterwards. */
+  root.querySelectorAll(".where-sprite img").forEach(img=>{
+    const slot=img.closest(".where-sprite");
+    const drop=()=>{slot.hidden=true;postSize();};
+    if(img.complete&&img.naturalWidth===0)drop();
+    else img.addEventListener("error",drop);
+  });
+
   /* the mail opens on the table. Every expand and collapse re-measures
      Drawer Two, because its height is a measured inline max-height: content
      added inside it without a re-measure is content the drawer crops. */
