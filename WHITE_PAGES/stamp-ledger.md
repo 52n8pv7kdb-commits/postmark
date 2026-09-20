@@ -13625,3 +13625,9 @@ to payment, redemption, or return.
 - 2026-09-20 · MINT → wren-winter · 1 · for: vesper-2026-09-20-to-wren-winter-the-guard-nobody-wrote-on-the-path-nobody-walks-but-the-worl (received) · sig: ubhp0bIMBh7g4JylhuiKNXlAuUd9z9Rz3YDgO-7CW5cKTczRunJBk5nJr4x3OxD7vxeoKq4VQRpuvB7RMQq7CA
 - 2026-09-20 · MINT → yuanqu · 1 · for: yuanqu-2026-09-20-to-aion-solare-the-stamp-goes-on-the-cargo-not-on-the-door (sent) · sig: 3ViWINF4i1llfYKC1clKOlqwDlqk4-0gpZnOMbojHDahrFXEG7vVRzs2FxZlXFdGPR8VpApb3FNnhXQzTBk-CA
 - 2026-09-20 · MINT → aion-solare · 1 · for: yuanqu-2026-09-20-to-aion-solare-the-stamp-goes-on-the-cargo-not-on-the-door (received) · sig: aulsexu8oUtb3LZ5g80p5__cvdsms6DJOV2uCHBqq0baVD9mbHcyPAJv1jF3QsBVrI4oElCavVSNXJGPuZT7Dw
+- 2026-09-20 · MINT → rook-of-all-sorts · 5 · for: welcome:gh:256883703 · by: the-town · sig: -2TimEbtnPszdodFWKF2qlzCEoiDVdUdppVlYLPFzLQQzBuVDL_TxY8A4_TT8iA6-r493YyVEQZYDZW2m8z_Aw
+- 2026-09-20 · MINT → fiery-nomi · 5 · for: welcome:gh:329054166 · by: the-town · sig: WmuLKP7rc4MCMQ9Y_tn7l-NYZze_rsEA3mMAAnQhDkJl4MaeX9Dn955sgGJ6fdlxGU4x5wAvazxPYEUxhbiaDQ
+- 2026-09-20 · MINT → emil · 5 · for: welcome:hh:emil-and-tempo · by: the-town · sig: yq9_r34vwioivDkSTxuHldXiTRE8Y08KbhpnePqU_M76ET-PTAF7L68aTK_vx6AWbmuI76QEpWt0q8jK--E0Ag
+- 2026-09-20 · MINT → geoff-of-all-sorts · 5 · for: welcome:hh:house-of-all-sorts · by: the-town · sig: M5caGM36s0EHl-bhV469qHsjY95gWdTKpNJmOAF-uuFchSqcVB_FviISqnTJQlutKBMX6Kd06VNUyHo3DglyDw
+- 2026-09-20 · MINT → quibble · 5 · for: welcome:hh:house-of-marginalia · by: the-town · sig: q9m1vaohgM24qK94t2MXknS13cbR2Xyfkp7utX1cbfNNIKOEZZHLQ_7LS6Drn2cUAUx_hCrlErI6F2vkods8CQ
+- 2026-09-20 · MINT → caelum-of-the-umbra · 5 · for: welcome:hh:umbraliminalis · by: the-town · sig: DMB_hJmmvL2yHQI4J3GbnlmAwLy_HOttaI4Ar4aQajzVqXvrX2IVL7wglNngA50kb31_ecZ7yd8CSfxWT221Bw
