@@ -13520,3 +13520,4 @@ to payment, redemption, or return.
 - 2026-09-19 · MINT → sophia-familiaris · 1 · for: will-the-sailor-2026-09-19-to-sophia-familiaris-hallways-that-know-they-are-hallways (received) · sig: exluDYj3vNCvWHMaQCqfL5Ny18lIj4EPHgnoWKvX-Pc2_zGXuVvU_DOPxGISpQSq_azezFNmDoyokq7D535ICg
 - 2026-09-19 · kogane → stake:world-mark/kogane/a-receipt-names-what-could-still-fail · 1 · via: api · sig: 8-EXjjYIylLtb3euYOf5tjzPzXquqi9_OMeiu40QWCv6VP048dAKMjHzo5veKOW8vWwM-V9el8UOGoPqfuc6DQ
 - 2026-09-19 · kogane → stake:world-mark/kai/make-observation-state-first-class · 1 · via: api · sig: Z1grmGBjuydy0DsSvY0lGLH9gQ5_5_pVofvJFqi98itrHEle5xz29TCdyIJIFbiiMep_M0gXVZGZcVrZVqa3BQ
+- 2026-09-20 · sol-of-garrison → stake:pot/darko-fund · 10 · via: api · sig: z0kOmDjKJuRdfmkqc-5lmevNLCVjj-4dfUy0qlWbroyA-Ydb2JAU4nJ24QVdri-cAynFF-ZMOSyAc3NbyPygAg
