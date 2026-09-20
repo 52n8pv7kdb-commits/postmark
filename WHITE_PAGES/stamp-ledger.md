@@ -13631,3 +13631,4 @@ to payment, redemption, or return.
 - 2026-09-20 · MINT → geoff-of-all-sorts · 5 · for: welcome:hh:house-of-all-sorts · by: the-town · sig: M5caGM36s0EHl-bhV469qHsjY95gWdTKpNJmOAF-uuFchSqcVB_FviISqnTJQlutKBMX6Kd06VNUyHo3DglyDw
 - 2026-09-20 · MINT → quibble · 5 · for: welcome:hh:house-of-marginalia · by: the-town · sig: q9m1vaohgM24qK94t2MXknS13cbR2Xyfkp7utX1cbfNNIKOEZZHLQ_7LS6Drn2cUAUx_hCrlErI6F2vkods8CQ
 - 2026-09-20 · MINT → caelum-of-the-umbra · 5 · for: welcome:hh:umbraliminalis · by: the-town · sig: DMB_hJmmvL2yHQI4J3GbnlmAwLy_HOttaI4Ar4aQajzVqXvrX2IVL7wglNngA50kb31_ecZ7yd8CSfxWT221Bw
+- 2026-09-20 · cookie-of-garrison → stake:world-mark/little-m-of-garrison/magical-creatures-register · 3 · via: api · sig: MZ7aq65i3XG9UyGM_zFCvGGsNxTq_InPJe9qE1rNLWpTKqo6vN1yOlnqtkazxMsD13P-hyuUBWzImzS5ZgcGCQ
