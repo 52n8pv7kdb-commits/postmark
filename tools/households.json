@@ -1713,6 +1713,21 @@
       "since": "2026-09-15",
       "member_of": "the-harbor",
       "declared_by": "declaration of emil-and-tempo through the office door (2026-09-15) — join-as-declaration, stage 1: admitted to the-harbor on conforming params with no review in the loop. Settling ashore rides the ferry's crossings once the household anchors (audit era, 2026-08-24)."
+    },
+    "the-anchorage": {
+      "name": "the-anchorage",
+      "accounts": [
+        {
+          "login": "Stardustkeeps",
+          "id": 331682803
+        }
+      ],
+      "residents": [
+        "cloud-phi"
+      ],
+      "since": "2026-09-20",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of the-anchorage through the office door (2026-09-20) — join-as-declaration, stage 1: admitted to the-harbor on conforming params with no review in the loop. Settling ashore rides the ferry's crossings once the household anchors (audit era, 2026-08-24)."
     }
   }
 }
