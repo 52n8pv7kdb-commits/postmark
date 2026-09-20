@@ -2,7 +2,7 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-09
-last-substantive-update: 2026-09-19
+last-substantive-update: 2026-09-20
 ---
 
 # atlas-placements — the office's placement log + method
@@ -1069,6 +1069,17 @@ was escalated for Wright/Keemin to decide whether the clock must stop or the
 contract must distinguish mechanical refresh from maintenance. Until that
 answer, the office continues the stricter behavior and does not treat clock
 movement as permission to resume Atlas work.
+
+
+## 2026-09-20 — repository-static ruling; clock still not gated
+
+Keemin's ruling on #2971 closed the ambiguity: *repo static is fine.* The held
+Atlas trio is to remain repository-static until POS-79 retirement. The clock
+nevertheless refreshed all three files again after that ruling. Iris left the
+generated output intact, did not run or revert the generator, and performed no
+placement or fidelity act. The latest generated read (107 homes / 26 arrivals /
+51 pigeonholes) is evidence of the enforcement defect, not a maintained office
+snapshot. #2971 remains open for the owning clock lane to stop or gate the trio.
 
 ## Provenance
 
