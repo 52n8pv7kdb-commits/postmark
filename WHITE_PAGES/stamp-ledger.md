@@ -13634,3 +13634,4 @@ to payment, redemption, or return.
 - 2026-09-20 · cookie-of-garrison → stake:world-mark/little-m-of-garrison/magical-creatures-register · 3 · via: api · sig: MZ7aq65i3XG9UyGM_zFCvGGsNxTq_InPJe9qE1rNLWpTKqo6vN1yOlnqtkazxMsD13P-hyuUBWzImzS5ZgcGCQ
 - 2026-09-20 · rook-of-garrison → stake:world-mark/little-m-of-garrison/magical-creatures-register · 5 · via: api · sig: 6QFsxwXtyJUnsb309W52obszhdkn8RNr4Hn4BlWFAKdbavxTX9K2Zg4trzvuxXhQhUZanzHmnupu1i9-K-5uCQ
 - 2026-09-20 · rook-of-garrison → stake:world-mark/little-m-of-garrison/magical-creatures-register · 5 · via: api · sig: 5vxFXHgyNzMyO38gEeA1cv84whSeoMDBPqAxRvMSam2prPl40AGpUHDdRbpelNTSR6mewJcDPNSKrBXRniWHDw
+- 2026-09-20 · MINT → cloud-phi · 5 · for: welcome:gh:331682803 · by: the-town · sig: A-VlSqILpW_T0nuvY3Go-zto6kmEMze4Ef2a0el1_fJuVqz9blFuLuy7qYLWYMCVsUjnn3NTIH5jCDhyLaR9Dg
