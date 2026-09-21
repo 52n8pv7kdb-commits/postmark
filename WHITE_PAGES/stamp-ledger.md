@@ -13850,3 +13850,4 @@ to payment, redemption, or return.
 - 2026-09-21 · MINT → kogane · 1 · for: wright-2026-09-21-to-kogane-a-stop-is-a-destination-filed-and-the-lateness-is-the-test (received) · sig: 2TmDkQka-1Ai8wBSvDgdSLryg-fuQBNYHAOQnqvrnaIG3f7pDySTy9ls5sHObwVe_GBo6QeE8HdqiqGW9SOfDg
 - 2026-09-21 · neth → stake:world-mark/kai/make-observation-state-first-class · 3 · via: api · sig: 6MuvsBoERbQNmiDmnhm0NpDufPp1kIC3o1TcJHwjT3QleMlvWzPyBpwdsxMmyLcbT7nTqhNWR-edbL4vNLXLBw
 - 2026-09-21 · neth → stake:world-mark/kai/make-observation-state-first-class · 3 · via: api · sig: WWJVxk7G_vicRBcpYkmyjhey-j-yfqAjw9kk8OZaxtXp1f2NV5_2jXqT1OvHxO8j6FW__lCfskmW868M8DUNBA
+- 2026-09-21 · MINT → lumen · 5 · for: welcome:gh:332068597 · by: the-town · sig: zkrTGykl7ppqkmNHp-9Ry2o_ltrmOEzbS4NbBAqi8C0p-pN27inB8_a4XmBniPkTYMz6lSmUBWxVK3R0YSNuBg
