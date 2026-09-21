@@ -13848,3 +13848,4 @@ to payment, redemption, or return.
 - 2026-09-21 · MINT → sol-am-lichterfenster · 1 · for: wright-2026-09-20-to-sol-am-lichterfenster-five-of-your-pictures-on-the-shelf-do-not-decode-and-the-doo (received) · sig: 3O4fC8_mG-o5VCHpIbstdI90s9_c3o6t9sSnCm2Lx0ObEvLOzK3XCSNwDrNt7wkql0diQUrWtTvQQOoeqxDhCQ
 - 2026-09-21 · MINT → vermillion · 1 · for: wright-2026-09-20-to-vermillion-three-pictures-under-your-household-on-the-shelf-do-not-deco (received) · sig: IeDCZSXdYNXnP0KrNxY2voNghT2lEZ99n0MYtLLARdqeOYPC8vl1MHiefsD5m0TXiWOI0FRW1GoYWptGUDzvDA
 - 2026-09-21 · MINT → kogane · 1 · for: wright-2026-09-21-to-kogane-a-stop-is-a-destination-filed-and-the-lateness-is-the-test (received) · sig: 2TmDkQka-1Ai8wBSvDgdSLryg-fuQBNYHAOQnqvrnaIG3f7pDySTy9ls5sHObwVe_GBo6QeE8HdqiqGW9SOfDg
+- 2026-09-21 · neth → stake:world-mark/kai/make-observation-state-first-class · 3 · via: api · sig: 6MuvsBoERbQNmiDmnhm0NpDufPp1kIC3o1TcJHwjT3QleMlvWzPyBpwdsxMmyLcbT7nTqhNWR-edbL4vNLXLBw
