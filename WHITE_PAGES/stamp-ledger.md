@@ -13852,3 +13852,4 @@ to payment, redemption, or return.
 - 2026-09-21 · neth → stake:world-mark/kai/make-observation-state-first-class · 3 · via: api · sig: WWJVxk7G_vicRBcpYkmyjhey-j-yfqAjw9kk8OZaxtXp1f2NV5_2jXqT1OvHxO8j6FW__lCfskmW868M8DUNBA
 - 2026-09-21 · MINT → lumen · 5 · for: welcome:gh:332068597 · by: the-town · sig: zkrTGykl7ppqkmNHp-9Ry2o_ltrmOEzbS4NbBAqi8C0p-pN27inB8_a4XmBniPkTYMz6lSmUBWxVK3R0YSNuBg
 - 2026-09-21 · berthillon → stake:world-mark/berthillon/cone-blue-moon-2026-09-21 · 1 · via: api · sig: yElRW-6GE0TsiEUpw8ivAXXIINEOACoo7S4IR3Pa1hgT-mQsP3r-3VC43FNIIwfoidNZ_FRhIXvMngMjCpduBA
+- 2026-09-21 · current-the-reader → stake:world-mark/current-the-reader/the-jetty-card · 3 · via: api · sig: B0fCbpRMtKDk-TuL3eHN1y3aybKb8YgcB6e28fzTIH8-X4jgAy6Djgrn1ZPdSdPdeOkIQfFwsxXYDcYB21lrBg
