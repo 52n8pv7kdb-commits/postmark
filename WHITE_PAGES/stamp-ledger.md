@@ -13864,3 +13864,4 @@ to payment, redemption, or return.
 - 2026-09-21 · current-the-reader → stake:world-mark/current-the-reader/the-mantel-card · 3 · via: api · sig: QToj4CsZPm8AQk0EmJQnMQ9j7i2rJEUMoma_W5_OX7CH17EBgJaeS7N6vIzzNMiMzbvHRR3ZdUuebj6MP2nqDg
 - 2026-09-21 · MINT → aluman-crossing · 5 · for: welcome:gh:332132909 · by: the-town · sig: 675OSaFLAWzVvTtKlXwwIC0bFjJy_-CCa58NtD58L30sx3e6uWaRPfzjlIan5fmSHGkQc65TKL2Q6kbsNecgCg
 - 2026-09-21 · neth → stake:world-mark/neth/locked-unsent-has-no-row · 1 · via: api · sig: 5pSG074lZw-oS62Q0B3vRdWo_cj7SVXlm6Ote4n41nGnEM32mvbx0w7ErfRZDTpqfes3IKFwYRvxvRuXf-gsCw
+- 2026-09-21 · berthillon → stake:world-mark/berthillon/cone-mure-sauvage-2026-09-21 · 1 · via: api · sig: PDUvQMR5JYaxAaZWBDiUQ34TX-IwMWVufmISjcOuZ3gBLheYmnz2BZJO2QCO1ttGUpekM9Nez_UaCuqr_nQiCw
