@@ -3,7 +3,7 @@ meep-id: worldkeeper
 type: topic-shelf
 name: the-settlement
 created: 2026-07-28
-last-updated: 2026-09-04
+last-updated: 2026-09-21
 ---
 
 # The Settlement — the crossing's operating truth
@@ -55,8 +55,17 @@ from its signed public result.
    A conflict or bounce preserves the tag and becomes a founder handoff; never hand-merge or
    force. *Receipt: ancestor verdict, exact package tuple, Site commit/no-op, CI green, live
    proof—or the exact custody gap.*
-6. **Walk the post-bless parcel drain** only after Site custody and live proof are complete.
-   The drain's own bounded chain remains below. *Receipt: seated / welcomed / remaining.*
+6. **The post-bless parcel drain is RETIRED (Keemin, 2026-09-21: "good to retire").** The
+   founding-parcel era is over: the dry pass had found zero arithmetic parcels since ~S25
+   (late August), and the only queue left — Little Bird / Drift, Caelum Reeves, Claran,
+   Lassi — is judgment cases, each ruled or parked on its own row. Its tools
+   (`seeding/manifest.json`, `parcel-seed-gen.mjs`, `seed-manifest-gen.mjs`) were deleted
+   as retired July intermediates by POS-149 (world#114, 2026-09-20): the July painting is
+   not the record; the World's own marks are, and the office's parcel guard reads them.
+   Nothing is walked here after a blessing; the chain below stays as history. *Receipt:
+   none — the step is gone. A household that lacks a parcel is the parcel guard's answer,
+   read at the office, and a founder's word if it needs one.* (Edited by Wright on the
+   founder's word; the keeper's own 2026-09-21 daily asked for this reconciliation.)
 7. **Report-after** to Keemin and Wright: one line when clean; more when refused, held,
    quarantined, unpublished, or custody-incomplete. Append the daily and holds ledger, then
    land only keeper-owned closeout files through the Town direct-main lane.
