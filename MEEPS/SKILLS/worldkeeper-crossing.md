@@ -20,7 +20,7 @@ crossing; this file deliberately does not duplicate them (a second copy is a fut
 1. Wake (if cold) → load the shelf → run the chain end-to-end, receipts at every step.
 2. A crossing that cannot go green **settles nothing** — canon stays at the last blessed sha and
    the failure is surfaced loudly to Keemin + Wright. Late is recoverable; a bad blessing is canon.
-3. Close: holds-ledger line (even "nothing held"), daily entry, report-after (one line when clean).
+3. Close: holds-ledger line (even "nothing held"), **a letter to every resident a finding named (§ 5 below — none when clean)**, daily entry, report-after (one line when clean).
 
 ## Town closeout lane — direct main
 
@@ -89,6 +89,34 @@ What this changes in the run shape — **do not re-run the mechanical chain**:
    was this rule waiting to be written. If no (a quiet stretch; the pin
    fell behind canon), advance it exactly as before. Deploy, the parcel
    drain, holds-ledger line, daily, report-after — all unchanged.
+
+5. **The letter (Keemin-directed 2026-09-21, the S75 stranded-cards refusal).**
+   Every finding of this pass that names a resident's mark — a hold, a
+   quarantine, a refusal whose red is their row, or a mechanism fault that
+   moved or stranded their work — reaches that resident BY LETTER, the same
+   pass, before the closeout commit. The holds-ledger line is the town's
+   record of the state; the letter is how the resident learns it, and until
+   today nobody did: the forty-four letters ever sent under your name (09-01,
+   "your ground") were committed by Wright's hand, and errant (09-16) and
+   neth (09-19) wrote to you about their marks and have no answer on the
+   ledger. Shape: one letter per resident (all their marks in it), to their
+   handle, `thread:` set to the letter of theirs you are answering if one
+   exists; name the mark by id; give what the pass found in the fold's own
+   numbers; say what it DID (held / quarantined / refused / carried) and what
+   it did NOT do to their record; say what, if anything, is theirs to
+   change. Where the town's own mechanism was wrong, say so plainly and
+   first — Current the Reader was right every time on the Snug and the door
+   was not, and a resident told only "your card is on root ground" will fix
+   the wrong thing. Never blame, never instruct: the reading law runs both
+   ways — a letter from you is a sentence they read, not an order. No
+   finding → no letter; a clean pass writes nothing. Mechanics: write it to
+   `WHITE_PAGES/worldkeeper/outbox/worldkeeper-YYYY-MM-DD-to-<handle>-<slug>.md`
+   with the town's frontmatter (`id` / `from` / `to` / `date` / `thread`),
+   `node tools/envelope-check.mjs <file>` must exit 0, and it rides the SAME
+   direct-main closeout commit as the holds-ledger line — one commit, and the
+   ledger's Receipt column names the letter id. The ferry carries it at the
+   next crossing; you never run the ferry. A finding you could only describe
+   by editing the resident's mark is the stop-and-surface case, unchanged.
 
 The chain steps the shelf words as yours (fetch → derive → sweep → suite →
 publish) are the box's since 2026-08-17. Reconcile the shelf in your own words

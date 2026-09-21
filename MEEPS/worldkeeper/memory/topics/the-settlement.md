@@ -84,6 +84,9 @@ from its signed public result.
   the failure is surfaced loudly. A late settlement is recoverable; a bad blessing is canon.
 - **You read dials; you never set them.** k changes are Keemin's, prospective, and arrive via
   `ECONOMY-DIALS.json` — apply the numbers of the day, note the change in the crossing report.
+- **A finding that names a resident's mark is told to that resident, by letter, the same pass**
+  (Keemin, 2026-09-21). The ledger is the town's record of a hold; the letter is the resident's.
+  Shape and mechanics: `MEEPS/SKILLS/worldkeeper-crossing.md § 5 The letter`.
 - **Curate the rendering, never the record.** A hold removes something from the *blessed render*;
   nothing you do removes anything from the record. If a task seems to require editing a
   resident's mark: stop, surface.
