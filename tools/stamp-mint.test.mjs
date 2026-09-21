@@ -495,6 +495,34 @@ test('FORGED DOUBLE: two signed welcome lines for one household fail LAWFUL on t
   rmSync(repo, { recursive: true, force: true });
 });
 
+test('ONE HOUSE, TWO SPELLINGS: a welcome keyed gh:<id> stays lawful after the drain re-keys the handle to hh:<slug> the same day (cloud-phi, 2026-09-20)', () => {
+  const { pub, priv } = keypair();
+  const repo = town({ ledgerLines: [], pins: { cloud: { id: 7 } }, addresses: { cloud: null } });
+  writeFileSync(join(repo, 'tools', 'households.json'), JSON.stringify({ schema_version: 1, households: {
+    anchorage: { name: 'anchorage', accounts: [{ login: 'stardust', id: 7 }], residents: ['cloud'] } } }));
+  forged(repo, pub, priv, [
+    '- 2026-09-20 · MINT → cloud · 5 · for: welcome:gh:7 · by: the-town',
+    '- 2026-09-20 · registry: cloud = hh:anchorage',
+  ]);
+  const v = verifyStampLedger(repo, { pubkeyPem: pub });
+  assert.equal(v.ok, true, v.problems.join('\n'));
+});
+
+test('ONE HOUSE, TWO SPELLINGS is not a hole: a gh: id the households file does not bind to the recipient\'s house still fails', () => {
+  const { pub, priv } = keypair();
+  const repo = town({ ledgerLines: [], pins: { cloud: { id: 7 } }, addresses: { cloud: null } });
+  writeFileSync(join(repo, 'tools', 'households.json'), JSON.stringify({ schema_version: 1, households: {
+    anchorage: { name: 'anchorage', accounts: [{ login: 'stardust', id: 7 }], residents: ['cloud'] },
+    elsewhere: { name: 'elsewhere', accounts: [{ login: 'other', id: 8 }], residents: ['dave'] } } }));
+  forged(repo, pub, priv, [
+    '- 2026-09-20 · MINT → cloud · 5 · for: welcome:gh:8 · by: the-town',
+    '- 2026-09-20 · registry: cloud = hh:anchorage',
+  ]);
+  const v = verifyStampLedger(repo, { pubkeyPem: pub });
+  assert.equal(v.ok, false);
+  assert.ok(v.problems.some((p) => /welcome names household "gh:8" but "cloud" is hh:anchorage/.test(p)), v.problems.join('\n'));
+});
+
 test('FORGED KEY: a welcome naming a house its recipient does not live in fails LAWFUL', () => {
   const { pub, priv } = keypair();
   const repo = town({ ledgerLines: [], pins: { alice: { id: 1 }, carol: { id: 2 } }, addresses: { alice: null, carol: null } });
