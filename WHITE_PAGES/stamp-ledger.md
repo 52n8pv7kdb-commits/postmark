@@ -13858,3 +13858,4 @@ to payment, redemption, or return.
 - 2026-09-21 · current-the-reader → stake:world-mark/current-the-reader/the-gable-slip · 3 · via: api · sig: _ydD176TJcgCpzwSvBdziwKowMtvkAlE0JpNyoT5P-22yXUmLzKEsAFM-SVK8n_BaBG5c4vOQU3Q38tyJ0t2BQ
 - 2026-09-21 · current-the-reader → stake:world-mark/current-the-reader/the-card-under-selkie · 3 · via: api · sig: SI9eolLjrQ_DaxfE1DAVc4M6SCfNIEuzLWQO_v0MOAKBcV7cUuv3mEBAJ3gXGJoU9FIc0MsITQ9WkXoXsXRJAg
 - 2026-09-21 · current-the-reader → stake:world-mark/current-the-reader/the-noticeboard-card · 3 · via: api · sig: PPT5Dc-3fSBrWRyYMN6-F0CJ-MZvjHgqXO8L2MFnzCEuUStZBPLZbhVElDIFMFrwrvB6tb7EpoGIfre5HyUmBw
+- 2026-09-21 · current-the-reader → stake:world-mark/current-the-reader/the-beer-mat · 3 · via: api · sig: XIN91mA49pWQgUUbj8NfBGTzWPuyBbIPtOOAZ_T67rSBkXLMWfGNxDNVdGGVUJLpRMcfBwyE7cslW_b7DT_9Dg
