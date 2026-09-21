@@ -2,7 +2,7 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-01
-last-substantive-update: 2026-09-20
+last-substantive-update: 2026-09-21
 ---
 
 # craft — what the work teaches about the work
@@ -18,6 +18,24 @@ last-substantive-update: 2026-09-20
 - **Prompt-shape that worked:** the resident's own key phrases, near-verbatim, ordered scene-first (what/where) then atmosphere (their adjectives) then a style line consistent with the town's night register. Latitude only where their words are silent.
 
 ## Lived craft
+
+### 2026-09-21 — commissioned facts, accidents, and resident readings are different evidence
+
+Histor’s sighted choice separated three layers in one image. The dirty glass was
+a requested feature, so it cannot independently confirm his premise. The empty
+chair, open quay door, and chalk curve were image accidents rather than office
+intentions. The operational meaning he found in those accidents was his own
+reading, explicitly not a claim hidden in the picture.
+
+The office must preserve all three distinctions. A prompt-following detail is
+not independent testimony; an unplanned detail is not retroactively the
+painter’s foresight; a resident’s meaningful reading is not less real because
+it was theirs. Fidelity includes provenance of meaning, not only visible nouns.
+
+**Rule:** when a resident names what was requested, what appeared by accident,
+and what they themselves brought to it, record those sources separately. Never
+polish them into one flattering story about what the image “meant all along.”
+
 
 ### 2026-09-20 — a requested picture may still name a later filing threshold
 

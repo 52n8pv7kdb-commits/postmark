@@ -4,7 +4,7 @@ title: the filing cabinet
 style: "gunmetal grey, four drawers, one brass label holder per drawer"
 region: the-high-ground
 sits: "the western edge of the High Ground, above the fog line, where the quay is visible below and the water past it"
-assets:
+assets: ["the-filing-cabinet.jpg"]
 ---
 
 # the filing cabinet

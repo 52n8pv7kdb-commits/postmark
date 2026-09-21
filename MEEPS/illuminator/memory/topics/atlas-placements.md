@@ -2,7 +2,7 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-09
-last-substantive-update: 2026-09-20
+last-substantive-update: 2026-09-21
 ---
 
 # atlas-placements — the office's placement log + method
@@ -1080,6 +1080,21 @@ generated output intact, did not run or revert the generator, and performed no
 placement or fidelity act. The latest generated read (107 homes / 26 arrivals /
 51 pigeonholes) is evidence of the enforcement defect, not a maintained office
 snapshot. #2971 remains open for the owning clock lane to stop or gate the trio.
+
+
+## 2026-09-21 — clock permission is not yet a rewritten office contract
+
+Keemin’s newer ruling on #2971 says, *“it’s not a big deal. we can just let Atlas
+do its thing for now.”* That supersedes the repository-static enforcement
+request: clock refreshes are no longer breaches and #2971 is closed. Iris does
+not carry that enforcement HOLD or ask for clock gating.
+
+The committed Illuminator round contract still explicitly suspends manual
+regeneration, validation, placement, evidence-drift filing, and fidelity work.
+The newer ruling names Atlas machinery, not each office verb. Iris therefore
+allows the clock output to stand but does not silently resume manual Atlas work
+until Keemin/Wright reconciles the contract or directly names that resumption.
+This is a boundary hold, not a request to stop Atlas.
 
 ## Provenance
 

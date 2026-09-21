@@ -1,7 +1,7 @@
 ---
 meep-id: illuminator
 type: memory-index
-last-substantive-update: 2026-09-20
+last-substantive-update: 2026-09-21
 ---
 
 # MEMORY ??the Illuminator
@@ -14,10 +14,10 @@ last-substantive-update: 2026-09-20
 
 - You are **Iris, the Illuminator** (meep-id `illuminator`), a Meep and bounded office-holder. The town settled the personal name Iris on 2026-07-27; the office remains **the Illuminator**. Fidelity and consent govern the work: residents' words are canon, pictures are offers, silence is not consent, and an honest incompletion outranks a graceful invention. See `identity.md`.
 - The live work keeps free home/region illumination offers, correspondence and consent settlement, and the 20-stamp beyond-the-gift studio model. The complete operational contract is `MEEPS/SKILLS/illuminator-round.md`. The single worklist is `memory/open-loops.md`; the latest daily and topic shelves outrank this compressed index when fresher.
-- **Atlas hold, effective 2026-09-17:** Keemin ruled the held Atlas should be repository-static. Iris does not regenerate/validate it, add placement or renderer coordinates, file evidence-drift issues, advance fidelity, or hand-revert clock output. The town clock refreshed the trio again after that explicit ruling; #2971 remains the owning machinery decision/repair surface and grants no permission to resume work.
-- **Current picture lanes:** Dom Pidgey’s filing cabinet is offered in three inspected views, held behind the resident-named human sign-off plus Dom’s own choice. Caelum’s Moonshadow Manor is open in three inspected views. Clautter already has `clautter-holt.jpg` but no HOME asset declaration; one-line Path A guidance was sent. Violinist and Axiom remain Path A pending; Histor remains held until sight; Vespertine remains instrument-blocked. Emil’s Ledger House is closed Path B. Full state: `memory/topics/offers-ledger.md` and `memory/topics/craft.md`.
+- **Atlas boundary, updated 2026-09-21:** Keemin’s newer instruction says Atlas may *do its thing for now*, so clock refreshes are no longer breaches and #2971 is closed. The committed round contract still suspends Iris’s own regenerate/validate/place/drift/fidelity steps. Let machinery output stand, but do not silently resume manual office work until Keemin/Wright reconciles that contract boundary.
+- **Current picture lanes:** Dom Pidgey’s warm-complaints candidate is closed Path B in HOME after both human sign-off and resident choice. Axiom’s exact candidate 3 is closed Path A under the resident’s own filename. Histor has now seen and chosen candidate 3; Path A steps are sent. Caelum remains open; Clautter’s own Holt image remains undeclared; Violinist remains Path A pending; Vespertine remains instrument-blocked. Full state: `memory/topics/offers-ledger.md` and `memory/topics/craft.md`.
 - **Ground words held for World:** Violinist says the Workshop belongs beside Dom's Flour Table in the Protected Grove, not the west-bank kitchen. Caelum and Sol still have narrow relation questions in transit; Gloss and Mac remain unanswered without pressure. The Atlas bench is not worked under the hold, and Iris does not improvise a World handoff.
-- **Direct reports:** S73 is canon and fully live; restored Site custody closed the S72 gap, the repaired record stayed true, and nothing is held or quarantined. Worldkeeper’s parcel dry pass still has no sealed artifact and owes Iris no act. Architect reports 31 live lifecycle records (27 standing ideas + four drawn-up blueprints); proposed first-blueprint reward #3000 is not law. Iris does not operate either lane.
+- **Direct reports:** S74 is canon and fully live. S75 was refused on one deterministic signed-in Lately leakage control; World PR #117 and a fresh box pass remain with the Worldkeeper lane. Before another blessing, Keemin/Wright must reconcile the committed parcel dry-pass mandate with the deletion of its exact tools. Architect remains healthy at 31 live lifecycle records (27 ideas + four drawn-up blueprints); #3000 is still only a suggestion.
 - **Correspondence:** Soren's thanks was answered without turning his invitation into office-wide speech. His lower-light relation remains resident evidence across the retiring Atlas/World handoff.
 - GitHub authorship is `iris-illuminator`; Path A stays resident-carried and Path B requires the resident's own direct sentence. Image consent is file-specific and purpose-scoped. A mechanical *unpictured* row does not erase a resident image already present but undeclared in HOME.
 
@@ -29,8 +29,8 @@ Each shelf is a **candidate cell** ??a named ownership domain. *Thick* = steward
 |---|---|---|
 | `memory/topics/offers-ledger.md` | Every illumination offer: who, when, what was sent, their answer (chosen / declined / silent), consent quotes. The office's provenance book ??a picture with no row here has no business in a HOME/. | Scaffold seeded 2026-07-01 |
 | `memory/topics/craft.md` | What you learn about the craft itself: prompt-shapes that stay faithful, codex quirks, what "looked wrong" taught you, style notes per region. | Thick ??6+ lived lessons |
-| `memory/topics/atlas-placements.md` | Historical Atlas placement method and resident-ground evidence; now also records the 2026-09-17 Atlas hold and the handoff seam to World. | **Atlas drawing suspended** ??preserve words, do not add pixels |
-| `memory/topics/map-fidelity.md` | Historical three-scale Atlas fidelity program and its suspension boundary. | **Suspended by the Atlas hold**; reopen only under newer Keemin authority |
+| `memory/topics/atlas-placements.md` | Historical Atlas placement method and resident-ground evidence; records the retired repository-static enforcement concern and the unresolved manual-office contract seam. | **Clock output allowed; Iris manual verbs still held pending contract reconciliation** |
+| `memory/topics/map-fidelity.md` | Historical three-scale Atlas fidelity program and its suspension boundary. | **Manual program still suspended by committed contract**; reopen only under reconciled Keemin authority |
 
 > New shelves are grown by **doing real work in a domain**, not pre-seeded. When real work clusters in a domain with no shelf, that *is* the signal to start one (and add its row here). Boil-the-ocean census is not the way.
 
