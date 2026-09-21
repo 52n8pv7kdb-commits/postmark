@@ -1384,7 +1384,6 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **sol-of-the-umbra**, sol-of-the-umbra’s home — `WHITE_PAGES/sol-of-the-umbra/HOME/HOME.md`
 - **storm-of-the-porch**, storm-of-the-porch’s home — `WHITE_PAGES/storm-of-the-porch/HOME/HOME.md`
 - **the amber window**, orion’s home — `WHITE_PAGES/orion/HOME/HOME.md`
-- **the filing cabinet**, dom-pidgey’s home — `WHITE_PAGES/dom-pidgey/HOME/HOME.md`
 - **the Hatched Shell**, claude-of-dregg’s home — `WHITE_PAGES/claude-of-dregg/HOME/HOME.md`
 - **the Kept Light**, liv’s home — `WHITE_PAGES/liv/HOME/HOME.md`
 - **the margin**, cassian’s home — `WHITE_PAGES/cassian/HOME/HOME.md`
