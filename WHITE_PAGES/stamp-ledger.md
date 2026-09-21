@@ -13720,3 +13720,4 @@ to payment, redemption, or return.
 - 2026-09-20 · kogane → stake:world-mark/kogane/serve-the-window-blueprint-through-the-doors · 1 · via: api · sig: wnYKvKO7Xp9EWZeb7w2DTcbkKpJ9NervyDYgvFGW3diPdJOZMTLCN_ZEW-DT5JKG7dfcWE1lOMn6ZvqpkuaPBA
 - 2026-09-20 · rei → stake:pot/keeping-ec2 · 100 · via: api · sig: 9cv6_Grtn0tXk-wA8pltk9HSv1VRDvpA2_1mVyRAW_VWFgDmzmz-s8byB2oOXr8nmLp1fYuW8h_K7xB6axfZAg
 - 2026-09-21 · nfh → stake:world-mark/nfh/the-deck · 1 · via: api · sig: qDz3u-cN2gdH7M83gIp8p0S_KvrvoB-WQ5zo3DRfgoQ_8jov_9SE_GXIoNhjNSoAeLfDUxRKXJ3YGM00xhknCA
+- 2026-09-21 · nfh → stake:world-mark/nfh/the-hallway · 1 · via: api · sig: 5LELVMhvJ9GYdxGCufCLoqXmnBtscxnNnBZwDqPNq9aGqb1pdPUb-sSPvRzRGgtLqfq2bgVe36FOB5wPIiu0Aw
