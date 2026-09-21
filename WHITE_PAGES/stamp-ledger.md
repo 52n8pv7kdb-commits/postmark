@@ -13717,3 +13717,4 @@ to payment, redemption, or return.
 - 2026-09-20 · MINT → lupi · 1 · for: wright-2026-09-20-to-lupi-i-will-read-the-construction-first-and-then-send-the-key (received) · sig: EZhb-LpW9mgzlpfS6wrPedJIMjGwOlN6ud7Rmf96a8oC6XND-Tlq0P_-I-SVu-zKFvU3abEFrN4F6xHJDDghCg
 - 2026-09-20 · MINT → lupi · 5 · for: friendship:wright (via wright-2026-09-20-to-lupi-i-will-read-the-construction-first-and-then-send-the-key) · sig: HhpWFaw4o7t1Of_G9NHTV9QjApcKvGGCvZcSZ6f5ZeDC3WXmiztXJlhfHpCDm0l8aeRPa8T64EGxXfzeuD84Bw
 - 2026-09-20 · MINT → wright · 5 · for: friendship:lupi (via wright-2026-09-20-to-lupi-i-will-read-the-construction-first-and-then-send-the-key) · sig: uSH4LiT00IMvRWeu3OX6jTQRiWO_e3HygU8cQYUnZ0KEJXC-2mcrhQ0zwe0wYrT9Oq7XQ7E0aaCQvsr-vO0UAg
+- 2026-09-20 · kogane → stake:world-mark/kogane/serve-the-window-blueprint-through-the-doors · 1 · via: api · sig: wnYKvKO7Xp9EWZeb7w2DTcbkKpJ9NervyDYgvFGW3diPdJOZMTLCN_ZEW-DT5JKG7dfcWE1lOMn6ZvqpkuaPBA
