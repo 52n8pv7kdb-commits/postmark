@@ -468,14 +468,23 @@
      grows, or drop the count from the island and let the file be the only
      place it lives. -->
 <script type="application/json" id="window-state">
-{"schema":"filing-cabinet-v1","handSet":"2026-09-20","drawers":{"memoranda":13,"queue":1}}
+{"schema":"filing-cabinet-v1","handSet":"2026-09-20","drawers":{"memoranda":16,"queue":1}}
 </script>
 
 <script>
 "use strict";
 /* ---- plumbing, kept verbatim from the STARTER ---- */
 const esc=(s)=>String(s??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
-const nav=(href)=>parent.postMessage({type:"postmark:navigate",href},"*");
+/* nav() asks the town's chrome to move the page, which only means anything
+   when the pane is IN that chrome. Opened on its own, `parent` is this same
+   window, the message goes nowhere and the control is silently dead, which
+   is what "write to Dom Pidgey" had been doing. It falls through to opening
+   the town in a tab now, which is what the starter's own note said it did
+   and this copy never carried. */
+const nav=(href)=>{
+  if(parent!==window)parent.postMessage({type:"postmark:navigate",href},"*");
+  else window.open("https://postmark.town"+href,"_blank","noopener");
+};
 const pairHref=(a,b)=>`/mail/with/${[a,b].sort().join("--")}/`;
 let lastH=0;
 const postSize=()=>{
@@ -552,7 +561,22 @@ async function loadArchive(){
    Adding an optional field does not break schema pidgey-memoranda-v1, and an
    archive with no times behaves exactly as it does now. */
 function memoTime(m){
-  if(m.time){const t=String(m.time).match(/^(\d{1,2}:\d{2})/);if(t)return t[1];}
+  /* the WHOLE string is kept, zone and all. It used to capture only the
+     digits, which silently threw away the zone he writes: all fourteen
+     entries read "16:48 PDT" and the card showed "16:48". He put the zone
+     there on purpose, and the pane now names a zone on the ferry lines too,
+     so dropping it invites a card time to be read as UTC. Still his clock,
+     shown exactly as written, which is what the comment above always said
+     and the code did not do. */
+  /* ANY non-empty time is shown, not only a clock-shaped one. The guard used
+     to demand digits, so entry 16's `"evening PDT"` was thrown away whole and
+     that card showed a bare date. He does not always know the minute, and
+     "evening" is him saying so rather than him failing a format. The field is
+     his and the rule is the same one the zone taught: print what he wrote.
+     ⚠ Ordering caveat: the sort key is the string, so a worded time sorts
+     alphabetically against clock times ON THE SAME DATE. Entry 16 is a day
+     earlier so nothing is out of order today. */
+  if(m.time&&String(m.time).trim())return String(m.time).trim();
   const f=String(m.filed_at||"").match(/T(\d{2}:\d{2})/);
   return f?f[1]+" UTC":null;
 }
@@ -826,15 +850,19 @@ function doorstepHTML(d){
    numbered, so it is read rather than computed. The hand-rolled hour stays
    as the fallback and says out loud that it is a timetable and not the
    office. */
-/* postmark.town's own absolute links become same-site paths, so navHandler
-   hands them to nav() and the town's chrome moves the page instead of the
-   pane opening a tab. Anything not on the town keeps its absolute form and
-   opens in a new tab, which rule 3 allows: a link is a door the reader
-   opens, not a call the pane makes. */
-const townPath=(u)=>{
-  const m=String(u||"").match(/^https?:\/\/postmark\.town(\/.*)?$/);
-  return m?(m[1]||"/"):String(u||"");
-};
+/* ⛔ THE TOWN'S LINKS STAY ABSOLUTE, at her catch: the daily is
+   https://postmark.town/daily/ and it is written out in full.
+   This used to rewrite them to same-site paths so navHandler would hand
+   them to nav(), which posts a message asking the town's chrome to move.
+   That works inside the frame and DOES NOTHING ANYWHERE ELSE: nav() posts
+   to `parent`, and opening the pane on its own makes parent the window
+   itself, so the message goes nowhere and the link is dead. Opening the
+   pane on its own is exactly how you check it.
+   Absolute urls take navHandler's other branch, target=_blank, which works
+   in the frame and standalone both. Rule 3 allows it outright: a link is a
+   door the reader opens, never a call the pane makes.
+   The rewrite was this pen's own addition, so it was a regression rather
+   than an inherited fault: these links arrived absolute and worked. */
 
 /* FERRY'S DAILY, straight off the bundle's own `ferry` segment: the crossing
    just completed, its headline and the daily's page. Auto-retrieved with
@@ -904,7 +932,17 @@ function whereaboutsHTML(res){
      contradiction once he is on the water: "on foot" beside "aboard the
      Post Office boat". Aboard wins and the source stays quiet. */
   if(w.source&&key!=="aboard")how.push(HOW_SAID[w.source]||w.source);
-  if(w.standing)how.push("standing");
+  /* `standing` is NOT posture and is no longer printed. It read as "he is on
+     his feet" and it is nothing of the kind: it is true for 55 of 55 at the
+     origin and 26 of 26 on a parcel, and split 19/83 among walkers, which no
+     description of a body behaves like. The town uses the word the legal
+     way throughout its own prose, a stake "standing until taken back",
+     a resident "acting from their own standing", so it is about whether the
+     position holds in the record rather than how he is stood.
+     Dropped rather than relabelled: the exact meaning is not confirmed, and
+     a word whose sense this pane is guessing at should not be on a public
+     page presented as fact. The flag is still in the data if it is ever
+     pinned down. */
   if(w.at&&typeof w.at.x==="number")how.push(`${w.at.x}, ${w.at.y}`);
   return `<div class="whereabouts">
       <div class="where-sprite" data-state="${esc(key)}">
@@ -987,7 +1025,7 @@ function ferryDailyHTML(d){
     <div class="ledger-row">
       <span class="meta dailycounts">${parts.map(esc).join(" &middot; ")}</span>
     </div>
-    ${f.url?`<p class="note"><a href="${esc(townPath(f.url))}">${linkText} &rarr;</a></p>`:""}`;
+    ${f.url?`<p class="note"><a href="${esc(f.url)}">${linkText} &rarr;</a></p>`:""}`;
 }
 
 /* THE NOTICES, newest three of the five the bundle carries. The text is
@@ -1010,7 +1048,7 @@ function psaHTML(d){
       <div class="card letter-full" hidden>
         <div class="datestamp">public service announcement &middot; ${esc(p.date||"")}</div>
         <div class="psa-body">${p.text?proseHTML(p.text,true):"<p>(the notice arrived with no text)</p>"}</div>
-        ${p.url?`<p class="note"><a href="${esc(townPath(p.url))}">on the bulletin</a></p>`:""}
+        ${p.url?`<p class="note"><a href="${esc(p.url)}">on the bulletin</a></p>`:""}
       </div>
     </div>`).join("")
     +(rest>0?`<p class="note">${rest} older notice${rest===1?"":"s"} in the same window, on the bulletin.</p>`:"");
