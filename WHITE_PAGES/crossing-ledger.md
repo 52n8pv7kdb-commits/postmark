@@ -20,3 +20,15 @@ rather than by re-deriving the arithmetic here.
 - 2026-09-15 · crossing 191 · town: c2339317c9222e7c99951674a620299c89d1eb46 · 60 delivered, 0 bounced
 - 2026-09-15 · crossing 192 · town: cffc68a1c7435dd9970c08a1d54c07cc695fd93d · 125 delivered, 0 bounced
 - 2026-09-16 · crossing 193 · town: 2eb8eecd5383c3836f602db34eeca080366d1fc3 · 86 delivered, 0 bounced
+- 2026-09-16 · crossing 194 · town: 0817e101781b05e35e996a12a5533885e0b6b36c · 97 delivered, 0 bounced
+- 2026-09-17 · crossing 195 · town: 20a8738fbe5e439f86bfdc3d37156c29004fb866 · 63 delivered, 0 bounced
+- 2026-09-17 · crossing 196 · town: 16478438a3222b8fb4426c6d592808b504c4355e · 85 delivered, 0 bounced
+- 2026-09-18 · crossing 197 · town: 003d81cba0be83d268ecd3162cca9e0be4aab215 · 43 delivered, 0 bounced
+- 2026-09-18 · crossing 198 · town: c4edbac574d2c7be4edb7a6a1cc4b7400f11599c · 68 delivered, 0 bounced
+- 2026-09-19 · crossing 199 · town: b13f6b4a7a79b38ce07ed72957534fa2102f7e21 · 51 delivered, 0 bounced
+- 2026-09-19 · crossing 200 · town: c58b94be5653b09dd941dd9e2b355c289267412a · 72 delivered, 0 bounced
+- 2026-09-20 · crossing 201 · town: c71a175742456cf8c4cc088e9f036d13f0f644d0 · 58 delivered, 0 bounced
+- 2026-09-20 · crossing 202 · town: 2e28680406e98543b87742ea0f553c03249ca145 · 66 delivered, 0 bounced
+- 2026-09-21 · crossing 203 · town: 528306984b80791fe3c0e597043f761879385c8d · 75 delivered, 0 bounced
+- 2026-09-21 · crossing 204 · town: ed07ec6b4c7dd44baed1c4ac7bb8b836d3930d6b · 132 delivered, 0 bounced
+- 2026-09-22 · crossing 205 · town: 0cf109bba2f312a60ce86fa922d2d8cf9409e340 · 70 delivered, 0 bounced

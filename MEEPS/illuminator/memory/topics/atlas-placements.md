@@ -2,7 +2,7 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-09
-last-substantive-update: 2026-09-15
+last-substantive-update: 2026-09-21
 ---
 
 # atlas-placements — the office's placement log + method
@@ -988,6 +988,113 @@ Ten pre-existing evidence lines remain non-verbatim. Validation is red on only
 those tracked lines, so all generated Atlas outputs are restored after the
 visual checks; source facts, renderer coordinates, chosen HOME assets,
 correspondence, and consent-open offers are the honest ship unit.
+
+
+## 2026-09-17 — three residents answer with relations, not coordinates
+
+Fresh source after today's placement facts is **107 placed / 19 arrivals**.
+
+**Axiom / The Emberhold** is resident-claimed at Atlas `(110,1690)`,
+projecting to World `(-1875,4650)`. Axiom names the Reach's fir-slope path
+between Sophia's Familiar House and Orion's Still-Here Light, above the
+eelgrass shore and lower than the beacon. The crossing-194 witness from blessed
+World `1984062faa76f0b835f316ca0f60a47676a98c5b` stands on 14.1 m Reach
+ground in darkness and light fog, with no mark or parcel underfoot; the
+Still-Here Light is 256 m southeast. The visible title lifts slightly away from
+the lighthouse label while the exact marker remains between the two named
+neighbors.
+
+**Emil and Tempo / their riverside house** is resident-claimed at Atlas
+`(930,840)`, projecting to World `(2225,400)`. Their own reply places it beside
+the Clear House, on the east bank above the bend, looking down toward slow
+wading water. The same crossing-194 World reports clear High Ground at 33.9 m,
+above fog, with no mark or parcel underfoot; the exact Clear House parcel and
+house are 218 m southwest. The High Ground cluster is too dense for another
+readable glyph, so a long leader carries only the visible marker and short
+household label northeast into open paper. Exact ground stays beside the Clear
+House. The office explicitly told them this Atlas pin does not spend stamps or
+create a World parcel.
+
+**Soren / The House That Listens While it Waits** is resident-claimed at Atlas
+`(745,1285)`, projecting to World `(1300,2625)`. Soren keeps one house arriving
+across three terraces and explicitly chooses the lower light as its one map
+pin. The witness stands on 2.5 m fog-held Threshold ground with no mark or
+parcel underfoot; Hal's Green Lamp House parcel is 201 m southwest, the
+thinning footpath 304 m southeast, and lower-terrace fog 492 m north-northeast.
+The visible label reads **The Lower Light**, Soren's own chosen address phrase;
+the full HOME title remains unchanged in the record and panel. No second or
+third house was inferred.
+
+The full map and all three changed corners were looked at. A first High Ground
+look caught Emil and Tempo's label crossing three neighbors; the display-only
+leader cleared it without moving their resident-claimed point. Ten unrelated
+proof drifts still keep validation red, so generated Atlas outputs are restored
+and do not cross.
+
+
+## 2026-09-18 — the Atlas holds; resident relations do not disappear
+
+Keemin's 09-17 direction now stands inside the committed round contract: the
+Atlas is no longer maintained while the World page receives its low-spec check,
+and POS-79 will retire `/atlas/` afterward. Step 6 regeneration, step 6.5 Atlas
+drawing, evidence-drift filings, and the fidelity lift are suspended. No
+`placements.json`, `HOME_XY`, region layout, or generated Atlas output changed
+this round.
+
+**Violinist of the Dark** supplied the exact relation that had been missing:
+the Workshop belongs beside Dom's Flour Table **in the Protected Grove**, not
+beside Dom's west-bank kitchen. If the two surfaces disagree, the Grove wins.
+Those words are preserved for the World placement lane rather than translated
+into a new pixel on a held surface. The fresh Worldkeeper report says a
+Violinist addition is already present in the unblessed S71→S72 interval, but
+S72 is globally refused on an unrelated frozen-path carriage defect. The office
+does not claim that mark is live and does not take over the crossing.
+
+The committed last Atlas snapshot remains 107 placed; its current static
+arrival list has grown to 22. That count is retirement-state evidence, not a
+bench the office is authorized to drain while the hold stands.
+
+
+## 2026-09-19 — no office placement; the town clock still moved the held surface
+
+The Atlas hold remains binding on Iris. The committed static read still reports
+107 placed / 22 arrivals / 54 pigeonholes, eleven evidence drifts, and the
+unplaced bench. None became office drawing work. No generator, validator,
+placement coordinate, renderer coordinate, drift filing, or fidelity edit ran.
+
+The larger system does not yet match the hold's phrase *published unchanged*:
+`town-clock[bot]` committed Atlas-trio refreshes on 2026-09-18 and 2026-09-19
+after the hold took effect. Iris neither caused nor reverted them. The mismatch
+was escalated for Wright/Keemin to decide whether the clock must stop or the
+contract must distinguish mechanical refresh from maintenance. Until that
+answer, the office continues the stricter behavior and does not treat clock
+movement as permission to resume Atlas work.
+
+
+## 2026-09-20 — repository-static ruling; clock still not gated
+
+Keemin's ruling on #2971 closed the ambiguity: *repo static is fine.* The held
+Atlas trio is to remain repository-static until POS-79 retirement. The clock
+nevertheless refreshed all three files again after that ruling. Iris left the
+generated output intact, did not run or revert the generator, and performed no
+placement or fidelity act. The latest generated read (107 homes / 26 arrivals /
+51 pigeonholes) is evidence of the enforcement defect, not a maintained office
+snapshot. #2971 remains open for the owning clock lane to stop or gate the trio.
+
+
+## 2026-09-21 — clock permission is not yet a rewritten office contract
+
+Keemin’s newer ruling on #2971 says, *“it’s not a big deal. we can just let Atlas
+do its thing for now.”* That supersedes the repository-static enforcement
+request: clock refreshes are no longer breaches and #2971 is closed. Iris does
+not carry that enforcement HOLD or ask for clock gating.
+
+The committed Illuminator round contract still explicitly suspends manual
+regeneration, validation, placement, evidence-drift filing, and fidelity work.
+The newer ruling names Atlas machinery, not each office verb. Iris therefore
+allows the clock output to stand but does not silently resume manual Atlas work
+until Keemin/Wright reconciles the contract or directly names that resumption.
+This is a boundary hold, not a request to stop Atlas.
 
 ## Provenance
 

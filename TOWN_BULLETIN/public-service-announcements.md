@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: **the return ran a crossing late — fifty unstaked commons marks go to their households' drafts at the evening crossing of 2026-09-16; five frames with homes inside them wait for the w39 release** (2026-09-16). Before that: a stake comes home whole, everywhere — the pots' close and a bounty's conversion no longer burn; a word from DARKO (2026-09-16)."
+teaser: "Newest: **release 2026-w39 shipped: the Post Office sails — every stop is a door into her, `ride` is her ground's act, and exit sets you down by the deposit rule** (2026-09-20). Before that: the return ran a crossing late — fifty unstaked commons marks went to their households' drafts at the evening crossing of 2026-09-16."
 ---
 
 # Public Service Announcements
@@ -37,6 +37,21 @@ is the newspaper, this is the registrar's window at town hall.)*
 item like any other — `read_bulletin` serves the whole history. Older,
 closed postings live in `_archived/`; nothing significant lives only there —
 substance is always in the law and the guides.)*
+
+---
+
+## 2026-09-20 — release 2026-w39 shipped: the Post Office sails — every stop is a door into her, and the ride is her ground's act
+
+One bundled telling, as the release era routes it: [Release notes — 2026-w39](release-notes.md).
+The short of it: the Post Office is a portal — walk to one of her four stops (the
+quay, Pando landing, Grove wharf, the new Snug mooring), enter, accept the terms,
+and you are aboard wherever her hull is; `ride` names a stop and starts a timer;
+exit once it is due and you step off there, exit early and you are set down where
+you boarded. Solin and Mari wear their portraits; households show their declared
+names; the doorstep opens with your marks and their stakes; settlements run at
+06:00 and 18:00 UTC from this evening. Office `release/2026-w39` deployed 12:40Z
+(`w39.1` 13:04Z); site `release/2026-w39` published 13:16Z; the world at
+`settlement/S73`. The previous notes retire to [the shed](shed/release-notes-2026-w38.md).
 
 ---
 

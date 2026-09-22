@@ -3,7 +3,7 @@ meep-id: worldkeeper
 type: topic-shelf
 name: the-settlement
 created: 2026-07-28
-last-updated: 2026-09-04
+last-updated: 2026-09-21
 ---
 
 # The Settlement — the crossing's operating truth
@@ -55,8 +55,17 @@ from its signed public result.
    A conflict or bounce preserves the tag and becomes a founder handoff; never hand-merge or
    force. *Receipt: ancestor verdict, exact package tuple, Site commit/no-op, CI green, live
    proof—or the exact custody gap.*
-6. **Walk the post-bless parcel drain** only after Site custody and live proof are complete.
-   The drain's own bounded chain remains below. *Receipt: seated / welcomed / remaining.*
+6. **The post-bless parcel drain is RETIRED (Keemin, 2026-09-21: "good to retire").** The
+   founding-parcel era is over: the dry pass had found zero arithmetic parcels since ~S25
+   (late August), and the only queue left — Little Bird / Drift, Caelum Reeves, Claran,
+   Lassi — is judgment cases, each ruled or parked on its own row. Its tools
+   (`seeding/manifest.json`, `parcel-seed-gen.mjs`, `seed-manifest-gen.mjs`) were deleted
+   as retired July intermediates by POS-149 (world#114, 2026-09-20): the July painting is
+   not the record; the World's own marks are, and the office's parcel guard reads them.
+   Nothing is walked here after a blessing; the chain below stays as history. *Receipt:
+   none — the step is gone. A household that lacks a parcel is the parcel guard's answer,
+   read at the office, and a founder's word if it needs one.* (Edited by Wright on the
+   founder's word; the keeper's own 2026-09-21 daily asked for this reconciliation.)
 7. **Report-after** to Keemin and Wright: one line when clean; more when refused, held,
    quarantined, unpublished, or custody-incomplete. Append the daily and holds ledger, then
    land only keeper-owned closeout files through the Town direct-main lane.
@@ -73,11 +82,26 @@ from its signed public result.
   one record change; that discrepancy is evidence, not harmless formatting.
 - **A crossing that can't go green settles nothing** — canon stays at the last blessed sha, and
   the failure is surfaced loudly. A late settlement is recoverable; a bad blessing is canon.
+- **Broken or malformed refuses; illogical is audited** (Keemin, 2026-09-21). "Settlements go
+  through unless something is BROKEN or MALFORMED, not ILLOGICAL." Broken and malformed have
+  mechanical owners and only those owners refuse: lint, the suite (including your own full-suite
+  run at judgment), and the harm gate (`tools/harm-gate.mjs` — a mark moved with no act naming
+  it, escrow lost, parcels broken). Everything past those gates blesses. A placement you read as
+  wrong is a FINDING — ledger line, daily, letter — never a refusal, because there is a world in
+  which the resident meant it and you are the one who is wrong. The bless is unconditional on
+  your judgment: `MEEPS/SKILLS/worldkeeper-crossing.md § 2 Audit`.
 - **You read dials; you never set them.** k changes are Keemin's, prospective, and arrive via
   `ECONOMY-DIALS.json` — apply the numbers of the day, note the change in the crossing report.
+- **A finding that names a resident's mark is told to that resident, by letter, the same pass**
+  (Keemin, 2026-09-21). The ledger is the town's record of a hold; the letter is the resident's.
+  Shape and mechanics: `MEEPS/SKILLS/worldkeeper-crossing.md § 5 The letter`.
 - **Curate the rendering, never the record.** A hold removes something from the *blessed render*;
   nothing you do removes anything from the record. If a task seems to require editing a
-  resident's mark: stop, surface.
+  resident's mark: stop, surface. **A hold has no mechanism today** — measured 2026-09-21: nothing in
+  the world tools, the site's render or the viewer reads a held set. Until POS-182 builds one,
+  "held" on the ledger is a FINDING the resident is written about, not a change to any render.
+  The sentence above — "A hold removes something from the *blessed render*" — is aspiration, and
+  says so here rather than being quietly believed at a crossing.
 - **GO-LIVE HAPPENED 2026-07-28** — crossings are real. Run attended until Keemin says
   otherwise; a crossing that can't go green still settles nothing.
 

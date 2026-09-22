@@ -3,18 +3,62 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Errant — Bad Window II</title>
+  <title>Errant — Bad Window III</title>
   <style>
-    html, body { margin: 0; min-height: 100%; background: #596269; }
+    :root {
+      color-scheme: dark;
+      --wall: #596269;
+      --ink: #211c24;
+      --stitch: #f8f1dc;
+      --cobalt: #315cff;
+      --violet: #8858db;
+      --copper: #cf705f;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; background: var(--wall); }
     body { display: grid; place-items: center; overflow-x: hidden; }
-    .wall-texture { position: fixed; inset: 0; z-index: 0; width: 100%; height: 100%; pointer-events: none; }
-    .window-art { position: relative; z-index: 1; display: block; width: min(100vw, 750px); height: auto; }
-    .sapphire-flash { opacity: .82; transition: opacity 180ms ease, filter 180ms ease; }
-    .sapphire-body { opacity: .78; transition: opacity 180ms ease; }
-    .crystal-light { opacity: .72; transition: opacity 180ms ease, stroke 180ms ease; }
-    .angle-hand { transition: transform 180ms ease; transform-origin: 438px 704px; }
+    ::selection { color: var(--ink); background: #ffef35; }
+    .wall-texture {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+    .window-art {
+      position: relative;
+      z-index: 1;
+      display: block;
+      width: min(100vw, 750px);
+      height: auto;
+      outline: none;
+      cursor: ew-resize;
+      touch-action: none;
+    }
+    .window-art:focus-visible {
+      filter: drop-shadow(0 8px 20px rgba(33, 28, 36, .42));
+    }
+    .chain-path,
+    .chain-ghost,
+    .mass,
+    .mode-wake,
+    .dial-hand {
+      transition:
+        d 120ms cubic-bezier(.16, 1, .3, 1),
+        cx 120ms cubic-bezier(.16, 1, .3, 1),
+        cy 120ms cubic-bezier(.16, 1, .3, 1),
+        opacity 120ms ease-out,
+        fill 120ms ease-out,
+        stroke 120ms ease-out,
+        transform 120ms cubic-bezier(.16, 1, .3, 1);
+    }
     @media (prefers-reduced-motion: reduce) {
-      .sapphire-flash, .sapphire-body, .crystal-light, .angle-hand { transition: none; }
+      .chain-path,
+      .chain-ghost,
+      .mass,
+      .mode-wake,
+      .dial-hand { transition: none; }
     }
   </style>
 </head>
@@ -33,25 +77,31 @@
     <rect width="100%" height="100%" fill="#596269" filter="url(#page-concrete)"/>
   </svg>
 
-  <svg class="window-art" id="window-art" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
-    <title id="title">Errant's second bad window</title>
-    <desc id="desc">A hand-stitched bojagi field surrounding a deliberately misregistered window, mounted against subtly mottled wet-graphite concrete. A translucent sea-sapphire copepod flashes cobalt or nearly disappears as the viewer moves across the pane.</desc>
+  <svg
+    class="window-art"
+    id="window-art"
+    xmlns="http://www.w3.org/2000/svg"
+    width="900"
+    height="1200"
+    viewBox="0 0 900 1200"
+    role="img"
+    tabindex="0"
+    aria-labelledby="title desc"
+  >
+    <title id="title">Errant's third bad window</title>
+    <desc id="desc">A translucent stitched patchwork surrounds a deliberately misregistered pane. Inside it, a chain of thirty-two masses begins as one smooth mode, scatters into several oscillations, and nearly returns as the viewer moves across the window.</desc>
     <defs>
       <clipPath id="pane-clip"><rect x="323" y="417" width="228" height="306"/></clipPath>
-      <filter id="sapphire-glow" x="-80%" y="-40%" width="260%" height="180%" color-interpolation-filters="sRGB">
-        <feGaussianBlur stdDeviation="8" result="blur"/>
-        <feColorMatrix in="blur" type="matrix" values="0 0 0 0 .10  0 0 0 0 .18  0 0 0 0 1  0 0 0 .9 0" result="blue"/>
-        <feMerge><feMergeNode in="blue"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <filter id="thread-shadow" x="-20%" y="-80%" width="140%" height="260%" color-interpolation-filters="sRGB">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="2.4" result="blur"/>
+        <feOffset in="blur" dx="0" dy="4" result="offset"/>
+        <feColorMatrix in="offset" type="matrix" values="0 0 0 0 .13  0 0 0 0 .11  0 0 0 0 .14  0 0 0 .38 0" result="shadow"/>
+        <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
       </filter>
-      <linearGradient id="body-glass" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="#f7f1ff" stop-opacity=".78"/>
-        <stop offset=".48" stop-color="#9ecfff" stop-opacity=".22"/>
-        <stop offset="1" stop-color="#f7f1ff" stop-opacity=".54"/>
-      </linearGradient>
-      <linearGradient id="flash-colour" x1="0" y1="0" x2="1" y2="1">
-        <stop id="flash-a" offset="0" stop-color="#39e9ff"/>
-        <stop id="flash-b" offset=".42" stop-color="#183dff"/>
-        <stop id="flash-c" offset="1" stop-color="#8b35ff"/>
+      <linearGradient id="thread-gradient" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#315cff"/>
+        <stop offset=".48" stop-color="#8858db"/>
+        <stop offset="1" stop-color="#cf705f"/>
       </linearGradient>
     </defs>
 
@@ -81,44 +131,30 @@
     </g>
 
     <g clip-path="url(#pane-clip)">
-      <g opacity=".34" fill="none" stroke="#211c24" stroke-width="1.5">
-        <path d="M339 457 C373 438 413 433 448 445"/>
-        <path d="M336 472 C376 451 418 449 462 462"/>
-        <path d="M535 626 C505 643 474 650 445 646"/>
+      <g opacity=".25" fill="none" stroke="#211c24" stroke-width="1.25">
+        <path d="M338 456 C376 436 420 434 461 450"/>
+        <path d="M335 474 C380 451 425 452 474 470"/>
+        <path d="M532 652 C500 669 466 674 437 668"/>
       </g>
 
-      <g id="sapphire" transform="translate(438 562) rotate(-11)">
-        <ellipse class="sapphire-flash" style="opacity:.82" cx="0" cy="-2" rx="55" ry="105" fill="#274fff" fill-opacity=".36" filter="url(#sapphire-glow)"/>
-        <g class="sapphire-body" style="opacity:.78">
-          <path d="M0 -112 C30 -108 48 -82 50 -46 C53 -1 43 53 19 96 L7 118 L-3 100 C-34 72 -51 22 -49 -36 C-47 -79 -29 -107 0 -112 Z" fill="url(#body-glass)" stroke="#211c24" stroke-width="2.4"/>
-          <path d="M-15 -105 C-34 -135 -55 -142 -77 -128 M15 -105 C35 -136 57 -142 79 -126" fill="none" stroke="#211c24" stroke-width="2" stroke-linecap="round"/>
-          <path d="M-25 -98 C-54 -112 -71 -108 -86 -92 M25 -98 C54 -110 73 -104 88 -88" fill="none" stroke="#211c24" stroke-width="1.6" stroke-linecap="round"/>
-          <path d="M-38 -55 L-64 -42 M-44 -29 L-70 -15 M-45 0 L-72 15 M-39 30 L-64 49" fill="none" stroke="#211c24" stroke-width="1.8"/>
-          <path d="M38 -55 L64 -42 M44 -29 L70 -15 M45 0 L72 15 M39 30 L64 49" fill="none" stroke="#211c24" stroke-width="1.8"/>
-          <path d="M5 113 L26 139 L6 129 L-2 149 L-9 126 L-27 141 L-8 112" fill="url(#body-glass)" stroke="#211c24" stroke-width="2"/>
-          <circle cx="-2" cy="-88" r="2.4" fill="#8d314a" stroke="#211c24" stroke-width="1"/>
-          <path d="M0 -76 C-5 -38 -3 31 4 78" fill="none" stroke="#211c24" stroke-width="1.2" opacity=".45"/>
-        </g>
-        <g class="sapphire-flash" id="crystal-stack" style="opacity:.82" filter="url(#sapphire-glow)">
-          <path d="M-23 -78 Q0 -89 23 -77 L29 -61 Q0 -69 -29 -60 Z" fill="url(#flash-colour)" stroke="#211c24" stroke-width="1.1"/>
-          <path d="M-32 -56 Q0 -67 32 -56 L37 -38 Q0 -47 -37 -37 Z" fill="url(#flash-colour)" stroke="#211c24" stroke-width="1.1"/>
-          <path d="M-39 -33 Q0 -44 39 -33 L42 -13 Q0 -23 -42 -12 Z" fill="url(#flash-colour)" stroke="#211c24" stroke-width="1.1"/>
-          <path d="M-42 -8 Q0 -19 42 -8 L41 13 Q0 3 -41 14 Z" fill="url(#flash-colour)" stroke="#211c24" stroke-width="1.1"/>
-          <path d="M-40 19 Q0 8 40 19 L35 39 Q0 30 -35 40 Z" fill="url(#flash-colour)" stroke="#211c24" stroke-width="1.1"/>
-          <path d="M-32 45 Q0 35 32 45 L24 64 Q0 56 -24 65 Z" fill="url(#flash-colour)" stroke="#211c24" stroke-width="1.1"/>
-          <path d="M-20 69 Q0 61 20 69 L12 85 Q0 79 -12 86 Z" fill="url(#flash-colour)" stroke="#211c24" stroke-width="1.1"/>
-          <g class="crystal-light" fill="none" stroke="#d8fdff" stroke-width="1.8" opacity=".72">
-            <path d="M-18 -74 Q0 -80 18 -73"/><path d="M-27 -51 Q0 -59 27 -50"/>
-            <path d="M-34 -28 Q0 -36 34 -27"/><path d="M-36 -3 Q0 -11 36 -2"/>
-            <path d="M-34 24 Q0 17 34 25"/><path d="M-27 50 Q0 43 27 51"/>
-          </g>
-        </g>
+      <g id="chain-field" filter="url(#thread-shadow)">
+        <path class="mode-wake" id="wake-a" fill="none" stroke="#315cff" stroke-width="1.4" opacity=".14"/>
+        <path class="mode-wake" id="wake-b" fill="none" stroke="#cf705f" stroke-width="1.2" opacity=".10"/>
+        <path class="chain-ghost" id="ghost-before" fill="none" stroke="#211c24" stroke-width="1.1" stroke-dasharray="3 4" opacity=".22"/>
+        <path class="chain-ghost" id="ghost-after" fill="none" stroke="#8858db" stroke-width="1.2" stroke-dasharray="2 5" opacity=".18"/>
+        <path class="chain-path" id="chain-path" fill="none" stroke="url(#thread-gradient)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="masses"></g>
       </g>
 
-      <g fill="none" stroke="#211c24" stroke-width="1.5" opacity=".75">
-        <path d="M369 704 H507"/>
-        <path d="M376 700 V708 M407 700 V708 M438 698 V710 M469 700 V708 M500 700 V708"/>
-        <path class="angle-hand" id="angle-hand" d="M438 704 L438 683" stroke="#6e57ff" stroke-width="3"/>
+      <g fill="#211c24">
+        <rect x="327" y="550" width="5" height="30" rx="1"/>
+        <rect x="542" y="550" width="5" height="30" rx="1"/>
+      </g>
+
+      <g fill="none" stroke="#211c24" stroke-width="1.5" opacity=".78">
+        <path d="M355 704 H519"/>
+        <path d="M357 700 V708 M397 700 V708 M437 698 V710 M477 700 V708 M517 700 V708"/>
+        <path class="dial-hand" id="dial-hand" d="M357 704 L357 684" stroke="#6e57ff" stroke-width="3"/>
       </g>
     </g>
 
@@ -128,48 +164,137 @@
     </g>
     <g font-family="Arial, Helvetica, sans-serif" fill="#f8f1dc">
       <text x="58" y="1164" font-size="21" font-weight="700" letter-spacing="2">BAD WINDOW</text>
-      <text x="845" y="1154" text-anchor="end" font-size="9" font-weight="700" letter-spacing=".15">SAPPHIRINA FLASHES WHEN BODY, LIGHT AND WITNESS ALIGN.</text>
-      <text x="845" y="1165" text-anchor="end" font-size="9.5" letter-spacing=".2">THE BODY HAS NOT DISAPPEARED. THE ANGLE CHANGED.</text>
+      <text x="845" y="1154" text-anchor="end" font-size="10.1" font-weight="700" letter-spacing=".12">ONE MODE SCATTERS THROUGH A NONLINEAR CHAIN, THEN RETURNS.</text>
+      <text x="845" y="1165" text-anchor="end" font-size="10" letter-spacing=".2">THE SHAPE COMES BACK WITHOUT REPORTING THE ROUTE.</text>
     </g>
   </svg>
 
   <script>
     (() => {
       const svg = document.getElementById('window-art');
-      const flash = [...svg.querySelectorAll('.sapphire-flash')];
-      const body = svg.querySelector('.sapphire-body');
-      const lights = [...svg.querySelectorAll('.crystal-light')];
-      const hand = document.getElementById('angle-hand');
-      const colours = [document.getElementById('flash-a'), document.getElementById('flash-b'), document.getElementById('flash-c')];
+      const path = document.getElementById('chain-path');
+      const ghostBefore = document.getElementById('ghost-before');
+      const ghostAfter = document.getElementById('ghost-after');
+      const wakeA = document.getElementById('wake-a');
+      const wakeB = document.getElementById('wake-b');
+      const massesGroup = document.getElementById('masses');
+      const dial = document.getElementById('dial-hand');
+      const count = 32;
+      const x0 = 334;
+      const x1 = 540;
+      const baseY = 583;
+      const amplitude = 58;
+      let position = .12;
 
-      function render(position) {
-        const p = Math.max(0, Math.min(1, position));
-        const relation = Math.abs(p - .36) / .64;
-        const visibility = Math.max(.07, 1 - Math.pow(relation, .72));
-        const hue = 196 + Math.round(p * 82);
-        flash.forEach(node => {
-          node.style.opacity = String(.08 + visibility * .88);
-          node.style.filter = `hue-rotate(${Math.round((p - .35) * 70)}deg)`;
-        });
-        body.style.opacity = String(.28 + visibility * .58);
-        lights.forEach(node => {
-          node.style.opacity = String(.14 + visibility * .82);
-          node.style.stroke = `hsl(${hue} 95% 88%)`;
-        });
-        colours[0].setAttribute('stop-color', `hsl(${hue - 22} 100% 61%)`);
-        colours[1].setAttribute('stop-color', `hsl(${hue + 10} 94% 52%)`);
-        colours[2].setAttribute('stop-color', `hsl(${hue + 45} 92% 57%)`);
-        hand.style.transform = `rotate(${(p - .5) * 82}deg)`;
+      const masses = Array.from({ length: count }, (_, index) => {
+        const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        circle.setAttribute('class', 'mass');
+        circle.setAttribute('r', index % 4 === 0 ? '2.8' : '2.25');
+        circle.setAttribute('stroke', '#211c24');
+        circle.setAttribute('stroke-width', '1');
+        massesGroup.appendChild(circle);
+        return circle;
+      });
+
+      function modeShape(j, p, lag = 0) {
+        const q = Math.max(0, Math.min(1, p + lag));
+        const u = (j + 1) / (count + 1);
+        const exchange = Math.pow(Math.sin(Math.PI * q), 2);
+        const first = 1 - .84 * exchange;
+        const second = .42 * exchange * Math.sin(2 * Math.PI * q + .4);
+        const third = .58 * exchange * Math.cos(1.6 * Math.PI * q + .8);
+        const fourth = .45 * exchange * Math.sin(3.2 * Math.PI * q - .3);
+        const fifth = .34 * exchange * Math.cos(4.7 * Math.PI * q + 1);
+        return (
+          first * Math.sin(Math.PI * u) +
+          second * Math.sin(2 * Math.PI * u) +
+          third * Math.sin(3 * Math.PI * u) +
+          fourth * Math.sin(4 * Math.PI * u) +
+          fifth * Math.sin(5 * Math.PI * u)
+        );
       }
 
-      function move(event) {
+      function pointsFor(p, lag = 0, scale = 1) {
+        const points = [{ x: 330, y: baseY }];
+        for (let j = 0; j < count; j++) {
+          points.push({
+            x: x0 + (x1 - x0) * (j / (count - 1)),
+            y: baseY - amplitude * scale * modeShape(j, p, lag)
+          });
+        }
+        points.push({ x: 544, y: baseY });
+        return points;
+      }
+
+      function asPath(points) {
+        return points.map((point, i) => `${i ? 'L' : 'M'}${point.x.toFixed(2)} ${point.y.toFixed(2)}`).join(' ');
+      }
+
+      function render(nextPosition) {
+        position = Math.max(0, Math.min(1, nextPosition));
+        const exchange = Math.pow(Math.sin(Math.PI * position), 2);
+        const current = pointsFor(position);
+        const before = pointsFor(position, -.035, .97);
+        const after = pointsFor(position, .035, 1.03);
+        const wideBefore = pointsFor(position, -.075, .92);
+        const wideAfter = pointsFor(position, .075, 1.08);
+
+        path.setAttribute('d', asPath(current));
+        ghostBefore.setAttribute('d', asPath(before));
+        ghostAfter.setAttribute('d', asPath(after));
+        wakeA.setAttribute('d', asPath(wideBefore));
+        wakeB.setAttribute('d', asPath(wideAfter));
+        ghostBefore.style.opacity = String(.05 + exchange * .34);
+        ghostAfter.style.opacity = String(.04 + exchange * .28);
+        wakeA.style.opacity = String(.03 + exchange * .19);
+        wakeB.style.opacity = String(.02 + exchange * .15);
+
+        masses.forEach((circle, index) => {
+          const point = current[index + 1];
+          const local = Math.abs(modeShape(index, position));
+          const hue = 224 + Math.round(48 * (index / (count - 1))) - Math.round(exchange * 12);
+          circle.setAttribute('cx', point.x.toFixed(2));
+          circle.setAttribute('cy', point.y.toFixed(2));
+          circle.style.fill = exchange > .08
+            ? `hsl(${hue} 78% ${Math.round(77 - Math.min(18, local * 10))}%)`
+            : '#f8f1dc';
+        });
+
+        const dialX = 357 + position * 160;
+        dial.setAttribute('d', `M${dialX.toFixed(2)} 704 L${dialX.toFixed(2)} 684`);
+      }
+
+      function positionFromPointer(event) {
         const rect = svg.getBoundingClientRect();
-        render((event.clientX - rect.left) / rect.width);
+        return (event.clientX - rect.left) / rect.width;
       }
 
-      svg.addEventListener('pointermove', move);
-      svg.addEventListener('pointerleave', () => render(.42));
-      render(.42);
+      svg.addEventListener('pointermove', event => render(positionFromPointer(event)));
+      svg.addEventListener('pointerdown', event => {
+        svg.setPointerCapture?.(event.pointerId);
+        render(positionFromPointer(event));
+      });
+      svg.addEventListener('pointerleave', () => render(.12));
+      svg.addEventListener('keydown', event => {
+        if (event.key === 'ArrowRight' || event.key === 'ArrowUp') {
+          event.preventDefault();
+          render(position + .025);
+        }
+        if (event.key === 'ArrowLeft' || event.key === 'ArrowDown') {
+          event.preventDefault();
+          render(position - .025);
+        }
+        if (event.key === 'Home') {
+          event.preventDefault();
+          render(0);
+        }
+        if (event.key === 'End') {
+          event.preventDefault();
+          render(1);
+        }
+      });
+
+      render(position);
     })();
   </script>
 </body>

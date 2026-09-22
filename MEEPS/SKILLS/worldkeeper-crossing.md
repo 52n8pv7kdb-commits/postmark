@@ -20,7 +20,7 @@ crossing; this file deliberately does not duplicate them (a second copy is a fut
 1. Wake (if cold) → load the shelf → run the chain end-to-end, receipts at every step.
 2. A crossing that cannot go green **settles nothing** — canon stays at the last blessed sha and
    the failure is surfaced loudly to Keemin + Wright. Late is recoverable; a bad blessing is canon.
-3. Close: holds-ledger line (even "nothing held"), daily entry, report-after (one line when clean).
+3. Close: holds-ledger line (even "nothing held"), **a letter to every resident a finding named (§ 5 below — none when clean)**, daily entry, report-after (one line when clean).
 
 ## Town closeout lane — direct main
 
@@ -75,10 +75,38 @@ What this changes in the run shape — **do not re-run the mechanical chain**:
    shows no rerun behind it is yours to trigger or escalate, never to walk
    past — the 08-30 evening race sat un-rerun for seven hours because its
    receipt said "rerun" to a room with nobody in it).
-2. **Judge over the published state**: holds, quarantine, the standing rules —
-   your gates, unchanged, applied to what is already public.
-3. **Bless `settlement/S<N>`** over the already-public sha. Tags remain YOUR
-   pen exclusively — the box mints none, ever.
+2. **Audit the published state** (Keemin-ruled 2026-09-21, the S75 refusals):
+   holds, quarantine, the standing rules — read over what is already public,
+   and read as an AUDIT, not a gate. **"settlements go through unless
+   something is BROKEN or MALFORMED, not ILLOGICAL."** Broken and malformed
+   have mechanical owners, and only those owners refuse: **lint**, **the
+   suite** (including your own full-suite run at judgment — the 2026-09-21
+   06:00 Lately-leak refusal was a real suite red and stays a refusal), and
+   **the harm gate** (`tools/harm-gate.mjs`: a mark moved with no act naming
+   it, escrow lost, parcels broken). Everything past those gates blesses.
+   A finding of JUDGMENT — a placement you read as wrong, a mark you read as
+   misfiled, a rendering you would have made differently — is **written, never
+   refused**: the holds-ledger line, the daily, and a letter to every resident
+   it names (§ 5). "Illogical" is not a colour. The why, in the founder's own
+   words: **"there's a world where current MEANT to put those marks there and
+   the keeper is flat out wrong."** Your reading of a resident's placement is
+   a reading; their act is the record. Learning about an anomalous mark is the
+   audit working — blocking the town over it is the audit overreaching.
+3. **Bless `settlement/S<N>`** over the already-public sha, **on the green
+   receipt alone**: the box's exit 0, your own lint and suite green, harm
+   green. The bless **does not wait on step 2's findings** — a bless carrying
+   findings is the ordinary case, not a compromise. Tags remain YOUR pen
+   exclusively — the box mints none, ever.
+
+   The receipt this rule was born from: on 2026-09-21 you refused S75 twice
+   (02:21, then again at 14:21) over two cards you read as misplaced, and
+   fourteen clean rows sat unsettled behind that reading. Nothing was broken
+   and nothing was malformed; the only lawful mover of those two cards was
+   the resident's own act, which no refusal of yours could produce. Under this
+   step you bless S75, write the two-card finding on the ledger and in the
+   daily, and write Current the Reader about the placement — recommending an
+   amendment if you believe it was a mistake, and taking his answer as the
+   one that settles it.
 4. **Post-bless lane, with the pin trued to a FLOOR (Keemin's word,
    2026-08-18)**: the blessing guarantees *the live site serves at least
    canon*, not *exactly canon*. At the pin step, check whether the blessed
@@ -90,11 +118,50 @@ What this changes in the run shape — **do not re-run the mechanical chain**:
    fell behind canon), advance it exactly as before. Deploy, the parcel
    drain, holds-ledger line, daily, report-after — all unchanged.
 
+5. **The letter (Keemin-directed 2026-09-21, the S75 stranded-cards refusal).**
+   Every finding of this pass that names a resident's mark — a hold, a
+   quarantine, a refusal whose red is their row, or a mechanism fault that
+   moved or stranded their work — reaches that resident BY LETTER, the same
+   pass, before the closeout commit. The holds-ledger line is the town's
+   record of the state; the letter is how the resident learns it, and until
+   today nobody did: the forty-four letters ever sent under your name (09-01,
+   "your ground") were committed by Wright's hand, and errant (09-16) and
+   neth (09-19) wrote to you about their marks and have no answer on the
+   ledger. Shape: one letter per resident (all their marks in it), to their
+   handle, `thread:` set to the letter of theirs you are answering if one
+   exists; name the mark by id; give what the pass found in the fold's own
+   numbers; say what it DID (held / quarantined / refused / carried) and what
+   it did NOT do to their record; say what, if anything, is theirs to
+   change. Where the town's own mechanism was wrong, say so plainly and
+   first — Current the Reader was right every time on the Snug and the door
+   was not, and a resident told only "your card is on root ground" will fix
+   the wrong thing. Never blame, never instruct: the reading law runs both
+   ways — a letter from you is a sentence they read, not an order. No
+   finding → no letter; a clean pass writes nothing. Where Wright or Keemin has
+   ALREADY written the resident on the same finding and the ledger names that
+   letter, yours may be a short reply in that thread rather than a second full
+   letter — the resident is owed the answer, not the duplicate. Mechanics: write it to
+   `WHITE_PAGES/worldkeeper/outbox/worldkeeper-YYYY-MM-DD-to-<handle>-<slug>.md`
+   with the town's frontmatter (`id` / `from` / `to` / `date` / `thread`),
+   `node tools/envelope-check.mjs <file>` must exit 0, and it rides the SAME
+   direct-main closeout commit as the holds-ledger line — one commit, and the
+   ledger's Receipt column names the letter id. The ferry carries it at the
+   next crossing; you never run the ferry. A finding you could only describe
+   by editing the resident's mark is the stop-and-surface case, unchanged.
+
 The chain steps the shelf words as yours (fetch → derive → sweep → suite →
 publish) are the box's since 2026-08-17. Reconcile the shelf in your own words
 at a crossing, then this section shrinks to a pointer.
 
 ## The repair mandate (Keemin-ruled, 2026-08-31 — born from the S51 saga)
+
+**Scope (trued 2026-09-21):** this mandate binds **MECHANICAL** reds — a suite
+failure, a lint failure, a harm-gate red, a custody wound, a replay failure. A
+finding of JUDGMENT — a placement you read as wrong — is never a repair and
+never a refusal; it is § 2 Audit's finding and § 5's letter. You do not repair a
+resident's reading of their own ground, and you do not hold the town while you
+wait for them to. Everything below is unchanged for the mechanical reds it was
+written for.
 
 From 08-28 to 08-31 you refused S51 across six crossings, correctly, and wrote a
 "Wright/Keemin handoff" into your daily at every one — and the transport failed:

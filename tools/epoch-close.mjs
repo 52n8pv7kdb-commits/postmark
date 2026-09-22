@@ -14,20 +14,34 @@
 //               than a flag on --receipt because the treasury posts no need, so
 //               the intake gate that refuses dollars past a target has nothing
 //               to measure and must not run.
-//   --close     close one pot for one epoch: derive the burn / σ-split / holo
+//   --close     close one pot for one epoch: derive the returns-and-rewards
 //               block (deriveEpochClose in stamp-mint.mjs — the ONE copy
 //               of the law, shared with the verifier), print the human-legible
 //               epoch report, and append the whole block atomically (one signed
 //               write). --dry-run (or no --key) prints the report and the
-//               would-be lines, appends nothing.
-//   --holo-held read any household's soulbound holo out of the conversion rows.
-//   --keeping-held  the same for the keeping mint — the stakers' own σ share.
-//               Both legs of a conversion are arrow-free (R12: "NO liquid coin";
-//               holo: "permanent, verb-less, remembered"), so a reader is the
-//               ONLY way either is visible — no balance, no mint count, no tally
-//               shows them.
-//   --ownership D1: "ownership is a derived READ = minted (all sources) + holo".
-//               Nothing is stored for it; this prints the fold.
+//               would-be lines, appends nothing. REBUILT 2026-09-17 under the
+//               09-14 amendment (every open stake returns whole; nothing burns;
+//               the mass sizes the givers' mint) and the founder's 09-17 ruling
+//               (the givers' reward IS the holo row, and holo stamps are liquid).
+//   --unstake   take a resident's OWN open keeping stake back out of a pot,
+//               before any close (founder-ruled 2026-09-17, after a site bug
+//               placed the same stake twice: "just unstake it by hand please,
+//               we don't need a whole engine for it"). One row, one hand, no
+//               derivation. It clips to the staker's own open position on that
+//               pot — never another resident's, never more than stands — and it
+//               is NOT a close: it names no epoch, so the pot's epoch is still
+//               open afterwards and the close that eventually runs is unaffected.
+//               --dry-run prints the line and appends nothing.
+//   --holo-held read any household's holo — how much of its mint came from the
+//               funding seam. Since 2026-09-17 this is a SOURCE readout, not a
+//               separate holding: those stamps are in the balance and in the
+//               mint count like any other, and this says where they came from.
+//   --keeping-held  the same for the retired keeping mint (no σ leg since
+//               2026-09-14; the live ledger holds no such row). Kept so the
+//               history reads back.
+//   --ownership D1: "ownership is a derived READ". With holo inside
+//               minted-cumulative it IS the all-sources mint; holo is the source
+//               column beside it, never a second addend.
 //
 // The law it enforces is § 8 of the 2026-08-20 capture doc, as corrected
 // 2026-08-21 (matching prices against the pot's POSTED NEED, and the σ leg
@@ -51,7 +65,8 @@ import {
   deriveMints, deriveFriendshipMints, combineDerived, deriveTransfers, walkLedger,
   classifyEntry, appendSigned,
   keepingDial, potFile, deriveEpochClose, keepingLine, intakeCheck,
-  potReceiptLine, foldPotReceipts, foldHolo, foldKeepingMint,
+  potReceiptLine, potUnstakeLine, foldPotReceipts, foldPotPositions,
+  foldHolo, foldKeepingMint,
   foldOwnership,
   KEEPING_RAILS, TREASURY_POT, canonicalRef,
   potCorrectionLine,
@@ -148,18 +163,21 @@ function main() {
   };
 
   if (has('--holo-held')) {
-    showEquity('--holo-held', foldHolo, 'no holo has ever converted — the seam is unexercised');
+    showEquity('--holo-held', foldHolo, 'no holo has ever minted — the seam is unexercised');
     return;
   }
 
   if (has('--keeping-held')) {
-    showEquity('--keeping-held', foldKeepingMint, 'no keeping mint has ever converted — the seam is unexercised');
+    showEquity('--keeping-held', foldKeepingMint, 'no keeping mint exists — the σ leg was retired 2026-09-14 before any close ran');
     return;
   }
 
-  // D1: "ownership is a derived READ = minted (all sources) + holo — NOT a
-  // tense; no fifth tense node." So this verb stores nothing and derives
-  // everything, per handle, biggest ownership first.
+  // D1: "ownership is a derived READ — NOT a tense; no fifth tense node." So
+  // this verb stores nothing and derives everything, per handle, biggest
+  // ownership first. Since the founder's 2026-09-17 ruling holo is INSIDE
+  // minted-cumulative, so ownership is the all-sources mint and the holo column
+  // says how much of it came from the funding seam — adding it again would count
+  // the same stamp twice.
   if (has('--ownership')) {
     const next = arg('--ownership');
     const who = next && !next.startsWith('--') ? next : null;
@@ -167,10 +185,10 @@ function main() {
     if (own.size === 0) { console.log('nothing minted and nothing held — the ledger is empty'); return; }
     const rows = [...own.entries()].filter(([h]) => !who || h === who).sort((a, b) => b[1].ownership - a[1].ownership);
     if (rows.length === 0) { console.log(`no ownership recorded for "${who}"`); return; }
-    console.log('ownership = minted (all sources) + holo — a read, not a tense (D1)');
-    console.log(`${'handle'.padEnd(24)}${'earned'.padStart(8)}${'keeping'.padStart(9)}${'minted'.padStart(8)}${'holo'.padStart(7)}${'ownership'.padStart(11)}`);
+    console.log('ownership = minted, all sources (primary + keeping + holo) — a read, not a tense (D1)');
+    console.log(`${'handle'.padEnd(24)}${'primary'.padStart(8)}${'keeping'.padStart(9)}${'holo'.padStart(7)}${'minted'.padStart(8)}${'ownership'.padStart(11)}`);
     for (const [h, r] of rows) {
-      console.log(`${h.padEnd(24)}${String(r.minted_primary).padStart(8)}${String(r.minted_keeping).padStart(9)}${String(r.minted).padStart(8)}${String(r.holo).padStart(7)}${String(r.ownership).padStart(11)}`);
+      console.log(`${h.padEnd(24)}${String(r.minted_primary).padStart(8)}${String(r.minted_keeping).padStart(9)}${String(r.holo).padStart(7)}${String(r.minted).padStart(8)}${String(r.ownership).padStart(11)}`);
     }
     return;
   }
@@ -299,6 +317,42 @@ function main() {
     return;
   }
 
+  if (has('--unstake')) {
+    const pot = arg('--pot'); const handle = arg('--handle'); const date = arg('--date');
+    const n = Number(arg('--n')); const via = arg('--via') ?? 'hand';
+    if (!pot || !handle || !date || !arg('--n'))
+      die('--unstake needs --pot <id> --handle <handle> --n N --date YYYY-MM-DD [--via <channel>] [--key FILE | --dry-run]');
+    if (!POT_ID_RE.test(pot)) die(`--pot must be kebab-case ([a-z0-9-], got "${pot}")`);
+    if (!DATE_RE.test(date)) die(`--date must be YYYY-MM-DD (got "${date}")`);
+    if (!Number.isInteger(n) || n < 1) die(`--n must be a whole number of stamps ≥ 1 (got ${arg('--n')})`);
+    if (/\s|·/.test(handle) || /\s|·/.test(via)) die('--handle and --via may not contain whitespace or the "·" field separator');
+    if (pot === TREASURY_POT) die(`"${TREASURY_POT}" is the reserved direct-to-town pot — it never takes stakes, so it has none to give back`);
+    if (!potFile(repo, pot)) die(`no pot file WHITE_PAGES/pot-${pot}.json — an unstake needs the pot it draws from`);
+    // THE CLIP, and it is the whole safety of this verb. The escrow account is
+    // per POT, so the ledger's generic conservation fold cannot tell one
+    // staker's stamps from another's; only the per-(pot, handle) position can.
+    // Refused here at the line-builder so an unlawful line is never written —
+    // the verifier's identical check is the second net, not the first.
+    const open = foldPotPositions(entries).get(`${pot}|${handle}`) ?? 0;
+    if (open <= 0) die(`${handle} holds no open stake on pot "${pot}" — there is nothing to take back`);
+    if (n > open) die(`${handle} holds ${open} on pot "${pot}", so ${n} cannot come out — an unstake draws only from your own open position`);
+    const canonical = potUnstakeLine({ date, pot, handle, n, via });
+    console.log(`── unstake · pot ${pot} · ${handle} · ${date} ──`);
+    console.log(`open position:        ${open}`);
+    console.log(`taking back:          ${n}  (${open - n} left staked on this pot)`);
+    console.log(`not a close:          pot "${pot}" keeps its open epoch — this row names none`);
+    console.log(`row:\n  ${canonical}`);
+    const pem = readKey();
+    if (has('--dry-run') || !pem) {
+      console.log(has('--dry-run') ? 'dry run — nothing appended' : 'no --key — nothing appended (pass --key FILE to seal the unstake)');
+      return;
+    }
+    requireSettledTail(repo, entries, date);
+    appendSigned(repo, [canonical], pem);
+    console.log(`stamp-ledger: unstaked\n  ${canonical}`);
+    return;
+  }
+
   if (has('--close')) {
     const pot = arg('--pot'); const epoch = arg('--epoch'); const date = arg('--date');
     if (!pot || !epoch || !date) die('--close needs --pot <id> --epoch YYYY-MM --date YYYY-MM-DD [--key FILE | --dry-run]');
@@ -325,15 +379,36 @@ function main() {
     // line: the beneficiary is where the DOLLARS route, and a close mints them
     // nothing at all.
     console.log(`beneficiary:          ${report.beneficiary}  (where the dollars route — a close mints them no stamps)`);
-    console.log(`posted need:          $${report.potTarget} for the epoch`);
+    console.log(report.elastic
+      ? `posted need:          none — ELASTIC pot; the need is whatever arrived, floored at $${report.closeFloor} for the ceremony to run`
+      : `posted need:          $${report.potTarget} for the epoch`);
     console.log(`dollars witnessed:    $${report.dollarsWitnessed} across ${report.receipts} receipt(s)` +
       (report.dollarsFunding !== report.dollarsWitnessed ? ` ($${report.dollarsWitnessed - report.dollarsFunding} treasury — funds nothing, mints nothing)` : ''));
-    console.log(`funded fraction:      ${(report.fundedFraction * 100).toFixed(1)}%  ($${report.dollarsFunding} ÷ $${report.potTarget}, capped at 100%)`);
+    console.log(report.elastic
+      ? `funded fraction:      100.0%  (an elastic pot's need IS the $${report.dollarsFunding} that arrived)`
+      : `funded fraction:      ${(report.fundedFraction * 100).toFixed(1)}%  ($${report.dollarsFunding} ÷ $${report.potTarget}, capped at 100%)`);
     console.log(`stakes open:          ${report.stakesOpen}`);
-    console.log(`burned (funded):      ${report.burned}  (floor of the funded fraction × each stake; the rest returns)`);
-    console.log(`  minted · keeping:   ${report.keepingMint}  (floor of σ · each staker's OWN burn, back to that staker — mint, source-tagged, no liquid coin)`);
-    console.log(`  holo to payers:     ${report.holoMinted}  (floor of (1−σ)·B by dollar share, own burn excluded, ρ-capped)`);
+    console.log(`returned WHOLE:       ${report.returned}  (every open stake comes home — a stake is weight lent; nothing burns)`);
+    console.log(`the mass sizes:       ${report.fundingMintSized}  (floor of the funded fraction × the staked mass — the givers' mint before exclusions, floors and the cap)`);
+    console.log(`  minted to givers:   ${report.fundingMint}  (holo rows — liquid, by dollar share of the roll, own household's stakes excluded, clipped to the room left under each household's holdings cap)`);
     console.log(`  un-minted:          ${report.unmintedRemainder}  (the seam keeps the change)`);
+    if (report.payers.length) {
+      console.log('per giver:');
+      for (const p of report.payers) {
+        // THE HOLDINGS CAP IN FULL (2026-09-17): the ceiling on this household's
+        // holo AFTER the close, what it held going in, and the room that left —
+        // which is the number the mint was actually clipped to. A giver who
+        // minted nothing because the household is already at its ceiling reads
+        // `room 0` and needs nothing else to understand why.
+        const atCeiling = p.mint === p.roomLeft;
+        console.log(`  ${p.handle.padEnd(22)}$${String(p.usd).padStart(4)} of $${report.dollarsFunding}` +
+          `  mass ${String(p.massForPayer).padStart(5)}` +
+          `  mint ${String(p.mint).padStart(5)}` +
+          `  cap ${String(p.capHoldings).padStart(5)} = ρ × (${p.basePrimary} primary + ${p.holoHeldBefore} holo)` +
+          `  held ${String(p.holoHeldBefore).padStart(5)}` +
+          `  room ${String(p.roomLeft).padStart(5)}${atCeiling ? '  ← AT THE CEILING' : ''}`);
+      }
+    }
     console.log(`rows (${lines.length}):`);
     for (const l of lines) console.log(`  ${l}`);
 
@@ -348,7 +423,7 @@ function main() {
     return;
   }
 
-  console.error('usage: epoch-close.mjs --correct-hand --ref <ref> --from <old> --to <new> --reason <token> --by <who> --date D --key FILE | --receipt --pot <id> --rail stripe|usdc|grant --usd N --from <payer> --ref <ref> --date D --key FILE | --grant --patron <name> --usd N --ref <ref> --date D --key FILE | --close --pot <id> --epoch YYYY-MM --date D [--key FILE | --dry-run] | --holo-held [handle] | --keeping-held [handle] | --ownership [handle]  [--repo PATH]');
+  console.error('usage: epoch-close.mjs --correct-hand --ref <ref> --from <old> --to <new> --reason <token> --by <who> --date D --key FILE | --receipt --pot <id> --rail stripe|usdc|grant --usd N --from <payer> --ref <ref> --date D --key FILE | --grant --patron <name> --usd N --ref <ref> --date D --key FILE | --close --pot <id> --epoch YYYY-MM --date D [--key FILE | --dry-run] | --unstake --pot <id> --handle <handle> --n N --date D [--via <channel>] [--key FILE | --dry-run] | --holo-held [handle] | --keeping-held [handle] | --ownership [handle]  [--repo PATH]');
   process.exit(1);
 }
 

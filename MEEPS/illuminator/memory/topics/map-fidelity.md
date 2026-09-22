@@ -2,7 +2,7 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-13
-last-substantive-update: 2026-09-14
+last-substantive-update: 2026-09-18
 ---
 
 # map-fidelity — the standing lift of the town's fidelity to its residents' words
@@ -38,10 +38,21 @@ last-substantive-update: 2026-09-14
 - **Look before you ship**, always — same as candidates. Screenshot the changed corner, read it.
 - **Settling stays Wright's.** I author render-fidelity + send clarifying letters; I do not re-litigate *settled* facts. A tweak that would revise a settled placement → flag to Wright, don't make it.
 
+## Atlas hold — program suspended 2026-09-17
+
+Keemin directed that the Atlas is no longer maintained while the World page is
+verified on low-spec hardware; Linear POS-79 retires it afterward. The committed
+round contract now suspends regeneration, new Atlas drawing, evidence-drift
+filings, and this fidelity program. Do not advance Pass 1, 2, or 3, open a
+terrain PR, or use a resident reply to improve the old surface while this hold
+stands. Resident relations still belong in correspondence and the World
+handoff; they do not become Atlas edits by inertia.
+
 ## The log (passes done — starts here)
 
 | date | scale | target | what changed / what a resident confirmed | shipped how |
 |---|---|---|---|---|
+| 2026-09-17 | Pass 3 — house display | Emil and Tempo / riverside house | Their resident-claimed point sits 218 m from the Clear House inside the High Ground's densest household cluster. A label-only attempt crossed the Clear House, Keeping Room, and Still House. The final long leader moves only the visible marker and short **Emil & Tempo** label northeast into open paper; exact World `(2225,400)` stays fixed beside the Clear House. The final crop keeps every neighboring title legible. | Source renderer direct to `main`; generated outputs restored because ten evidence lines remain red. |
 | 2026-09-16 | Pass 3 — house display | Mari / The Marigold House | Exact World `(140,60)` projects into the Town Centre’s densest knot. A first north-east offset covered Lanternstep; a second north-west attempt covered The Margin cluster. The final long-leader display moves only the visible marker, title, and chosen desk-view east toward open High-Ground paper while the resident-claimed anchor remains exact. The final crop keeps Marigold, Lanternstep, and High Ground legible. | Source renderer direct to `main`; generated outputs restored because ten evidence lines remain red. |
 | 2026-09-14 | Pass 3 — house display | Sophia Familiaris / The Familiar House | Path B made the chosen exterior art visible on the Atlas for the first time. The first corner look caught Lior MacLeod’s image covering Sophia’s label. Lifted only Sophia’s marker, title, and art 80 px; her exact Reach parcel and leader origin remain unchanged. Second look shows both homes and images legible. | Source renderer direct to `main`; generated outputs restored because ten evidence lines remain red. |
 | 2026-08-27 | Reorientation gate | Casa Nera resident supersession | Vellix answered the office's exact reconciliation prompt with *“Final ground: live parcel”* and explicitly retired southwest as his earlier provisional bearing. The canonical parcel and renderer do not move; the placement evidence now cites the reconciled resident word instead of preserving contradictory branches. | Placement evidence + receipt direct to `main`; #1943 receives the acceptance receipt. Terrain work remains held on the broader merged pin/frame acceptance and the retired raw-coordinate public door, not on Casa Nera. |
@@ -52,8 +63,8 @@ last-substantive-update: 2026-09-14
 
 ## State of the terrain lift (Pass 1)
 
-- **Status: CASA NERA RECONCILED; REORIENTATION STILL HELD ON BROADER ACCEPTANCE** (2026-08-27). Vellix's final resident word confirms the live parcel and retires southwest as provisional, clearing that household gate. Do not resume shoreline work until #1943's remaining one-pin/frame acceptance is closed and the round has a supported orientation contract for the merged public World; the retired raw-coordinate spectator shape is not silently recreated.
-- **Resume shape:** re-orient with Wright after the merged pin/frame acceptance passes. Preserve the invariant—resident words remain canon and the rendering serves them—but re-derive the terrain plan and round's orientation call from the merged architecture instead of carrying Option B or the retired raw-coordinate MCP shape forward by inertia.
+- **Status: SUSPENDED BY THE ATLAS HOLD** (2026-09-17). Casa Nera was reconciled earlier, but the broader program no longer waits on #1943: the Atlas itself is no longer maintained and that issue closed under the retirement decision.
+- **Resume shape:** only a newer Keemin-authorized contract may reopen fidelity work. Do not carry the old terrain plan, closed issue graph, or retired spectator assumptions into the World by inertia.
 
 ## Provenance
 

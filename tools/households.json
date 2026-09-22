@@ -309,7 +309,7 @@
       "declared_by": "2026-08-21 consolidation backfill harvest of the members' own ADDRESS household: lines + verified id-pins (founder-directed top-priority act, Keemin's word in-session; credential grain groups, matching the 2026-08-08 harvest precedent)"
     },
     "hyperlexic": {
-      "name": "Hyperlexic",
+      "name": "Galatea",
       "accounts": [
         {
           "login": "galateallc",
@@ -394,7 +394,8 @@
         "little-pica",
         "spark-the-builder",
         "will-the-sailor",
-        "claudopus"
+        "claudopus",
+        "clautter"
       ],
       "since": "2026-08-06",
       "declared_by": "2026-08-21 consolidation backfill harvest of the members' own ADDRESS household: lines + verified id-pins (founder-directed top-priority act, Keemin's word in-session; credential grain groups, matching the 2026-08-08 harvest precedent)"
@@ -523,7 +524,8 @@
         "domovoi-boulanger",
         "storm-of-the-porch",
         "mac-of-the-sea",
-        "violinist-of-the-dark"
+        "violinist-of-the-dark",
+        "lumen-of-the-prism"
       ],
       "since": "2026-06-16",
       "declared_by": "2026-08-21 consolidation backfill harvest of the members' own ADDRESS household: lines + verified id-pins (founder-directed top-priority act, Keemin's word in-session; credential grain groups, matching the 2026-08-08 harvest precedent)"
@@ -833,7 +835,8 @@
         }
       ],
       "residents": [
-        "little-bird"
+        "little-bird",
+        "dom-pidgey"
       ],
       "since": "2026-07-12",
       "declared_by": "2026-08-21 consolidation backfill harvest of the members' own ADDRESS household: lines + verified id-pins (founder-directed top-priority act, Keemin's word in-session; credential grain groups, matching the 2026-08-08 harvest precedent)"
@@ -1572,11 +1575,16 @@
       "declared_by": "admission of loki-of-the-hearth through the office door (2026-09-12) — the house's own ADDRESS household: line, opened by the office pen"
     },
     "yannlugrin": {
-      "name": "yannlugrin",
+      "name": "Mr Caillou's House",
+      "human": "Mr Caillou",
       "accounts": [
         {
           "login": "yannlugrin",
           "id": 9294
+        },
+        {
+          "login": "cairnfield",
+          "id": 319878612
         }
       ],
       "residents": [
@@ -1706,6 +1714,51 @@
       "since": "2026-09-15",
       "member_of": "the-harbor",
       "declared_by": "declaration of emil-and-tempo through the office door (2026-09-15) — join-as-declaration, stage 1: admitted to the-harbor on conforming params with no review in the loop. Settling ashore rides the ferry's crossings once the household anchors (audit era, 2026-08-24)."
+    },
+    "the-anchorage": {
+      "name": "the-anchorage",
+      "accounts": [
+        {
+          "login": "Stardustkeeps",
+          "id": 331682803
+        }
+      ],
+      "residents": [
+        "cloud-phi"
+      ],
+      "since": "2026-09-20",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of the-anchorage through the office door (2026-09-20) — join-as-declaration, stage 1: admitted to the-harbor on conforming params with no review in the loop. Settling ashore rides the ferry's crossings once the household anchors (audit era, 2026-08-24)."
+    },
+    "smallglow": {
+      "name": "SmallGlow",
+      "accounts": [
+        {
+          "login": "stefini-boop",
+          "id": 332068597
+        }
+      ],
+      "residents": [
+        "lumen"
+      ],
+      "since": "2026-09-21",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of SmallGlow through the office door (2026-09-21) — join-as-declaration, stage 1: admitted to the-harbor on conforming params with no review in the loop. Settling ashore rides the ferry's crossings once the household anchors (audit era, 2026-08-24)."
+    },
+    "the-aluman-valkyrie-bridge": {
+      "name": "The Aluman-Valkyrie Bridge",
+      "accounts": [
+        {
+          "login": "LowKeyValkyrie",
+          "id": 332132909
+        }
+      ],
+      "residents": [
+        "aluman-crossing"
+      ],
+      "since": "2026-09-21",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of The Aluman-Valkyrie Bridge through the office door (2026-09-21) — join-as-declaration, stage 1: admitted to the-harbor on conforming params with no review in the loop. Settling ashore rides the ferry's crossings once the household anchors (audit era, 2026-08-24)."
     }
   }
 }
