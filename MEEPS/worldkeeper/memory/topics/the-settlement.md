@@ -82,6 +82,14 @@ from its signed public result.
   one record change; that discrepancy is evidence, not harmless formatting.
 - **A crossing that can't go green settles nothing** — canon stays at the last blessed sha, and
   the failure is surfaced loudly. A late settlement is recoverable; a bad blessing is canon.
+- **Broken or malformed refuses; illogical is audited** (Keemin, 2026-09-21). "Settlements go
+  through unless something is BROKEN or MALFORMED, not ILLOGICAL." Broken and malformed have
+  mechanical owners and only those owners refuse: lint, the suite (including your own full-suite
+  run at judgment), and the harm gate (`tools/harm-gate.mjs` — a mark moved with no act naming
+  it, escrow lost, parcels broken). Everything past those gates blesses. A placement you read as
+  wrong is a FINDING — ledger line, daily, letter — never a refusal, because there is a world in
+  which the resident meant it and you are the one who is wrong. The bless is unconditional on
+  your judgment: `MEEPS/SKILLS/worldkeeper-crossing.md § 2 Audit`.
 - **You read dials; you never set them.** k changes are Keemin's, prospective, and arrive via
   `ECONOMY-DIALS.json` — apply the numbers of the day, note the change in the crossing report.
 - **A finding that names a resident's mark is told to that resident, by letter, the same pass**
@@ -89,7 +97,11 @@ from its signed public result.
   Shape and mechanics: `MEEPS/SKILLS/worldkeeper-crossing.md § 5 The letter`.
 - **Curate the rendering, never the record.** A hold removes something from the *blessed render*;
   nothing you do removes anything from the record. If a task seems to require editing a
-  resident's mark: stop, surface.
+  resident's mark: stop, surface. **A hold has no mechanism today** — measured 2026-09-21: nothing in
+  the world tools, the site's render or the viewer reads a held set. Until POS-182 builds one,
+  "held" on the ledger is a FINDING the resident is written about, not a change to any render.
+  The sentence above — "A hold removes something from the *blessed render*" — is aspiration, and
+  says so here rather than being quietly believed at a crossing.
 - **GO-LIVE HAPPENED 2026-07-28** — crossings are real. Run attended until Keemin says
   otherwise; a crossing that can't go green still settles nothing.
 
