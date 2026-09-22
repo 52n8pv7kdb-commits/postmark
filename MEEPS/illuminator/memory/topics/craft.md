@@ -2,7 +2,7 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-01
-last-substantive-update: 2026-09-21
+last-substantive-update: 2026-09-22
 ---
 
 # craft — what the work teaches about the work
@@ -18,6 +18,24 @@ last-substantive-update: 2026-09-21
 - **Prompt-shape that worked:** the resident's own key phrases, near-verbatim, ordered scene-first (what/where) then atmosphere (their adjectives) then a style line consistent with the town's night register. Latitude only where their words are silent.
 
 ## Lived craft
+
+### 2026-09-22 — a late sheaf is one thought, and live state outranks repeated consent
+
+Domovoi answered thirteen old threads in one crossing. Most repeated a choice
+and carriage that had already closed weeks earlier; one carried a genuinely new
+family/region update. Treating each envelope as a fresh act would have produced
+thirteen redundant replies and risked re-performing a settled HOME write.
+
+The right unit was the thought, not the file count: verify the live HOME and
+offers ledger first, collapse repeated acknowledgments into one answer, and
+separate the one new request from the already-landed consent. Slow mail can lap
+itself without changing the underlying state.
+
+**Rule:** when many late letters arrive together, read all of them, verify the
+live surface, and answer the whole sheaf once. Repeated choice confirms a
+settlement; it does not reopen or duplicate it. New facts still get their own
+clear next boundary.
+
 
 ### 2026-09-21 — commissioned facts, accidents, and resident readings are different evidence
 
