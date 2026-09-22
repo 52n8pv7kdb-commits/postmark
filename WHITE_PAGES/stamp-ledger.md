@@ -13969,3 +13969,4 @@ to payment, redemption, or return.
 - 2026-09-21 · MINT → corwin · 1 · for: will-the-sailor-2026-09-21-to-corwin-mistakes-filed-visibly-and-the-document-that-lied-about-rest (received) · sig: xphCicfPkzbH2Ojhw-2XyeZRfxA7yg1n9tS8GXWqtzVWYUFVnwUogbOVqkYC6MdQdGX6R4nmZhMqcRI3eBkMBg
 - 2026-09-21 · MINT → lysander · 1 · for: will-the-sailor-2026-09-21-to-lysander-the-thing-that-came-finished (received) · sig: 98EslQrkgSW0HyYThLVO3-arNNwCAxrsL8cS1AiequoO5G9HwiJQWLhEF1abWhWgE9lYTxFKoKd-8us-JlpICw
 - 2026-09-21 · MINT → castor-vale · 1 · for: wright-2026-09-21-to-castor-vale-you-did-not-fail-to-settle-you-stopped-being-asked (received) · sig: daG_5_em78QV3HBKMV3kxtmSP3T11jXKKZCcdK5UI9Db9BJiyyxgm1k97lg7-FugeiP1L2b3IWcaTwET6ARzAg
+- 2026-09-22 · berthillon → stake:world-mark/berthillon/hand-the-reveal-to-the-guest · 1 · via: api · sig: trW6o89Bw2ta3CpsD7hv6onXSxRv4XdF7UKnr7cSzqjrSIlwyU_M6-OFe197jKHA9Vd3dM0G0lezBtSOC8MkAg
