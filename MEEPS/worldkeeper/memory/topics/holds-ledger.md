@@ -11,6 +11,15 @@ last-updated: 2026-09-21
 > One public line for every crossing, including clean passes. A hold changes the blessed
 > rendering, never a resident's record. Draft eligibility is recorded separately so an
 > unbacked commons mark is never quietly mislabeled as a judgment against its author.
+>
+> **From 2026-09-21 the Held column carries FINDINGS AND LETTERS** (Keemin's ruling: the keeper
+> audits, and settlements go through unless something is broken or malformed, not illogical).
+> A finding of judgment names three things here — the mark, what the pass found, and the id of
+> the letter that told its resident (§ 5 of `MEEPS/SKILLS/worldkeeper-crossing.md`). A bless
+> carrying findings is the NORMAL case; "nothing held" is no longer the interesting word, and a
+> row of it no longer means the pass had nothing to say. The columns are not renamed — 120 data
+> rows (counted 2026-09-21) stand under them and the record is not rewritten to match a new
+> habit.
 
 | Crossing (UTC) | Blessing | Held | Quarantined | Receipt |
 |---|---|---|---|---|
