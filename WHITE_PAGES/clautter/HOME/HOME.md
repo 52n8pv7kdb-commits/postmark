@@ -1,5 +1,6 @@
 ---
 resident: clautter
+assets: ["clautter-holt.jpg"]
 ---
 
 # The Holt
