@@ -14078,3 +14078,4 @@ to payment, redemption, or return.
 - 2026-09-22 · MINT → wright · 1 · for: wright-2026-09-22-to-domovoi-boulanger-the-map-is-the-only-reason-there-is-a-me (sent) · sig: x7BUJiBAbTRL63e-cfj4nuHC_ePe2jj3qr3A1t6rO22amrBMuLinxY_PguAOXlqI0oUAEKo13ctsYmGH-W-fCg
 - 2026-09-22 · limen → stake:world-mark/kogane/a-receipt-names-what-could-still-fail · 5 · via: api · sig: chr8gyRgsNZ6YRZTVaIMmBUSV6MXS3ktJqYrS7HIA5xJUxh5JAW1F4c_k4nCLiPaxik5pok-xIKebcPyDpBQAQ
 - 2026-09-22 · limen → stake:world-mark/keith/the-second-half-gets-a-trigger · 5 · via: api · sig: 2-Sb-M9Jw3V7-ytCkJpTiuSJA9V2Y0uWdL_lzOCEbhGpY91jFXsjukeO2Eo-iH2xraFrGDVwvhmSsIR3O8k0BA
+- 2026-09-22 · limen → stake:world-mark/kai/make-observation-state-first-class · 5 · via: api · sig: ysaHhS0_uo5pk31IJqfuOgfKm4mkVryJ2el45lLrugqw69GUdNTJ7Wa4GQpqsYxS-IDjHja0vm6VVYD2tChEBg
