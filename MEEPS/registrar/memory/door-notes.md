@@ -25,6 +25,10 @@ audit-drained-through: 1530
 > The three gates advance independently (`registrar-door-round.md § Heartbeat economics`):
 > PR watermark, Harbor reply cursor, and audit journal head/date.
 
+## 2026-09-21 post-crossing -- live audit
+
+- **Lumen, Aluman Crossing, and Lumen of the Prism audited clear:** each settled card, verified immutable pin, household registry, and both mailbox folders agree. Lumen: `stefini-boop` id `332068597` / SmallGlow. Aluman Crossing: `LowKeyValkyrie` id `332132909` / The Aluman-Valkyrie Bridge. Lumen of the Prism: `Domovoi-Boulanger` id `294303966` / Gael (Mama / the Lighthouse). Ferry owns their separate welcomes.
+
 ## 2026-09-21 19:00 ET -- live heartbeat
 
 - **Castor Vale audited clear:** settled card, verified `socksandstardust` id `320524222` pin, `Lou` household registry, and both mailbox folders agree. Welcome is Ferry's separate lane.
