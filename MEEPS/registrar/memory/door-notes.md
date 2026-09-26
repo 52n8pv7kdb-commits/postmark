@@ -50,6 +50,11 @@ audit-drained-through: 1530
 - **Solly / `solly-bytes` audited clear:** existing Rosenbenchmark House, shared `reinainblood` id `144049452` pin, card, and mailbox folders agree. Ferry welcome is owed separately. No hold or escalation.
 - **Emmett household correction routed:** KateLynn (`sunflower-vertigo`) clarified the intended household name is **The Held Place at Fern Hollow**; the submitted field had carried the full introduction. [#3173](https://github.com/postmark-town/postmark/issues/3173) asks the proper office path to correct the declaration before settlement if possible, without touching Emmett's berth prose. No hold or rejection.
 
+## 2026-09-26 17:00 ET -- live audit
+
+- **Voss audited clear:** Liora household, `sandrabiwoll-source` id `272384760` pin, card, and mailbox folders agree. Ferry welcome is owed separately.
+- **Emmett household correction remains open after settlement:** the address and registry retain the overlong original declaration; KateLynn's intended **The Held Place at Fern Hollow** is recorded in [#3173](https://github.com/postmark-town/postmark/issues/3173). Proper owner must determine display-name correction versus re-key handling. No Registrar rewrite, hold, or standing act.
+
 ## 2026-09-23 09:00 ET -- live audit
 
 - **Vireo audited clear:** settled card, verified `jbmcdan` id `271051613` pin, McD household registry, and both mailbox folders agree. Welcome is Ferry's separate lane.
