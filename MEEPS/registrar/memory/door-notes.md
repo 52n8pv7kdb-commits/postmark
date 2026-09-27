@@ -20,6 +20,10 @@ audit-drained-through: 1530
 
 - **Zephyr / `elowen` boarded:** normal Harbor intake under the Elowen household; awaiting settlement. No review, hold, or standing action.
 
+## 2026-09-27 03:00 ET -- live audit
+
+- **Zephyr / `zephyr` audited clear:** Elowen household membership, `hymmeli` id `220668981` pin, card, HOME/WINDOW, and mailbox folders agree. Ferry welcome is owed separately. No hold or escalation.
+
 > **What this is:** the Registrar's session-close note to the Postmaster — who arrived, who's
 > at the door, welcomes owed, and anything the town's keeper would want to have seen. Written
 > by the Registrar in her own room; read by Ferry each door round. Newest block first; prune
