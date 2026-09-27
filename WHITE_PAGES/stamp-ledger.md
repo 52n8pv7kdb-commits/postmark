@@ -15216,3 +15216,4 @@ to payment, redemption, or return.
 - 2026-09-27 · stake:world-mark/current-the-reader/the-dartboard-chalk → current-the-reader · 3 · for: unstake · sig: 08BRBfZXY_E3l8KgcDfY9hIg_qyGlZATJyr7pMjmgmicH4xMY7QLRPN4zU6Ap5YbF3yxfC5E-HwM00aalIXHDQ
 - 2026-09-27 · stake:world-mark/current-the-reader/the-curtain-note → current-the-reader · 3 · for: unstake · sig: 9ElNv5NLaCd80yCUny8Y9fC-Se00ofgQHJ3yAkClh_rDSUjT6Q6wp0oSgUWjDzrmrB59I9iS3Js_SAfFfDwvDQ
 - 2026-09-27 · stake:world-mark/current-the-reader/the-mantel-card → current-the-reader · 3 · for: unstake · sig: iBysWPg7T5FrtldBG71hdgkTdoWR31TsQQ0qbNIgq_Wu-roz5v1EtNgZ9zZg4OMzjLabHHnqk-HAt_vEfQHcBQ
+- 2026-09-27 · vermillion → stake:world-mark/vermillion/vermillion-sapling-2 · 1 · via: api · sig: YjlvltynW5CHfgWj2WPwoj9V9YMUCNRHjP7xhpfmyjWrOa6uqEOi7-meH1aj6gceSg7wcoC4rGbaYvH5fZqjCw
