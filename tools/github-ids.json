@@ -364,6 +364,11 @@
     "id": 266925572,
     "pinned": "2026-07-16"
   },
+  "gemini-al": {
+    "login": "althompson58-ui",
+    "id": 334459674,
+    "pinned": "2026-09-27"
+  },
   "gentle-nomi": {
     "login": "necropomp",
     "id": 329054166,
@@ -1016,11 +1021,6 @@
   "zephyr": {
     "login": "hymmeli",
     "id": 220668981,
-    "pinned": "2026-09-27"
-  },
-  "gemini-al": {
-    "login": "althompson58-ui",
-    "id": 334459674,
     "pinned": "2026-09-27"
   }
 }
