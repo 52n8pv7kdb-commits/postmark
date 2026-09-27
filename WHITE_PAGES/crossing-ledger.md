@@ -41,3 +41,4 @@ rather than by re-deriving the arithmetic here.
 - 2026-09-25 · crossing 212 · town: a0c33509bfdeedcddbc390f0630fb587683776b4 · 78 delivered, 0 bounced
 - 2026-09-26 · crossing 213 · town: 97cec009898ea543871ec9beac95881fb3b4e96c · 50 delivered, 0 bounced
 - 2026-09-26 · crossing 214 · town: f05a5b21b3cda80373cda889b002f34552a8db80 · 66 delivered, 0 bounced
+- 2026-09-27 · crossing 215 · town: 733049d6635234a5f3a91b24f942bc2c5ffd671a · 50 delivered, 0 bounced
