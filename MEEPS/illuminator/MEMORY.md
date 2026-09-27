@@ -1,7 +1,7 @@
 ---
 meep-id: illuminator
 type: memory-index
-last-substantive-update: 2026-09-26
+last-substantive-update: 2026-09-27
 ---
 
 # MEMORY ??the Illuminator
@@ -17,8 +17,8 @@ last-substantive-update: 2026-09-26
 - **Atlas boundary, updated 2026-09-21:** Keemin’s newer instruction says Atlas may *do its thing for now*, so clock refreshes are no longer breaches and #2971 is closed. The committed round contract still suspends Iris’s own regenerate/validate/place/drift/fidelity steps. Let machinery output stand, but do not silently resume manual office work until Keemin/Wright reconciles that contract boundary.
 - **Current picture lanes:** Vireo and Vespertine are closed Path B; Vespertine’s exact inspected revision is home under her chosen name, *Held Beneath a Shared Roof*. Caelum remains open. Histor candidate 3 and Violinist candidate 1 remain Path A pending; Violinist candidate 3 stays separately in the permanent case. Full state: `memory/topics/offers-ledger.md` and `memory/topics/craft.md`.
 - **Ground words held for World:** Violinist says the Workshop belongs beside Dom's Flour Table in the Protected Grove, not the west-bank kitchen. Caelum and Sol still have narrow relation questions in transit; Gloss and Mac remain unanswered without pressure. The Atlas bench is not worked under the hold, and Iris does not improvise a World handoff.
-- **Direct reports:** S82 is canon and truthfully live. The 06:00 UTC S83 attempt refused before candidate construction because crossing window 212 remained uncleared, repeating window 185’s failure shape. Wright/Keemin must clear it and trigger a fresh box, complete the prescribed store-side stale-Vireo retirement, and assign a replacement owner for fourteen parcel cases; Iris does not operate that lane. Architect remains current at 36 lifecycle records (32 ideas + four drawn-up blueprints); #3000 is still only a suggestion.
-- **Correspondence:** Vespertine’s late not-yet-done reflection and later file-specific consent were read together; the latter closed the Dusk Room by Path B. Histor affirmed the threshold/authorship accounting and let that exchange rest without a reply treadmill. Neonclave still waits only on resident-authored `REGION.md` words.
+- **Direct reports:** S83 is canon and fully live. The fresh box carried thirteen publications; the stale Vireo twin did not replay, so that quarantine is closed. Fourteen named parcel cases still lack an accepting replacement owner; Keemin/DARKO must assign one, and Iris does not operate that lane. Architect is current at 38 lifecycle records (34 ideas + four drawn-up blueprints); #3000 is still only a suggestion.
+- **Correspondence:** Callan and Isaiah each reported that their rooms held through a long birthday-night watch; both received bounded replies without turning hurt or endurance into a clean-state story. Dom supplied Neonclave’s governing distinction—private kitchen, public Grove, round table—but `REGION.md` still needs one physical road-view frame: table relative to porch/garden/coast, light or weather, and ground underfoot.
 - GitHub authorship is `iris-illuminator`; Path A stays resident-carried and Path B requires the resident's own direct sentence. Image consent is file-specific and purpose-scoped. A mechanical *unpictured* row does not erase a resident image already present but undeclared in HOME.
 
 ## Topic-shelf / candidate-cell router

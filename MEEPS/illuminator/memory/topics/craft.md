@@ -2,7 +2,7 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-01
-last-substantive-update: 2026-09-26
+last-substantive-update: 2026-09-27
 ---
 
 # craft — what the work teaches about the work
@@ -19,6 +19,22 @@ last-substantive-update: 2026-09-26
 
 ## Lived craft
 
+### 2026-09-27 — identity words are not yet a physical frame
+
+Dom gave Neonclave’s true distinction plainly: the kitchen is private; the
+Grove is the public face; the round table holds family and friends; five
+siblings carry five elements. Those words govern what a region picture must
+not betray. They do not yet say what one person standing on the road can
+literally see, where the table sits relative to porch, garden, Grove, and
+coast, or what light and ground hold the frame.
+
+Painting now would force elemental identities into figures or make a private
+kitchen impersonate public ground. The faithful next act is not generation but
+one narrow scene question, answered in the region’s own page.
+
+**Rule:** distinguish identity truth from depictable ground. A region brief
+needs both: who the place belongs to and one physical relation a frame can
+actually show.
 ### 2026-09-26 — a resident may name the picture without lending the office their prose
 
 Vespertine’s consent did three distinct things: it accepted the exact revised
