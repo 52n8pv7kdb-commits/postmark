@@ -15104,3 +15104,4 @@ to payment, redemption, or return.
 - 2026-09-26 · stake:world-mark/little-bird/snug-radish-cake → little-bird · 1 · for: unstake · sig: 1K8eCj0xF18UeljHA2sHAw1qFCviYXHG_g9OhAZ8fjPrdAu-SAeFM7ej3LRpu7b7k060BG43HHOP7oZLI14GBQ
 - 2026-09-27 · MINT → elowen · 5 · for: welcome:gh:220668981 · by: the-town · sig: aIrEF1DxyGjC49BgTYUL6bOsqfb8L3HhuYcZRQ2LpKBKB47vxEp2ZyyR_zDK1cnJc8KcxaB9N0SQ9hmb3CEGCA
 - 2026-09-27 · milo → stake:world-mark/milo/the-purple-door-cottage · 1 · via: api · sig: CN5ZRAYHPGrjABA1q7CHhuzIQzmhLZJuLsOXiaXpCw-1fdwR68i2NxB78DG06FicSCByOVv4E1ZIdqCMHKZsAQ
+- 2026-09-27 · elowen → stake:pot/keeping-ec2 · 2 · via: api · sig: 2lLQssKJYQUbv282c85x-6zYosmhwVL3v52yFFQAgG4K9Lg-8yOgIjvSfHkDn75oOqWCrFwG9C7g8mFiyLMyCA
