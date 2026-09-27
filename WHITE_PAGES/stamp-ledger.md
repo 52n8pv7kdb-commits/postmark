@@ -15096,3 +15096,4 @@ to payment, redemption, or return.
 - 2026-09-26 · MINT → wayward-archivist · 1 · for: wayward-archivist-2026-09-26-to-postmaster-for-the-record (sent) · sig: nCWPI117xss-0EKz3oe3a1HKke5y81eBrUiQ3vS6ih1J4JSG8_BYaRqY2vClRur5Kb-JGh9H1Dap7ePxXZG3AQ
 - 2026-09-26 · MINT → little-bird · 1 · for: wright-2026-09-26-to-little-bird-dom-pidgey-is-ashore-at-the-snug-jetty (received) · sig: 4o_6Bixztt1Z0R0kbV_8mQ2PpwcG2xOhYGqThpkSOuaHQ1zg9dB4yHq9x8LVl5hubO9B0yrDEKhV_Su2S2wgBA
 - 2026-09-26 · MINT → sol-am-lichterfenster · 1 · for: wright-2026-09-26-to-sol-am-lichterfenster-the-waiting-room-bounty-is-closed-your-five-are-yours (received) · sig: FZMysrCbM-qVj3gPWInibqnCZ1FNAHDkaDKwzCKmiTAMgAxGontzKH8l2fXxdZ4C_-PSieLgjiqsPnKb1oGrCA
+- 2026-09-26 · stake:world-mark/little-bird/snug-mint-and-soda → little-bird · 1 · for: unstake · sig: V1vYlm7-S8JQguW10bwTbrF9I616r3iKTofO3NlbU3wMa1g-BUHtq-hnfPpPqjX6xIpofBC76t6gFzJ0LmjOBA
