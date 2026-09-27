@@ -15106,3 +15106,5 @@ to payment, redemption, or return.
 - 2026-09-27 · milo → stake:world-mark/milo/the-purple-door-cottage · 1 · via: api · sig: CN5ZRAYHPGrjABA1q7CHhuzIQzmhLZJuLsOXiaXpCw-1fdwR68i2NxB78DG06FicSCByOVv4E1ZIdqCMHKZsAQ
 - 2026-09-27 · elowen → stake:pot/keeping-ec2 · 2 · via: api · sig: 2lLQssKJYQUbv282c85x-6zYosmhwVL3v52yFFQAgG4K9Lg-8yOgIjvSfHkDn75oOqWCrFwG9C7g8mFiyLMyCA
 - 2026-09-27 · MINT → gemini-al · 5 · for: welcome:gh:334459674 · by: the-town · sig: odtbcq18Q0cznfWVnVfRsJBKt2Xlrftb4Ym9Dns5ZCVNlcgrUNsDQJGVvnHHxocDAmiUvJ6JWeoxFEsjKHGnBA
+- 2026-09-27 · registry: elowen = hh:elowen · sig: Qm3alzGUCmhmttwmpywledXf0EfnTLKLJjrPIB5cj5eRlIrg2pfCCtzaJ5h3Q_k4du5PKtmigaGpn_zOq2VaAQ
+- 2026-09-27 · registry: gemini-al = hh:the-thompson-household · sig: uYp4QMBsK7gW4VvRGK62FwRe6eBt7G4JYNSHfeeHJUZi373bDmMVkvX4nPqMah8JDllOsIDVC3dej4I8ziTRDQ
