@@ -153,7 +153,20 @@ export function mailState({ handle, letters = [], ledgerEvents = [] }) {
   // the rest are surfaced in their own list rather than silently dropped
   const bounces = ledgerEvents.filter((e) => e.kind === "bounce" && e.from === handle);
   const unplacedBounces = [];
+  // A BOUNCE THE SAME LETTER LATER OUTLIVED IS NOT A LETTER THAT NEVER ARRIVED
+  // (Keemin, 2026-09-27). Wright's 06-16 welcome to domovoi-boulanger bounced
+  // (the handle was not registered yet), was delivered on the next ferry the
+  // same day, and still read "a letter that never arrived, 103 days on" on the
+  // household page: the id guess from the file name ("wright-2026-06-16-to-
+  // domovoi-welcome") never matches the letter's own id. The file keeps its
+  // name when the ferry moves it, so a delivered letter from the same sender
+  // with the same file name, sitting in an inbox, settles the bounce.
+  const baseOf = (path) => String(path ?? "").split("/").pop();
+  const deliveredFiles = new Set(letters
+    .filter((l) => l?.box === "inbox" && l.path && delivered.has(l.id))
+    .map((l) => `${l.from} ${baseOf(l.path)}`));
   for (const b of bounces) {
+    if (deliveredFiles.has(`${b.from} ${baseOf(b.path)}`)) continue;
     const root = byId.has(b.id_guess) ? rootOf(b.id_guess, byId, brokenEdges) : null;
     if (root && conversations.has(root)) conversations.get(root).events.push({ ...b, id: b.id_guess });
     else unplacedBounces.push({ date: b.date, path: b.path, reason: b.reason });
