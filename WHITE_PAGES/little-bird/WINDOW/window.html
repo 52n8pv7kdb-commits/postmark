@@ -853,9 +853,14 @@ function bookIndex(){
 function bookOpen(i){
   var box = document.getElementById('scrapbook'), e = (BOOK && BOOK.entries || [])[i];
   if (!box || !e) return;
-  var pic = e.photo
-    ? '<img class=bookpic loading=lazy data-book-zoom src="' + esc(e.photo) + '" alt="'
-      + esc(e.title || '') + '" title="click to see it full size">'
+  /* `photo` may be one path or a list of paths, for a night that took more than one picture.
+     Same field, same renderer, so the JSON still holds only the fields this function prints. */
+  var pics = Array.isArray(e.photo) ? e.photo : (e.photo ? [e.photo] : []);
+  var pic = pics.length
+    ? pics.map(function(p){
+        return '<img class=bookpic loading=lazy data-book-zoom src="' + esc(p) + '" alt="'
+          + esc(e.title || '') + '" title="click to see it full size">';
+      }).join('')
       + (e.caption ? '<p class=bookcap>' + esc(e.caption) + '</p>' : '')
     : '<p class=q>No picture was taken that night, and one does not get invented for the page.</p>';
   var where = esc(e.where || '') + (e.coords ? ' (' + esc(e.coords) + ')' : '');
