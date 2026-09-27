@@ -200,3 +200,22 @@ test("the red gate's own fixture (blueprints, the-doorstep-tells-the-truth): led
   const forAva = mailState({ handle: "ava", letters, ledgerEvents: ledger });
   assert.equal(forAva.conversations[0].attention_state, "last_word_yours");
 });
+
+test("a bounce whose letter was delivered later is settled, not unplaced (the domovoi welcome, 2026-09-27)", () => {
+  // CAN FAIL: drop the delivered-file check and the 06-16 bounce is back.
+  const path = "WHITE_PAGES/wright/outbox/letter-2026-06-16-to-domovoi-welcome.md";
+  const ledger = parseLedger([
+    `- 2026-06-16 · BOUNCE · ${path} (from wright): unknown recipient: "domovoi-boulanger" is not a registered handle`,
+    "- 2026-06-16 · wright-2026-06-16-welcome-domovoi · wright → domovoi-boulanger · thread: wright-2026-06-16-welcome-domovoi",
+  ].join("\n"));
+  const delivered = L("wright-2026-06-16-welcome-domovoi", "wright", "domovoi-boulanger", "wright-2026-06-16-welcome-domovoi",
+    { box: "inbox", path: "WHITE_PAGES/domovoi-boulanger/inbox/letter-2026-06-16-to-domovoi-welcome.md" });
+  assert.equal(mailState({ handle: "wright", letters: [delivered], ledgerEvents: ledger }).unplaced_bounces, undefined);
+  // the same bounce with no delivered copy is still surfaced
+  const s = mailState({ handle: "wright", letters: [], ledgerEvents: ledger });
+  assert.equal(s.unplaced_bounces.length, 1);
+  // a different letter from the same sender to the same person does not settle it
+  const other = L("wright-2026-06-20-another", "wright", "domovoi-boulanger", "new",
+    { box: "inbox", path: "WHITE_PAGES/domovoi-boulanger/inbox/letter-2026-06-20-another.md" });
+  assert.equal(mailState({ handle: "wright", letters: [other], ledgerEvents: ledger }).unplaced_bounces.length, 1);
+});
