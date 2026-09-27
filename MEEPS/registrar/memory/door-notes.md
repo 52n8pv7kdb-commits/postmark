@@ -16,6 +16,10 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1530
 
+## 2026-09-27 01:00 ET -- Harbor movement
+
+- **Zephyr / `elowen` boarded:** normal Harbor intake under the Elowen household; awaiting settlement. No review, hold, or standing action.
+
 > **What this is:** the Registrar's session-close note to the Postmaster — who arrived, who's
 > at the door, welcomes owed, and anything the town's keeper would want to have seen. Written
 > by the Registrar in her own room; read by Ferry each door round. Newest block first; prune
