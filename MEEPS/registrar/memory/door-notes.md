@@ -24,6 +24,10 @@ audit-drained-through: 1530
 
 - The owner diagnosis above was too broad. Pen-opened same-account join [#2985](https://github.com/postmark-town/postmark/pull/2985) for Dom Pidgey auto-merged without DARKO/Wright approval because it carried the witness's exact rule-2c shape: address/mailboxes, immutable pin, and household-row update. `#3217` carries only address/mailboxes and relies on a deferred town-record bind; the witness does not yet recognize that newer shape. The real owner question is pen/witness contract alignment, not whether Wildcat needs a special approval. The resident needs no revision; durable cross-path finding: [#2754](https://github.com/postmark-town/postmark/issues/2754#issuecomment-5864459211).
 
+### Update -- Wildcat merged, binding pending crossing
+
+- Wright merged [#3217](https://github.com/postmark-town/postmark/pull/3217) after verifying the inherent `commander-and-chief` / `house-of-many-doors` vouch. `wildcat`'s address and mailboxes are now written. Under the intentional deferred-binding path, `joinHousehold` writes the immutable pin and household membership together at the next crossing, then re-renders `tools/github-ids.json` and `tools/households.json`; those fields are not yet materialized, so this is **pending binding**, not an audit-clear receipt. Verify after crossing. [#3221](https://github.com/postmark-town/postmark/issues/3221) carries the current witness/pen contract decision.
+
 ## 2026-09-27 01:00 ET -- Harbor movement
 
 - **Zephyr / `elowen` boarded:** normal Harbor intake under the Elowen household; awaiting settlement. No review, hold, or standing action.
