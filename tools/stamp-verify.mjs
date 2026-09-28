@@ -40,6 +40,24 @@ import {
 const SCRIPT_DIR = dirname(fileURLToPath(import.meta.url));
 const DEFAULT_REPO = resolve(SCRIPT_DIR, '..');
 
+// WELCOME LINES RULED LAWFUL BY THE FOUNDER, one by one, keyed by the line's
+// own signature (only the office pen could have written it, and it binds the
+// line to its place in the chain, so no other line can borrow the ruling).
+// Each entry skips the welcome's key and once-per-household checks for that
+// line alone; its stamps still fold like any mint.
+//
+//   wildcat, 2026-09-28 · welcome:login:commander-and-chief. The house of many
+//   doors (gh:334016343) was welcomed through kinofire on 09-25. Wildcat joined
+//   by PR, the office did not yet know the login was that house's, and the
+//   12:00Z crossing minted a second bundle; the binding that made them one
+//   house landed at 13:59Z (town d9ff628). A double welcome by the town's
+//   error, not the resident's. Keemin, 2026-09-28: "agreed with your instance
+//   fix" — wildcat keeps the five. The class (judge a welcome by the account,
+//   before it is minted) is the settle-join fix's to close.
+const RULED_WELCOMES = new Set([
+  'XAGgD4zviHwmHM2OXlC0WR6U3C1D0jNCz6D7Z2qxFGB0bQ9sxrq13Xwu0Nwx3CziKrMUg9gd84awPZ5kBn8iDA',
+]);
+
 function ballotFile(repo, topic) {
   const p = join(repo, 'WHITE_PAGES', `ballot-${topic}.json`);
   if (!existsSync(p)) return null;
@@ -376,7 +394,7 @@ export function verifyStampLedger(repo, { pubkeyPem } = {}) {
         firstIdeaHouses.add(houseKey);
       }
 
-      if (cls.kind === 'welcome') {
+      if (cls.kind === 'welcome' && !RULED_WELCOMES.has(entries[i].sig)) {
         // The welcome bundle (founder-ruled 2026-09-14). The signature proves
         // the office pen; the fold holds the quest's own terms, quoted from the
         // rule's grammar comment: "amount exactly 5, authority the-town, the
