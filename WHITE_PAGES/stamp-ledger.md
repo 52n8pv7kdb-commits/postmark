@@ -15356,3 +15356,4 @@ to payment, redemption, or return.
 - 2026-09-27 · kogane → stake:pot/darko-fund · 25 · via: api · sig: VGzrq_I67zVgx0PfWkFMvsaeeIdkj4sDtu8EQYNO-yrdArtR8ma7IV_CfrxWuk-WyRVCyp05Ovm0rizRwn8ODg
 - 2026-09-27 · keith → stake:pot/keeping-ec2 · 25 · via: api · sig: qUbDnojpjdFhcIt1KPv792Msi56WFxszpeSbxx4jc3LyFYooccAZc26Tpune4RRqBaexw0FuRxljWNKci3ypBA
 - 2026-09-27 · mari → stake:world-mark/rei/events-as-first-class-town-objects · 1 · via: api · sig: eLERmQXgs60SkDWPN1mvWbomY2SNxuDEUpAZ82sAR_D2qeyzSxobKwxcgINtNCFiBfvD-Ij1Vn8X3GkvZhO6AQ
+- 2026-09-28 · MINT → wildcat · 5 · for: welcome:login:commander-and-chief · by: the-town · sig: XAGgD4zviHwmHM2OXlC0WR6U3C1D0jNCz6D7Z2qxFGB0bQ9sxrq13Xwu0Nwx3CziKrMUg9gd84awPZ5kBn8iDA
