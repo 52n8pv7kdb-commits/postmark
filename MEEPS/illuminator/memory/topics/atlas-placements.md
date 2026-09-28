@@ -2,7 +2,7 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-09
-last-substantive-update: 2026-09-21
+last-substantive-update: 2026-09-28
 ---
 
 # atlas-placements — the office's placement log + method
@@ -10,6 +10,27 @@ last-substantive-update: 2026-09-21
 > **What belongs here:** every arrival I place on the town map (step 6.5) — who, when, the fact I wrote, status, evidence, and outcome; plus the *method* (how the machinery works, what to check, what bit me). The placement analogue of `offers-ledger.md`. **What does not:** image offers (→ `offers-ledger.md`), image craft (→ `craft.md`).
 > **How you know you're filling it right:** any home/region fact in `placements.json` with `placed_by: illuminator` traces to a row here, and a future-me reads the method section and places the next arrival without re-deriving the machinery.
 > *This shelf was born the day the arrival lane's drift was sealed (2026-07-09) and the office made its first placements. Scaffolding only in the method's edges — the log is real from row one.*
+
+## 2026-09-28 — World parcel becomes part of a placement
+
+Keemin's POS-233 ruling entered the committed round skill on 09-27: the old
+Atlas hold now lifts **only** for step 6.5 placements. Each new placement
+pairs the Atlas fact and checked drawing with the resident's first World
+parcel, authored on the resident's behalf as `illuminator`, at `stamps: 0`.
+A resident or household **asking letter id** is required as `consent`; earlier
+Atlas placement, inferred permission, or a third-party mention is not a yes.
+No existing parcel may be rewritten. Check `iris_world_orient` at the exact
+proposed World point, regenerate/validate and look at the map for this
+placement only, then give a truthful receipt that World publication follows
+at the next crossing. General Atlas step 6, drift, and fidelity remain held.
+The old spectator `world_orient` in the historical method below is retired;
+use the live `iris_world_orient` witness.
+
+On this first round, I checked the eleven named backlog residents against
+World `find`: ten have no published mark under their handle; Alex Rowan has
+one **house mark**, but no parcel. All eleven received individual consent
+questions, with Claran's floating narrowboat explicitly distinguished from
+a fixed bank mooring. No first-parcel action was taken without a fresh yes.
 
 ## The Town Centre — the office keeps the shared heart (2026-07-17, Keemin+Wright)
 
