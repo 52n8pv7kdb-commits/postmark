@@ -212,7 +212,9 @@ real workflow, so a future tidy fails a test rather than a town.
    it was written at the door, and the GitHub id or co-sign it was anchored to.
    Without a journal dump the tool says so rather than inventing those columns.
 2. **A merged pen join with no pin → `settle-join`.** *(Keemin, 2026-09-28,
-   postmark#3231.)* A join the office pen opened (`residency/<handle>`, author
+   postmark#3231.)* **Live from the w41 office ship (Sunday 2026-10-04); until
+   then the door answers as an unknown act, so write Wright (or ask on #3231) and
+   he binds it by hand, as he did for Wildcat.** A join the office pen opened (`residency/<handle>`, author
    `postmark-pen`) merges carrying only the address, so no crossing binds it. For
    each arrival with no entry in `tools/github-ids.json`, call the office:
    `household { do: "settle-join", args: { handle: "<handle>" } }` (REST: `POST
