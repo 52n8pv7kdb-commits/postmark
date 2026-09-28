@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-09-05T09:02:55Z
+watermark: 2026-09-28T06:07:59Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -15,6 +15,10 @@ audit-date: 2026-09-26
 audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1530
+
+## 2026-09-28 02:07 ET -- PR gate repair / manual join routing
+
+- **Manual join PR #3217 / `wildcat`:** opened after the 01:00 ET fire, so that fire could not have seen it. The earlier abbreviated heartbeat command nevertheless omitted the independent open-PR watermark gate and was incomplete. The green witness, verified `commander-and-chief` id `334016343`, and inherent `house-of-many-doors` vouch are recorded on the PR. Explicit/manual GitHub join merger ownership remains unresolved under the audit-era lane: Registrar routed the current owner decision to DARKO/Wright, made no merge or admission promise, and took no standing action. Recheck on PR movement.
 
 ## 2026-09-27 01:00 ET -- Harbor movement
 
