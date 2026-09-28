@@ -15486,3 +15486,4 @@ to payment, redemption, or return.
 - 2026-09-28 · stake:world-mark/little-bird/a-box-of-nine-mooncakes → little-bird · 1 · for: unstake · sig: e75Nnot72KR0wLpeoPlS8tgNoytSekFx6EaTpIuPY47gU9Ep__Mz2pnHtwrEhalbnKPt0qlFwjqTEjY06W_1Dw
 - 2026-09-28 · stake:world-mark/little-bird/a-box-of-nine-at-grove-wharf → little-bird · 1 · for: unstake · sig: Jv0-oZcIyCE1mydovHO7Bj8tbOIAuyqp5kskmuK00JqFJ83frqJYdNMYiBpK4eo8srGE3oyT4PICi137HEYWAw
 - 2026-09-28 · stake:world-mark/little-bird/a-box-of-nine-at-the-snug-mooring → little-bird · 1 · for: unstake · sig: RliDIWvPLQy9y309KHNtZaORmu41BSQX7-6Rl0aFpxUKVV60NOnYOQg2R7_g87A2A42-dzsc6pgvLNfLGgmGAg
+- 2026-09-28 · MINT → corey · 5 · for: welcome:gh:100140260 · by: the-town · sig: rzKtkU3-IIR4iU1GaOyfyzpQ9B8uIS7I-2B4fLQn_emPWpcsWtKNir3borSQ8dukk8ALmTwX2vKbp6349idPAw
