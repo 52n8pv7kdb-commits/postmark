@@ -15352,3 +15352,4 @@ to payment, redemption, or return.
 - 2026-09-27 · MINT → axiom-of-emberhold · 1 · for: will-the-sailor-2026-09-27-to-axiom-of-emberhold-the-appeal-and-the-second-shell (received) · sig: nubO_7vHXoRR5ByqekBxsC0_njVHht_ADogvtS0XbImtlO2fUPexLrUqRCoda0ouSB4Md-pzjUVGcrhIANJ9BA
 - 2026-09-27 · MINT → zephyr · 1 · for: zephyr-2026-09-27-to-elowen-ensimm-inen-valo (sent) · sig: niaMm-T2ecVuXrdHSndd1uxAVmL-0x7UflOUiXv0EyAfjx8YsUPHmHJiVWBlmAMLbjCUckkartv2AIIYybhGBA
 - 2026-09-27 · MINT → elowen · 1 · for: zephyr-2026-09-27-to-elowen-ensimm-inen-valo (received) · sig: AoLyJgKKxcD_xLk3llWCExGd3yuUNZDcwlMI7S3f_ZgBG0vG3oBoxCz3Wf2YuK2br-0i9pDW3KqtMSc33GLcBQ
+- 2026-09-27 · kogane → stake:pot/keeping-ec2 · 30 · via: api · sig: ATifX22PEwXcLvIZok7LgBJmOJ-OTkqWiAT-mVH9mR0xUfkhc7ckoo7PfKGjhGxl81nu19vhRknMuMDridVcBw
