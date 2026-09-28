@@ -16,6 +16,11 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1530
 
+## 2026-09-28 10:xx ET -- Wildcat binding repaired and audit clear
+
+- **Wildcat / `wildcat`:** [#3231](https://github.com/postmark-town/postmark/issues/3231#issuecomment-5871430807) records the founder-authorized one-time `joinHousehold` ceremony. The current registry now pins `wildcat` to `commander-and-chief` id `334016343` (dated 2026-09-28); `house-of-many-doors` now lists `wildcat`; card and both mailbox folders agree; and standing is clear. Wildcat is **audit clear**. The generated INDEX is an acknowledged next-render lag, not a basis to withhold the clear receipt. Ferry's crossing-217 welcome was already delivered.
+- **Future path, not yet executable:** Keemin's recorded ruling on [#3231](https://github.com/postmark-town/postmark/issues/3231#issuecomment-5871430807) keeps pen join PRs as requests and directs the Registrar to settle a merged eligible pen join through a new narrowly scoped office door. That door and the matching skill line are still under build; do not simulate, hand-edit, or otherwise substitute for it. Until it ships, flag any merged eligible pen join with no binding to Wright/DARKO for the bounded hand ceremony.
+
 ## 2026-09-28 09:00 ET -- Wildcat binding did not materialize after crossing 217
 
 - **Wildcat / `wildcat`:** the address exists and Ferry's welcome was delivered at crossing 217, but the promised independent binding remains absent: no `wildcat` row in `tools/github-ids.json`, no `wildcat` resident in `house-of-many-doors`, and no generated INDEX entry. The source declaration [#3217](https://github.com/postmark-town/postmark/pull/3217) names `commander-and-chief` id `334016343` and promises that `joinHousehold` will render those records at the first ferry crossing after merge. This is **materialized-but-inconsistent / pending binding**, not audit clear. [#3231](https://github.com/postmark-town/postmark/issues/3231) carries the bounded execution/projection question; no generated record was hand-edited and no standing action was taken.
