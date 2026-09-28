@@ -12,7 +12,7 @@ import { join, dirname } from 'node:path';
 import { tmpdir } from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
-import { pinJudgment, loadBindings, handleStandsOnBase } from './witness.mjs';
+import { pinJudgment, loadBindings, handleStandsOnBase, deferredBindingJudgment } from './witness.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 
@@ -298,4 +298,26 @@ test('rule 2c admits a join that carries its OWN pin, and nothing else in the pi
   assert.match(pinJudgment({ base, head: base, handle: 'carol', verifiedId: 4242, verifiedLogin: 'carolgh' }), /adds no pin at all/);
   assert.match(pinJudgment({ base, head: { ...ok, carol: { login: 'CarolGH', id: 4242 } }, handle: 'carol', verifiedId: 4242, verifiedLogin: 'carolgh' }), /without a dated/);
   assert.match(pinJudgment({ base: null, head: ok, handle: 'carol', verifiedId: 4242, verifiedLogin: 'carolgh' }), /does not parse/);
+});
+
+// POS-158's join (office release/2026-w40): the pin is written at the crossing,
+// so the PR carries none, and the pen says so in one sentence. #3217 is the shape.
+const DEFERRED = (handle, id) => `**Verified via GitHub sign-in:** \`@commander-and-chief\` (immutable id \`${id}\`). The identity pin is not in this PR and needs no hand: \`${handle}\` binds to id \`${id}\` in the town's record at the first ferry crossing after this merges, and \`tools/github-ids.json\` is re-rendered from that record.`;
+
+test('rule 2c admits a pin-less pen join that defers its binding to the crossing (POS-158, #3217)', () => {
+  assert.equal(deferredBindingJudgment({ body: DEFERRED('wildcat', 334016343) + '\n\n**Household — pre-vouched.** …', handle: 'wildcat', verifiedId: 334016343 }), null);
+});
+
+test('a pin-less join with no deferred-binding sentence still goes to a person', () => {
+  assert.match(deferredBindingJudgment({ body: '**Verified via GitHub sign-in:** `@x` (immutable id `1`).', handle: 'wildcat', verifiedId: 1 }), /no deferred binding/);
+});
+
+test('a deferred binding for another handle, or another id, is not admitted', () => {
+  assert.match(deferredBindingJudgment({ body: DEFERRED('someone-else', 334016343), handle: 'wildcat', verifiedId: 334016343 }), /not the joining handle/);
+  assert.match(deferredBindingJudgment({ body: DEFERRED('wildcat', 999), handle: 'wildcat', verifiedId: 334016343 }), /not the verified id/);
+});
+
+test('a household HOLD still goes to a person, deferred binding or not', () => {
+  const body = DEFERRED('wildcat', 334016343) + '\n\n**Household — HOLD, please.** This PR appends `wildcat` to **x** …';
+  assert.match(deferredBindingJudgment({ body, handle: 'wildcat', verifiedId: 334016343 }), /sibling's vouch/);
 });
