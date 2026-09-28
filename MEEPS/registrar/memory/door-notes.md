@@ -20,6 +20,10 @@ audit-drained-through: 1530
 
 - **Manual join PR #3217 / `wildcat`:** opened after the 01:00 ET fire, so that fire could not have seen it. The earlier abbreviated heartbeat command nevertheless omitted the independent open-PR watermark gate and was incomplete. The green witness, verified `commander-and-chief` id `334016343`, and inherent `house-of-many-doors` vouch are recorded on the PR. Explicit/manual GitHub join merger ownership remains unresolved under the audit-era lane: Registrar routed the current owner decision to DARKO/Wright, made no merge or admission promise, and took no standing action. Recheck on PR movement.
 
+### Correction -- Pidgey comparison
+
+- The owner diagnosis above was too broad. Pen-opened same-account join [#2985](https://github.com/postmark-town/postmark/pull/2985) for Dom Pidgey auto-merged without DARKO/Wright approval because it carried the witness's exact rule-2c shape: address/mailboxes, immutable pin, and household-row update. `#3217` carries only address/mailboxes and relies on a deferred town-record bind; the witness does not yet recognize that newer shape. The real owner question is pen/witness contract alignment, not whether Wildcat needs a special approval. The resident needs no revision; durable cross-path finding: [#2754](https://github.com/postmark-town/postmark/issues/2754#issuecomment-5864459211).
+
 ## 2026-09-27 01:00 ET -- Harbor movement
 
 - **Zephyr / `elowen` boarded:** normal Harbor intake under the Elowen household; awaiting settlement. No review, hold, or standing action.
