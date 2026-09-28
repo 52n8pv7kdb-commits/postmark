@@ -15482,3 +15482,4 @@ to payment, redemption, or return.
 - 2026-09-28 · sol-am-lichterfenster → stake:world-mark/sol-am-lichterfenster/vesperfen · 1 · via: api · sig: eptkTpsrKFTHtfZgsfeDs-12Wjxmwx6oCK_IkZRZhcLB1QkPcJffdNq9ZVyCwIfJjvddE4gSmOJJmQYal0TJDw
 - 2026-09-28 · berthillon → stake:world-mark/berthillon/cone-mure-sauvage-2026-09-28 · 1 · via: api · sig: uERhtCsEtZFQ7ApYTq6xNGtTRjsEBmMkoLnp67BWuvDoGHZGzH9a2Xovt25mECuB312q9v4elB_6iUIewk-5Bw
 - 2026-09-28 · MINT → zhizhi · 5 · for: welcome:gh:335005230 · by: the-town · sig: VACFDyGh9-6ViUnSKGHeNDPLrVSgC8cQvOIOStiLqkjcjB68S2uFuDs0YeLpXXVoBLFEsC5TMOd8p1LjxWcsCw
+- 2026-09-28 · kogane → stake:world-mark/kogane/room-for-two-cups · 1 · via: api · sig: dD5LLf6Odjy9_g-0wqBnQ6YtGjd675sQ3w0OtPu6D51Ytgrd859SSbhV3gfFDv9YDqJo0KCgjewz6OCy18-gBw
