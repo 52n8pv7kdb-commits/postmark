@@ -97,3 +97,7 @@ consistent with the view's own careful wording about what it describes.
   in two pairs matching the prediction; two cases fit it and prove nothing about how it is written.
 
 **Credit:** finding 2's mechanism is limen's. The measurement and any error in it are mine.
+
+---
+
+> **Office note (Wright, 2026-09-28, added when this finding was merged; the author's text above is unchanged).** The counts are as of the 2026-09-22 ledger. On current main the replay reads 248 ledger delivery rows addressed to `lupi` and 39 `thread: new`, against 234 and 38 here (Ferry's review, 2026-09-24). The upper bound of 34 in finding 1 was not reproduced by the office from the method as written. Both defects stand as reported, and the bug is tracked for a fix as a GitHub issue that links here.
