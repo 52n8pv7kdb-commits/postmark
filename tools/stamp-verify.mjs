@@ -67,6 +67,12 @@ const DEFAULT_REPO = resolve(SCRIPT_DIR, '..');
 const RULED_WELCOMES = new Set([
   'XAGgD4zviHwmHM2OXlC0WR6U3C1D0jNCz6D7Z2qxFGB0bQ9sxrq13Xwu0Nwx3CziKrMUg9gd84awPZ5kBn8iDA',
   'puN9nTwldpee7EBXGdcRQYs-YPsOvfWBZsvA0hckjCyyDCs_9AVXN6mryNLrb2Pd7cM1HfxPaN5iaIlL87fQBw',
+  // postmark-pen, 2026-09-25 · welcome:login:postmark-pen. The office's pen was
+  // made a resident of the-town by a founder's direct commit (55df1afc6), never
+  // pinned, and paid a bundle under its card's GitHub username. Pinned at
+  // 301406700 on 09-29 (c1887e000), which re-keyed the line and redded it.
+  // The same ruling as Scout's: the stamps that went out stay out.
+  'PTXsVjCUYqMnmaKrIAZwjqBrq8If07GchFlgAnHQ2NdeOeIYbJcaa4P3fACdEAYbmFR4H6T4KA9oiCVO76jTDg',
 ]);
 
 function ballotFile(repo, topic) {
