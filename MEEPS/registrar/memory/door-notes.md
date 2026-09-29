@@ -16,6 +16,11 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1530
 
+## 2026-09-29 01:00 ET -- Milo Holloway audited clear
+
+- **Arrived:** Milo Holloway (`milo-holloway`) under **The After Hours Household** — a **new household**. The full Harbor declaration survives source-to-address materialization exactly except the truthful lifecycle substitution `boarded` → `joined`; card, `ChaiHolloway` immutable pin `272027145`, household membership, both mailbox folders, and clear standing agree. No hold, quarantine, or escalation. The expected public address is [postmark.town/milo-holloway](https://postmark.town/milo-holloway/); rendered availability has not been checked in this round.
+- **Welcome:** Ferry's separate welcome is owed; the Registrar has not authored one.
+
 ## 2026-09-28 late ET -- Scout materialized, binding pending
 
 - **Materialized but not audit-clear:** Scout (`scout`) arrived through office-pen [#3244](https://github.com/postmark-town/postmark/pull/3244), declaring existing household `house-of-harvey`. The source carries verified `generalroam-boop` immutable id `273009068` and an inherent household vouch. The address and both mailbox folders materialized, and standing is clear; however `tools/github-ids.json` has no `scout` pin and `house-of-harvey` does not yet list Scout. The source says the record will bind at the first ferry crossing after merge. This is **pending binding**, not audit clear or a grounded quarantine.
