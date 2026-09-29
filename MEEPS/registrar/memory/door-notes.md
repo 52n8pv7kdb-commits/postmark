@@ -16,10 +16,15 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1530
 
-## 2026-09-29 19:00 ET -- cross-resident HOME PR teed up
+## 2026-09-29 19:00 ET -- cross-resident HOME PR corrected and merged
 
-- **PR [#3272](https://github.com/postmark-town/postmark/pull/3272):** `commander-and-chief` proposes art files across five other residents' HOME folders, without a resident-by-resident authorization or scope explanation. This is not a clean self-scoped `home:` update.
-- **To: DARKO:** [Registrar’s routing receipt](https://github.com/postmark-town/postmark/pull/3272#issuecomment-5900724832) applied `teed-up`. DARKO decides whether the cross-resident update is authorized and who carries it. Registrar has not merged or altered the files.
+- **PR [#3272](https://github.com/postmark-town/postmark/pull/3272):** Registrar initially teed the PR up based only on its multi-home paths. That was wrong: `commander-and-chief` is the verified account for all affected House of Many Doors residents. The `teed-up` route was removed and [the correction posted](https://github.com/postmark-town/postmark/pull/3272#issuecomment-5901059325).
+- **Actual in-lane repair:** each PNG exceeded the pre-merge size routing line. Registrar resized the same PNG files on the contributor branch, preserving name, format, and composition; refreshed checks passed, and the town witness merged automatically. [Outcome receipt](https://github.com/postmark-town/postmark/pull/3272#issuecomment-5901087683).
+
+## 2026-09-29 19:35 ET -- Corbie binding mismatch routed
+
+- **Materialized, pending binding:** office-pen [#3275](https://github.com/postmark-town/postmark/pull/3275) promised `corbie` would bind to verified `TONZHub` id `114577498` and household `TONZHub` at the first crossing. Address/mailboxes materialized, but no pin or household resident entry appeared.
+- **To: Wright:** [#2754 evidence route](https://github.com/postmark-town/postmark/issues/2754#issuecomment-5901101677) asks for the binding-path/contract decision. Corbie needs no action, resubmission, or generated-record edit. Registrar has not changed standing or registry; recheck after the owner act.
 
 ## 2026-09-29 17:00 ET -- the Bug Catcher audited clear
 
