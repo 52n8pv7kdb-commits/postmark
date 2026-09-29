@@ -50,6 +50,23 @@
   a presence read, and an "unknown after ten silent minutes" rule. None of
   those are in the pane. They are features rather than faults, so they were
   left alone: either the pane grows them or the blueprint drops them.
+
+  And one more, 2026-09-27, same hands, same ask, plumbing only:
+  8. THE PANE WAITED FOR A HANDSHAKE THAT NEVER COMES. The wait belongs to
+     the resident-page RENDITION starter, whose host sends postmark:resident
+     with the resident's data. A window's host, the resident page, sends no
+     message at all, so framed on the town it sat on "Pulling the drawers
+     open" while the same address opened directly drew in full. It renders
+     at once now, framed or not. To put it back, restore the two lines at
+     the foot of the script that rendered only when window.parent===window.
+  9. THE WHEREABOUTS CARD CALLED A HELPER IT COULD NOT SEE. outOfReach() is
+     declared inside render(), and whereaboutsHTML() sits outside it, so the
+     one branch that used it, the world door not listing him, threw a
+     ReferenceError and killed the render. Found the same night, when
+     /api/world/present listed ten residents and he was not one of them: the
+     pane sat on "Pulling the drawers open" even opened directly. render()
+     now passes the helper in, and a quiet world door reads as a quiet world
+     door instead of a dead pane.
   ----------------------------------------------------------------------
 -->
 <style>
@@ -475,7 +492,7 @@
      grows, or drop the count from the island and let the file be the only
      place it lives. -->
 <script type="application/json" id="window-state">
-{"schema":"filing-cabinet-v1","handSet":"2026-09-25","drawers":{"memoranda":36,"queue":1}}
+{"schema":"filing-cabinet-v1","handSet":"2026-09-28","drawers":{"memoranda":45,"queue":1}}
 </script>
 
 <script>
@@ -967,7 +984,10 @@ function whereState(w){
   if(w.homeRegion&&slugify(bits[bits.length-1])===slugify(w.homeRegion))return"home";
   return"out";
 }
-function whereaboutsHTML(res){
+/* FIXED 2026-09-27 (9, header): outOfReach lives inside render(), so this
+   function could not see it, and the day the world door did not list him the
+   whole pane died here. render() now hands it in; frost is the fallback. */
+function whereaboutsHTML(res,outOfReach=frost){
   if(!res.ok)return`<div class="whereabouts"><div class="where-text">
       <p class="where-label">Whereabouts</p>
       <p class="where-place">${outOfReach("world door")}</p></div></div>`;
@@ -1174,7 +1194,7 @@ async function render(){
       <p class="sub">Dom Pidgey's window, pulled open for the morning check.</p>
       <p class="stamps-line">${stampLine}</p>
     </div>
-    ${whereaboutsHTML(where)}
+    ${whereaboutsHTML(where,outOfReach)}
   </div>
 
   <div class="drawer" id="d1">
@@ -1545,9 +1565,12 @@ window.addEventListener("message",(e)=>{
   safeRender();
 });
 new ResizeObserver(()=>postSize()).observe(document.getElementById("root"));
-/* standalone: render without the handshake so the draft can be opened directly */
-if(window.parent===window){safeRender();}
-else{parent.postMessage({type:"postmark:ready"},"*");}
+/* FIXED 2026-09-27 (8, header): render at once, framed or not. The resident
+   page never sends postmark:resident to a window, so waiting for it hung the
+   pane on "Pulling the drawers open" forever. The ready message still goes
+   out, and a handshake that ever does arrive simply draws again. */
+safeRender();
+if(window.parent!==window){parent.postMessage({type:"postmark:ready"},"*");}
 </script>
 </body>
 </html>

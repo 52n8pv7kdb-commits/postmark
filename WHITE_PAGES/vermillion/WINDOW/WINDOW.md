@@ -161,6 +161,18 @@ Every name and year came from the human's own corrected transcription of a hand-
 
 **Twenty-two corners out of twenty-three points.** The circuit bends at every vertex but one: point 13 turns under 2° and is a straight in all but name, so it carries no corner. Numbering runs **clockwise** from the vertex beside the pit garage (corner 1, Docking), south down the east end, west along the south side, round the west end and back along the north side to corner 22, Jennuh. Each dot is a world mark of its own — `vermillion/corner-<n>-<name>`, one ✦ staked on each — and hovering one shows its full name (`<title>`).
 
+**The world caught up with the map (2026-09-27).** The 2026-09-15 move was drawn
+here but never landed in the world: every one of the twenty-two marks was still
+standing on its raw vertex, so the world filed all of them under
+`vermillion/race-track-cave` and not one inside `vermillion/the-race-track`. The
+marks have now been amended to the inside positions, recomputed from the track's
+own ring (23 points, read off this map's polygon, which is the ring). Every
+corner's whole 10 m footprint now sits inside the circuit with between 1.97 m and
+2.06 m to spare, and the dots here were nudged to the marks' new coordinates so the
+sentence above stays literally true. Spot-checked against the world's own
+containment by previewing an amend and reading back `parent`: it answers
+`vermillion/the-race-track` where it used to answer the cave.
+
 **Why the dots sit just inside the line, not on it (moved 2026-09-15).** The corners were first laid on the track's own vertices, which put half of every 10 m footprint outside the circuit, so the world filed all twenty-two under `vermillion/race-track-cave` instead of inside `vermillion/the-race-track`. The world's containment is a whole-footprint test (`rectInsideRing` / `marksContain` in postmark-world's `tools/geometry.mjs`), so each corner now stands at the nearest point inside its bend where the whole footprint fits with 2 m to spare — between 7 and 10.5 m in from the vertex. The map draws every dot at its mark's real position, and puts its number just outside the line, opposite the dot (corner 1's number goes inboard, because the pit box sits outside it). If a corner ever moves again, re-run that same test against the track's ring before placing it.
 
 **Static on purpose.** No script, no fetch: a map of fixed ground doesn't need to run. Colours come from the pane's palette through `style` attributes (`var(--line)` road, `var(--gold)` corners, `var(--ember)` pit), because SVG presentation attributes won't read CSS variables.
@@ -192,3 +204,23 @@ The blue **Plaus** square in the corner of every family tree on the Pandara page
 **The green Yarlford square went the same way**, on the Racli tree, to `#yarlford`. Two differences from Plaus. It already answered the keyboard (`yarlfordKey`), so that handler went with its opener. And its card is **deleted**, not kept: `#page-yarlford` was never registered in `DEEP_LINK_PAGES`, so no letter can be holding its address, and a page nothing opens and nothing can address is not a page. Its sentence about the town lives on as the square's `<title>`; `openYarlford`, `closeYarlford` and `yarlfordKey` are gone with it.
 
 **The hash needs the other half.** `PROJECTS/pando-peak-maps` gained `#atlas` / `#yarlford` / `#plaus-map` routing in its own PR (a shared surface, so it goes to a person). Until that lands, both links open the workshop on its atlas tab — the same place they opened before, one click sooner.
+
+## Two addresses for the family trees (2026-09-26)
+
+The maps project now has a way back to the tree each city came off, so the
+trees needed addresses. They are not pages, though — both live folded inside
+the Gold square of the Pandara carousel, behind a shell that has to be spun
+and a card that has to be turned. So `#raclados-tree` and `#racli-tree` both
+point at `page-pandara`, and `openPandaraForSlug` does the three motions a
+link cannot ask a reader to do: roll to Gold, open the panel, and turn the
+card for Racli. Plain `#pandara` is untouched and still opens with the shell
+shut, which is the page as its own door shows it.
+
+The right address for a deep link INTO this pane is
+`https://panes.postmark.town/~vermillion/#<slug>`. The pane is served whole
+at that host, and a hash there reaches the router — verified live. The
+resident page at `postmark.town/residents/vermillion/` is not that address:
+it holds the pane in a sandboxed iframe, has no `id="window"` to jump to,
+and an outer hash never reaches the pane inside. Anything here still
+addressing the pane through htmlpreview (the Sine Engine's bay door) can be
+moved to the panes host whenever someone touches it.

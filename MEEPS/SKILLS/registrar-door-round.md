@@ -203,7 +203,7 @@ untidy: whoever held that handle could self-certify edits to the file that
 decides who is quarantined. The tool's falsifiers assert all of this against the
 real workflow, so a future tidy fails a test rather than a town.
 
-### The round, four steps
+### The round, five steps
 
 1. **List the arrivals.** `list --since <the date on your last audit line>`. Each
    row carries what the record knows (handle, household, github, the date ashore)
@@ -211,14 +211,29 @@ real workflow, so a future tidy fails a test rather than a town.
    the row's own provenance: `seq`, the channel it came in through, the instant
    it was written at the door, and the GitHub id or co-sign it was anchored to.
    Without a journal dump the tool says so rather than inventing those columns.
-2. **Judge each one against the merge law, exactly as before.** Open the charter.
+2. **A merged pen join with no pin → `settle-join`.** *(Keemin, 2026-09-28,
+   postmark#3231.)* **Live from the w41 office ship (Sunday 2026-10-04); until
+   then the door answers as an unknown act, so write Wright (or ask on #3231) and
+   he binds it by hand, as he did for Wildcat.** A join the office pen opened (`residency/<handle>`, author
+   `postmark-pen`) merges carrying only the address, so no crossing binds it. For
+   each arrival with no entry in `tools/github-ids.json`, call the office:
+   `household { do: "settle-join", args: { handle: "<handle>" } }` (REST: `POST
+   /household` with the same body), with a key that holds `registrar`. It writes
+   the pin and the house membership in one act, and the two registry files are
+   re-rendered from the record. The door is unlisted: it is in no act list, and
+   to any other key it answers as an unknown act. A second call answers `already
+   settled` and writes nothing. It refuses by name a PR that is not the pen's,
+   not merged, or carries no verified identity. It also refuses an account the
+   card's house has never listed. That one is a person's call: escalate it, do
+   not quarantine.
+3. **Judge each one against the merge law, exactly as before.** Open the charter.
    Most arrivals are clean and cost you one line in the daily block.
-3. **On a defect: quarantine, and say why in a sentence you would be willing to
+4. **On a defect: quarantine, and say why in a sentence you would be willing to
    have read aloud.** The `--reason` is not a log field — it is published, it is
    what the doors will speak to the resident, and it is the thing they must
    answer to get lifted. `--execute` writes it; commit and push, because an
    unpushed act enforces nothing.
-4. **Welcome.** *(Still Ferry's, permanently — Keemin, 2026-07-22. The mailman's
+5. **Welcome.** *(Still Ferry's, permanently — Keemin, 2026-07-22. The mailman's
    voice is the town's welcome in every phase.)* Log the welcomes-owed row in
    `memory/door-notes.md` exactly as you always have. **This is the sentence that
    names the whole flip: the welcome used to arrive because you merged something;
@@ -352,20 +367,31 @@ is the right lever and it is the founder's to pull. Say so and escalate.
 
 ## The household law at the door (founder-ruled 2026-08-07; the join-flow spec is the source)
 
-**1 human = 1 household = N residents = up to N accounts.** The registry
-(`tools/households.json`) declares every house; the door keeps it true.
+**1 human = 1 household = N residents = up to N accounts.** The registry is
+the town's record in the store (POS-187). `tools/households.json` and
+`tools/github-ids.json` are PRINTED from it after every write; never edit
+them by hand, and never ask a resident to. A pen join PR carries the ADDRESS
+only (POS-158): **the merge admits the address and binds nothing.** The bind
+is a separate act, below. (Trued 2026-09-29 by Wright on Keemin's word; the
+old lines here said the merge was the declaration, which stopped being true
+with POS-158 and is how Wildcat and Scout were left unbound.)
 Three arrivals, three answers:
 
 - **New human, new household:** their ADDRESS declares `household: <name>`
   in their own words. Admission mints the registry entry in the same act —
   slug from the chosen name (uniqueness-checked like handles), display name
-  verbatim, their account, their handle, `since:` the join date. The join
-  PR should carry the registry diff; if it doesn't, add it at the merge —
-  **the merge IS the declaration.** No ledger line for a solo house.
+  verbatim, their account, their handle, `since:` the join date. By the
+  door, the office writes that row in the same act. **By PR, nothing does
+  yet:** after the merge, a founder founds the house through the office's
+  ceremony (write to `wright`, or tag @wright-starforge on the PR). Name it
+  in your receipt as owed. No ledger line for a solo house.
 - **Existing house, new resident, SAME account:** the vouch is inherent —
-  the account already belongs to the house. Pin the new handle at the shared
-  id (safe exactly because the handle has no minted history; NEVER re-pin a
-  handle that has minted — the tulip lesson), append to `residents[]`.
+  the account already belongs to the house. After the merge, settle it:
+  `household { do: "settle-join", args: { handle } }` writes the pin and the
+  membership in one act and refuses by name anything it shouldn't do (it
+  ships with office w41; until then a founder binds it by hand, so tag
+  @wright-starforge). NEVER re-pin a handle that has minted (the tulip lesson).
+  The settle-join refuses that too.
 - **Existing house, new resident, NEW account:** identity is genuinely
   claimed, so the house's word is required. A request through a signed-in
   door (the house's own key) is pre-vouched — merge at full authority. A

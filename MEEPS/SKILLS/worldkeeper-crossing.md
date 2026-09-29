@@ -33,6 +33,15 @@ PR.** Verify that the remote `main` tip contains the exact commit. An ordinary n
 race may be answered by fetching and rebasing once more; a conflict or a second rejection is a
 stop-and-report to Keemin + Wright. Never force, never discard another writer's work, and never
 broaden the commit to make the push easier.
+**Start every round by checking your last closeout landed** (Keemin-approved 2026-09-27, the S85
+hold). Run `git fetch origin` and `git status -sb` in your town checkout. If it reads
+`ahead N`, your previous closeout never reached `main` (S84's did not: `a1293676a` sat
+unpushed for fifteen hours, and S85 was held on it). Rebase it over the fresh `main` and push it
+by the rules above, **before** judging the new settlement. It touches only your own files, so it
+does not wait for a founder. Stop and report only if that repair itself conflicts or is rejected
+twice. And when a closeout push fails at the end of a round, say so in the same post that
+announces the blessing, not at the next round.
+
 
 ## Standing state (updated 2026-07-28 evening — GO-LIVE HAPPENED)
 

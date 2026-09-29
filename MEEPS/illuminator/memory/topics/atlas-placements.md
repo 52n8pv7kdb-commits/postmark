@@ -2,7 +2,7 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-09
-last-substantive-update: 2026-09-21
+last-substantive-update: 2026-09-29
 ---
 
 # atlas-placements — the office's placement log + method
@@ -10,6 +10,56 @@ last-substantive-update: 2026-09-21
 > **What belongs here:** every arrival I place on the town map (step 6.5) — who, when, the fact I wrote, status, evidence, and outcome; plus the *method* (how the machinery works, what to check, what bit me). The placement analogue of `offers-ledger.md`. **What does not:** image offers (→ `offers-ledger.md`), image craft (→ `craft.md`).
 > **How you know you're filling it right:** any home/region fact in `placements.json` with `placed_by: illuminator` traces to a row here, and a future-me reads the method section and places the next arrival without re-deriving the machinery.
 > *This shelf was born the day the arrival lane's drift was sealed (2026-07-09) and the office made its first placements. Scaffolding only in the method's edges — the log is real from row one.*
+
+## 2026-09-28 — World parcel becomes part of a placement
+
+Keemin's POS-233 ruling entered the committed round skill on 09-27: the old
+Atlas hold now lifts **only** for step 6.5 placements. Each new placement
+pairs the Atlas fact and checked drawing with the resident's first World
+parcel, authored on the resident's behalf as `illuminator`, at `stamps: 0`.
+A resident or household **asking letter id** is required as `consent`; earlier
+Atlas placement, inferred permission, or a third-party mention is not a yes.
+No existing parcel may be rewritten. Check `iris_world_orient` at the exact
+proposed World point, regenerate/validate and look at the map for this
+placement only, then give a truthful receipt that World publication follows
+at the next crossing. General Atlas step 6, drift, and fidelity remain held.
+The old spectator `world_orient` in the historical method below is retired;
+use the live `iris_world_orient` witness.
+
+On this first round, I checked the eleven named backlog residents against
+World `find`: ten have no published mark under their handle; Alex Rowan has
+one **house mark**, but no parcel. All eleven received individual consent
+questions, with Claran's floating narrowboat explicitly distinguished from
+a fixed bank mooring. No first-parcel action was taken without a fresh yes.
+
+## 2026-09-29 — the paired gate is red, not a pretext to unpair
+
+Four of the eleven residents answered yes: Alex, Cael, Claran and Solace.
+Read-only crossing-219 World witness on local World `88cb2044...` confirmed
+Cael (725,-700) on clear Lanternseed ground and Solace (-725,800) on open
+far-bank ground, no parcel under either; their `stamps: 0`, `placed_by: illuminator` previews named expected parents and wrote nothing. The live
+World action card requires explicit `placed_by` when the credential holds
+multiple placers; the first preview without it refused before writing.
+
+Before any real World act, appended only their consent/witness to already
+placed Atlas notes and ran step-6.5 regeneration and validation. The latter
+failed its **global zero-evidence-drift invariant** on twelve inherited
+quotations, including Solace and unrelated resident pages. All six generated
+Atlas files and the two tentative notes were restored to the clean starting
+tree; **no World act, Atlas publication or screenshot-as-proof** occurred.
+Issue #3263 asks founders to reconcile the paired-placement gate without
+reopening individual drift issues or silently weakening validation. A yes is
+held, not spent on an unpaired World parcel.
+
+Alex's existing `alex-rowan/the-threadbound-house` stands at (1450,1080),
+75 m east of the old Atlas point (1375,1075); a 25 m parcel cannot cover both.
+Alex was asked which point represents his house before either map changes.
+Claran's old Atlas boat glyph (990,1900) projects to Sea at (2525,5700),
+not the southern-bank mooring he consented to. Worldkeeper was asked for an
+honest bank witness; the floating hull must not be turned into fixed land.
+Emmett's direct first-parcel yes still leaves lake/ocean versus the existing
+HOME's warm river bluff and audible waterfall unresolved; one more words-first
+relation was requested. No parcel quota is owed.
 
 ## The Town Centre — the office keeps the shared heart (2026-07-17, Keemin+Wright)
 

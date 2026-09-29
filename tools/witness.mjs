@@ -218,10 +218,18 @@ async function penJoinJudgment(pr, files) {
     const defect = pinJudgment({ base: readPinsAtBase(), head, handle, verifiedId, verifiedLogin });
     if (defect) return `carries a pin change that ${defect} — a join may carry only its own pin; a re-binding is a human ceremony`;
   }
-  // No pin at all: the pen writes one since 2026-09-04 (office cab44e7; prod from the
-  // w37 ship). Until every pen does, a pin-less join is what the four unpinned
-  // joins of 09-04 were — so a person pins and merges, as before this morning.
-  if (!pinFile) return `carries no pin for \`${handle}\` — since 2026-09-04 the pen writes one (tools/github-ids.json: one entry, this handle at the verified id); a person pins and merges meanwhile`;
+  // No pin in the PR. Since office release/2026-w40 (2026-09-27, POS-158: the
+  // join ceremony, the registry has one writer) that is the pen's SHAPE, not a
+  // miss: the pin and the household membership are written to the town's record
+  // by `joinHousehold` at the crossing after the merge, and tools/github-ids.json
+  // and tools/households.json are re-rendered from it. The pen says so in one
+  // sentence, naming the handle and the verified id; `deferredBindingJudgment`
+  // admits exactly that, and still routes a household HOLD to a person.
+  // First seen on #3217 (Wildcat, 2026-09-28; the Registrar traced it).
+  if (!pinFile) {
+    const deferred = deferredBindingJudgment({ body, handle, verifiedId });
+    if (deferred) return deferred;
+  }
   // A door that could not read the registry says so in the body, and a
   // declaration it could not carry is a person's to add — never silently
   // nobody's (the other half of the Luminari class).
@@ -410,6 +418,25 @@ async function windowJudgment({ headSha, path }) {
 // provably the author's own row(s), or a sentence naming the defect. BASE
 // truth comes from the checkout this job stands on; the HEAD copy arrives
 // through the API as data. JSON.parse is the only thing that touches it.
+// The pen's deferred binding (POS-158, office release/2026-w40), judged PURELY
+// (exported for the test). A pin-less pen join is admitted only when its body
+// carries the pen's own sentence binding THIS handle to THIS verified id at the
+// crossing, and does not ask a person to hold for a sibling's vouch (the pen's
+// "Household — HOLD, please": an account the house has never listed). Null =
+// admitted; otherwise the sentence a mind reads.
+export function deferredBindingJudgment({ body, handle, verifiedId }) {
+  const text = String(body || '');
+  const m = text.match(/identity pin is not in this PR and needs no hand:\s*`([\w.-]+)`\s*binds to id\s*`(\d+)`/i);
+  if (!m) return `carries no pin for \`${handle}\` and no deferred binding from the pen — a person pins and merges`;
+  if (m[1].toLowerCase() !== String(handle).toLowerCase())
+    return `defers a binding for \`${m[1]}\`, not the joining handle \`${handle}\``;
+  if (Number(m[2]) !== Number(verifiedId))
+    return `defers a binding to id ${m[2]}, not the verified id ${verifiedId}`;
+  if (/Household\s*[—-]+\s*HOLD, please/i.test(text))
+    return 'asks to hold for a sibling\'s vouch (an account the house has never listed) — a person reads it';
+  return null;
+}
+
 // The join's own pin, judged PURELY (exported for the test): the head pins file
 // must be the base pins file plus exactly one entry — the joining handle, at
 // the verified immutable id, with the verified login — and nothing else moved.

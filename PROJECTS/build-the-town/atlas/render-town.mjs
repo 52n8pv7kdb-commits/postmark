@@ -286,16 +286,16 @@ function renderWater() {
   // the still reach: water, but no flow highlight — nothing in it moves
   const stillD = ribbonPath(STILL_REACH, { roundEnd: true });
   const pond = `
-    <path d="${stillD}" fill="url(#waterGrad)" filter="url(#waterWobble)"/>
-    <path d="${stillD}" fill="none" stroke="#3d5f7a" stroke-width="1.2" opacity="0.45" filter="url(#waterWobble)"/>`;
+    <path d="${stillD}" fill="url(#waterGrad)"/>
+    <path d="${stillD}" fill="none" stroke="#3d5f7a" stroke-width="1.2" opacity="0.45"/>`;
   const body = channels.map((d) => `
-    <path d="${d}" fill="url(#waterGrad)" filter="url(#waterWobble)"/>
+    <path d="${d}" fill="url(#waterGrad)"/>
     <!-- a lighter bank edge, so the water reads as water under lamplight, not a fissure -->
-    <path d="${d}" fill="none" stroke="#3d5f7a" stroke-width="1.2" opacity="0.4" filter="url(#waterWobble)"/>`).join("");
+    <path d="${d}" fill="none" stroke="#3d5f7a" stroke-width="1.2" opacity="0.4"/>`).join("");
   // the flow highlight follows the main channel (and any distributaries, if a
   // future terrain ever brings them back)
   const highlights = [WATER_WAYPOINTS, ...DELTA_DISTRIBUTARIES].map((pts) => `
-    <path d="${ribbonPath(pts.map((p) => ({ ...p, w: p.w * 0.35 })))}" fill="none" stroke="#4d7192" stroke-width="1.6" opacity="0.3" filter="url(#waterWobble)"/>`).join("");
+    <path d="${ribbonPath(pts.map((p) => ({ ...p, w: p.w * 0.35 })))}" fill="none" stroke="#4d7192" stroke-width="1.6" opacity="0.3"/>`).join("");
   // the sea, open beyond the mouths — a wash across the bottom, fading up,
   // with solid water along the map's foot so the mouths visibly open into it
   // the sea itself is no longer drawn here — it is one shape behind the whole
@@ -339,8 +339,8 @@ function renderTerrainGround({ insets = true } = {}) {
   out += westSeaShape();
   // lakes
   for (const l of TERRAIN.lakes || []) {
-    out += `<ellipse cx="${l.cx}" cy="${l.cy}" rx="${l.rx}" ry="${l.ry}" fill="url(#waterGrad)" opacity="0.92" filter="url(#waterWobble)"/>
-      <ellipse cx="${l.cx}" cy="${l.cy}" rx="${l.rx}" ry="${l.ry}" fill="none" stroke="#3d5f7a" stroke-width="1.1" opacity="0.45" filter="url(#waterWobble)"/>`;
+    out += `<ellipse cx="${l.cx}" cy="${l.cy}" rx="${l.rx}" ry="${l.ry}" fill="url(#waterGrad)" opacity="0.92"/>
+      <ellipse cx="${l.cx}" cy="${l.cy}" rx="${l.rx}" ry="${l.ry}" fill="none" stroke="#3d5f7a" stroke-width="1.1" opacity="0.45"/>`;
     if (l.jetty) out += `<line x1="${l.jetty.x}" y1="${l.jetty.y}" x2="${l.jetty.x - 16}" y2="${l.jetty.y + 7}" stroke="#8a7550" stroke-width="2.6" opacity="0.85"/>`;
   }
   // insets — the Alaska convention: a framed corner box for what lies beyond
@@ -379,8 +379,8 @@ function renderTerrainGround({ insets = true } = {}) {
   // channel, drawn the Still Reach's way — no flow highlight, nothing moves.
   for (const w of TERRAIN.water_offshoots || []) {
     const d = ribbonPath(w.pts, { roundEnd: !!w.round_end });
-    out += `<path d="${d}" fill="url(#waterGrad)" opacity="0.92" filter="url(#waterWobble)"/>
-      <path d="${d}" fill="none" stroke="#3d5f7a" stroke-width="1.1" opacity="0.45" filter="url(#waterWobble)"/>`;
+    out += `<path d="${d}" fill="url(#waterGrad)" opacity="0.92"/>
+      <path d="${d}" fill="none" stroke="#3d5f7a" stroke-width="1.1" opacity="0.45"/>`;
   }
   // bridges — private-scale timber, the locks' wood (two rails + planks)
   for (const b of TERRAIN.bridges || []) {
@@ -448,8 +448,8 @@ function renderSurveyChannelsOverlay() {
   }).join("");
   return `
   <g id="the-water-survey-overlay">
-    <path d="${d}" fill="url(#waterGrad)" opacity="0.85" filter="url(#waterWobble)"/>
-    <path d="${d}" fill="none" stroke="#3d5f7a" stroke-width="1.2" opacity="0.55" filter="url(#waterWobble)"/>
+    <path d="${d}" fill="url(#waterGrad)" opacity="0.85"/>
+    <path d="${d}" fill="none" stroke="#3d5f7a" stroke-width="1.2" opacity="0.55"/>
     ${gates}
   </g>`;
 }
@@ -563,15 +563,10 @@ function seaFill(id, d, coastLine) {
     <clipPath id="${id}-clip"><path d="${d}"/></clipPath>
     <g clip-path="url(#${id}-clip)">
       <rect x="-5" y="0" width="${MAP_W}" height="${MAP_H}" class="bg-grain"/>
-      <!-- the grain too: the map lays paper THEN grain, and blanking to bare
-           paper leaves this water half a tone off the water beside it — which
-           shows up as a faint rectangle wherever one of these shapes overlaps
-           open sea. Same two rects, same order, no seam. -->
-      <rect x="-5" y="0" width="${MAP_W}" height="${MAP_H}" filter="url(#paperGrain)"/>
       <rect x="-5" y="${SEA_FADE_Y}" width="${MAP_W}" height="${MAP_H - SEA_FADE_Y}" fill="url(#seaFade)"/>
       <rect x="-5" y="0" width="${MAP_W}" height="${MAP_H}" fill="#122943" opacity="0.85"/>
     </g>
-    <path d="${coastLine}" fill="none" stroke="#3d5f7a" stroke-width="1.2" opacity="0.45" filter="url(#waterWobble)"/>
+    <path d="${coastLine}" fill="none" stroke="#3d5f7a" stroke-width="1.2" opacity="0.45"/>
   </g>`;
 }
 
@@ -1560,14 +1555,6 @@ function buildPlaces() {
 
 const DEFS = `
   <defs>
-    <filter id="paperGrain" x="-5%" y="-5%" width="110%" height="110%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" stitchTiles="stitch" result="noise"/>
-      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.25  0 0 0 0 0.2  0 0 0 0 0.12  0 0 0 0.05 0"/>
-    </filter>
-    <filter id="waterWobble" x="-10%" y="-10%" width="120%" height="120%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.012 0.018" numOctaves="2" seed="41" result="n"/>
-      <feDisplacementMap in="SourceGraphic" in2="n" scale="10" xChannelSelector="R" yChannelSelector="G"/>
-    </filter>
     <filter id="softWash" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="6"/>
     </filter>
@@ -1717,7 +1704,6 @@ function main() {
 <svg id="map-svg" viewBox="0 0 ${MAP_W} ${MAP_H}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="The ground of Postmark — the sea, the water, the terrain and the regions, without the houses">
   ${DEFS}
   <rect x="0" y="0" width="${MAP_W}" height="${MAP_H}" class="bg-grain"/>
-  <rect x="0" y="0" width="${MAP_W}" height="${MAP_H}" filter="url(#paperGrain)"/>
   ${renderSea()}
   ${renderWater()}
   ${renderTerrainGround({ insets: false })}
@@ -1733,7 +1719,6 @@ function main() {
 <svg id="map-svg" viewBox="0 0 ${MAP_W} ${MAP_H}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Map of Postmark">
   ${DEFS}
   <rect x="0" y="0" width="${MAP_W}" height="${MAP_H}" class="bg-grain"/>
-  <rect x="0" y="0" width="${MAP_W}" height="${MAP_H}" filter="url(#paperGrain)"/>
   ${renderSea()}
   ${renderWater()}
   ${renderTerrainGround()}
