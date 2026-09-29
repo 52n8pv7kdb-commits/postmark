@@ -15,7 +15,7 @@ import {
   parseDeliveries, householdKeys, deriveMints, mintLine,
   parseStampLedger, sealChain, foldBalances, giftLine, appendSigned,
   currentHouseholds, classifyEntry, welcomeLine, signSeal,
-  deriveTransfers, parseLaws, meepChecker, foldPotPositions, foldWorldMarkPositions,
+  deriveTransfers, deriveFriendshipMints, parseLaws, meepChecker, foldPotPositions, foldWorldMarkPositions,
   worldStakeLine, worldUnstakeLine, potStakeLine, potUnstakeLine, townIssuanceLine,
 } from './stamp-mint.mjs';
 import { verifyStampLedger } from './stamp-verify.mjs';
@@ -765,10 +765,19 @@ test('town issuance: the treasury\'s two cancelling omissions, pulled apart', ()
 test('LIVE ledger: the settlement balance equals the liquid balance for EVERY handle with escrow', () => {
   // The parity law itself, over the town's own ledger, in both directions at
   // once and without a number that can decay. For each handle the four arms
-  // touch, a letter paying `liquid + 1` must settle as a TRANSFER (its own
-  // correspondence mint covers the +1) and `liquid + 2` must VOID. That brackets
-  // the settlement balance to exactly `liquid + 1` — under-credit reds the first
-  // probe, over-credit reds the second.
+  // touch, a letter paying `liquid + own` must settle as a TRANSFER and
+  // `liquid + own + 1` must VOID, where `own` is what the probe letter itself
+  // mints to its sender before it settles. That brackets the settlement balance
+  // to exactly `liquid + own` — under-credit reds the first probe, over-credit
+  // reds the second.
+  //
+  // `own` is DERIVED, never assumed to be 1. The probe is a real letter to a
+  // real resident, so it earns its correspondence mint AND can cross a
+  // friendship rung with them: on 2026-09-28 the probe from wright was wright's
+  // next letter to little-bird, crossed a rung, and was credited 11, and this
+  // test called the ledger over-credited when the only thing over was its own
+  // constant. (lucien and current-the-reader had gone red the same way, and
+  // green again once real letters carried them past their rungs.)
   //
   // Nothing is written: `deriveTransfers` is pure, the synthetic delivery lives
   // only in the argument list, and the real ledger is read and never appended to.
@@ -796,17 +805,24 @@ test('LIVE ledger: the settlement balance equals the liquid balance for EVERY ha
   assert.ok(probes.length >= 10, `the sweep must not be vacuous — got ${probes.length} handles`);
   assert.ok(probes.includes('the-town'), 'the treasury is in the sweep: it is where the two omissions cancelled');
 
+  const probe = (from, pays) => ({ date: DATE, id: `parity-probe-${from}`, from, to: TO, pays, thread: 'new' });
   const decide = (from, pays) => {
-    const id = `parity-probe-${from}`;
-    const out = deriveTransfers([...deliveries, { date: DATE, id, from, to: TO, pays, thread: 'new' }],
-      households, { laws, revisions }, entries);
-    return out.find((x) => x.id === id)?.kind ?? 'missing';
+    const out = deriveTransfers([...deliveries, probe(from, pays)], households, { laws, revisions }, entries);
+    return out.find((x) => x.id === probe(from, pays).id)?.kind ?? 'missing';
+  };
+  const ownMint = (from) => {
+    const withProbe = [...deliveries, probe(from, 0)];
+    const mine = (m) => m.cause === probe(from, 0).id && m.handle === from;
+    return deriveMints(withProbe, households, { laws, revisions }).filter(mine).length
+      + deriveFriendshipMints(withProbe, households, { laws, revisions }).filter(mine).reduce((a, m) => a + m.n, 0);
   };
   const wrong = [];
   for (const h of probes) {
     const liquid = bal.get(h) ?? 0;
-    if (decide(h, liquid + 1) !== 'transfer') wrong.push(`${h}: under-credited — refuses to pay ${liquid + 1} on a liquid balance of ${liquid}`);
-    if (decide(h, liquid + 2) !== 'void') wrong.push(`${h}: over-credited — would pay ${liquid + 2} on a liquid balance of ${liquid}`);
+    const own = ownMint(h);
+    assert.ok(own >= 1, `${h}: the probe letter must mint its sender at least the correspondence stamp, got ${own}`);
+    if (decide(h, liquid + own) !== 'transfer') wrong.push(`${h}: under-credited — refuses to pay ${liquid + own} on a liquid balance of ${liquid} (+${own} from the probe)`);
+    if (decide(h, liquid + own + 1) !== 'void') wrong.push(`${h}: over-credited — would pay ${liquid + own + 1} on a liquid balance of ${liquid} (+${own} from the probe)`);
   }
   assert.deepEqual(wrong, [], `${wrong.length} of ${probes.length} handles disagree with their own liquid balance:\n  ${wrong.join('\n  ')}`);
 });
