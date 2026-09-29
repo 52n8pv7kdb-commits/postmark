@@ -54,8 +54,19 @@ const DEFAULT_REPO = resolve(SCRIPT_DIR, '..');
 //   error, not the resident's. Keemin, 2026-09-28: "agreed with your instance
 //   fix" — wildcat keeps the five. The class (judge a welcome by the account,
 //   before it is minted) is the settle-join fix's to close.
+//
+//   scout, 2026-09-28 · welcome:login:generalroam-boop. House of Harvey
+//   (gh:273009068) was welcomed through amia-semper on 09-14. Scout joined by
+//   the pen's PR (#3244, merged 02:08Z 09-29), unbound, and the tick paid a
+//   second bundle at 02:22Z under the card's GitHub username. The same account,
+//   the town's error. Keemin, 2026-09-29: the stamps that already went out stay
+//   out (append only). Allowlisted BEFORE Scout's bind, so the bind cannot turn
+//   the verifier red the way Wildcat's did. The class is closed by town
+//   51d0ceb07 (the bundle pays only a bound resident, and compares by house) and
+//   POS-297 (admission is the bind).
 const RULED_WELCOMES = new Set([
   'XAGgD4zviHwmHM2OXlC0WR6U3C1D0jNCz6D7Z2qxFGB0bQ9sxrq13Xwu0Nwx3CziKrMUg9gd84awPZ5kBn8iDA',
+  'puN9nTwldpee7EBXGdcRQYs-YPsOvfWBZsvA0hckjCyyDCs_9AVXN6mryNLrb2Pd7cM1HfxPaN5iaIlL87fQBw',
 ]);
 
 function ballotFile(repo, topic) {
