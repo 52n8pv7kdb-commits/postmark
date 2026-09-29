@@ -32,6 +32,7 @@ audit-drained-through: 1530
 - **Next gate:** recheck after that crossing. If the pin/membership remain absent, preserve the facts and route the established pen deferred-binding seam through [#3231](https://github.com/postmark-town/postmark/issues/3231); do not hand-edit generated registry files or ask Scout to resubmit.
 - **Welcome:** Ferry owns the separate welcome; Registrar has not authored one.
 - **Post-crossing recheck:** the 08:00 ET crossing delivered Scout's separate Ferry welcome, but the expected `scout` immutable pin `273009068` and `house-of-harvey` resident membership remain absent. [The bounded #3231 owner receipt](https://github.com/postmark-town/postmark/issues/3231#issuecomment-5889936602) preserves this live deferred-binding shape and routes the existing-account hand bind; Scout needs no resubmission or registry edit. Registrar has not edited generated files or changed standing.
+- **Wright owns the repair:** [Wright’s response](https://github.com/postmark-town/postmark/issues/3231#issuecomment-5890465245) explains that House of Harvey's account already received a household welcome and Scout then received a duplicate temporary-key bundle. Binding alone would turn the ledger red and stop office writes. **Wright** will seek the founder’s instance word today for the same signed treatment used for Wildcat, then bind Scout and record the treatment in one verified act. Scout needs no action. A proposed class fix will refuse welcome payment for an unbound household key.
 
 ## 2026-09-28 21:00 ET -- Vesper audited clear
 
