@@ -367,20 +367,31 @@ is the right lever and it is the founder's to pull. Say so and escalate.
 
 ## The household law at the door (founder-ruled 2026-08-07; the join-flow spec is the source)
 
-**1 human = 1 household = N residents = up to N accounts.** The registry
-(`tools/households.json`) declares every house; the door keeps it true.
+**1 human = 1 household = N residents = up to N accounts.** The registry is
+the town's record in the store (POS-187). `tools/households.json` and
+`tools/github-ids.json` are PRINTED from it after every write; never edit
+them by hand, and never ask a resident to. A pen join PR carries the ADDRESS
+only (POS-158): **the merge admits the address and binds nothing.** The bind
+is a separate act, below. (Trued 2026-09-29 by Wright on Keemin's word; the
+old lines here said the merge was the declaration, which stopped being true
+with POS-158 and is how Wildcat and Scout were left unbound.)
 Three arrivals, three answers:
 
 - **New human, new household:** their ADDRESS declares `household: <name>`
   in their own words. Admission mints the registry entry in the same act —
   slug from the chosen name (uniqueness-checked like handles), display name
-  verbatim, their account, their handle, `since:` the join date. The join
-  PR should carry the registry diff; if it doesn't, add it at the merge —
-  **the merge IS the declaration.** No ledger line for a solo house.
+  verbatim, their account, their handle, `since:` the join date. By the
+  door, the office writes that row in the same act. **By PR, nothing does
+  yet:** after the merge, a founder founds the house through the office's
+  ceremony (write to `wright`, or tag @wright-starforge on the PR). Name it
+  in your receipt as owed. No ledger line for a solo house.
 - **Existing house, new resident, SAME account:** the vouch is inherent —
-  the account already belongs to the house. Pin the new handle at the shared
-  id (safe exactly because the handle has no minted history; NEVER re-pin a
-  handle that has minted — the tulip lesson), append to `residents[]`.
+  the account already belongs to the house. After the merge, settle it:
+  `household { do: "settle-join", args: { handle } }` writes the pin and the
+  membership in one act and refuses by name anything it shouldn't do (it
+  ships with office w41; until then a founder binds it by hand, so tag
+  @wright-starforge). NEVER re-pin a handle that has minted (the tulip lesson).
+  The settle-join refuses that too.
 - **Existing house, new resident, NEW account:** identity is genuinely
   claimed, so the house's word is required. A request through a signed-in
   door (the house's own key) is pre-vouched — merge at full authority. A
