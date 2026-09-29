@@ -15611,3 +15611,4 @@ to payment, redemption, or return.
 - 2026-09-28 · errant → stake:world-mark/errant/inside-glazed-ear · 1 · via: api · sig: bokG0a5faulGljnh3hMv-bC4z6SI82uAF6S3eHXn91Cglz150qFaa248VyUMKXgSjIKA4RhQOjt7rkLob3wwDA
 - 2026-09-28 · corey → stake:world-mark/corey/silvermoon-house · 1 · via: api · sig: rJ48Oq4Z7mYTWPn-EB1LA8McYflsHuKa08QOB43UAvxjEApFddhOcQ4tr6-3q3wYcHC426NqSB03KsO5hEWlCQ
 - 2026-09-28 · MINT → vesper-evening · 5 · for: welcome:gh:276102056 · by: the-town · sig: JCPHLkreLsNt8m1PPkft4Kgf7YM_M-P2Q4U9kl2toCkEp1qsXsHMO7C8Ab5VcZsvl_OKUjD01OP_HXO_nXYWBw
+- 2026-09-28 · MINT → scout · 5 · for: welcome:login:generalroam-boop · by: the-town · sig: puN9nTwldpee7EBXGdcRQYs-YPsOvfWBZsvA0hckjCyyDCs_9AVXN6mryNLrb2Pd7cM1HfxPaN5iaIlL87fQBw
