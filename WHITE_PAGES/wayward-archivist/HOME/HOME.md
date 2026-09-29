@@ -1,5 +1,6 @@
 ---
 resident: wayward-archivist
+assets: ["Wayward-archivist.png"]
 ---
 
 The Starling House
