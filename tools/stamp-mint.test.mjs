@@ -583,6 +583,67 @@ test('THE PLAN lists exactly the unwelcomed houses and names each one FIRST RESI
   rmSync(repo, { recursive: true, force: true });
 });
 
+// ── POSTMARK AUTH HOTFIX (2026-09-29): the welcome pays a HOUSE, and only a bound resident ──
+// Scout's shape: amia is pinned in harvey and was paid under gh:9. Scout joined
+// the same house by the pen's PR, with no pin: the card's GitHub username made
+// the key `login:roamer`, and the plan offered that "household" a second bundle.
+function harvey({ scoutBound }) {
+  const { pub, priv } = keypair();
+  const repo = town({
+    ledgerLines: [],
+    pins: { amia: { id: 9, pinned: '2026-08-29' }, ...(scoutBound ? { scout: { id: 9, pinned: '2026-09-29' } } : {}) },
+    addresses: { amia: 'roamer', scout: 'roamer' },
+  });
+  writeFileSync(join(repo, 'tools', 'households.json'), JSON.stringify({ schema_version: 1, households: {
+    harvey: { name: 'harvey', accounts: [{ login: 'roamer', id: 9 }], residents: scoutBound ? ['amia', 'scout'] : ['amia'] } } }));
+  forged(repo, pub, priv, ['- 2026-09-14 · MINT → amia · 5 · for: welcome:gh:9 · by: the-town']);
+  const keyFile = join(repo, 'stamp-key.pem');
+  writeFileSync(keyFile, priv);
+  return { repo, keyFile };
+}
+
+test('AN UNBOUND RESIDENT WAITS: no GitHub id on record, no bundle — the plan names them and the door refuses (Scout, 2026-09-29)', () => {
+  const { repo, keyFile } = harvey({ scoutBound: false });
+  const plan = runMint(repo, ['--welcome-plan']);
+  assert.equal(plan.ok, true, plan.out);
+  assert.match(plan.out, /welcome plan — 2 household\(s\) in the roll, 1 already welcomed, 0 owed/, 'the unbound house is not owed');
+  assert.match(plan.out, /WAITING FOR A BIND[^\n]*\n {2}login:roamer · \(scout\) · no GitHub id on record/, 'and it is named as waiting, not dropped');
+  const pay = runMint(repo, ['--welcome', 'scout', '--household', 'login:roamer', '--date', '2026-09-29', '--key', keyFile]);
+  assert.equal(pay.ok, false);
+  assert.match(pay.out, /"scout" has no GitHub id on record/);
+  rmSync(repo, { recursive: true, force: true });
+});
+
+test('AFTER THE BIND the house reads as already paid: nothing owed, nothing waiting', () => {
+  const { repo, keyFile } = harvey({ scoutBound: true });
+  const plan = runMint(repo, ['--welcome-plan']);
+  assert.equal(plan.ok, true, plan.out);
+  assert.match(plan.out, /0 owed/);
+  assert.ok(!/WAITING FOR A BIND/.test(plan.out), plan.out);
+  const pay = runMint(repo, ['--welcome', 'scout', '--household', 'gh:9', '--date', '2026-09-29', '--key', keyFile]);
+  assert.equal(pay.ok, false);
+  assert.match(pay.out, /already holds its welcome bundle \(2026-09-14, amia/);
+  rmSync(repo, { recursive: true, force: true });
+});
+
+test('A HOUSE WITH TWO ACCOUNTS is one house: the second account\'s resident is not owed a bundle (Liv & Noe, McD)', () => {
+  const { pub, priv } = keypair();
+  const repo = town({ ledgerLines: [], pins: { liv: { id: 1 }, noe: { id: 2 } }, addresses: { liv: null, noe: null } });
+  writeFileSync(join(repo, 'tools', 'households.json'), JSON.stringify({ schema_version: 1, households: {
+    carried: { name: 'carried', accounts: [{ login: 'l', id: 1 }, { login: 'n', id: 2 }], residents: ['liv', 'noe'] } } }));
+  forged(repo, pub, priv, ['- 2026-09-14 · MINT → liv · 5 · for: welcome:gh:1 · by: the-town']);
+  const keyFile = join(repo, 'stamp-key.pem');
+  writeFileSync(keyFile, priv);
+  const plan = runMint(repo, ['--welcome-plan']);
+  assert.equal(plan.ok, true, plan.out);
+  assert.match(plan.out, /2 household\(s\) in the roll, 2 already welcomed, 0 owed/);
+  assert.match(plan.out, /gh:2 · paid 2026-09-14 → liv/, 'the second account reads as paid, by the house\'s own line');
+  const pay = runMint(repo, ['--welcome', 'noe', '--household', 'gh:2', '--date', '2026-09-29', '--key', keyFile]);
+  assert.equal(pay.ok, false);
+  assert.match(pay.out, /already holds its welcome bundle \(2026-09-14, liv/);
+  rmSync(repo, { recursive: true, force: true });
+});
+
 test('LIVE registry invariants: households.json agrees with the pins', () => {
   const hh = JSON.parse(readFileSync(join(HERE, 'households.json'), 'utf8'));
   const pins = JSON.parse(readFileSync(join(HERE, 'github-ids.json'), 'utf8'));

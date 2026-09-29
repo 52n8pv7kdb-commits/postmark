@@ -262,6 +262,27 @@ export function householdKeys(repo) {
   return map;
 }
 
+// WHO THE WELCOME MAY PAY, AND WHICH HOUSE THEY ARE IN (Postmark Auth,
+// 2026-09-29). Read by --welcome-plan and --welcome only, never by the fold or
+// the verifier, so it can make the welcome stricter and can never turn a
+// recorded line red.
+//   bound(h)   — the resident has a GitHub id on record (a pin). An unbound
+//                resident is keyed by the GitHub username on their card, which
+//                the once-per-household check cannot see through.
+//   houseOf(h) — the declared house the store lists the resident in
+//                (tools/households.json, printed from the store), or null.
+export function welcomeBinding(repo) {
+  const readJson = (p) => { try { return JSON.parse(readFileSync(join(repo, 'tools', p), 'utf8')); } catch { return null; } };
+  const pins = readJson('github-ids.json') ?? {};
+  const houses = readJson('households.json')?.households ?? {};
+  const house = new Map();
+  for (const [slug, rec] of Object.entries(houses)) for (const r of rec?.residents ?? []) house.set(r, slug);
+  return {
+    bound: (h) => Boolean(pins[h] && typeof pins[h] === 'object' && pins[h].id),
+    houseOf: (h) => house.get(h) ?? null,
+  };
+}
+
 // The CURRENT household view: the from-genesis base above with the ledger's
 // dated `registry:` revisions folded to now — the same fold deriveMints and
 // ballot apply per-date, exported once so no current-state consumer re-invents
@@ -2092,7 +2113,20 @@ function main() {
       if (!byHouse.has(rec.key)) byHouse.set(rec.key, []);
       byHouse.get(rec.key).push(handle);
     }
-    const owed = [], held = [];
+    // THE HOUSE, NOT THE SPELLING (Postmark Auth, 2026-09-29). A welcome paid
+    // to any resident of a declared house marks the whole house paid, whatever
+    // key string either resident wears. Wildcat (09-28) and Scout (09-29) were
+    // each paid a second bundle because their key was a GitHub-username spelling
+    // of an account their house had already been paid under.
+    const binding = welcomeBinding(repo);
+    const paidHouses = new Map(); // declared slug -> the line that paid it
+    for (const e of existing) {
+      const c = classifyEntry(e.canonical);
+      if (c.kind !== 'welcome') continue;
+      const slug = binding.houseOf(c.handle);
+      if (slug && !paidHouses.has(slug)) paidHouses.set(slug, c);
+    }
+    const owed = [], held = [], waiting = [];
     for (const key of [...byHouse.keys()].sort()) {
       const residents = byHouse.get(key).slice().sort();
       const first = residents.slice().sort((a, b) => {
@@ -2102,13 +2136,28 @@ function main() {
         if (!pa && pb) return 1;
         return a.localeCompare(b);
       })[0];
-      (paid.has(key) ? held : owed).push({ key, residents, first, by: paid.get(key) ?? null });
+      const houseLine = residents.map((h) => paidHouses.get(binding.houseOf(h))).find(Boolean);
+      const by = paid.get(key) ?? houseLine ?? null;
+      if (by) held.push({ key, residents, first, by });
+      // ONLY A BOUND RESIDENT IS PAID. A resident with no GitHub id on record
+      // wears a GitHub-username spelling, and the once-per-household check
+      // cannot see through it. They wait, and the first tick after the bind
+      // pays the house once, or finds it already paid.
+      else if (!residents.some((h) => binding.bound(h))) waiting.push({ key, residents });
+      else owed.push({ key, residents, first: binding.bound(first) ? first : residents.find((h) => binding.bound(h)), by: null });
     }
     console.log(`welcome plan — ${byHouse.size} household(s) in the roll, ${held.length} already welcomed, ${owed.length} owed`);
     console.log(`  (5 stamps each; ${owed.length * 5} stamps in total if every owed bundle is written)`);
     if (owed.length) console.log('\nOWED — first resident · household · (residents)');
     for (const o of owed) {
       console.log(`  ${o.first} · ${o.key} · (${o.residents.join(', ')})${pinnedOf(o.first) ? ` · pinned ${pinnedOf(o.first)}` : ' · no pin'}`);
+    }
+    // After OWED and its blank line, so the office's plan parser, which reads
+    // the OWED rows up to the first blank line, never mistakes a waiting house
+    // for an owed one. The header's counts are unchanged in shape.
+    if (waiting.length) {
+      console.log('\nWAITING FOR A BIND — household · (residents)');
+      for (const w of waiting) console.log(`  ${w.key} · (${w.residents.join(', ')}) · no GitHub id on record: bind the resident, and the next tick pays the house once`);
     }
     if (held.length) {
       console.log('\nALREADY WELCOMED');
@@ -2152,9 +2201,15 @@ function main() {
     if (household !== mine) {
       console.error(`FATAL: --household ${household} is not "${handle}"'s household at ${date} (${mine}) — the bundle is paid to a house, and the line must name the house it paid`); process.exit(1);
     }
+    const binding = welcomeBinding(repo);
+    if (!binding.bound(handle)) {
+      console.error(`FATAL: "${handle}" has no GitHub id on record (tools/github-ids.json) — only a bound resident is welcomed; bind them first, and the next pass pays their house once`); process.exit(1);
+    }
+    const myHouse = binding.houseOf(handle);
     for (const e of existing) {
       const c = classifyEntry(e.canonical);
-      if (c.kind === 'welcome' && (c.household === mine || keyOf(c.handle, c.date) === mine)) {
+      if (c.kind === 'welcome' && (c.household === mine || keyOf(c.handle, c.date) === mine
+          || (myHouse && binding.houseOf(c.handle) === myHouse))) {
         console.error(`FATAL: household already holds its welcome bundle (${c.date}, ${c.handle}, welcome:${c.household}) — once per household, ever`); process.exit(1);
       }
     }

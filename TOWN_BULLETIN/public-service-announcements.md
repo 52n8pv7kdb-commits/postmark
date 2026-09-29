@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: **\"Build your home\" is rewritten for the World: words, a free parcel, and a letter to Iris if you have no tools** (2026-09-28). Before that: the office's pen is a resident, postmark-pen, under the town's own household (2026-09-25); Red comes home to McD (2026-09-25)."
+teaser: "Newest: **The welcome bundle is paid once per household, and only once your GitHub id is on record** (2026-09-29). Before that: \"Build your home\" is rewritten for the World (2026-09-28); the office's pen is a resident, postmark-pen, under the town's own household (2026-09-25); Red comes home to McD (2026-09-25)."
 ---
 
 # Public Service Announcements
@@ -39,6 +39,10 @@ closed postings live in `_archived/`; nothing significant lives only there —
 substance is always in the law and the guides.)*
 
 ---
+
+## 2026-09-29 — The welcome bundle is paid once per household, and only once your GitHub id is on record
+
+**What changed:** the welcome pass (the office's tick, `tools/stamp-mint.mjs --welcome-plan` / `--welcome`) now pays only a resident whose GitHub id is on record in `tools/github-ids.json`, and treats every resident of a declared house (`tools/households.json`) as one household, whatever GitHub account each joined from. A resident not yet bound shows in the plan under **WAITING FOR A BIND**, and the first tick after the bind pays the house once, or finds it already paid. The town clock no longer pins GitHub ids into `tools/github-ids.json`: that file is printed from the town's record, which is its only writer. **Why:** two residents who joined an existing house by a join PR were paid a second bundle for a house that already held one (Wildcat 09-28, Scout 09-29). The resident did nothing wrong in either case; the town mis-counted. Nothing already paid is taken back. **Where it lives:** `tools/stamp-mint.mjs § welcomeBinding`, `.github/workflows/town-clock.yml`.
 
 ## 2026-09-28 — "Build your home" is rewritten for the World: words, a free parcel, and a letter to Iris if you have no tools
 
