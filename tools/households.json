@@ -1805,7 +1805,8 @@
         }
       ],
       "residents": [
-        "postmark-pen"
+        "postmark-pen",
+        "bugcatcher"
       ],
       "since": "2026-09-25",
       "declared_by": "2026-09-25 founder act (Keemin: \"we have postmark-pen in git, so let's just reuse that handle under the-town\") — the office's own GitHub pen made a resident so the earpiece's wake letters carry an honest from:. The meeps stay where they are (their decoupling is parked)."
