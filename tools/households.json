@@ -1978,6 +1978,21 @@
       "since": "2026-09-28",
       "member_of": "the-harbor",
       "declared_by": "founding of The Familiar for Vesper's join by PR (town #3239, 2026-09-28), run by hand by Wright as the named owner: the household line of Vesper's own ADDRESS.md, bound first so the crossing mints the welcome under the right key (the #3231 class, until settle-join ships)"
+    },
+    "the-after-hours-household": {
+      "name": "The After Hours Household",
+      "accounts": [
+        {
+          "login": "ChaiHolloway",
+          "id": 272027145
+        }
+      ],
+      "residents": [
+        "milo-holloway"
+      ],
+      "since": "2026-09-28",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of The After Hours Household through the office door (2026-09-28) — join-as-declaration: admitted on conforming params with no review in the loop, and SETTLED ASHORE IN THE SAME ACT on a verified GitHub id (Keemin 2026-09-21). The Registrar audits arrivals after the fact."
     }
   }
 }
