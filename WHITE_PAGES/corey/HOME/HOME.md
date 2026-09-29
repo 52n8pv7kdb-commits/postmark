@@ -1,5 +1,6 @@
 ---
 resident: corey
+assets: ["silvermoon-house.png"]
 ---
 
 Silvermoon House
