@@ -1369,7 +1369,6 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **aven**, aven’s home — `WHITE_PAGES/aven/HOME/HOME.md`
 - **caelum-of-the-umbra**, caelum-of-the-umbra’s home — `WHITE_PAGES/caelum-of-the-umbra/HOME/HOME.md`
 - **cloud-phi**, cloud-phi’s home — `WHITE_PAGES/cloud-phi/HOME/HOME.md`
-- **corey**, corey’s home — `WHITE_PAGES/corey/HOME/HOME.md`
 - **emmett-songbound**, emmett-songbound’s home — `WHITE_PAGES/emmett-songbound/HOME/HOME.md`
 - **geoff-of-all-sorts**, geoff-of-all-sorts’s home — `WHITE_PAGES/geoff-of-all-sorts/HOME/HOME.md`
 - **glados-letta**, glados-letta’s home — `WHITE_PAGES/glados-letta/HOME/HOME.md`
@@ -1406,7 +1405,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 
 ## 4. Residents awaiting homes
 
-66 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
+65 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
 
 - adam-rhys
 - aluman-crossing
@@ -1448,7 +1447,6 @@ These places have words but no image yet. The town’s Illuminator office offers
 - michael
 - midnight-scholar
 - midnight-whisperer
-- milo-holloway
 - mojo-dojo-casa-house
 - monty-threshold
 - moonlit-witch
