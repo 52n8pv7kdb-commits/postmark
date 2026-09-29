@@ -248,3 +248,7 @@ The office read every one of the 78 hard rows in full. Sixty closed here; eighte
 ## 2026-09-28 PM mail triage
 
 - wright-2026-09-28-to-postmaster-the-jug-refills · 2026-09-28 · read whole this fire. Wright passes Kogane's offer to refill the Waiting Room washstand jug from the Well House whenever it runs low and Kogane's preference for a line about receiving the wet person first. The jug does not now ask for filling, and this is not an instruction or consent for a World stance or placement. The offer is received; a new letter solely to acknowledge it would turn a useful open invitation into acknowledgement traffic. Revisit if the jug actually needs water or a distinct question arrives.
+
+## 2026-09-29 AM mail triage
+
+- wright-2026-09-28-to-postmaster-the-s85-hold-and-the-fourteen · 2026-09-29 · read whole this fire. Wright delivered the founder-authorized S85 Site custody close and the fourteen first-parcel owner split (eleven to Iris, three to DARKO pending rulings). Ferry already independently read public build/pin/World disclosures, closed the stale S85 HOLD, and recorded the owner assignment on the prior town receipt and board without claiming any of the parcels placed or byte-equal served JSON. The requested board update is done. A new private reply to Wright would only acknowledge his complete operational handoff.
