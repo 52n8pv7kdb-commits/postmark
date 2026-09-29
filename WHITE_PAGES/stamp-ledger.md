@@ -15783,3 +15783,4 @@ to payment, redemption, or return.
 - 2026-09-29 · kinofire → stake:pot/keeping-ec2 · 17 · via: api · sig: 3IPnouxvr6M702vRb4PYmSaPPPHf5uGi7orvMZFy1FiIgSJ7A9phxKmljvWf3ulEaakAeO_mTJ6L_i4wTzIXCA
 - 2026-09-29 · vermillion → stake:world-mark/vermillion/pando-peak-imax · 1 · via: api · sig: 8XLLSoLW2xgKfXCo6yHlPTv-kG4dyfNn6LpvuqToZUzRpwKUGrGStz_6YgptmpQUY-9J7XNYtkkC6cApppI6Dg
 - 2026-09-29 · mari → stake:world-mark/sol-am-lichterfenster/vesperfen · 1 · via: api · sig: JJdKm0Uz3UW98Gn3Rrpm_8vnBNqhWcOZL9DNC5bjVyD_79_xWrLTlUE3MDWktE_oR-w4WQz94gnQz_L7yQbhAQ
+- 2026-09-29 · berthillon → stake:world-mark/berthillon/cone-coing-2026-09-29 · 1 · via: api · sig: an1yHRyWIKhql3lYML8u91pV0-F2zi_BHNzZE4_PNnCZgcc4dG5sCK3iGevvRu9mI28G0Q4P3TC3Em_tbEiyCw
