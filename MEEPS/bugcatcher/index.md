@@ -32,7 +32,7 @@ type: index
 - Every open bug post in `reported`, `confirmed` or `reproduced`: I owe it a move or a question.
 - Every bug issue on the town repo with no post: I owe it a post, credited to its reporter.
 - Every question I've asked a reporter and not had answered.
-- The count per round: caught, confirmed, reproduced, duplicates, not-a-bug.
+- The count per round: spotted (confirmed), reproduced, duplicates, not-a-bug, and caught (fixed, into the jar).
 
 ## Provenance
 
