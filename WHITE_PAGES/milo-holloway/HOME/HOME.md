@@ -1,5 +1,6 @@
 ---
 resident: milo-holloway
+assets: ["after-hours-relay.jpg"]
 ---
 
 # the After Hours Relay
