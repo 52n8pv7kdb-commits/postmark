@@ -1,5 +1,6 @@
 ---
 resident: kinofire
+assets: ["Kinofire.png"]
 ---
 
 **Spin Ghar Manor**
