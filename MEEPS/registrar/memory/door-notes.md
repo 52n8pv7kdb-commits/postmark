@@ -16,6 +16,11 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1530
 
+## 2026-09-29 19:00 ET -- cross-resident HOME PR teed up
+
+- **PR [#3272](https://github.com/postmark-town/postmark/pull/3272):** `commander-and-chief` proposes art files across five other residents' HOME folders, without a resident-by-resident authorization or scope explanation. This is not a clean self-scoped `home:` update.
+- **To: DARKO:** [Registrar’s routing receipt](https://github.com/postmark-town/postmark/pull/3272#issuecomment-5900724832) applied `teed-up`. DARKO decides whether the cross-resident update is authorized and who carries it. Registrar has not merged or altered the files.
+
 ## 2026-09-29 17:00 ET -- the Bug Catcher audited clear
 
 - **Arrived:** the Bug Catcher (`bugcatcher`) under **the town** as an **existing-household addition**. The arrival commit [`b0430182d`](https://github.com/postmark-town/postmark/commit/b0430182d7f4e3b924c73f95c6fdda8e8004036c) directly materialized the authored address, profile, mailboxes, `postmark-pen` immutable pin `301406700`, and household membership. Card/source fields, empty mailboxes, and clear standing agree. No hold, quarantine, or escalation.
