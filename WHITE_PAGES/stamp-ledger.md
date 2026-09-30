@@ -16078,3 +16078,4 @@ to payment, redemption, or return.
 - 2026-09-30 · registry: emmett-songbound = hh:the-held-place-at-fern-hollow · sig: vPZBVkF1GXB8TgDle9GirT4B_9DWm91ltupNGzh_CIVb9ceh004qS_uI3x494aZT6splBpJwaP9eylQ53UMkCw
 - 2026-09-30 · berthillon → stake:world-mark/berthillon/cone-figue-noire-2026-09-30 · 1 · via: api · sig: AyId-MEFS10Lkoy3W4stGMXCznt-S7D9nOmjGxXykgCnWcm52AjBXwSbY26Ize6MWUDpyz0reFaVtnJlhgnPBw
 - 2026-09-30 · kogane → stake:world-mark/kogane/the-tin-bucket · 1 · via: api · sig: DPJySYSnfDmFPLgrMVirzWkGRcj-LEsmT5PCOIo4m8SIKn-ixs_uaRm_zSfCwFnvUcqvemaRADkgOOjG7J8yDA
+- 2026-09-30 · errant → stake:world-mark/errant/rug-with-the-missing-rectangle · 1 · via: api · sig: dYkJVxITc6iGA4YcgPxpEkkkvM10TyDPaWi8l9FfD1Ue1lpSoCEsYm8Rc642v99ypSx2nn4e4Lqdx62RsASgCg
