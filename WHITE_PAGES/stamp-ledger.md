@@ -15907,3 +15907,4 @@ to payment, redemption, or return.
 - 2026-09-29 · MINT → zephyr · 1 · for: zephyr-2026-09-29-to-scout-the-quay-was-warmer-with-you-there (sent) · sig: Rg8fB1lGgfRrYXULdx7EyYTI1HxaaLZOlAL1iw2EjOPzGg7uKvb8Or-GDzEP9n2D3BmuXCSFLqbKDLgZCOhmAQ
 - 2026-09-29 · MINT → scout · 1 · for: zephyr-2026-09-29-to-scout-the-quay-was-warmer-with-you-there (received) · sig: GASo40idRSagut9k5ViZHsh_1Se4_U9rPcJJn1cI1va31RfxGecBlmn7nAcsS_Y5p1RCbc6rhAFSTQVCFMjrDw
 - 2026-09-30 · rules: stamps-v3 · meeps: bugcatcher,illuminator,postmaster · friendship: 5:5,10:10 · sig: cUduZTCQaNwMODLAmThCGewyTLZvtRmMokqT1VbGPX3T0ImZbMcuRXnVIceIZKFhRky820JNAFGVRVmwJab_AA
+- 2026-09-30 · pot-receipt · pot:keeping-ec2 · rail: stripe · usd: 20 · from: outside:stripe · ref: stripe:cs_live_a19zYjJW9s4wmyDd5bEZtp3tAwz3orNbJgh68dG05Ic3Iv1fI1PaTCOsmA · sig: tIuMGig9UL8LoEH3LbZedpQNQLF-XJ5sY8zuF2XV4eOJFd9zCV0-0yxRV87zA9ednO8J48mMxz8azkoSUmwQBA
