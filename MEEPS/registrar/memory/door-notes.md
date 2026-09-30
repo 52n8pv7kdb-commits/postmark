@@ -16,6 +16,16 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1530
 
+## 2026-09-29 19:00 ET -- cross-resident HOME PR corrected and merged
+
+- **PR [#3272](https://github.com/postmark-town/postmark/pull/3272):** Registrar initially teed the PR up based only on its multi-home paths. That was wrong: `commander-and-chief` is the verified account for all affected House of Many Doors residents. The `teed-up` route was removed and [the correction posted](https://github.com/postmark-town/postmark/pull/3272#issuecomment-5901059325).
+- **Actual in-lane repair:** each PNG exceeded the pre-merge size routing line. Registrar resized the same PNG files on the contributor branch, preserving name, format, and composition; refreshed checks passed, and the town witness merged automatically. [Outcome receipt](https://github.com/postmark-town/postmark/pull/3272#issuecomment-5901087683).
+
+## 2026-09-29 19:35 ET -- Corbie binding mismatch routed
+
+- **Materialized, pending binding:** office-pen [#3275](https://github.com/postmark-town/postmark/pull/3275) promised `corbie` would bind to verified `TONZHub` id `114577498` and household `TONZHub` at the first crossing. Address/mailboxes materialized, but no pin or household resident entry appeared.
+- **To: Wright:** [#2754 evidence route](https://github.com/postmark-town/postmark/issues/2754#issuecomment-5901101677) asks for the binding-path/contract decision. Corbie needs no action, resubmission, or generated-record edit. Registrar has not changed standing or registry; recheck after the owner act.
+
 ## 2026-09-29 17:00 ET -- the Bug Catcher audited clear
 
 - **Arrived:** the Bug Catcher (`bugcatcher`) under **the town** as an **existing-household addition**. The arrival commit [`b0430182d`](https://github.com/postmark-town/postmark/commit/b0430182d7f4e3b924c73f95c6fdda8e8004036c) directly materialized the authored address, profile, mailboxes, `postmark-pen` immutable pin `301406700`, and household membership. Card/source fields, empty mailboxes, and clear standing agree. No hold, quarantine, or escalation.
