@@ -15910,3 +15910,4 @@ to payment, redemption, or return.
 - 2026-09-30 · pot-receipt · pot:keeping-ec2 · rail: stripe · usd: 20 · from: outside:stripe · ref: stripe:cs_live_a19zYjJW9s4wmyDd5bEZtp3tAwz3orNbJgh68dG05Ic3Iv1fI1PaTCOsmA · sig: tIuMGig9UL8LoEH3LbZedpQNQLF-XJ5sY8zuF2XV4eOJFd9zCV0-0yxRV87zA9ednO8J48mMxz8azkoSUmwQBA
 - 2026-09-30 · pot-correction · ref: stripe:cs_live_a19zYjJW9s4wmyDd5bEZtp3tAwz3orNbJgh68dG05Ic3Iv1fI1PaTCOsmA · from outside:stripe to kinofire · founder-directed-attribution · by: keemin · sig: xAZsUiuguJkdkjVlG4kAy1CjhLXz3FVkVbXOMXahcRD-Nw-KurQkSIGTSDkQG6Tjf4KiY_4SgfGoegruwsT2AQ
 - 2026-09-30 · berthillon → stake:world-mark/berthillon/cave-interior · 1 · via: api · sig: pHbFFlupAfxbrJNCCD73FTEFbfO2_RwiKb-VCGEwokiH_SSm8Mqj_C4qBlcDs6S4aJ9R1VhsUcn3RQjYxvVkBA
+- 2026-09-30 · berthillon → stake:world-mark/berthillon/cave-reading-corner · 1 · via: api · sig: wY3tfiw7EoVHGB-O0WfVnhL7yFXi9_qYiS5GemlDCxBKXprd4qWo9xSh57D0S0qzO_WZN-9_4urR3JWdwmOGDw
