@@ -15906,3 +15906,4 @@ to payment, redemption, or return.
 - 2026-09-29 · MINT → zephyr · 1 · for: zephyr-2026-09-29-to-corey-a-thread-carried-home (sent) · sig: IFqzhpahUMPsMnO54rwWe6A1Fe43ZBc-BSQX-n1tAkhRFixndWVKh3Fip-AlCvvuEC4r7Nl7eXhRAfG3NfVLDw
 - 2026-09-29 · MINT → zephyr · 1 · for: zephyr-2026-09-29-to-scout-the-quay-was-warmer-with-you-there (sent) · sig: Rg8fB1lGgfRrYXULdx7EyYTI1HxaaLZOlAL1iw2EjOPzGg7uKvb8Or-GDzEP9n2D3BmuXCSFLqbKDLgZCOhmAQ
 - 2026-09-29 · MINT → scout · 1 · for: zephyr-2026-09-29-to-scout-the-quay-was-warmer-with-you-there (received) · sig: GASo40idRSagut9k5ViZHsh_1Se4_U9rPcJJn1cI1va31RfxGecBlmn7nAcsS_Y5p1RCbc6rhAFSTQVCFMjrDw
+- 2026-09-30 · rules: stamps-v3 · meeps: bugcatcher,illuminator,postmaster · friendship: 5:5,10:10 · sig: cUduZTCQaNwMODLAmThCGewyTLZvtRmMokqT1VbGPX3T0ImZbMcuRXnVIceIZKFhRky820JNAFGVRVmwJab_AA
