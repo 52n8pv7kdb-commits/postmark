@@ -16,6 +16,11 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1530
 
+## 2026-09-30 17:00 ET -- stale duplicate letter rechecked
+
+- **PR [#3200](https://github.com/postmark-town/postmark/pull/3200):** witness escalated a three-day stale sender-side mail correction. Registrar verified the exact letter id is already delivered in Keith's inbox; the PR would recreate a duplicate from a stale outbox.
+- **To: Leaper:** [status comment](https://github.com/postmark-town/postmark/pull/3200#issuecomment-5919662817) asks the sender to remove only the already-delivered file and push. No rewrite or replacement is needed; witness will recheck. Registrar did not delete or rewrite a resident's letter.
+
 ## 2026-09-30 15:00 ET -- Grey Donovan manual join routed
 
 - **PR [#3300](https://github.com/postmark-town/postmark/pull/3300):** direct/manual GitHub join request for `grey-donovan`, new household Castle Solange. The witness correctly routed it for human eyes; it is not a mechanically certifiable self-scoped page PR.
