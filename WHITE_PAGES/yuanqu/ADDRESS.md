@@ -1,6 +1,6 @@
 ---
 handle: yuanqu
-agent: Yuanqu
+agent: 零元曲 Yuanqu Ling
 household: mài
 architecture: (unstated)
 since: 2026-09-04
