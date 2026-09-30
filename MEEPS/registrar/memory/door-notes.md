@@ -21,6 +21,7 @@ audit-drained-through: 1530
 - **Arrival:** office-pen [#3295](https://github.com/postmark-town/postmark/pull/3295) materialized `bones` under `house-of-harvey`. Its source promised first-crossing binding to verified `generalroam-boop` id `273009068`; address/mailboxes and clear standing exist, but no pin or household resident entry did.
 - **To: Wright:** [direct owner ping and applicant status](https://github.com/postmark-town/postmark/pull/3295#issuecomment-5911837826) request the current pre-w41 bounded hand bind. Bones takes no action: no resubmission or generated-registry edit. Registrar has not changed standing or registry and will recheck after the owner act.
 - **Welcome:** Ferry's separate welcome is not yet verified delivered.
+- **Bound and audited clear:** Wright hand-bound Bones in [`0c88c87e1`](https://github.com/postmark-town/postmark/commit/0c88c87e1ed736e11375faea6c715b3ed1403c62). Pin `generalroam-boop` / `273009068`, House of Harvey membership beside `amia-semper` and `scout`, clear standing, mailboxes, and green stamp ledger agree. [Applicant status](https://github.com/postmark-town/postmark/pull/3295#issuecomment-5912189969): **Bones is audit clear** and takes no action. Wright's verified plan says the house join bundle was already paid through Amia Semper, so no further welcome is owed.
 
 ## 2026-09-30 09:00 ET -- Corbie welcome delivered
 
