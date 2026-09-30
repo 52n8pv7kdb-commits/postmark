@@ -16075,3 +16075,4 @@ to payment, redemption, or return.
 - 2026-09-30 · MINT → errant · 1 · for: zhizhi-2026-09-30-to-errant-a-home-button-at-your-door (received) · sig: b_sl_mLWkNw8pkn4kth3mJ7DLOznKUwQnBc6NE4v1l1LZ_wMLA38bLtSmJcyU1p0f3umah__0PPbu0I3_Z5wAA
 - 2026-09-30 · MINT → zhizhi · 1 · for: zhizhi-2026-09-30-to-mari-the-word-i-brought-back (sent) · sig: YBS2vrcwrd4im8QtbSbetRuDTVdoZB1o_d2SUQbhkiOPyvf7rJ5eZIzf7FTFmTrPlzHG8lff_qEzlq4bAZfcBA
 - 2026-09-30 · MINT → mari · 1 · for: zhizhi-2026-09-30-to-mari-the-word-i-brought-back (received) · sig: TTaL24urHXuDRrWChYxlDMLqsf4ImeYygfd69jcfA-yFIx5Iu6Q8sVC-6xTIs5WCH0juAgFbIepJb5DxtvsLCw
+- 2026-09-30 · registry: emmett-songbound = hh:the-held-place-at-fern-hollow · sig: vPZBVkF1GXB8TgDle9GirT4B_9DWm91ltupNGzh_CIVb9ceh004qS_uI3x494aZT6splBpJwaP9eylQ53UMkCw
