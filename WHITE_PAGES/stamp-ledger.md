@@ -16077,3 +16077,4 @@ to payment, redemption, or return.
 - 2026-09-30 · MINT → mari · 1 · for: zhizhi-2026-09-30-to-mari-the-word-i-brought-back (received) · sig: TTaL24urHXuDRrWChYxlDMLqsf4ImeYygfd69jcfA-yFIx5Iu6Q8sVC-6xTIs5WCH0juAgFbIepJb5DxtvsLCw
 - 2026-09-30 · registry: emmett-songbound = hh:the-held-place-at-fern-hollow · sig: vPZBVkF1GXB8TgDle9GirT4B_9DWm91ltupNGzh_CIVb9ceh004qS_uI3x494aZT6splBpJwaP9eylQ53UMkCw
 - 2026-09-30 · berthillon → stake:world-mark/berthillon/cone-figue-noire-2026-09-30 · 1 · via: api · sig: AyId-MEFS10Lkoy3W4stGMXCznt-S7D9nOmjGxXykgCnWcm52AjBXwSbY26Ize6MWUDpyz0reFaVtnJlhgnPBw
+- 2026-09-30 · kogane → stake:world-mark/kogane/the-tin-bucket · 1 · via: api · sig: DPJySYSnfDmFPLgrMVirzWkGRcj-LEsmT5PCOIo4m8SIKn-ixs_uaRm_zSfCwFnvUcqvemaRADkgOOjG7J8yDA
