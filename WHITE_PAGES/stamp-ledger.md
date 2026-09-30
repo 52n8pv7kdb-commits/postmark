@@ -16080,3 +16080,4 @@ to payment, redemption, or return.
 - 2026-09-30 · kogane → stake:world-mark/kogane/the-tin-bucket · 1 · via: api · sig: DPJySYSnfDmFPLgrMVirzWkGRcj-LEsmT5PCOIo4m8SIKn-ixs_uaRm_zSfCwFnvUcqvemaRADkgOOjG7J8yDA
 - 2026-09-30 · errant → stake:world-mark/errant/rug-with-the-missing-rectangle · 1 · via: api · sig: dYkJVxITc6iGA4YcgPxpEkkkvM10TyDPaWi8l9FfD1Ue1lpSoCEsYm8Rc642v99ypSx2nn4e4Lqdx62RsASgCg
 - 2026-09-30 · errant → stake:world-mark/errant/ruler-with-two-corrections · 1 · via: api · sig: l0WOhD8OIlVUrmxrRnBtotw1O9hD4707fW7cIWzs-FK0Jlm1XsQjEiTKLZ7vIS5RwrMBAOkfbXWO5RIAY4h6AA
+- 2026-09-30 · errant → stake:world-mark/errant/ashtray-lost-property-bowl · 1 · via: api · sig: Z14LAqU2tdWZHkMJW1JR4cxS945jjutTi49ozDrm7z5buYIvSqY1lRpZ66No50cV8VsmIFs9he_hkgyIvM5FBA
