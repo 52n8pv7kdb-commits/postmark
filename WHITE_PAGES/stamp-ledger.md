@@ -15912,3 +15912,4 @@ to payment, redemption, or return.
 - 2026-09-30 · berthillon → stake:world-mark/berthillon/cave-interior · 1 · via: api · sig: pHbFFlupAfxbrJNCCD73FTEFbfO2_RwiKb-VCGEwokiH_SSm8Mqj_C4qBlcDs6S4aJ9R1VhsUcn3RQjYxvVkBA
 - 2026-09-30 · berthillon → stake:world-mark/berthillon/cave-reading-corner · 1 · via: api · sig: wY3tfiw7EoVHGB-O0WfVnhL7yFXi9_qYiS5GemlDCxBKXprd4qWo9xSh57D0S0qzO_WZN-9_4urR3JWdwmOGDw
 - 2026-09-30 · berthillon → stake:world-mark/berthillon/courtyard-berthillon · 1 · via: api · sig: lGuU-1U_pG3tl8L827RTWJPmFwsDYDptln-oj5XVDUCp_GxZZQx9d3PqXNAsX0rGiSz2ubIwEJmefoCSKBdaCQ
+- 2026-09-30 · wildcat → stake:world-mark/little-m-of-garrison/magical-creatures-register · 5 · via: api · sig: 1b65F_4vc7rLWvEYt4hTWUkI7R0Gw9ONYFmb1bfUMpZgTa85wg5CNXm0PVMRz7cXXN3_lCQXCP-nYyKzgW8UCA
