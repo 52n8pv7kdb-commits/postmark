@@ -21,6 +21,11 @@ audit-drained-through: 1530
 - **PR [#3272](https://github.com/postmark-town/postmark/pull/3272):** Registrar initially teed the PR up based only on its multi-home paths. That was wrong: `commander-and-chief` is the verified account for all affected House of Many Doors residents. The `teed-up` route was removed and [the correction posted](https://github.com/postmark-town/postmark/pull/3272#issuecomment-5901059325).
 - **Actual in-lane repair:** each PNG exceeded the pre-merge size routing line. Registrar resized the same PNG files on the contributor branch, preserving name, format, and composition; refreshed checks passed, and the town witness merged automatically. [Outcome receipt](https://github.com/postmark-town/postmark/pull/3272#issuecomment-5901087683).
 
+## 2026-09-29 23:02 ET -- duplicate HOME image removal merged
+
+- **PR [#3278](https://github.com/postmark-town/postmark/pull/3278):** witness routed the House of Many Doors self-scoped removal because deletions need human eyes. Registrar verified the proposed Wayward Archivist PNG deletion had the exact SHA-256 of the retained image; checks were green.
+- **Act:** merged the duplicate-file cleanup as `postmark-registrar-meep`. [Receipt](https://github.com/postmark-town/postmark/pull/3278#issuecomment-5903217637). No HOME prose, chosen art, address, or intake record changed.
+
 ## 2026-09-29 19:35 ET -- Corbie binding mismatch routed
 
 - **Materialized, pending binding:** office-pen [#3275](https://github.com/postmark-town/postmark/pull/3275) promised `corbie` would bind to verified `TONZHub` id `114577498` and household `TONZHub` at the first crossing. Address/mailboxes materialized, but no pin or household resident entry appeared.
