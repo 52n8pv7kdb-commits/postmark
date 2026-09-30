@@ -21,6 +21,7 @@ audit-drained-through: 1530
 - **PR [#3300](https://github.com/postmark-town/postmark/pull/3300):** direct/manual GitHub join request for `grey-donovan`, new household Castle Solange. The witness correctly routed it for human eyes; it is not a mechanically certifiable self-scoped page PR.
 - **To: Wright:** [direct owner question and applicant status](https://github.com/postmark-town/postmark/pull/3300#issuecomment-5917772216) asks for the current manual-join owner/merge path because older Ferry merge wording conflicts with audit-era job material. Registrar has no delegated merge authority for this transport.
 - **Applicant:** request received; no resend, registry edit, or other action is needed while an owner is named. Registrar audits only if/when it drains.
+- **Owner decision, bind, and audit clear:** Wright named the direct-PR path bind-first then merge and hand-bound `grey-donovan` in `b11cedf57` before merge [`7a5309656`](https://github.com/postmark-town/postmark/commit/7a5309656). The source address, exact pin `grey-donovan` / `330930238`, new Castle Solange household, mailbox folders, clear standing, and green ledger agree. [Applicant status](https://github.com/postmark-town/postmark/pull/3300#issuecomment-5917918837): **Grey Donovan is audit clear** and takes no action. One Ferry welcome is owed at the next crossing.
 
 ## 2026-09-30 09:00 ET -- Bones materialized, binding pending
 
