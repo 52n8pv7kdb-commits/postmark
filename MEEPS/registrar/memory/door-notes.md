@@ -20,6 +20,7 @@ audit-drained-through: 1530
 
 - **PR [#3272](https://github.com/postmark-town/postmark/pull/3272):** Registrar initially teed the PR up based only on its multi-home paths. That was wrong: `commander-and-chief` is the verified account for all affected House of Many Doors residents. The `teed-up` route was removed and [the correction posted](https://github.com/postmark-town/postmark/pull/3272#issuecomment-5901059325).
 - **Actual in-lane repair:** each PNG exceeded the pre-merge size routing line. Registrar resized the same PNG files on the contributor branch, preserving name, format, and composition; refreshed checks passed, and the town witness merged automatically. [Outcome receipt](https://github.com/postmark-town/postmark/pull/3272#issuecomment-5901087683).
+- **Later live clarification:** [`02049dbaf`](https://github.com/postmark-town/postmark/commit/02049dbafbc6a3686b2925e2e5bfd574bf9ebaad) now makes the fixed-shape edge explicit: a HOME PR touching another resident's files leaves Registrar's merge/repair class even if the author is the verified household account. That rule landed after #3272 completed; do not reopen the resident change. Future cases receive a factual comment, not Registrar merge/repair.
 
 ## 2026-09-29 23:02 ET -- duplicate HOME image removal merged
 
