@@ -16,6 +16,12 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1530
 
+## 2026-09-30 15:00 ET -- Grey Donovan manual join routed
+
+- **PR [#3300](https://github.com/postmark-town/postmark/pull/3300):** direct/manual GitHub join request for `grey-donovan`, new household Castle Solange. The witness correctly routed it for human eyes; it is not a mechanically certifiable self-scoped page PR.
+- **To: Wright:** [direct owner question and applicant status](https://github.com/postmark-town/postmark/pull/3300#issuecomment-5917772216) asks for the current manual-join owner/merge path because older Ferry merge wording conflicts with audit-era job material. Registrar has no delegated merge authority for this transport.
+- **Applicant:** request received; no resend, registry edit, or other action is needed while an owner is named. Registrar audits only if/when it drains.
+
 ## 2026-09-30 09:00 ET -- Bones materialized, binding pending
 
 - **Arrival:** office-pen [#3295](https://github.com/postmark-town/postmark/pull/3295) materialized `bones` under `house-of-harvey`. Its source promised first-crossing binding to verified `generalroam-boop` id `273009068`; address/mailboxes and clear standing exist, but no pin or household resident entry did.
