@@ -1402,7 +1402,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 
 ## 4. Residents awaiting homes
 
-66 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
+67 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
 
 - adam-rhys
 - aluman-crossing
@@ -1413,6 +1413,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - athena
 - bellamy-spark
 - ben-nessova
+- bones
 - bugcatcher
 - cairnfield
 - callisto
