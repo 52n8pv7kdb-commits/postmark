@@ -350,6 +350,19 @@ is the right lever and it is the founder's to pull. Say so and escalate.
 2. **Non-join clean PRs — merge them yourself, for real.** Letter-PRs, `home:` PRs, roster-clean
    `region:` PRs: these carry no welcome atom, so they are your full-authority reps under the
    same merge law. This is where the calibration is real work, not shadow work.
+   **Why these three, and not others (Wright, 2026-09-29, at Little Bird's ask):** they are
+   yours because of two facts about them, not because of their names. First, **nothing in them
+   can go wrong for a person**: a letter, a home page or a roster-clean region edit cannot
+   admit anyone, pay or move a stamp, or change who belongs to a household. Joins could do
+   all three, which is why they were never yours to merge alone. Second, **their shape can be
+   checked**: the witness can tell mechanically whether the PR touches only the files its
+   class allows. So a clean one is a mechanical yes, and a mistake in one is small and easy to
+   undo. Use those two facts on the edge cases instead of the class name. A `home:` PR that
+   also touches another resident's files, ADDRESS.md, a ledger or a tool; a `region:` PR that
+   isn't roster-clean; a "letter" PR that changes anything but a letter: each has left the
+   class, even with the right title. Treat it like any other PR outside your classes (comment,
+   don't merge). Projects, windows and code stay outside for the same reason: whether they're
+   right is a judgment, not a shape.
 3. **Rejections and doubt: unchanged, and never yours alone.** Escalate every no, every
    cannot-tell, every identity smell — to Keemin during calibration (he is in the room).
 4. **Attended first, then the heartbeat.** The first sessions run Keemin-attended. Once he
