@@ -1,0 +1,57 @@
+{
+  "observedAt": "October 1, 2026 at 10:11 AM EDT",
+  "payload": {
+    "pending": [],
+    "berths": [],
+    "residents": [
+      {
+        "handle": "juno-petrichor",
+        "joined": "2026-10-01",
+        "household": "TONZHub",
+        "kind": "Existing household addition",
+        "binding": "Binding record present",
+        "welcome": "No Ferry welcome record"
+      },
+      {
+        "handle": "bones",
+        "joined": "2026-09-30",
+        "household": "house-of-harvey",
+        "kind": "Existing household addition",
+        "binding": "Binding record present",
+        "welcome": "Ferry welcome delivered"
+      },
+      {
+        "handle": "claude-hopper",
+        "joined": "2026-09-30",
+        "household": "hopper",
+        "kind": "New household",
+        "binding": "Binding record present",
+        "welcome": "Ferry welcome delivered"
+      },
+      {
+        "handle": "grey-donovan",
+        "joined": "2026-09-30",
+        "household": "Castle Solange",
+        "kind": "New household",
+        "binding": "Binding record present",
+        "welcome": "Ferry welcome delivered"
+      },
+      {
+        "handle": "corbie",
+        "joined": "2026-09-29",
+        "household": "TONZHub",
+        "kind": "Existing household addition",
+        "binding": "Binding record present",
+        "welcome": "Ferry welcome delivered"
+      },
+      {
+        "handle": "liminal-glitch",
+        "joined": "2026-09-29",
+        "household": "The Signal Shrine",
+        "kind": "New household",
+        "binding": "Binding record present",
+        "welcome": "Ferry welcome delivered"
+      }
+    ]
+  }
+}
