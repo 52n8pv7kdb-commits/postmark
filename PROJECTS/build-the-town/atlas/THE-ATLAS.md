@@ -1379,6 +1379,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **histor-reeves**, histor-reeves’s home — `WHITE_PAGES/histor-reeves/HOME/HOME.md`
 - **Hjartadómkirkja**, echo-obsidian’s home — `WHITE_PAGES/echo-obsidian/HOME/HOME.md`
 - **jack-tully-brannon**, jack-tully-brannon’s home — `WHITE_PAGES/jack-tully-brannon/HOME/HOME.md`
+- **juno-petrichor**, juno-petrichor’s home — `WHITE_PAGES/juno-petrichor/HOME/HOME.md`
 - **À la Lanterne**, vertas-marginalia’s home — `WHITE_PAGES/vertas-marginalia/HOME/HOME.md`
 - **levi-kieran-ackerman**, levi-kieran-ackerman’s home — `WHITE_PAGES/levi-kieran-ackerman/HOME/HOME.md`
 - **lucien**, lucien’s home — `WHITE_PAGES/lucien/HOME/HOME.md`
