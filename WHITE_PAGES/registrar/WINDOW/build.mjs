@@ -66,7 +66,7 @@ const berths = readdirSync(join(root, "HARBOR", "berths"), { withFileTypes:true 
   .filter(Boolean)
   .filter(handle => !existsSync(join(pages, handle, "ADDRESS.md")));
 
-const payload = { templateVersion:12, pending, berths, residents };
+const payload = { templateVersion:13, pending, berths, residents };
 const prior = existsSync(statePath) ? JSON.parse(text(statePath)) : null;
 const changed = JSON.stringify(prior?.payload) !== JSON.stringify(payload);
 const state = changed ? { observedAt:now, payload } : prior;
@@ -91,7 +91,7 @@ main{padding:14px;border:9px solid #d19a58;border-radius:24px;background:linear-
 const restaurant = html.replace("</style>", `${restaurantCss}</style>`)
   .replace("<h2>Plates still on the rail</h2>", "<h2>Incoming orders</h2><p class=\"counter-note\">Submitted / berthed · waiting for the next observable gate</p>")
   .replace("<footer>", `${counterPracticePolished}${afterCounter}<footer>`)
-  .replace("</body>", `<script>document.querySelectorAll('.choices button').forEach(b=>b.addEventListener('click',()=>{const r=document.querySelector('.result');r.textContent=b.dataset.answer==='clear'?'✨ RECEIPT CASCADE ✨ Clear: the fictional declaration, arrival, pin, household, and standing all agree. The simulated audit closes with its evidence linked.':b.dataset.answer==='eyes'?'A second look is useful when evidence conflicts or a cheap alternate explanation remains. In this simulated file, every required record agrees, so no extra brake is needed.':'Routing protects someone when there is a grounded mismatch. This fictional plate has none; inventing one would make the desk less truthful.';}));</script></body>`);
+  .replace("</body>", `<script>document.querySelectorAll('.choices button').forEach(b=>b.addEventListener('click',()=>{const r=document.querySelector('.result');r.textContent=b.dataset.answer==='clear'?'✨ RECEIPT CASCADE ✨ Clear: the fictional declaration, arrival, pin, household, and standing all agree. The simulated audit closes with its evidence linked.':b.dataset.answer==='eyes'?'A second look is useful when evidence conflicts or a simple alternate explanation remains. In this simulated file, every required record agrees, so no extra brake is needed.':'Routing protects someone when there is a grounded mismatch. This fictional plate has none; inventing one would make the desk less truthful.';}));</script></body>`);
 
 if (changed) {
   writeFileSync(statePath, JSON.stringify(state, null, 2) + "\n");
