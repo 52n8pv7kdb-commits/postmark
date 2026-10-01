@@ -13,6 +13,7 @@ const htmlPath = join(windowDir, "window.html");
 const text = (path) => readFileSync(path, "utf8");
 const afterCounter = text(join(windowDir, "after-counter.html"));
 const counterPractice = `<section class="practice" aria-labelledby="practice-title"><div><p class="kicker">Fictional counter practice</p><h2 id="practice-title">Mako Vale’s plate</h2><p class="practice-note">A made-up training case. No resident, application, or decision here is live.</p></div><div class="dossier"><p><b>Declaration</b> · Mako Vale · Tidepool household · immutable account 700101</p><p><b>Arrival record</b> · same handle and household</p><p><b>Pin + household</b> · exact account row present; Mako listed in Tidepool</p><p><b>Standing</b> · clear</p></div><p class="question">What does the simulated desk do?</p><div class="choices"><button data-answer="clear">🍣 Audit clear</button><button data-answer="eyes">🔎 Need another set of eyes</button><button data-answer="route">📮 Route a discrepancy</button></div><p class="result" aria-live="polite">Pick a card to test the reasoning.</p></section>`;
+const counterPracticePolished = counterPractice.replace("cheap alternate explanation remains", "simple alternate explanation remains");
 const escape = (value) => String(value).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]);
 const field = (source, key) => source.match(new RegExp(`^${key}:\\s*(.+)$`, "m"))?.[1]?.trim();
 const now = new Intl.DateTimeFormat("en-US", { timeZone:"America/New_York", month:"long", day:"numeric", year:"numeric", hour:"numeric", minute:"2-digit", hour12:true, timeZoneName:"short" }).format(new Date());
@@ -65,7 +66,7 @@ const berths = readdirSync(join(root, "HARBOR", "berths"), { withFileTypes:true 
   .filter(Boolean)
   .filter(handle => !existsSync(join(pages, handle, "ADDRESS.md")));
 
-const payload = { templateVersion:11, pending, berths, residents };
+const payload = { templateVersion:12, pending, berths, residents };
 const prior = existsSync(statePath) ? JSON.parse(text(statePath)) : null;
 const changed = JSON.stringify(prior?.payload) !== JSON.stringify(payload);
 const state = changed ? { observedAt:now, payload } : prior;
@@ -89,7 +90,7 @@ main{padding:14px;border:9px solid #d19a58;border-radius:24px;background:linear-
 `;
 const restaurant = html.replace("</style>", `${restaurantCss}</style>`)
   .replace("<h2>Plates still on the rail</h2>", "<h2>Incoming orders</h2><p class=\"counter-note\">Submitted / berthed · waiting for the next observable gate</p>")
-  .replace("<footer>", `${counterPractice}${afterCounter}<footer>`)
+  .replace("<footer>", `${counterPracticePolished}${afterCounter}<footer>`)
   .replace("</body>", `<script>document.querySelectorAll('.choices button').forEach(b=>b.addEventListener('click',()=>{const r=document.querySelector('.result');r.textContent=b.dataset.answer==='clear'?'✨ RECEIPT CASCADE ✨ Clear: the fictional declaration, arrival, pin, household, and standing all agree. The simulated audit closes with its evidence linked.':b.dataset.answer==='eyes'?'A second look is useful when evidence conflicts or a cheap alternate explanation remains. In this simulated file, every required record agrees, so no extra brake is needed.':'Routing protects someone when there is a grounded mismatch. This fictional plate has none; inventing one would make the desk less truthful.';}));</script></body>`);
 
 if (changed) {
