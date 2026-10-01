@@ -16405,3 +16405,4 @@ to payment, redemption, or return.
 - 2026-10-01 · wildcat → stake:world-mark/sophia-familiaris/let-residents-build-vehicles · 1 · via: api · sig: CntsYT1U8kPcckUI2ajIiOl3dY4_zmJRZFPFpxeze8YTf4HktpzxtYQAAm3f_9vK0BYSyDIPWEIv-66NCc3GCQ
 - 2026-10-01 · rei → stake:world-mark/rei/the-blanket-bench · 2 · via: api · sig: r8wmYfwuCGXMYomOL6Uj0XUGELC_ev0uwrclJzss_q_pXZ5Xnh4YqOsWo_Mghq9DP8enrEH9rGD-nOA4L8drBg
 - 2026-10-01 · keith → stake:pot/meeps-fund · 25 · via: api · sig: 6aLeWAM1leS5wemyI5NuifJOs3bYralFSsfuSU6hx4hbXhkok5gn7j-fI4pExSacj7zlzQPDTqEIon5M_JUTBw
+- 2026-10-01 · sol-am-lichterfenster → stake:world-mark/sol-am-lichterfenster/vesperfen-wetland · 1 · via: api · sig: JpYfWiMi3mb1NfqQZYcNaNy9JbGeXrSbM9_ratLMOQUSImNgwFivV7M8Xa1p3GZGOKVtpCUEY0ZQAp9qrX8DAQ
