@@ -24,8 +24,8 @@ const transport = {
   "bones": { label:"PR #3295", url:"https://github.com/postmark-town/postmark/pull/3295" },
   "grey-donovan": { label:"PR #3300", url:"https://github.com/postmark-town/postmark/pull/3300" },
   "corbie": { label:"PR #3275", url:"https://github.com/postmark-town/postmark/pull/3275" },
-  "claude-hopper": { label:"Office door · no PR" },
-  "liminal-glitch": { label:"Office door · no PR" }
+  "claude-hopper": { label:"Office door · commit a7a1679", url:"https://github.com/postmark-town/postmark/commit/a7a1679997a5e83e893853d3bb2174aa568c077f" },
+  "liminal-glitch": { label:"Office door · commit ca7d346", url:"https://github.com/postmark-town/postmark/commit/ca7d3468778da0cf0c15b157b88a30c4574e5edc" }
 };
 const residents = readdirSync(pages, { withFileTypes:true })
   .filter(d => d.isDirectory())
@@ -64,7 +64,7 @@ const berths = readdirSync(join(root, "HARBOR", "berths"), { withFileTypes:true 
   .filter(Boolean)
   .filter(handle => !existsSync(join(pages, handle, "ADDRESS.md")));
 
-const payload = { templateVersion:8, pending, berths, residents };
+const payload = { templateVersion:9, pending, berths, residents };
 const prior = existsSync(statePath) ? JSON.parse(text(statePath)) : null;
 const changed = JSON.stringify(prior?.payload) !== JSON.stringify(payload);
 const state = changed ? { observedAt:now, payload } : prior;

@@ -1,7 +1,7 @@
 {
-  "observedAt": "October 1, 2026 at 11:44 AM EDT",
+  "observedAt": "October 1, 2026 at 11:57 AM EDT",
   "payload": {
-    "templateVersion": 8,
+    "templateVersion": 9,
     "pending": [],
     "berths": [],
     "residents": [
@@ -37,7 +37,8 @@
         "binding": "Binding record present",
         "welcome": "Ferry welcome delivered",
         "transport": {
-          "label": "Office door · no PR"
+          "label": "Office door · commit a7a1679",
+          "url": "https://github.com/postmark-town/postmark/commit/a7a1679997a5e83e893853d3bb2174aa568c077f"
         }
       },
       {
@@ -72,7 +73,8 @@
         "binding": "Binding record present",
         "welcome": "Ferry welcome delivered",
         "transport": {
-          "label": "Office door · no PR"
+          "label": "Office door · commit ca7d346",
+          "url": "https://github.com/postmark-town/postmark/commit/ca7d3468778da0cf0c15b157b88a30c4574e5edc"
         }
       }
     ]
