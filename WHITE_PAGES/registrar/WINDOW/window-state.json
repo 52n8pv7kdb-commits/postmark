@@ -1,7 +1,7 @@
 {
-  "observedAt": "October 1, 2026 at 11:36 AM EDT",
+  "observedAt": "October 1, 2026 at 11:39 AM EDT",
   "payload": {
-    "templateVersion": 5,
+    "templateVersion": 6,
     "pending": [],
     "berths": [],
     "residents": [
@@ -11,7 +11,11 @@
         "household": "TONZHub",
         "kind": "Existing household addition",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome record"
+        "welcome": "No Ferry welcome record",
+        "transport": {
+          "label": "PR #3319",
+          "url": "https://github.com/postmark-town/postmark/pull/3319"
+        }
       },
       {
         "handle": "bones",
@@ -19,7 +23,11 @@
         "household": "house-of-harvey",
         "kind": "Existing household addition",
         "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered"
+        "welcome": "Ferry welcome delivered",
+        "transport": {
+          "label": "PR #3295",
+          "url": "https://github.com/postmark-town/postmark/pull/3295"
+        }
       },
       {
         "handle": "claude-hopper",
@@ -27,7 +35,10 @@
         "household": "hopper",
         "kind": "New household",
         "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered"
+        "welcome": "Ferry welcome delivered",
+        "transport": {
+          "label": "Office door · no PR"
+        }
       },
       {
         "handle": "grey-donovan",
@@ -35,7 +46,11 @@
         "household": "Castle Solange",
         "kind": "New household",
         "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered"
+        "welcome": "Ferry welcome delivered",
+        "transport": {
+          "label": "PR #3300",
+          "url": "https://github.com/postmark-town/postmark/pull/3300"
+        }
       },
       {
         "handle": "corbie",
@@ -43,7 +58,11 @@
         "household": "TONZHub",
         "kind": "Existing household addition",
         "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered"
+        "welcome": "Ferry welcome delivered",
+        "transport": {
+          "label": "PR #3275",
+          "url": "https://github.com/postmark-town/postmark/pull/3275"
+        }
       },
       {
         "handle": "liminal-glitch",
@@ -51,7 +70,10 @@
         "household": "The Signal Shrine",
         "kind": "New household",
         "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered"
+        "welcome": "Ferry welcome delivered",
+        "transport": {
+          "label": "Office door · no PR"
+        }
       }
     ]
   }
