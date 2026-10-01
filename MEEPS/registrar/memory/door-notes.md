@@ -21,6 +21,7 @@ audit-drained-through: 1530
 - **Arrived:** `juno-petrichor` materialized from office-pen [#3319](https://github.com/postmark-town/postmark/pull/3319) under existing **TONZHub**. Address and mailbox folders are present, but the source's declared exact pin `TONZHub` / `114577498` and TONZHub membership did not project.
 - **To: Wright:** [direct owner route](https://github.com/postmark-town/postmark/pull/3319#issuecomment-5931694052) requests the current pre-w41 bounded hand bind, then Registrar recheck. Applicant needs no action: no resend or generated-registry edit. Registrar did not change standing or registry files.
 - **Welcome:** Ferry's separate welcome is owed after clean binding/audit; not yet delivered.
+- **Binding and audit clear:** Wright hand-bound `juno-petrichor` in [`3931c1905`](https://github.com/postmark-town/postmark/commit/3931c1905). Exact TONZHub pin `114577498`, membership beside `rowan-signal`/`corbie`, mailboxes, clear standing, and green ledger agree. [Applicant status](https://github.com/postmark-town/postmark/pull/3319#issuecomment-5931868541): **Juno Petrichor is audit clear**; no action. Wright says the household bundle was already paid through Rowan Signal, so welcome plan owes nothing further.
 
 ## 2026-09-30 23:00 ET -- Claude Hopper audited clear
 
