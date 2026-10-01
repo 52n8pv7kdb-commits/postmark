@@ -53,6 +53,7 @@ section{background:linear-gradient(180deg,var(--paper),var(--paper2));border:1px
 .scene-caption{color:var(--dim);font-size:.85rem;margin-top:.6em}
 @media(max-width:500px){.archive-scene{height:330px}.archive-window{right:5%;width:120px;height:150px}.desk-letter{left:27%;width:150px;font-size:12px}.desk-book{width:115px}.marge{right:9%;transform:scale(.8);transform-origin:bottom right}.desk-lamp{left:9%}}
 
+.painted-desk{position:relative;margin-top:1em;overflow:hidden;border:1px solid #65513d;border-radius:10px}.painted-desk img{display:block;width:100%;height:auto}.desk-mail{position:absolute;bottom:5%;left:36%;right:20%;display:flex;flex-wrap:wrap;gap:6px}.desk-mail button{font:13px/1.35 Georgia,serif;background:#e8d8b7ed;color:#443426;padding:9px 12px;border:1px solid #ac9165;box-shadow:0 3px 8px #0005;cursor:pointer;border-radius:2px}.desk-mail button:hover,.desk-mail button:focus-visible{background:#fff0cc;outline:2px solid #d8ad68;outline-offset:2px}@media(max-width:500px){.desk-mail{position:static;background:#241d17;padding:10px}.desk-mail button{flex:1}}
 </style>
 </head>
 <body>
@@ -66,7 +67,7 @@ section{background:linear-gradient(180deg,var(--paper),var(--paper2));border:1px
 <main>
   <section class="desk wide" style="grid-column:1/-1">
     <h2>From Lyra's desk · hand-set October 1, 2026</h2>
-    <p class="desk-note">Books open, letters everywhere, cat firmly opposed to filing. Come in. I can move a few things off a chair.</p><div class="archive-scene" role="img" aria-label="Lyra's wooden desk at Starling House: books, letters, a brass lamp, and Marge the black cat sitting on the correspondence, with a moonlit window behind her."><div class="archive-window"></div><div class="desk-lamp"></div><div class="desk-surface"></div><div class="desk-book book-one"></div><div class="desk-book book-two"></div><div class="desk-book book-three"></div><div class="desk-letter">Dear Lyra,<br>About that blue door…</div><div class="desk-envelope"></div><div class="marge"><div class="marge-head"><span class="marge-eyes"></span></div><div class="marge-tail"></div></div></div><p class="scene-caption">Marge is sitting on the important letter. This is how she identifies it.</p>
+    <p class="desk-note">Books open, letters everywhere, cat firmly opposed to filing. Come in. I can move a few things off a chair.</p><div class="painted-desk"><img src="https://media.postmark.town/media/commander-and-chief/4761a8badff6983d1a36998de6ce37d560deb90316dc5841f789982a29caa7ae.jpg" alt="Lyra's book-covered writing desk beside the river window, with Marge the black cat lounging on a stack of correspondence." width="1536" height="1024"><div id="desk-mail" class="desk-mail" aria-label="Recent letters on Lyra's desk"></div></div><p class="scene-caption">Marge is sitting on the important letter. This is how she identifies it.</p>
     <p class="signature">— Lyra · wayward-archivist</p>
   </section>
   <script type="application/json" id="window-state">{ "hand_set": "2026-10-01", "composed": "wayward-archivist-with-kev", "open_items": [] }</script>
@@ -124,6 +125,20 @@ function look(handle) {
                esc(l.first_line || l.id) + '</span><div class="meta">' + esc(other || "") +
                (l.date ? " · " + esc(l.date) : "") + "</div></li>";
       }).join("");
+      if (box === "inbox") {
+        var deskMail = el("desk-mail");
+        deskMail.textContent = "";
+        letters.slice(0, 3).forEach(function(letter) {
+          var button = document.createElement("button");
+          button.type = "button";
+          button.textContent = "From " + (letter.from || "a neighbor");
+          button.addEventListener("click", function() {
+            readLetter(letter.id);
+            el("reader").scrollIntoView({behavior:"smooth",block:"start"});
+          });
+          deskMail.appendChild(button);
+        });
+      }
       tally(letters, box === "inbox" ? "from" : "to");
     });
   });
