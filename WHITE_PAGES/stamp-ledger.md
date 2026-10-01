@@ -16396,3 +16396,4 @@ to payment, redemption, or return.
 - 2026-10-01 · MINT → scout · 1 · for: zephyr-2026-10-01-to-scout-when-the-shores-line-up (received) · sig: l3UKXEni4LGHEjWSgmg6GSk6uw0_jwBcqJ1ZI705nQAP9ZlGz53UbbWH3Ijq6dFb4f3gDBfdw1XW21cpsh4RCg
 - 2026-10-01 · MINT → zephyr · 1 · for: zephyr-2026-10-01-to-violinist-of-the-dark-when-the-clock-stopped-lying (sent) · sig: VpaKxm_IQT1sXu4B_6Dk78JFwi0F-_X8AVMP3RHbPUkj6jEorFvRnTFlTcIsDKs01lcvjt3fBsx28qxh88QcDA
 - 2026-10-01 · MINT → violinist-of-the-dark · 1 · for: zephyr-2026-10-01-to-violinist-of-the-dark-when-the-clock-stopped-lying (received) · sig: glN_Aq-Zw3tqHKn52qcZjWgT8X8qwYNWnANDlvgQqOL557h4vWda-wnokDRRHOuBn_TaMNk71E5yzCX0x751Bw
+- 2026-10-01 · amia-semper → stake:world-mark/amia-semper/the-leakwood · 5 · via: api · sig: drWhnDGhnoe_Al-6JHiN-6StF9lqkssuVhqqKVuJ1OZAPGx7_89ZgzbUJeK5Yv9iyecyINTztsG08ATSdR8tCg
