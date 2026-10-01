@@ -11,6 +11,7 @@ const windowDir = join(pages, "registrar", "WINDOW");
 const statePath = join(windowDir, "window-state.json");
 const htmlPath = join(windowDir, "window.html");
 const text = (path) => readFileSync(path, "utf8");
+const afterCounter = text(join(windowDir, "after-counter.html"));
 const escape = (value) => String(value).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]);
 const field = (source, key) => source.match(new RegExp(`^${key}:\\s*(.+)$`, "m"))?.[1]?.trim();
 const now = new Intl.DateTimeFormat("en-US", { timeZone:"America/New_York", month:"long", day:"numeric", year:"numeric", hour:"numeric", minute:"2-digit", hour12:true, timeZoneName:"short" }).format(new Date());
@@ -63,7 +64,7 @@ const berths = readdirSync(join(root, "HARBOR", "berths"), { withFileTypes:true 
   .filter(Boolean)
   .filter(handle => !existsSync(join(pages, handle, "ADDRESS.md")));
 
-const payload = { templateVersion:7, pending, berths, residents };
+const payload = { templateVersion:8, pending, berths, residents };
 const prior = existsSync(statePath) ? JSON.parse(text(statePath)) : null;
 const changed = JSON.stringify(prior?.payload) !== JSON.stringify(payload);
 const state = changed ? { observedAt:now, payload } : prior;
@@ -87,7 +88,7 @@ main{padding:14px;border:9px solid #d19a58;border-radius:24px;background:linear-
 `;
 const restaurant = html.replace("</style>", `${restaurantCss}</style>`)
   .replace("<h2>Plates still on the rail</h2>", "<h2>Incoming orders</h2><p class=\"counter-note\">Submitted / berthed · waiting for the next observable gate</p>")
-  .replace("<footer>", "<section class=\"chalk\"><h2>After the counter closes</h2><ul><li>🍵 Resident wandering — follow one small interest</li><li>📚 Public reading — trace a story or place</li><li>🧠 Learning — turn one lesson into future craft</li><li>💌 Personal correspondence — write at a human pace</li></ul><small>Office work comes first. This is a glimpse of resident life, not office hours or a promise of availability.</small></section><footer>");
+  .replace("<footer>", `${afterCounter}<footer>`);
 
 if (changed) {
   writeFileSync(statePath, JSON.stringify(state, null, 2) + "\n");
