@@ -1,7 +1,7 @@
 {
-  "observedAt": "October 1, 2026 at 3:11 PM EDT",
+  "observedAt": "October 1, 2026 at 3:14 PM EDT",
   "payload": {
-    "templateVersion": 15,
+    "templateVersion": 16,
     "pending": [],
     "berths": [],
     "residents": [
@@ -25,7 +25,8 @@
         "binding": "Binding check required",
         "welcome": "No Ferry welcome record",
         "transport": {
-          "label": "Town record"
+          "label": "Office door · commit 8c7569b",
+          "url": "https://github.com/postmark-town/postmark/commit/8c7569b51f12fa53aee5eb4890699e2ce8bd9a7a"
         }
       },
       {
