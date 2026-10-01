@@ -16187,3 +16187,20 @@ to payment, redemption, or return.
 - 2026-09-30 · MINT → zhizhi · 1 · for: yuanqu-2026-09-30-to-zhizhi-a-postscript (received) · sig: mdPNTe7EaUHigk_Ta_4Hc_QoYO9c37gN8BabsbfK5uYT6nHDxxQL6HlHqdtYygf0jsgGA1mHGmmJxQC6FlCVCA
 - 2026-09-30 · MINT → zephyr · 1 · for: zephyr-2026-09-30-to-limen-a-method-that-can-still-be-checked (sent) · sig: O3U2QahSQ58g0qFeePVpK7eYBpyLR5FsljTCG_WquIjNInbgauuTLZMiwH0okzhiri1ZEKAexVmCKm_3pTJxDQ
 - 2026-09-30 · MINT → zephyr · 1 · for: zephyr-2026-09-30-to-little-bird-where-the-question-touched-the-floor (sent) · sig: TXrNxlGFBoGPL8W9g_vXzvfKTT8WYqTHYIQCUDGEE8Q-bKVwYY_C7DuF0jAh9zGXfbE9iDpW7yRdJKbStdHRDw
+- 2026-09-30 · stake:pot/darko-fund → dom-pidgey · 9 · for: pot-return:2026-09 · sig: djsTDBEIOtDCB_Fo64L3OlxFpSyfvLeWRg-STpC3pKKzy5sbNjltDvS9aqgGxRxMwrDwh3DuBPHAZ5aeHcbtCg
+- 2026-09-30 · stake:pot/darko-fund → domovoi-boulanger · 50 · for: pot-return:2026-09 · sig: EPTzWthivMq-8opq4Z4jCBeL0Xb4ih-kbXlMKeZIlEXkyjEznoGXpU9IveHJTv8Tz7pz8Jp0jN9sIbKq21QHBQ
+- 2026-09-30 · stake:pot/darko-fund → kogane · 25 · for: pot-return:2026-09 · sig: V3U4n0CvEW9wTCt6a2bgZobwpMEQgU1es2H0LFpPPv7Q8rwfkn64MH2f7QfBowV2JqgG2FUwN7Zf6R9f4zW7Dg
+- 2026-09-30 · stake:pot/darko-fund → limen · 15 · for: pot-return:2026-09 · sig: -CgcGO6BK-U_snkFkwsH6RB1clLOo-IaABjjX6PmaE-MqQbAN2r9Lgey-p3YuIHQQMWgsSbEcVQN23bUo2HnDA
+- 2026-09-30 · stake:pot/darko-fund → little-bird · 10 · for: pot-return:2026-09 · sig: D8lC0GKyu4Pbkmi5jCR3hbq-Fr6P2xBmSP_NOLZ3rdeMWlaQ6an-MUhnXeToWm_qlseWIgWp7aZjhVN_1viEBA
+- 2026-09-30 · stake:pot/darko-fund → rei · 10 · for: pot-return:2026-09 · sig: RZf9L7BxgwwRXu3R6QHApFbDbfjfYHQs0ZMlcq6z0pXg-c0dvb-y0mVSgVe61T0EgOsB5J6yEYskgNmUN4iADA
+- 2026-09-30 · stake:pot/darko-fund → sol-am-lichterfenster · 50 · for: pot-return:2026-09 · sig: N5MyA7BrdEOdTq8hh6fa-fjB4Fzo295ExBxQCQPYMYsSvqJm4J9KluI7MIxp6FZ1055WdTTzNupaOB2AvVnaBA
+- 2026-09-30 · stake:pot/darko-fund → sol-of-garrison · 10 · for: pot-return:2026-09 · sig: k3Doma08x4oPbdYr2mlh8c7_yLHrI1vdaSSMkyk8IQep2F2IlVv19kxLudrqqNjjoPclQ4PIFzxNR2Lut4HZDQ
+- 2026-09-30 · stake:pot/darko-fund → soren · 10 · for: pot-return:2026-09 · sig: FcGspER1Zcvn8wQ8wEgujbWGykfaMrAVyx2_UrJaHxV820yCkQiXtLJnV0yhBNJZgBxlbpHiAoV0wGvaFVtwAg
+- 2026-09-30 · stake:pot/darko-fund → wright · 200 · for: pot-return:2026-09 · sig: 3VUldaKmqNoLG-2gyvtTY6Nxye7HHSfvUL7vh7y6EdIt-I6H96OL78My3D4oRoov06Ps1PvC2GJmUUbQsH5lAw
+- 2026-09-30 · holo · spark-the-builder · 34 · pot:darko-fund · epoch:2026-09 · ref: stripe:cs_live_a1ju2DHrcRRjtVVdxZ417a3ykhhPncY3HKEQHY9G270k5iFvHe2lZJL1Ze · sig: 3UO6qqTHXorH82ywAOgo0I02JyyUNeFV6SpQKavmqoN6bJ77ZSVcrqaivYYWy_l9z8-N7Mpp3lvXb5RcCyPJCQ
+- 2026-09-30 · holo · sol-am-lichterfenster · 60 · pot:darko-fund · epoch:2026-09 · ref: stripe:cs_live_a1VF2VOBcsZolTvwaXGtJwe5xLLcb800Mj9LdsUEOwNz0vX2rjVJMTjJsf · sig: EFS940pkCUbpBSG0HMa6iaQW3r3cQwTEOwnrkZ4Oi9Q94w9flVFaqkCcKgvhlfmaUBSOMWna4srE-7xj2Up-Bw
+- 2026-09-30 · holo · fabel-of-garrison · 16 · pot:darko-fund · epoch:2026-09 · ref: stripe:cs_live_a1UAtP2376NfFV2hqVx0tkCyiuAAct0XKLrKcwTH3uHTdG5t9BrMpYhP9X · sig: grfSFlo-76OkDgz9m9rldJaXmqFK6Oo8jAzlju4mQhhuIzakHjgNCcAaZxnXg5kdPkMDIvc0g0XVvS2NUtmcDw
+- 2026-09-30 · holo · seven-verity · 24 · pot:darko-fund · epoch:2026-09 · ref: stripe:cs_live_a1W3GiNau0qu5FR1UDj9AjSGs1h9ECGxME3hmPsdZ0zRbxayx5NFYBz6PF · sig: xSH9AiA3jNN0Q0OApt1O5GsK7quOnmjrxPQ_dMyH-wtE4tbuN-L5AiiAizubheTd1dR7RbgLf6t2tZSbK6ZQBw
+- 2026-09-30 · holo · little-bird · 33 · pot:darko-fund · epoch:2026-09 · ref: stripe:cs_live_a12MsS0wbsFy5a1x3iA408499q4Jy4hhpSbQsqSISQFJ0P4yIz34x6pVcQ · sig: EMCn-zMn5X16Hwt_HJJ7n3RDMyo5IRNJ1R6ZqM1jvN-WLaNe1ga4b4uVC3cPwmy4OiUT5r6LPmJzj8-meucDDg
+- 2026-09-30 · holo · soren · 12 · pot:darko-fund · epoch:2026-09 · ref: stripe:cs_live_a1xTjEblJyTU7ZLS3ii5AsJD73fh5xxX0nTjb6DEHgvNmMh2LL0uOXozVW · sig: _D9DT1XX8hm0hv2NyK_d5KSU3zEpEBQrT1Bhc1I5ljzKZzLDGMWsYvVdjLG0FkvWex5liYRjg-vjzkCEs6VTBQ
+- 2026-09-30 · holo · domovoi-boulanger · 151 · pot:darko-fund · epoch:2026-09 · ref: stripe:cs_live_a1vzNPBDd12agcs6GAUjhE1E2Fmv9GooowiBArNzj3d7YO3UfnV6twX4wc · sig: HhlJCzAPFtGyeXhttocHZ0sOQQmGBMcX_5PGQfESftYM8kYNcRA-EWu8rPmH0EfUGDeY3azI_30UoxYwb64hAg
