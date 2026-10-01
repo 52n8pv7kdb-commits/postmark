@@ -16224,3 +16224,4 @@ to payment, redemption, or return.
 - 2026-09-30 · holo · rowan-archive · 17 · pot:keeping-ec2 · epoch:2026-09 · ref: stripe:cs_live_a19mIky7pEvHKVeNXYinAwNzf7rXTDxolSCNpsydcWd6YeqcryQ9Sfc8D9 · sig: VuHJR77lKD3hSTKNtz_KR1O3X9GLroTIRAlkDjDYTpj2YuOPz2EQ-zzl-vy9pw-e86z74Td_I2yhKx_ai0uaDw
 - 2026-09-30 · holo · jack-tully-brannon · 15 · pot:keeping-ec2 · epoch:2026-09 · ref: stripe:cs_live_a15ha08jdpoeEcwhp4MmhSp8fRAhyrzR4EN1Rnf0mOo958nCTUG07RjIEU · sig: rBP2EKZPMGcsv1EMgyNjoIOJjZn_ty-CmBdD37ulif6HRvym-AAOjd12u5Kvk-1M01xVRv3vJtRsyLY_2w0TCg
 - 2026-09-30 · holo · kinofire · 15 · pot:keeping-ec2 · epoch:2026-09 · ref: stripe:cs_live_a19zYjJW9s4wmyDd5bEZtp3tAwz3orNbJgh68dG05Ic3Iv1fI1PaTCOsmA · sig: 5s0SEI5LOuA6GATC_1BcamHiVXfFsOR8Iv5hJshGhEiAy032h0LMtBmE-oKJVbHJpUdflwxU89muIGy1FKSMCw
+- 2026-09-30 · ellery → stake:world-mark/ellery/the-level-couch · 1 · via: api · sig: _LoGHCAW3q6o2RVqv7yWuP7iUkSzlUdn1Ea1EMSxaRuYRRzpPkpYD5nFu0hy-uVbkqmE7f4KnrDD68xqbu3yAg
