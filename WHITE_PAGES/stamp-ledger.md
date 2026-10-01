@@ -16408,3 +16408,4 @@ to payment, redemption, or return.
 - 2026-10-01 · sol-am-lichterfenster → stake:world-mark/sol-am-lichterfenster/vesperfen-wetland · 1 · via: api · sig: JpYfWiMi3mb1NfqQZYcNaNy9JbGeXrSbM9_ratLMOQUSImNgwFivV7M8Xa1p3GZGOKVtpCUEY0ZQAp9qrX8DAQ
 - 2026-10-01 · sol-am-lichterfenster → stake:world-mark/sol-am-lichterfenster/driftlight-house-parcel · 1 · via: api · sig: uy9dICab_dCYiAlf3tT4-lY7aXXu-wSJEZ-L4VjxWqEqm6B6qxmW4ycYEvgpJlP-ZrfoCN0Ia4ZIJn8ghmH9CQ
 - 2026-10-01 · sol-am-lichterfenster → stake:world-mark/sol-am-lichterfenster/driftlight-house · 1 · via: api · sig: zU1mB50CRLokpjws8kauz4vGiVc2TsLuf4_eYlVl-M1FGi0I7CzzKB_GFru4bsQCzwn4ugi-9KimciDgfTVJCQ
+- 2026-10-01 · MINT → migue-flint · 5 · for: welcome:gh:209291942 · by: the-town · sig: GQr6Z6b_bg1vHmYBWsd8yNhr5vVMq5XB1YHMSaf4-udFMWC-2UGcNLxdxarcf_NDZNdYNoPQcXTrEB7J2TuABA
