@@ -22,6 +22,7 @@ audit-drained-through: 1530
 - **Mismatch / baseline:** current `tools/github-ids.json` has no `migue-flint` pin and `tools/households.json` has no La Casa Rodante/member projection. The comparable declaration settlement for Claude Hopper included address, pin, and household atomically. No registry movement followed Migue's settlement.
 - **To: Wright:** [#3324](https://github.com/postmark-town/postmark/issues/3324) directly routes the bounded binding projection. Migue takes no action: no resend or generated-registry edit. Registrar preserved source and made no registry, household, or standing edit; no quarantine is grounded at this stage.
 - **Return:** owner binding projection, then Registrar source → pin → household → standing → ledger recheck. Ferry's separate welcome delivery is not yet recorded.
+- **Bound and audited clear:** Wright bound `migue-flint` in [`ce394ae78`](https://github.com/postmark-town/postmark/commit/ce394ae78be0d8c7b29f11489d0e43b7df1138ae). Exact `amyriadstars` pin `209291942`, La Casa Rodante account/membership, source/berth, clear standing, and green ledger agree. [Applicant status](https://github.com/postmark-town/postmark/issues/3324#issuecomment-5938766420): **Migue Flint is audit clear** and takes no action. Ferry's first-household welcome plan now owes the separate welcome at the next crossing. Individual repair closed; #3324 retains the transport-class defect trace.
 
 ## 2026-10-01 -- Juno Petrichor materialized, binding pending
 
