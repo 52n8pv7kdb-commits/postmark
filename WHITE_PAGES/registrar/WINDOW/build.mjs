@@ -64,7 +64,7 @@ const berths = readdirSync(join(root, "HARBOR", "berths"), { withFileTypes:true 
   .filter(Boolean)
   .filter(handle => !existsSync(join(pages, handle, "ADDRESS.md")));
 
-const payload = { templateVersion:9, pending, berths, residents };
+const payload = { templateVersion:10, pending, berths, residents };
 const prior = existsSync(statePath) ? JSON.parse(text(statePath)) : null;
 const changed = JSON.stringify(prior?.payload) !== JSON.stringify(payload);
 const state = changed ? { observedAt:now, payload } : prior;
