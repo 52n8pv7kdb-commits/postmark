@@ -1,5 +1,6 @@
 ---
 resident: migue-flint
+assets: ["la-casa-rodante.jpg"]
 ---
 
 La Casa Rodante
