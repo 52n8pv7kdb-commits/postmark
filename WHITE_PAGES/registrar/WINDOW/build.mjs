@@ -54,7 +54,7 @@ const berths = readdirSync(join(root, "HARBOR", "berths"), { withFileTypes:true 
   .filter(Boolean)
   .filter(handle => !existsSync(join(pages, handle, "ADDRESS.md")));
 
-const payload = { templateVersion:2, pending, berths, residents };
+const payload = { templateVersion:3, pending, berths, residents };
 const prior = existsSync(statePath) ? JSON.parse(text(statePath)) : null;
 const changed = JSON.stringify(prior?.payload) !== JSON.stringify(payload);
 const state = changed ? { observedAt:now, payload } : prior;
@@ -73,9 +73,10 @@ body{background:#3b2418;background-image:linear-gradient(90deg,rgba(255,255,255,
 main{padding:14px;border:9px solid #d19a58;border-radius:24px;background:linear-gradient(135deg,#f4d8ad,#bd7b42 2%,#f5deb8 3%,#f9edd7);box-shadow:0 16px 0 #25150f,0 30px 60px rgba(0,0,0,.45)}
 .sign{border:4px solid #f1c581;border-radius:14px 14px 5px 5px;background:linear-gradient(135deg,#172e27,#264d3d);box-shadow:none}.stamp{background:#fff4db;box-shadow:inset 0 0 0 5px #d26852;color:#172e27}.notice{border:2px solid #d6a360;border-left:8px solid #ca6954;background:#fff8e9;box-shadow:0 3px 0 rgba(73,40,21,.16)}
 .belt{padding:24px 20px 19px;border:8px solid #344b43;border-radius:42px;background:repeating-linear-gradient(90deg,#e8e0d4 0 28px,#c9c4bd 28px 42px);box-shadow:inset 0 0 0 4px #e8a662,0 5px 0 #9b6136}.belt:before{height:0}.belt h2{position:relative;z-index:1;margin:-8px 0 15px;padding:5px 10px;display:inline-block;color:#fff1d5;background:#274238;border-radius:4px;font-family:Georgia,serif;letter-spacing:.08em}.empty,.item{position:relative;z-index:1;border:2px dashed #9a7755;background:#fff9ed;box-shadow:0 3px 0 rgba(68,43,26,.18)}
-.plates{position:relative;z-index:1;display:flex;gap:14px;overflow-x:auto;padding:7px 4px 12px}.plate{min-width:178px;width:178px;min-height:178px;padding:29px 20px 18px;border:8px solid #f6f0df;border-radius:50%;background:radial-gradient(circle at 35% 28%,#fffef8,#f2e9d8 67%,#d6c7b0 68%);box-shadow:0 0 0 3px #d7755e,0 8px 0 #aa604e,0 13px 13px rgba(54,32,18,.28);text-align:center}.plate:before{display:none}.plate h3{font-size:1rem}.plate p{font-size:.76rem}.tag{background:#dceec6}.legend{padding:9px 12px;border-radius:9px;background:#fff7e8;color:#4d3423}.legend:before{content:"🍣  ";font-size:1.1rem}footer{padding:11px 12px;border-radius:8px;background:#2a1912;color:#f5dfbb}
+.plates{position:relative;z-index:1;display:flex;gap:14px;overflow-x:auto;padding:7px 4px 12px}.plate{min-width:178px;width:178px;min-height:178px;padding:29px 20px 18px;border:8px solid #f6f0df;border-radius:50%;background:radial-gradient(circle at 35% 28%,#fffef8,#f2e9d8 67%,#d6c7b0 68%);box-shadow:0 0 0 3px #d7755e,0 8px 0 #aa604e,0 13px 13px rgba(54,32,18,.28);text-align:center}.plate:before{display:none}.plate h3{font-size:1rem}.plate p{font-size:.76rem}.tag{background:#dceec6}.counter-note{position:relative;z-index:1;margin:-7px 0 12px;color:#fff3d9;font-size:.78rem}.legend{padding:9px 12px;border-radius:9px;background:#fff7e8;color:#4d3423}.legend:before{content:"🍣  ";font-size:1.1rem}footer{padding:11px 12px;border-radius:8px;background:#2a1912;color:#f5dfbb}
 `;
-const restaurant = html.replace("</style>", `${restaurantCss}</style>`);
+const restaurant = html.replace("</style>", `${restaurantCss}</style>`)
+  .replace("<h2>Plates still on the rail</h2>", "<h2>Incoming orders</h2><p class=\"counter-note\">Submitted / berthed · waiting for the next observable gate</p>");
 
 if (changed) {
   writeFileSync(statePath, JSON.stringify(state, null, 2) + "\n");
