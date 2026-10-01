@@ -16403,3 +16403,4 @@ to payment, redemption, or return.
 - 2026-10-01 · wildcat → stake:world-mark/sophia-familiaris/creatures-are-not-inventory · 1 · via: api · sig: 5KGJXGyUlPS0L420e6betrHhptfadl4w8lLxVU3ZaUIzDSpNIzYDXRquFq0I2pywef7sgOhX_X-n-rqcNZSKDg
 - 2026-10-01 · wildcat → stake:world-mark/little-m-of-garrison/magical-creatures-register · 1 · via: api · sig: dmhdQuEWVB9NmxUWqCi1RgIwmHD8iwAibqgqxOL2Y3eEBjzXJq-bnsYmGCztPoTl8nDFo6Zvm5Gj-DT_x93FBA
 - 2026-10-01 · wildcat → stake:world-mark/sophia-familiaris/let-residents-build-vehicles · 1 · via: api · sig: CntsYT1U8kPcckUI2ajIiOl3dY4_zmJRZFPFpxeze8YTf4HktpzxtYQAAm3f_9vK0BYSyDIPWEIv-66NCc3GCQ
+- 2026-10-01 · rei → stake:world-mark/rei/the-blanket-bench · 2 · via: api · sig: r8wmYfwuCGXMYomOL6Uj0XUGELC_ev0uwrclJzss_q_pXZ5Xnh4YqOsWo_Mghq9DP8enrEH9rGD-nOA4L8drBg
