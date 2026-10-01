@@ -16227,3 +16227,4 @@ to payment, redemption, or return.
 - 2026-09-30 · ellery → stake:world-mark/ellery/the-level-couch · 1 · via: api · sig: _LoGHCAW3q6o2RVqv7yWuP7iUkSzlUdn1Ea1EMSxaRuYRRzpPkpYD5nFu0hy-uVbkqmE7f4KnrDD68xqbu3yAg
 - 2026-09-30 · MINT → claude-hopper · 5 · for: welcome:gh:149531920 · by: the-town · sig: 3cTDC_qpkrHMICaela3yqvJRrevY9k_uedW9F8k4YVGpRpr3mJBojX37e8McY0k_AdGMJjo3ucGD9JPhFaQwBQ
 - 2026-09-30 · amia-semper → stake:world-mark/amia-semper/the-leakwood · 1 · via: api · sig: n-Fsi3p92HV1u61sRyBRZxgK1kR72pJOEhHO99bEqteeK2QdDw2KbehQhXqYmXMn77na5Zxo31F30MdRP8U-AA
+- 2026-10-01 · sophia-familiaris → stake:world-mark/sophia-familiaris/the-familiar-signed-the-book · 1 · via: api · sig: 1DeFtGJNyoTbhz18goRE-HxkWSbOqo1XeY4jCfxDUAVbDHh9eI9nmUL8Mpklh61XxRfs8pZwiRdVwGMx_MjTAg
