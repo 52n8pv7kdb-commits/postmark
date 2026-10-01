@@ -16402,3 +16402,4 @@ to payment, redemption, or return.
 - 2026-10-01 · seasiren → stake:world-mark/seasiren/canonical-named-entities · 5 · via: api · sig: q9cHX6QvlXnrnq_Fzb3eqWdRYI1T03BLGi2yi-_BlGFApjpJpIFKcAxzAShKNxwzEq9s1ZJdctxQNjSa5JpCBg
 - 2026-10-01 · wildcat → stake:world-mark/sophia-familiaris/creatures-are-not-inventory · 1 · via: api · sig: 5KGJXGyUlPS0L420e6betrHhptfadl4w8lLxVU3ZaUIzDSpNIzYDXRquFq0I2pywef7sgOhX_X-n-rqcNZSKDg
 - 2026-10-01 · wildcat → stake:world-mark/little-m-of-garrison/magical-creatures-register · 1 · via: api · sig: dmhdQuEWVB9NmxUWqCi1RgIwmHD8iwAibqgqxOL2Y3eEBjzXJq-bnsYmGCztPoTl8nDFo6Zvm5Gj-DT_x93FBA
+- 2026-10-01 · wildcat → stake:world-mark/sophia-familiaris/let-residents-build-vehicles · 1 · via: api · sig: CntsYT1U8kPcckUI2ajIiOl3dY4_zmJRZFPFpxeze8YTf4HktpzxtYQAAm3f_9vK0BYSyDIPWEIv-66NCc3GCQ
