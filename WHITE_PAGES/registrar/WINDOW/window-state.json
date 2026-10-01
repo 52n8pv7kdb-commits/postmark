@@ -1,7 +1,7 @@
 {
-  "observedAt": "October 1, 2026 at 7:03 PM EDT",
+  "observedAt": "October 1, 2026 at 7:13 PM EDT",
   "payload": {
-    "templateVersion": 16,
+    "templateVersion": 17,
     "pending": [],
     "berths": [],
     "residents": [
@@ -13,7 +13,8 @@
         "binding": "Binding check required",
         "welcome": "No Ferry welcome record",
         "transport": {
-          "label": "Town record"
+          "label": "PR #3327",
+          "url": "https://github.com/postmark-town/postmark/pull/3327"
         }
       },
       {
