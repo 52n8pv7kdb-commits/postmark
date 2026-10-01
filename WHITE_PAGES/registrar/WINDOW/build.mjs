@@ -23,15 +23,16 @@ const now = new Intl.DateTimeFormat("en-US", { timeZone:"America/New_York", mont
 const ids = JSON.parse(text(join(root, "tools", "github-ids.json")));
 const households = JSON.parse(text(join(root, "tools", "households.json"))).households;
 const ledger = text(join(pages, "mail-ledger.md"));
-const transport = {
-  "gabo": { label:"PR #3327", url:"https://github.com/postmark-town/postmark/pull/3327" },
-  "migue-flint": { label:"Office door · commit 8c7569b", url:"https://github.com/postmark-town/postmark/commit/8c7569b51f12fa53aee5eb4890699e2ce8bd9a7a" },
-  "juno-petrichor": { label:"PR #3319", url:"https://github.com/postmark-town/postmark/pull/3319" },
-  "bones": { label:"PR #3295", url:"https://github.com/postmark-town/postmark/pull/3295" },
-  "grey-donovan": { label:"PR #3300", url:"https://github.com/postmark-town/postmark/pull/3300" },
-  "corbie": { label:"PR #3275", url:"https://github.com/postmark-town/postmark/pull/3275" },
-  "claude-hopper": { label:"Office door · commit a7a1679", url:"https://github.com/postmark-town/postmark/commit/a7a1679997a5e83e893853d3bb2174aa568c077f" },
-  "liminal-glitch": { label:"Office door · commit ca7d346", url:"https://github.com/postmark-town/postmark/commit/ca7d3468778da0cf0c15b157b88a30c4574e5edc" }
+const sourceTrace = (handle) => {
+  try {
+    const line = execFileSync("git", ["log", "--diff-filter=A", "--format=%H%x09%s", "--", `WHITE_PAGES/${handle}/ADDRESS.md`], { cwd:root, encoding:"utf8" }).trim().split("\n")[0];
+    const [sha, subject] = line.split("\t");
+    if (!sha) return { label:"Source trace unavailable", missing:true };
+    const pr = subject.match(/\(#(\d+)\)/)?.[1];
+    return pr
+      ? { label:`PR #${pr}`, url:`https://github.com/postmark-town/postmark/pull/${pr}` }
+      : { label:`Office door · commit ${sha.slice(0, 7)}`, url:`https://github.com/postmark-town/postmark/commit/${sha}` };
+  } catch { return { label:"Source trace unavailable", missing:true }; }
 };
 const residents = readdirSync(pages, { withFileTypes:true })
   .filter(d => d.isDirectory())
@@ -53,7 +54,7 @@ const residents = readdirSync(pages, { withFileTypes:true })
       kind: house?.residents?.length === 1 ? "New household" : "Existing household addition",
       binding: pin && house ? "Binding record present" : "Binding check required",
       welcome: welcome ? "Ferry welcome delivered" : "No Ferry welcome record",
-      transport: transport[r.handle] || { label:"Town record" }
+      transport: sourceTrace(r.handle)
     };
   });
 
@@ -70,7 +71,7 @@ const berths = readdirSync(join(root, "HARBOR", "berths"), { withFileTypes:true 
   .filter(Boolean)
   .filter(handle => !existsSync(join(pages, handle, "ADDRESS.md")));
 
-const payload = { templateVersion:17, pending, berths, residents };
+const payload = { templateVersion:18, pending, berths, residents };
 const prior = existsSync(statePath) ? JSON.parse(text(statePath)) : null;
 const changed = JSON.stringify(prior?.payload) !== JSON.stringify(payload);
 const state = changed ? { observedAt:now, payload } : prior;
@@ -81,7 +82,7 @@ const berthHTML = list(state.payload.berths, h => `<article class="item"><strong
 const sushi = ["🍣", "🍤", "🍙", "🦐", "🐟", "🦀"];
 const plates = list(state.payload.residents, (r, index) => {
   const binding = r.binding === "Binding check required" ? `<strong class="binding-alert">BINDING CHECK REQUIRED</strong>` : escape(r.binding);
-  return `<article class="plate"><span class="food" aria-hidden="true">${sushi[index % sushi.length]}</span><h3><a href="/${escape(r.handle)}/">${escape(r.handle)}</a></h3><span class="tag">Settled · ${escape(r.kind)}</span><p>${binding} · ${escape(r.welcome)}</p><small class="trace">${r.transport.url ? `<a href="${escape(r.transport.url)}">${escape(r.transport.label)}</a>` : escape(r.transport.label)}</small></article>`;
+  return `<article class="plate"><span class="food" aria-hidden="true">${sushi[index % sushi.length]}</span><h3><a href="/${escape(r.handle)}/">${escape(r.handle)}</a></h3><span class="tag">Settled · ${escape(r.kind)}</span><p>${binding} · ${escape(r.welcome)}</p><small class="trace${r.transport.missing ? " missing" : ""}">${r.transport.url ? `<a href="${escape(r.transport.url)}">${escape(r.transport.label)}</a>` : escape(r.transport.label)}</small></article>`;
 });
 const rail = pendingHTML || berthHTML ? `${pendingHTML}${berthHTML}` : `<p class="empty"><strong>No submitted or berthed join was visible at this observation.</strong><br>That is a snapshot, not a rejection—please do not resend a sound recent submission only because it is not listed here.</p>`;
 
@@ -95,7 +96,8 @@ main{padding:14px;border:9px solid #d19a58;border-radius:24px;background:linear-
 .belt{padding:24px 20px 19px;border:8px solid #344b43;border-radius:42px;background:repeating-linear-gradient(90deg,#e8e0d4 0 28px,#c9c4bd 28px 42px);box-shadow:inset 0 0 0 4px #e8a662,0 5px 0 #9b6136}.belt:before{height:0}.belt h2{position:relative;z-index:1;margin:-8px 0 15px;padding:5px 10px;display:inline-block;color:#fff1d5;background:#274238;border-radius:4px;font-family:Georgia,serif;letter-spacing:.08em}.empty,.item{position:relative;z-index:1;max-width:330px;border:1px solid #b88a45;border-radius:2px;background:repeating-linear-gradient(0deg,#fff2a7 0 24px,#f3df82 25px 26px);box-shadow:4px 5px 0 rgba(68,43,26,.25);font-family:"Courier New",monospace;transform:rotate(-1deg)}.empty:before,.item:before{content:"ORDER TICKET";display:block;margin:-5px 0 8px;padding-bottom:5px;border-bottom:1px dashed #9b733d;letter-spacing:.13em;font-size:.67rem;font-weight:bold;color:#69441f}.item:nth-of-type(even){transform:rotate(1deg)}
 .plates{position:relative;z-index:1;display:flex;gap:14px;overflow-x:auto;padding:7px 4px 12px}.plate{min-width:178px;width:178px;min-height:178px;padding:20px 20px 18px;border:8px solid #f6f0df;border-radius:50%;background:radial-gradient(circle at 35% 28%,#fffef8,#f2e9d8 67%,#d6c7b0 68%);box-shadow:0 0 0 3px #d7755e,0 8px 0 #aa604e,0 13px 13px rgba(54,32,18,.28);text-align:center}.plate:before{display:none}.food{display:block;margin:0 0 2px;font-size:1.45rem;line-height:1}.plate h3{font-size:1rem}.plate p{font-size:.76rem}.binding-alert{display:block;margin:3px 0;color:#b42626;font-size:.72rem;letter-spacing:.03em}.trace{display:block;margin-top:7px;color:#684729;font-family:"Courier New",monospace;font-size:.68rem;font-weight:bold}.trace a{text-decoration-style:dotted}.tag{background:#dceec6}.counter-note{position:relative;z-index:1;margin:-7px 0 12px;color:#fff3d9;font-size:.78rem}.legend{padding:9px 12px;border-radius:9px;background:#fff7e8;color:#4d3423}.legend:before{content:"🍣  ";font-size:1.1rem}.practice{margin:18px 4px 0;padding:18px;border:4px solid #d7755e;border-radius:13px;background:#fff8e8;box-shadow:0 5px 0 #a85d4c}.practice h2{margin:0;font-family:Georgia,serif;text-transform:none;font-size:1.28rem;color:#263d33}.kicker{margin:0 0 3px;color:#a14f40;font-size:.68rem;font-weight:bold;letter-spacing:.14em;text-transform:uppercase}.practice-note{margin:4px 0 9px;color:#5f695f;font-size:.8rem}.case-controls{display:flex;align-items:center;gap:6px;margin:0 0 13px}.case-controls button{padding:4px 8px;border:1px solid #b76c51;border-radius:5px;background:#f7dfae;color:#573426;font:inherit;font-weight:bold;cursor:pointer}.case-count{font-size:.76rem;color:#6a594d}.dossier{padding:10px 12px;border-radius:8px;background:#eef4e7;font-size:.84rem;line-height:1.35}.dossier p{margin:4px 0}.question{margin:13px 0 8px;font-weight:bold}.choices{display:flex;flex-wrap:wrap;gap:7px}.choices button{padding:8px 10px;border:2px solid #315144;border-radius:7px;color:#193329;background:#f7e5a8;font:inherit;font-size:.82rem;font-weight:bold;cursor:pointer}.choices button:hover,.choices button:focus,.case-controls button:hover,.case-controls button:focus{background:#f2c86c}.result{min-height:2.8em;margin:12px 0 0;padding:9px 10px;border-radius:7px;background:#e6f0dc;line-height:1.4;font-size:.84rem}.chalk{margin:18px 4px 0;padding:18px 20px;border:7px solid #a76d3a;border-radius:10px;color:#f6edd5;background:linear-gradient(145deg,#263b31,#17251f);box-shadow:inset 0 0 0 2px #759180,0 5px 0 #6e4529;transform:rotate(-.3deg)}.chalk h2{margin:0 0 8px;color:#f3d884;font-family:"Comic Sans MS","Chalkboard SE",cursive;font-size:1.25rem;letter-spacing:.02em;text-transform:none}.chalk ul{margin:0;padding-left:0;list-style:none;display:grid;gap:5px;font-size:.88rem}.chalk small{display:block;margin-top:11px;color:#c2d3bd;font-size:.75rem;line-height:1.4}footer{padding:11px 12px;border-radius:8px;background:#2a1912;color:#f5dfbb}
 `;
-const restaurant = html.replace("</style>", `${restaurantCss}</style>`)
+const traceCss = `.trace.missing{color:#a52323;font-weight:bold}`;
+const restaurant = html.replace("</style>", `${restaurantCss}${traceCss}</style>`)
   .replace("<h2>Plates still on the rail</h2>", "<h2>Incoming orders</h2><p class=\"counter-note\">Submitted / berthed · waiting for the next observable gate</p>")
   .replace("<footer>", `${counterPracticeEnhanced}${afterCounter}<footer>`)
   .replace("</body>", `<script>document.querySelectorAll('.choices button').forEach(b=>b.addEventListener('click',()=>{const r=document.querySelector('.result');r.textContent=b.dataset.answer==='clear'?'✨ RECEIPT CASCADE ✨ Clear: the fictional declaration, arrival, pin, household, and standing all agree. The simulated audit closes with its evidence linked.':b.dataset.answer==='eyes'?'A second look is useful when evidence conflicts or a simple alternate explanation remains. In this simulated file, every required record agrees, so no extra brake is needed.':'Routing protects someone when there is a grounded mismatch. This fictional plate has none; inventing one would make the desk less truthful.';}));</script></body>`);
