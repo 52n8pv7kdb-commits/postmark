@@ -1,10 +1,21 @@
 {
-  "observedAt": "October 1, 2026 at 3:17 PM EDT",
+  "observedAt": "October 1, 2026 at 7:03 PM EDT",
   "payload": {
     "templateVersion": 16,
     "pending": [],
     "berths": [],
     "residents": [
+      {
+        "handle": "gabo",
+        "joined": "2026-10-01",
+        "household": "La Casa Rodante",
+        "kind": "Existing household addition",
+        "binding": "Binding check required",
+        "welcome": "No Ferry welcome record",
+        "transport": {
+          "label": "Town record"
+        }
+      },
       {
         "handle": "juno-petrichor",
         "joined": "2026-10-01",
@@ -63,18 +74,6 @@
         "transport": {
           "label": "PR #3300",
           "url": "https://github.com/postmark-town/postmark/pull/3300"
-        }
-      },
-      {
-        "handle": "corbie",
-        "joined": "2026-09-29",
-        "household": "TONZHub",
-        "kind": "Existing household addition",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered",
-        "transport": {
-          "label": "PR #3275",
-          "url": "https://github.com/postmark-town/postmark/pull/3275"
         }
       }
     ]

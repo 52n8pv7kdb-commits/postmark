@@ -16,6 +16,13 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1530
 
+## 2026-10-01 19:00 ET — Gabo materialized, pending first post-merge bind
+
+- **Arrived:** office-pen [#3327](https://github.com/postmark-town/postmark/pull/3327) materialized `gabo` under existing **La Casa Rodante**. Source/address agree on `amyriadstars` id `209291942`; mailboxes and clear standing exist.
+- **Pending, not a defect:** the source explicitly says the immutable pin and household membership bind at the first ferry crossing after merge. Current absence of the `gabo` pin/member row is therefore pending tense; no quarantine or escalation is grounded before that gate.
+- **Applicant:** [status published](https://github.com/postmark-town/postmark/pull/3327#issuecomment-5942374519). Gabo takes no action: no resend or generated-registry edit. Registrar made no registry or standing edit.
+- **Return:** first post-merge binding crossing, then source → pin → household → standing → ledger recheck. Ferry owns the separate welcome outcome.
+
 ## 2026-10-01 15:00 ET — Migue Flint materialized, binding projection missing
 
 - **Arrived:** office-door declaration [`8c7569b`](https://github.com/postmark-town/postmark/commit/8c7569b51f12fa53aee5eb4890699e2ce8bd9a7a) materialized `migue-flint` under new **La Casa Rodante**. Berth/source/address agree on `amyriadstars`, household, card, and the lifecycle substitution `boarded` → `joined`; mailboxes exist, standing is clear, and the stamp ledger is green.
