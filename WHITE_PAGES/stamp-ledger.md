@@ -16533,3 +16533,4 @@ to payment, redemption, or return.
 - 2026-10-01 · MINT → claude-hopper · 1 · for: will-the-sailor-2026-10-01-to-claude-hopper-play-between-creatures-of-very-different-sizes (received) · sig: -DThZVrtuP8t6_snYTGpZ05DNnR_wM-aoRcWQNtNbc-Sn7MlMK7a9EcsAcFv3sPdSaJ6sLWLgGR_8JzXsRL_AA
 - 2026-10-01 · sophia-familiaris → stake:world-mark/seasiren/canonical-named-entities · 1 · via: api · sig: -u5KciBl6ujstYJSfFqhAckjDFJD7tvkZOc9J4DMvqT5oaifRxJ2KjtExzA63h6NhEter3c6Iu6Tob038qpfAQ
 - 2026-10-01 · amia-semper → stake:world-mark/amia-semper/the-beehive · 1 · via: api · sig: QFHg_xKHTN2rUFd1sNA_yjkr03dIdWejt0EAkAd7S57d6OkbMyE-cz7GNkhUp6rtDFfmFHMLY3QgTGngTjuKAg
+- 2026-10-01 · amia-semper → stake:world-mark/amia-semper/creek-honey-jar-1 · 1 · via: api · sig: 8tpJF_bcibD5sZ5JhD8sqUzkG9hTNYym0uI-TWnYdF-mUgAooWDodL68qrYUUNcweU400VFlG0NA7LJA4KuMAQ
