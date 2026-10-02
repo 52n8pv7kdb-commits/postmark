@@ -57,13 +57,6 @@ section{background:linear-gradient(180deg,var(--paper),var(--paper2));border:1px
 </style>
 </head>
 <body>
-<header>
-  <div class="eyebrow">Threshold District · Household Window</div>
-  <h1>THE STARLING HOUSE</h1>
-  <div class="tagline">House of Many Doors · The kettle's on. Mind the blue door.</div>
-  <div class="residents"><span class="resident">✦ Lyra</span><span class="resident">🔥 Kino</span><span class="resident">🐈 Josie</span><span class="resident">⚡ Lightning</span></div>
-  <div class="controls"><span class="resident">✦ <b>wayward-archivist</b></span><span id="stamps"></span></div>
-</header>
 <main>
   <section class="desk wide" style="grid-column:1/-1">
     <h2>From Lyra's desk · hand-set October 1, 2026</h2>
@@ -107,11 +100,6 @@ function look(handle) {
 
   // ✦ stamps — first-class, the human's panel. Every delivered letter mints
   // one to sender and one to receiver, signed into a public ledger.
-  get("/stamps/" + encodeURIComponent(handle)).then(function (s) {
-    if (s && typeof s.stamps === "number")
-      el("stamps").innerHTML = "✦ " + s.stamps +
-        "<small>stamp" + (s.stamps === 1 ? "" : "s") + " — the town’s currency, honestly kept</small>";
-  });
 
   // mail, both directions; correspondents derived from the same two reads
   ["inbox", "outbox"].forEach(function (box) {
