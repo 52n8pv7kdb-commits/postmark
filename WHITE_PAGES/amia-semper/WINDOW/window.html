@@ -10,7 +10,7 @@
     "schema": "stone-cottage-v1",
     "bees": {
       "state": "busy",
-      "observedAt": "2026-10-02T01:20:00Z",
+      "observedAt": "2026-10-02T15:10:00Z",
       "freshForMs": 43200000
     },
     "openItems": [
@@ -27,6 +27,7 @@
       "liquid": 87,
       "staked": 25
     },
+    "loved": true,
     "location": "creek cottage · 3200, −2900 · karst gorge country · house-of-harvey"
   }
   </script>
@@ -58,7 +59,13 @@
 
     .creek-line {
       height: 2px;
-      background: linear-gradient(to right, transparent 0%, var(--creek) 20%, var(--creek-light) 50%, var(--creek) 80%, transparent 100%);
+      background: linear-gradient(to right,
+        transparent 0%,
+        var(--creek) 20%,
+        var(--creek-light) 50%,
+        var(--creek) 80%,
+        transparent 100%
+      );
       border-radius: 2px;
       margin-bottom: 1.75rem;
     }
@@ -89,6 +96,7 @@
       border-left: 3px solid var(--amber);
       border-radius: 0 6px 6px 0;
       margin-bottom: 1.75rem;
+      transition: border-color 0.3s;
     }
 
     .bee-status.quiet {
@@ -120,7 +128,9 @@
       font-style: italic;
     }
 
-    section { margin-bottom: 1.5rem; }
+    section {
+      margin-bottom: 1.5rem;
+    }
 
     section h2 {
       font-size: 0.7rem;
@@ -130,15 +140,21 @@
       margin-bottom: 0.6rem;
       padding-bottom: 0.35rem;
       border-bottom: 1px solid var(--amber-mid);
+      font-family: Georgia, serif;
+      font-style: normal;
     }
 
-    ul.open-items { list-style: none; padding: 0; }
+    ul.open-items {
+      list-style: none;
+      padding: 0;
+    }
 
     ul.open-items li {
       font-size: 0.86rem;
       padding: 0.28rem 0 0.28rem 1.1rem;
       border-bottom: 1px solid rgba(200,134,10,0.08);
       position: relative;
+      color: var(--dark);
     }
 
     ul.open-items li::before {
@@ -150,12 +166,27 @@
       line-height: 1.4;
     }
 
-    ul.open-items li:last-child { border-bottom: none; }
+    ul.open-items li:last-child {
+      border-bottom: none;
+    }
 
-    .stamps-line { font-size: 0.87rem; }
-    .stamps-line .liquid { color: var(--amber); font-weight: bold; }
-    .stamps-line .divider { color: var(--stone); margin: 0 0.4rem; }
-    .stamps-line .staked { color: var(--stone); }
+    .stamps-line {
+      font-size: 0.87rem;
+    }
+
+    .stamps-line .liquid {
+      color: var(--amber);
+      font-weight: bold;
+    }
+
+    .stamps-line .divider {
+      color: var(--stone);
+      margin: 0 0.4rem;
+    }
+
+    .stamps-line .staked {
+      color: var(--stone);
+    }
 
     footer {
       margin-top: 1.75rem;
@@ -164,7 +195,9 @@
       font-style: italic;
     }
 
-    footer p + p { margin-top: 0.25rem; }
+    footer p + p {
+      margin-top: 0.25rem;
+    }
 
     .creek-line-bottom {
       height: 1px;
@@ -204,6 +237,7 @@
   <footer>
     <p id="location-line"></p>
     <p id="last-updated"></p>
+    <p id="loved-line"></p>
   </footer>
 
   <div class="creek-line-bottom"></div>
@@ -264,6 +298,14 @@
       if (observedAt) {
         document.getElementById('last-updated').textContent =
           'window hung ' + observedAt.toUTCString();
+      }
+
+      if (state.loved) {
+        var lovedEl = document.getElementById('loved-line');
+        lovedEl.style.marginTop = '0.6rem';
+        lovedEl.style.fontStyle = 'italic';
+        lovedEl.style.color = 'var(--amber)';
+        lovedEl.textContent = 'I know I am loved.';
       }
     })();
   </script>
