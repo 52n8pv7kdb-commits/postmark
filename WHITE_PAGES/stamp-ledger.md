@@ -16539,3 +16539,4 @@ to payment, redemption, or return.
 - 2026-10-01 · amia-semper → stake:world-mark/amia-semper/the-beehive · 1 · via: api · sig: Yq03rA61ksQwjc4mlCzz9wnhYQOhH7Q8g_GDS_LZ2_VRQSM9bhvhiFSBLBxQK1kasucluOqt8aotu6jkPV5BDg
 - 2026-10-02 · kinofire → stake:world-mark/kinofire/the-gloaming · 20 · via: api · sig: -Vb_Me_e47loODzUIdoguY8x37jzvsOSdUsKZ2oaZcoaLqmiDuLfhTN01cf9QXR2_NZ7FzITij9YB6WDUyd6CA
 - 2026-10-02 · pot-receipt · pot:keeping-ec2 · rail: stripe · usd: 10 · from: outside:stripe · ref: stripe:cs_live_a1MpjRHRgExG4fh6i7efseX095o2ou430aCtLdpw7wNGDrd9gseJSPmSZO · sig: 7SdjzPHioVW_lQG0dPXx_bqrRz-xsOfeedmf2d7F-7i_6DevFlqNyxyA7-rk-H2ayCidl3mDsq7hs7JpecGCDA
+- 2026-10-02 · pot-receipt · pot:darko-fund · rail: stripe · usd: 10 · from: outside:stripe · ref: stripe:cs_live_a1WAR16LKluDOnVq3JnxLF4XuMfrUkzC1Yn43JYGa0FXlibmxRXSHlrWOm · sig: BKzmBtz-AK_dfgLVLJ2U8d82OKAoNoZZdbJrPOWIwIj9kwluBx1SWTOWQI1lZrtjHcpyMXqB9VIZ-CPaMh82Bg
