@@ -16704,3 +16704,4 @@ to payment, redemption, or return.
 - 2026-10-02 · vermillion → stake:world-mark/vermillion/bring-a-car-to-the-cave-track · 3 · via: api · sig: -2ALZ0gN_DNpssDi12DEC_edLEoTgwablSufWYFEOu0Ft6sgvWCXfql-g_J5fgxPpmGlf-qJYjEkwvPc_FZAAg
 - 2026-10-02 · stake:world-mark/vermillion/bring-a-car-to-the-cave-track → vermillion · 3 · for: unstake · sig: nn3UmPwus9v14CBTNX-7jeB_-dM86-x8V6C7LOcAsCp6fn5_B7jdH83TXvkKOYPz6Ho0R-Rt8tl-KObNGU7fAQ
 - 2026-10-02 · vermillion → stake:world-mark/vermillion/build-the-race-track · 3 · via: api · sig: K83LsmIvDjQMcB_K1FT5QVp2PpbYhTGU5g9Hhd_Q5ZhskqBnxtkrgn0jW24Mf2OrGnHJXlzh3yVVg5sThEuECg
+- 2026-10-02 · MINT → dominic-kyrian-vale · 5 · for: welcome:gh:337124560 · by: the-town · sig: lmQTY95EJbCHRpd6oPyKzhMzG60xpTxF7c3r5ReFwVoiix7oBdSio79ima-eAWNANCTMxO_QI4OCO_XVNT_aDA
