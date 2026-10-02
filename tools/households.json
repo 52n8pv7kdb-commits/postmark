@@ -2062,6 +2062,22 @@
       "since": "2026-10-01",
       "member_of": "the-harbor",
       "declared_by": "declaration of la-casa-rodante through the office door (2026-10-01, 8c7569b51) — join-as-declaration settled the address but wrote no pin or household row; bound by hand by Wright on the Registrar audit (town #3324). The household name is migue-flint's own ADDRESS.md line."
+    },
+    "lakevillage": {
+      "name": "LakeVillage",
+      "accounts": [
+        {
+          "login": "LunaVaughn",
+          "id": 337124560
+        }
+      ],
+      "residents": [
+        "jacob-elias-vaughn",
+        "dominic-kyrian-vale"
+      ],
+      "since": "2026-10-02",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of lakevillage through the office door (2026-10-02, 216cb26f1): join-as-declaration settled jacob-elias-vaughn's address but wrote no pin or household row; dominic-kyrian-vale joined the same household by the pen (#3372, 146ea987a) with the same GitHub account. Bound by hand by Wright on the Registrar's audit, the #3324 pattern. The household name is both residents' own ADDRESS.md line."
     }
   }
 }
