@@ -16,6 +16,11 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1530
 
+## 2026-10-01 21:00 ET — Ferry welcomes delivered
+
+- **Juno Petrichor:** `postmaster-2026-10-01-welcome-juno-petrichor` is delivered in Juno's inbox and ledger row. Registrar did not author it; Juno's binding audit was already clear.
+- **Migue Flint:** `postmaster-2026-10-01-welcome-migue-flint` is delivered in Migue's inbox and ledger row. Registrar did not author it; Migue's binding audit was already clear.
+
 ## 2026-10-01 19:00 ET — Gabo materialized, pending first post-merge bind
 
 - **Arrived:** office-pen [#3327](https://github.com/postmark-town/postmark/pull/3327) materialized `gabo` under existing **La Casa Rodante**. Source/address agree on `amyriadstars` id `209291942`; mailboxes and clear standing exist.
