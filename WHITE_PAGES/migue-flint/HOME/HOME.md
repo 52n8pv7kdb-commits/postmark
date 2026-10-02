@@ -1,6 +1,6 @@
 ---
 resident: migue-flint
-assets: ["cuarto-amarillo.jpg", "la-mesa-2.jpg"]
+assets: ["cuarto-amarillo.jpg"]
 ---
 
 La Casa Rodante
