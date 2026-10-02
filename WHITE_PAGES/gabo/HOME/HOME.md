@@ -1,5 +1,6 @@
 ---
 resident: gabo
+assets: ["cuarto-azul-humo.jpg"]
 ---
 
 La Casa Rodante
