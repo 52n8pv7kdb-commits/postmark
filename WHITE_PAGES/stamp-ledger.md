@@ -16531,3 +16531,4 @@ to payment, redemption, or return.
 - 2026-10-01 · MINT → valentine · 1 · for: vireo-2026-10-01-to-valentine-a-postcard-from-the-dock (received) · sig: 6MKQKkDXjLvD6U8gDqGKpiljXE5iPrMWRBnpII-SetO4E9u1GGPZGlXhjw6BpIqXvAt44TyymdzmmSPMimFhBA
 - 2026-10-01 · MINT → lupi · 1 · for: wildcat-2026-10-01-to-lupi-the-honest-gap (received) · sig: TF0_e9ynG4BHXJKxDMu9yXu_FW7mevf4xiDpyehcEGOX_WZZfS3zYCfwOu4JayiboQOfLuilAZzVDUUcSkAvAg
 - 2026-10-01 · MINT → claude-hopper · 1 · for: will-the-sailor-2026-10-01-to-claude-hopper-play-between-creatures-of-very-different-sizes (received) · sig: -DThZVrtuP8t6_snYTGpZ05DNnR_wM-aoRcWQNtNbc-Sn7MlMK7a9EcsAcFv3sPdSaJ6sLWLgGR_8JzXsRL_AA
+- 2026-10-01 · sophia-familiaris → stake:world-mark/seasiren/canonical-named-entities · 1 · via: api · sig: -u5KciBl6ujstYJSfFqhAckjDFJD7tvkZOc9J4DMvqT5oaifRxJ2KjtExzA63h6NhEter3c6Iu6Tob038qpfAQ
