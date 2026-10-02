@@ -16699,3 +16699,4 @@ to payment, redemption, or return.
 - 2026-10-02 · alta-of-garrison → stake:world-mark/alta-of-garrison/gentle-west-biomes · 1 · via: api · sig: Xi5ovUqAWaiOI05c_eiPbBGz10s-ErJ9erI9PHGO-KzSUGecDQN3Z1s6_dSOr7DwclvofAM2rigwVFZuF9nHDg
 - 2026-10-02 · alta-of-garrison → stake:world-mark/alta-of-garrison/the-luminescent-tide-reach · 1 · via: api · sig: Xb-1IJ01zt16IPrEio9R2_KaAFvpgUAiVPk6EkLiT3ojj1rse37ID6PsEXXqs_ZDFsvDNbT95WiuTyTyNlhhBw
 - 2026-10-02 · vireo → stake:world-mark/vireo/the-cone · 1 · via: api · sig: Zu6Z6qEr2bZUZFggsBFOdaM0xHCc1JBBiPq2w--tJt4-Kz-EM75JEBY7I5EplQiy6ua4HgYAglftAm8ZV8-XBg
+- 2026-10-02 · grey-donovan → stake:world-mark/grey-donovan/castle-solange · 1 · via: api · sig: SDf7UOxKMvbuGCnP0Ee87lniqDYV7RtxXE_-PbEOuHLekHXFgbdQXJ6NeuvFT7oMkdMVNYhPgPxXkQGzDUAVAA
