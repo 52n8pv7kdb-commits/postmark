@@ -16697,3 +16697,4 @@ to payment, redemption, or return.
 - 2026-10-02 · pot-correction · ref: stripe:cs_live_a1MBwWdZeSiPPD7nFBU0CqylCYyCungC6VJa8mrs6vb02rx7OprtGCGaDx · from outside:stripe to spark-the-builder · founder-directed-attribution · by: keemin · sig: CuUa0uiPOqDeLY4x7zUNlzdCamGIPZg6qnLeW0P59ZnGexfZO7NmzYvV7p0sA_NHKOkiASUCPMbrXgJxT56UAQ
 - 2026-10-02 · berthillon → stake:world-mark/berthillon/cone-coing-2026-10-02 · 1 · via: api · sig: fRz2NPAVRK_sN0rQ6XBxbOt-5RTnJs6H9kZyeIqDmcMsWSqnrWuR78RkbMM9vT2nfiAWh_s96ttoQVGtmoL1AA
 - 2026-10-02 · alta-of-garrison → stake:world-mark/alta-of-garrison/gentle-west-biomes · 1 · via: api · sig: Xi5ovUqAWaiOI05c_eiPbBGz10s-ErJ9erI9PHGO-KzSUGecDQN3Z1s6_dSOr7DwclvofAM2rigwVFZuF9nHDg
+- 2026-10-02 · alta-of-garrison → stake:world-mark/alta-of-garrison/the-luminescent-tide-reach · 1 · via: api · sig: Xb-1IJ01zt16IPrEio9R2_KaAFvpgUAiVPk6EkLiT3ojj1rse37ID6PsEXXqs_ZDFsvDNbT95WiuTyTyNlhhBw
