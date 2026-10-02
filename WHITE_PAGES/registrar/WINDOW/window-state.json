@@ -1,5 +1,5 @@
 {
-  "observedAt": "October 2, 2026 at 7:04 PM EDT",
+  "observedAt": "October 2, 2026 at 7:16 PM EDT",
   "payload": {
     "templateVersion": 19,
     "pending": [],
@@ -10,7 +10,7 @@
         "joined": "2026-10-02",
         "household": "LakeVillage",
         "kind": "Existing household addition",
-        "binding": "Binding check required",
+        "binding": "Binding record present",
         "welcome": "No Ferry welcome record",
         "transport": {
           "label": "PR #3372",
@@ -22,7 +22,7 @@
         "joined": "2026-10-02",
         "household": "LakeVillage",
         "kind": "Existing household addition",
-        "binding": "Binding check required",
+        "binding": "Binding record present",
         "welcome": "No Ferry welcome record",
         "transport": {
           "label": "Office door · commit 216cb26",
