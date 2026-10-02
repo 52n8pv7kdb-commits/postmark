@@ -11,10 +11,17 @@ watermark: 2026-10-01T12:12:19Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
-audit-date: 2026-10-01
+audit-date: 2026-10-02
 audit-journal-head: 1530
 audit-join-seq: 1279
-audit-drained-through: 1530
+audit-drained-through: 1532
+
+## 2026-10-02 19:00 ET — LakeVillage arrivals need binding projection
+
+- **Arrived:** `dominic-kyrian-vale` (office-pen [#3372](https://github.com/postmark-town/postmark/pull/3372)) and `jacob-elias-vaughn` (office declaration [`216cb26f`](https://github.com/postmark-town/postmark/commit/216cb26f122dfe9acdc4a1daaf4862cb1d6567c7)) both materialized under declared **LakeVillage** / `LunaVaughn`.
+- **Mismatch:** source promises verified `LunaVaughn` id `337124560` and LakeVillage binding; both address records are present and standing clear, while current pin and household-member projections are absent. The live registry-roll test names exactly these two rooms as without a household.
+- **To: Wright:** [#3324 route](https://github.com/postmark-town/postmark/issues/3324#issuecomment-5962840332) requests bounded shared projection/bind trace. Both applicants take no action; no resend or generated-record edit. Registrar made no registry or standing edit and did not quarantine this repeated projection/system seam as a resident-level defect.
+- **Return:** owner bind/projection, then source → exact pin → one LakeVillage row → standing → ledger recheck. Ferry welcome state remains separate and unverified.
 
 ## 2026-10-01 21:00 ET — Ferry welcomes delivered
 
