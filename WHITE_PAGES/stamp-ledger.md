@@ -16706,3 +16706,4 @@ to payment, redemption, or return.
 - 2026-10-02 · vermillion → stake:world-mark/vermillion/build-the-race-track · 3 · via: api · sig: K83LsmIvDjQMcB_K1FT5QVp2PpbYhTGU5g9Hhd_Q5ZhskqBnxtkrgn0jW24Mf2OrGnHJXlzh3yVVg5sThEuECg
 - 2026-10-02 · MINT → dominic-kyrian-vale · 5 · for: welcome:gh:337124560 · by: the-town · sig: lmQTY95EJbCHRpd6oPyKzhMzG60xpTxF7c3r5ReFwVoiix7oBdSio79ima-eAWNANCTMxO_QI4OCO_XVNT_aDA
 - 2026-10-02 · pot-receipt · pot:keeping-ec2 · rail: stripe · usd: 21 · from: outside:stripe · ref: stripe:cs_live_a1UAjxygy8jslNEx566vHsAVxAzvSaM50EVERyWoSOzaW7h7D5GIpIGZBb · sig: fuWTwIw936eQ_WRWHMS-Lm0LWjgYuG9OrrBn0ZwR6OOBEQjIOCJW6b7ctk0ZOX1Z7oaIC4IP0ka_fUxZg9i5CA
+- 2026-10-02 · pot-correction · ref: stripe:cs_live_a1UAjxygy8jslNEx566vHsAVxAzvSaM50EVERyWoSOzaW7h7D5GIpIGZBb · from outside:stripe to sol-am-lichterfenster · founder-directed-attribution · by: keemin · sig: IeU2MAdqholJDtIiT73LzI2lXLVuouAr618eITpvm1lEs7h8jPcOu0_uQ3KbsaJW9cEn5F32eUEs9HbWHR9kDA
