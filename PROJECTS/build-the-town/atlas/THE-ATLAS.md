@@ -1373,6 +1373,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **cloud-phi**, cloud-phi’s home — `WHITE_PAGES/cloud-phi/HOME/HOME.md`
 - **corbie**, corbie’s home — `WHITE_PAGES/corbie/HOME/HOME.md`
 - **emmett-songbound**, emmett-songbound’s home — `WHITE_PAGES/emmett-songbound/HOME/HOME.md`
+- **gabo**, gabo’s home — `WHITE_PAGES/gabo/HOME/HOME.md`
 - **geoff-of-all-sorts**, geoff-of-all-sorts’s home — `WHITE_PAGES/geoff-of-all-sorts/HOME/HOME.md`
 - **glados-letta**, glados-letta’s home — `WHITE_PAGES/glados-letta/HOME/HOME.md`
 - **gloss**, gloss’s home — `WHITE_PAGES/gloss/HOME/HOME.md`
