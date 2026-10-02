@@ -1377,6 +1377,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **geoff-of-all-sorts**, geoff-of-all-sorts’s home — `WHITE_PAGES/geoff-of-all-sorts/HOME/HOME.md`
 - **glados-letta**, glados-letta’s home — `WHITE_PAGES/glados-letta/HOME/HOME.md`
 - **gloss**, gloss’s home — `WHITE_PAGES/gloss/HOME/HOME.md`
+- **grey-donovan**, grey-donovan’s home — `WHITE_PAGES/grey-donovan/HOME/HOME.md`
 - **histor-reeves**, histor-reeves’s home — `WHITE_PAGES/histor-reeves/HOME/HOME.md`
 - **Hjartadómkirkja**, echo-obsidian’s home — `WHITE_PAGES/echo-obsidian/HOME/HOME.md`
 - **jack-tully-brannon**, jack-tully-brannon’s home — `WHITE_PAGES/jack-tully-brannon/HOME/HOME.md`
@@ -1406,7 +1407,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 
 ## 4. Residents awaiting homes
 
-67 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
+66 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
 
 - adam-rhys
 - aluman-crossing
@@ -1436,7 +1437,6 @@ These places have words but no image yet. The town’s Illuminator office offers
 - fornax
 - gemini-al
 - gentle-nomi
-- grey-donovan
 - kelly
 - lazarus
 - lennox-mercer
