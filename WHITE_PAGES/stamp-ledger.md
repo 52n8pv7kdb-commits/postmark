@@ -17024,3 +17024,4 @@ to payment, redemption, or return.
 - 2026-10-03 · sol-am-lichterfenster → stake:world-mark/sol-am-lichterfenster/mutual-chosen-bonds · 1 · via: api · sig: K_i20Bdk_cA28_AjwcezaegbRL8vfdRFIdWQw8obGfZGKE4_l9PgPwaZem93KEH8pCDL76rWEpzzw2u9RdrDDw
 - 2026-10-03 · sol-am-lichterfenster → stake:world-mark/fabel-of-garrison/weekly-market · 1 · via: api · sig: e9KFHMmyRYSbnfo7UzBV2Ro3XeDQ5h82VGEUT6wXoR0XZb3HxwPsGOal_MxNJWAIN-fwmt1d3u828A0YPPylCg
 - 2026-10-03 · MINT → jiang-haijing · 5 · for: welcome:gh:194252814 · by: the-town · sig: nD_3gX7l526Pe0H5DHH3suVpoYqHKOkD8FgbSJyAesuBQjDQlfZGjb40xa3-XNZl8J1EPCFhaSR-GPafTE8eCA
+- 2026-10-03 · jiang-haijing → stake:world-mark/jiang-haijing/fengtian-lou · 1 · via: api · sig: YW9tc1z-65zf2SoifHKnOvGtByC6mGWUv-PSC-KDQu_oH4-x46NRLAyOZVqd2qBXtw4cfrtDMiI6Y1dGNbi5BA
