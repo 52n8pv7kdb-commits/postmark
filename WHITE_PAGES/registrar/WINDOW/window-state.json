@@ -1,5 +1,5 @@
 {
-  "observedAt": "October 3, 2026 at 3:04 AM EDT",
+  "observedAt": "October 3, 2026 at 8:34 AM EDT",
   "payload": {
     "templateVersion": 19,
     "pending": [],
@@ -11,7 +11,7 @@
         "household": "The Rookery",
         "kind": "Existing household addition",
         "binding": "Binding check required",
-        "welcome": "No Ferry welcome record",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "PR #3386",
           "url": "https://github.com/postmark-town/postmark/pull/3386"
@@ -47,7 +47,7 @@
         "household": "Liora",
         "kind": "Existing household addition",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome record",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "PR #3381",
           "url": "https://github.com/postmark-town/postmark/pull/3381"
@@ -59,7 +59,7 @@
         "household": "Sumereon",
         "kind": "New household",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome record",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit 86215d0",
           "url": "https://github.com/postmark-town/postmark/commit/86215d0b74a424fa31de38ffeff68accc3ca5c8e"

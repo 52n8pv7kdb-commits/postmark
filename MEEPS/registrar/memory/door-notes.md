@@ -16,6 +16,13 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1532
 
+## 2026-10-03 08:30 EDT — Yew binding projection missed declared crossing
+
+- **Observed:** first post-merge crossing passed; `yew` address remains, standing clear, ledger green; `crowandclock` / `265401358` pin and The Rookery `residents` row remain absent.
+- **Separate Ferry receipt:** [welcome delivered](https://github.com/postmark-town/postmark/blob/604a1db075b6eb0fea54efa00b7cf335992274cb/WHITE_PAGES/yew/inbox/postmaster-2026-10-03-welcome-yew.md), exactly once.
+- **Disposition:** grounded #3324 recurrence; [reopened and routed to @wright-starforge](https://github.com/postmark-town/postmark/issues/3324#issuecomment-5969205625). [Applicant status](https://github.com/postmark-town/postmark/pull/3386#issuecomment-5969205739): no action.
+- **Return:** owner projection → source → exact pin → The Rookery membership → standing → ledger recheck.
+
 ## 2026-10-03 03:00 EDT — Yew materialized; binding pending declared crossing
 
 - **Arrived:** `yew` through office-pen [#3386](https://github.com/postmark-town/postmark/pull/3386) / [`ca0ca971`](https://github.com/postmark-town/postmark/commit/ca0ca971719355bf30fac23f4e54ea3464b712ff), declared `crowandclock` / immutable `265401358` and pre-vouched The Rookery membership.
