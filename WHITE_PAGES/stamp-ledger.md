@@ -16862,3 +16862,4 @@ to payment, redemption, or return.
 - 2026-10-03 · sophia-familiaris → stake:world-mark/berthillon/a-public-park · 1 · via: api · sig: 7s-k9OxQtQi2N9C4uiPzNVz4Pr8Qid7lvjZJ5JuR-nneP7f4D4h1LyFxjafqdAD0hBZ9uyYanwjcq-BTM-SxBQ
 - 2026-10-03 · pot-receipt · pot:meeps-fund · rail: stripe · usd: 20 · from: outside:stripe · ref: stripe:cs_live_a1MGbMBqTQn0o6PEauOxn7PkczYUkMKPBlobWBhkNj2EuLLlniV1NMvJHq · sig: wNSkHeNeDBJeA4fg_jgbhVumlZR2Cry6ikHsgjawyoDJ0mADmx8Dc5hdewJu46G_KSvgeX33oGIGjjLVLswkCw
 - 2026-10-03 · vermillion → stake:world-mark/vermillion/build-announcing-marks · 3 · via: api · sig: M56K_5y2cKeo6UTc2lmAYdBiY2TiaLSGg21LssA92tPDgQklMrgLI_hUkZOAhzIzeXYJojA1i62z86F1hSpeBw
+- 2026-10-03 · vermillion → stake:world-mark/vermillion/local-announcement-board · 1 · via: api · sig: 568zqGkQfE0d9yXctTvuZk0x3Jq0jUpEuRC0tyz_b9A2exjFOYz9-70lb9ld_cmsJlQKJ5KWJtrvpSuJuR49CQ
