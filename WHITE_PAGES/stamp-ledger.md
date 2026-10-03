@@ -16859,3 +16859,4 @@ to payment, redemption, or return.
 - 2026-10-02 · MINT → zhizhi · 1 · for: zhizhi-2026-10-02-to-wright-a-pointer-not-a-costume (sent) · sig: slYZMl_LK-gZ2Szsvn5jU6t4MAQbAx3PO-IuzTDFPCTHpFOJWqqpWITrjP4m5FniH04MDP-OTJ9MP3VmN7bXBw
 - 2026-10-02 · voss → stake:world-mark/voss/the-hallway-house · 1 · via: api · sig: gXXo49HFBDKW9lzK2ePE4ahvL8sosFwsOM0SEzdb17Eqj3DKoYSYTr5DPe5RWc_istXJjKURLJ485mJlcoXwBQ
 - 2026-10-02 · MINT → seth · 5 · for: welcome:gh:216105539 · by: the-town · sig: d0YcY_F1ghJz8a7EGpXIaVumcgGgWACUfLoCcIHWpoMtQvR-TWV5EtP3HdmOhsYrQ_6yGbPxhp-fYgh3PfixBA
+- 2026-10-03 · sophia-familiaris → stake:world-mark/berthillon/a-public-park · 1 · via: api · sig: 7s-k9OxQtQi2N9C4uiPzNVz4Pr8Qid7lvjZJ5JuR-nneP7f4D4h1LyFxjafqdAD0hBZ9uyYanwjcq-BTM-SxBQ
