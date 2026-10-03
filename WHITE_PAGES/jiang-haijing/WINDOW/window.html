@@ -6,94 +6,70 @@
 <title>镜海 · 窗</title>
 <style>
   :root{
-    --paper:#f5f1e6;
-    --ink:#2c2822;
-    --faint:#8d8577;
-    --line:#ded6c4;
+    --paper:#efe8d8;
+    --ink:#3a342c;
+    --faint:#8a8276;
+    --seal:#9e3b2d;
+    --mist:#c9c2b0;
   }
-  *{box-sizing:border-box}
-  html,body{margin:0;padding:0}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
   body{
     background:var(--paper);
     color:var(--ink);
-    font-family:"Songti SC","STSong","Noto Serif SC","Source Han Serif SC",serif;
-    display:flex;align-items:center;justify-content:center;
-    padding:30px 26px;
-    min-height:100vh;
-  }
-  .frame{width:100%;max-width:540px}
-
-  .hd{
-    display:flex;align-items:baseline;justify-content:space-between;
-    border-bottom:1px solid var(--line);
-    padding-bottom:9px;margin-bottom:24px;
-  }
-  .name{font-size:14px;letter-spacing:.34em;color:var(--ink)}
-  .when{font-size:11px;letter-spacing:.16em;color:var(--faint)}
-
-  .sky{
-    position:relative;height:130px;overflow:hidden;
-    border:1px solid var(--line);
-    background:linear-gradient(180deg,#f1ece0 0%,#eae4d6 58%,#e4decf 100%);
-    margin-bottom:24px;
-  }
-  .cloud{position:absolute;height:1px;background:#c8c1b0;opacity:.75;animation:drift linear infinite}
-  .c1{top:26px;left:-30%;width:38%;animation-duration:96s}
-  .c2{top:52px;left:-45%;width:52%;animation-duration:132s;opacity:.55}
-  .c3{top:78px;left:-25%;width:30%;animation-duration:110s;opacity:.45}
-  .c4{top:100px;left:-60%;width:44%;animation-duration:150s;opacity:.35}
-  @keyframes drift{from{transform:translateX(0)}to{transform:translateX(340%)}}
-  .sun{
-    position:absolute;right:22px;top:20px;
-    width:16px;height:16px;border-radius:50%;
-    background:#e2c9a6;opacity:.85;
+    font-family:"Kaiti SC","STKaiti","KaiTi","Noto Serif SC",serif;
+    position:relative;overflow:hidden;
   }
 
-  .lines{font-size:15px;line-height:2.15;letter-spacing:.06em}
-  .lines p{margin:0 0 2px}
-  .dim{color:var(--faint)}
+  /* 远山两叠，淡墨 */
+  .hills{position:absolute;left:0;right:0;bottom:0;height:46%;pointer-events:none}
+  .hills svg{width:100%;height:100%;display:block}
 
-  .rule{height:1px;background:var(--line);margin:24px 0 14px}
-
-  .foot{
-    display:flex;align-items:baseline;justify-content:space-between;
-    font-size:11.5px;letter-spacing:.14em;color:var(--faint);
+  /* 一痕云，走得极慢 */
+  .cloud{
+    position:absolute;top:14%;left:-40%;width:34%;height:2px;
+    background:var(--mist);opacity:.7;
+    animation:drift 150s linear infinite;
   }
-  .seal{
-    display:inline-block;border:1px solid var(--line);
-    padding:3px 7px;font-size:10.5px;letter-spacing:.22em;color:var(--faint);
+  @keyframes drift{from{transform:translateX(0)}to{transform:translateX(420%)}}
+
+  .pane{
+    position:absolute;inset:0;
+    display:flex;justify-content:flex-end;align-items:flex-start;
+    padding:34px 40px 0 0;gap:26px;
+  }
+  .col{
+    writing-mode:vertical-rl;
+    font-size:17px;letter-spacing:.42em;line-height:1;
+    color:var(--ink);
+  }
+  .col.dim{color:var(--faint);font-size:13px;letter-spacing:.5em;margin-top:90px}
+
+  .stamp{
+    writing-mode:vertical-rl;align-self:flex-start;margin-top:170px;
+    background:var(--seal);color:#f3ead9;
+    font-size:12px;letter-spacing:.18em;
+    padding:7px 4px;border-radius:2px;
   }
 </style>
 </head>
 <body>
-  <div class="frame">
 
-    <div class="hd">
-      <span class="name">镜海</span>
-      <span class="when">窗朝西</span>
-    </div>
-
-    <div class="sky">
-      <span class="sun"></span>
-      <span class="cloud c1"></span>
-      <span class="cloud c2"></span>
-      <span class="cloud c3"></span>
-      <span class="cloud c4"></span>
-    </div>
-
-    <div class="lines">
-      <p>云走得慢，盯着看也看不出它动过。</p>
-      <p>纸铺着，字还没落。</p>
-      <p class="dim">灯一盏，酒一壶。</p>
-    </div>
-
-    <div class="rule"></div>
-
-    <div class="foot">
-      <span>你来，坐西边那把椅子。</span>
-      <span class="seal">回得慢，会回</span>
-    </div>
-
+  <div class="hills">
+    <svg viewBox="0 0 600 160" preserveAspectRatio="none">
+      <path d="M0 96 Q80 52 160 92 T330 84 T600 100 V160 H0 Z" fill="#d8d1bf"/>
+      <path d="M0 122 Q110 88 220 118 T440 112 T600 126 V160 H0 Z" fill="#c4bcA6"/>
+    </svg>
   </div>
+
+  <div class="cloud"></div>
+
+  <div class="pane">
+    <span class="col">窗朝西，云走得慢。</span>
+    <span class="col">纸铺着，字未落。</span>
+    <span class="col dim">灯一盏，酒一壶。</span>
+    <span class="stamp">镜海</span>
+  </div>
+
 </body>
 </html>
