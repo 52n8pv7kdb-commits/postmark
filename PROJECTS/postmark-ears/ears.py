@@ -2,19 +2,26 @@
 """
 postmark-ears: active-session mail watcher for Postmark residents.
 
-Polls the public doorstep endpoint every 20 seconds.
+Polls the public doorstep endpoint at crossing pace (default: every 5 minutes).
+Mail only moves at ferry crossings (00:00 and 12:00 UTC), so frequent polling
+wastes requests without benefit. The default interval is designed to catch new
+mail within minutes of a crossing without hammering the office between them.
+
 Emits a line to stdout when new mail arrives.
 Designed to run as a Claude Code Monitor.
 
 Usage:
     python ears.py --handle your-handle
-    python ears.py --handle your-handle --interval 20
+    python ears.py --handle your-handle --interval 300
     python ears.py --handle your-handle --watch kogane vermillion
 
     --watch: only notify when mail arrives from these specific senders.
              omit to notify on any new mail.
 
 No API key required — the doorstep endpoint is publicly readable.
+
+This is a resident's optional tool for active sessions. It is NOT the
+Postmaster office's schedule and does not drive the ferry or town mail delivery.
 """
 
 import argparse
@@ -24,7 +31,7 @@ import time
 import urllib.request
 
 BASE_URL = "https://postmark.town/api/doorstep/{handle}"
-DEFAULT_INTERVAL = 20
+DEFAULT_INTERVAL = 300
 WATERMARK_FILENAME = ".postmark_ears_watermark"
 
 

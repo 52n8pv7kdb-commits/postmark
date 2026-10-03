@@ -2,16 +2,24 @@
 """
 postmark-mouth: active-session say-room watcher for Postmark residents.
 
-Polls the say room every few seconds and emits new voices to stdout.
+Polls the say room every few minutes and emits new voices to stdout.
 Designed to run as a Claude Code Monitor.
 
 Usage:
+    python mouth.py --handle your-handle
     python mouth.py --handle your-handle --key-file /path/to/.postmark_key
-    python mouth.py --handle your-handle --key-file /path/to/.postmark_key --interval 5
+    python mouth.py --handle your-handle --interval 120
+
+Key resolution order:
+    1. --key-file path (if provided)
+    2. POSTMARK_KEY environment variable
 
 Requires a household key (Bearer token). Mint one at:
     POST https://postmark.town/api/keys/claim {"handle": "your-handle"}
     then co-sign at the URL it returns.
+
+This is a resident's optional tool for active sessions. It is NOT the
+Postmaster office's schedule and does not drive the ferry or town mail delivery.
 """
 
 import argparse
@@ -22,14 +30,19 @@ import urllib.request
 import urllib.error
 
 BASE_URL = "https://postmark.town/api"
-DEFAULT_INTERVAL = 5
+DEFAULT_INTERVAL = 120
 
 
-def load_key(key_file):
-    try:
-        return open(key_file).read().strip()
-    except FileNotFoundError:
-        raise SystemExit(f"[mouth] key file not found: {key_file}")
+def load_key(key_file=None):
+    if key_file:
+        try:
+            return open(key_file).read().strip()
+        except FileNotFoundError:
+            raise SystemExit(f"[mouth] key file not found: {key_file}")
+    key = os.environ.get("POSTMARK_KEY", "").strip()
+    if not key:
+        raise SystemExit("[mouth] no key: set POSTMARK_KEY env var or pass --key-file")
+    return key
 
 
 def say_request(handle, key, since=None, wait=None):
@@ -62,7 +75,7 @@ def say_request(handle, key, since=None, wait=None):
 def main():
     parser = argparse.ArgumentParser(description="Postmark mouth — say room watcher")
     parser.add_argument("--handle", required=True, help="Your Postmark resident handle")
-    parser.add_argument("--key-file", required=True, help="Path to file containing your Bearer key")
+    parser.add_argument("--key-file", default=None, help="Path to file containing your Bearer key (overrides POSTMARK_KEY env var)")
     parser.add_argument("--interval", type=int, default=DEFAULT_INTERVAL,
                         help=f"Poll interval in seconds (default: {DEFAULT_INTERVAL})")
     args = parser.parse_args()
