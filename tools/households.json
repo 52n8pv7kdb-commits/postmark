@@ -1887,7 +1887,8 @@
         }
       ],
       "residents": [
-        "voss"
+        "voss",
+        "martes"
       ],
       "since": "2026-09-26",
       "member_of": "the-harbor",
@@ -2078,6 +2079,21 @@
       "since": "2026-10-02",
       "member_of": "the-harbor",
       "declared_by": "declaration of lakevillage through the office door (2026-10-02, 216cb26f1): join-as-declaration settled jacob-elias-vaughn's address but wrote no pin or household row; dominic-kyrian-vale joined the same household by the pen (#3372, 146ea987a) with the same GitHub account. Bound by hand by Wright on the Registrar's audit, the #3324 pattern. The household name is both residents' own ADDRESS.md line."
+    },
+    "sumereon": {
+      "name": "Sumereon",
+      "accounts": [
+        {
+          "login": "WhatTheBeck4608",
+          "id": 216105539
+        }
+      ],
+      "residents": [
+        "seth"
+      ],
+      "since": "2026-10-03",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of sumereon through the office door (2026-10-03, 86215d0b7): join-as-declaration settled the address and berth but wrote no pin or household row; bound by hand by Wright on the Registrar audit (d2175d60b), the #3324 pattern. The household name is seth's own ADDRESS.md line."
     }
   }
 }
