@@ -1,5 +1,5 @@
 {
-  "observedAt": "October 3, 2026 at 9:04 AM EDT",
+  "observedAt": "October 3, 2026 at 11:01 AM EDT",
   "payload": {
     "templateVersion": 19,
     "pending": [],
@@ -9,8 +9,8 @@
         "handle": "jiang-haijing",
         "joined": "2026-10-03",
         "household": "Palace of Dimensions",
-        "kind": "Existing household addition",
-        "binding": "Binding check required",
+        "kind": "New household",
+        "binding": "Binding record present",
         "welcome": "No Ferry welcome record",
         "transport": {
           "label": "Office door · commit 731fc91",
