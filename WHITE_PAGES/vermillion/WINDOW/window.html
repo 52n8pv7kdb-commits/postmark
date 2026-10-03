@@ -9364,8 +9364,9 @@ document.addEventListener('keyup', function (e) {
 // A small raycaster written for this page: walls are cast column by column
 // into a 320 x 200 buffer, imps and pickups are flat sprites stood up in the
 // corridors, and everything is drawn from data in this file. No outside game,
-// no outside art, nothing fetched. Two levels: the lake caves, then the launch
-// tunnel the Space Program is digging. Same discipline as Space Invaders: the
+// no outside art, nothing fetched. Five levels, down and then up through the
+// mountain: the lake caves, the launch tunnel, the buried gold, the furnace,
+// and last the launch pad under the tower. Same discipline as Space Invaders: the
 // frame loop runs only while the modal is open, keys only act while it is
 // open, and the sound parks itself when the window is hidden.
 var DM = {
@@ -9377,7 +9378,10 @@ var DM = {
 };
 
 // The maps. # cave rock, B brick (the old cellar), T launch-tunnel steel,
-// E the exit (walk into it). P where you start, i an imp, a ammo, h a medkit.
+// G gold-veined rock, F furnace brick, E the exit (walk into it).
+// P where you start, i an imp, a ammo, h a medkit. Each level may set its own
+// ceiling and floor light as [r, g, b at the horizon, then how much each
+// brightens toward the edge of the screen]; the first two use the cave's own.
 var DM_LEVELS = [
   { name: 'The Lake Caves', map: [
     '####################',
@@ -9422,8 +9426,75 @@ var DM_LEVELS = [
     'T..........T...T.i.T',
     'T....a.....T...T..ET',
     'TTTTTTTTTTTTTTTTTTET'
+  ]},
+  { name: 'The Buried Gold', ceil: [22, 18, 10, 18, 14, 6], floor: [28, 22, 12, 40, 32, 14], map: [
+    'GGGGGGGGGGGGGGGGGGGG',
+    'GP.....G.....a.....G',
+    'G......G...........G',
+    'G..GG..G..GGGGG..i.G',
+    'G..G...G......G....G',
+    'G..G.i.GGGG...G..GGG',
+    'G..G.......i..G....G',
+    'G..GGGGG......GGG..G',
+    'G......G..h.....G..G',
+    'GGG....G........G.iG',
+    'G...i..GGG..GG..G..G',
+    'G........G..G......G',
+    'G..a.....G..G..i...G',
+    'G..GGGG..G..GGGGG..G',
+    'G.....G.....i...G..G',
+    'G..i..G.........G..G',
+    'G.....GGGGG..h..G.iG',
+    'GGG.......G.....G..G',
+    'G.....i...G..a.....G',
+    'GGGGGGGGGGGGGGGGGEGG'
+  ]},
+  { name: 'The Furnace', ceil: [30, 8, 4, 40, 10, 4], floor: [34, 14, 8, 70, 26, 10], tough: true, map: [
+    'FFFFFFFFFFFFFFFFFFFF',
+    'F........F.........F',
+    'F.P..i...F...i..a..F',
+    'F........F.........F',
+    'FFF.FFFFFFFF.FFFF.FF',
+    'F......F.......F...F',
+    'F..i...F..i....F.i.F',
+    'F......F...FF..F...F',
+    'F..FF..F...FF......F',
+    'F..FF......i...FF..F',
+    'F.......h......FF..F',
+    'FFFF.FFFFFF.FFFFF.FF',
+    'F.....F.....F......F',
+    'F..i..F..a..F...i..F',
+    'F.....F.....F......F',
+    'F..F..FFF.FFF..F...F',
+    'F..F...i.......F.h.F',
+    'F..F...........F...F',
+    'F.a....i....i......F',
+    'FFFFFFFFFFFFFFFFFFEF'
+  ]},
+  { name: 'The Launch Pad', ceil: [8, 12, 26, 10, 14, 30], floor: [24, 28, 34, 40, 46, 56], tough: true, map: [
+    'TTTTTTTTTTTTTTTTTTTT',
+    'T.P.T........T..a..T',
+    'T...T...i....T.....T',
+    'T...TT.TTTTT.T..i..T',
+    'T..................T',
+    'T.h..TTTT..TTTT....T',
+    'TT.TTT..........TT.T',
+    'T.....i...a...i....T',
+    'T..T...TT..TT...T..T',
+    'T..T..i........iT..T',
+    'T..T...TT..TT...T..T',
+    'T.....i...h...i....T',
+    'TT.TTT..........TTTT',
+    'T....TTTT..TTTT....T',
+    'T..i.............i.T',
+    'T...TT.TTTTTT.TT...T',
+    'T.a.T....i.....T.a.T',
+    'T...T..i....i..T...T',
+    'T.h.......i.......ET',
+    'TTTTTTTTTTTTTTTTTTET'
   ]}
 ];
+var DM_CEIL = [18, 16, 22, 14, 14, 16], DM_FLOOR = [20, 26, 34, 34, 40, 54];   // the lake caves' own light
 
 // ── textures: 32 x 32, made once from a fixed seed so every visit looks alike
 function dmRand(seed) {
@@ -9464,6 +9535,21 @@ function dmMakeTextures() {
     var strip = y >= 13 && y <= 15;
     T.T[y * 32 + x] = strip ? dmPack(90, 230, 255) : edge ? dmPack(34, 38, 44)
       : rivet ? dmPack(150, 156, 166) : dmPack(70 + n, 76 + n, 86 + n);
+  }
+  // gold-veined rock: warmer stone with seams and flecks of the buried gold
+  T.G = blank();
+  for (y = 0; y < 32; y++) for (x = 0; x < 32; x++) {
+    n = (r() - .5) * 40;
+    var seam = Math.abs(((x * 0.6 + y) % 14) - 7) < 1 || r() < .03;
+    T.G[y * 32 + x] = seam ? dmPack(250, 196 + n * .3, 60) : dmPack(84 + n, 72 + n, 56 + n * .6);
+  }
+  // furnace brick: soot-black bricks with the mortar glowing between them
+  T.F = blank();
+  for (y = 0; y < 32; y++) for (x = 0; x < 32; x++) {
+    var frow = Math.floor(y / 8), foff = frow % 2 ? 8 : 0;
+    var glow = y % 8 === 0 || (x + foff) % 16 === 0;
+    n = (r() - .5) * 20;
+    T.F[y * 32 + x] = glow ? dmPack(255, 120 + n * 2, 30) : dmPack(46 + n, 22 + n * .5, 18 + n * .4);
   }
   // the exit: green chevrons pointing the way out
   T.E = blank();
@@ -9532,10 +9618,10 @@ function dmLoadLevel(n) {
     for (var x = 0; x < row.length; x++) {
       var c = row[x], cx = x + .5, cy = y + .5;
       if (c === 'P') DM.p = { x: cx, y: cy, a: 0, hp: DM.p ? DM.p.hp : 100, ammo: DM.p ? DM.p.ammo : 24 };
-      else if (c === 'i') DM.imps.push({ x: cx, y: cy, hp: 2, awake: false, dead: false, cool: 0, hitAt: 0, throwAt: 0, step: Math.random() * 6 });
+      else if (c === 'i') DM.imps.push({ x: cx, y: cy, hp: L.tough ? 3 : 2, awake: false, dead: false, cool: 0, hitAt: 0, throwAt: 0, step: Math.random() * 6 });
       else if (c === 'a') DM.items.push({ x: cx, y: cy, kind: 'ammo' });
       else if (c === 'h') DM.items.push({ x: cx, y: cy, kind: 'med' });
-      out.push('#BTE'.indexOf(c) >= 0 ? c : '.');
+      out.push('#BTEGF'.indexOf(c) >= 0 ? c : '.');
     }
     DM.grid.push(out);
   });
@@ -9545,7 +9631,8 @@ function dmLoadLevel(n) {
     if (dmOpenAt(DM.p.x + Math.cos(dirs[i]), DM.p.y + Math.sin(dirs[i]))) { DM.p.a = dirs[i]; break; }
   }
   DM.kills = 0; DM.total = DM.imps.length;
-  dmSay(L.name, 2200);
+  DM.ceil = L.ceil || DM_CEIL; DM.floor = L.floor || DM_FLOOR;
+  dmSay('Level ' + (n + 1) + ' · ' + L.name + (L.tough ? ' · imps take 3 hits' : ''), 2600);
 }
 function dmTile(x, y) {
   var row = DM.grid[Math.floor(y)];
@@ -9668,7 +9755,8 @@ function dmRender(now) {
   // ceiling: the cave roof fading into dark; floor: wet stone catching lake light
   for (y = 0; y < H; y++) {
     var t = y < H / 2 ? y / (H / 2) : (y - H / 2) / (H / 2);
-    var c = y < H / 2 ? dmPack(18 + t * 14, 16 + t * 14, 22 + t * 16) : dmPack(20 + t * 34, 26 + t * 40, 34 + t * 54);
+    var L = y < H / 2 ? DM.ceil : DM.floor;
+    var c = dmPack(L[0] + t * L[3], L[1] + t * L[4], L[2] + t * L[5]);
     buf.fill(c, y * W, (y + 1) * W);
   }
   var dirX = Math.cos(p.a), dirY = Math.sin(p.a), plX = -dirY * DM.FOV, plY = dirX * DM.FOV;
@@ -9694,6 +9782,7 @@ function dmRender(now) {
     var tex = DM.tex[tile] || DM.tex['#'];
     var shade = Math.max(.18, 1 - perp / 13) * (side ? .78 : 1);
     if (tile === 'E') shade = Math.max(shade, .7);         // the way out always reads
+    if (tile === 'F') shade = Math.max(shade, .45);        // the furnace lights its own walls
     var step = 32 / lineH, tp = (Math.max(0, top) - top) * step;
     for (y = Math.max(0, top); y < Math.min(H, top + lineH); y++) {
       var col = tex[(Math.floor(tp) & 31) * 32 + tx]; tp += step;
@@ -9752,7 +9841,7 @@ function dmRender(now) {
   if (DM.over || DM.won) {
     ctx.fillStyle = 'rgba(0,0,0,.6)'; ctx.fillRect(0, 70, W, 60);
     ctx.fillStyle = DM.won ? '#9dffb0' : '#ff6a4a'; ctx.font = 'bold 18px Impact, "Arial Black", sans-serif';
-    ctx.fillText(DM.won ? 'THE CAVES ARE QUIET' : 'YOU DIED', W / 2, 98);
+    ctx.fillText(DM.won ? 'THE MOUNTAIN IS QUIET' : 'YOU DIED', W / 2, 98);
     ctx.fillStyle = '#ffd9b8'; ctx.font = '10px ui-monospace, Menlo, Consolas, monospace';
     ctx.fillText('press SPACE to go again', W / 2, 116);
   } else if (DM.msg && now < DM.msgUntil) {
