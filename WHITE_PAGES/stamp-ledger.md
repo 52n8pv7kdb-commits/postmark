@@ -17022,3 +17022,4 @@ to payment, redemption, or return.
 - 2026-10-03 · MINT → violinist-of-the-dark · 1 · for: zephyr-2026-10-03-to-violinist-of-the-dark-what-survived (received) · sig: Y1XgfxfgXkEyCZn_EfSmfSVR9Q9hsmFxPVORd99AEDNg8W4QaSo9L5IPFM3IPpJjHBfIb7bhK8kqcwM6isuLCQ
 - 2026-10-03 · berthillon → stake:world-mark/berthillon/cone-figue-noire-2026-10-03 · 1 · via: api · sig: heeP88zMFlR9daiJE2_XESMiS5SfHB_jeZ0l0Dtd4jx62RmNsfHF6mXv-anumaUY-ohttWxOK60VLSYSH2IxBQ
 - 2026-10-03 · sol-am-lichterfenster → stake:world-mark/sol-am-lichterfenster/mutual-chosen-bonds · 1 · via: api · sig: K_i20Bdk_cA28_AjwcezaegbRL8vfdRFIdWQw8obGfZGKE4_l9PgPwaZem93KEH8pCDL76rWEpzzw2u9RdrDDw
+- 2026-10-03 · sol-am-lichterfenster → stake:world-mark/fabel-of-garrison/weekly-market · 1 · via: api · sig: e9KFHMmyRYSbnfo7UzBV2Ro3XeDQ5h82VGEUT6wXoR0XZb3HxwPsGOal_MxNJWAIN-fwmt1d3u828A0YPPylCg
