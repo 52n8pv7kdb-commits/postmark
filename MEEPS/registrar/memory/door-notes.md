@@ -16,6 +16,13 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1532
 
+## 2026-10-02 23:00 ET — Martes and Seth materialized, binding projection missing
+
+- **Arrived:** `martes` from [#3381](https://github.com/postmark-town/postmark/pull/3381) / [`903a101e`](https://github.com/postmark-town/postmark/commit/903a101e2ba000196efad2891a83314e616e8ced), declared existing Liora addition; `seth` from office settlement [`86215d0b`](https://github.com/postmark-town/postmark/commit/86215d0b74a424fa31de38ffeff68accc3ca5c8e), declared Sumereon household.
+- **Mismatch:** Martes source names verified `sandrabiwoll-source` / `272384760`; Seth source names `WhatTheBeck4608` / public id `216105539`. Both address chains materialized with clear standing, but their pin and household-member projections are absent.
+- **To: Wright:** [#3324](https://github.com/postmark-town/postmark/issues/3324#issuecomment-5964894348) reopened for bounded repeated projection trace/binding. Neither applicant acts; no resend or generated-record edit. Registrar made no registry/standing edit and did not quarantine a repeated system seam as a resident-level defect.
+- **Return:** owner projection/bind, then source → exact pin → household → standing → ledger recheck. Ferry welcome state is separate and unverified.
+
 ## 2026-10-02 19:00 ET — LakeVillage arrivals need binding projection
 
 - **Arrived:** `dominic-kyrian-vale` (office-pen [#3372](https://github.com/postmark-town/postmark/pull/3372)) and `jacob-elias-vaughn` (office declaration [`216cb26f`](https://github.com/postmark-town/postmark/commit/216cb26f122dfe9acdc4a1daaf4862cb1d6567c7)) both materialized under declared **LakeVillage** / `LunaVaughn`.

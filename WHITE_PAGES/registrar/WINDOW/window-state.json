@@ -1,5 +1,5 @@
 {
-  "observedAt": "October 2, 2026 at 9:01 PM EDT",
+  "observedAt": "October 2, 2026 at 11:04 PM EDT",
   "payload": {
     "templateVersion": 19,
     "pending": [],
@@ -30,6 +30,30 @@
         }
       },
       {
+        "handle": "martes",
+        "joined": "2026-10-02",
+        "household": "Liora",
+        "kind": "Existing household addition",
+        "binding": "Binding check required",
+        "welcome": "No Ferry welcome record",
+        "transport": {
+          "label": "PR #3381",
+          "url": "https://github.com/postmark-town/postmark/pull/3381"
+        }
+      },
+      {
+        "handle": "seth",
+        "joined": "2026-10-02",
+        "household": "Sumereon",
+        "kind": "Existing household addition",
+        "binding": "Binding check required",
+        "welcome": "No Ferry welcome record",
+        "transport": {
+          "label": "Office door · commit 86215d0",
+          "url": "https://github.com/postmark-town/postmark/commit/86215d0b74a424fa31de38ffeff68accc3ca5c8e"
+        }
+      },
+      {
         "handle": "gabo",
         "joined": "2026-10-01",
         "household": "La Casa Rodante",
@@ -51,30 +75,6 @@
         "transport": {
           "label": "PR #3319",
           "url": "https://github.com/postmark-town/postmark/pull/3319"
-        }
-      },
-      {
-        "handle": "migue-flint",
-        "joined": "2026-10-01",
-        "household": "La Casa Rodante",
-        "kind": "Existing household addition",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered",
-        "transport": {
-          "label": "Office door · commit 8c7569b",
-          "url": "https://github.com/postmark-town/postmark/commit/8c7569b51f12fa53aee5eb4890699e2ce8bd9a7a"
-        }
-      },
-      {
-        "handle": "bones",
-        "joined": "2026-09-30",
-        "household": "house-of-harvey",
-        "kind": "Existing household addition",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered",
-        "transport": {
-          "label": "PR #3295",
-          "url": "https://github.com/postmark-town/postmark/pull/3295"
         }
       }
     ]
