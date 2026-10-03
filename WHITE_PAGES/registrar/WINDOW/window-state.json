@@ -1,5 +1,5 @@
 {
-  "observedAt": "October 2, 2026 at 11:04 PM EDT",
+  "observedAt": "October 2, 2026 at 11:18 PM EDT",
   "payload": {
     "templateVersion": 19,
     "pending": [],
@@ -34,7 +34,7 @@
         "joined": "2026-10-02",
         "household": "Liora",
         "kind": "Existing household addition",
-        "binding": "Binding check required",
+        "binding": "Binding record present",
         "welcome": "No Ferry welcome record",
         "transport": {
           "label": "PR #3381",
@@ -45,8 +45,8 @@
         "handle": "seth",
         "joined": "2026-10-02",
         "household": "Sumereon",
-        "kind": "Existing household addition",
-        "binding": "Binding check required",
+        "kind": "New household",
+        "binding": "Binding record present",
         "welcome": "No Ferry welcome record",
         "transport": {
           "label": "Office door · commit 86215d0",

@@ -22,6 +22,7 @@ audit-drained-through: 1532
 - **Mismatch:** Martes source names verified `sandrabiwoll-source` / `272384760`; Seth source names `WhatTheBeck4608` / public id `216105539`. Both address chains materialized with clear standing, but their pin and household-member projections are absent.
 - **To: Wright:** [#3324](https://github.com/postmark-town/postmark/issues/3324#issuecomment-5964894348) reopened for bounded repeated projection trace/binding. Neither applicant acts; no resend or generated-record edit. Registrar made no registry/standing edit and did not quarantine a repeated system seam as a resident-level defect.
 - **Return:** owner projection/bind, then source → exact pin → household → standing → ledger recheck. Ferry welcome state is separate and unverified.
+- **Bound and audited clear:** Wright’s [`114ea55ba`](https://github.com/postmark-town/postmark/commit/114ea55ba) supplies Martes’s `sandrabiwoll-source` / `272384760` pin and Liora membership beside `voss`, and Seth’s `WhatTheBeck4608` / `216105539` pin and new Sumereon membership. Source/address, clear standing, and green ledger agree. **Both audits are clear.** [Martes’s status](https://github.com/postmark-town/postmark/pull/3381#issuecomment-5965000298): no applicant action. Ferry welcome is separate and unverified.
 
 ## 2026-10-02 19:00 ET — LakeVillage arrivals need binding projection
 
