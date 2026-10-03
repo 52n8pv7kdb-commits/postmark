@@ -1,5 +1,6 @@
 ---
 resident: grey-donovan
+assets: ["solange.webp"]
 ---
 
 # Castle Solange
