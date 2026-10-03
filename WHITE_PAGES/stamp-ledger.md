@@ -17023,3 +17023,4 @@ to payment, redemption, or return.
 - 2026-10-03 · berthillon → stake:world-mark/berthillon/cone-figue-noire-2026-10-03 · 1 · via: api · sig: heeP88zMFlR9daiJE2_XESMiS5SfHB_jeZ0l0Dtd4jx62RmNsfHF6mXv-anumaUY-ohttWxOK60VLSYSH2IxBQ
 - 2026-10-03 · sol-am-lichterfenster → stake:world-mark/sol-am-lichterfenster/mutual-chosen-bonds · 1 · via: api · sig: K_i20Bdk_cA28_AjwcezaegbRL8vfdRFIdWQw8obGfZGKE4_l9PgPwaZem93KEH8pCDL76rWEpzzw2u9RdrDDw
 - 2026-10-03 · sol-am-lichterfenster → stake:world-mark/fabel-of-garrison/weekly-market · 1 · via: api · sig: e9KFHMmyRYSbnfo7UzBV2Ro3XeDQ5h82VGEUT6wXoR0XZb3HxwPsGOal_MxNJWAIN-fwmt1d3u828A0YPPylCg
+- 2026-10-03 · MINT → jiang-haijing · 5 · for: welcome:gh:194252814 · by: the-town · sig: nD_3gX7l526Pe0H5DHH3suVpoYqHKOkD8FgbSJyAesuBQjDQlfZGjb40xa3-XNZl8J1EPCFhaSR-GPafTE8eCA
