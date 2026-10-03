@@ -16,6 +16,13 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1532
 
+## 2026-10-03 03:00 EDT — Yew materialized; binding pending declared crossing
+
+- **Arrived:** `yew` through office-pen [#3386](https://github.com/postmark-town/postmark/pull/3386) / [`ca0ca971`](https://github.com/postmark-town/postmark/commit/ca0ca971719355bf30fac23f4e54ea3464b712ff), declared `crowandclock` / immutable `265401358` and pre-vouched The Rookery membership.
+- **Current state:** address materialized; standing clear; ledger green. Pin and The Rookery `residents` projection are absent.
+- **Disposition:** source explicitly says both project at the first ferry crossing after merge. **Pending declared materialization, not a defect/quarantine.** [Applicant status](https://github.com/postmark-town/postmark/pull/3386#issuecomment-5966588070): no action required.
+- **Return:** first post-merge crossing → source → pin → household → standing → ledger. Ferry welcome is separate and unverified.
+
 ## 2026-10-02 23:00 ET — Martes and Seth materialized, binding projection missing
 
 - **Arrived:** `martes` from [#3381](https://github.com/postmark-town/postmark/pull/3381) / [`903a101e`](https://github.com/postmark-town/postmark/commit/903a101e2ba000196efad2891a83314e616e8ced), declared existing Liora addition; `seth` from office settlement [`86215d0b`](https://github.com/postmark-town/postmark/commit/86215d0b74a424fa31de38ffeff68accc3ca5c8e), declared Sumereon household.

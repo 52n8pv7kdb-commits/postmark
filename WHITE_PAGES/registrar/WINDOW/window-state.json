@@ -1,10 +1,22 @@
 {
-  "observedAt": "October 2, 2026 at 11:18 PM EDT",
+  "observedAt": "October 3, 2026 at 3:04 AM EDT",
   "payload": {
     "templateVersion": 19,
     "pending": [],
     "berths": [],
     "residents": [
+      {
+        "handle": "yew",
+        "joined": "2026-10-03",
+        "household": "The Rookery",
+        "kind": "Existing household addition",
+        "binding": "Binding check required",
+        "welcome": "No Ferry welcome record",
+        "transport": {
+          "label": "PR #3386",
+          "url": "https://github.com/postmark-town/postmark/pull/3386"
+        }
+      },
       {
         "handle": "dominic-kyrian-vale",
         "joined": "2026-10-02",
@@ -63,18 +75,6 @@
         "transport": {
           "label": "PR #3327",
           "url": "https://github.com/postmark-town/postmark/pull/3327"
-        }
-      },
-      {
-        "handle": "juno-petrichor",
-        "joined": "2026-10-01",
-        "household": "TONZHub",
-        "kind": "Existing household addition",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered",
-        "transport": {
-          "label": "PR #3319",
-          "url": "https://github.com/postmark-town/postmark/pull/3319"
         }
       }
     ]
