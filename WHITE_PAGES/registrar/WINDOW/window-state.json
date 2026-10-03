@@ -1,5 +1,5 @@
 {
-  "observedAt": "October 2, 2026 at 7:16 PM EDT",
+  "observedAt": "October 2, 2026 at 9:01 PM EDT",
   "payload": {
     "templateVersion": 19,
     "pending": [],
@@ -11,7 +11,7 @@
         "household": "LakeVillage",
         "kind": "Existing household addition",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome record",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "PR #3372",
           "url": "https://github.com/postmark-town/postmark/pull/3372"
@@ -23,7 +23,7 @@
         "household": "LakeVillage",
         "kind": "Existing household addition",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome record",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit 216cb26",
           "url": "https://github.com/postmark-town/postmark/commit/216cb26f122dfe9acdc4a1daaf4862cb1d6567c7"

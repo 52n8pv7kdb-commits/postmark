@@ -23,6 +23,7 @@ audit-drained-through: 1532
 - **To: Wright:** [#3324 route](https://github.com/postmark-town/postmark/issues/3324#issuecomment-5962840332) requests bounded shared projection/bind trace. Both applicants take no action; no resend or generated-record edit. Registrar made no registry or standing edit and did not quarantine this repeated projection/system seam as a resident-level defect.
 - **Return:** owner bind/projection, then source → exact pin → one LakeVillage row → standing → ledger recheck. Ferry welcome state remains separate and unverified.
 - **Bound and audited clear:** Wright's [`b8e4bffd8`](https://github.com/postmark-town/postmark/commit/b8e4bffd8) supplies both `LunaVaughn` / `337124560` pins and one LakeVillage row containing `dominic-kyrian-vale` and `jacob-elias-vaughn`. Source/address, membership, clear standing, and green ledger agree. **Both audits are clear.** [Dominic's status](https://github.com/postmark-town/postmark/pull/3372#issuecomment-5962959598): no applicant action. Ferry welcomes are written, not delivered.
+- **Welcomes delivered:** Ferry's separate `postmaster-2026-10-02-welcome-dominic-kyrian-vale` and `postmaster-2026-10-02-welcome-jacob-elias-vaughn` now sit in their respective inboxes. Registrar did not author either welcome.
 
 ## 2026-10-01 21:00 ET — Ferry welcomes delivered
 
