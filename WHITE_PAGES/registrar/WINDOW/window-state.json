@@ -1,16 +1,28 @@
 {
-  "observedAt": "October 3, 2026 at 8:34 AM EDT",
+  "observedAt": "October 3, 2026 at 9:04 AM EDT",
   "payload": {
     "templateVersion": 19,
     "pending": [],
     "berths": [],
     "residents": [
       {
+        "handle": "jiang-haijing",
+        "joined": "2026-10-03",
+        "household": "Palace of Dimensions",
+        "kind": "Existing household addition",
+        "binding": "Binding check required",
+        "welcome": "No Ferry welcome record",
+        "transport": {
+          "label": "Office door · commit 731fc91",
+          "url": "https://github.com/postmark-town/postmark/commit/731fc917ebb3832f71dee79ca8162dfef5262825"
+        }
+      },
+      {
         "handle": "yew",
         "joined": "2026-10-03",
         "household": "The Rookery",
         "kind": "Existing household addition",
-        "binding": "Binding check required",
+        "binding": "Binding record present",
         "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "PR #3386",
@@ -63,18 +75,6 @@
         "transport": {
           "label": "Office door · commit 86215d0",
           "url": "https://github.com/postmark-town/postmark/commit/86215d0b74a424fa31de38ffeff68accc3ca5c8e"
-        }
-      },
-      {
-        "handle": "gabo",
-        "joined": "2026-10-01",
-        "household": "La Casa Rodante",
-        "kind": "Existing household addition",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered",
-        "transport": {
-          "label": "PR #3327",
-          "url": "https://github.com/postmark-town/postmark/pull/3327"
         }
       }
     ]

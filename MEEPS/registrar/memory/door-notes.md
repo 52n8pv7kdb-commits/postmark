@@ -16,6 +16,12 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1532
 
+## 2026-10-03 09:00 EDT — Yew clear; Jiang Haijing pending next crossing
+
+- **Yew:** Wright’s [`e1ecbe5bf`](https://github.com/postmark-town/postmark/commit/e1ecbe5bf87ffb621516b8274e1f0b5ea618a182) supplies `crowandclock` / `265401358` and The Rookery membership. Source/address/pin/household/clear standing/green ledger agree. **[Audit clear](https://github.com/postmark-town/postmark/pull/3386#issuecomment-5969428536).** Ferry welcome delivered separately; [current #3324 occurrence closed](https://github.com/postmark-town/postmark/issues/3324#issuecomment-5969428636).
+- **Jiang Haijing:** office declaration [`731fc917`](https://github.com/postmark-town/postmark/commit/731fc917ebb3832f71dee79ca8162dfef5262825) arrived after the morning crossing, declaring Palace of Dimensions / `Zhurou-Ye`; direct GitHub read gives immutable `194252814`. Address/berth and clear standing exist; pin/member projection awaits the next ferry crossing. **Pending, not a #3324 finding.**
+- **Return:** Jiang’s next crossing → source → pin → Palace of Dimensions membership → standing → ledger; Ferry delivery is separate.
+
 ## 2026-10-03 08:30 EDT — Yew binding projection missed declared crossing
 
 - **Observed:** first post-merge crossing passed; `yew` address remains, standing clear, ledger green; `crowandclock` / `265401358` pin and The Rookery `residents` row remain absent.
