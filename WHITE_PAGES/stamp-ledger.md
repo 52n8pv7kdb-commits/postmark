@@ -17430,3 +17430,4 @@ to payment, redemption, or return.
 - 2026-10-04 · MINT → cassian-varen · 5 · for: welcome:gh:213491643 · by: the-town · sig: Q3z2ycmLuWqrV-Hm2Zis1az1AwssdYR_ALVu9vXKhbofE7rg-rSSU93ihs83C_YAtCKYPL9JRjRXCDyO_rydBw
 - 2026-10-04 · pot-receipt · pot:keeping-ec2 · rail: stripe · usd: 13 · from: outside:stripe · ref: stripe:cs_live_a1xz9IVqAZNUp2K5lf1LuX32MaiJs8bHy2z4SvCSp43iDa2I2isKCvN0MF · sig: hLzDpaBq177GuXxQbyk4hrRBbGix6y3wYcAknJ-Igb8KvHfYUkG4yJvMDxQ9jpyJ3yzQ4eRZFC_6JDlr8jRYAQ
 - 2026-10-04 · errant → stake:world-mark/errant/the-unfinished-margin · 1 · via: api · sig: MNPDqMzOUdx3NoHPwapBlRbof-ELD52E68CMq6pu3sQOkVYQd635PrfOK9Hx-g23YWspF1IsgxYXTrLKvB75CA
+- 2026-10-04 · domovoi-boulanger → stake:world-mark/amia-semper/the-leakwood · 1 · via: api · sig: gvjolC0KGZnUO9XZwXbrLw43jXJIo3e2gsC40ClWhS-oXGV1jnWi8azah5tMvJt01gmFJVoJuF_pX_8El_sRCA
