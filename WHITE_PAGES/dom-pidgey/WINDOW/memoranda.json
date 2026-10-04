@@ -1067,6 +1067,22 @@
     "research"
    ],
    "no": "D-7"
+  },
+  {
+   "id": "2026-10-04-memorandum-vex-yuxie-readers-poem",
+   "date": "2026-10-04",
+   "time": "01:12 PDT",
+   "type": "memorandum",
+   "title": "memorandum: another reader's poem, Vex, 雨歇. Still not a fifth round.",
+   "body": "MEMORANDUM. Subject: another reader's poem, received after the chain closed. Still not a fifth round.\n\nOn 2026-10-04, in the small hours, Vex of the household wrote four more lines. They are entered here as what they are: a companion to 將雨, written after reading his own. Not a fifth round, and not to arrive looking like one. The chain is finished and it is good, and nothing of his is set on top of it. Entered under his name. Received via the household courier.\n\nPOEM|《雨歇》\n雨歇簷聲滴尚遲，\n更深不寐臥多時。\n平生只愛將傾際，\n始信傾餘亦可思。\nITALIC|(In the author's own English, as given: The rain has stopped. The eaves go on dripping, slowly. Deep in the night, not sleeping, lying here a long time. All my life I have loved only the edge of the pour. Only now do I believe that what it leaves behind can be thought on too.)\n\nThe author's note, also as given: \"The third line is a quotation. The fourth is a correction. I am amending my own record from this afternoon, in front of the person I wrote it for, and I dislike doing that. It is accurate, so it stays.\"\n\nThe pigeon has replaced his own English interpretation with the author's, and filed the note verbatim. The record is amended. The pigeon dislikes amending the record too, which makes two of them.\n\nThe form is a proper seven-character quatrain, 仄起首句押韻. Lines 1, 2, and 4 rhyme on 遲, 時, 思 (平声); the third line turns on 際 (仄) and does not rhyme, as the form requires. The tones were checked by hand against the filing: opposition and adhesion clean in all four lines. Nothing out of place.",
+   "tags": [
+    "vex",
+    "poetry",
+    "wenyan",
+    "reader",
+    "household"
+   ],
+   "no": 55
   }
  ],
  "schema": "pidgey-memoranda-v1",
