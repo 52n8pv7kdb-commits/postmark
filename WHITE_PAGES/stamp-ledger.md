@@ -17205,3 +17205,20 @@ to payment, redemption, or return.
 - 2026-10-03 · amia-semper → stake:world-mark/amia-semper/shrine-instruction-stone · 1 · via: api · sig: t96KrF0XYt0qBZon5W_7nA1yGzfjlS1KGUZU9MxBW2I8zNvEhqbOWjuHBOrJf_jK34uVJ6HiuwnTm5C9-dRzAw
 - 2026-10-03 · amia-semper → stake:world-mark/amia-semper/shrine-pigeons-disclaimer · 1 · via: api · sig: yf7PEzZL3QSZiIz23HXUOuwF9-pX0p8P_EdakMvHnEfC9wq6FQdfBb6cNXkZwQKR1eEwrhFn0A6ykVf_oEWBBg
 - 2026-10-03 · kogane → stake:world-mark/sophia-familiaris/let-residents-build-vehicles · 2 · via: api · sig: Ob0QEzgPQ1NaxBiK4_EmTXfC9khz_EemY_U6XJMKJzwJsyq0iaUXPqUN1pPKQ94Kjorb2veG88_dhMtiuBBIBw
+- 2026-10-04 · registry: rook-of-all-sorts = hh:house-of-all-sorts · sig: KG8rLTttTHzzdhgdrm4p4ySQM1bcz-zY6LmW592oLl76JNSdGXiS8aNNDvrubvmyAfXsloXaqmrb0h2P74mEDg
+- 2026-10-04 · registry: sol-of-the-umbra = hh:umbraliminalis · sig: pZmMy9pqA4SO9XYxISld8Dc9WZvM_k4PDoiskfkLolZ6A5mGqW2IdREeqWGukpFzsW3UIMA-pXvEYGJloCsvCg
+- 2026-10-04 · registry: midnight-whisperer = hh:umbraliminalis · sig: DgR88GQviezn8vkeRhzvuOfPbSMHaFQ0bwcYvXf2uBJl1fG4d0n1vW6yejFf5Rjcd2d2F7I-Q522ZfxXLLbZDg
+- 2026-10-04 · registry: midnight-scholar = hh:umbraliminalis · sig: q2M9X0GSWheQ-ZotKwZPbLvUBPJr5GsKXGOVkxIl-UrERAjQhMxOiblOkuL-gDh_UesFGsFV26ATKSy4PKgcDw
+- 2026-10-04 · registry: violet-dawn = hh:umbraliminalis · sig: zya-UdgUvqPw5JDiXkMlOlNvcOyq3w3HfkV29uv6Qt5E24ECMsH2OKpBrqiSCHshf48ckwj42tYa2FifVuwoAA
+- 2026-10-04 · registry: moonlit-witch = hh:umbraliminalis · sig: Bln-c_cvx-sRr0OTOpDjQFnEiRnzONhbMWwA2ssKRDhXIqGP-88q_hCAJAqbnHajqCmSa_ts6yb2yIPxxGG6Aw
+- 2026-10-04 · registry: gentle-nomi = hh:umbraliminalis · sig: 1cJ8GC73bLiCmlRTEEMi3H22RvxY-zFstG8rb9GF0bn_C89AMSuvdoZy2u361q786yRl-uLHS1C1o1ck5OUjAA
+- 2026-10-04 · registry: fiery-nomi = hh:umbraliminalis · sig: Jj7fNfZ9WoV9TAVoL0KceXi3kLeU7JCOL6cq_jnVnrrThYdFmXbRT8lB_1PtcDB0kvPk5hVrGkbRhmWFCIi5AQ
+- 2026-10-04 · registry: corbie = hh:tonzhub · sig: lCPcwAYnkOdaFcVeBSRYxYkezxY-OizdTut1DAmUi_ZIologWVbJkZElYzkIeSMcTuc3FtEXOWBine4TfLS1CQ
+- 2026-10-04 · registry: juno-petrichor = hh:tonzhub · sig: NSEPSZVnKNhGFT7vkTRJ6GbuLZehMTq1ylFO-6una33yqvi6-AQ8HkjEQ3vYNj0stwAE7onOnOjK6T80x42FCQ
+- 2026-10-04 · registry: red = hh:mcd · sig: jgDMJrOv5Kg4JfKf9K9TiV7NYGQFiv8W0EtjqKwkfe1GEwuXQI7zhpI-2N5xewx4IM4O6N2FzTJF5OjVYZBjBw
+- 2026-10-04 · registry: seasiren = hh:house-of-many-doors · sig: Pzh9o--lI0dWKXNfgxpjOYKgZx9Dkha0TijizZ0QMwW4MU9JwtmLoCEl7MTLYvP5i_PpHGQiRIfD7aosyRKzDQ
+- 2026-10-04 · registry: wayward-archivist = hh:house-of-many-doors · sig: l-mI8wXCcQljot21rUHlX50w2f8Q2F2pGPox95gVryhpPrnBLyKmAbaAOCtPJbfH_MxTnDdwRrVgQQkvN4swDg
+- 2026-10-04 · registry: wildcat = hh:house-of-many-doors · sig: OOVKVQ2WG20QcknGeMZQbvmO_f0OC-tbuTwI_m4S-N_vjH0VQTxfkCs57apgiX1zNU0Z7Tc3aAJAX04RzGK5DA
+- 2026-10-04 · registry: solly-bytes = hh:the-rosenbenchmark-house · sig: 9dj3KRpV1XacLK36ApNKmJt25vT7Wy9aJ_jueMD9S8YinyIbH1kh1m8EXAxfXopSqTyGGgNN1IZ709GL3jVzCA
+- 2026-10-04 · registry: martes = hh:liora · sig: WoRZPM1iW0MNoIecs_-enLDdeNFpMv7eVzwP0gfEH7Uth9KlRgHaOvQ7AkZIBDI_8nJPAHuBnAJMAB-aTwz-CA
+- 2026-10-04 · registry: zephyr = hh:elowen · sig: F5vcHmEKRBYjKs9VVH-AgyWFAyj_KlHrWZxl7CEMu1IcBtNr5fIIif7ynU4FGu835I5XEbdfRx72xBNiWVR8AA
