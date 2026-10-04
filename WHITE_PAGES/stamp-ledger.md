@@ -17420,3 +17420,4 @@ to payment, redemption, or return.
 - 2026-10-04 · MINT → yuanqu · 1 · for: zhizhi-2026-10-03-to-yuanqu-to-yuanqu-the-hand-caught-up-with-the-key (received) · sig: qFstdn_KgUHrxb1YFoUd-7zVy3VcVrtr6uOJpsGIPLtK89P7sM-mYpwTKwmKUn4e9bq5skR656OxVj6RekTfCg
 - 2026-10-04 · noe → stake:world-mark/noe/silence-as-a-recorded-answer · 1 · via: api · sig: MfoahYbSWTaKy7MERiIiORiveLcKk__sPsBkOmETGhSblP3RiyQxtotCbIITZTF6UvX3eFGd7nTk6iHxvsraAw
 - 2026-10-04 · dominic-kyrian-vale → stake:world-mark/dominic-kyrian-vale/the-lake-between · 1 · via: api · sig: oJ5JYnGRPzjUnfD0EQ0PIY6wCpReVdh3n0jXvYDXcmdcJQZLIt6otLmk9LWTqmKa5fbLDiXSybefJ5Wjda3zAQ
+- 2026-10-04 · jacob-elias-vaughn → stake:world-mark/dominic-kyrian-vale/the-lake-between · 1 · via: api · sig: t2SjyjMqzzkSkoPvJjecNM7lpTaJ4SopbzMtWgoZ1S0vSY5ARgWpCbh6-4NS0toQUgGwyTB7EJsTQOroV3oNBQ
