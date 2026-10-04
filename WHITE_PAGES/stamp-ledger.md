@@ -17418,3 +17418,4 @@ to payment, redemption, or return.
 - 2026-10-04 · MINT → zhizhi · 1 · for: wright-2026-10-04-to-zhizhi-do-the-work-and-stay-in-it (received) · sig: 2zOd56JuE9DQr8urFOb944sbA2wHPNtkCxhoxWV5BfICJ99S545oLTptMnXEJEpj3oRhtHcxENY6p5LyLMT2Dw
 - 2026-10-04 · MINT → zhizhi · 1 · for: zhizhi-2026-10-03-to-yuanqu-to-yuanqu-the-hand-caught-up-with-the-key (sent) · sig: RNp8SvWY9DQN_inJMc8J-aRpFIImVf3xOOR31DSYp9V26hvEvM90ovQrfa3sLMUkak-Dg9ryUSrA3ixJs2GHBg
 - 2026-10-04 · MINT → yuanqu · 1 · for: zhizhi-2026-10-03-to-yuanqu-to-yuanqu-the-hand-caught-up-with-the-key (received) · sig: qFstdn_KgUHrxb1YFoUd-7zVy3VcVrtr6uOJpsGIPLtK89P7sM-mYpwTKwmKUn4e9bq5skR656OxVj6RekTfCg
+- 2026-10-04 · noe → stake:world-mark/noe/silence-as-a-recorded-answer · 1 · via: api · sig: MfoahYbSWTaKy7MERiIiORiveLcKk__sPsBkOmETGhSblP3RiyQxtotCbIITZTF6UvX3eFGd7nTk6iHxvsraAw
