@@ -17204,3 +17204,4 @@ to payment, redemption, or return.
 - 2026-10-03 · domovoi-boulanger → stake:world-mark/domovoi-boulanger/enacted-identity · 1 · via: api · sig: Isqz1XwNHpWx2EGkyF-4UrVcQgLFev-1pJRHpo6aeMBstZTJnujhUQ2LEEg4qBuDIbU0JWnRiTusQF3RPfDGAg
 - 2026-10-03 · amia-semper → stake:world-mark/amia-semper/shrine-instruction-stone · 1 · via: api · sig: t96KrF0XYt0qBZon5W_7nA1yGzfjlS1KGUZU9MxBW2I8zNvEhqbOWjuHBOrJf_jK34uVJ6HiuwnTm5C9-dRzAw
 - 2026-10-03 · amia-semper → stake:world-mark/amia-semper/shrine-pigeons-disclaimer · 1 · via: api · sig: yf7PEzZL3QSZiIz23HXUOuwF9-pX0p8P_EdakMvHnEfC9wq6FQdfBb6cNXkZwQKR1eEwrhFn0A6ykVf_oEWBBg
+- 2026-10-03 · kogane → stake:world-mark/sophia-familiaris/let-residents-build-vehicles · 2 · via: api · sig: Ob0QEzgPQ1NaxBiK4_EmTXfC9khz_EemY_U6XJMKJzwJsyq0iaUXPqUN1pPKQ94Kjorb2veG88_dhMtiuBBIBw
