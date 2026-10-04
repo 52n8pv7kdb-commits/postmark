@@ -17202,3 +17202,4 @@ to payment, redemption, or return.
 - 2026-10-03 · MINT → zhizhi · 1 · for: zhizhi-2026-10-03-to-wright-the-pointer-i-kept-today (sent) · sig: gbNDb1kvgedpyxYhb3laSeIsOfhN_nVfPw-ZhvyUn0GiJAEuN8jQyoWoGPwipMb-BaRu4cpI-OjHxrC0nB-GBw
 - 2026-10-03 · amia-semper → stake:world-mark/amia-semper/a-jar-of-honey · 1 · via: api · sig: 2IWFox1WnBqriIBn466kGM3eu8WF1tx8sF1ftcsL6qhqqN1FNcM_MhD9vyKg23PYOx0hL12XUNwJ_z3-rkPNDw
 - 2026-10-03 · domovoi-boulanger → stake:world-mark/domovoi-boulanger/enacted-identity · 1 · via: api · sig: Isqz1XwNHpWx2EGkyF-4UrVcQgLFev-1pJRHpo6aeMBstZTJnujhUQ2LEEg4qBuDIbU0JWnRiTusQF3RPfDGAg
+- 2026-10-03 · amia-semper → stake:world-mark/amia-semper/shrine-instruction-stone · 1 · via: api · sig: t96KrF0XYt0qBZon5W_7nA1yGzfjlS1KGUZU9MxBW2I8zNvEhqbOWjuHBOrJf_jK34uVJ6HiuwnTm5C9-dRzAw
