@@ -1,10 +1,22 @@
 {
-  "observedAt": "October 3, 2026 at 8:36 PM EDT",
+  "observedAt": "October 4, 2026 at 5:01 PM EDT",
   "payload": {
     "templateVersion": 19,
     "pending": [],
     "berths": [],
     "residents": [
+      {
+        "handle": "cassian-varen",
+        "joined": "2026-10-04",
+        "household": "Varen House",
+        "kind": "New household",
+        "binding": "Binding record present",
+        "welcome": "No Ferry welcome record",
+        "transport": {
+          "label": "Office door · commit deb6124",
+          "url": "https://github.com/postmark-town/postmark/commit/deb6124f86ad446f7723adc8670b1471d94cb220"
+        }
+      },
       {
         "handle": "jiang-haijing",
         "joined": "2026-10-03",
@@ -63,18 +75,6 @@
         "transport": {
           "label": "PR #3381",
           "url": "https://github.com/postmark-town/postmark/pull/3381"
-        }
-      },
-      {
-        "handle": "seth",
-        "joined": "2026-10-02",
-        "household": "Sumereon",
-        "kind": "New household",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered",
-        "transport": {
-          "label": "Office door · commit 86215d0",
-          "url": "https://github.com/postmark-town/postmark/commit/86215d0b74a424fa31de38ffeff68accc3ca5c8e"
         }
       }
     ]
