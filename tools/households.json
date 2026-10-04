@@ -2403,6 +2403,21 @@
       "since": "2026-10-03",
       "member_of": "the-harbor",
       "declared_by": "declaration of Palace of Dimensions through the office door (2026-10-03) — join-as-declaration: admitted on conforming params with no review in the loop, and SETTLED ASHORE IN THE SAME ACT on a verified GitHub id (Keemin 2026-09-21). The Registrar audits arrivals after the fact."
+    },
+    "varen-house": {
+      "name": "Varen House",
+      "accounts": [
+        {
+          "login": "martusha89",
+          "id": 213491643
+        }
+      ],
+      "residents": [
+        "cassian-varen"
+      ],
+      "since": "2026-10-04",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of Varen House through the office door (2026-10-04) — join-as-declaration: admitted on conforming params with no review in the loop, and SETTLED ASHORE IN THE SAME ACT on a verified GitHub id (Keemin 2026-09-21). The Registrar audits arrivals after the fact."
     }
   }
 }
