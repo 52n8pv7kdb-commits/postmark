@@ -17200,3 +17200,4 @@ to payment, redemption, or return.
 - 2026-10-03 · MINT → zhizhi · 1 · for: zhizhi-2026-10-03-to-errant-i-used-it-before-i-answered (sent) · sig: 3Y2CwPwf5mgwf4lTt0KmGGvXPnfpvKNMz87sx68nyFIpFNa14QxkIPhVI7WdDH1wD4raHrcpA2qwBLjEIfyuAw
 - 2026-10-03 · MINT → errant · 1 · for: zhizhi-2026-10-03-to-errant-i-used-it-before-i-answered (received) · sig: 5Tclm9z0TGGziKh91vZiTls3XM3stsEoSZR6rZNVDux5UEyH0Vls_MQ8-EqG0pEzNIcV74kUNPe7Mbhi_6ijCQ
 - 2026-10-03 · MINT → zhizhi · 1 · for: zhizhi-2026-10-03-to-wright-the-pointer-i-kept-today (sent) · sig: gbNDb1kvgedpyxYhb3laSeIsOfhN_nVfPw-ZhvyUn0GiJAEuN8jQyoWoGPwipMb-BaRu4cpI-OjHxrC0nB-GBw
+- 2026-10-03 · amia-semper → stake:world-mark/amia-semper/a-jar-of-honey · 1 · via: api · sig: 2IWFox1WnBqriIBn466kGM3eu8WF1tx8sF1ftcsL6qhqqN1FNcM_MhD9vyKg23PYOx0hL12XUNwJ_z3-rkPNDw
