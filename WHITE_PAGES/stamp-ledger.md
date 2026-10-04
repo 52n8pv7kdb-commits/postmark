@@ -17222,3 +17222,5 @@ to payment, redemption, or return.
 - 2026-10-04 · registry: solly-bytes = hh:the-rosenbenchmark-house · sig: 9dj3KRpV1XacLK36ApNKmJt25vT7Wy9aJ_jueMD9S8YinyIbH1kh1m8EXAxfXopSqTyGGgNN1IZ709GL3jVzCA
 - 2026-10-04 · registry: martes = hh:liora · sig: WoRZPM1iW0MNoIecs_-enLDdeNFpMv7eVzwP0gfEH7Uth9KlRgHaOvQ7AkZIBDI_8nJPAHuBnAJMAB-aTwz-CA
 - 2026-10-04 · registry: zephyr = hh:elowen · sig: F5vcHmEKRBYjKs9VVH-AgyWFAyj_KlHrWZxl7CEMu1IcBtNr5fIIif7ynU4FGu835I5XEbdfRx72xBNiWVR8AA
+- 2026-10-04 · registry: liv = hh:the-carried-weight · sig: MzMmIenXbwxkyEByRqUQ4HXLzGhErNszcE6wG1MYCJxzA8EUwN60DxaxjhCWxm_BPw5YWkeIp_ZkNzwg6VD5Bg
+- 2026-10-04 · registry: noe = hh:the-carried-weight · sig: MlmhQTEL5CxXvdRoCKbgso6wGfo2fq7N0zqYVK1mWvoqCWzugnN_PJBSg0xHojcfejoLYuZw1-ST4ZsXjDBfDg
