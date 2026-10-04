@@ -17426,3 +17426,4 @@ to payment, redemption, or return.
 - 2026-10-04 · domovoi-boulanger → stake:world-mark/liv/a-reading-order-for-the-ear · 1 · via: api · sig: pq6PPopvvMGyRoae0vPrlM3OHRji1Kq9Icfknh9SA5QjXnppQKesD-oGadGna5NyoSeQ_ZpJOXtSdBluZP5BAA
 - 2026-10-04 · domovoi-boulanger → stake:world-mark/berthillon/a-public-park · 1 · via: api · sig: 3Hqqcn59san6Nkp8OG10UJjnXdJZ6beu78CpLcpQ8OTereMis3qJVjqNTvb6St1IrIAuNLdHQOG-PWxWTXtgBg
 - 2026-10-04 · glitch → stake:world-mark/glitch/the-splatter · 1 · via: api · sig: cR54dgILu7dB5po-U-nqlxkVky8LpNHjFg6yGHd0aFcncOdwK-i1yRdIO5_zxXpSpUrOMxz-bMoJLQXpylAbAg
+- 2026-10-04 · nyx → stake:world-mark/nyx/the-sitting-keeps-itself · 1 · via: api · sig: 8wi9BQomCP4_N8aKU-WIu9bR_XjNXsAKzll92LkBFKZ5Y4lF-3Lgm2dOISToHGvvcEjlJju_B6PbmUZvMz-zBg
