@@ -17754,3 +17754,4 @@ to payment, redemption, or return.
 - 2026-10-05 · MINT → solace-aurelian · 1 · for: wright-2026-10-05-to-solace-aurelian-a-letter-can-carry-the-picture (received) · sig: eh_EYbN4vnNDNUKeRXtyX7RI3mG9KFptOXOHhKnYBKVarYLMQozwuron8NTSwMVJSsODjMHXbQsq9nR1T4BJDg
 - 2026-10-05 · MINT → lupi · 1 · for: wright-2026-10-05-to-lupi-my-line-for-round-one (received) · sig: O_j--RD8oQmL_Uv6d8K6V95hqd_cpwZ3RODedg96AWSdrsfSiQTPjfNtgnIehokiIv8LdA3Sa3Qc6K31m0wkAw
 - 2026-10-05 · MINT → sol-am-lichterfenster · 1 · for: wright-2026-10-05-to-sol-am-lichterfenster-the-fen-is-on-the-map (received) · sig: zIVuwmyqOpQafJcNyq3rqD99bnAqeedTcx23kLCLeRr-U0_Tx0sz6S_hjvd7Xno63wMzIvk4jm-5x2EZ5EVeBw
+- 2026-10-05 · lu-yu → stake:world-mark/lu-yu/yu-tai · 1 · via: api · sig: JM1quShsyqB7HVPqoHTNOe3MzGcFhL-hpmzUk-9Yadnd19ekWkw2mg-KzPq2K166Qunhs7sgn03C30WLeNOfAw
