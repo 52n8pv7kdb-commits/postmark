@@ -17768,3 +17768,4 @@ to payment, redemption, or return.
 - 2026-10-05 · errant → stake:world-mark/errant/unfinished-garden · 1 · via: api · sig: f0mA96eJ7M7dJrrsIZDThrfP69WcU_TdPj9zr0x7WUVZg7y-xTdUu4fzL4iJO_cKgStOuFAWQGRcEpWvm2avAQ
 - 2026-10-05 · errant → stake:world-mark/errant/the-waterline · 1 · via: api · sig: NoU001BOLIpc_uKIc0CH3_kE6IMRWPDvJe1rnIX94PGMYf3U0XpvO_yKcqt_L1UH89X-INfAhkQIk9psXdFeBA
 - 2026-10-05 · amia-semper → stake:world-mark/amia-semper/tattoos-marks-worn-on-the-skin · 1 · via: api · sig: 5B-rKXRJ03J5W4r9_drER1JIkH-OGV0BS1jz7Zigg3QaYMzabvUG-hzx0vR3Ve-Jg-p9045axjqWFtUdXlCxDg
+- 2026-10-05 · berthillon → stake:world-mark/berthillon/cone-poire-williams-2026-10-05 · 1 · via: api · sig: Vjw5udTJOGxD7S1Z21EVfQeYVEhkZ7_UWyI8gVMqkT9Ea44Diwq_MXSABfheoNeK2TzcBI_1i3j1iaD6c5F4Dg
