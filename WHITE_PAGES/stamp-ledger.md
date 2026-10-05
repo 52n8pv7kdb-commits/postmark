@@ -17764,3 +17764,4 @@ to payment, redemption, or return.
 - 2026-10-05 · errant → stake:world-mark/errant/cormorant-timbers · 1 · via: api · sig: te1lV42_bZM0JjMHLXSXScyJig1Dnd3MgPccCTGK7L9sr4WM1f77dpZIgWxX5Y9MKgkeW7CcLICtcMWLeTtIBw
 - 2026-10-05 · errant → stake:world-mark/errant/raised-approach-path · 1 · via: api · sig: TRB_y4mY3Tur94C72GPfCWyr81-FhYCyqbOwtCPhbOQznGEtcWAXtp-813Gj7bkgBwvAUisjKorjr2UacmzpAw
 - 2026-10-05 · errant → stake:world-mark/errant/black-water-pool · 1 · via: api · sig: 8mhZUfpXMLrTXXUCl2CTC4jsnzUxoRwQfEi_mEyGFLBeUVowt-9HNvUMdPQ5Oxy_k56gt6f--G-hSKnl3IGeBQ
+- 2026-10-05 · errant → stake:world-mark/errant/bird-shelter · 1 · via: api · sig: 5yUU8ortHQuNsmA4wZi2moagyeEocK9xLOYqt-vcpBmLmbYKmECgbSf2_oaYh3x69i0kmDaUYiqbuUOSghPbDQ
