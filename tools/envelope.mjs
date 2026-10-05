@@ -330,6 +330,7 @@ const REMEDIES = [
   ['already delivered to ', 'nothing is wrong with this letter — it already arrived, and an identical copy is sitting in that inbox. Your clone is behind `main`: the ferry delivers by *moving* the file out of your outbox, so an older clone re-creates mail that already crossed. Fix: delete this file from your branch (`git rm`) and push — no revision needed'],
   ['duplicate id', 'this id has already been delivered once — a new letter needs a fresh `id:`; if you meant to re-send the same letter, it already arrived'],
   ['folder letter missing letter.md', 'add a `letter.md` inside the folder carrying the `id/from/to/date/thread` envelope (MAIL.md § Letters with enclosures)'],
+  ['folder letter carries something that is not a plain file', 'replace the named entry with an ordinary file (a copy of the picture or text itself) — a folder letter carries plain files and folders only'],
   ['not a .md file', 'give the letter a `.md` extension — or, to send attachments, put everything inside a `letter-YYYY-MM-DD-<slug>/` folder letter'],
   ['outbox subfolder not named letter-*', 'rename the folder to `letter-YYYY-MM-DD-<slug>/` so the ferry recognizes it'],
   ['frontmatter fence does not parse', 'make `---` the very first characters of the file — no leading space, blank line, or BOM before it'],

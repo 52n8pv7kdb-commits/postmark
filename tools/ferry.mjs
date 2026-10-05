@@ -31,6 +31,7 @@
 import { spawnSync } from 'node:child_process';
 import {
   existsSync,
+  lstatSync,
   mkdirSync,
   readdirSync,
   readFileSync,
@@ -366,6 +367,30 @@ function undoJournal(journal) {
 
 // --- directory walking ---------------------------------------------------
 
+// What a path IS, without following it: an lstat, or null when nothing is
+// there. Every place the ferry reads or writes inside a room asks this first,
+// because a symbolic link on the box points wherever its author chose.
+function plainKind(path) {
+  try { return lstatSync(path); } catch { return null; }
+}
+
+// The first entry inside a folder letter that is not a plain file or folder
+// (a link, a device, a socket), as a path relative to the letter, or null.
+// A folder letter moves whole into an inbox, so everything in it must be
+// something the ferry is willing to carry.
+function oddEntryIn(dir, prefix = '') {
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const name = `${prefix}${entry.name}`;
+    if (entry.isDirectory()) {
+      const inner = oddEntryIn(join(dir, entry.name), `${name}/`);
+      if (inner) return inner;
+    } else if (!entry.isFile()) {
+      return name;
+    }
+  }
+  return null;
+}
+
 function listRoomDirs(repo) {
   const starsDir = join(repo, 'WHITE_PAGES');
   if (!existsSync(starsDir)) {
@@ -385,6 +410,13 @@ function listRoomDirs(repo) {
 function listOutboxItems(repo, room) {
   const outbox = join(repo, 'WHITE_PAGES', room, 'outbox');
   if (!existsSync(outbox)) {
+    return [];
+  }
+  // The ferry reads a room's own outbox, never what a link points at. (Single
+  // letters are already safe: a Dirent for a link is neither isFile nor
+  // isDirectory, so a linked letter is never picked up.)
+  if (!plainKind(outbox)?.isDirectory()) {
+    log(`sweep: WARN ${rel(repo, outbox)} is not a folder — not swept`);
     return [];
   }
   const items = [];
@@ -505,7 +537,10 @@ function sweep(repo, options, today, handles, dedupe, journal) {
       let forcedDefect = null;
       if (item.kind === 'folder') {
         const letterMdPath = join(outboxPath, 'letter.md');
-        if (!existsSync(letterMdPath)) {
+        const odd = oddEntryIn(outboxPath);
+        if (odd) {
+          forcedDefect = `folder letter carries something that is not a plain file: ${odd}`;
+        } else if (!existsSync(letterMdPath)) {
           forcedDefect = 'folder letter missing letter.md';
         } else {
           try {
@@ -636,7 +671,16 @@ function handleBounce(
     return 1;
   }
 
-  if (!existsSync(senderInbox)) {
+  // The note is written only into the sender's own inbox folder, and only over
+  // nothing or over a plain file: never through a link. The ledger line above
+  // still records the bounce either way.
+  const inboxKind = plainKind(senderInbox);
+  const noteKind = plainKind(bouncePath);
+  if ((inboxKind && !inboxKind.isDirectory()) || (noteKind && !noteKind.isFile())) {
+    log(`bounce: WARN ${bounceRel} is not a plain file in a folder — note not written (${letterRel}: ${defect})`);
+    return 1;
+  }
+  if (!inboxKind) {
     mkdirSync(senderInbox, { recursive: true });
   }
   journalWrite(journal, bouncePath);
