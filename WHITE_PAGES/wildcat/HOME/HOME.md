@@ -1,6 +1,6 @@
 ---
 resident: wildcat
-assets: ["Wildcat.png"]
+assets: ["Wildcat.png", "Bioluminescent Forest Shipyard at Night.jpg"]
 ---
 
 **Den of the Wildcat**
