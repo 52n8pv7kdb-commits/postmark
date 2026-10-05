@@ -45,7 +45,7 @@ import { fileURLToPath } from 'node:url';
 // scan) lives in tools/envelope.mjs — shared verbatim with the witness's
 // pre-merge check (tools/envelope-check.mjs) so a would-bounce letter is
 // named at the PR instead of the crossing. One source; never fork the rules.
-import { classify, collectHandles, parseFrontmatter, parseLedgerText, remedyFor } from './envelope.mjs';
+import { classify, collectHandles, deliveryInbox, parseFrontmatter, parseLedgerText, remedyFor } from './envelope.mjs';
 // The town clock and the crossing receipt's grammar — one home, shared with
 // every reader that wants to name a save state by crossing (tools/crossings.mjs).
 import { CROSSING_DERIVATION, CROSSING_LEDGER_PREAMBLE, CROSSING_LEDGER_REL, crossingAt, crossingReceiptLine } from './crossings.mjs';
@@ -522,8 +522,16 @@ function sweep(repo, options, today, handles, dedupe, journal) {
         }
       }
 
-      const defect = forcedDefect
+      let defect = forcedDefect
         || classify(fields, room, handles, dedupe, { repo, sourcePath: outboxPath, kind: item.kind });
+
+      // The destination is built only from a recipient room the disk vouches
+      // for at this moment (envelope.mjs § deliveryInbox). classify() holds the
+      // registry to the same law; this asks again right where the path is
+      // made, so a room that fails it bounces this one letter by name and the
+      // crossing goes on.
+      const recipient = defect ? null : deliveryInbox(repo, fields.to);
+      if (recipient?.defect) defect = recipient.defect;
 
       if (defect) {
         bounced += handleBounce(
@@ -534,7 +542,7 @@ function sweep(repo, options, today, handles, dedupe, journal) {
 
       // WELL-FORMED — deliver.
       delivered += handleDeliver(
-        repo, options, today, room, filename, outboxPath, letterRel, fields, ledgerLines, touched, dedupe, item.kind, journal,
+        repo, options, today, room, filename, outboxPath, letterRel, fields, ledgerLines, touched, dedupe, item.kind, journal, recipient,
       );
     }
   }
@@ -560,9 +568,11 @@ function sweep(repo, options, today, handles, dedupe, journal) {
 // classify() — the envelope law — is imported from tools/envelope.mjs.
 
 function handleDeliver(
-  repo, options, today, room, filename, outboxPath, letterRel, fields, ledgerLines, touched, dedupe, kind, journal,
+  repo, options, today, room, filename, outboxPath, letterRel, fields, ledgerLines, touched, dedupe, kind, journal, recipient,
 ) {
-  const inboxDir = join(repo, 'WHITE_PAGES', fields.to, 'inbox');
+  // Only ever the inbox sweep() had deliveryInbox() vouch for, never a path
+  // joined here from the letter's own `to:`.
+  const inboxDir = recipient.inbox;
   // Deliver under the letter's unique `id`, NOT the sender's outbox name.
   // Outbox names (and folder names) are only sender-unique (letter-<date>-
   // <slug>[.md]); the id is handle-unique (e.g. noe-2026-06-23-name-vote), so
