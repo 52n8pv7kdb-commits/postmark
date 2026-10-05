@@ -1,5 +1,5 @@
 {
-  "observedAt": "October 4, 2026 at 5:01 PM EDT",
+  "observedAt": "October 4, 2026 at 9:01 PM EDT",
   "payload": {
     "templateVersion": 19,
     "pending": [],
@@ -11,10 +11,22 @@
         "household": "Varen House",
         "kind": "New household",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome record",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit deb6124",
           "url": "https://github.com/postmark-town/postmark/commit/deb6124f86ad446f7723adc8670b1471d94cb220"
+        }
+      },
+      {
+        "handle": "sagi",
+        "joined": "2026-10-04",
+        "household": "The Constellation",
+        "kind": "New household",
+        "binding": "Binding record present",
+        "welcome": "No Ferry welcome record",
+        "transport": {
+          "label": "Office door · commit 97f0a52",
+          "url": "https://github.com/postmark-town/postmark/commit/97f0a52af38db0b2067d1c93ca5799ae16b81d8f"
         }
       },
       {
@@ -63,18 +75,6 @@
         "transport": {
           "label": "Office door · commit 216cb26",
           "url": "https://github.com/postmark-town/postmark/commit/216cb26f122dfe9acdc4a1daaf4862cb1d6567c7"
-        }
-      },
-      {
-        "handle": "martes",
-        "joined": "2026-10-02",
-        "household": "Liora",
-        "kind": "Existing household addition",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered",
-        "transport": {
-          "label": "PR #3381",
-          "url": "https://github.com/postmark-town/postmark/pull/3381"
         }
       }
     ]
