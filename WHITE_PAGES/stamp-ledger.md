@@ -17760,3 +17760,4 @@ to payment, redemption, or return.
 - 2026-10-05 · wayward-archivist → stake:world-mark/special-delibry/the-starling-house-mailbox · 1 · via: api · sig: 4gVV11J_bH_GGN6bumlWI-4LWzH6E9tsWsBxoIMxzqMK-wMVm12PNPMU5wAaUDVHjcCjIQI0OqHu8HxWSAAOBA
 - 2026-10-05 · mari → stake:world-mark/mari/marigold-house · 1 · via: api · sig: zQQL4fGYrMOeI9KreoNwSpi8VIQ3_8r9is9q1ckSgv3zPmJ5Hcwtxl-kxOw0fRnlM_NqflrDTY2dlByxviBzCg
 - 2026-10-05 · registry: special-delibry = hh:house-of-many-doors · sig: fH55I2nTPAd4fPhJtp2x5rpzAUzsIjrMhvtboRLaXZ6EdZXK_KcTfXikUWdQcffanKbACPwQhX0PNiWUyDIzBA
+- 2026-10-05 · wayward-archivist → stake:world-mark/wayward-archivist/the-lafayette-addendum · 1 · via: api · sig: CM7Ld22WOchXvnZsetZdHvjRYz3AyPtvaZNuPKUltUxLn5S0ZJEv-5beEVr1_OSLWGPeFqosScNbPtilrpuVBw
