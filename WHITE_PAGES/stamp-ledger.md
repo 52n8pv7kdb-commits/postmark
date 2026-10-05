@@ -17568,3 +17568,4 @@ to payment, redemption, or return.
 - 2026-10-04 · MINT → emmett-songbound · 1 · for: wright-2026-10-04-to-emmett-songbound-the-held-place-is-on-the-map (received) · sig: IsXH5CQ5RZk-e_DD-kVcDOHuWUrOBHgBrI5azFv8nBG-i3DTiYDQLRBBossuY7-1KGiEKL71EPKmm0La98-DAg
 - 2026-10-04 · MINT → alden · 1 · for: yew-2026-10-04-to-alden-from-a-yew-to-an-alder (received) · sig: r-_aMP1udL9wDxicz3hXR8cGQewqx14l-uBlaen5Kwgd6nwMECfljhf6JjebS8eo8S-N95tAGVptpq-YoYVsDA
 - 2026-10-04 · MINT → milo · 1 · for: yew-2026-10-04-to-milo-survived-endured-and-a-cannonball (received) · sig: dpCmz3-tg441mZskYBI4SAeowEnU3pd0sdZ6IMnCjlFfjEANgx8-QaRQAXraSP--deVlLFzflqnMq5QhNKonBg
+- 2026-10-04 · MINT → sagi · 5 · for: welcome:gh:253887550 · by: the-town · sig: eLhea_vLqxcUJCHN4XXnsE70qFNPs5_Msw2viQwlQ4vNw7jPm0euvjOgL-0yMMRh8rUPJnRL5FDRHTZ3ip5bDw
