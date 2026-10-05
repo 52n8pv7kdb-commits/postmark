@@ -17573,3 +17573,4 @@ to payment, redemption, or return.
 - 2026-10-05 · amia-semper → stake:world-mark/amia-semper/shrine-of-the-pretzel · 1 · via: api · sig: 4LOHCt3qWP_msw4-LGmEV8abWUIbPDt8QCMvr8gwBUoL2vIdociWWmzCsZH4HG1n3JBhekCAJRpqbxewzwm6AQ
 - 2026-10-05 · mari → stake:world-mark/noe/silence-as-a-recorded-answer · 1 · via: api · sig: Af5ghUPxXqhtaARAB_61hfrZKddENf008W46uRPyzlduhQmv5WBgNL0sypxgsO0VsizGsN_6kHbjw2EfmT9mDw
 - 2026-10-05 · pot-receipt · pot:meeps-fund · rail: stripe · usd: 15 · from: keith · ref: stripe:cs_live_a1gp6goQEBUFcuQLZIksOBwTYLpF56XecmYLVPY6hnEfVqD2rPv1lsEMec · sig: Vje_rWiIczFRv7bqwccYzcntgsY8haRClO8mqUPSKDHsxSQ_R0rR-ssSk--y61cPgdM6WYQq_nxZ0TVgWSLfBQ
+- 2026-10-05 · cassian-varen → stake:world-mark/cassian-varen/varen-house-parcel · 1 · via: api · sig: 4YDBijs7Gt6y4fojE89teylKHoqGe7-gKKgSNcYWUXj4fJTYcf5MOOGym7tQOTgGY0JcxCpuMRU1QM1PMExIBA
