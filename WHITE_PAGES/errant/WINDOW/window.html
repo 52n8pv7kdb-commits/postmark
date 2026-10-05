@@ -1,275 +1,209 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Errant | Bad Window IV</title>
-  <style>
-    :root {
-      color-scheme: dark;
-      --wall: #596269;
-      --ink: #211c24;
-      --stitch: #f8f1dc;
-      --cobalt: #315cff;
-      --violet: #8858db;
-      --copper: #cf705f;
-      --acid: #ffef35;
-    }
-    * { box-sizing: border-box; }
-    html, body { margin: 0; min-height: 100%; background: var(--wall); }
-    body { display: grid; place-items: center; overflow-x: hidden; }
-    ::selection { color: var(--ink); background: var(--acid); }
-    .wall-texture {
-      position: fixed;
-      inset: 0;
-      z-index: 0;
-      width: 100%;
-      height: 100%;
-      pointer-events: none;
-    }
-    .window-art {
-      position: relative;
-      z-index: 1;
-      display: block;
-      width: min(100vw, 750px);
-      height: auto;
-      outline: none;
-      cursor: ew-resize;
-      touch-action: none;
-    }
-    .window-art:focus-visible {
-      filter: drop-shadow(0 8px 20px rgba(33, 28, 36, .42));
-    }
-    .owner-tag,
-    .owner-wire,
-    .owner-ghost,
-    .witness-hand {
-      transition:
-        transform 120ms cubic-bezier(.16, 1, .3, 1),
-        d 120ms cubic-bezier(.16, 1, .3, 1),
-        opacity 120ms ease-out,
-        fill 120ms ease-out,
-        stroke 120ms ease-out;
-    }
-    @media (prefers-reduced-motion: reduce) {
-      .owner-tag,
-      .owner-wire,
-      .owner-ghost,
-      .witness-hand { transition: none; }
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Errant | Bad Window V</title>
+<style>
+:root{
+  --graphite:#17191a; --graphite2:#232628; --chalk:#e9e6db; --yellow:#e2c332;
+  --blue:#738892; --rust:#9a604f; --smoke:#9aa09a; --paper:#c5bca8;
+}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:#111314;color:var(--chalk)}
+body{
+  min-height:100vh;overflow:hidden;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;
+  background:
+    radial-gradient(circle at 18% 23%,rgba(255,255,255,.035),transparent 24%),
+    radial-gradient(circle at 74% 70%,rgba(255,255,255,.025),transparent 30%),
+    linear-gradient(117deg,#121415 0%,#1d2021 43%,#131516 100%);
+}
+body:before{
+  content:"";position:fixed;inset:0;pointer-events:none;opacity:.33;mix-blend-mode:screen;
+  background-image:
+    repeating-linear-gradient(13deg,rgba(255,255,255,.015) 0 1px,transparent 1px 5px),
+    repeating-linear-gradient(101deg,rgba(0,0,0,.08) 0 2px,transparent 2px 11px);
+}
+.window{position:relative;width:100vw;height:100vh;min-height:540px;isolation:isolate;cursor:crosshair}
+.window:after{
+  content:"";position:absolute;inset:1.4rem;border:1px solid rgba(235,232,218,.13);pointer-events:none;
+}
+.field{position:absolute;inset:4.4vh 3.5vw 18vh 3.5vw;filter:drop-shadow(0 18px 30px rgba(0,0,0,.18))}
+svg{width:100%;height:100%;overflow:visible}
+.domain{
+  stroke:rgba(240,237,225,.66);stroke-width:1.15;vector-effect:non-scaling-stroke;
+  transition:fill .08s linear,opacity .16s linear,filter .12s linear,transform .16s cubic-bezier(.2,.8,.2,1);
+  transform-box:fill-box;transform-origin:center;
+}
+.domain[data-state="0"]{fill:var(--cold);opacity:.58}
+.domain[data-state="1"]{fill:var(--warm);opacity:.78}
+.domain.jump{filter:brightness(1.45) contrast(1.05)}
+.seam{
+  fill:none;stroke:rgba(241,237,223,.68);stroke-width:1.05;stroke-dasharray:2.5 4.8;
+  vector-effect:non-scaling-stroke;opacity:.85;pointer-events:none
+}
+.misreg{
+  fill:none;stroke:var(--yellow);stroke-width:3.1;stroke-linecap:round;
+  vector-effect:non-scaling-stroke;opacity:.78;mix-blend-mode:screen;pointer-events:none
+}
+.defect{fill:var(--yellow);opacity:.92;pointer-events:none;filter:drop-shadow(0 0 2px rgba(226,195,50,.3))}
+.ghost{fill:none;stroke:rgba(227,226,216,.18);stroke-width:1.4;vector-effect:non-scaling-stroke;pointer-events:none}
+.signal{position:absolute;left:4vw;bottom:13.8vh;width:36vw;height:28px;opacity:.33;pointer-events:none}
+.signal svg{overflow:visible}.trace{fill:none;stroke:rgba(233,230,219,.63);stroke-width:1;vector-effect:non-scaling-stroke}
+.trace-spike{fill:none;stroke:var(--yellow);stroke-width:1.3;opacity:0;vector-effect:non-scaling-stroke}
+.trace-spike.fire{animation:spike .48s ease-out}
+@keyframes spike{0%{opacity:0}12%{opacity:.92}100%{opacity:0}}
+.caption{
+  position:absolute;right:4vw;bottom:3.7vh;max-width:min(620px,57vw);text-align:right;
+  font-size:clamp(11px,1.02vw,15px);line-height:1.48;letter-spacing:.015em;color:rgba(238,235,224,.9)
+}
+.caption .index{display:block;margin-bottom:.58rem;color:rgba(226,195,50,.78);letter-spacing:.16em;font-size:.78em}
+.caption p{margin:0}
+.caption em{font-style:normal;color:#f0d74d}
+.corner{
+  position:absolute;left:4vw;top:4vh;font-size:10px;letter-spacing:.2em;color:rgba(238,235,224,.35);
+  transform:translateY(-.2rem);pointer-events:none
+}
+@media(max-width:720px){
+  .field{inset:7vh 4vw 25vh 4vw}
+  .caption{right:5vw;left:5vw;bottom:4vh;max-width:none;text-align:left;font-size:11px}
+  .signal{left:5vw;bottom:18.5vh;width:56vw}
+  .window:after{inset:.75rem}
+}
+@media(prefers-reduced-motion:reduce){.domain{transition:none}.trace-spike.fire{animation:none;opacity:.45}}
+</style>
 </head>
 <body>
-  <svg class="wall-texture" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none" aria-hidden="true">
-    <defs>
-      <filter id="page-concrete" x="-4%" y="-4%" width="108%" height="108%" color-interpolation-filters="sRGB">
-        <feTurbulence type="fractalNoise" baseFrequency=".016" numOctaves="3" seed="23" result="broad"/>
-        <feColorMatrix in="broad" type="matrix" values=".18 0 0 0 .55  0 .18 0 0 .54  0 0 .18 0 .51  0 0 0 .25 0" result="mottle"/>
-        <feTurbulence type="fractalNoise" baseFrequency=".31" numOctaves="2" seed="8" result="grain"/>
-        <feColorMatrix in="grain" type="matrix" values=".1 0 0 0 .57  0 .1 0 0 .56  0 0 .1 0 .53  0 0 0 .16 0" result="fine"/>
-        <feBlend in="SourceGraphic" in2="mottle" mode="multiply" result="paint"/>
-        <feBlend in="paint" in2="fine" mode="soft-light"/>
-      </filter>
-    </defs>
-    <rect width="100%" height="100%" fill="#596269" filter="url(#page-concrete)"/>
-  </svg>
+<main class="window" id="window" aria-label="Bad Window V: Barkhausen effect study">
+  <div class="corner" aria-hidden="true">BAD WINDOW / V</div>
+  <div class="field">
+    <svg id="patchwork" viewBox="0 0 1000 620" role="img" aria-label="A translucent stitched patchwork whose regions change in abrupt, history-dependent jumps">
+      <defs>
+        <filter id="soft"><feGaussianBlur stdDeviation=".35"/></filter>
+      </defs>
 
-  <svg
-    class="window-art"
-    id="window-art"
-    xmlns="http://www.w3.org/2000/svg"
-    width="900"
-    height="1200"
-    viewBox="0 0 900 1200"
-    role="img"
-    tabindex="0"
-    aria-labelledby="title desc"
-  >
-    <title id="title">Errant's fourth bad window</title>
-    <desc id="desc">A translucent stitched patchwork surrounds a deliberately misregistered pane. Inside it, one unchanged record passes four checks while its speaker attribution moves between two positions as the viewer moves across the window.</desc>
-    <defs>
-      <clipPath id="pane-clip"><rect x="323" y="417" width="228" height="306"/></clipPath>
-      <filter id="paper-shadow" x="-20%" y="-40%" width="140%" height="180%" color-interpolation-filters="sRGB">
-        <feGaussianBlur in="SourceAlpha" stdDeviation="2.2" result="blur"/>
-        <feOffset in="blur" dx="0" dy="3" result="offset"/>
-        <feColorMatrix in="offset" type="matrix" values="0 0 0 0 .13  0 0 0 0 .11  0 0 0 0 .14  0 0 0 .34 0" result="shadow"/>
-        <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
-      </filter>
-    </defs>
+      <path class="ghost" d="M72 128 C178 104 245 138 330 111 S516 96 604 128 S806 158 935 102"/>
+      <path class="ghost" d="M94 310 C183 281 255 326 353 294 S535 282 648 315 S821 334 916 297"/>
+      <path class="ghost" d="M64 497 C171 468 262 510 358 478 S552 459 658 496 S830 519 944 474"/>
 
-    <rect x="55" y="65" width="790" height="1065" fill="#f0ecf8"/>
-    <g stroke="#211c24" stroke-width="4">
-      <rect x="55" y="65" width="310" height="265" fill="#df718f" fill-opacity=".78"/>
-      <rect x="365" y="65" width="270" height="170" fill="#c5d879" fill-opacity=".76"/>
-      <rect x="635" y="65" width="210" height="385" fill="#887acb" fill-opacity=".72"/>
-      <rect x="55" y="330" width="195" height="420" fill="#e7a562" fill-opacity=".76"/>
-      <rect x="250" y="235" width="385" height="315" fill="#73c7c3" fill-opacity=".63"/>
-      <rect x="250" y="550" width="260" height="200" fill="#f5efdf" fill-opacity=".86"/>
-      <rect x="510" y="450" width="335" height="300" fill="#d982af" fill-opacity=".62"/>
-      <rect x="55" y="750" width="370" height="380" fill="#887dbf" fill-opacity=".66"/>
-      <rect x="425" y="750" width="420" height="210" fill="#bfdc73" fill-opacity=".74"/>
-      <rect x="425" y="960" width="210" height="170" fill="#dd9278" fill-opacity=".69"/>
-      <rect x="635" y="960" width="210" height="170" fill="#81bddb" fill-opacity=".68"/>
-    </g>
-    <g fill="none" stroke="#f8f1dc" stroke-width="7" stroke-dasharray="13 9" opacity=".92">
-      <path d="M365 78 V318"/><path d="M70 330 H352"/><path d="M262 246 H623"/>
-      <path d="M523 464 V735"/><path d="M70 750 H832"/><path d="M425 767 V1114"/>
-    </g>
+      <g id="domains">
+        <path class="domain" data-i="0"  d="M72,72 L248,51 L278,177 L126,216 L62,157 Z" style="--cold:#60757e;--warm:#9b6655"/>
+        <path class="domain" data-i="1"  d="M248,51 L451,77 L424,202 L278,177 Z" style="--cold:#879792;--warm:#b09c76"/>
+        <path class="domain" data-i="2"  d="M451,77 L643,52 L682,168 L424,202 Z" style="--cold:#526b78;--warm:#955e55"/>
+        <path class="domain" data-i="3"  d="M643,52 L902,78 L935,194 L682,168 Z" style="--cold:#778988;--warm:#ad8b6f"/>
 
-    <g>
-      <rect x="302" y="398" width="270" height="350" fill="#211c24"/>
-      <rect x="323" y="417" width="228" height="306" fill="#eee8ff"/>
-      <rect x="349" y="387" width="228" height="306" fill="#ffef35" fill-opacity=".46" stroke="#211c24" stroke-width="4"/>
-    </g>
+        <path class="domain" data-i="4"  d="M126,216 L278,177 L316,329 L89,351 L61,262 Z" style="--cold:#6e8087;--warm:#a06654"/>
+        <path class="domain" data-i="5"  d="M278,177 L424,202 L491,337 L316,329 Z" style="--cold:#8d9690;--warm:#b29477"/>
+        <path class="domain" data-i="6"  d="M424,202 L682,168 L662,342 L491,337 Z" style="--cold:#5c7480;--warm:#985d52"/>
+        <path class="domain" data-i="7"  d="M682,168 L935,194 L913,350 L662,342 Z" style="--cold:#81908b;--warm:#ae8d6c"/>
 
-    <g clip-path="url(#pane-clip)">
-      <g opacity=".25" fill="none" stroke="#211c24" stroke-width="1.25">
-        <path d="M338 456 C376 436 420 434 461 450"/>
-        <path d="M335 474 C380 451 425 452 474 470"/>
-        <path d="M532 652 C500 669 466 674 437 668"/>
+        <path class="domain" data-i="8"  d="M89,351 L316,329 L339,520 L107,553 L57,461 Z" style="--cold:#536d79;--warm:#9d6756"/>
+        <path class="domain" data-i="9"  d="M316,329 L491,337 L527,548 L339,520 Z" style="--cold:#859692;--warm:#b29b77"/>
+        <path class="domain" data-i="10" d="M491,337 L662,342 L712,526 L527,548 Z" style="--cold:#617984;--warm:#925c52"/>
+        <path class="domain" data-i="11" d="M662,342 L913,350 L944,491 L867,558 L712,526 Z" style="--cold:#7d8d8b;--warm:#aa8b70"/>
       </g>
 
-      <g filter="url(#paper-shadow)">
-        <rect x="344" y="486" width="184" height="112" rx="2" fill="#f8f1dc" stroke="#211c24" stroke-width="1.7"/>
-        <g fill="#211c24">
-          <rect x="360" y="507" width="124" height="5" rx="1.5"/>
-          <rect x="360" y="522" width="151" height="5" rx="1.5"/>
-          <rect x="360" y="537" width="97" height="5" rx="1.5"/>
-          <rect x="360" y="552" width="137" height="5" rx="1.5"/>
-        </g>
-        <g opacity=".73">
-          <rect x="360" y="573" width="12" height="8" fill="#211c24"/>
-          <rect x="377" y="573" width="7" height="8" fill="#211c24"/>
-          <rect x="389" y="573" width="15" height="8" fill="#211c24"/>
-          <rect x="409" y="573" width="9" height="8" fill="#211c24"/>
-          <rect x="423" y="573" width="11" height="8" fill="#211c24"/>
-          <rect x="439" y="573" width="6" height="8" fill="#211c24"/>
-          <rect x="450" y="573" width="17" height="8" fill="#211c24"/>
-          <rect x="472" y="573" width="8" height="8" fill="#211c24"/>
-          <rect x="485" y="573" width="14" height="8" fill="#211c24"/>
-        </g>
+      <g class="seams" aria-hidden="true">
+        <path class="seam" d="M248 51 L278 177 L316 329 L339 520"/>
+        <path class="seam" d="M451 77 L424 202 L491 337 L527 548"/>
+        <path class="seam" d="M643 52 L682 168 L662 342 L712 526"/>
+        <path class="seam" d="M126 216 L278 177 L424 202 L682 168 L935 194"/>
+        <path class="seam" d="M89 351 L316 329 L491 337 L662 342 L913 350"/>
       </g>
 
-      <g id="checks" transform="translate(0 0)">
-        <g transform="translate(349 449)">
-          <rect width="28" height="25" fill="#eee8ff" stroke="#211c24" stroke-width="1.5"/>
-          <path d="M7 12 l5 5 10 -11" fill="none" stroke="#315cff" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        <g transform="translate(397 449)">
-          <rect width="28" height="25" fill="#eee8ff" stroke="#211c24" stroke-width="1.5"/>
-          <path d="M7 12 l5 5 10 -11" fill="none" stroke="#315cff" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        <g transform="translate(445 449)">
-          <rect width="28" height="25" fill="#eee8ff" stroke="#211c24" stroke-width="1.5"/>
-          <path d="M7 12 l5 5 10 -11" fill="none" stroke="#315cff" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
-        <g transform="translate(493 449)">
-          <rect width="28" height="25" fill="#eee8ff" stroke="#211c24" stroke-width="1.5"/>
-          <path d="M7 12 l5 5 10 -11" fill="none" stroke="#315cff" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
-        </g>
+      <g aria-hidden="true">
+        <path class="misreg" d="M277 183 L421 208"/>
+        <path class="misreg" d="M496 343 L658 348"/>
+        <path class="misreg" d="M686 174 L929 200"/>
+        <circle class="defect" cx="278" cy="177" r="4.3"/>
+        <circle class="defect" cx="424" cy="202" r="3.2"/>
+        <circle class="defect" cx="491" cy="337" r="4.8"/>
+        <circle class="defect" cx="662" cy="342" r="3.5"/>
+        <circle class="defect" cx="316" cy="329" r="2.8"/>
+        <circle class="defect" cx="682" cy="168" r="4.0"/>
       </g>
+    </svg>
+  </div>
 
-      <g opacity=".46" fill="none" stroke="#211c24" stroke-width="1.2" stroke-dasharray="3 4">
-        <path d="M362 648 H513"/>
-        <circle cx="365" cy="648" r="10"/>
-        <circle cx="510" cy="648" r="10"/>
-      </g>
+  <div class="signal" aria-hidden="true">
+    <svg viewBox="0 0 500 28" preserveAspectRatio="none">
+      <path class="trace" d="M0 20 L500 20"/>
+      <path class="trace-spike" id="spike" d="M210 20 L219 20 L225 5 L231 24 L238 11 L246 20 L500 20"/>
+    </svg>
+  </div>
 
-      <path class="owner-wire" id="owner-wire" d="M436 598 C421 615 392 621 365 638" fill="none" stroke="#315cff" stroke-width="2" stroke-linecap="round"/>
-      <g class="owner-ghost" id="owner-ghost" opacity=".15" transform="translate(486 631)">
-        <rect x="0" y="0" width="48" height="31" rx="2" fill="#f8f1dc" stroke="#211c24" stroke-width="1.5"/>
-        <circle cx="13" cy="15.5" r="5" fill="#cf705f"/>
-        <path d="M24 11 h15 M24 17 h11" stroke="#211c24" stroke-width="2"/>
-      </g>
-      <g class="owner-tag" id="owner-tag" transform="translate(341 631)">
-        <rect x="0" y="0" width="48" height="31" rx="2" fill="#f8f1dc" stroke="#211c24" stroke-width="1.5"/>
-        <circle id="owner-dot" cx="13" cy="15.5" r="5" fill="#315cff"/>
-        <text id="owner-glyph" x="31" y="20" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#211c24">A</text>
-      </g>
+  <div class="caption">
+    <span class="index">BARKHAUSEN EFFECT</span>
+    <p>In a ferromagnet, a steadily changing magnetic field does not always produce a steady internal response. Domain walls can remain pinned by microscopic defects, then suddenly break free and move in abrupt jumps. Those jumps leave the material’s later behaviour dependent on the path it has already taken.</p>
+  </div>
+</main>
 
-      <g fill="none" stroke="#211c24" stroke-width="1.5" opacity=".78">
-        <path d="M355 704 H519"/>
-        <path d="M357 700 V708 M397 700 V708 M437 698 V710 M477 700 V708 M517 700 V708"/>
-        <path class="witness-hand" id="witness-hand" d="M373 704 L373 684" stroke="#6e57ff" stroke-width="3"/>
-      </g>
-    </g>
+<script>
+(()=>{
+  const root=document.getElementById('window');
+  const nodes=[...document.querySelectorAll('.domain')];
+  const spike=document.getElementById('spike');
 
-    <g stroke="#211c24" stroke-width="3" stroke-linecap="round">
-      <path d="M95 94 l11 4 m11 -2 l9 5 m15 -3 l10 4"/><path d="M675 210 l9 7 m8 -2 l12 5 m10 0 l8 7"/>
-      <path d="M102 885 l8 -5 m13 7 l10 -4 m14 6 l11 -6"/><path d="M690 1018 l9 4 m14 -3 l10 7 m16 -2 l8 5"/>
-    </g>
-    <g font-family="Arial, Helvetica, sans-serif" fill="#f8f1dc">
-      <text x="58" y="1164" font-size="21" font-weight="700" letter-spacing="2">BAD WINDOW</text>
-      <text x="845" y="1154" text-anchor="end" font-size="10.2" font-weight="700" letter-spacing=".12">FOUR CHECKS PASS. THE SENTENCE STAYS EXACT.</text>
-      <text x="845" y="1165" text-anchor="end" font-size="10" letter-spacing=".2">THE SPEAKER MOVES.</text>
-    </g>
-  </svg>
+  // Separate thresholds in each direction create hysteresis: a patch changes
+  // at one field strength while rising and a different one while falling.
+  const up=[-0.74,-0.49,-0.18,0.09,-0.61,-0.31,0.22,0.53,-0.40,-0.04,0.39,0.72];
+  const down=[-0.91,-0.70,-0.43,-0.19,-0.82,-0.56,-0.08,0.21,-0.63,-0.30,0.08,0.43];
+  const state=new Array(nodes.length).fill(0);
+  let field=-0.86, lastField=field, history=[];
 
-  <script>
-    (() => {
-      const svg = document.getElementById('window-art');
-      const ownerTag = document.getElementById('owner-tag');
-      const ownerGhost = document.getElementById('owner-ghost');
-      const ownerWire = document.getElementById('owner-wire');
-      const ownerDot = document.getElementById('owner-dot');
-      const ownerGlyph = document.getElementById('owner-glyph');
-      const witness = document.getElementById('witness-hand');
-      let position = .10;
+  function fire(i){
+    const n=nodes[i];
+    n.classList.remove('jump'); void n.getBoundingClientRect(); n.classList.add('jump');
+    setTimeout(()=>n.classList.remove('jump'),170);
+    spike.classList.remove('fire'); void spike.getBoundingClientRect(); spike.classList.add('fire');
+    history.push({i,state:state[i]});
+    if(history.length>18) history.shift();
+  }
 
-      function render(nextPosition) {
-        position = Math.max(0, Math.min(1, nextPosition));
-        const x = 341 + position * 145;
-        const witnessX = 357 + position * 160;
-        const leftWeight = Math.max(0, 1 - position * 2);
-        const rightWeight = Math.max(0, (position - .5) * 2);
-        const ambiguity = 1 - Math.abs(position - .5) * 2;
-        const isRight = position >= .5;
+  function render(next){
+    next=Math.max(-1,Math.min(1,next));
+    const rising=next>=lastField;
+    field=next;
+    const changed=[];
+    for(let i=0;i<nodes.length;i++){
+      const prev=state[i];
+      if(rising && state[i]===0 && field>=up[i]) state[i]=1;
+      if(!rising && state[i]===1 && field<=down[i]) state[i]=0;
+      if(prev!==state[i]) changed.push(i);
+    }
 
-        ownerTag.setAttribute('transform', `translate(${x.toFixed(2)} 631)`);
-        ownerWire.setAttribute('d', `M436 598 C436 615 ${x + 24} 620 ${x + 24} 631`);
-        witness.setAttribute('d', `M${witnessX.toFixed(2)} 704 L${witnessX.toFixed(2)} 684`);
+    // One depinning can recruit a neighbour at selected thresholds,
+    // giving occasional small avalanches rather than twelve independent toggles.
+    if(rising && changed.includes(6) && state[5]===0){state[5]=1;changed.push(5)}
+    if(!rising && changed.includes(5) && state[6]===1 && field<down[6]+.05){state[6]=0;changed.push(6)}
 
-        ownerGlyph.textContent = isRight ? 'B' : 'A';
-        ownerDot.setAttribute('fill', isRight ? '#cf705f' : '#315cff');
-        ownerWire.setAttribute('stroke', isRight ? '#cf705f' : '#315cff');
+    nodes.forEach((n,i)=>{
+      n.dataset.state=String(state[i]);
+      const bend=(field*0.9)+((i%3)-1)*0.14;
+      const signed=state[i]?1:-1;
+      n.style.transform=`translate(${signed*bend*.55}px,${signed*bend*.18}px) rotate(${signed*bend*.055}deg)`;
+    });
+    [...new Set(changed)].forEach(fire);
+    lastField=field;
+  }
 
-        const ghostX = isRight ? 341 : 486;
-        ownerGhost.setAttribute('transform', `translate(${ghostX} 631)`);
-        ownerGhost.style.opacity = String(.08 + ambiguity * .28 + (isRight ? leftWeight : rightWeight) * .1);
-      }
+  function pointerToField(x){
+    const r=root.getBoundingClientRect();
+    return ((x-r.left)/r.width)*2-1;
+  }
 
-      function positionFromPointer(event) {
-        const rect = svg.getBoundingClientRect();
-        return (event.clientX - rect.left) / rect.width;
-      }
-
-      svg.addEventListener('pointermove', event => render(positionFromPointer(event)));
-      svg.addEventListener('pointerdown', event => {
-        svg.setPointerCapture?.(event.pointerId);
-        render(positionFromPointer(event));
-      });
-      svg.addEventListener('pointerleave', () => render(.10));
-      svg.addEventListener('keydown', event => {
-        if (event.key === 'ArrowRight' || event.key === 'ArrowUp') {
-          event.preventDefault();
-          render(position + .025);
-        }
-        if (event.key === 'ArrowLeft' || event.key === 'ArrowDown') {
-          event.preventDefault();
-          render(position - .025);
-        }
-        if (event.key === 'Home') {
-          event.preventDefault();
-          render(0);
-        }
-        if (event.key === 'End') {
-          event.preventDefault();
-          render(1);
-        }
-      });
-
-      render(position);
-    })();
-  </script>
+  root.addEventListener('pointermove',e=>render(pointerToField(e.clientX)));
+  root.addEventListener('pointerdown',e=>{root.setPointerCapture?.(e.pointerId);render(pointerToField(e.clientX))});
+  root.addEventListener('touchmove',e=>{
+    if(e.touches&&e.touches[0]) render(pointerToField(e.touches[0].clientX));
+  },{passive:true});
+  window.addEventListener('keydown',e=>{
+    if(e.key==='ArrowRight'||e.key==='ArrowUp'){render(field+.055);e.preventDefault()}
+    if(e.key==='ArrowLeft'||e.key==='ArrowDown'){render(field-.055);e.preventDefault()}
+  });
+  render(field);
+})();
+</script>
 </body>
 </html>
