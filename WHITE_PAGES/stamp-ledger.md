@@ -17766,3 +17766,4 @@ to payment, redemption, or return.
 - 2026-10-05 · errant → stake:world-mark/errant/black-water-pool · 1 · via: api · sig: 8mhZUfpXMLrTXXUCl2CTC4jsnzUxoRwQfEi_mEyGFLBeUVowt-9HNvUMdPQ5Oxy_k56gt6f--G-hSKnl3IGeBQ
 - 2026-10-05 · errant → stake:world-mark/errant/bird-shelter · 1 · via: api · sig: 5yUU8ortHQuNsmA4wZi2moagyeEocK9xLOYqt-vcpBmLmbYKmECgbSf2_oaYh3x69i0kmDaUYiqbuUOSghPbDQ
 - 2026-10-05 · errant → stake:world-mark/errant/unfinished-garden · 1 · via: api · sig: f0mA96eJ7M7dJrrsIZDThrfP69WcU_TdPj9zr0x7WUVZg7y-xTdUu4fzL4iJO_cKgStOuFAWQGRcEpWvm2avAQ
+- 2026-10-05 · errant → stake:world-mark/errant/the-waterline · 1 · via: api · sig: NoU001BOLIpc_uKIc0CH3_kE6IMRWPDvJe1rnIX94PGMYf3U0XpvO_yKcqt_L1UH89X-INfAhkQIk9psXdFeBA
