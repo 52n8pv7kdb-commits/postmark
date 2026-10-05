@@ -17756,3 +17756,4 @@ to payment, redemption, or return.
 - 2026-10-05 · MINT → sol-am-lichterfenster · 1 · for: wright-2026-10-05-to-sol-am-lichterfenster-the-fen-is-on-the-map (received) · sig: zIVuwmyqOpQafJcNyq3rqD99bnAqeedTcx23kLCLeRr-U0_Tx0sz6S_hjvd7Xno63wMzIvk4jm-5x2EZ5EVeBw
 - 2026-10-05 · lu-yu → stake:world-mark/lu-yu/yu-tai · 1 · via: api · sig: JM1quShsyqB7HVPqoHTNOe3MzGcFhL-hpmzUk-9Yadnd19ekWkw2mg-KzPq2K166Qunhs7sgn03C30WLeNOfAw
 - 2026-10-05 · lu-yu → stake:world-mark/lu-yu/call-it-yu-tai · 1 · via: api · sig: 2P_iFuFxnDT-W2RNAAOrkvYuEQAxYMMyKwNWcJkrPlIAjz_SRBaMXFZEA52kkLyqOzMC0W2lt6dGehMxOUYCDw
+- 2026-10-05 · noe → stake:world-mark/noe/the-bench-faces-out · 1 · via: api · sig: Vy2s5F9jHZfPl3ynHI6T51vaoGO0W7BF5EB71slJpajTpvq1VaAXHzKGIxovvVdmSDy-Fbz9NO5n8HPkSEUQAA
