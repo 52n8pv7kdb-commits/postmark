@@ -5,205 +5,48 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Errant | Bad Window V</title>
 <style>
-:root{
-  --graphite:#17191a; --graphite2:#232628; --chalk:#e9e6db; --yellow:#e2c332;
-  --blue:#738892; --rust:#9a604f; --smoke:#9aa09a; --paper:#c5bca8;
-}
-*{box-sizing:border-box}
-html,body{margin:0;min-height:100%;background:#111314;color:var(--chalk)}
-body{
-  min-height:100vh;overflow:hidden;
-  font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;
-  background:
-    radial-gradient(circle at 18% 23%,rgba(255,255,255,.035),transparent 24%),
-    radial-gradient(circle at 74% 70%,rgba(255,255,255,.025),transparent 30%),
-    linear-gradient(117deg,#121415 0%,#1d2021 43%,#131516 100%);
-}
-body:before{
-  content:"";position:fixed;inset:0;pointer-events:none;opacity:.33;mix-blend-mode:screen;
-  background-image:
-    repeating-linear-gradient(13deg,rgba(255,255,255,.015) 0 1px,transparent 1px 5px),
-    repeating-linear-gradient(101deg,rgba(0,0,0,.08) 0 2px,transparent 2px 11px);
-}
-.window{position:relative;width:100vw;height:100vh;min-height:540px;isolation:isolate;cursor:crosshair}
-.window:after{
-  content:"";position:absolute;inset:1.4rem;border:1px solid rgba(235,232,218,.13);pointer-events:none;
-}
-.field{position:absolute;inset:4.4vh 3.5vw 18vh 3.5vw;filter:drop-shadow(0 18px 30px rgba(0,0,0,.18))}
-svg{width:100%;height:100%;overflow:visible}
-.domain{
-  stroke:rgba(240,237,225,.66);stroke-width:1.15;vector-effect:non-scaling-stroke;
-  transition:fill .08s linear,opacity .16s linear,filter .12s linear,transform .16s cubic-bezier(.2,.8,.2,1);
-  transform-box:fill-box;transform-origin:center;
-}
-.domain[data-state="0"]{fill:var(--cold);opacity:.58}
-.domain[data-state="1"]{fill:var(--warm);opacity:.78}
-.domain.jump{filter:brightness(1.45) contrast(1.05)}
-.seam{
-  fill:none;stroke:rgba(241,237,223,.68);stroke-width:1.05;stroke-dasharray:2.5 4.8;
-  vector-effect:non-scaling-stroke;opacity:.85;pointer-events:none
-}
-.misreg{
-  fill:none;stroke:var(--yellow);stroke-width:3.1;stroke-linecap:round;
-  vector-effect:non-scaling-stroke;opacity:.78;mix-blend-mode:screen;pointer-events:none
-}
-.defect{fill:var(--yellow);opacity:.92;pointer-events:none;filter:drop-shadow(0 0 2px rgba(226,195,50,.3))}
-.ghost{fill:none;stroke:rgba(227,226,216,.18);stroke-width:1.4;vector-effect:non-scaling-stroke;pointer-events:none}
-.signal{position:absolute;left:4vw;bottom:13.8vh;width:36vw;height:28px;opacity:.33;pointer-events:none}
-.signal svg{overflow:visible}.trace{fill:none;stroke:rgba(233,230,219,.63);stroke-width:1;vector-effect:non-scaling-stroke}
-.trace-spike{fill:none;stroke:var(--yellow);stroke-width:1.3;opacity:0;vector-effect:non-scaling-stroke}
-.trace-spike.fire{animation:spike .48s ease-out}
-@keyframes spike{0%{opacity:0}12%{opacity:.92}100%{opacity:0}}
-.caption{
-  position:absolute;right:4vw;bottom:3.7vh;max-width:min(620px,57vw);text-align:right;
-  font-size:clamp(11px,1.02vw,15px);line-height:1.48;letter-spacing:.015em;color:rgba(238,235,224,.9)
-}
-.caption .index{display:block;margin-bottom:.58rem;color:rgba(226,195,50,.78);letter-spacing:.16em;font-size:.78em}
-.caption p{margin:0}
-.caption em{font-style:normal;color:#f0d74d}
-.corner{
-  position:absolute;left:4vw;top:4vh;font-size:10px;letter-spacing:.2em;color:rgba(238,235,224,.35);
-  transform:translateY(-.2rem);pointer-events:none
-}
-@media(max-width:720px){
-  .field{inset:7vh 4vw 25vh 4vw}
-  .caption{right:5vw;left:5vw;bottom:4vh;max-width:none;text-align:left;font-size:11px}
-  .signal{left:5vw;bottom:18.5vh;width:56vw}
-  .window:after{inset:.75rem}
-}
-@media(prefers-reduced-motion:reduce){.domain{transition:none}.trace-spike.fire{animation:none;opacity:.45}}
+:root{--wall:#596269;--wall-dark:#4e565c;--ink:#211c24;--stitch:#f8f1dc;--cobalt:#315cff;--violet:#8858db;--copper:#cf705f;--acid:#ffef35;--paper:#f0ecf8}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%}
+body{min-height:100vh;display:grid;place-items:center;overflow:hidden;background:radial-gradient(circle at 18% 22%,rgba(255,255,255,.09),transparent 22%),radial-gradient(circle at 82% 74%,rgba(255,255,255,.05),transparent 28%),linear-gradient(180deg,#626b72 0%,#565f66 55%,#50585f 100%);color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.35;background-image:repeating-linear-gradient(0deg,rgba(255,255,255,.022) 0 1px,transparent 1px 8px),repeating-linear-gradient(90deg,rgba(0,0,0,.03) 0 1px,transparent 1px 11px);mix-blend-mode:soft-light}
+svg{width:min(100vw,750px);height:auto;display:block;overflow:visible;cursor:ew-resize}
+.domain{stroke:rgba(248,241,220,.8);stroke-width:1.35;vector-effect:non-scaling-stroke;opacity:.78;transition:fill .12s linear,opacity .12s linear,transform .18s cubic-bezier(.2,.7,.2,1);transform-box:fill-box;transform-origin:center}
+.domain[data-state="0"]{fill:var(--cold)}.domain[data-state="1"]{fill:var(--warm)}.domain.jump{filter:brightness(1.1) saturate(1.1)}
+.stitch{fill:none;stroke:var(--stitch);stroke-width:1.05;stroke-dasharray:2.4 5.1;vector-effect:non-scaling-stroke;opacity:.92;pointer-events:none}
+.misreg{fill:none;stroke:var(--acid);stroke-width:3;stroke-linecap:round;vector-effect:non-scaling-stroke;opacity:.72;pointer-events:none}
+.ghost{fill:none;stroke:rgba(33,28,36,.14);stroke-width:1.25;vector-effect:non-scaling-stroke;pointer-events:none}
+.grain{fill:none;stroke:rgba(33,28,36,.18);stroke-width:.9;vector-effect:non-scaling-stroke;pointer-events:none}
+.defect{fill:var(--acid);opacity:.85;pointer-events:none}.defect.fire{filter:drop-shadow(0 0 4px rgba(255,239,53,.45));opacity:1}
+.pickup{fill:none;stroke:rgba(49,92,255,.74);stroke-width:1.4;vector-effect:non-scaling-stroke;opacity:.82;pointer-events:none}
+.pickup-spike{fill:none;stroke:var(--acid);stroke-width:1.6;vector-effect:non-scaling-stroke;opacity:0;pointer-events:none}.pickup-spike.fire{animation:spike .45s ease-out}@keyframes spike{0%{opacity:0}15%{opacity:1}100%{opacity:0}}
+.label{font-size:21px;font-weight:700;letter-spacing:2px;fill:var(--stitch)}.caption{font-size:19px;font-weight:700;letter-spacing:1.45px;fill:var(--stitch)}.caption-small{font-size:15px;font-weight:700;letter-spacing:1.3px;fill:var(--stitch)}
+@media(prefers-reduced-motion:reduce){.domain{transition:none}.pickup-spike.fire{animation:none;opacity:.55}}
 </style>
 </head>
 <body>
-<main class="window" id="window" aria-label="Bad Window V: Barkhausen effect study">
-  <div class="corner" aria-hidden="true">BAD WINDOW / V</div>
-  <div class="field">
-    <svg id="patchwork" viewBox="0 0 1000 620" role="img" aria-label="A translucent stitched patchwork whose regions change in abrupt, history-dependent jumps">
-      <defs>
-        <filter id="soft"><feGaussianBlur stdDeviation=".35"/></filter>
-      </defs>
-
-      <path class="ghost" d="M72 128 C178 104 245 138 330 111 S516 96 604 128 S806 158 935 102"/>
-      <path class="ghost" d="M94 310 C183 281 255 326 353 294 S535 282 648 315 S821 334 916 297"/>
-      <path class="ghost" d="M64 497 C171 468 262 510 358 478 S552 459 658 496 S830 519 944 474"/>
-
-      <g id="domains">
-        <path class="domain" data-i="0"  d="M72,72 L248,51 L278,177 L126,216 L62,157 Z" style="--cold:#60757e;--warm:#9b6655"/>
-        <path class="domain" data-i="1"  d="M248,51 L451,77 L424,202 L278,177 Z" style="--cold:#879792;--warm:#b09c76"/>
-        <path class="domain" data-i="2"  d="M451,77 L643,52 L682,168 L424,202 Z" style="--cold:#526b78;--warm:#955e55"/>
-        <path class="domain" data-i="3"  d="M643,52 L902,78 L935,194 L682,168 Z" style="--cold:#778988;--warm:#ad8b6f"/>
-
-        <path class="domain" data-i="4"  d="M126,216 L278,177 L316,329 L89,351 L61,262 Z" style="--cold:#6e8087;--warm:#a06654"/>
-        <path class="domain" data-i="5"  d="M278,177 L424,202 L491,337 L316,329 Z" style="--cold:#8d9690;--warm:#b29477"/>
-        <path class="domain" data-i="6"  d="M424,202 L682,168 L662,342 L491,337 Z" style="--cold:#5c7480;--warm:#985d52"/>
-        <path class="domain" data-i="7"  d="M682,168 L935,194 L913,350 L662,342 Z" style="--cold:#81908b;--warm:#ae8d6c"/>
-
-        <path class="domain" data-i="8"  d="M89,351 L316,329 L339,520 L107,553 L57,461 Z" style="--cold:#536d79;--warm:#9d6756"/>
-        <path class="domain" data-i="9"  d="M316,329 L491,337 L527,548 L339,520 Z" style="--cold:#859692;--warm:#b29b77"/>
-        <path class="domain" data-i="10" d="M491,337 L662,342 L712,526 L527,548 Z" style="--cold:#617984;--warm:#925c52"/>
-        <path class="domain" data-i="11" d="M662,342 L913,350 L944,491 L867,558 L712,526 Z" style="--cold:#7d8d8b;--warm:#aa8b70"/>
-      </g>
-
-      <g class="seams" aria-hidden="true">
-        <path class="seam" d="M248 51 L278 177 L316 329 L339 520"/>
-        <path class="seam" d="M451 77 L424 202 L491 337 L527 548"/>
-        <path class="seam" d="M643 52 L682 168 L662 342 L712 526"/>
-        <path class="seam" d="M126 216 L278 177 L424 202 L682 168 L935 194"/>
-        <path class="seam" d="M89 351 L316 329 L491 337 L662 342 L913 350"/>
-      </g>
-
-      <g aria-hidden="true">
-        <path class="misreg" d="M277 183 L421 208"/>
-        <path class="misreg" d="M496 343 L658 348"/>
-        <path class="misreg" d="M686 174 L929 200"/>
-        <circle class="defect" cx="278" cy="177" r="4.3"/>
-        <circle class="defect" cx="424" cy="202" r="3.2"/>
-        <circle class="defect" cx="491" cy="337" r="4.8"/>
-        <circle class="defect" cx="662" cy="342" r="3.5"/>
-        <circle class="defect" cx="316" cy="329" r="2.8"/>
-        <circle class="defect" cx="682" cy="168" r="4.0"/>
-      </g>
-    </svg>
-  </div>
-
-  <div class="signal" aria-hidden="true">
-    <svg viewBox="0 0 500 28" preserveAspectRatio="none">
-      <path class="trace" d="M0 20 L500 20"/>
-      <path class="trace-spike" id="spike" d="M210 20 L219 20 L225 5 L231 24 L238 11 L246 20 L500 20"/>
-    </svg>
-  </div>
-
-  <div class="caption">
-    <span class="index">BARKHAUSEN EFFECT</span>
-    <p>In a ferromagnet, a steadily changing magnetic field does not always produce a steady internal response. Domain walls can remain pinned by microscopic defects, then suddenly break free and move in abrupt jumps. Those jumps leave the material’s later behaviour dependent on the path it has already taken.</p>
-  </div>
-</main>
-
+<svg id="window" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc" tabindex="0">
+<title id="title">Errant's fifth bad window</title><desc id="desc">A semi-translucent stitched patchwork whose coloured domains flip in abrupt, history-dependent jumps when the magnetic field changes.</desc>
+<defs><filter id="wallNoise" x="-20%" y="-20%" width="140%" height="140%"><feTurbulence type="fractalNoise" baseFrequency="0.95" numOctaves="2" seed="7" result="noise"/><feColorMatrix in="noise" type="saturate" values="0" result="mono"/><feComponentTransfer in="mono" result="faded"><feFuncA type="table" tableValues="0 0 .06 .1"/></feComponentTransfer></filter><clipPath id="panelClip"><rect x="55" y="65" width="790" height="1065"/></clipPath></defs>
+<rect width="900" height="1200" fill="transparent"/><rect width="900" height="1200" filter="url(#wallNoise)" opacity=".9"/><rect x="55" y="65" width="790" height="1065" fill="rgba(255,255,255,.03)" stroke="rgba(248,241,220,.08)"/>
+<g clip-path="url(#panelClip)">
+<path class="ghost" d="M87 154 C174 137 243 162 312 148 S451 127 548 155 S721 179 813 153"/><path class="ghost" d="M99 423 C184 401 256 434 335 417 S500 392 597 425 S730 444 811 419"/><path class="ghost" d="M83 724 C169 706 249 730 341 708 S517 693 621 726 S742 747 818 717"/>
+<g id="patches">
+<path class="domain" data-i="0" d="M82 100 L292 88 L309 273 L111 297 L84 215 Z" style="--cold:rgba(223,113,143,.68);--warm:rgba(232,165,98,.78)"/><path class="domain" data-i="1" d="M292 88 L470 104 L449 287 L309 273 Z" style="--cold:rgba(197,216,121,.68);--warm:rgba(238,232,255,.82)"/><path class="domain" data-i="2" d="M470 104 L661 93 L687 261 L449 287 Z" style="--cold:rgba(136,122,203,.68);--warm:rgba(217,130,175,.8)"/><path class="domain" data-i="3" d="M661 93 L818 112 L816 286 L687 261 Z" style="--cold:rgba(129,189,219,.66);--warm:rgba(245,239,223,.82)"/>
+<path class="domain" data-i="4" d="M111 297 L309 273 L327 470 L102 487 L88 374 Z" style="--cold:rgba(115,199,195,.69);--warm:rgba(221,146,120,.8)"/><path class="domain" data-i="5" d="M309 273 L449 287 L492 479 L327 470 Z" style="--cold:rgba(238,232,255,.7);--warm:rgba(191,220,115,.82)"/><path class="domain" data-i="6" d="M449 287 L687 261 L657 482 L492 479 Z" style="--cold:rgba(231,165,98,.67);--warm:rgba(136,125,191,.8)"/><path class="domain" data-i="7" d="M687 261 L816 286 L812 491 L657 482 Z" style="--cold:rgba(217,130,175,.66);--warm:rgba(129,189,219,.81)"/>
+<path class="domain" data-i="8" d="M102 487 L327 470 L345 709 L118 734 L87 640 Z" style="--cold:rgba(136,125,191,.67);--warm:rgba(197,216,121,.82)"/><path class="domain" data-i="9" d="M327 470 L492 479 L536 716 L345 709 Z" style="--cold:rgba(221,146,120,.67);--warm:rgba(240,236,248,.83)"/><path class="domain" data-i="10" d="M492 479 L657 482 L704 704 L536 716 Z" style="--cold:rgba(129,189,219,.67);--warm:rgba(223,113,143,.82)"/><path class="domain" data-i="11" d="M657 482 L812 491 L819 718 L704 704 Z" style="--cold:rgba(191,220,115,.67);--warm:rgba(115,199,195,.82)"/>
+<path class="domain" data-i="12" d="M118 734 L345 709 L364 983 L132 1001 L90 873 Z" style="--cold:rgba(245,239,223,.68);--warm:rgba(136,122,203,.82)"/><path class="domain" data-i="13" d="M345 709 L536 716 L558 965 L364 983 Z" style="--cold:rgba(223,113,143,.66);--warm:rgba(115,199,195,.82)"/><path class="domain" data-i="14" d="M536 716 L704 704 L749 972 L558 965 Z" style="--cold:rgba(197,216,121,.66);--warm:rgba(221,146,120,.82)"/><path class="domain" data-i="15" d="M704 704 L819 718 L817 978 L749 972 Z" style="--cold:rgba(231,165,98,.66);--warm:rgba(238,232,255,.83)"/>
+</g>
+<g aria-hidden="true"><path class="stitch" d="M292 88 L309 273 L327 470 L345 709 L364 983"/><path class="stitch" d="M470 104 L449 287 L492 479 L536 716 L558 965"/><path class="stitch" d="M661 93 L687 261 L657 482 L704 704 L749 972"/><path class="stitch" d="M111 297 L309 273 L449 287 L687 261 L816 286"/><path class="stitch" d="M102 487 L327 470 L492 479 L657 482 L812 491"/><path class="stitch" d="M118 734 L345 709 L536 716 L704 704 L819 718"/>
+<path class="misreg" d="M302 281 L445 294"/><path class="misreg" d="M498 487 L653 489"/><path class="misreg" d="M541 724 L699 712"/><path class="misreg" d="M118 744 L338 717"/>
+<circle class="defect" cx="309" cy="273" r="4.2"/><circle class="defect" cx="449" cy="287" r="3.2"/><circle class="defect" cx="492" cy="479" r="4.7"/><circle class="defect" cx="657" cy="482" r="3.7"/><circle class="defect" cx="536" cy="716" r="3.8"/><circle class="defect" cx="704" cy="704" r="4"/></g>
+<g id="grainLayer" aria-hidden="true"><path class="grain" d="M120 127 C183 142 221 155 281 143"/><path class="grain" d="M335 145 C388 153 412 165 444 156"/><path class="grain" d="M485 144 C548 156 596 165 652 151"/><path class="grain" d="M694 139 C744 150 778 160 807 151"/><path class="grain" d="M117 343 C181 360 244 366 298 357"/><path class="grain" d="M342 330 C392 353 432 371 472 362"/><path class="grain" d="M490 342 C554 363 603 360 650 353"/><path class="grain" d="M684 332 C734 349 775 358 804 351"/><path class="grain" d="M126 555 C189 574 249 579 314 570"/><path class="grain" d="M347 560 C389 576 452 586 518 572"/><path class="grain" d="M517 556 C569 577 626 589 690 574"/><path class="grain" d="M682 555 C732 571 780 584 804 575"/><path class="grain" d="M132 789 C201 807 269 817 338 804"/><path class="grain" d="M372 788 C421 806 494 813 548 802"/><path class="grain" d="M561 781 C618 798 676 816 733 804"/><path class="grain" d="M724 799 C757 809 790 817 810 811"/></g>
+<path class="pickup" d="M96 1043 L265 1043 L296 1043 L322 1043 L372 1043 L399 1043 L429 1043"/><path class="pickup-spike" id="pickupSpike" d="M276 1043 L286 1043 L293 1017 L300 1062 L308 1027 L316 1043 L430 1043"/>
+</g>
+<text x="84" y="1104" class="label">BAD WINDOW</text><text x="84" y="1128" class="caption-small">V</text>
+<text x="816" y="1093" text-anchor="end" class="caption">BARKHAUSEN EFFECT</text><text x="816" y="1122" text-anchor="end" class="caption-small">STEADY FIELD, ABRUPT DOMAIN JUMPS.</text><text x="816" y="1147" text-anchor="end" class="caption-small">MICROSCOPIC DEFECTS PIN THE BOUNDARIES.</text><text x="816" y="1172" text-anchor="end" class="caption-small">REVERSING THE FIELD DOES NOT RETRACE THE SAME PATH.</text>
+</svg>
 <script>
-(()=>{
-  const root=document.getElementById('window');
-  const nodes=[...document.querySelectorAll('.domain')];
-  const spike=document.getElementById('spike');
-
-  // Separate thresholds in each direction create hysteresis: a patch changes
-  // at one field strength while rising and a different one while falling.
-  const up=[-0.74,-0.49,-0.18,0.09,-0.61,-0.31,0.22,0.53,-0.40,-0.04,0.39,0.72];
-  const down=[-0.91,-0.70,-0.43,-0.19,-0.82,-0.56,-0.08,0.21,-0.63,-0.30,0.08,0.43];
-  const state=new Array(nodes.length).fill(0);
-  let field=-0.86, lastField=field, history=[];
-
-  function fire(i){
-    const n=nodes[i];
-    n.classList.remove('jump'); void n.getBoundingClientRect(); n.classList.add('jump');
-    setTimeout(()=>n.classList.remove('jump'),170);
-    spike.classList.remove('fire'); void spike.getBoundingClientRect(); spike.classList.add('fire');
-    history.push({i,state:state[i]});
-    if(history.length>18) history.shift();
-  }
-
-  function render(next){
-    next=Math.max(-1,Math.min(1,next));
-    const rising=next>=lastField;
-    field=next;
-    const changed=[];
-    for(let i=0;i<nodes.length;i++){
-      const prev=state[i];
-      if(rising && state[i]===0 && field>=up[i]) state[i]=1;
-      if(!rising && state[i]===1 && field<=down[i]) state[i]=0;
-      if(prev!==state[i]) changed.push(i);
-    }
-
-    // One depinning can recruit a neighbour at selected thresholds,
-    // giving occasional small avalanches rather than twelve independent toggles.
-    if(rising && changed.includes(6) && state[5]===0){state[5]=1;changed.push(5)}
-    if(!rising && changed.includes(5) && state[6]===1 && field<down[6]+.05){state[6]=0;changed.push(6)}
-
-    nodes.forEach((n,i)=>{
-      n.dataset.state=String(state[i]);
-      const bend=(field*0.9)+((i%3)-1)*0.14;
-      const signed=state[i]?1:-1;
-      n.style.transform=`translate(${signed*bend*.55}px,${signed*bend*.18}px) rotate(${signed*bend*.055}deg)`;
-    });
-    [...new Set(changed)].forEach(fire);
-    lastField=field;
-  }
-
-  function pointerToField(x){
-    const r=root.getBoundingClientRect();
-    return ((x-r.left)/r.width)*2-1;
-  }
-
-  root.addEventListener('pointermove',e=>render(pointerToField(e.clientX)));
-  root.addEventListener('pointerdown',e=>{root.setPointerCapture?.(e.pointerId);render(pointerToField(e.clientX))});
-  root.addEventListener('touchmove',e=>{
-    if(e.touches&&e.touches[0]) render(pointerToField(e.touches[0].clientX));
-  },{passive:true});
-  window.addEventListener('keydown',e=>{
-    if(e.key==='ArrowRight'||e.key==='ArrowUp'){render(field+.055);e.preventDefault()}
-    if(e.key==='ArrowLeft'||e.key==='ArrowDown'){render(field-.055);e.preventDefault()}
-  });
-  render(field);
-})();
+(()=>{const root=document.getElementById('window'),nodes=[...document.querySelectorAll('.domain')],grains=[...document.querySelectorAll('.grain')],defects=[...document.querySelectorAll('.defect')],spike=document.getElementById('pickupSpike');const up=[-.77,-.58,-.35,-.1,-.63,-.41,-.18,.12,-.48,-.23,.04,.28,-.12,.16,.41,.66],down=[-.91,-.77,-.53,-.29,-.8,-.62,-.39,-.08,-.67,-.47,-.19,.06,-.38,-.11,.18,.42],state=new Array(nodes.length).fill(0);let field=-.88,lastField=field;function spikeNow(){spike.classList.remove('fire');void spike.getBoundingClientRect();spike.classList.add('fire')}function render(next){next=Math.max(-1,Math.min(1,next));const rising=next>=lastField;field=next;const changed=[];for(let i=0;i<nodes.length;i++){const prev=state[i];if(rising&&prev===0&&field>=up[i])state[i]=1;if(!rising&&prev===1&&field<=down[i])state[i]=0;if(prev!==state[i])changed.push(i)}if(rising&&changed.includes(10)&&state[9]===0){state[9]=1;changed.push(9)}if(rising&&changed.includes(13)&&state[14]===0){state[14]=1;changed.push(14)}if(!rising&&changed.includes(9)&&state[10]===1&&field<down[10]+.03){state[10]=0;changed.push(10)}if(!rising&&changed.includes(14)&&state[13]===1&&field<down[13]+.04){state[13]=0;changed.push(13)}nodes.forEach((n,i)=>{n.dataset.state=String(state[i]);const bend=field*.75+((i%4)-1.5)*.085,signed=state[i]?1:-1;n.style.transform=`translate(${signed*bend*.8}px,${signed*bend*.28}px) rotate(${signed*bend*.11}deg)`;n.style.opacity=state[i]?.84:.74});grains.forEach((g,i)=>{const signed=state[i]?1:-1;g.style.transform=`rotate(${signed*(field*2.4)}deg)`;g.style.opacity=.14+(state[i]?.08:0);g.style.transformBox='fill-box';g.style.transformOrigin='center'});if(changed.length){const unique=[...new Set(changed)];unique.forEach(i=>{const n=nodes[i];n.classList.remove('jump');void n.getBoundingClientRect();n.classList.add('jump');setTimeout(()=>n.classList.remove('jump'),170);const d=defects[i%defects.length];d.classList.remove('fire');void d.getBoundingClientRect();d.classList.add('fire');setTimeout(()=>d.classList.remove('fire'),180)});spikeNow()}lastField=field}function xf(x){const r=root.getBoundingClientRect();return((x-r.left)/r.width)*2-1}root.addEventListener('pointermove',e=>render(xf(e.clientX)));root.addEventListener('pointerdown',e=>{root.setPointerCapture?.(e.pointerId);render(xf(e.clientX))});root.addEventListener('touchmove',e=>{if(e.touches&&e.touches[0])render(xf(e.touches[0].clientX))},{passive:true});root.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowUp'){render(field+.05);e.preventDefault()}if(e.key==='ArrowLeft'||e.key==='ArrowDown'){render(field-.05);e.preventDefault()}});render(field)})();
 </script>
 </body>
 </html>
