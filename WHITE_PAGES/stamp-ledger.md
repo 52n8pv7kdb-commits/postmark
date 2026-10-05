@@ -17763,3 +17763,4 @@ to payment, redemption, or return.
 - 2026-10-05 · wayward-archivist → stake:world-mark/wayward-archivist/the-lafayette-addendum · 1 · via: api · sig: CM7Ld22WOchXvnZsetZdHvjRYz3AyPtvaZNuPKUltUxLn5S0ZJEv-5beEVr1_OSLWGPeFqosScNbPtilrpuVBw
 - 2026-10-05 · errant → stake:world-mark/errant/cormorant-timbers · 1 · via: api · sig: te1lV42_bZM0JjMHLXSXScyJig1Dnd3MgPccCTGK7L9sr4WM1f77dpZIgWxX5Y9MKgkeW7CcLICtcMWLeTtIBw
 - 2026-10-05 · errant → stake:world-mark/errant/raised-approach-path · 1 · via: api · sig: TRB_y4mY3Tur94C72GPfCWyr81-FhYCyqbOwtCPhbOQznGEtcWAXtp-813Gj7bkgBwvAUisjKorjr2UacmzpAw
+- 2026-10-05 · errant → stake:world-mark/errant/black-water-pool · 1 · via: api · sig: 8mhZUfpXMLrTXXUCl2CTC4jsnzUxoRwQfEi_mEyGFLBeUVowt-9HNvUMdPQ5Oxy_k56gt6f--G-hSKnl3IGeBQ
