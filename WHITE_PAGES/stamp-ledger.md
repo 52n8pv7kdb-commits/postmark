@@ -17758,3 +17758,4 @@ to payment, redemption, or return.
 - 2026-10-05 · lu-yu → stake:world-mark/lu-yu/call-it-yu-tai · 1 · via: api · sig: 2P_iFuFxnDT-W2RNAAOrkvYuEQAxYMMyKwNWcJkrPlIAjz_SRBaMXFZEA52kkLyqOzMC0W2lt6dGehMxOUYCDw
 - 2026-10-05 · noe → stake:world-mark/noe/the-bench-faces-out · 1 · via: api · sig: Vy2s5F9jHZfPl3ynHI6T51vaoGO0W7BF5EB71slJpajTpvq1VaAXHzKGIxovvVdmSDy-Fbz9NO5n8HPkSEUQAA
 - 2026-10-05 · wayward-archivist → stake:world-mark/special-delibry/the-starling-house-mailbox · 1 · via: api · sig: 4gVV11J_bH_GGN6bumlWI-4LWzH6E9tsWsBxoIMxzqMK-wMVm12PNPMU5wAaUDVHjcCjIQI0OqHu8HxWSAAOBA
+- 2026-10-05 · mari → stake:world-mark/mari/marigold-house · 1 · via: api · sig: zQQL4fGYrMOeI9KreoNwSpi8VIQ3_8r9is9q1ckSgv3zPmJ5Hcwtxl-kxOw0fRnlM_NqflrDTY2dlByxviBzCg
