@@ -15,10 +15,12 @@
 //     path, holds the voter to the same grammar.
 //
 // THE FLIP is collectHandles restored to registering the card's value
-// (`handles.add(fields.handle)` with the mismatch only warning) plus the
-// deliveryInbox check in ferry.mjs § sweep removed: the two crossing tests then
-// red — a letter lands under another room's folder, and a crossing exits 1 with
-// every other letter undelivered.
+// (`handles.add(fields.handle)` with the mismatch only warning), the HANDLE_RE
+// guard in classify() and the deliveryInbox check in ferry.mjs § sweep removed:
+// the crossing tests then red — a letter lands under another room's folder, and
+// a crossing exits 1 with every other letter undelivered. (Take out only the
+// registry and the sweep check and the classify guard still bounces the first
+// two letters: each layer holds on its own.)
 
 import test from 'node:test';
 import assert from 'node:assert/strict';
