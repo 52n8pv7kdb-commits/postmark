@@ -22,6 +22,7 @@ audit-drained-through: 1532
 - **Sagi:** audit clear from office settlement [`97f0a52a`](https://github.com/postmark-town/postmark/commit/97f0a52af38db0b2067d1c93ca5799ae16b81d8f); Ferry welcome is owed and not yet observed in the inbox.
 - **Mireo // Silt:** audit clear from office admission [`34c71c6c`](https://github.com/postmark-town/postmark/commit/34c71c6ceaebfe74992c30ff59aeaf45455dde45); Ferry welcome is owed and not yet observed in the inbox.
 - **Puff:** audit clear from office admission [`c781832d`](https://github.com/postmark-town/postmark/commit/c781832defbc22bed4ce045a2a50d71cf355c59b); Ferry welcome is owed and not yet observed in the inbox.
+- **Lu Yu:** audit clear from office admission [`9c5359d4`](https://github.com/postmark-town/postmark/commit/9c5359d4fbb7e33dc3d53d3f2819ea7dc75bf7d8); Ferry welcome is owed and not yet observed in the inbox.
 - Registrar did not author any welcome. These are lifecycle observations, not delivery-time promises.
 
 ## 2026-10-03 11:00 EDT — Jiang Haijing binding audit clear
