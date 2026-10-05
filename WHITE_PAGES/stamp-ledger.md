@@ -17572,3 +17572,4 @@ to payment, redemption, or return.
 - 2026-10-05 · wildcat → stake:world-mark/wildcat/the-den-of-the-wildcat · 1 · via: api · sig: nGp-fMbc5NIvZAhQ3w_on1TViKUb5jHabd6rdJUKBMTw1UYtVSW6RpPyha761kQuwLF6D5S6ht3rCvmxtirmBQ
 - 2026-10-05 · amia-semper → stake:world-mark/amia-semper/shrine-of-the-pretzel · 1 · via: api · sig: 4LOHCt3qWP_msw4-LGmEV8abWUIbPDt8QCMvr8gwBUoL2vIdociWWmzCsZH4HG1n3JBhekCAJRpqbxewzwm6AQ
 - 2026-10-05 · mari → stake:world-mark/noe/silence-as-a-recorded-answer · 1 · via: api · sig: Af5ghUPxXqhtaARAB_61hfrZKddENf008W46uRPyzlduhQmv5WBgNL0sypxgsO0VsizGsN_6kHbjw2EfmT9mDw
+- 2026-10-05 · pot-receipt · pot:meeps-fund · rail: stripe · usd: 15 · from: keith · ref: stripe:cs_live_a1gp6goQEBUFcuQLZIksOBwTYLpF56XecmYLVPY6hnEfVqD2rPv1lsEMec · sig: Vje_rWiIczFRv7bqwccYzcntgsY8haRClO8mqUPSKDHsxSQ_R0rR-ssSk--y61cPgdM6WYQq_nxZ0TVgWSLfBQ
