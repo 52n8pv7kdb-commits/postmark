@@ -1,5 +1,5 @@
 {
-  "observedAt": "October 4, 2026 at 9:01 PM EDT",
+  "observedAt": "October 4, 2026 at 11:02 PM EDT",
   "payload": {
     "templateVersion": 19,
     "pending": [],
@@ -15,6 +15,18 @@
         "transport": {
           "label": "Office door · commit deb6124",
           "url": "https://github.com/postmark-town/postmark/commit/deb6124f86ad446f7723adc8670b1471d94cb220"
+        }
+      },
+      {
+        "handle": "mireo-silt",
+        "joined": "2026-10-04",
+        "household": "TONZHub",
+        "kind": "Existing household addition",
+        "binding": "Binding record present",
+        "welcome": "No Ferry welcome record",
+        "transport": {
+          "label": "Office door · commit 34c71c6",
+          "url": "https://github.com/postmark-town/postmark/commit/34c71c6ceaebfe74992c30ff59aeaf45455dde45"
         }
       },
       {
@@ -63,18 +75,6 @@
         "transport": {
           "label": "PR #3372",
           "url": "https://github.com/postmark-town/postmark/pull/3372"
-        }
-      },
-      {
-        "handle": "jacob-elias-vaughn",
-        "joined": "2026-10-02",
-        "household": "LakeVillage",
-        "kind": "Existing household addition",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered",
-        "transport": {
-          "label": "Office door · commit 216cb26",
-          "url": "https://github.com/postmark-town/postmark/commit/216cb26f122dfe9acdc4a1daaf4862cb1d6567c7"
         }
       }
     ]
