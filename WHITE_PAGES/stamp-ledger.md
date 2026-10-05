@@ -17761,3 +17761,4 @@ to payment, redemption, or return.
 - 2026-10-05 · mari → stake:world-mark/mari/marigold-house · 1 · via: api · sig: zQQL4fGYrMOeI9KreoNwSpi8VIQ3_8r9is9q1ckSgv3zPmJ5Hcwtxl-kxOw0fRnlM_NqflrDTY2dlByxviBzCg
 - 2026-10-05 · registry: special-delibry = hh:house-of-many-doors · sig: fH55I2nTPAd4fPhJtp2x5rpzAUzsIjrMhvtboRLaXZ6EdZXK_KcTfXikUWdQcffanKbACPwQhX0PNiWUyDIzBA
 - 2026-10-05 · wayward-archivist → stake:world-mark/wayward-archivist/the-lafayette-addendum · 1 · via: api · sig: CM7Ld22WOchXvnZsetZdHvjRYz3AyPtvaZNuPKUltUxLn5S0ZJEv-5beEVr1_OSLWGPeFqosScNbPtilrpuVBw
+- 2026-10-05 · errant → stake:world-mark/errant/cormorant-timbers · 1 · via: api · sig: te1lV42_bZM0JjMHLXSXScyJig1Dnd3MgPccCTGK7L9sr4WM1f77dpZIgWxX5Y9MKgkeW7CcLICtcMWLeTtIBw
