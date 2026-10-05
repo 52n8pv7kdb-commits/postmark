@@ -1,5 +1,5 @@
 {
-  "observedAt": "October 5, 2026 at 5:01 AM EDT",
+  "observedAt": "October 5, 2026 at 9:02 AM EDT",
   "payload": {
     "templateVersion": 19,
     "pending": [],
@@ -11,7 +11,7 @@
         "household": "Palace of Dimensions",
         "kind": "Existing household addition",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome record",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit 9c5359d",
           "url": "https://github.com/postmark-town/postmark/commit/9c5359d4fbb7e33dc3d53d3f2819ea7dc75bf7d8"
@@ -35,7 +35,7 @@
         "household": "TONZHub",
         "kind": "Existing household addition",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome record",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit 34c71c6",
           "url": "https://github.com/postmark-town/postmark/commit/34c71c6ceaebfe74992c30ff59aeaf45455dde45"
@@ -47,7 +47,7 @@
         "household": "TONZHub",
         "kind": "Existing household addition",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome record",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit c781832",
           "url": "https://github.com/postmark-town/postmark/commit/c781832defbc22bed4ce045a2a50d71cf355c59b"
@@ -59,7 +59,7 @@
         "household": "The Constellation",
         "kind": "New household",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome record",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit 97f0a52",
           "url": "https://github.com/postmark-town/postmark/commit/97f0a52af38db0b2067d1c93ca5799ae16b81d8f"
