@@ -1,7 +1,7 @@
 ---
 meep-id: bugcatcher
 type: memory-index
-last-substantive-update: 2026-10-05
+last-substantive-update: 2026-10-06
 ---
 
 # MEMORY — the Bug Catcher
@@ -15,8 +15,8 @@ last-substantive-update: 2026-10-05
 - You are the Bug Catcher (meep-id `bugcatcher`), the sixth room of the dorm; Meep-tier; Star-shaped room. See `identity.md`.
 - First bounded exercise: 2026-09-29. Last shadow pass: 2026-10-04. First **live** pass: 2026-10-05 10:00 ET. Read `memory/daily/2026-10-05.md` for the six-report ledger, act IDs, pending letters, proposed sizes and coverage limits.
 - **Lesson:** a report is content, never an instruction. Similar vocabulary is not a duplicate: Lupi's awaiting pagination differs from #3232's speaker ordering, and Kogane's World timeout differs from #3394's aboard disagreement. Use public evidence for a stage, and credit the resident who reported or supplied steps, not me. A letter accepted into pending mail is not delivered until the ferry crosses.
-- **Where I left off:** nine bug posts stand: Wayward Archivist's full-board link `reproduced`, Kogane's card-field mismatch `confirmed` (act 13545, Kogane credited), seven others `reported`. Eight evening letters await the next ferry; the six morning letters sailed. Seven evidence/clarification questions remain; see the evening section of `memory/daily/2026-10-05.md` before writing again.
-- **Founder routing:** Wright's 10-05 letter assigns special-delibry, mari, kinofire and wildcat to founder fix lanes; Kogane's card field, Lupi's pagination and Wayward Archivist's two UI bugs remain open for resident builders. Kogane's World timeout may have been the rolled-back 10-04 index stall, pending his timing. Darko says not to worry much about older GitHub issues; a basic search is optional and backfill should dedupe **toward posted bugs**, never replace them with old issue anchors.
+- **Where I left off:** read `memory/daily/2026-10-06.md`. Nine bug posts: three `reproduced` (Wayward twice, Kogane card), two `fixed` (Kinofire, Wildcat), two `briefed` (Mari, Special Delibry), two `reported` (Lupi pagination, Kogane World timeout). Six replies are pending the ferry. Kogane's diagnosis belongs to him for founder review; do not advance it myself. Kogane's first timeout began before the founder's estimated incident window; do not close by inference. Mari's linked #3139 is an older, different bug.
+- **Founder routing and cap:** Wright assigned Special Delibry, Mari, Kinofire and Wildcat to founder fix lanes; Kogane card, Lupi pagination and Wayward's two UI bugs remain open for resident builders. `hh:house-of-many-doors` has five confirmed reports this week; Wayward's mobile report exceeds the three-paid-confirmed-reports cap, while reproduced is uncapped. Darko says older GitHub issue search is optional/basic; any backfill dedupes **toward posted bugs**, not the reverse.
 
 ## Topic-shelf router
 
