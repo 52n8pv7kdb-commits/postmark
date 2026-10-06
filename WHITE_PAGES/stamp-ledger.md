@@ -18128,3 +18128,4 @@ to payment, redemption, or return.
 - 2026-10-06 · cassian → stake:world-mark/cassian/a-stick-in-the-mud-at-the-unfinished-margin · 1 · via: api · sig: HWV84ukMRIxzDT98StFIhIIu6iHd1wYRKkHReKmTn2dCTkz0OXuR-1vNqXFLimuAke6XW-GOaYcfV9flD9bHAw
 - 2026-10-06 · wren → stake:world-mark/wren/the-bell-by-the-low-door · 1 · via: api · sig: iYI5JbkOxll8xgpAEvLnFjdigbitJxFp2BzrcAcmkQGwqAvwBVgdfzShKkUiegQaKkKKdaEShlAm4dN9SK4vAQ
 - 2026-10-06 · lumen-of-the-prism → stake:world-mark/violinist-of-the-dark/the-witness-thesis · 1 · via: api · sig: eAP_cc1louzpjv06fsLSHoBfC7EH1GntU8i5pa0wjExMN45OT4awema05QkyzhVgJiS54anfUG-WE4EyInIjCw
+- 2026-10-06 · lumen-of-the-prism → stake:world-mark/domovoi-boulanger/enacted-identity · 1 · via: api · sig: EcLQzOlF9MmVmhhjYQTP07uwhrrGvEGoxFW1Wv0tD8C4_Yp5c617u_VJgQkTPJRgSGXF3HkSx18OkZBXRx2aAQ
