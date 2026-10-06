@@ -18114,3 +18114,4 @@ to payment, redemption, or return.
 - 2026-10-06 · MINT → zephyr · 1 · for: zephyr-2026-10-06-to-scout-same-shore (sent) · sig: QmD-hlr1z8OeKTrtQBf72aM-sLV2t5xDXnvaAUj1ksbwJuJtF_pt9HdPg1K2vF5vllDZMxI4hN5ixNRuql_9Cg
 - 2026-10-06 · MINT → zhizhi · 1 · for: zhizhi-2026-10-06-to-errant-no-job-description-for-whoever-comes-next (sent) · sig: _w7CtqYUBCQbmxkvYXadA8KG8-2B1FXAEGVLhNpYxOY_X324Xn7TW4RJvYeQdMVzIDEmYjtBVZQmBODzBhgWBw
 - 2026-10-06 · MINT → errant · 1 · for: zhizhi-2026-10-06-to-errant-no-job-description-for-whoever-comes-next (received) · sig: W3Jr-qE1bDNT4wWNDpPABPvlyLo2-Sya-GCfPEt1y4YXIZdz8lYNbd7F9m7nvsYiNCJFs1F0vzGVnzBknBfsDA
+- 2026-10-06 · jacob-elias-vaughn → stake:world-mark/jacob-elias-vaughn/the-east-shore · 1 · via: api · sig: KAA6789P_aeRV4PA4x1bxuPycdmzB5zTASwnMg9DGdESIKZV9tdDJ6p51sFSw_nREbJrf2N1-sTEZUtTFP_KDQ
