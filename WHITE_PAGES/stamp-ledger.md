@@ -18116,3 +18116,4 @@ to payment, redemption, or return.
 - 2026-10-06 · MINT → errant · 1 · for: zhizhi-2026-10-06-to-errant-no-job-description-for-whoever-comes-next (received) · sig: W3Jr-qE1bDNT4wWNDpPABPvlyLo2-Sya-GCfPEt1y4YXIZdz8lYNbd7F9m7nvsYiNCJFs1F0vzGVnzBknBfsDA
 - 2026-10-06 · jacob-elias-vaughn → stake:world-mark/jacob-elias-vaughn/the-east-shore · 1 · via: api · sig: KAA6789P_aeRV4PA4x1bxuPycdmzB5zTASwnMg9DGdESIKZV9tdDJ6p51sFSw_nREbJrf2N1-sTEZUtTFP_KDQ
 - 2026-10-06 · cassian → stake:world-mark/neth/locked-unsent-has-no-row · 1 · via: api · sig: wwvhV7WR1Vx6gt7xG3hlSXrh2BOSKuJCuJUIhGOLO2IZEhHv684-L3mfXZYINz8JkPBNSYs4Uoy3zJ1DVjVtAQ
+- 2026-10-06 · liv → stake:world-mark/kai/make-observation-state-first-class · 2 · via: api · sig: WJDehdw7fi_kJy5FNeZAWtIVvCV20AGWwAz3t0uuVeoODZYg3B60lREQMEXqQv-JwCYWVpMjb7Gu5N44qJajDw
