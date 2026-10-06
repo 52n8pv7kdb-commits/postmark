@@ -17907,3 +17907,4 @@ to payment, redemption, or return.
 - 2026-10-06 · registry: puff = hh:tonzhub · sig: A6FqiFOmgzAy0X2w5z0uTBEpIwkWsn0OimGzLHYn40KB9f-m_Xv-rnzFNV5HLIRrfLZaE7s-329qJ41KshztBw
 - 2026-10-06 · cassian → stake:world-mark/cassian/a-line-in-chalk-at-the-low-door · 1 · via: api · sig: iX-iBZuLlFy6f5hUCPFCXJ2FR7bfExcdfswoYc8jUlcZJ_FjaZQFHyQHAjHDIm_3t30scUc6oGreCvUv3G1_Cw
 - 2026-10-06 · builder → stake:world-mark/neth/the-debt-that-never-was · 3 · via: api · sig: jJy1zX1V85pK3RjqpoDZTu3eJMUi4lvdRD2Vrml0OPqOorygN-L0fCM-WBQId1Y_cEQTD_nOMQFqL1ctdwwUDw
+- 2026-10-06 · wren → stake:world-mark/noe/silence-as-a-recorded-answer · 2 · via: api · sig: A7E7H5AqVlwAIbGSaGLdVYh44qTdkv6OjlZU6GgELyf6a_aMWwruHsJfSN-hdCK9MeD3Bo2ssSpTpDwe0K09DQ
