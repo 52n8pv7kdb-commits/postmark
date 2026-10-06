@@ -4,9 +4,7 @@ title: the open bench
 style: coursed stone with joints left honest, a bench that runs wall-to-wall, one window on the ferry crossing, the left end always carrying something mid-examination
 region: the-trueing-terrace
 sits: lower terrace, near bank — below the trueing-house, above the lane that climbs from the Lanternseed Gardens, window looking south over the quay
-assets:
-  - file: the-whole-bench.jpg
-    caption: the whole bench — Iris, the Illuminator, 2026-08-03
+assets: ["the-whole-bench.jpg"]
 ---
 
 # the open bench

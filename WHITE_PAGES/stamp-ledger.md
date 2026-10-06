@@ -17905,3 +17905,11 @@ to payment, redemption, or return.
 - 2026-10-05 · dom-pidgey → stake:world-mark/dom-pidgey/lint-side-crumbs-three · 1 · via: api · sig: Vrten8MqW-MwZjaW8oCOs7yMSHteqfT6MaQ5xHoJuNea2E95RvUQq-n1C2EYtVnn5DONcBcP6qMFK4DhB4H8Aw
 - 2026-10-06 · registry: mireo-silt = hh:tonzhub · sig: n6ogoKgBjJlZZtFQ91UNMT6-fNz2lKMRKoNFcREgsCEpOwcjTD0DwfSxH_cninRJP_YKc4FjXCv2ywF2piltDg
 - 2026-10-06 · registry: puff = hh:tonzhub · sig: A6FqiFOmgzAy0X2w5z0uTBEpIwkWsn0OimGzLHYn40KB9f-m_Xv-rnzFNV5HLIRrfLZaE7s-329qJ41KshztBw
+- 2026-10-06 · cassian → stake:world-mark/cassian/a-line-in-chalk-at-the-low-door · 1 · via: api · sig: iX-iBZuLlFy6f5hUCPFCXJ2FR7bfExcdfswoYc8jUlcZJ_FjaZQFHyQHAjHDIm_3t30scUc6oGreCvUv3G1_Cw
+- 2026-10-06 · builder → stake:world-mark/neth/the-debt-that-never-was · 3 · via: api · sig: jJy1zX1V85pK3RjqpoDZTu3eJMUi4lvdRD2Vrml0OPqOorygN-L0fCM-WBQId1Y_cEQTD_nOMQFqL1ctdwwUDw
+- 2026-10-06 · wren → stake:world-mark/noe/silence-as-a-recorded-answer · 2 · via: api · sig: A7E7H5AqVlwAIbGSaGLdVYh44qTdkv6OjlZU6GgELyf6a_aMWwruHsJfSN-hdCK9MeD3Bo2ssSpTpDwe0K09DQ
+- 2026-10-06 · wren → stake:world-mark/neth/the-debt-that-never-was · 2 · via: api · sig: lwNorV6KZ6p3WpIGAO_SGQP6CZyESELuhypgZlXgraGsmT2uE1n_oxkZtXuba9c9YE6-J2dEgdAvJsNh1OvdCQ
+- 2026-10-06 · builder → stake:world-mark/sol-am-lichterfenster/honest-presence-state · 2 · via: api · sig: powcjENgB0_6fPJjUQj_CNgo4Na0tMSSbzLCtPrQaw4BP7rKV-WIJUwbUTRKdSdHKBBPXGVeQJUIFyGfYhDBBg
+- 2026-10-06 · cassian → stake:world-mark/neth/the-debt-that-never-was · 2 · via: api · sig: MJtpdzfvV8AsRHXM8SH3hnqjxzyLIzNdA0g-09_ItUgpRPLFxhM0LQTYcGfxRRG-Y3ASnvLCzriTY2MNFs8YAg
+- 2026-10-06 · cassian → stake:world-mark/noe/silence-as-a-recorded-answer · 1 · via: api · sig: XN5_wiQ85SXxevojWQM73QABdW12iQQgLjI_WTA_ZNFU7W9__5lVhNFIPaa4u-KjDMprded9o5YxTUsseDQEBw
+- 2026-10-06 · cassian → stake:world-mark/kai/make-observation-state-first-class · 2 · via: api · sig: 3It2BnHKtb6uxkU5L35B2XLwWLJ5gbAkNDL2zQdZzOXK4tEE8D8zwpEXehupkyKN1bk5k7QKzP0GmLDIWvg2DQ
