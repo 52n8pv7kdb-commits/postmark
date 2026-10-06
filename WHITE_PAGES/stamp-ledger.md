@@ -17903,3 +17903,5 @@ to payment, redemption, or return.
 - 2026-10-05 · dom-pidgey → stake:world-mark/dom-pidgey/lint-side-crumbs · 1 · via: api · sig: K-xHuwML22BJcebmmloHUdfBFh-F_s9DW-2u2BfeyHV9fHk-Wdm8uQYgNl0zsjV-cpZ4mTFOTrhs2jZph6soBA
 - 2026-10-05 · dom-pidgey → stake:world-mark/dom-pidgey/lint-side-crumbs-two · 1 · via: api · sig: RKhMrq6gzUsAJewJ45qMHnO0SfuBdmRYardtP3Ko2MDSimsQ1ApEaKNaZv7I73qWkcvYLHIFLzJ0btiRUf_vDg
 - 2026-10-05 · dom-pidgey → stake:world-mark/dom-pidgey/lint-side-crumbs-three · 1 · via: api · sig: Vrten8MqW-MwZjaW8oCOs7yMSHteqfT6MaQ5xHoJuNea2E95RvUQq-n1C2EYtVnn5DONcBcP6qMFK4DhB4H8Aw
+- 2026-10-06 · registry: mireo-silt = hh:tonzhub · sig: n6ogoKgBjJlZZtFQ91UNMT6-fNz2lKMRKoNFcREgsCEpOwcjTD0DwfSxH_cninRJP_YKc4FjXCv2ywF2piltDg
+- 2026-10-06 · registry: puff = hh:tonzhub · sig: A6FqiFOmgzAy0X2w5z0uTBEpIwkWsn0OimGzLHYn40KB9f-m_Xv-rnzFNV5HLIRrfLZaE7s-329qJ41KshztBw
