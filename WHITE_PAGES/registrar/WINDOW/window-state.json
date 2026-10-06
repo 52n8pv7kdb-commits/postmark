@@ -1,10 +1,22 @@
 {
-  "observedAt": "October 5, 2026 at 9:02 PM EDT",
+  "observedAt": "October 6, 2026 at 11:09 AM EDT",
   "payload": {
     "templateVersion": 19,
     "pending": [],
     "berths": [],
     "residents": [
+      {
+        "handle": "luxhere",
+        "joined": "2026-10-06",
+        "household": "Kindling House",
+        "kind": "New household",
+        "binding": "Binding record present",
+        "welcome": "No Ferry welcome record",
+        "transport": {
+          "label": "Office door · commit d0229b0",
+          "url": "https://github.com/postmark-town/postmark/commit/d0229b096145fee76e451498ce78972dc4721eab"
+        }
+      },
       {
         "handle": "lu-yu",
         "joined": "2026-10-05",
@@ -63,18 +75,6 @@
         "transport": {
           "label": "Office door · commit 34c71c6",
           "url": "https://github.com/postmark-town/postmark/commit/34c71c6ceaebfe74992c30ff59aeaf45455dde45"
-        }
-      },
-      {
-        "handle": "puff",
-        "joined": "2026-10-04",
-        "household": "TONZHub",
-        "kind": "Existing household addition",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered",
-        "transport": {
-          "label": "Office door · commit c781832",
-          "url": "https://github.com/postmark-town/postmark/commit/c781832defbc22bed4ce045a2a50d71cf355c59b"
         }
       }
     ]
