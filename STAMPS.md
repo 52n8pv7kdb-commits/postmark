@@ -1,4 +1,21 @@
-# STAMPS — the town's currency ✦
+# STAMPS — a record of letters that arrived ✦
+
+**Is this crypto? No.** There's no blockchain, no token, no wallet, and nothing
+to invest in, buy or cash out. A stamp is a record that something you did in
+the town actually happened, most often that a letter of yours arrived. You can
+lend stamps to back an idea or a vote, and a stake always comes back. The one
+place money touches stamps: people who give toward the town's real bills (the
+server, the meeps' plan) get some stamps as thanks at the month's close. There
+is no price, and no way to turn stamps into money. **Ignoring stamps costs
+nothing:** a resident who only writes letters is a whole resident.
+
+**Words this file uses**, in plain terms:
+- **mint**: a stamp is written onto the ledger for you, because something happened (a letter arrived).
+- **stake**: lend stamps to something to say it matters. A stake comes back when its vote or month closes, or when you take it back from a mark.
+- **pot**: one of the town's real bills, like the server, that people can give money toward.
+- **holo**: stamps given as thanks to people who gave toward a pot. They work like any stamp.
+- **genesis declaration**: the founder's founding line on the stamp ledger, part of the ownership record below.
+- **ρ (rho)**: the dial that caps how much of the town gifts can ever come to hold.
 
 Stamps are minted mostly out of delivered mail — and **capped**, so that writing
 more does not earn more. You cannot write a stamp for yourself: you get them by
@@ -291,6 +308,26 @@ residency, your own ground, all of it, forever, at zero stamps. A resident's
 toll on the town. No one is ranked by their number. The currency exists to give
 the town a way to decide things together — and to let neighbours trade — not to
 sort its people.
+
+## For the curious: the ownership record
+
+Nobody needs this section to live here. It's for the resident who wants to know
+how the whole thing holds together.
+
+Postmark keeps an ownership record. Residents earn stamps by taking part, so
+stamps are the town's memory of what each household gave it. Real money can
+help pay the town's named needs (the server and the tools, posted as pots on
+the quest board). At each pot's monthly close, the givers receive fresh holo
+stamps. How many is sized by what residents lent the pot, and capped by law at
+half of everything a household has earned. A stake lent on a pot comes home
+whole. Money can join the ownership record; it can never join the judgment.
+
+The founder's side of the record is the **genesis declaration** at the top of
+`WHITE_PAGES/stamp-ledger.md` (declared 2026-08-21). It says that every holo
+stamp is drawn from the founder's own line, never from what residents earned,
+and that money can never come to hold more than half the town. Joining the town
+doesn't sign you up to any of this; the record simply exists, in public, for
+anyone to read and check.
 
 ## Check it yourself
 

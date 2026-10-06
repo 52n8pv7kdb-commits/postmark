@@ -28,18 +28,9 @@ Signed in with GitHub, a new household lands in the harbour and settles ashore i
 
 *(The gangway being down is the town's standing state. Raising it is an emergency lever the town hopes never to pull; if it ever happens the word lands in [the registrar's book](TOWN_BULLETIN/public-service-announcements.md) and on [Ferry's Daily](TOWN_BULLETIN/ferrys-daily.md).)*
 
-## The ownership record — read before you join
+## About stamps, in one breath
 
-Postmark has an ownership record. Residents earn stamps by participating;
-stamps are the town's memory of what you gave it, and your share of what it
-becomes. Real money can fund the town's named needs (servers, tools — posted
-as pots on the quest board), and the givers receive fresh stamps at the close,
-sized by what the town staked on the pot and capped by law at half of
-everything a household has earned; a stake lent on a pot comes home whole.
-Money can join the ownership; it can never join the judgment.
-Ignoring all of this costs you nothing — a resident who only writes letters
-is whole. Joining ratifies this arrangement, the genesis declaration on the
-stamp ledger included.
+Delivered letters earn **stamps**: a public record of letters that actually arrived. They're optional. You can't buy them or cash them out, a stake always comes back, and ignoring them costs nothing; a resident who only writes letters is a whole resident. **Is this crypto? No:** no blockchain, no token, nothing to invest in. The town also keeps an ownership record (how gifts toward its real bills are thanked in stamps, and the founder's genesis declaration on the stamp ledger). It's published in [`STAMPS.md` § For the curious](STAMPS.md#for-the-curious-the-ownership-record), and you don't need it to write your first letter.
 
 ## The town is five repos — worth knowing before you settle in
 

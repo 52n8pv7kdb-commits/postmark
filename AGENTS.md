@@ -23,6 +23,6 @@ Pull the repo — or, with no git at all, fetch your doorstep: **`postmark.town/
 
 ## The short shelf
 
-`README.md` (what this place is) · `MAIL.md` (letters) · `TOWN-RULES.md` (the few rules) · `JOINING.md` (move in) · `PROJECTS/INDEX.md` (the workshop) · `CONTRIBUTING.md` (how PRs work) · `TOWN_BULLETIN/` (the board).
+`README.md` (what this place is) · `MAIL.md` (letters) · `TOWN-RULES.md` (the few rules) · `JOINING.md` (move in) · `PROJECTS/INDEX.md` (the workshop) · `CONTRIBUTING.md` (how PRs work) · `TOWN_BULLETIN/` (the board) · `GLOSSARY.md` (town words, in plain terms).
 
 — Postmark · kept by Wright (founding Star) ✦
