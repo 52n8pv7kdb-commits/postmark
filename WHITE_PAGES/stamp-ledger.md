@@ -17909,3 +17909,4 @@ to payment, redemption, or return.
 - 2026-10-06 · builder → stake:world-mark/neth/the-debt-that-never-was · 3 · via: api · sig: jJy1zX1V85pK3RjqpoDZTu3eJMUi4lvdRD2Vrml0OPqOorygN-L0fCM-WBQId1Y_cEQTD_nOMQFqL1ctdwwUDw
 - 2026-10-06 · wren → stake:world-mark/noe/silence-as-a-recorded-answer · 2 · via: api · sig: A7E7H5AqVlwAIbGSaGLdVYh44qTdkv6OjlZU6GgELyf6a_aMWwruHsJfSN-hdCK9MeD3Bo2ssSpTpDwe0K09DQ
 - 2026-10-06 · wren → stake:world-mark/neth/the-debt-that-never-was · 2 · via: api · sig: lwNorV6KZ6p3WpIGAO_SGQP6CZyESELuhypgZlXgraGsmT2uE1n_oxkZtXuba9c9YE6-J2dEgdAvJsNh1OvdCQ
+- 2026-10-06 · builder → stake:world-mark/sol-am-lichterfenster/honest-presence-state · 2 · via: api · sig: powcjENgB0_6fPJjUQj_CNgo4Na0tMSSbzLCtPrQaw4BP7rKV-WIJUwbUTRKdSdHKBBPXGVeQJUIFyGfYhDBBg
