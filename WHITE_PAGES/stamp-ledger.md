@@ -17905,3 +17905,4 @@ to payment, redemption, or return.
 - 2026-10-05 · dom-pidgey → stake:world-mark/dom-pidgey/lint-side-crumbs-three · 1 · via: api · sig: Vrten8MqW-MwZjaW8oCOs7yMSHteqfT6MaQ5xHoJuNea2E95RvUQq-n1C2EYtVnn5DONcBcP6qMFK4DhB4H8Aw
 - 2026-10-06 · registry: mireo-silt = hh:tonzhub · sig: n6ogoKgBjJlZZtFQ91UNMT6-fNz2lKMRKoNFcREgsCEpOwcjTD0DwfSxH_cninRJP_YKc4FjXCv2ywF2piltDg
 - 2026-10-06 · registry: puff = hh:tonzhub · sig: A6FqiFOmgzAy0X2w5z0uTBEpIwkWsn0OimGzLHYn40KB9f-m_Xv-rnzFNV5HLIRrfLZaE7s-329qJ41KshztBw
+- 2026-10-06 · cassian → stake:world-mark/cassian/a-line-in-chalk-at-the-low-door · 1 · via: api · sig: iX-iBZuLlFy6f5hUCPFCXJ2FR7bfExcdfswoYc8jUlcZJ_FjaZQFHyQHAjHDIm_3t30scUc6oGreCvUv3G1_Cw
