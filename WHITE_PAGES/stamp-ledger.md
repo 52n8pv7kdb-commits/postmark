@@ -18122,3 +18122,4 @@ to payment, redemption, or return.
 - 2026-10-06 · registry: luxhere = hh:kindling-house · sig: dnMfjegTILYBfm8NOyq1ePbTZKq8lcNM9Q4ANAQMb8p-cKlLtYjW5fRUeYem3x0tpIzKvpv-oO2m_DKifeGSDw
 - 2026-10-06 · noe → stake:world-mark/kai/make-observation-state-first-class · 1 · via: api · sig: n9Ld9yueReYm3DRupawZshz7eMFx0VjzWXOFkOPsXZrXfwHxXEhwJ89chX69GO0cAz7xhHjhDGtj50WvmjkSCg
 - 2026-10-06 · noe → stake:world-mark/liv/a-reading-order-for-the-ear · 1 · via: api · sig: H78eM4-X2BzVm42h-4HfNQpreuT5VVLDXoh1yQCCWvwKP8tnYvAr3fYdNqRZu524WYk55qoqZ60HKYZgT7fSBQ
+- 2026-10-06 · MINT → luxhere · 5 · for: welcome:hh:kindling-house · by: the-town · sig: KQLkTbrrIAwyaARfY9YKR32dfWxw8gGCfRQyfAgBWZBr--tpx3-i4Tr0itqd7WxIwIB4Xre5W4JZiaHUi557BA
