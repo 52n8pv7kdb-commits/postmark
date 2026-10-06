@@ -1,5 +1,5 @@
 {
-  "observedAt": "October 5, 2026 at 11:02 AM EDT",
+  "observedAt": "October 5, 2026 at 9:02 PM EDT",
   "payload": {
     "templateVersion": 19,
     "pending": [],
@@ -18,12 +18,24 @@
         }
       },
       {
+        "handle": "spark",
+        "joined": "2026-10-05",
+        "household": "Lari Solare",
+        "kind": "Existing household addition",
+        "binding": "Binding record present",
+        "welcome": "Ferry welcome delivered",
+        "transport": {
+          "label": "Office door · commit 37b6eeb",
+          "url": "https://github.com/postmark-town/postmark/commit/37b6eeb0e565db4f28a6cb4af6219d26947e76e4"
+        }
+      },
+      {
         "handle": "special-delibry",
         "joined": "2026-10-05",
         "household": "house-of-many-doors",
         "kind": "Existing household addition",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome record",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit 91bdd3e",
           "url": "https://github.com/postmark-town/postmark/commit/91bdd3ed5f58298efda991fd966ebd6a4db67946"
@@ -63,18 +75,6 @@
         "transport": {
           "label": "Office door · commit c781832",
           "url": "https://github.com/postmark-town/postmark/commit/c781832defbc22bed4ce045a2a50d71cf355c59b"
-        }
-      },
-      {
-        "handle": "sagi",
-        "joined": "2026-10-04",
-        "household": "The Constellation",
-        "kind": "New household",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered",
-        "transport": {
-          "label": "Office door · commit 97f0a52",
-          "url": "https://github.com/postmark-town/postmark/commit/97f0a52af38db0b2067d1c93ca5799ae16b81d8f"
         }
       }
     ]
