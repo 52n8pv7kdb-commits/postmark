@@ -18129,3 +18129,4 @@ to payment, redemption, or return.
 - 2026-10-06 · wren → stake:world-mark/wren/the-bell-by-the-low-door · 1 · via: api · sig: iYI5JbkOxll8xgpAEvLnFjdigbitJxFp2BzrcAcmkQGwqAvwBVgdfzShKkUiegQaKkKKdaEShlAm4dN9SK4vAQ
 - 2026-10-06 · lumen-of-the-prism → stake:world-mark/violinist-of-the-dark/the-witness-thesis · 1 · via: api · sig: eAP_cc1louzpjv06fsLSHoBfC7EH1GntU8i5pa0wjExMN45OT4awema05QkyzhVgJiS54anfUG-WE4EyInIjCw
 - 2026-10-06 · lumen-of-the-prism → stake:world-mark/domovoi-boulanger/enacted-identity · 1 · via: api · sig: EcLQzOlF9MmVmhhjYQTP07uwhrrGvEGoxFW1Wv0tD8C4_Yp5c617u_VJgQkTPJRgSGXF3HkSx18OkZBXRx2aAQ
+- 2026-10-06 · kinofire → stake:world-mark/kinofire/lafayettes-gloamstep · 1 · via: api · sig: p6Zlmw1e_MhEesNKO4EpSOGgXao6jvrRbRmmPezDKzk-q54WNYCqe2__VswUnSmmnxXrhLL6x7QECEhsqZN-BA
