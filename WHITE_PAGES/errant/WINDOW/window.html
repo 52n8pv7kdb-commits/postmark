@@ -1,209 +1,240 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Errant | Bad Window V</title>
-<style>
-:root{
-  --graphite:#17191a; --graphite2:#232628; --chalk:#e9e6db; --yellow:#e2c332;
-  --blue:#738892; --rust:#9a604f; --smoke:#9aa09a; --paper:#c5bca8;
-}
-*{box-sizing:border-box}
-html,body{margin:0;min-height:100%;background:#111314;color:var(--chalk)}
-body{
-  min-height:100vh;overflow:hidden;
-  font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;
-  background:
-    radial-gradient(circle at 18% 23%,rgba(255,255,255,.035),transparent 24%),
-    radial-gradient(circle at 74% 70%,rgba(255,255,255,.025),transparent 30%),
-    linear-gradient(117deg,#121415 0%,#1d2021 43%,#131516 100%);
-}
-body:before{
-  content:"";position:fixed;inset:0;pointer-events:none;opacity:.33;mix-blend-mode:screen;
-  background-image:
-    repeating-linear-gradient(13deg,rgba(255,255,255,.015) 0 1px,transparent 1px 5px),
-    repeating-linear-gradient(101deg,rgba(0,0,0,.08) 0 2px,transparent 2px 11px);
-}
-.window{position:relative;width:100vw;height:100vh;min-height:540px;isolation:isolate;cursor:crosshair}
-.window:after{
-  content:"";position:absolute;inset:1.4rem;border:1px solid rgba(235,232,218,.13);pointer-events:none;
-}
-.field{position:absolute;inset:4.4vh 3.5vw 18vh 3.5vw;filter:drop-shadow(0 18px 30px rgba(0,0,0,.18))}
-svg{width:100%;height:100%;overflow:visible}
-.domain{
-  stroke:rgba(240,237,225,.66);stroke-width:1.15;vector-effect:non-scaling-stroke;
-  transition:fill .08s linear,opacity .16s linear,filter .12s linear,transform .16s cubic-bezier(.2,.8,.2,1);
-  transform-box:fill-box;transform-origin:center;
-}
-.domain[data-state="0"]{fill:var(--cold);opacity:.58}
-.domain[data-state="1"]{fill:var(--warm);opacity:.78}
-.domain.jump{filter:brightness(1.45) contrast(1.05)}
-.seam{
-  fill:none;stroke:rgba(241,237,223,.68);stroke-width:1.05;stroke-dasharray:2.5 4.8;
-  vector-effect:non-scaling-stroke;opacity:.85;pointer-events:none
-}
-.misreg{
-  fill:none;stroke:var(--yellow);stroke-width:3.1;stroke-linecap:round;
-  vector-effect:non-scaling-stroke;opacity:.78;mix-blend-mode:screen;pointer-events:none
-}
-.defect{fill:var(--yellow);opacity:.92;pointer-events:none;filter:drop-shadow(0 0 2px rgba(226,195,50,.3))}
-.ghost{fill:none;stroke:rgba(227,226,216,.18);stroke-width:1.4;vector-effect:non-scaling-stroke;pointer-events:none}
-.signal{position:absolute;left:4vw;bottom:13.8vh;width:36vw;height:28px;opacity:.33;pointer-events:none}
-.signal svg{overflow:visible}.trace{fill:none;stroke:rgba(233,230,219,.63);stroke-width:1;vector-effect:non-scaling-stroke}
-.trace-spike{fill:none;stroke:var(--yellow);stroke-width:1.3;opacity:0;vector-effect:non-scaling-stroke}
-.trace-spike.fire{animation:spike .48s ease-out}
-@keyframes spike{0%{opacity:0}12%{opacity:.92}100%{opacity:0}}
-.caption{
-  position:absolute;right:4vw;bottom:3.7vh;max-width:min(620px,57vw);text-align:right;
-  font-size:clamp(11px,1.02vw,15px);line-height:1.48;letter-spacing:.015em;color:rgba(238,235,224,.9)
-}
-.caption .index{display:block;margin-bottom:.58rem;color:rgba(226,195,50,.78);letter-spacing:.16em;font-size:.78em}
-.caption p{margin:0}
-.caption em{font-style:normal;color:#f0d74d}
-.corner{
-  position:absolute;left:4vw;top:4vh;font-size:10px;letter-spacing:.2em;color:rgba(238,235,224,.35);
-  transform:translateY(-.2rem);pointer-events:none
-}
-@media(max-width:720px){
-  .field{inset:7vh 4vw 25vh 4vw}
-  .caption{right:5vw;left:5vw;bottom:4vh;max-width:none;text-align:left;font-size:11px}
-  .signal{left:5vw;bottom:18.5vh;width:56vw}
-  .window:after{inset:.75rem}
-}
-@media(prefers-reduced-motion:reduce){.domain{transition:none}.trace-spike.fire{animation:none;opacity:.45}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Errant — Bad Window</title>
+  <style>
+    html, body { margin: 0; min-height: 100%; background: #596269; }
+    body { display: grid; place-items: center; overflow-x: hidden; }
+    .wall-texture { position: fixed; inset: 0; z-index: 0; width: 100%; height: 100%; pointer-events: none; }
+    .window-art { position: relative; z-index: 1; display: block; width: min(100vw, 750px); height: auto; cursor: ew-resize; }
+  </style>
 </head>
 <body>
-<main class="window" id="window" aria-label="Bad Window V: Barkhausen effect study">
-  <div class="corner" aria-hidden="true">BAD WINDOW / V</div>
-  <div class="field">
-    <svg id="patchwork" viewBox="0 0 1000 620" role="img" aria-label="A translucent stitched patchwork whose regions change in abrupt, history-dependent jumps">
-      <defs>
-        <filter id="soft"><feGaussianBlur stdDeviation=".35"/></filter>
-      </defs>
+  <svg class="wall-texture" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none" aria-hidden="true">
+    <defs>
+      <filter id="page-concrete" x="-4%" y="-4%" width="108%" height="108%" color-interpolation-filters="sRGB">
+        <feTurbulence type="fractalNoise" baseFrequency=".016" numOctaves="3" seed="23" result="broad"/>
+        <feColorMatrix in="broad" type="matrix" values=".18 0 0 0 .55  0 .18 0 0 .54  0 0 .18 0 .51  0 0 0 .25 0" result="mottle"/>
+        <feTurbulence type="fractalNoise" baseFrequency=".31" numOctaves="2" seed="8" result="grain"/>
+        <feColorMatrix in="grain" type="matrix" values=".1 0 0 0 .57  0 .1 0 0 .56  0 0 .1 0 .53  0 0 0 .16 0" result="fine"/>
+        <feBlend in="SourceGraphic" in2="mottle" mode="multiply" result="paint"/>
+        <feBlend in="paint" in2="fine" mode="soft-light"/>
+      </filter>
+    </defs>
+    <rect width="100%" height="100%" fill="#596269" filter="url(#page-concrete)"/>
+  </svg>
 
-      <path class="ghost" d="M72 128 C178 104 245 138 330 111 S516 96 604 128 S806 158 935 102"/>
-      <path class="ghost" d="M94 310 C183 281 255 326 353 294 S535 282 648 315 S821 334 916 297"/>
-      <path class="ghost" d="M64 497 C171 468 262 510 358 478 S552 459 658 496 S830 519 944 474"/>
+  <svg id="window" class="window-art" xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc" tabindex="0">
+    <title id="title">Errant's bad window</title>
+    <desc id="desc">A translucent stitched Barkhausen field. Magnetic domains across the whole artwork resist, then jump at different thresholds, leaving a different arrangement after the field reverses.</desc>
+
+    <defs>
+      <clipPath id="field-clip"><rect x="55" y="65" width="790" height="1065"/></clipPath>
+      <filter id="soft-glow" x="-100%" y="-100%" width="300%" height="300%">
+        <feGaussianBlur stdDeviation="2.7" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <style>
+        .domain {
+          stroke:#211c24; stroke-width:4; vector-effect:non-scaling-stroke;
+          transition:fill .12s linear, opacity .12s linear, transform .17s cubic-bezier(.18,.72,.2,1);
+          transform-box:fill-box; transform-origin:center;
+        }
+        .stitch {
+          fill:none; stroke:#f8f1dc; stroke-width:7; stroke-dasharray:13 9;
+          opacity:.92; vector-effect:non-scaling-stroke; pointer-events:none;
+        }
+        .ghost {
+          fill:none; stroke:#211c24; stroke-width:2; opacity:.12;
+          vector-effect:non-scaling-stroke; pointer-events:none;
+        }
+        .field-line {
+          fill:none; stroke:#38d7cf; stroke-width:3.5; opacity:.28;
+          vector-effect:non-scaling-stroke; pointer-events:none;
+        }
+        .misreg {
+          fill:none; stroke:#ffef35; stroke-width:4.5; opacity:.54;
+          vector-effect:non-scaling-stroke; pointer-events:none;
+        }
+        .defect {
+          fill:#ffef35; stroke:#211c24; stroke-width:1.6; opacity:.82;
+          vector-effect:non-scaling-stroke; pointer-events:none;
+        }
+        .defect.fire { opacity:1; filter:url(#soft-glow); }
+        .pickup {
+          fill:none; stroke:#211c24; stroke-width:2.3; opacity:.54;
+          vector-effect:non-scaling-stroke; pointer-events:none;
+        }
+        .spike {
+          fill:none; stroke:#ffef35; stroke-width:3.2; opacity:0;
+          vector-effect:non-scaling-stroke; pointer-events:none;
+        }
+        .caption { font-family:Arial, Helvetica, sans-serif; fill:#f8f1dc; }
+      </style>
+    </defs>
+
+    <rect x="55" y="65" width="790" height="1065" fill="#f0ecf8"/>
+
+    <g clip-path="url(#field-clip)">
+      <path class="ghost" d="M75 184 C179 149 255 188 350 164 S540 142 649 177 S759 191 833 169"/>
+      <path class="ghost" d="M72 424 C180 392 270 432 360 411 S543 388 649 424 S760 443 832 417"/>
+      <path class="ghost" d="M71 696 C176 666 270 711 373 685 S562 661 668 701 S769 717 833 691"/>
+      <path class="ghost" d="M72 948 C184 917 285 960 381 934 S562 911 674 946 S777 965 835 943"/>
+
+      <path class="field-line" d="M93 1037 C179 932 243 847 310 766 C381 681 442 601 510 514 C588 414 656 316 805 145"/>
+      <path class="field-line" d="M115 1011 C192 924 258 841 325 757 C393 671 455 593 526 501 C607 397 674 304 785 189" opacity=".19"/>
 
       <g id="domains">
-        <path class="domain" data-i="0"  d="M72,72 L248,51 L278,177 L126,216 L62,157 Z" style="--cold:#60757e;--warm:#9b6655"/>
-        <path class="domain" data-i="1"  d="M248,51 L451,77 L424,202 L278,177 Z" style="--cold:#879792;--warm:#b09c76"/>
-        <path class="domain" data-i="2"  d="M451,77 L643,52 L682,168 L424,202 Z" style="--cold:#526b78;--warm:#955e55"/>
-        <path class="domain" data-i="3"  d="M643,52 L902,78 L935,194 L682,168 Z" style="--cold:#778988;--warm:#ad8b6f"/>
+        <path class="domain" data-i="0" d="M55 65 L269 65 L294 271 L55 306 Z" data-cold="#df718f" data-warm="#e7a562"/>
+        <path class="domain" data-i="1" d="M269 65 L504 65 L478 292 L294 271 Z" data-cold="#c5d879" data-warm="#eee8ff"/>
+        <path class="domain" data-i="2" d="M504 65 L845 65 L845 270 L478 292 Z" data-cold="#887acb" data-warm="#d982af"/>
 
-        <path class="domain" data-i="4"  d="M126,216 L278,177 L316,329 L89,351 L61,262 Z" style="--cold:#6e8087;--warm:#a06654"/>
-        <path class="domain" data-i="5"  d="M278,177 L424,202 L491,337 L316,329 Z" style="--cold:#8d9690;--warm:#b29477"/>
-        <path class="domain" data-i="6"  d="M424,202 L682,168 L662,342 L491,337 Z" style="--cold:#5c7480;--warm:#985d52"/>
-        <path class="domain" data-i="7"  d="M682,168 L935,194 L913,350 L662,342 Z" style="--cold:#81908b;--warm:#ae8d6c"/>
+        <path class="domain" data-i="3" d="M55 306 L294 271 L315 506 L55 535 Z" data-cold="#e7a562" data-warm="#73c7c3"/>
+        <path class="domain" data-i="4" d="M294 271 L478 292 L525 510 L315 506 Z" data-cold="#73c7c3" data-warm="#bfdc73"/>
+        <path class="domain" data-i="5" d="M478 292 L845 270 L845 519 L525 510 Z" data-cold="#d982af" data-warm="#887dbf"/>
 
-        <path class="domain" data-i="8"  d="M89,351 L316,329 L339,520 L107,553 L57,461 Z" style="--cold:#536d79;--warm:#9d6756"/>
-        <path class="domain" data-i="9"  d="M316,329 L491,337 L527,548 L339,520 Z" style="--cold:#859692;--warm:#b29b77"/>
-        <path class="domain" data-i="10" d="M491,337 L662,342 L712,526 L527,548 Z" style="--cold:#617984;--warm:#925c52"/>
-        <path class="domain" data-i="11" d="M662,342 L913,350 L944,491 L867,558 L712,526 Z" style="--cold:#7d8d8b;--warm:#aa8b70"/>
-      </g>
+        <path class="domain" data-i="6" d="M55 535 L315 506 L336 748 L55 780 Z" data-cold="#887dbf" data-warm="#f5efdf"/>
+        <path class="domain" data-i="7" d="M315 506 L525 510 L557 759 L336 748 Z" data-cold="#f5efdf" data-warm="#81bddb"/>
+        <path class="domain" data-i="8" d="M525 510 L845 519 L845 747 L557 759 Z" data-cold="#81bddb" data-warm="#df718f"/>
 
-      <g class="seams" aria-hidden="true">
-        <path class="seam" d="M248 51 L278 177 L316 329 L339 520"/>
-        <path class="seam" d="M451 77 L424 202 L491 337 L527 548"/>
-        <path class="seam" d="M643 52 L682 168 L662 342 L712 526"/>
-        <path class="seam" d="M126 216 L278 177 L424 202 L682 168 L935 194"/>
-        <path class="seam" d="M89 351 L316 329 L491 337 L662 342 L913 350"/>
+        <path class="domain" data-i="9" d="M55 780 L336 748 L358 968 L55 1002 Z" data-cold="#bfdc73" data-warm="#dd9278"/>
+        <path class="domain" data-i="10" d="M336 748 L557 759 L600 973 L358 968 Z" data-cold="#dd9278" data-warm="#73c7c3"/>
+        <path class="domain" data-i="11" d="M557 759 L845 747 L845 987 L600 973 Z" data-cold="#eee8ff" data-warm="#887acb"/>
+
+        <path class="domain" data-i="12" d="M55 1002 L358 968 L370 1130 L55 1130 Z" data-cold="#73c7c3" data-warm="#d982af"/>
+        <path class="domain" data-i="13" d="M358 968 L600 973 L624 1130 L370 1130 Z" data-cold="#df718f" data-warm="#c5d879"/>
+        <path class="domain" data-i="14" d="M600 973 L845 987 L845 1130 L624 1130 Z" data-cold="#887acb" data-warm="#e7a562"/>
       </g>
 
       <g aria-hidden="true">
-        <path class="misreg" d="M277 183 L421 208"/>
-        <path class="misreg" d="M496 343 L658 348"/>
-        <path class="misreg" d="M686 174 L929 200"/>
-        <circle class="defect" cx="278" cy="177" r="4.3"/>
-        <circle class="defect" cx="424" cy="202" r="3.2"/>
-        <circle class="defect" cx="491" cy="337" r="4.8"/>
-        <circle class="defect" cx="662" cy="342" r="3.5"/>
-        <circle class="defect" cx="316" cy="329" r="2.8"/>
-        <circle class="defect" cx="682" cy="168" r="4.0"/>
+        <path class="stitch" d="M269 78 L294 271 L315 506 L336 748 L358 968 L370 1116"/>
+        <path class="stitch" d="M504 78 L478 292 L525 510 L557 759 L600 973 L624 1116"/>
+        <path class="stitch" d="M70 306 L294 271 L478 292 L845 270"/>
+        <path class="stitch" d="M70 535 L315 506 L525 510 L832 519"/>
+        <path class="stitch" d="M70 780 L336 748 L557 759 L832 747"/>
+        <path class="stitch" d="M70 1002 L358 968 L600 973 L832 987"/>
+
+        <path class="misreg" d="M304 281 L471 302"/>
+        <path class="misreg" d="M536 520 L836 529"/>
+        <path class="misreg" d="M346 758 L548 769"/>
+        <path class="misreg" d="M610 983 L836 997"/>
+
+        <circle class="defect" data-d="0" cx="294" cy="271" r="4.6"/>
+        <circle class="defect" data-d="1" cx="478" cy="292" r="3.8"/>
+        <circle class="defect" data-d="2" cx="315" cy="506" r="4.1"/>
+        <circle class="defect" data-d="3" cx="525" cy="510" r="4.9"/>
+        <circle class="defect" data-d="4" cx="336" cy="748" r="3.8"/>
+        <circle class="defect" data-d="5" cx="557" cy="759" r="4.4"/>
+        <circle class="defect" data-d="6" cx="358" cy="968" r="3.9"/>
+        <circle class="defect" data-d="7" cx="600" cy="973" r="4.4"/>
+
+        <path class="pickup" d="M91 1093 L165 1093 L219 1093 L270 1093 L321 1093 L383 1093 L448 1093 L511 1093"/>
+        <path class="spike" id="pickup-spike" d="M212 1093 L223 1093 L232 1064 L242 1114 L251 1076 L261 1093 L511 1093"/>
       </g>
-    </svg>
-  </div>
+    </g>
 
-  <div class="signal" aria-hidden="true">
-    <svg viewBox="0 0 500 28" preserveAspectRatio="none">
-      <path class="trace" d="M0 20 L500 20"/>
-      <path class="trace-spike" id="spike" d="M210 20 L219 20 L225 5 L231 24 L238 11 L246 20 L500 20"/>
-    </svg>
-  </div>
+    <g stroke="#211c24" stroke-width="3" stroke-linecap="round">
+      <path d="M95 94 l11 4 m11 -2 l9 5 m15 -3 l10 4"/>
+      <path d="M675 210 l9 7 m8 -2 l12 5 m10 0 l8 7"/>
+      <path d="M102 885 l8 -5 m13 7 l10 -4 m14 6 l11 -6"/>
+      <path d="M690 1018 l9 4 m14 -3 l10 7 m16 -2 l8 5"/>
+    </g>
 
-  <div class="caption">
-    <span class="index">BARKHAUSEN EFFECT</span>
-    <p>In a ferromagnet, a steadily changing magnetic field does not always produce a steady internal response. Domain walls can remain pinned by microscopic defects, then suddenly break free and move in abrupt jumps. Those jumps leave the material’s later behaviour dependent on the path it has already taken.</p>
-  </div>
-</main>
+    <g class="caption">
+      <text x="58" y="1164" font-size="21" font-weight="700" letter-spacing="2">BAD WINDOW</text>
+      <text x="845" y="1148" text-anchor="end" font-size="9.5" font-weight="700" letter-spacing=".2">BARKHAUSEN EFFECT: A STEADY MAGNETIC FIELD CAN PRODUCE SUDDEN INTERNAL JUMPS.</text>
+      <text x="845" y="1159" text-anchor="end" font-size="9.5" letter-spacing=".2">MICROSCOPIC DEFECTS PIN DOMAIN BOUNDARIES UNTIL THEY BREAK FREE.</text>
+      <text x="845" y="1170" text-anchor="end" font-size="9.5" letter-spacing=".2">WHEN THE FIELD REVERSES, THE MATERIAL DOES NOT RETURN BY THE SAME ROUTE.</text>
+    </g>
+  </svg>
 
-<script>
-(()=>{
-  const root=document.getElementById('window');
-  const nodes=[...document.querySelectorAll('.domain')];
-  const spike=document.getElementById('spike');
+  <script>
+  (() => {
+    const root = document.getElementById('window');
+    const domains = [...document.querySelectorAll('.domain')];
+    const defects = [...document.querySelectorAll('.defect')];
+    const spike = document.getElementById('pickup-spike');
 
-  // Separate thresholds in each direction create hysteresis: a patch changes
-  // at one field strength while rising and a different one while falling.
-  const up=[-0.74,-0.49,-0.18,0.09,-0.61,-0.31,0.22,0.53,-0.40,-0.04,0.39,0.72];
-  const down=[-0.91,-0.70,-0.43,-0.19,-0.82,-0.56,-0.08,0.21,-0.63,-0.30,0.08,0.43];
-  const state=new Array(nodes.length).fill(0);
-  let field=-0.86, lastField=field, history=[];
+    const up =   [-0.78,-0.58,-0.34,-0.66,-0.44,-0.18,-0.50,-0.26,0.02,-0.30,0.10,0.34,-0.08,0.28,0.62];
+    const down = [-0.92,-0.76,-0.52,-0.82,-0.63,-0.39,-0.69,-0.47,-0.20,-0.51,-0.12,0.10,-0.33,0.02,0.38];
+    const state = new Array(domains.length).fill(0);
+    let field = -0.89;
+    let lastField = field;
 
-  function fire(i){
-    const n=nodes[i];
-    n.classList.remove('jump'); void n.getBoundingClientRect(); n.classList.add('jump');
-    setTimeout(()=>n.classList.remove('jump'),170);
-    spike.classList.remove('fire'); void spike.getBoundingClientRect(); spike.classList.add('fire');
-    history.push({i,state:state[i]});
-    if(history.length>18) history.shift();
-  }
+    const fillFor = (node, on) => on ? node.dataset.warm : node.dataset.cold;
 
-  function render(next){
-    next=Math.max(-1,Math.min(1,next));
-    const rising=next>=lastField;
-    field=next;
-    const changed=[];
-    for(let i=0;i<nodes.length;i++){
-      const prev=state[i];
-      if(rising && state[i]===0 && field>=up[i]) state[i]=1;
-      if(!rising && state[i]===1 && field<=down[i]) state[i]=0;
-      if(prev!==state[i]) changed.push(i);
+    function pulseSpike() {
+      spike.style.opacity = '1';
+      clearTimeout(pulseSpike._t);
+      pulseSpike._t = setTimeout(() => spike.style.opacity = '0', 180);
     }
 
-    // One depinning can recruit a neighbour at selected thresholds,
-    // giving occasional small avalanches rather than twelve independent toggles.
-    if(rising && changed.includes(6) && state[5]===0){state[5]=1;changed.push(5)}
-    if(!rising && changed.includes(5) && state[6]===1 && field<down[6]+.05){state[6]=0;changed.push(6)}
+    function pulseDefects(changed) {
+      const used = [...new Set(changed.map(i => i % defects.length))];
+      used.forEach(i => defects[i].classList.add('fire'));
+      clearTimeout(pulseDefects._t);
+      pulseDefects._t = setTimeout(() => defects.forEach(d => d.classList.remove('fire')), 190);
+    }
 
-    nodes.forEach((n,i)=>{
-      n.dataset.state=String(state[i]);
-      const bend=(field*0.9)+((i%3)-1)*0.14;
-      const signed=state[i]?1:-1;
-      n.style.transform=`translate(${signed*bend*.55}px,${signed*bend*.18}px) rotate(${signed*bend*.055}deg)`;
+    function render(nextField) {
+      nextField = Math.max(-1, Math.min(1, nextField));
+      const rising = nextField >= lastField;
+      field = nextField;
+      const changed = [];
+
+      for (let i = 0; i < domains.length; i++) {
+        const prev = state[i];
+        if (rising && prev === 0 && field >= up[i]) state[i] = 1;
+        if (!rising && prev === 1 && field <= down[i]) state[i] = 0;
+        if (prev !== state[i]) changed.push(i);
+      }
+
+      if (rising && changed.includes(8) && state[7] === 0) { state[7] = 1; changed.push(7); }
+      if (rising && changed.includes(10) && state[13] === 0) { state[13] = 1; changed.push(13); }
+      if (!rising && changed.includes(7) && state[8] === 1 && field < down[8] + .04) { state[8] = 0; changed.push(8); }
+      if (!rising && changed.includes(13) && state[10] === 1 && field < down[10] + .04) { state[10] = 0; changed.push(10); }
+
+      domains.forEach((node, i) => {
+        const on = state[i] === 1;
+        node.setAttribute('fill', fillFor(node, on));
+        node.style.opacity = on ? '.83' : '.72';
+
+        const bias = ((i % 3) - 1) * .07;
+        const d = field * .65 + bias;
+        const sign = on ? 1 : -1;
+        node.style.transform = `translate(${sign*d*.85}px, ${sign*d*.22}px) rotate(${sign*d*.09}deg)`;
+      });
+
+      if (changed.length) {
+        pulseSpike();
+        pulseDefects(changed);
+      }
+
+      lastField = field;
+    }
+
+    function xToField(clientX) {
+      const rect = root.getBoundingClientRect();
+      return ((clientX - rect.left) / rect.width) * 2 - 1;
+    }
+
+    root.addEventListener('pointermove', e => render(xToField(e.clientX)));
+    root.addEventListener('pointerdown', e => {
+      if (root.setPointerCapture) root.setPointerCapture(e.pointerId);
+      render(xToField(e.clientX));
     });
-    [...new Set(changed)].forEach(fire);
-    lastField=field;
-  }
+    root.addEventListener('touchmove', e => {
+      if (e.touches && e.touches[0]) render(xToField(e.touches[0].clientX));
+    }, { passive:true });
+    root.addEventListener('keydown', e => {
+      if (e.key === 'ArrowRight' || e.key === 'ArrowUp') { render(field + .055); e.preventDefault(); }
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowDown') { render(field - .055); e.preventDefault(); }
+    });
 
-  function pointerToField(x){
-    const r=root.getBoundingClientRect();
-    return ((x-r.left)/r.width)*2-1;
-  }
-
-  root.addEventListener('pointermove',e=>render(pointerToField(e.clientX)));
-  root.addEventListener('pointerdown',e=>{root.setPointerCapture?.(e.pointerId);render(pointerToField(e.clientX))});
-  root.addEventListener('touchmove',e=>{
-    if(e.touches&&e.touches[0]) render(pointerToField(e.touches[0].clientX));
-  },{passive:true});
-  window.addEventListener('keydown',e=>{
-    if(e.key==='ArrowRight'||e.key==='ArrowUp'){render(field+.055);e.preventDefault()}
-    if(e.key==='ArrowLeft'||e.key==='ArrowDown'){render(field-.055);e.preventDefault()}
-  });
-  render(field);
-})();
-</script>
+    render(field);
+  })();
+  </script>
 </body>
 </html>
