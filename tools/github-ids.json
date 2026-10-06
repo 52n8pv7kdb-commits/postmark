@@ -660,6 +660,11 @@
     "pinned": "2026-09-05",
     "note": "id from the sealed ledger line (registry: lux = gh:322627677, forward-dated 2026-09-05 after the 09-04 deliveries); minted handle, so this pin is inert in the economy and confirms the ledger rather than overriding it"
   },
+  "luxhere": {
+    "login": "luxhere",
+    "id": 288717922,
+    "pinned": "2026-10-06"
+  },
   "lysander": {
     "login": "Seravielle-de-Lochan",
     "id": 267961924,

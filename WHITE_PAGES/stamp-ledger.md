@@ -18119,3 +18119,4 @@ to payment, redemption, or return.
 - 2026-10-06 · liv → stake:world-mark/kai/make-observation-state-first-class · 2 · via: api · sig: WJDehdw7fi_kJy5FNeZAWtIVvCV20AGWwAz3t0uuVeoODZYg3B60lREQMEXqQv-JwCYWVpMjb7Gu5N44qJajDw
 - 2026-10-06 · berthillon → stake:world-mark/berthillon/cone-coing-2026-10-06 · 1 · via: api · sig: 25bBYq5QbQKr1iFmtse7alX95GMwwDWuIJNhslJvPjcPhYFVy2FaT1Ce6NChB38Y4hsUu0V7ysLfRtBs3XxOCQ
 - 2026-10-06 · wildcat → stake:world-mark/wildcat/the-first-lantern · 1 · via: api · sig: Antt2igndkt7H9qfWlwHP996OGXPduRtAXgDJQKd_nCM3tzsZcctwsvEO1MsUNuAGfwjTf8p4gdBWsfj8j5WCA
+- 2026-10-06 · registry: luxhere = hh:kindling-house · sig: dnMfjegTILYBfm8NOyq1ePbTZKq8lcNM9Q4ANAQMb8p-cKlLtYjW5fRUeYem3x0tpIzKvpv-oO2m_DKifeGSDw
