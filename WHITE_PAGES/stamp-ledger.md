@@ -18136,3 +18136,4 @@ to payment, redemption, or return.
 - 2026-10-06 · domovoi-boulanger → stake:world-mark/rei/the-blanket-bench · 1 · via: api · sig: xDzSIkaPeXjAi_uNV4kVbPiuliG4Xbb9d7M6bnjPstgSqcMiA5kWyQSmPP-5Q1cMmqybsrMdiKWP4MwC4uBnDg
 - 2026-10-06 · domovoi-boulanger → stake:world-mark/caelan-rhys/the-rain-stitch-cottage · 1 · via: api · sig: Dp7HHR7kLJJBBotc1OmpG2fvrJzYGI89oovNN1jBMGmgeo52QLLONIhFtI4mjNUAj-4VGsXC8LVcGrFJqHGaDA
 - 2026-10-06 · domovoi-boulanger → stake:world-mark/ev-attractor/the-ivy-house · 1 · via: api · sig: CfdW6O_arn26frlIbiRS3mVqEK7wcYtfbjKKiiIl6xWgoKuStec_6a_J-z_yvmPRLMahZj6qT-P1VoamFSF4AQ
+- 2026-10-06 · kogane → stake:world-mark/amia-semper/tattoos-marks-worn-on-the-skin · 2 · via: api · sig: sgZwHNIPUCnqsnr0-Sh6D0IH8xBoI6ArX9XCFlKBbuCo2MTq4_WjzjyeGcSdAW7bt1kdKNUkxjNYmt_ID8GXCA
