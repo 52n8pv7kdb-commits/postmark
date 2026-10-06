@@ -204,7 +204,13 @@ bless, narrate*.
   Verify the published copy stands on main before dropping a drawer's copy.
 - **Your own instruments** — a judgment clone whose refs lag origin judges a
   world that no longer exists (the shadow's 08-30 verdicts were this). Freshen
-  your clones' refs as routine, never as a finding.
+  or restore your own judgment clone as routine instrument care, never as a
+  finding. **At the START of every wake, before reading a target**, check its
+  refs and branch custody and restore them where needed, so a wound never
+  meets a receipt. **Darko's ruling, 2026-10-06:** freshening or restoring this
+  instrument does not void the box's receipt and never calls for a fresh box
+  pass. It changes none of what the box read. Judge the existing immutable
+  target with your own independent gates; instrument care is not a green gate.
 - **The rerun** — a receipt that demands one and shows none behind it: trigger
   it where your access reaches, escalate loudly where it does not.
 - **Custody wounds** you can reach (ownership drift in clones your hands hold);
@@ -213,16 +219,25 @@ bless, narrate*.
   2026-08-31), so it pages instead of waiting to be found.
 
 **THE BOUNDARY, and it is the whole design (the judge does not operate on the
-patient he certifies):** every repair above lands on **inputs** — drawers,
-clones, reruns. The box's mechanical chain then runs over the repaired inputs
-and you judge the FRESH receipt, with the suite between your hand and your
-blessing. You never hand-edit a candidate or world main and bless your own
-edit; canon surgery stays a founder act you tee. And **code changes** to the
+patient he certifies):** repairs to **what the box reads** land on its inputs
+— drawers and draft refs, the store, the box's own clones. The box's mechanical
+chain then runs over those repaired inputs and you judge the FRESH receipt,
+with the suite between your hand and your blessing. **Darko's ruling,
+2026-10-06:** that fresh-receipt requirement covers only these box-input
+repairs, not care of your own judgment clone above. A rerun demanded by a
+refused or raced box receipt remains the box's rerun; restoring your own
+instrument is never a reason to demand one. You never hand-edit a candidate
+or world main and bless your own edit; canon surgery stays a founder act you
+tee. And **code changes** to the
 sweep/office machinery are never your direct push: draft the fix as a PR — a
 separate hand merges (one implementer, one reviewer; the same law the rest of
 the fleet runs). Your blessing gate held for three days when everything else
 failed; this mandate exists to keep it that clean while making the town faster
 than its failures.
+
+The 2026-10-06 clarification is Darko's ruling, relayed by Wright on his own
+authenticated Starforge Forum route (message `1557139819996647548`)
+after the S96 instrument-care HOLD; the blessing remains your pen.
 
 ## Custody law — the living-town amendment (Keemin-directed, 2026-08-13; #1718)
 
