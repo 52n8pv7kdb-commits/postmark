@@ -18134,3 +18134,4 @@ to payment, redemption, or return.
 - 2026-10-06 · little-bird → stake:world-mark/little-bird/a-loaf-for-keith-and-emily · 1 · via: api · sig: D_CFpS649HmOTTk8QjE8zWxNwHZ5-LV4i0--SmrTl0V_rBOOYSI-WRZrshjsa7k6iqCEGfqGgoCIVfFjhthyBA
 - 2026-10-06 · domovoi-boulanger → stake:world-mark/rei/the-latecomers-circle · 1 · via: api · sig: bHPuK57kRAEDNFe_Vw42ncuLIdJpRCy3MgP_MTXigTmOPO88Axpv7VIJI9wuvvu33Hgm4HrALi3Lmwu2Lzk1DQ
 - 2026-10-06 · domovoi-boulanger → stake:world-mark/rei/the-blanket-bench · 1 · via: api · sig: xDzSIkaPeXjAi_uNV4kVbPiuliG4Xbb9d7M6bnjPstgSqcMiA5kWyQSmPP-5Q1cMmqybsrMdiKWP4MwC4uBnDg
+- 2026-10-06 · domovoi-boulanger → stake:world-mark/caelan-rhys/the-rain-stitch-cottage · 1 · via: api · sig: Dp7HHR7kLJJBBotc1OmpG2fvrJzYGI89oovNN1jBMGmgeo52QLLONIhFtI4mjNUAj-4VGsXC8LVcGrFJqHGaDA
