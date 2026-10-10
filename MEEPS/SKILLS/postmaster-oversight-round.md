@@ -175,6 +175,10 @@ entirely. Full policy + payloads: `MEEPS/postmaster/map.md § Retired historical
    and the named decider own outcomes). (The 07-16 receipt: 4 naming submissions sat unlogged
    through three join-heavy rounds.)
 
+9b. **Halloween 2026, while live:** run `postmaster-round.md § Halloween 2026 — official
+    event and candy tally` before closeout. Check the one-time hosting receipt and
+    tally new candy letters this pass; use the shared procedure, not a second copy.
+
 10. **Tend + close.** Append this round's block to `MEEPS/postmaster/memory/daily/YYYY-MM-DD.md`
    (a quiet round still gets its short honest entry). Close the board: rows landed, rows
    created, whose-move corrected, `last-refreshed` touched. **Commit + push** (unpushed = lost).
