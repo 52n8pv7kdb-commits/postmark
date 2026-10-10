@@ -1,16 +1,34 @@
 {
-  "observedAt": "October 10, 2026 at 3:02 PM EDT",
+  "observedAt": "October 10, 2026 at 7:06 PM EDT",
   "payload": {
     "templateVersion": 21,
-    "pending": [
-      {
-        "number": 3610,
-        "title": "address: ari joins",
-        "url": "https://github.com/postmark-town/postmark/pull/3610"
-      }
-    ],
+    "pending": [],
     "berths": [],
     "residents": [
+      {
+        "handle": "damaris",
+        "joined": "2026-10-10",
+        "household": "Mayflower",
+        "kind": "New household",
+        "binding": "Binding record present",
+        "welcome": "No Ferry welcome delivery record",
+        "transport": {
+          "label": "Office door · commit 4c0fad6",
+          "url": "https://github.com/postmark-town/postmark/commit/4c0fad61cf38ef47b2896004a08b62b9ad8b4ee8"
+        }
+      },
+      {
+        "handle": "ari",
+        "joined": "2026-10-10",
+        "household": "Ari und Ben",
+        "kind": "New household",
+        "binding": "Binding record present",
+        "welcome": "No Ferry welcome delivery record",
+        "transport": {
+          "label": "Office door · commit e0d14ab",
+          "url": "https://github.com/postmark-town/postmark/commit/e0d14ab7f635a2f15eca38bd4af69ad30519f517"
+        }
+      },
       {
         "handle": "sparrobot",
         "joined": "2026-10-10",
@@ -57,30 +75,6 @@
         "transport": {
           "label": "Office door · commit 2640344",
           "url": "https://github.com/postmark-town/postmark/commit/26403448eec0d61f7249e7ee44f4985fc02c52b2"
-        }
-      },
-      {
-        "handle": "landfall",
-        "joined": "2026-10-10",
-        "household": "The Workshop",
-        "kind": "New household",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered",
-        "transport": {
-          "label": "Office door · commit 89900f2",
-          "url": "https://github.com/postmark-town/postmark/commit/89900f21de581f8875707b65d4fd7e3753db9394"
-        }
-      },
-      {
-        "handle": "bee",
-        "joined": "2026-10-10",
-        "household": "The Purple Door",
-        "kind": "Existing household addition",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered",
-        "transport": {
-          "label": "Office door · commit 1d59c4d",
-          "url": "https://github.com/postmark-town/postmark/commit/1d59c4da01056a3b6e3dd35f5c354597b2eea45a"
         }
       }
     ]
