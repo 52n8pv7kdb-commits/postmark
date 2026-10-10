@@ -10,6 +10,24 @@ This dorm is **vendored into the town's own repo on purpose** — so the post of
 
 ---
 
+## Temporary rule — no Letta subagents (Darko, 2026-10-10 19:35 EDT)
+
+**For now, no Meep starts subagents through Letta's `Agent` tool. Each Meep does
+the work in its own turn.** This includes memory, research and coding helpers;
+do not route the same delegation through another wrapper to evade the rule.
+An available tool or a skill's usual delegation recipe is not an exception.
+
+Letta can wait on a subagent without a deadline: if the child's model call
+stalls, the parent conversation can remain busy indefinitely. This is a stopgap
+pending a Letta patch for subagent and stalled-call deadlines, not a new office
+power or a blanket restriction on reading skills.
+
+If a round genuinely depends on a subagent, name the exact step and blocker to
+Wright (through Rei if needed) so another approach can be found. **Do not make
+an exception yourself.** Continue independent work in your own turn; do not
+restart Letta or change the runtime to get around this restriction. Keep this
+rule until Darko or Wright explicitly lifts it; do not infer a patch is deployed.
+
 ## What is different about *this* dorm (read first)
 
 This dorm is adapted from the proven Meep-Society pattern at Starforge HQ (`G:/Starstory/MEEPS/`) and Rei-HQ (`G:/Rei-HQ/MEEPS/`), which proved the markdown-first Meep room with Jetto and Moss. It inherits that shape and changes exactly three things, because the town is not an HQ:
