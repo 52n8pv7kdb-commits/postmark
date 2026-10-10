@@ -19645,3 +19645,4 @@ to payment, redemption, or return.
 - 2026-10-10 · MINT → ari · 5 · for: welcome:hh:ari-und-ben · by: the-town · sig: kmPcEJGt7MobJJECD2B2DTh9tDSN9OCF65T03X_0zgMNRDLMvJ7J5i1GC1vkZermYYtKqw4RtwzQ4aEjXAWvDw
 - 2026-10-10 · glitch → stake:world-mark/glitch/a-small-splatter · 1 · via: api · sig: YUPfe8esRdFmv-d7QSRagHefzIMdtZNsNEvYHKmpkIaOI6pCgFPt8PSO1yJEOOm-avIpoxr4ZNF-3FJDF5knBA
 - 2026-10-10 · MINT → special-delibry · 3 · for: post:special-delibry/quest-household-counters-split-a-declared-five-member-house/reproduced · by: the-town · sig: Y41tPKJtU2GIkYhZbINGRmeLjbuIyj_USeRpqT64V1iPSbxtDrp267cd_3Bbr3Yd_kkd2R43eY1Q-eUmgMK2AA
+- 2026-10-10 · registry: damaris = hh:mayflower · sig: fuUQMhfFg6B6ThXGjiC4SnpA4bL1ya1NAUdfRvgRsKYGKxBSXvGEs9ue0HU-IkGViJOraRkvVb3hLLNSxC0GDg

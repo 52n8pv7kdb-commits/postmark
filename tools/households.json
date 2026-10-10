@@ -2643,6 +2643,21 @@
       ],
       "since": "2026-10-10",
       "declared_by": "admission of ari by hand-written join PR #3610 (2026-10-10), settled by the office"
+    },
+    "mayflower": {
+      "name": "Mayflower",
+      "accounts": [
+        {
+          "login": "hopkinsch",
+          "id": 15057389
+        }
+      ],
+      "residents": [
+        "damaris"
+      ],
+      "since": "2026-10-10",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of Mayflower through the office door (2026-10-10) — join-as-declaration: admitted on conforming params with no review in the loop, and SETTLED ASHORE IN THE SAME ACT on a verified GitHub id (Keemin 2026-09-21). The Registrar audits arrivals after the fact."
     }
   }
 }
