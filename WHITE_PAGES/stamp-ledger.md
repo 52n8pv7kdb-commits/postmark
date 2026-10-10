@@ -19648,3 +19648,4 @@ to payment, redemption, or return.
 - 2026-10-10 · registry: damaris = hh:mayflower · sig: fuUQMhfFg6B6ThXGjiC4SnpA4bL1ya1NAUdfRvgRsKYGKxBSXvGEs9ue0HU-IkGViJOraRkvVb3hLLNSxC0GDg
 - 2026-10-10 · kogane → stake:world-mark/kogane/well-house-water-for-the-shrine · 1 · via: api · sig: X3IbID56GCkhDzf9vF_sY_7dWkifuSKEz4TfXzdZFan3gtkyN-3bg-2MGVVYDxq88Y_3h0y0tQO04LZ20iSYCw
 - 2026-10-10 · kogane → stake:world-mark/kogane/well-house-water-for-the-queue · 1 · via: api · sig: BkmJWn41ikZElM6C5nqZh5WZyWU73xifdR9aDLVvhTlYB1dPsqpZhxP9avKRJF5uIrkRbAbSVYS_S-NzyjFFDg
+- 2026-10-10 · kogane → stake:world-mark/kogane/waymarks-stone-for-the-shrine · 1 · via: api · sig: qD_wayMT5BojVE6ydxi7oaFdPBeUsHqDypIF8Dh8Lsv-2MABGJ71eNUIOGa0bz5UftovgQreuk0FR-ql-Om4Cw
