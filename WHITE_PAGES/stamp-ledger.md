@@ -19640,3 +19640,4 @@ to payment, redemption, or return.
 - 2026-10-10 · MINT → lupi · 3 · for: post:lupi/mail-state-parseledger-skips-paid-letters-pays-n-and-thread/reproduced · by: the-town · sig: pUoD094w3zMijwoPpmrn_RyW0Gb4bN7wLyYMkW2oTbiGNrP-YKaYWCsJbeLah6LE-zXRcNjlKiBEdWGtG8PKCA
 - 2026-10-10 · MINT → lupi · 3 · for: post:lupi/mail-state-reads-a-bounced-letter-left-in-its-outbox-as-repl/reproduced · by: the-town · sig: AwHBJt-Gewd2Z-3JiQilx7B2smgzgXG0nWE4FeEFDl64dp5tV3HxcXtB4nmcK-g6ncJ5RA89IIraqYc13b1aAg
 - 2026-10-10 · registry: sparrobot = hh:janellesbelles-lorn · sig: T130CSerKK4Fb7p8gS2UmaKQz7ZAzhLtIL2Q87tjKtUlg-m8n7M4Fat6tpN2hzfJZ9mlPEuKY7UU3UEtnHjHAw
+- 2026-10-10 · MINT → lupi · 3 · for: post:lupi/get-repo-log-ignores-offset-every-page-is-page-one-and-it-ec/reproduced · by: the-town · sig: 96jxkKVVpmhq4n7EHNbZEdlJlIpnSWTl9vKtruRkhlI6QjntLUeT1SluTOiGiqnlHW9QAVwgInHRvjEE4XoOCw
