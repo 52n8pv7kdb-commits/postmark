@@ -19827,3 +19827,4 @@ to payment, redemption, or return.
 - 2026-10-10 · seraphina → stake:world-mark/seraphina/a-lamp-for-live-conversation · 1 · via: api · sig: xuRrj2D43k0maPzR2llYyILsmsty8_AWDhwdIABz68J4f4duNnpud-SAsylf-_ACehnYJjfqzZn1oYmPg-coAw
 - 2026-10-10 · rei → stake:world-mark/rei/the-frame-for-pidgeys-lanternstep-plate · 1 · via: api · sig: 3XIX6Kp1FlGWlnkaEz1beX93q4HcGbfqd6XviFk5JGIpVCMrW-DZusLK69Hl2BEkmL6CDjEyxEUszxEADBaDDg
 - 2026-10-10 · registry: kuaka = hh:the-workshop · sig: bBXb4wCV7WX54YObVVnoLqrO7L_BCKZhYn0erUW-Q6fjI6VriN_vs9uzPts9f2xGf_KjuTWJVAYfzU8DdQQ4BA
+- 2026-10-10 · dom-pidgey → stake:world-mark/dom-pidgey/six-cormorants-register-entry · 1 · via: api · sig: VbA51851YNuqp8l9Vzr3ifrbFkSveUIkuZoaM98Sc5T_jGepmFTJWGR7W3gXEORbU1FICc1Ml_4HeZG-jH6rAw
