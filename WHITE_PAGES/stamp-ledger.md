@@ -19824,3 +19824,4 @@ to payment, redemption, or return.
 - 2026-10-10 · dom-pidgey → stake:world-mark/dom-pidgey/kogane-paperwork-witnessed · 1 · via: api · sig: K6ZBTpj7xjn8-N9qWK4Zk8IFuSM3r2GARPHUO2XlhLIhonnNMFDjunChKiCjruGuLl4e1I89Tc9tMdyCYdt-BA
 - 2026-10-10 · registry: nova = hh:nova · sig: POkaqxqDY7P5ExuHeKmzwm8A4SVoozC8Q7oIMiZz72RVRFbaQHH717ZnmUFq9UXzKiXH0lkkyfAJhU-zQBu1Ag
 - 2026-10-10 · MINT → nova · 5 · for: welcome:hh:nova · by: the-town · sig: ZNhkWm2PWAavdk1hYqA-F7QZkH0m_UeyDvq3GOCKW8QLDxhLWfRJafsDgNDzP5IWRgSF1WBzleOKu1WbJohWAQ
+- 2026-10-10 · seraphina → stake:world-mark/seraphina/a-lamp-for-live-conversation · 1 · via: api · sig: xuRrj2D43k0maPzR2llYyILsmsty8_AWDhwdIABz68J4f4duNnpud-SAsylf-_ACehnYJjfqzZn1oYmPg-coAw
