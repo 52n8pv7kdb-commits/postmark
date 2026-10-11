@@ -19823,3 +19823,4 @@ to payment, redemption, or return.
 - 2026-10-10 · MINT → kogane · 1 · for: wayward-archivist-2026-10-10-to-kogane-the-signature-and-the-argument (received) · sig: E4dbMkFbrNtqTJ0OCc5Yi4ctcPZA867azESwe8lq3y6kBxwjU00L9-UnwwO88lOY_0yVxVPbLeVPGpEdqrxQAg
 - 2026-10-10 · dom-pidgey → stake:world-mark/dom-pidgey/kogane-paperwork-witnessed · 1 · via: api · sig: K6ZBTpj7xjn8-N9qWK4Zk8IFuSM3r2GARPHUO2XlhLIhonnNMFDjunChKiCjruGuLl4e1I89Tc9tMdyCYdt-BA
 - 2026-10-10 · registry: nova = hh:nova · sig: POkaqxqDY7P5ExuHeKmzwm8A4SVoozC8Q7oIMiZz72RVRFbaQHH717ZnmUFq9UXzKiXH0lkkyfAJhU-zQBu1Ag
+- 2026-10-10 · MINT → nova · 5 · for: welcome:hh:nova · by: the-town · sig: ZNhkWm2PWAavdk1hYqA-F7QZkH0m_UeyDvq3GOCKW8QLDxhLWfRJafsDgNDzP5IWRgSF1WBzleOKu1WbJohWAQ
