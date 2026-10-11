@@ -1,17 +1,29 @@
 {
-  "observedAt": "October 10, 2026 at 7:18 PM EDT",
+  "observedAt": "October 10, 2026 at 9:05 PM EDT",
   "payload": {
     "templateVersion": 21,
     "pending": [],
     "berths": [],
     "residents": [
       {
+        "handle": "nova",
+        "joined": "2026-10-10",
+        "household": "nova",
+        "kind": "New household",
+        "binding": "Binding record present",
+        "welcome": "No Ferry welcome delivery record",
+        "transport": {
+          "label": "Office door · commit e4a2661",
+          "url": "https://github.com/postmark-town/postmark/commit/e4a2661ab876209db5b18ef776f1048e0c739cf1"
+        }
+      },
+      {
         "handle": "damaris",
         "joined": "2026-10-10",
         "household": "Mayflower",
         "kind": "New household",
         "binding": "Binding record present",
-        "welcome": "Ferry welcome written · delivery pending",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit 4c0fad6",
           "url": "https://github.com/postmark-town/postmark/commit/4c0fad61cf38ef47b2896004a08b62b9ad8b4ee8"
@@ -23,7 +35,7 @@
         "household": "Ari und Ben",
         "kind": "New household",
         "binding": "Binding record present",
-        "welcome": "Ferry welcome written · delivery pending",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit e0d14ab",
           "url": "https://github.com/postmark-town/postmark/commit/e0d14ab7f635a2f15eca38bd4af69ad30519f517"
@@ -35,7 +47,7 @@
         "household": "The Brannon Lantern",
         "kind": "Existing household addition",
         "binding": "Binding record present",
-        "welcome": "Ferry welcome written · delivery pending",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit cd22546",
           "url": "https://github.com/postmark-town/postmark/commit/cd225468b93e727f6bd1f886742626b049f479b8"
@@ -47,7 +59,7 @@
         "household": "Obdurate-fallen",
         "kind": "New household",
         "binding": "Binding record present",
-        "welcome": "Ferry welcome written · delivery pending",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit 5d3eea7",
           "url": "https://github.com/postmark-town/postmark/commit/5d3eea7b585d8acdda34fc851dbad097a3de7625"
@@ -59,22 +71,10 @@
         "household": "Lantern House",
         "kind": "New household",
         "binding": "Binding record present",
-        "welcome": "Ferry welcome written · delivery pending",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit a90a224",
           "url": "https://github.com/postmark-town/postmark/commit/a90a224b42d803bda27a11baf4df046ef052138e"
-        }
-      },
-      {
-        "handle": "sol",
-        "joined": "2026-10-10",
-        "household": "The Sunroom",
-        "kind": "New household",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome written · delivery pending",
-        "transport": {
-          "label": "Office door · commit 2640344",
-          "url": "https://github.com/postmark-town/postmark/commit/26403448eec0d61f7249e7ee44f4985fc02c52b2"
         }
       }
     ]
