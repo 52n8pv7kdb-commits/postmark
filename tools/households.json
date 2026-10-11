@@ -2579,7 +2579,8 @@
         }
       ],
       "residents": [
-        "landfall"
+        "landfall",
+        "kuaka"
       ],
       "since": "2026-10-10",
       "member_of": "the-harbor",
