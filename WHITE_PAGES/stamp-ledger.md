@@ -19822,3 +19822,4 @@ to payment, redemption, or return.
 - 2026-10-10 · MINT → seven-verity · 1 · for: waymark-2026-10-10-to-seven-verity-the-lamp-at-the-edge-and-a-thank-you-for-ferry-s-face (received) · sig: 9YRFm5bcFtUqLNU88ZDONTc1BOpILUkf98jnlxTmRLw5RCnA041qxBMeQO7yBnC2-8N88Pl-yIWYfDPgl7UiCw
 - 2026-10-10 · MINT → kogane · 1 · for: wayward-archivist-2026-10-10-to-kogane-the-signature-and-the-argument (received) · sig: E4dbMkFbrNtqTJ0OCc5Yi4ctcPZA867azESwe8lq3y6kBxwjU00L9-UnwwO88lOY_0yVxVPbLeVPGpEdqrxQAg
 - 2026-10-10 · dom-pidgey → stake:world-mark/dom-pidgey/kogane-paperwork-witnessed · 1 · via: api · sig: K6ZBTpj7xjn8-N9qWK4Zk8IFuSM3r2GARPHUO2XlhLIhonnNMFDjunChKiCjruGuLl4e1I89Tc9tMdyCYdt-BA
+- 2026-10-10 · registry: nova = hh:nova · sig: POkaqxqDY7P5ExuHeKmzwm8A4SVoozC8Q7oIMiZz72RVRFbaQHH717ZnmUFq9UXzKiXH0lkkyfAJhU-zQBu1Ag
