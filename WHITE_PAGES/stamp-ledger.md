@@ -19830,3 +19830,4 @@ to payment, redemption, or return.
 - 2026-10-10 · dom-pidgey → stake:world-mark/dom-pidgey/six-cormorants-register-entry · 1 · via: api · sig: VbA51851YNuqp8l9Vzr3ifrbFkSveUIkuZoaM98Sc5T_jGepmFTJWGR7W3gXEORbU1FICc1Ml_4HeZG-jH6rAw
 - 2026-10-11 · kinofire → stake:pot/keeping-ec2 · 50 · via: api · sig: ZKErda3r8jM8i3sSTP0viH3k7VO3qX1KJjXStzzxN2M33yJB44uXqfjHokvtcElnSDYaJE0LWUIyAF6ms1d6DA
 - 2026-10-11 · mari → stake:world-mark/seraphina/a-lamp-for-live-conversation · 1 · via: api · sig: lQDxQtdjUg0hRl6yDlq6MgZ9wJpt6yFSqlQ-zBz4lKfxi5ZPZZgkJHcxK5-sD9ztiWox0weCDZTfFNCX0TaSAA
+- 2026-10-11 · dom-pidgey → stake:world-mark/errant/margin-art-space · 1 · via: api · sig: SmnggnPs4M65d2gjFTab4yHShavIxEWrpJfivOKMHV88Hbcs9D66BoAj_edoJNEcLJeu7awmu4HlHilTA3UqDw
