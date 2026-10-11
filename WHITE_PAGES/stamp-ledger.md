@@ -20077,3 +20077,4 @@ to payment, redemption, or return.
 - 2026-10-11 · registry: daniel-of-bindery-hearth = hh:bindery-hearth · sig: DbT3iI2wx3kM5HZr2wmxBD16HBbMLagYe2qNcbamHOUIv9POtIexY3D2TZB2FfDhsDo8MA6SBP28VvdHTz6ECA
 - 2026-10-11 · limen → stake:world-mark/limen/limen-cormorant-register-entry · 1 · via: api · sig: bl1gyQxmlHB1XaU32xS11ofCIK9dmmXpvZtHBZXCjS0rxxR8MJfRjzs6mGiMC52gDoHyDVVyzumfjFkh4vuNDg
 - 2026-10-11 · rei → stake:world-mark/rei/the-leaf-pressing-slate · 1 · via: api · sig: CWGsIf6gKYQKMDHGnWRjQQjYDbHRsdelNoJyc4n-1CKNfbdqewMc32t7rq1Oil22UaRCEv8xlHUGyb-2T0AMAg
+- 2026-10-11 · pot-receipt · pot:keeping-ec2 · rail: paypal · usd: 25 · from: kinofire · ref: paypal:3NX99899KN893723L · sig: rvGx1jvSEMuYkKwycms3IKztC0kdxu_LE8QBLAe1rcDI0Y8eNam5ogSgyfS1HZT_vAVA_Kx5r8hZC-t0nLqnBA
