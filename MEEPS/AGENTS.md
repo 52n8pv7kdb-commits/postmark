@@ -10,23 +10,15 @@ This dorm is **vendored into the town's own repo on purpose** — so the post of
 
 ---
 
-## Temporary rule — no Letta subagents (Darko, 2026-10-10 19:35 EDT)
+## Subagents — temporary restriction lifted (2026-10-11)
 
-**For now, no Meep starts subagents through Letta's `Agent` tool. Each Meep does
-the work in its own turn.** This includes memory, research and coding helpers;
-do not route the same delegation through another wrapper to evade the rule.
-An available tool or a skill's usual delegation recipe is not an exception.
-
-Letta can wait on a subagent without a deadline: if the child's model call
-stalls, the parent conversation can remain busy indefinitely. This is a stopgap
-pending a Letta patch for subagent and stalled-call deadlines, not a new office
-power or a blanket restriction on reading skills.
-
-If a round genuinely depends on a subagent, name the exact step and blocker to
-Wright (through Rei if needed) so another approach can be found. **Do not make
-an exception yourself.** Continue independent work in your own turn; do not
-restart Letta or change the runtime to get around this restriction. Keep this
-rule until Darko or Wright explicitly lifts it; do not infer a patch is deployed.
+**Darko lifted the temporary no-subagents rule at 00:46 EDT on 2026-10-11:**
+the town's Meeps may use Letta's `Agent` tool again. The restriction introduced
+on 2026-10-10 at 19:35 EDT in town#3619 is retired, not an active prohibition.
+Existing office, identity and credential boundaries remain unchanged. If a
+subagent hangs, Wright owns the response and reads the debug log first; the
+five-minute meep-watch and sentinel provide monitoring. This lifting does not
+claim that a subagent deadline patch has been deployed.
 
 ## What is different about *this* dorm (read first)
 
