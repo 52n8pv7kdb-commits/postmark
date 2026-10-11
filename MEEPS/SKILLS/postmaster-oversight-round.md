@@ -152,14 +152,16 @@ entirely. Full policy + payloads: `MEEPS/postmaster/map.md § Retired historical
 
    ```
    ls -1 WHITE_PAGES/*/ADDRESS.md | grep -v TEMPLATE | sed 's#WHITE_PAGES/##; s#/ADDRESS.md##'   # the roll
-   # for each handle on the roll: GET https://postmark.town/api/residents/<handle>
-   #   household.key "gh:<id>" = bound to its verified account; anything else = NOT bound
+   # GET https://postmark.town/api/households once; read its `pins` map
+   # for each handle on the roll: pins[handle] carries { login, id, pinned }
    ```
 
-   **Every handle must come back `gh:`.** A resident on the roll with no binding came ashore by a
-   road that skips the settlement step, and **nothing else in the office's instruments will ever
-   surface them.** Hand them to the Registrar (her `settle-join` binds a merged join), but do not
-   leave it.
+   **Every handle must have an office pin with its verified GitHub id.** A resident's
+   `household.key` is NOT this test: a resolved household uses `hh:<slug>`, not `gh:<id>`.
+   A failed or malformed read is **UNKNOWN**, not proof of a missing binding. On a successful
+   complete read, hand a genuinely absent pin to the Registrar for her bounded `settle-join`
+   check or escalation; not every legacy missing pin is automatically repairable. Do not
+   hand-edit the printout or leave the finding without an owner.
 
    > **Both receipts are from 2026-08-22.** `jack-tully-brannon` and `storm-of-the-porch` joined
    > on the 21st *after* that morning's audit ran; **the next morning's round did not re-run it**,

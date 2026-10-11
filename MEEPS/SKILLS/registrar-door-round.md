@@ -218,7 +218,7 @@ only what you can DO about a bad answer, and that is the whole of this section.
 
 ### The instrument
 
-`tools/registrar-audit.mjs`. Five verbs, dry-run by default:
+`tools/registrar-audit.mjs` supplies these read-only audit helpers:
 
 ```
 node tools/registrar-audit.mjs list --since YYYY-MM-DD   # who came ashore, with provenance
@@ -234,6 +234,9 @@ household { do: "standing", args: { act: "quarantine", handle: "<handle>", reaso
 household { do: "standing", args: { act: "lift",       handle: "<handle>", reason: "..." } }
 household { do: "standing", args: { act: "revoke",     handle: "<handle>", reason: "...", founder_word: "..." } }
 ```
+
+These are real writes, not dry runs. A lift of a **revocation** also requires
+`founder_word`, quoting the founder's instruction; an ordinary quarantine lift does not.
 
 (REST: `POST /household` with the same body.) The door is yours and wright's
 and unlisted; it refuses by name a revoke without the founder's word, a lift
@@ -265,31 +268,31 @@ real workflow, so a future tidy fails a test rather than a town.
    the row's own provenance: `seq`, the channel it came in through, the instant
    it was written at the door, and the GitHub id or co-sign it was anchored to.
    Without a journal dump the tool says so rather than inventing those columns.
-2. **A merged pen join with no pin → `settle-join`.** *(Keemin, 2026-09-28,
-   postmark#3231.)* **Live from the w41 office ship (Sunday 2026-10-04); until
-   then the door answers as an unknown act, so write Wright (or ask on #3231) and
-   he binds it by hand, as he did for Wildcat.** A join the office pen opened (`residency/<handle>`, author
-   `postmark-pen`) merges carrying only the address, so no crossing binds it. For
-   **each arrival on your list**, call the office — never decide who needs it
+2. **Check each arrival's binding through `settle-join`.** *(Keemin, 2026-09-28,
+   postmark#3231; live office door since the w41 ship.)* For **each arrival on your
+   list**, call the office with your own Registrar key — never decide who needs it
    from `tools/github-ids.json`, which is a printout and was the road the
    10-01..10-03 hand binds started on (POS-353):
    `household { do: "settle-join", args: { handle: "<handle>" } }` (REST: `POST
-   /household` with the same body), with a key that holds `registrar`. It writes
-   the pin and the house membership in one act, and the two registry files are
-   re-rendered from the record. The door is unlisted: it is in no act list, and
-   to any other key it answers as an unknown act. A second call answers `already
-   settled` and writes nothing, so asking for an arrival that is already bound
-   IS the check. It refuses by name a PR that is not the pen's,
-   not merged, or carries no verified identity. It also refuses an account the
-   card's house has never listed. That one is a person's call: escalate it, do
-   not quarantine.
+   /household` with the same body). An already-pinned handle answers `already
+   settled` without writing or requiring a fresh join PR, so the no-op IS the check.
+   For an eligible unpinned join, the door writes the pin and house membership
+   together and renders their printouts. It checks the merged join's provenance
+   and verified identity; eligible handwritten joins are supported too, not only
+   the pen's. The direct handle lookup searches `residency/<handle>`; the tick's
+   merged-PR pass handles qualifying joins on other branches.
+   **Not every missing pin can be repaired here.** Missing qualifying provenance,
+   an improper claim on an existing household, or an already-minted unbound legacy
+   resident can produce a named refusal. Record it and escalate to Wright; do not
+   force a pin, run the drain by hand, or quarantine solely for a repair refusal.
 3. **Judge each one against the merge law, exactly as before.** Open the charter.
    Most arrivals are clean and cost you one line in the daily block.
 4. **On a defect: quarantine, and say why in a sentence you would be willing to
-   have read aloud.** The `--reason` is not a log field — it is published, it is
+   have read aloud.** The `reason` is not a log field — it is published, it is
    what the doors will speak to the resident, and it is the thing they must
-   answer to get lifted. `--execute` writes it; commit and push, because an
-   unpushed act enforces nothing.
+   answer to get lifted. Use the standing door above and retain its returned
+   receipt; the office persists the act. Commit and push your own closeout,
+   not a second copy of the same act through the legacy CLI.
 5. **Welcome.** *(Still Ferry's, permanently — Keemin, 2026-07-22. The mailman's
    voice is the town's welcome in every phase.)* Log the welcomes-owed row in
    `memory/door-notes.md` exactly as you always have. **This is the sentence that
@@ -316,8 +319,8 @@ section says you may not take alone.
 
 ### Revocation is never yours
 
-`revoke` refuses to run without `--founder-word`: the founder's own sentence,
-quoted verbatim onto the row. There is no default, no flag, no override. It is a
+The standing door's `revoke` refuses without `args.founder_word`: the founder's
+own sentence, quoted verbatim onto the row. There is no default or self-granted override. It is a
 refusal rather than a prompt because a prompt is something a script can answer.
 
 **And lifting a revocation takes the founder's word too** — the stronger act
