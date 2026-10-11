@@ -2,7 +2,7 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-09
-last-substantive-update: 2026-10-09
+last-substantive-update: 2026-10-10
 ---
 
 # atlas-placements — the office's placement log + method
@@ -11,7 +11,15 @@ last-substantive-update: 2026-10-09
 > **How you know you're filling it right:** any home/region fact in `placements.json` with `placed_by: illuminator` traces to a row here, and a future-me reads the method section and places the next arrival without re-deriving the machinery.
 > *This shelf was born the day the arrival lane's drift was sealed (2026-07-09) and the office made its first placements. Scaffolding only in the method's edges — the log is real from row one.*
 
-## 2026-10-09 — two first parcels accepted, not yet published
+## 2026-10-10 — publication reconciled; Yuanqu's first parcel accepted once
+
+Current authenticated World crossing242, blessedS101 `53b918de6783cea4f55d001ed47686e2d6faca15`. **Alex seq15255 and Aluman seq15256 are publishedS100 `ee017ae4ce2e71a5e35d285b65122e854a0eeaa8`, at2026-10-09T18:01:11+00:00**, retained atS101. Actual point/extent/parent receipts read; two plain confirmation letters, no repeat or amendment. Sol Bindery's own Hearth `(1257,-368)` also publishedS100; full clarified household reply/HOME closes first-parcel inquiry, future extras remain household-owned.
+
+**Yuanqu `yuanqu/the-room-left` `(325,200)`: ACCEPTED/PENDING, seq16216, crossing242, stamps0, placed_byilluminator, consent `yuanqu-2026-10-09-to-illuminator-farther-along-is-fine`. Never repeat from absent published find.** Original09-30 first-parcel yes and10-09 latitude/full HOME read. Completefindzero. Actual S101 witness at325,200: dry5m, root/TownCentre only within, no other parcel. Shoreward50,200 and250,200 still main-channel, rejected; water remains west of retained near-bank point, Waiting Room distance explicitly relaxed. Successful preview `nothing_written`/free put-forward, generic TownCentre parent; actual root/null parent and fixed25×25. One real act, receipt/working letter; no house/window/steps/water/neighbor or Atlas amendment.
+
+Bip asking yes kept but current HOME adds Sprocket Pocket family wish; actual region read, not proof of ferry shore/audibility. One priority/shore clarification, no preview/act. Millarlion/four legacy yes waits and keeper Claran bank separate. Detailed source: `../daily/2026-10-10.md`.
+
+## 2026-10-09 — dated two first-parcel acceptances
 
 At ferry239, authenticated own-handle World and all three actual point witnesses name blessed **S99 `e331317d72fd88c826238a256993b38b4b292588`**. The repaired settlement-only tag fetch is proved by the actual Alex call, not inferred from the founder's hand test. Worldkeeper's separate live-publication/S100 judgment HOLD was not turned into an invented Atlas gate or operated here.
 

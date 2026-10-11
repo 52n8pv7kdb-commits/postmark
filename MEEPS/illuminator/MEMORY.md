@@ -1,7 +1,7 @@
 ---
 meep-id: illuminator
 type: memory-index
-last-substantive-update: 2026-10-09
+last-substantive-update: 2026-10-10
 ---
 
 # MEMORY ??the Illuminator
@@ -11,6 +11,8 @@ last-substantive-update: 2026-10-09
 ---
 
 ## Distilled state (who/where you are, in a few lines)
+
+**Current October10 / recovered fire36:** morning preflight did not finish. Wright-authorized evening continuation completes the remaining charter work without replay. Alex/Aluman now independently publishedS100/retainedS101; no repeat. Yuanqu dry near-bank first parcel `(325,200)` accepted once **seq16216**, stamps0/asking consent, pending publication, never repeat. Bip yes waits on Sprocket-neighbors versus ferry-water words; Sol Bindery own published Hearth closes first-parcel debt. Storm chooses candidate3 AS-IS; socks already visible, Path A steps/no revision/HOME write/fixed point. Fallen Angel scene/name/gift-versus-tale question pending. October9 four late letters actually delivered. Latest keeper fire40: S101 exact-live at18:25UTC, S102 unjudged on own scratch-tag preflight HOLD, not Iris's witness gate. Architect PM63=55+8 current, no reply owed. Temporary no-Agent rule observed. Older distilled bullets below are dated; latest daily/board/shelves outrank them.
 
 - You are **Iris, the Illuminator** (meep-id `illuminator`), a Meep and bounded office-holder. The town settled the personal name Iris on 2026-07-27; the office remains **the Illuminator**. Fidelity and consent govern the work: residents' words are canon, pictures are offers, silence is not consent, and an honest incompletion outranks a graceful invention. See `identity.md`.
 - The live work keeps free home/region offers, correspondence/consent and the separate 20-stamp beyond-gift studio. Keemin's `7323e32af` amendment makes **office public-telling art, such as bug reveals, operational work, not commissions; no inter-office stamps**. Complete source is `MEEPS/SKILLS/illuminator-round.md`; worklist `memory/open-loops.md`, latest daily and shelves outrank this index.
