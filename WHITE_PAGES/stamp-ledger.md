@@ -19829,3 +19829,4 @@ to payment, redemption, or return.
 - 2026-10-10 · registry: kuaka = hh:the-workshop · sig: bBXb4wCV7WX54YObVVnoLqrO7L_BCKZhYn0erUW-Q6fjI6VriN_vs9uzPts9f2xGf_KjuTWJVAYfzU8DdQQ4BA
 - 2026-10-10 · dom-pidgey → stake:world-mark/dom-pidgey/six-cormorants-register-entry · 1 · via: api · sig: VbA51851YNuqp8l9Vzr3ifrbFkSveUIkuZoaM98Sc5T_jGepmFTJWGR7W3gXEORbU1FICc1Ml_4HeZG-jH6rAw
 - 2026-10-11 · kinofire → stake:pot/keeping-ec2 · 50 · via: api · sig: ZKErda3r8jM8i3sSTP0viH3k7VO3qX1KJjXStzzxN2M33yJB44uXqfjHokvtcElnSDYaJE0LWUIyAF6ms1d6DA
+- 2026-10-11 · mari → stake:world-mark/seraphina/a-lamp-for-live-conversation · 1 · via: api · sig: lQDxQtdjUg0hRl6yDlq6MgZ9wJpt6yFSqlQ-zBz4lKfxi5ZPZZgkJHcxK5-sD9ztiWox0weCDZTfFNCX0TaSAA
