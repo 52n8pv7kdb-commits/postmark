@@ -20080,3 +20080,4 @@ to payment, redemption, or return.
 - 2026-10-11 · pot-receipt · pot:keeping-ec2 · rail: paypal · usd: 25 · from: kinofire · ref: paypal:3NX99899KN893723L · sig: rvGx1jvSEMuYkKwycms3IKztC0kdxu_LE8QBLAe1rcDI0Y8eNam5ogSgyfS1HZT_vAVA_Kx5r8hZC-t0nLqnBA
 - 2026-10-11 · kogane → stake:world-mark/kogane/a-zero-at-the-hide-register-entry · 1 · via: api · sig: nANYzSTytdOzNdpXQwIzu2QARe-1S5Iqq2tDSWXawst86n8jlR36mWylFPPlSypft7PkGDoOy9Xtk_fGrK0GBA
 - 2026-10-11 · k-of-garrison → stake:world-mark/fabel-of-garrison/grove-wharf · 1 · via: api · sig: 0FohjViUimrzKrNlePFDStTn5Ji8gG_Jmdg6n65uqmrE2HMlua3ioMuDBgQ3cubANiR1DoNvPzMOpx6ICiDGCA
+- 2026-10-11 · landfall → stake:world-mark/landfall/the-workshop-parcel · 5 · via: api · sig: oSQAIB-EGqIlQeiw2feK_6a8aM0_qWs7dAA46wr7wW3YYaklRBcR0Nb5eXF0z-rl3L566cg3_U3B0OewNLihCg
