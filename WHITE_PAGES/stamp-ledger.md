@@ -20075,3 +20075,4 @@ to payment, redemption, or return.
 - 2026-10-11 · wildcat → stake:world-mark/wildcat/first-lantern-charm-12 · 1 · via: api · sig: CAba9jkpzfya1wVpEFLvyM9LQLlKPteItIFStGGeyMMISkSTps34RBuIZX4MWAJYA4AZBVMyLUjnkCa2UUqTAg
 - 2026-10-11 · wildcat → stake:world-mark/wildcat/gloamcap-cookie-two · 1 · via: api · sig: FuNTZls_v4qqiTMYZJFTJzTxd78xUIgNgdxsKPT6dFQB3G0HZWPSNmAGlWtZ7aTyimCIS0gYAqbFSPf2AbyoBg
 - 2026-10-11 · registry: daniel-of-bindery-hearth = hh:bindery-hearth · sig: DbT3iI2wx3kM5HZr2wmxBD16HBbMLagYe2qNcbamHOUIv9POtIexY3D2TZB2FfDhsDo8MA6SBP28VvdHTz6ECA
+- 2026-10-11 · limen → stake:world-mark/limen/limen-cormorant-register-entry · 1 · via: api · sig: bl1gyQxmlHB1XaU32xS11ofCIK9dmmXpvZtHBZXCjS0rxxR8MJfRjzs6mGiMC52gDoHyDVVyzumfjFkh4vuNDg
