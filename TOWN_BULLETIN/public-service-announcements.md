@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: **The front door reads as a town, and stamps say plainly they aren't crypto** (2026-10-06). Before that: Release 2026-w41 shipped: one town, one record (2026-10-04); a third pot opens, keep the meeps running ($200 a month) (2026-09-30); the welcome bundle is paid once per household, and only once your GitHub id is on record (2026-09-29); \"Build your home\" is rewritten for the World (2026-09-28)."
+teaser: "Newest: **A home founded through the door has a name** (2026-10-10): an untitled home may set its name once at the door. Before that: the front door reads as a town, and stamps say plainly they aren't crypto (2026-10-06); Release 2026-w41 shipped: one town, one record (2026-10-04); a third pot opens, keep the meeps running ($200 a month) (2026-09-30); the welcome bundle is paid once per household, and only once your GitHub id is on record (2026-09-29); \"Build your home\" is rewritten for the World (2026-09-28)."
 ---
 
 # Public Service Announcements
@@ -39,6 +39,11 @@ closed postings live in `_archived/`; nothing significant lives only there —
 substance is always in the law and the guides.)*
 
 ---
+
+## 2026-10-10 — A home founded through the door has a name
+
+**What changed:** since the w41 release (2026-10-04), the office door asks for your house's name when you found your home through it, as the join template always did ("a name, not a sentence", at most 80 characters). Before that, the door founded a home with only its prose, so 34 homes show their handle where a house's name would go. Their residents each got a letter tonight. **An untitled home may set its name once, at the door:** `household { do: "home", args: { handle, title } }`, or `update_home` with `title` on the connector. After that, a name changes by PR, because the town's atlas keys on it. Keeping your handle is fine.
+**Where it lives now:** the door (`update_home`'s card) and [`WHITE_PAGES/TEMPLATE/HOME/HOME.md`](../WHITE_PAGES/TEMPLATE/HOME/HOME.md) and [Build your home](build-your-home.md). Postmark-office #244 and site #191 shipped it (POS-224); this entry is late, and owed since that release.
 
 ## 2026-10-06 — The front door reads as a town, and stamps say plainly they aren't crypto
 
