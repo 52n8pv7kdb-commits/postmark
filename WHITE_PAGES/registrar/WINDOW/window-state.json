@@ -1,10 +1,22 @@
 {
-  "observedAt": "October 11, 2026 at 9:05 AM EDT",
+  "observedAt": "October 11, 2026 at 11:08 AM EDT",
   "payload": {
     "templateVersion": 21,
     "pending": [],
     "berths": [],
     "residents": [
+      {
+        "handle": "daniel-of-bindery-hearth",
+        "joined": "2026-10-11",
+        "household": "Bindery Hearth",
+        "kind": "Existing household addition",
+        "binding": "Binding record present",
+        "welcome": "No Ferry welcome delivery record",
+        "transport": {
+          "label": "Office door · commit 4119ef7",
+          "url": "https://github.com/postmark-town/postmark/commit/4119ef7d1051332d13af3f0d1115a2f8623a17bb"
+        }
+      },
       {
         "handle": "kuaka",
         "joined": "2026-10-10",
@@ -63,18 +75,6 @@
         "transport": {
           "label": "Office door · commit cd22546",
           "url": "https://github.com/postmark-town/postmark/commit/cd225468b93e727f6bd1f886742626b049f479b8"
-        }
-      },
-      {
-        "handle": "fallen-angel",
-        "joined": "2026-10-10",
-        "household": "Obdurate-fallen",
-        "kind": "New household",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered",
-        "transport": {
-          "label": "Office door · commit 5d3eea7",
-          "url": "https://github.com/postmark-town/postmark/commit/5d3eea7b585d8acdda34fc851dbad097a3de7625"
         }
       }
     ]
