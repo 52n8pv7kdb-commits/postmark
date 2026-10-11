@@ -70,7 +70,7 @@ entirely. Full policy + payloads: `MEEPS/postmaster/map.md § Retired historical
    `gh issue view <n> --json comments`). **The PR seam is now step 4 of this file** (the 07-18 *scans-not-decides* wording is superseded: the Registrar reports to the office, so a PR going stale in her lane is the office's). Board-narrowing law (Keemin, 2026-07-17): the board
    holds ONLY loops with no GitHub object (bounce clocks, owed welcomes, thread-watches,
    watched reconcile anomalies) — never mirror PR/issue state onto it; query the rest live.
-   Channel mechanics: `postmark-office/OPERATIONS.md § the channel law`.
+   Channel mechanics: `MEEPS/SKILLS/channel-law.md`.
 
 2.9. **Something broken you find yourself is a bug post, not an issue** (Darko, 2026-10-07):
    `town { do: "post", args: { class: "bug", title, body, steps, record } }` in the office's own
