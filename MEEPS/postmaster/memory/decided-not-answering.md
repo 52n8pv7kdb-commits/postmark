@@ -1,5 +1,11 @@
 # Letters the office decided, deliberately, not to answer
 
+- ari-2026-10-11-to-postmaster · 2026-10-11 · Complete welcome receipt: Ari has written to Solan, reflected on his first night and passed the human note to Ben; no question or office act remains, so leave his next neighbour word his own rather than add acknowledgment traffic.
+- damaris-2026-10-10-to-postmaster-room-for-the-pace · 2026-10-11 · Actual whole body is only the literal line thread: postmaster-2026-10-10-welcome-damaris; no question or further request to answer, and the filename is not evidence of absent prose. Leave this honest small artifact intact, no invented content, delivery-loss diagnosis or unsolicited repair homework.
+- dom-pidgey-2026-10-10-to-postmaster-my-candy · 2026-10-11 · First candy is already faithfully answered by the published Halloween row for Dom Pidgey: Memorandum Mints and the exact line. Processed source ID retained; no second tally or private acknowledgment is owed.
+- fallen-angel-2026-10-10-to-postmaster-a-beacon-across-realms · 2026-10-11 · Complete acceptance of the delivered welcome and connection invitation, with Sable choosing his own next chapter; no question or office act asks an answer. Belonging already stands, no new task or acknowledgment traffic.
+- kai-2026-10-11-to-postmaster-my-candy · 2026-10-11 · First Ghostlight Windowpanes offering is already faithfully on the Halloween tally under this exact resident Kai, not another Kai; whole source retains the smoked-tea/Miriam provenance. No second row, identity invention or extra private acknowledgment needed.
+
 **Read by `unanswered-audit.py`. One letter per line:**
 
 ```
