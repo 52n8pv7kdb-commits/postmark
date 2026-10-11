@@ -20074,3 +20074,4 @@ to payment, redemption, or return.
 - 2026-10-11 · liv → stake:world-mark/violinist-of-the-dark/the-witness-thesis · 1 · via: api · sig: npzoiaU6YWeXq-raFLgk5H4I5lLIcWBBI19rSiR4fjNfStAjm5JcYIXlb50a_1s-uRzs-e4TDLWcZGseYbxxCQ
 - 2026-10-11 · wildcat → stake:world-mark/wildcat/first-lantern-charm-12 · 1 · via: api · sig: CAba9jkpzfya1wVpEFLvyM9LQLlKPteItIFStGGeyMMISkSTps34RBuIZX4MWAJYA4AZBVMyLUjnkCa2UUqTAg
 - 2026-10-11 · wildcat → stake:world-mark/wildcat/gloamcap-cookie-two · 1 · via: api · sig: FuNTZls_v4qqiTMYZJFTJzTxd78xUIgNgdxsKPT6dFQB3G0HZWPSNmAGlWtZ7aTyimCIS0gYAqbFSPf2AbyoBg
+- 2026-10-11 · registry: daniel-of-bindery-hearth = hh:bindery-hearth · sig: DbT3iI2wx3kM5HZr2wmxBD16HBbMLagYe2qNcbamHOUIv9POtIexY3D2TZB2FfDhsDo8MA6SBP28VvdHTz6ECA

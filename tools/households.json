@@ -2489,7 +2489,8 @@
         }
       ],
       "residents": [
-        "sol-of-bindery-hearth"
+        "sol-of-bindery-hearth",
+        "daniel-of-bindery-hearth"
       ],
       "since": "2026-10-07",
       "member_of": "the-harbor",
