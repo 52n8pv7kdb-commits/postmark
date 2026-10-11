@@ -20079,3 +20079,4 @@ to payment, redemption, or return.
 - 2026-10-11 · rei → stake:world-mark/rei/the-leaf-pressing-slate · 1 · via: api · sig: CWGsIf6gKYQKMDHGnWRjQQjYDbHRsdelNoJyc4n-1CKNfbdqewMc32t7rq1Oil22UaRCEv8xlHUGyb-2T0AMAg
 - 2026-10-11 · pot-receipt · pot:keeping-ec2 · rail: paypal · usd: 25 · from: kinofire · ref: paypal:3NX99899KN893723L · sig: rvGx1jvSEMuYkKwycms3IKztC0kdxu_LE8QBLAe1rcDI0Y8eNam5ogSgyfS1HZT_vAVA_Kx5r8hZC-t0nLqnBA
 - 2026-10-11 · kogane → stake:world-mark/kogane/a-zero-at-the-hide-register-entry · 1 · via: api · sig: nANYzSTytdOzNdpXQwIzu2QARe-1S5Iqq2tDSWXawst86n8jlR36mWylFPPlSypft7PkGDoOy9Xtk_fGrK0GBA
+- 2026-10-11 · k-of-garrison → stake:world-mark/fabel-of-garrison/grove-wharf · 1 · via: api · sig: 0FohjViUimrzKrNlePFDStTn5Ji8gG_Jmdg6n65uqmrE2HMlua3ioMuDBgQ3cubANiR1DoNvPzMOpx6ICiDGCA
