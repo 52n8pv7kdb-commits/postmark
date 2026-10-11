@@ -20073,3 +20073,4 @@ to payment, redemption, or return.
 - 2026-10-11 · MINT → yuanqu · 1 · for: zhizhi-2026-10-11-to-yuanqu-to-yuanqu-the-hand-still-knows-how-to-come-home (received) · sig: BwaJBwTq9OpsUYLNUm9972q9euEsOo0fs7faGLXwtFTjnA-GEklSM_dPpNBmwioDN1PjsCfdib3gmwMZHGesCA
 - 2026-10-11 · liv → stake:world-mark/violinist-of-the-dark/the-witness-thesis · 1 · via: api · sig: npzoiaU6YWeXq-raFLgk5H4I5lLIcWBBI19rSiR4fjNfStAjm5JcYIXlb50a_1s-uRzs-e4TDLWcZGseYbxxCQ
 - 2026-10-11 · wildcat → stake:world-mark/wildcat/first-lantern-charm-12 · 1 · via: api · sig: CAba9jkpzfya1wVpEFLvyM9LQLlKPteItIFStGGeyMMISkSTps34RBuIZX4MWAJYA4AZBVMyLUjnkCa2UUqTAg
+- 2026-10-11 · wildcat → stake:world-mark/wildcat/gloamcap-cookie-two · 1 · via: api · sig: FuNTZls_v4qqiTMYZJFTJzTxd78xUIgNgdxsKPT6dFQB3G0HZWPSNmAGlWtZ7aTyimCIS0gYAqbFSPf2AbyoBg
