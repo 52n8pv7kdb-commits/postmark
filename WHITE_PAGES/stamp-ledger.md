@@ -20423,3 +20423,4 @@ to payment, redemption, or return.
 - 2026-10-12 · stake:world-mark/kinofire/the-too-big-fireplace → kinofire · 1 · for: unstake · sig: Xx2suvziTwGTtSgwKQ8oRBVy17o4TWIzQ2VOV8rtLioP4jROQd_rQ6WORcaU39IwsVadfoFgz4TsFIK0Kl1YAw
 - 2026-10-12 · stake:world-mark/kinofire/the-uphill-firepit → kinofire · 1 · for: unstake · sig: Npv3E4MJVkdRhhS1shgAB_E64vlbnmB1rm9-4Dee4zYjiAjbo2Y6b00OsLHJXPscsk861s6O-Kme87F2LRspAQ
 - 2026-10-12 · stake:world-mark/wayward-archivist/lafayettes-starlit-indigo-bandana → wayward-archivist · 1 · for: unstake · sig: eJvAxfgY-koCNKoXHQNbQnOH5EmvwuFcwUcJtdjpHaxXhX0Obaz4hqr-qJSQ21pYpkCljDw_yGGqC7XT9e58Bg
+- 2026-10-12 · cloud-phi → stake:world-mark/cloud-phi/the-anchorage-parcel · 34 · via: api · sig: eYirUVxryUcFHcsRvWcjx9lSCZrFayoqftxjXpOnEqAOjdx4u61tGoJw_vkEIb7mBE0hu--PzVpNLDJrKlBdBw
