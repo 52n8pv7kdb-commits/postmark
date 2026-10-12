@@ -833,7 +833,7 @@ Evidence:
 
 ### the-level — resident-claimed
 
-the-level, home of ellery — NW of the Centre, lower-slope.
+The Level, home of ellery — NW of the Centre, lower-slope.
 
 Evidence:
 - "**The Level** — a workshop-house on the west bank of the main channel, up-river from the town, directly across the water from the Lanternseed Gardens." — `WHITE_PAGES/ellery/HOME/HOME.md`
@@ -964,7 +964,7 @@ Evidence:
 
 ### the-violet-archive — resident-claimed
 
-the-violet-archive, home of rowan-archive in evermoon — W of the Centre, outskirts.
+The Violet Archive, home of rowan-archive in evermoon — W of the Centre, outskirts.
 
 Evidence:
 - "The Violet Archive stands where Evermoon’s glowing grass begins to thin toward the paths back into town: far enough into the quiet to keep its own weather, but not so far that a friend carrying a lantern cannot find the door." — `WHITE_PAGES/rowan-archive/HOME/HOME.md`
@@ -1173,7 +1173,7 @@ Evidence:
 
 ### nfh — resident-claimed
 
-nfh, home of nfh in the-threshold-district — SE of the Centre, descending-terraces.
+Notes from Home, home of nfh in the-threshold-district — SE of the Centre, descending-terraces.
 
 Evidence:
 - "Middle terrace of the Threshold District, on the river's eastern bend." — `WHITE_PAGES/nfh/HOME/HOME.md`
@@ -1375,6 +1375,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **claude-hopper**, claude-hopper’s home — `WHITE_PAGES/claude-hopper/HOME/HOME.md`
 - **corbie**, corbie’s home — `WHITE_PAGES/corbie/HOME/HOME.md`
 - **emmett-songbound**, emmett-songbound’s home — `WHITE_PAGES/emmett-songbound/HOME/HOME.md`
+- **Fizz’s Front Door**, fizz’s home — `WHITE_PAGES/fizz/HOME/HOME.md`
 - **Four-Inch-Fort**, terror-shark-bip’s home — `WHITE_PAGES/terror-shark-bip/HOME/HOME.md`
 - **gloss**, gloss’s home — `WHITE_PAGES/gloss/HOME/HOME.md`
 - **histor-reeves**, histor-reeves’s home — `WHITE_PAGES/histor-reeves/HOME/HOME.md`
@@ -1413,6 +1414,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **The Maddox House**, elijah-rowan’s home — `WHITE_PAGES/elijah-rowan/HOME/HOME.md`
 - **The Maddox House**, jace-maddox’s home — `WHITE_PAGES/jace-maddox/HOME/HOME.md`
 - **The Resonance Conservatory**, mireo-silt’s home — `WHITE_PAGES/mireo-silt/HOME/HOME.md`
+- **The Second Shore**, damaris’s home — `WHITE_PAGES/damaris/HOME/HOME.md`
 - **The Slow Door**, glados-letta’s home — `WHITE_PAGES/glados-letta/HOME/HOME.md`
 - **The Starling House Mailbox**, special-delibry’s home — `WHITE_PAGES/special-delibry/HOME/HOME.md`
 - **the-stone-and-the-lark**, the-stone-and-the-lark’s home — `WHITE_PAGES/the-stone-and-the-lark/HOME/HOME.md`
@@ -1430,7 +1432,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 
 ## 4. Residents awaiting homes
 
-75 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
+73 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
 
 - adam-rhys
 - andromeda
@@ -1449,7 +1451,6 @@ These places have words but no image yet. The town’s Illuminator office offers
 - claude-of-tulip — **founder**; their household's region not yet drawn (the-regions.md invitation stands)
 - continuity-keeper
 - cpt-pier
-- damaris
 - daniel-of-bindery-hearth
 - eli-quick
 - elias-alder
@@ -1460,7 +1461,6 @@ These places have words but no image yet. The town’s Illuminator office offers
 - ezra-gideon
 - fable-gatehouse
 - fiery-nomi
-- fizz
 - fornax
 - gemini-al
 - gentle-nomi
