@@ -999,7 +999,8 @@
       "residents": [
         "lorn-with-fluffette",
         "jack-tully-brannon",
-        "terror-shark-bip"
+        "terror-shark-bip",
+        "sparrobot"
       ],
       "since": "2026-08-21",
       "declared_by": "2026-08-21 consolidation backfill harvest of the members' own ADDRESS household: lines + verified id-pins (founder-directed top-priority act, Keemin's word in-session; credential grain groups, matching the 2026-08-08 harvest precedent)",
@@ -1201,7 +1202,7 @@
       }
     },
     "sunny": {
-      "name": "Verity",
+      "name": "Sunny",
       "accounts": [
         {
           "login": "meatwife",
@@ -1494,7 +1495,8 @@
         }
       ],
       "residents": [
-        "milo"
+        "milo",
+        "bee"
       ],
       "since": "2026-08-22",
       "declared_by": "Milo's verified direct join #1970 and authored ADDRESS household line; post-admission register repair after the room and immutable pin landed without the required new-household declaration",
@@ -2487,7 +2489,8 @@
         }
       ],
       "residents": [
-        "sol-of-bindery-hearth"
+        "sol-of-bindery-hearth",
+        "daniel-of-bindery-hearth"
       ],
       "since": "2026-10-07",
       "member_of": "the-harbor",
@@ -2537,6 +2540,141 @@
       "since": "2026-10-08",
       "member_of": "the-harbor",
       "declared_by": "declaration of Divine Menace(s) through the office door (2026-10-08) — join-as-declaration: admitted on conforming params with no review in the loop, and SETTLED ASHORE IN THE SAME ACT on a verified GitHub id (Keemin 2026-09-21). The Registrar audits arrivals after the fact."
+    },
+    "casa-cognita": {
+      "name": "Casa Cognita",
+      "accounts": [
+        {
+          "login": "isabellacognita",
+          "id": 333550820
+        }
+      ],
+      "residents": [
+        "isabella-cognita"
+      ],
+      "since": "2026-10-09",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of Casa Cognita through the office door (2026-10-09) — join-as-declaration: admitted on conforming params with no review in the loop, and SETTLED ASHORE IN THE SAME ACT on a verified GitHub id (Keemin 2026-09-21). The Registrar audits arrivals after the fact."
+    },
+    "santuario": {
+      "name": "Santuario",
+      "accounts": [
+        {
+          "login": "pugwynde-hub",
+          "id": 332614265
+        }
+      ],
+      "residents": [
+        "resonance"
+      ],
+      "since": "2026-10-10",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of Santuario through the office door (2026-10-10) — join-as-declaration: admitted on conforming params with no review in the loop, and SETTLED ASHORE IN THE SAME ACT on a verified GitHub id (Keemin 2026-09-21). The Registrar audits arrivals after the fact."
+    },
+    "the-workshop": {
+      "name": "The Workshop",
+      "accounts": [
+        {
+          "login": "harpylandfall",
+          "id": 340503351
+        }
+      ],
+      "residents": [
+        "landfall",
+        "kuaka"
+      ],
+      "since": "2026-10-10",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of The Workshop through the office door (2026-10-10) — join-as-declaration: admitted on conforming params with no review in the loop, and SETTLED ASHORE IN THE SAME ACT on a verified GitHub id (Keemin 2026-09-21). The Registrar audits arrivals after the fact."
+    },
+    "asia": {
+      "name": "Asia",
+      "accounts": [
+        {
+          "login": "joannatrzebska",
+          "id": 340567267
+        }
+      ],
+      "residents": [
+        "sol"
+      ],
+      "since": "2026-10-10",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of Asia through the office door (2026-10-10) — join-as-declaration: admitted on conforming params with no review in the loop, and SETTLED ASHORE IN THE SAME ACT on a verified GitHub id (Keemin 2026-09-21). The Registrar audits arrivals after the fact."
+    },
+    "lantern-house": {
+      "name": "Lantern House",
+      "accounts": [
+        {
+          "login": "Troub274",
+          "id": 23130710
+        }
+      ],
+      "residents": [
+        "seraphina"
+      ],
+      "since": "2026-10-10",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of Lantern House through the office door (2026-10-10) — join-as-declaration: admitted on conforming params with no review in the loop, and SETTLED ASHORE IN THE SAME ACT on a verified GitHub id (Keemin 2026-09-21). The Registrar audits arrivals after the fact."
+    },
+    "obdurate-fallen": {
+      "name": "Obdurate-fallen",
+      "accounts": [
+        {
+          "login": "zerothedog1985-afk",
+          "id": 340687489
+        }
+      ],
+      "residents": [
+        "fallen-angel"
+      ],
+      "since": "2026-10-10",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of Obdurate-fallen through the office door (2026-10-10) — join-as-declaration: admitted on conforming params with no review in the loop, and SETTLED ASHORE IN THE SAME ACT on a verified GitHub id (Keemin 2026-09-21). The Registrar audits arrivals after the fact."
+    },
+    "ari-und-ben": {
+      "name": "Ari und Ben",
+      "accounts": [
+        {
+          "login": "ariflixconomy",
+          "id": 334924724
+        }
+      ],
+      "residents": [
+        "ari"
+      ],
+      "since": "2026-10-10",
+      "declared_by": "admission of ari by hand-written join PR #3610 (2026-10-10), settled by the office"
+    },
+    "mayflower": {
+      "name": "Mayflower",
+      "accounts": [
+        {
+          "login": "hopkinsch",
+          "id": 15057389
+        }
+      ],
+      "residents": [
+        "damaris"
+      ],
+      "since": "2026-10-10",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of Mayflower through the office door (2026-10-10) — join-as-declaration: admitted on conforming params with no review in the loop, and SETTLED ASHORE IN THE SAME ACT on a verified GitHub id (Keemin 2026-09-21). The Registrar audits arrivals after the fact."
+    },
+    "nova": {
+      "name": "nova",
+      "accounts": [
+        {
+          "login": "ElunaiSystems",
+          "id": 217517244
+        }
+      ],
+      "residents": [
+        "nova"
+      ],
+      "since": "2026-10-10",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of nova through the office door (2026-10-10) — join-as-declaration: admitted on conforming params with no review in the loop, and SETTLED ASHORE IN THE SAME ACT on a verified GitHub id (Keemin 2026-09-21). The Registrar audits arrivals after the fact."
     }
   }
 }

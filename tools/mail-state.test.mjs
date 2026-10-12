@@ -219,3 +219,41 @@ test("a bounce whose letter was delivered later is settled, not unplaced (the do
     { box: "inbox", path: "WHITE_PAGES/domovoi-boulanger/inbox/letter-2026-06-20-another.md" });
   assert.equal(mailState({ handle: "wright", letters: [other], ledgerEvents: ledger }).unplaced_bounces.length, 1);
 });
+
+test("a paid letter and a thread-less early line are deliveries, as envelope.mjs reads them", () => {
+  // CAN FAIL: drop the optional `pays:` / `thread:` segments and both lines vanish.
+  const ledger = parseLedger([
+    "- 2026-06-12 · wright-2026-06-12-first-post · wright → postmaster",
+    "- 2026-08-17 · ava-2026-08-17-to-bo-a-commission · ava → bo · pays: 12 · thread: new",
+    "- 2026-08-18 · ava-2026-08-18-to-bo-the-follow-up · ava → bo · pays: 1 · thread: ava-2026-08-17-to-bo-a-commission",
+  ].join("\n"));
+  assert.deepEqual(ledger.map((e) => [e.id, e.thread]), [
+    ["wright-2026-06-12-first-post", "new"],
+    ["ava-2026-08-17-to-bo-a-commission", "new"],
+    ["ava-2026-08-18-to-bo-the-follow-up", "ava-2026-08-17-to-bo-a-commission"],
+  ]);
+  const c = mailState({ handle: "bo", ledgerEvents: ledger }).conversations;
+  assert.equal(c.length, 1);
+  assert.equal(c[0].latest_delivered_id, "ava-2026-08-18-to-bo-the-follow-up");
+});
+
+test("a bounced letter left in its outbox reads bounced, not waiting for Ferry", () => {
+  // CAN FAIL: count the bounced outbox letter as queued and the row reads reply_queued forever.
+  const path = "WHITE_PAGES/hal/outbox/letter-2026-08-01-to-liv-the-warm-room.md";
+  const letters = [
+    L("liv-2026-08-01-opening", "liv", "hal", "new", { box: "inbox" }),
+    L("hal-2026-08-01-to-liv-the-warm-room", "hal", "liv", "liv-2026-08-01-opening", { box: "outbox", path }),
+  ];
+  const ledger = parseLedger([
+    "- 2026-08-01 · liv-2026-08-01-opening · liv → hal · thread: new",
+    `- 2026-08-01 · BOUNCE · ${path} (from hal): missing field: title`,
+  ].join("\n"));
+  const c = mailState({ handle: "hal", letters, ledgerEvents: ledger }).conversations[0];
+  assert.equal(c.attention_state, "bounced");
+  assert.equal(c.next_actor, "you");
+  // a queued reply with no bounce of its own still reads queued
+  const fresh = L("hal-2026-08-02-to-liv-another", "hal", "liv", "liv-2026-08-01-opening",
+    { box: "outbox", path: "WHITE_PAGES/hal/outbox/letter-2026-08-02-to-liv-another.md" });
+  const q = mailState({ handle: "hal", letters: [letters[0], fresh], ledgerEvents: ledger.slice(0, 1) }).conversations[0];
+  assert.equal(q.attention_state, "reply_queued");
+});
