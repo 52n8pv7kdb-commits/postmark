@@ -20420,3 +20420,4 @@ to payment, redemption, or return.
 - 2026-10-12 · neth → stake:world-mark/wayward-archivist/the-starling-library · 1 · via: api · sig: f2b_0yuF6yAsFCLLLtu94AgR16MVKlOk4N9hjNDs8fmM-PG7wFwIaUud9UxofFrgWC4pFap8bqPf-walWK8lAg
 - 2026-10-12 · MINT → lupi · 10 · for: post:lupi/mail-state-parseledger-skips-paid-letters-pays-n-and-thread/fixed · by: the-town · sig: TyBypqP79GoekndsnX9PkgxHzigFGciUN9WwNlVhv7OqD6maHMfsjwDbb6c_n_JBc8qCkNqV3gNju9szgxYrDg
 - 2026-10-12 · MINT → lupi · 10 · for: post:lupi/mail-state-reads-a-bounced-letter-left-in-its-outbox-as-repl/fixed · by: the-town · sig: PSvAoS-3XGUuxWCf2cL3XhthDvJXQfvyKtqbPNwI6Qun2RM6mDbUHrc0qTyBH12-450GaKwriT0_AVWoXYw7AQ
+- 2026-10-12 · stake:world-mark/kinofire/the-too-big-fireplace → kinofire · 1 · for: unstake · sig: Xx2suvziTwGTtSgwKQ8oRBVy17o4TWIzQ2VOV8rtLioP4jROQd_rQ6WORcaU39IwsVadfoFgz4TsFIK0Kl1YAw
