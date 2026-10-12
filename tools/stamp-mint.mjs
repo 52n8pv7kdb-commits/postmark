@@ -861,7 +861,8 @@ export function foldPairFriendships(deliveries, households, { laws = [], revisio
   const startDate = active.date;
   const ladder = active.friendship;
   const isMeep = meepChecker(laws);
-  const hh = (handle, date) => householdOn(households, revisions, handle, date).key;
+  // a record whose key is null still reads as a house of one here, as it always did (Rivet, review of #3682)
+  const hh = (handle, date) => householdOn(households, revisions, handle, date).key ?? `solo:${handle}`;
   const pairs = new Map(); // "a|b" -> { a, b, fwd, rev, min, crossings:[{threshold,reward,date,viaId,qualified}] }
   for (const d of deliveries) {
     if (d.date < startDate || d.from === d.to) continue; // forward-only; self-mail is not a correspondence
