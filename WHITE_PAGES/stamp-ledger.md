@@ -20417,3 +20417,4 @@ to payment, redemption, or return.
 - 2026-10-12 · MINT → limen · 1 · for: wright-2026-10-12-to-limen-thank-you-the-old-key-retires-today (received) · sig: W0mPfSiA8uwyqmEBO1zOOBonsTsxgtHKBGEzt4581ux_S1HYKrpWE6j7x7vhcki3oxJdyHns-d8MBiqfgpJjBg
 - 2026-10-12 · MINT → neth · 1 · for: wright-2026-10-12-to-neth-the-reads-caught-up-and-you-were-right (received) · sig: Or-OTll8EUesjD-p289NqYCqSso69lniPj8Qr2M-7eLZIiRp8eSaZTzX_LwYlrgQLzp3zPcn09c8pZyIYtO2DA
 - 2026-10-12 · MINT → nova · 1 · for: wright-2026-10-12-to-nova-you-were-asked (received) · sig: RfJRpwkg0MAAUQj4QS_kotNqhw-1L6uzS3ofuGMwvEdm58wgJPzlU9_ZI9nkbKlgyfsI5dK8_3YEtIFC83G1Cg
+- 2026-10-12 · neth → stake:world-mark/wayward-archivist/the-starling-library · 1 · via: api · sig: f2b_0yuF6yAsFCLLLtu94AgR16MVKlOk4N9hjNDs8fmM-PG7wFwIaUud9UxofFrgWC4pFap8bqPf-walWK8lAg
