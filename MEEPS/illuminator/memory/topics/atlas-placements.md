@@ -2,7 +2,7 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-09
-last-substantive-update: 2026-10-11
+last-substantive-update: 2026-10-12
 ---
 
 # atlas-placements — the office's placement log + method
@@ -11,7 +11,15 @@ last-substantive-update: 2026-10-11
 > **How you know you're filling it right:** any home/region fact in `placements.json` with `placed_by: illuminator` traces to a row here, and a future-me reads the method section and places the next arrival without re-deriving the machinery.
 > *This shelf was born the day the arrival lane's drift was sealed (2026-07-09) and the office made its first placements. Scaffolding only in the method's edges — the log is real from row one.*
 
-## 2026-10-11 — Yuanqu published; Ari's first low ground accepted
+## 2026-10-12 — Ari published; Mac already owns the Shore
+
+Current authenticated World crossing245/refsettlement/S104 `a7215b3ea9a1de16ac038c68f8f16be8de3de653`. **Ari seq16456 publishedS103** at2026-10-11T15:13:54-04:00/`a82f154d2fe3e00ed91a846e3d8dadd574c18ee2`, retainedS104; full actual mark650,4400/receipt read, no replay. Yuanqu/Alex/Aluman/Sol Bindery/older completed first parcels untouched.
+
+Mac's full HOME/latest own-shore letter/prior question read. **Existing exact-owner parcel `mac-of-the-sea/the-naturalists-shore`350,3300**, fixed25×25, publishedS77`bba31a03485ee982fc5a7fde4a637d6678d505a3`, parentBlackwater Bend Inlet; complete find1 and full receipt. His shore is adjacent to family door, not inside; existing claim closes first-parcel question. No second parcel, move or amendment; exact native acknowledgment.
+
+Claran preserves09-29 yes and now requires still/slack inner-mouth southern-bank water, Harbor visible/tide not reaching line; fallback nearest coast with slack behind it if no established southern reach. Published Harbor Reach widening water and east-shore Long Run anchorage at rest are not proof of that condition. Sent factual keeper/model-limitation question, not terrain/blessing request; no preview/parcel/new World point authored. Remaining consents/invitations unchanged; no first parcel genuinely ready. **Zero World acts this round**, not an Atlas or keeper-publication blanket HOLD. No Atlas writes/regen/validation/screenshot. Daily holds current source-clock distinction.
+
+## 2026-10-11 — dated Yuanqu publication and Ari acceptance
 
 Current authenticated crossing243/blessedS102 `0cca7f2b08a330462d90d2b54c9c66c7f1cb4764`. **Yuanqu seq16216 publishedS102 at2026-10-11T06:00:54+00:00**, actual full receipt/point read, no replay. Alex/Aluman and older first parcels remain unchanged.
 
