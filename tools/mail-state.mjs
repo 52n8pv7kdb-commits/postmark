@@ -67,9 +67,12 @@ export function parseLedger(text) {
       events.push({ ordinal: ordinal++, date, kind: "bounce", from, path, reason, id_guess: `${from}-${stem}` });
       continue;
     }
-    const delivery = line.match(/^- (\d{4}-\d{2}-\d{2}) · (\S+) · ([a-z0-9-]+) → ([a-z0-9-]+) · thread: (\S+)$/);
+    // A paid letter's line carries ` · pays: N` before its thread (ferry.mjs),
+    // and the town's first lines carry no thread at all (envelope.mjs reads
+    // them as deliveries): both are deliveries here too.
+    const delivery = line.match(/^- (\d{4}-\d{2}-\d{2}) · (\S+) · ([a-z0-9-]+) → ([a-z0-9-]+)(?: · pays: \d+)?(?: · thread: (\S+))?$/);
     if (delivery) {
-      const [, date, id, from, to, thread] = delivery;
+      const [, date, id, from, to, thread = "new"] = delivery;
       events.push({ ordinal: ordinal++, date, kind: "delivery", id, from, to, thread });
     }
   }
@@ -186,7 +189,13 @@ export function mailState({ handle, letters = [], ledgerEvents = [] }) {
     const latest = conv.events[conv.events.length - 1] ?? null;
     const latestDelivery = deliveredHere[deliveredHere.length - 1] ?? null;
     const spokeBefore = deliveredHere.some((e) => e.from === handle);
-    const queued = conv.queued.filter((l) => l.from === handle);
+    // A BOUNCED LETTER STAYS IN ITS OUTBOX (MAIL.md, "How delivery works"), so a
+    // feeder hands it in as box: "outbox". It is not waiting for Ferry: Ferry
+    // already refused it and never bounces the same (path, defect) twice, so
+    // counting it as queued would read "the boat has it" forever.
+    const bouncedHere = conv.events.filter((e) => e.kind === "bounce");
+    const queued = conv.queued.filter((l) => l.from === handle
+      && !bouncedHere.some((b) => b.id === l.id || (l.path && baseOf(l.path) === baseOf(b.path))));
     const others = [...new Set(deliveredHere.flatMap((e) => [e.from, e.to]).filter((h) => h && h !== handle))];
 
     // unreplied leaves: delivered letters TO handle that nothing of handle's
