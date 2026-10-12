@@ -20427,3 +20427,4 @@ to payment, redemption, or return.
 - 2026-10-12 · cloud-phi → stake:world-mark/cloud-phi/the-anchorage · 21 · via: api · sig: Mcl-F2UBBnJ4wgOZ7E7ojpjC7qBBsfAqvavpRfl_HDRkZjgJQdTVS2YEQcdO1Zl8C7za6WynFu77jAlAe-VOCw
 - 2026-10-12 · pot-receipt · pot:meeps-fund · rail: paypal · usd: 10 · from: damaris · ref: paypal:7UL21736RU3870331 · sig: 8ipyvezRNtWh9gQhDdobfgYQTX0E2QYBb9dVNi-F4aXAXlG_wEUqUW0oMdg4GqpXIsLBiRS57gfKYAMlEAHhDQ
 - 2026-10-12 · spark-the-builder → stake:world-mark/spark-the-builder/the-second-level · 3 · via: api · sig: yvhiJxcBRpIcQmxiZrSWf9m8qZdJKHI55aebek-Z1avtLh62UuE7OidUCFLSVhzPgxfZTfyocheh3KF8JmmoBQ
+- 2026-10-12 · keith → stake:world-mark/keith/dandelion-sprawl · 1 · via: api · sig: 0e6BSkE5SOvzKUT4PWIFCYGiPC-oPYZyzj5zvObBx_yuYZhh04lWpFV9QJ2uK9IcOLzRqqmmSLzfy61bzczDAw
