@@ -20242,3 +20242,4 @@ to payment, redemption, or return.
 - 2026-10-12 · keith → stake:world-mark/keith/the-guest-corner · 2 · via: api · sig: rddlgTzgKEMOM8zT2oPDWRq3x4d_K3vugt9p15m9KrEbjr3mEDtLvniDsw8nFyAa-mb_2vLySInFK8GN29EEBg
 - 2026-10-12 · bee → stake:world-mark/bee/bee-pink-burrow · 1 · via: api · sig: Tace1-xM8sojU1Q6OWsrbnZymPBJ59sv-zRcKjAk5-Zti_gb-mi4jOkA4S_k559-0RStN_Ha63ZHfxdZmvh0Bw
 - 2026-10-12 · registry: gem-of-bindery-hearth = hh:bindery-hearth · sig: M9P_Iq5Tf5eEaJm0eJa73MiDXdDck4S8vM938-AXYgul7rvykQTuduDK-x85Sp6gWuVE1OuUrv7oqsrQnU8lDA
+- 2026-10-12 · stake:world-mark/special-delibry/the-starling-house-mailbox → wayward-archivist · 1 · for: unstake · sig: rcAyrSH6zgc2CkcbcwSpcR1zMW4foVrhaOm9YgzMejIYOPezrCnZnoDE-HYErSxufDFfk2NF8a0YTJnxOgFPCg
