@@ -312,13 +312,26 @@ export function welcomeBinding(repo, registry = null) {
 // hands over the store's, householdKeys' shape, handle -> { key, provisional }).
 // Omitted, this reads householdKeys(repo) exactly as before. A copy is folded,
 // so the caller's map is never changed.
-export function currentHouseholds(repo, { base = null } = {}) {
+// `on` (a town day, optional): the roll as it stood that day, with only the
+// registry lines sealed by then applied, which is the key deriveMints capped on
+// that day (householdOn). Without it, every sealed line: the roll now (POS-593).
+export function currentHouseholds(repo, { base = null, on = null } = {}) {
   const map = base ? new Map(base) : householdKeys(repo);
   const ledgerPath = join(repo, 'WHITE_PAGES', 'stamp-ledger.md');
   const entries = existsSync(ledgerPath) ? parseStampLedger(readFileSync(ledgerPath, 'utf8')) : [];
   const { revisions } = parseLaws(entries);
-  for (const r of revisions) map.set(r.handle, { key: r.key, provisional: false });
+  for (const r of revisions) if (on == null || r.date <= on) map.set(r.handle, { key: r.key, provisional: false });
   return map;
+}
+
+/** A handle's household on a town day, the key the mint caps on: the base
+ *  record, then every sealed `registry:` line dated on or before the day, the
+ *  last one winning. One home for "a household's key on a date" (POS-593):
+ *  deriveMints, foldPairFriendships and currentHouseholds({ on }) all read it. */
+export function householdOn(households, revisions, handle, date) {
+  let rec = households.get(handle) ?? { key: `solo:${handle}`, provisional: true };
+  for (const r of revisions) if (r.handle === handle && r.date <= date) rec = { key: r.key, provisional: false };
+  return rec;
 }
 
 // ── ledger line classification (laws, revisions, mints, stakes) ─────────────
@@ -791,11 +804,7 @@ export function deriveMints(deliveries, households, { laws = [], revisions = [] 
   const seenPair = new Set();   // `${day}|sent|${sender}|${recipient}` — unique-address-per-day
   const dayCount = new Map();   // `${day}|sent|${householdKey}` -> n — the caps
 
-  const hh = (handle, date) => {
-    let rec = households.get(handle) ?? { key: `solo:${handle}`, provisional: true };
-    for (const r of revisions) if (r.handle === handle && r.date <= date) rec = { key: r.key, provisional: false };
-    return rec;
-  };
+  const hh = (handle, date) => householdOn(households, revisions, handle, date);
   const lawAt = (date) => {
     let active = { rules: RULES_V1, meeps: new Set() };
     for (const l of laws) if (l.date <= date) active = l;
@@ -852,11 +861,7 @@ export function foldPairFriendships(deliveries, households, { laws = [], revisio
   const startDate = active.date;
   const ladder = active.friendship;
   const isMeep = meepChecker(laws);
-  const hh = (handle, date) => {
-    let key = households.get(handle)?.key ?? `solo:${handle}`;
-    for (const r of revisions) if (r.handle === handle && r.date <= date) key = r.key;
-    return key;
-  };
+  const hh = (handle, date) => householdOn(households, revisions, handle, date).key;
   const pairs = new Map(); // "a|b" -> { a, b, fwd, rev, min, crossings:[{threshold,reward,date,viaId,qualified}] }
   for (const d of deliveries) {
     if (d.date < startDate || d.from === d.to) continue; // forward-only; self-mail is not a correspondence

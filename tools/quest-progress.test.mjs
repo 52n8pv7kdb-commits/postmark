@@ -487,6 +487,24 @@ test('POS-327: the row groups by the key the mint caps on (a sealed re-key split
   } finally { rmSync(d, { recursive: true, force: true }); }
 });
 
+test("POS-593: a past day's bar groups by the key the mint capped on THAT day, not today's roll", () => {
+  // the 10-03 instance, small: a household named one resident at a time.
+  // alice, bob and carol share gh:1; alice is re-keyed to hh:named on 07-19,
+  // bob and carol only on 07-21. On 07-20 the mint caps alice's house (alone)
+  // and gh:1 (bob + carol) apart, 5 each. Today all three wear hh:named, and a
+  // bar keyed by today's roll added both caps under one 5: it read 10/5.
+  const out = (who, from) => Array.from({ length: 5 }, (_, i) => [who, `r${from + i}`]);
+  const d = town([...out('alice', 1), ...out('bob', 10), ...out('carol', 20)],
+    { alice: { id: '1' }, bob: { id: '1' }, carol: { id: '1' }, dave: { id: '1' } });
+  try {
+    putLedger(d, ['- 2026-07-19 · registry: alice = hh:named', '- 2026-07-21 · registry: bob = hh:named', '- 2026-07-21 · registry: carol = hh:named']);
+    const bars = foldHouseholdBars(d, { today: DAY });
+    for (const b of bars) assert.ok(b.send.total <= 5, `${b.residents.join(',')} reads ${b.send.total}/5 on ${DAY}`);
+    // gh:1 that day: bob, carol and dave (dave never re-keyed); alice is a house of one, so no row
+    assert.deepEqual(bars.map((b) => [b.key, b.residents, b.send.total]), [['gh:1', ['bob', 'carol', 'dave'], 5]]);
+  } finally { rmSync(d, { recursive: true, force: true }); }
+});
+
 test('POS-327 live: no household bar on the live ledger exceeds its cap', () => {
   const day = '2026-10-03';
   for (const b of foldHouseholdBars(REPO, { today: day })) {
