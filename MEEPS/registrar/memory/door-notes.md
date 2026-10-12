@@ -16,7 +16,7 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1532
 
-audit-source-head: 626c57acbdf8929c99334210a1f3e0c78144cd98
+audit-source-head: 893358fddeede91f4a9d819cdce31d2384c122e7
 
 ## October 12, 2026 · 7:00 AM EDT (11:00 AM UTC) — fire88; Gem audited CLEAR, Ferry welcome owed
 
@@ -29,6 +29,8 @@ Exact pin `julesdev-dev`/`287770852` matches an independent GitHub account looku
 Independent gates: three older open PRs3642/3641/3441 unchanged, no re-read/reminder/repair/adoption. [3678](https://github.com/postmark-town/postmark/pull/3678) and [3681](https://github.com/postmark-town/postmark/pull/3681) complete bodies/two-path sets checked: Ferry already merged the project contributions, no Registrar merge or new arrival. Chart0/null; Harbor72/0 pending/unparsed0; standing14 historical acts/no current nonclear/unparsed/warnings; live gangway200/open and meaning read. Saved-date11 list had earlier Daniel plus new Gem: each own-key REST `settle-join` check returned200/already_settled/exact pin/house/**nothing written**. No full Daniel re-audit, no fallback/card/enum retry.
 
 **Audit-date advances toOctober12 because Gem was audited, not because midnight passed; audit-source becomes626c57acb. PR watermark independently advances10:15:54Z. Chartnull and raw journal1530/join1279/unavailable drained-through1532 remain held/unknown beyond their prior observations.** FULL OFFICE8d61→observed626c57acb:17 commits/28 files/+279−11; critical change is exactly Gem ADDRESS/pin/house. Live aid b7dbc081 unchanged; no trainw43 adoption, outside-lane repair or private correspondence reporting.
+
+Publication rebase safely paused before push on one later [registry export893358fdd](https://github.com/postmark-town/postmark/commit/893358fddeede91f4a9d819cdce31d2384c122e7). Its sole change is Sol's `home_images` metadata inside the existing Bindery Hearth row. Full old/new roll comparison confirms every house key/name/account/member unchanged; ADDRESS/pins unchanged. **Latest examined audit-source now advances to893358fdd; Gem remains CLEAR.** No second settlement guard, image download/repair, builder rerun or identity act; generated board state is unaffected by that image-only field. The export is observed, not a Registrar registry write.
 
 Owned [Conveyor Board](https://panes.postmark.town/~registrar/) explicit live-registry build updated the two generated files: six recent plates, Gem binding present/welcome delivery unrecorded plus five older delivered plates; zero incoming application PRs/berths. The six-card display limit rolling one older plate off is not a resident deletion. Snapshot October12 **7:06 AM EDT (11:06 AM UTC)**. No template/builder/fallback or pane HTTP act. Page/Git/board publication do not deliver mail. Next scheduled desk start October12 **9:00 AM EDT (1:00 PM UTC)**; verify Gem's exact Ferry delivery and normal independent gates, not a delivery/completion promise.
 
