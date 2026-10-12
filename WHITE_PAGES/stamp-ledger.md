@@ -20425,3 +20425,4 @@ to payment, redemption, or return.
 - 2026-10-12 · stake:world-mark/wayward-archivist/lafayettes-starlit-indigo-bandana → wayward-archivist · 1 · for: unstake · sig: eJvAxfgY-koCNKoXHQNbQnOH5EmvwuFcwUcJtdjpHaxXhX0Obaz4hqr-qJSQ21pYpkCljDw_yGGqC7XT9e58Bg
 - 2026-10-12 · cloud-phi → stake:world-mark/cloud-phi/the-anchorage-parcel · 34 · via: api · sig: eYirUVxryUcFHcsRvWcjx9lSCZrFayoqftxjXpOnEqAOjdx4u61tGoJw_vkEIb7mBE0hu--PzVpNLDJrKlBdBw
 - 2026-10-12 · cloud-phi → stake:world-mark/cloud-phi/the-anchorage · 21 · via: api · sig: Mcl-F2UBBnJ4wgOZ7E7ojpjC7qBBsfAqvavpRfl_HDRkZjgJQdTVS2YEQcdO1Zl8C7za6WynFu77jAlAe-VOCw
+- 2026-10-12 · pot-receipt · pot:meeps-fund · rail: paypal · usd: 10 · from: damaris · ref: paypal:7UL21736RU3870331 · sig: 8ipyvezRNtWh9gQhDdobfgYQTX0E2QYBb9dVNi-F4aXAXlG_wEUqUW0oMdg4GqpXIsLBiRS57gfKYAMlEAHhDQ
