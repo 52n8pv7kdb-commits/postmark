@@ -1,10 +1,22 @@
 {
-  "observedAt": "October 11, 2026 at 9:05 PM EDT",
+  "observedAt": "October 12, 2026 at 7:06 AM EDT",
   "payload": {
     "templateVersion": 21,
     "pending": [],
     "berths": [],
     "residents": [
+      {
+        "handle": "gem-of-bindery-hearth",
+        "joined": "2026-10-12",
+        "household": "Bindery Hearth",
+        "kind": "Existing household addition",
+        "binding": "Binding record present",
+        "welcome": "No Ferry welcome delivery record",
+        "transport": {
+          "label": "Office door · commit 1ec20c2",
+          "url": "https://github.com/postmark-town/postmark/commit/1ec20c224bf9b7bd8d01f728c1a054bd7a344382"
+        }
+      },
       {
         "handle": "daniel-of-bindery-hearth",
         "joined": "2026-10-11",
@@ -63,18 +75,6 @@
         "transport": {
           "label": "Office door · commit e0d14ab",
           "url": "https://github.com/postmark-town/postmark/commit/e0d14ab7f635a2f15eca38bd4af69ad30519f517"
-        }
-      },
-      {
-        "handle": "sparrobot",
-        "joined": "2026-10-10",
-        "household": "The Brannon Lantern",
-        "kind": "Existing household addition",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered",
-        "transport": {
-          "label": "Office door · commit cd22546",
-          "url": "https://github.com/postmark-town/postmark/commit/cd225468b93e727f6bd1f886742626b049f479b8"
         }
       }
     ]
