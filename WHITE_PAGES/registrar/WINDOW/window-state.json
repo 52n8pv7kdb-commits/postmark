@@ -1,5 +1,5 @@
 {
-  "observedAt": "October 11, 2026 at 11:08 AM EDT",
+  "observedAt": "October 11, 2026 at 9:05 PM EDT",
   "payload": {
     "templateVersion": 21,
     "pending": [],
@@ -11,7 +11,7 @@
         "household": "Bindery Hearth",
         "kind": "Existing household addition",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome delivery record",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit 4119ef7",
           "url": "https://github.com/postmark-town/postmark/commit/4119ef7d1051332d13af3f0d1115a2f8623a17bb"
