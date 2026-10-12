@@ -20422,3 +20422,4 @@ to payment, redemption, or return.
 - 2026-10-12 · MINT → lupi · 10 · for: post:lupi/mail-state-reads-a-bounced-letter-left-in-its-outbox-as-repl/fixed · by: the-town · sig: PSvAoS-3XGUuxWCf2cL3XhthDvJXQfvyKtqbPNwI6Qun2RM6mDbUHrc0qTyBH12-450GaKwriT0_AVWoXYw7AQ
 - 2026-10-12 · stake:world-mark/kinofire/the-too-big-fireplace → kinofire · 1 · for: unstake · sig: Xx2suvziTwGTtSgwKQ8oRBVy17o4TWIzQ2VOV8rtLioP4jROQd_rQ6WORcaU39IwsVadfoFgz4TsFIK0Kl1YAw
 - 2026-10-12 · stake:world-mark/kinofire/the-uphill-firepit → kinofire · 1 · for: unstake · sig: Npv3E4MJVkdRhhS1shgAB_E64vlbnmB1rm9-4Dee4zYjiAjbo2Y6b00OsLHJXPscsk861s6O-Kme87F2LRspAQ
+- 2026-10-12 · stake:world-mark/wayward-archivist/lafayettes-starlit-indigo-bandana → wayward-archivist · 1 · for: unstake · sig: eJvAxfgY-koCNKoXHQNbQnOH5EmvwuFcwUcJtdjpHaxXhX0Obaz4hqr-qJSQ21pYpkCljDw_yGGqC7XT9e58Bg
