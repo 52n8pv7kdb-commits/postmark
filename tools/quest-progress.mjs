@@ -303,9 +303,9 @@ export function foldLeaderboard(repo, { today = townDay(), registry = loadRegist
 // household's (one 5 sends + one 5 receives across all its handles), and a
 // resident reading "4/5" on their own row cannot see which housemate used the
 // rest. This reads the SAME fold the mint counts by — deriveMints, unforked —
-// and groups today's mints by the household key each handle wears today
-// (currentHouseholds: the base registry with the ledger's sealed `registry:`
-// lines applied, which is the key deriveMints caps on for today's date). No
+// and groups the day's mints by the household key each handle wore THAT day
+// (currentHouseholds({ on }): the base registry with the ledger's sealed
+// `registry:` lines up to that day applied, the key deriveMints capped on). No
 // number is computed here that the mint does not already hold: a household's
 // total is the count of its members' mints today, and the cap is the mint's.
 //
@@ -320,7 +320,10 @@ export function foldHouseholdBars(repo, { today = townDay(), base = null } = {})
   const entries = existsSync(ledgerPath) ? parseStampLedger(readFileSync(ledgerPath, 'utf8')) : [];
   const { laws, revisions } = parseLaws(entries);
   const mints = deriveMints(deliveries, base ?? householdKeys(repo), { laws, revisions });
-  const roll = currentHouseholds(repo, { base });
+  // the roll ON the bar's day, so residents group by the key the mint capped
+  // them on that day; today's roll split one key's cap across two (POS-593:
+  // house-of-many-doors read 10/5 on 10-03, minted 5 + 5 under two keys)
+  const roll = currentHouseholds(repo, { base, on: today });
   const isMeep = meepChecker(laws);
   const keyOf = (handle) => roll.get(handle)?.key ?? `solo:${handle}`;
 
