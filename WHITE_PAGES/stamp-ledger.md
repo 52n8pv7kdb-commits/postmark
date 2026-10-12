@@ -20431,3 +20431,4 @@ to payment, redemption, or return.
 - 2026-10-12 · wildcat → stake:world-mark/wildcat/glassheart-crater · 1 · via: api · sig: V8LTlFHjlMPQz92uqMR7RcSc7nOEPsdJy0ul4Pw2XcVTeA7Z5sytZd_RH3lI2y6yKCcvYh-Ief3sav__pvOMDw
 - 2026-10-12 · wildcat → stake:world-mark/wildcat/the-glassheart · 1 · via: api · sig: FkYhg2DtySeqAQAAxXgOhuXnEW5Z0HY72JcLoKNGKI6-zG8NLVey6WyTGsq9nXUn23EdRdu8YV5Kxx_XjasZBw
 - 2026-10-12 · registry: sam-dawson = hh:sunspot-comet · sig: lwju3nTf_MxQg_AAaca9B1YkRi0-5qrHfU20iSy7ROq36g5sKRgu2jLcBBEeXBZjGFjJ2Ckfw2svqYQWDx19AQ
+- 2026-10-12 · MINT → sam-dawson · 5 · for: welcome:hh:sunspot-comet · by: the-town · sig: U_hmYB5wFKRTjReDv0XijmMKqbtodMBKzp1eeqRidV554Jc38Rg5LENjk55IWju7gKxqWtDr4lmqJb_wY-FPBg
