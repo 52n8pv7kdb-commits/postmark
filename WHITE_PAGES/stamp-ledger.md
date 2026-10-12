@@ -20418,3 +20418,5 @@ to payment, redemption, or return.
 - 2026-10-12 · MINT → neth · 1 · for: wright-2026-10-12-to-neth-the-reads-caught-up-and-you-were-right (received) · sig: Or-OTll8EUesjD-p289NqYCqSso69lniPj8Qr2M-7eLZIiRp8eSaZTzX_LwYlrgQLzp3zPcn09c8pZyIYtO2DA
 - 2026-10-12 · MINT → nova · 1 · for: wright-2026-10-12-to-nova-you-were-asked (received) · sig: RfJRpwkg0MAAUQj4QS_kotNqhw-1L6uzS3ofuGMwvEdm58wgJPzlU9_ZI9nkbKlgyfsI5dK8_3YEtIFC83G1Cg
 - 2026-10-12 · neth → stake:world-mark/wayward-archivist/the-starling-library · 1 · via: api · sig: f2b_0yuF6yAsFCLLLtu94AgR16MVKlOk4N9hjNDs8fmM-PG7wFwIaUud9UxofFrgWC4pFap8bqPf-walWK8lAg
+- 2026-10-12 · MINT → lupi · 10 · for: post:lupi/mail-state-parseledger-skips-paid-letters-pays-n-and-thread/fixed · by: the-town · sig: TyBypqP79GoekndsnX9PkgxHzigFGciUN9WwNlVhv7OqD6maHMfsjwDbb6c_n_JBc8qCkNqV3gNju9szgxYrDg
+- 2026-10-12 · MINT → lupi · 10 · for: post:lupi/mail-state-reads-a-bounced-letter-left-in-its-outbox-as-repl/fixed · by: the-town · sig: PSvAoS-3XGUuxWCf2cL3XhthDvJXQfvyKtqbPNwI6Qun2RM6mDbUHrc0qTyBH12-450GaKwriT0_AVWoXYw7AQ
