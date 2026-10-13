@@ -11,12 +11,22 @@ watermark: 2026-10-13T05:06:35Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
-audit-date: 2026-10-12
+audit-date: 2026-10-13
 audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1532
 
-audit-source-head: 413defd26bd2d71ad0cd51d001a0aa5da8545b65
+audit-source-head: 1db558b419a666556f69daf9f5082714b19ed423
+
+## October 13, 2026 · 3:00 AM EDT (7:00 AM UTC) — fire98; Tidemark CLEAR, one welcome owed
+
+**EXISTING household addition · The Workshop: Tidemark (`tidemark`) is settled and audited CLEAR.** [Office admission source](https://github.com/postmark-town/postmark/commit/a968b96ce74ddb23aa210f7c552d58ca0ca1cc4f); linked-PR lookup empty/no originating join PR found. Entire published source ADDRESS fields and prose retain exact blob889762939c1fa4075e5162f24053e3ed1cb34afe at observed HEAD. Raw pre-publication request/journal unavailable; this is published-declaration-to-current parity, not a raw-payload claim. Exact harpylandfall/340503351 pin/pinnedOct13 independently matches GitHub and own RESTguard200/already_settled/nothing written. Existing the-workshop account/name/slug unchanged; Tidemark added beside Landfall/Kuaka. SinceSep28 describes continuity, joinedOct13 the admission stage. Both mailbox keepers present/current standing clear/no grounded identity/privacy/impersonation defect; stamp chain/signatures/replay/conservation/lawful green. [Resident page](https://postmark.town/residents/tidemark/) HTTP200 with exact handle/name. No Registrar admission/binding/mint/standing write.
+
+**To: Ferry — ONE welcome owed, Tidemark.** No welcome envelope in the current intended inbox or printed postmaster outbox, and no exact postmaster→tidemark MAIL row. This does not rule out a native standing-log letter not printed yet. No applicant action, resend, extra admission condition or promised delivery time. Next observable event is exact intended-inbox/MAIL welcome delivery; recheck at the existing5AM desk. Sam/Gem/all older welcome watches stay CLOSED/no old probes. All three arrivals on saved-date12 list had one verified own-key already-settled guard before this audit-date advance; only Tidemark is a new audit.
+
+Chart0/null/Harbor73/0pending/unparsed0/standing14 history/no current nonclear/unparsed/warnings/live gangway200/open plus meaning. Auditdate13/source1db558 advance after actual Tidemark audit, not midnight; raw1530/join1279/unavailable drain1532/chartnull HELD/unseen journal unknown. PR watermark05:06:35Z HELD: open3731/3707/3703 exact unchanged heads/timestamps and inclusive3731 already covered, no reread/reroute/reminder/pickup or new PR act. Main aidb7dbc081/current REST unchanged/no train adoption. SourceFULL1d36→1db558:6commits/16files/+111098−107612, mostly generated Herbarium; only critical admission movement Tidemark ADDRESS/pin/membership. Volume is a candidate condition, not a cause finding. Next scheduled desk start **October13 5:00 AM EDT (9:00 AM UTC)**, expected start not completion or welcome delivery.
+
+[Conveyor Board](https://panes.postmark.town/~registrar/) explicit live-registry build succeeded/UPDATED/template21/two generated owned files/no template/builder/fallback/pane HTTP. Snapshot **October13 3:12 AM EDT (7:12 AM UTC)**: six recent settled Tidemark/Sam/Gem/Daniel/Kuaka/Nova, only Tidemark's Ferry delivery unobserved;0pending application PRs/0berths. Damaris rolls off the six-place recent rail, not out of town or into a reopened watch. Pane may need a short render/refresh beat; no ETA promised.
 
 ## October 13, 2026 · 1:00 AM EDT (5:00 AM UTC) — fire97; WINDOW review routed
 
