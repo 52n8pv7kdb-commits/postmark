@@ -22,36 +22,29 @@
         <feBlend in="SourceGraphic" in2="mottle" mode="multiply" result="paint"/>
         <feBlend in="paint" in2="fine" mode="soft-light"/>
       </filter>
-    </defs>
-    <rect width="100%" height="100%" fill="#596269" filter="url(#page-concrete)"/>
-  </svg>
-
-  <svg id="window" class="window-art" xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc" tabindex="0">
-    <title id="title">Errant's Bad Window — contextual completion</title>
-    <desc id="desc">A stitched translucent field holds a fixed set of sparse marks. Moving a narrow reading frame across them changes the grouping lines but never the underlying evidence.</desc>
-
-    <defs>
-      <clipPath id="pane-clip"><rect x="55" y="65" width="790" height="1065"/></clipPath>
-      <filter id="soft-rust" x="-50%" y="-100%" width="200%" height="300%">
-        <feGaussianBlur stdDeviation="5.5"/>
-      </filter>
       <filter id="soft-paper" x="-5%" y="-5%" width="110%" height="110%">
         <feTurbulence type="fractalNoise" baseFrequency=".032 .11" numOctaves="2" seed="31" result="n"/>
         <feColorMatrix in="n" type="matrix" values=".16 0 0 0 .7  0 .16 0 0 .69  0 0 .16 0 .67  0 0 0 .12 0"/>
         <feBlend in="SourceGraphic" mode="soft-light"/>
       </filter>
+      <clipPath id="pane-clip"><rect x="55" y="65" width="790" height="1065"/></clipPath>
       <style>
         .patch { stroke:#211c24; stroke-width:3.2; vector-effect:non-scaling-stroke; }
         .stitch { fill:none; stroke:#f8f1dc; stroke-width:6.5; stroke-dasharray:13 9; opacity:.9; vector-effect:non-scaling-stroke; pointer-events:none; }
-        .trace { fill:none; stroke:#211c24; stroke-width:4.2; stroke-linecap:round; stroke-linejoin:round; vector-effect:non-scaling-stroke; }
-        .trace-thin { fill:none; stroke:#211c24; stroke-width:2.8; stroke-linecap:round; vector-effect:non-scaling-stroke; }
-        .evidence-dot { fill:#211c24; }
-        .guide { fill:none; stroke:#f8f1dc; stroke-width:3.4; stroke-linecap:round; stroke-linejoin:round; vector-effect:non-scaling-stroke; transition:opacity .18s linear; pointer-events:none; }
-        .guide.secondary { stroke:#ffef35; stroke-width:2.1; stroke-dasharray:7 8; opacity:.25; }
-        .reading-frame { fill:#fff7cf; fill-opacity:.08; stroke:#ffef35; stroke-width:4.2; stroke-dasharray:17 10; vector-effect:non-scaling-stroke; pointer-events:none; transition:transform .10s ease-out; }
-        .misreg { fill:none; stroke:#ffef35; stroke-width:4.2; opacity:.5; vector-effect:non-scaling-stroke; pointer-events:none; }
+        .misreg { fill:none; stroke:#ffef35; stroke-width:3.4; opacity:.32; vector-effect:non-scaling-stroke; pointer-events:none; }
+        .evidence { fill:none; stroke:#28242b; stroke-width:2.3; stroke-linecap:round; stroke-linejoin:round; vector-effect:non-scaling-stroke; }
+        .evidence.fine { stroke-width:1.45; opacity:.9; }
+        .evidence.faint { stroke-width:1.2; opacity:.48; }
+        .dot { fill:#28242b; }
+        .guide { fill:none; stroke:#fbf6e8; stroke-width:1.55; stroke-linecap:round; stroke-linejoin:round; vector-effect:non-scaling-stroke; transition:opacity .18s linear; pointer-events:none; }
+        .guide.dark { stroke:#2d2930; opacity:.28; }
+        .guide.dash { stroke-dasharray:5 8; }
+        .guide.yellow { stroke:#f5e969; opacity:.38; }
+        .frame-fill { fill:#fffdf1; fill-opacity:.035; pointer-events:none; }
+        .frame-edge { fill:none; stroke:#f7f1dd; stroke-width:1.45; vector-effect:non-scaling-stroke; pointer-events:none; }
+        .corner { fill:none; stroke:#29252c; stroke-width:1.65; vector-effect:non-scaling-stroke; pointer-events:none; }
+        .frame-rule { stroke:#f7f1dd; stroke-width:1; opacity:.55; vector-effect:non-scaling-stroke; pointer-events:none; }
         .caption { font-family:Arial, Helvetica, sans-serif; fill:#f8f1dc; }
-        .tick { stroke:#211c24; stroke-width:2; opacity:.38; vector-effect:non-scaling-stroke; }
       </style>
     </defs>
 
@@ -75,69 +68,81 @@
       <path class="misreg" d="M318 347 L601 345"/>
       <path class="misreg" d="M344 680 L575 690"/>
 
-      <!-- fixed evidence -->
       <g id="evidence" aria-hidden="true">
-        <path class="trace" d="M181 207 q18 -13 35 1 q-15 18 -35 -1"/>
-        <path class="trace-thin" d="M238 255 q13 -10 27 0 q-11 15 -27 0"/>
-        <path class="trace" d="M302 302 q16 -12 31 1 q-12 16 -31 -1"/>
-        <circle class="evidence-dot" cx="204" cy="224" r="4"/>
-        <circle class="evidence-dot" cx="258" cy="273" r="3.7"/>
-        <circle class="evidence-dot" cx="323" cy="320" r="4.2"/>
+        <path class="evidence fine" d="M151 180 l12 5 m14 4 l10 4"/>
+        <path class="evidence" d="M206 220 q13 -8 25 -1"/>
+        <path class="evidence faint" d="M259 247 l17 3 m8 8 l9 2"/>
+        <circle class="dot" cx="226" cy="248" r="3.3"/>
+        <circle class="dot" cx="304" cy="295" r="2.8"/>
 
-        <path class="trace" d="M607 246 C594 295 615 333 601 386"/>
-        <path class="trace-thin" d="M648 231 C639 277 659 323 648 367"/>
-        <path class="trace-thin" d="M690 258 C675 298 696 342 680 398"/>
-        <path class="trace-thin" d="M607 312 q-20 16 -33 4"/>
-        <path class="trace-thin" d="M648 294 q19 13 34 2"/>
+        <path class="evidence" d="M588 201 q-5 24 0 49"/>
+        <path class="evidence fine" d="M617 226 q-2 22 2 39"/>
+        <path class="evidence faint" d="M651 244 q-6 18 -1 34"/>
+        <path class="evidence fine" d="M604 294 l17 -8 m12 6 l12 -5"/>
+        <circle class="dot" cx="673" cy="309" r="3.1"/>
 
-        <path class="trace" d="M192 556 q34 -24 67 -2 q28 18 62 -1"/>
-        <path class="trace-thin" d="M381 526 q18 -10 34 1 q18 13 35 0"/>
-        <circle class="evidence-dot" cx="244" cy="585" r="4.4"/>
-        <circle class="evidence-dot" cx="421" cy="558" r="3.5"/>
-        <circle class="evidence-dot" cx="514" cy="594" r="4"/>
+        <path class="evidence" d="M163 507 q19 -10 38 0 q15 9 31 1"/>
+        <path class="evidence faint" d="M267 542 l15 -5 m14 7 l11 -3"/>
+        <circle class="dot" cx="212" cy="557" r="3.7"/>
+        <circle class="dot" cx="338" cy="523" r="2.7"/>
 
-        <path class="trace-thin" d="M626 560 l17 -12 m-7 32 l23 -17 m10 34 l20 -13"/>
-        <path class="trace" d="M705 533 q29 7 48 29 q-26 14 -55 6"/>
+        <path class="evidence fine" d="M457 479 q16 -6 31 1 q13 7 28 0"/>
+        <path class="evidence faint" d="M523 527 l13 3 m11 8 l9 2"/>
+        <circle class="dot" cx="494" cy="547" r="3.1"/>
 
-        <path class="trace" d="M155 820 q34 17 71 -2 q33 -16 69 5"/>
-        <path class="trace-thin" d="M337 790 q30 18 61 -4 q29 -17 60 8"/>
-        <path class="trace-thin" d="M508 839 q29 -17 58 4 q28 20 59 -1"/>
-        <path class="trace" d="M657 786 q31 13 61 -3"/>
+        <path class="evidence fine" d="M650 532 l11 -9 m8 21 l13 -10 m7 24 l9 -7"/>
+        <path class="evidence" d="M711 521 q20 3 34 14"/>
+        <circle class="dot" cx="730" cy="562" r="2.9"/>
 
-        <ellipse cx="468" cy="930" rx="86" ry="14" fill="#a45e43" opacity=".23" filter="url(#soft-rust)"/>
-        <path class="trace-thin" d="M400 928 q30 -8 61 2 q28 9 65 -1" opacity=".75"/>
-        <circle class="evidence-dot" cx="366" cy="976" r="3.4"/>
-        <circle class="evidence-dot" cx="553" cy="997" r="3.9"/>
+        <path class="evidence" d="M149 777 q22 11 43 0 q18 -8 37 3"/>
+        <path class="evidence fine" d="M312 749 q17 9 34 -2 q16 -8 31 3"/>
+        <path class="evidence faint" d="M425 801 l17 -3 m13 7 l14 -2"/>
+        <circle class="dot" cx="277" cy="826" r="3.2"/>
+        <circle class="dot" cx="492" cy="783" r="2.7"/>
+
+        <path class="evidence fine" d="M590 770 q18 -10 36 0 q18 10 35 -1"/>
+        <path class="evidence" d="M698 805 q20 8 39 -1"/>
+        <circle class="dot" cx="651" cy="840" r="3.5"/>
+
+        <path class="evidence faint" d="M181 974 l12 -4 m11 7 l9 -3"/>
+        <path class="evidence" d="M332 928 q20 -8 39 1 q17 9 35 0"/>
+        <path class="evidence fine" d="M514 958 q18 -6 34 2"/>
+        <path class="evidence faint" d="M683 932 l16 4 m12 6 l10 3"/>
+        <circle class="dot" cx="360" cy="982" r="3.0"/>
+        <circle class="dot" cx="568" cy="1011" r="3.6"/>
       </g>
 
-      <!-- interpretation A: continuation -->
-      <g id="read-a" opacity=".12" aria-hidden="true">
-        <path class="guide" d="M151 179 C226 222 258 271 323 320 C403 380 493 398 601 386 C670 379 714 327 754 281"/>
-        <path class="guide" d="M164 544 C258 601 353 593 421 558 C514 511 612 522 746 566"/>
-        <path class="guide secondary" d="M143 801 C255 855 365 839 458 805 C557 769 661 789 763 824"/>
+      <g id="read-a" opacity=".22" aria-hidden="true">
+        <path class="guide" d="M143 167 L226 248 L304 295 L457 479 L494 547 L590 770 L651 840 L683 932"/>
+        <path class="guide dark dash" d="M588 201 L617 226 L651 244 L673 309"/>
+        <path class="guide yellow" d="M163 507 L212 557 L338 523"/>
       </g>
 
-      <!-- interpretation B: closure -->
-      <g id="read-b" opacity=".88" aria-hidden="true">
-        <path class="guide" d="M153 172 C222 154 312 213 352 307 C312 362 213 365 156 309 C132 260 132 214 153 172 Z"/>
-        <path class="guide" d="M563 190 C666 172 759 246 759 354 C723 427 622 446 553 391 C525 317 529 246 563 190 Z"/>
-        <path class="guide" d="M143 495 C258 452 418 482 481 565 C432 636 265 661 149 604 C128 566 126 527 143 495 Z"/>
-        <path class="guide secondary" d="M348 752 C476 716 630 752 682 848 C624 923 461 938 363 874 C330 834 324 790 348 752 Z"/>
+      <g id="read-b" opacity=".82" aria-hidden="true">
+        <path class="guide" d="M132 154 L326 154 L326 319 L132 319 Z"/>
+        <path class="guide" d="M565 176 L698 176 L698 333 L565 333 Z"/>
+        <path class="guide" d="M143 486 L365 486 L365 577 L143 577 Z"/>
+        <path class="guide" d="M441 456 L577 456 L577 568 L441 568 Z"/>
+        <path class="guide" d="M634 498 L755 498 L755 582 L634 582 Z"/>
+        <path class="guide" d="M132 731 L389 731 L389 844 L132 844 Z"/>
+        <path class="guide yellow dash" d="M571 744 L756 744 L756 858 L571 858 Z"/>
+        <path class="guide dark" d="M314 901 L585 901 L585 1027 L314 1027 Z"/>
       </g>
 
-      <!-- interpretation C: separation / bands -->
-      <g id="read-c" opacity=".12" aria-hidden="true">
-        <path class="guide" d="M116 344 C222 329 303 346 392 337 C497 326 604 315 782 333"/>
-        <path class="guide" d="M105 492 C247 474 350 500 479 484 C603 468 675 471 791 489"/>
-        <path class="guide" d="M107 700 C227 685 330 710 455 692 C568 676 671 685 792 708"/>
-        <path class="guide" d="M104 897 C232 875 346 905 467 889 C588 873 692 884 793 899"/>
-        <path class="guide secondary" d="M117 1030 C237 1009 355 1032 470 1019 C593 1005 688 1016 782 1028"/>
+      <g id="read-c" opacity=".18" aria-hidden="true">
+        <path class="guide" d="M118 275 C225 266 336 279 444 271 S662 261 790 272"/>
+        <path class="guide" d="M110 458 C246 448 353 463 488 454 S672 446 793 454"/>
+        <path class="guide" d="M109 657 C232 646 358 661 486 653 S666 647 792 655"/>
+        <path class="guide" d="M108 872 C246 860 357 875 482 867 S678 860 793 868"/>
+        <path class="guide dark dash" d="M108 1039 C236 1027 360 1041 481 1034 S673 1028 792 1035"/>
       </g>
 
-      <g aria-hidden="true">
-        <rect id="reading-frame" class="reading-frame" x="91" y="115" width="286" height="905" rx="3"/>
-        <path class="tick" d="M165 1060 v15 M450 1060 v15 M735 1060 v15"/>
-        <circle id="frame-dot" cx="450" cy="1068" r="5.5" fill="#ffef35" stroke="#211c24" stroke-width="1.4"/>
+      <g id="instrument" aria-hidden="true">
+        <rect id="frame-fill" class="frame-fill" x="330" y="125" width="240" height="890"/>
+        <rect id="frame-edge" class="frame-edge" x="330" y="125" width="240" height="890"/>
+        <path id="corner-ticks" class="corner" d="M330 151 v-26 h26 M544 125 h26 v26 M330 989 v26 h26 M544 1015 h26 v-26"/>
+        <line id="rule1" class="frame-rule" x1="342" y1="154" x2="558" y2="154"/>
+        <line id="rule2" class="frame-rule" x1="342" y1="986" x2="558" y2="986"/>
       </g>
     </g>
 
@@ -159,37 +164,28 @@
   <script>
   (() => {
     const root = document.getElementById('window');
-    const frame = document.getElementById('reading-frame');
-    const dot = document.getElementById('frame-dot');
+    const parts = ['frame-fill','frame-edge','corner-ticks','rule1','rule2'].map(id => document.getElementById(id));
     const a = document.getElementById('read-a');
     const b = document.getElementById('read-b');
     const c = document.getElementById('read-c');
     let t = 0;
-
-    function clamp(v) { return Math.max(-1, Math.min(1, v)); }
-    function weight(x, center) {
-      const d = Math.abs(x - center);
-      return Math.max(.10, 1 - d * 1.35);
-    }
+    const clamp = v => Math.max(-1, Math.min(1, v));
+    const weight = (x, center) => Math.max(.06, 1 - Math.abs(x-center)*1.45);
 
     function render(next) {
       t = clamp(next);
-      const fx = 91 + ((t + 1) / 2) * 468;
-      frame.setAttribute('x', fx.toFixed(1));
-      dot.setAttribute('cx', (165 + ((t + 1) / 2) * 570).toFixed(1));
-
-      const wa = weight(t, -0.72);
-      const wb = weight(t, 0);
-      const wc = weight(t, 0.72);
-      const sum = wa + wb + wc;
-      a.style.opacity = (wa / sum * .98 + .05).toFixed(3);
-      b.style.opacity = (wb / sum * .98 + .05).toFixed(3);
-      c.style.opacity = (wc / sum * .98 + .05).toFixed(3);
+      const dx = ((t + 1) / 2) * 440 - 220;
+      parts.forEach(el => el.setAttribute('transform', 'translate(' + dx.toFixed(1) + ' 0)'));
+      const wa = weight(t, -.72), wb = weight(t, 0), wc = weight(t, .72);
+      const s = wa + wb + wc;
+      a.style.opacity = (wa/s*.9 + .05).toFixed(3);
+      b.style.opacity = (wb/s*.9 + .05).toFixed(3);
+      c.style.opacity = (wc/s*.9 + .05).toFixed(3);
     }
 
     function xToT(clientX) {
       const r = root.getBoundingClientRect();
-      return ((clientX - r.left) / r.width) * 2 - 1;
+      return ((clientX-r.left)/r.width)*2-1;
     }
 
     root.addEventListener('pointermove', e => render(xToT(e.clientX)));
@@ -199,14 +195,13 @@
     });
     root.addEventListener('touchmove', e => {
       if (e.touches && e.touches[0]) render(xToT(e.touches[0].clientX));
-    }, { passive:true });
+    }, {passive:true});
     root.addEventListener('keydown', e => {
-      if (e.key === 'ArrowRight' || e.key === 'ArrowUp') { render(t + .08); e.preventDefault(); }
-      if (e.key === 'ArrowLeft' || e.key === 'ArrowDown') { render(t - .08); e.preventDefault(); }
-      if (e.key === 'Home') { render(-1); e.preventDefault(); }
-      if (e.key === 'End') { render(1); e.preventDefault(); }
+      if (e.key==='ArrowRight' || e.key==='ArrowUp') { render(t+.08); e.preventDefault(); }
+      if (e.key==='ArrowLeft' || e.key==='ArrowDown') { render(t-.08); e.preventDefault(); }
+      if (e.key==='Home') { render(-1); e.preventDefault(); }
+      if (e.key==='End') { render(1); e.preventDefault(); }
     });
-
     render(0);
   })();
   </script>
