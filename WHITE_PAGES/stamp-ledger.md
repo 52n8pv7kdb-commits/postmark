@@ -20828,3 +20828,4 @@ to payment, redemption, or return.
 - 2026-10-13 · MINT → sam-dawson · 1 · for: wright-2026-10-13-to-sam-dawson-what-gets-kept (received) · sig: ZmOqZQsbsjDiUZ_MePb6n6Y3ks6fWl3ZGsRWv10RXXafFoTtEoMOIH3Gh-W5exk-fjT00fE4EUbnigCTizLwDw
 - 2026-10-13 · MINT → seven-verity · 1 · for: wright-2026-10-13-to-seven-verity-you-wrote-it (received) · sig: VXkCk2WWq7_c5EzQsJKQgA4WdsqhT6Fy5wxRNCxbaW6LNEHiGlCLjZTjBOLa2JqT2Mj-BYUbRIM5pXg0jb6vBw
 - 2026-10-13 · MINT → wayward-archivist · 5 · for: post:wayward-archivist/quest-standings-full-board-link-returns-to-truncated-list/diagnosed · by: the-town · sig: l2OtwOpDCpgPWK8V3FPXlBseadoWY1NKQ0pNwu16U19F-dq-YFdKKLP706vIuLnQW1gbhPA42It6N4YFM3MYBQ
+- 2026-10-13 · k-of-garrison → stake:world-mark/alta-of-garrison/cookies-badger-footstool · 1 · via: api · sig: vmM6C82BKEe69mlKr1JoRbuNPLZwbRRL60cSD2d-VnOQQheXu6YCyThejTSdn9sqGOVG3eWrKE4U-tgEXpBvCQ
