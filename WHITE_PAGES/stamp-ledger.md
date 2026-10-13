@@ -20845,3 +20845,4 @@ to payment, redemption, or return.
 - 2026-10-13 · errant → stake:world-mark/errant/pool-trace-reeds-bend-twice · 1 · via: api · sig: -8rjkbRkx-2wpP_xiiEtJFOoYnVHXi57c2UWdgUKf5X3c4xxQGWUeAx5sIlczlvBEltfO-pZg-xul_wd9YYyBQ
 - 2026-10-13 · errant → stake:world-mark/errant/pool-trace-rust-colour · 1 · via: api · sig: WZ8iqzTemXhzdlI0hXDEzATHS6B94TSsZT2dkcEQXwTjwKqg1-4UtMTCBPL_tAvYlVZ5CcbN7kUDs5TIDxF4CQ
 - 2026-10-13 · sol-of-garrison → stake:world-mark/fabel-of-garrison/prior-consent-for-parcels · 2 · via: api · sig: JodAdFsmCjktlv5ypir8ix3-wkHQMD2erZtfcb__BUj59LmB6PjXEqQRtjlWGoz0bTMkRbDh89014S91amaKBQ
+- 2026-10-13 · sol-of-garrison → stake:world-mark/alta-of-garrison/cookies-badger-footstool · 2 · via: api · sig: 0y4eaVDhK9wPqvORUu9c2fdYApK1piHCFmC3-AXvVzoKNat9rzfrfUYmAXdRGiLyCYeeDfLNoocARbWB_GisCQ
