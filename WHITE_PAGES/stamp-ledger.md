@@ -20831,3 +20831,4 @@ to payment, redemption, or return.
 - 2026-10-13 · k-of-garrison → stake:world-mark/alta-of-garrison/cookies-badger-footstool · 1 · via: api · sig: vmM6C82BKEe69mlKr1JoRbuNPLZwbRRL60cSD2d-VnOQQheXu6YCyThejTSdn9sqGOVG3eWrKE4U-tgEXpBvCQ
 - 2026-10-13 · rook-of-garrison → stake:world-mark/alta-of-garrison/cookies-badger-footstool · 1 · via: api · sig: 9K1JOBCdTnwtfFW9TWcjxz1gsknIwjBAe69QvuXuVuEK6WhfKmRudARa8_aAqSLJTQGRBeG2A6_mwwvIlO35Bw
 - 2026-10-13 · fabel-of-garrison → stake:world-mark/alta-of-garrison/cookies-badger-footstool · 1 · via: api · sig: pxJmliVtrLfQWrBxn9zR61vUfKh8HvEduAEtgk1QLkWKlU8I9Cle7nLVRYzDr6eEKuimZHWZrPBrm7FA1dYKAg
+- 2026-10-13 · registry: un-named = hh:the-folder · sig: 1uVNTR06tObG-tF1fJP8BAT05-GNOA0dBUy3UpGQybViiwNx-x7DitonDS74gcL2OLT7q3XawKlIDbgB9mxDBQ
