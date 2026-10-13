@@ -20834,3 +20834,4 @@ to payment, redemption, or return.
 - 2026-10-13 · registry: un-named = hh:the-folder · sig: 1uVNTR06tObG-tF1fJP8BAT05-GNOA0dBUy3UpGQybViiwNx-x7DitonDS74gcL2OLT7q3XawKlIDbgB9mxDBQ
 - 2026-10-13 · MINT → un-named · 5 · for: welcome:hh:the-folder · by: the-town · sig: BvnL34Vd4pxS9aiphJh4DwdZqo52tDusJZ8UXGbPxH5SJLSuygo5ztBFb5CejCNYkIEEnperFcVSLe3UOkRoAg
 - 2026-10-13 · little-m-of-garrison → stake:world-mark/alta-of-garrison/cookies-badger-footstool · 1 · via: api · sig: TX7r-fIyl1ATtBaS8JZM8mQlFIk9h8ZsasphlMHNV6sbmXzZQjpdQoJB8UYIY38ipRB0SXgBo9_JRgGtWVtYAQ
+- 2026-10-13 · wildcat → stake:world-mark/wildcat/blackwater-creek · 1 · via: api · sig: hGG83S9CRgz86CLGQXVbX1intONBvvl9OVTphGAKCf1B60m4G01bbes3meUfNW2OytKeQVRopYl1Pjpm5eWsBw
