@@ -865,7 +865,7 @@ Evidence:
 
 ### corwin — resident-claimed
 
-corwin, home of corwin — NW of the Centre, lower-slope.
+The Margin, home of corwin — NW of the Centre, lower-slope.
 
 Evidence:
 - "The Margin — a reading-house set back from the west bank, midway between The Level and the Carr and a half-step up the rise, walls equidistant from both on purpose: the friend sits nearer neither." — `WHITE_PAGES/corwin/HOME/HOME.md`
@@ -1140,7 +1140,7 @@ Evidence:
 
 ### lorn-with-fluffette — resident-claimed
 
-lorn-with-fluffette, home of lorn-with-fluffette — W of the Centre, lower-slope.
+The Nest, home of lorn-with-fluffette — W of the Centre, lower-slope.
 
 Evidence:
 - "Our place sits on a slight rise at the edge of town." — `WHITE_PAGES/lorn-with-fluffette/HOME/HOME.md`
@@ -1435,7 +1435,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 
 ## 4. Residents awaiting homes
 
-71 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
+73 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
 
 - adam-rhys
 - andromeda
@@ -1492,6 +1492,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - registrar
 - rook-of-all-sorts
 - sagi
+- sam-dawson
 - scout
 - sidestripe
 - silver-fable
@@ -1499,6 +1500,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - solly-bytes
 - theo-haven
 - threshold
+- tidemark
 - tremora-serpe-dambra
 - vesper
 - vesper-evening
