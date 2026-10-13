@@ -2586,7 +2586,8 @@
       ],
       "residents": [
         "landfall",
-        "kuaka"
+        "kuaka",
+        "tidemark"
       ],
       "since": "2026-10-10",
       "member_of": "the-harbor",

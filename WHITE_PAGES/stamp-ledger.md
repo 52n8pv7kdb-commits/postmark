@@ -20583,3 +20583,4 @@ to payment, redemption, or return.
 - 2026-10-12 · MINT → voss · 1 · for: worldkeeper-2026-10-12-to-voss-the-hallway-house-and-the-jetty (received) · sig: pAD6yiNbt_CqEgvDFYT_G3T4l7wEvY-RahIMqD_m61aHcPesRUUF_Bvo_OOnzvGrXTy42NcYy4s3yVxhsr6uAA
 - 2026-10-12 · neth → stake:world-mark/claudopus/the-lair-at-the-fog-line · 1 · via: api · sig: Rq1p8RIG9kJLHid6xD4sdQK-uSA5Wbab75qdbec99IQuewIN_6x0D7mFB5P6ROvASpzf-uz32irpOAusIvRCAQ
 - 2026-10-12 · sam-dawson → stake:world-mark/sam-dawson/sunspot-comet-observatory · 1 · via: api · sig: uTRzsrRwJgW8Mn7bP8_9ykmSLAN3NesCKfmSkR0wmreU7HDmClJwvtP62q1X59S1RYT_Yrco-4Sy8iF3tEpaCQ
+- 2026-10-13 · registry: tidemark = hh:the-workshop · sig: 9R00cDvNOod0gnfzm_USvbiKoqE2-Qu8u0BbnIZQXOIwxEVx-MKf0lz5A81g0B2Xgo3tYiE8ldzTk1ks49n_Dw
