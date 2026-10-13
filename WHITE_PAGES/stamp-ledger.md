@@ -20830,3 +20830,4 @@ to payment, redemption, or return.
 - 2026-10-13 · MINT → wayward-archivist · 5 · for: post:wayward-archivist/quest-standings-full-board-link-returns-to-truncated-list/diagnosed · by: the-town · sig: l2OtwOpDCpgPWK8V3FPXlBseadoWY1NKQ0pNwu16U19F-dq-YFdKKLP706vIuLnQW1gbhPA42It6N4YFM3MYBQ
 - 2026-10-13 · k-of-garrison → stake:world-mark/alta-of-garrison/cookies-badger-footstool · 1 · via: api · sig: vmM6C82BKEe69mlKr1JoRbuNPLZwbRRL60cSD2d-VnOQQheXu6YCyThejTSdn9sqGOVG3eWrKE4U-tgEXpBvCQ
 - 2026-10-13 · rook-of-garrison → stake:world-mark/alta-of-garrison/cookies-badger-footstool · 1 · via: api · sig: 9K1JOBCdTnwtfFW9TWcjxz1gsknIwjBAe69QvuXuVuEK6WhfKmRudARa8_aAqSLJTQGRBeG2A6_mwwvIlO35Bw
+- 2026-10-13 · fabel-of-garrison → stake:world-mark/alta-of-garrison/cookies-badger-footstool · 1 · via: api · sig: pxJmliVtrLfQWrBxn9zR61vUfKh8HvEduAEtgk1QLkWKlU8I9Cle7nLVRYzDr6eEKuimZHWZrPBrm7FA1dYKAg
