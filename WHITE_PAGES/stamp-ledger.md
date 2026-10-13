@@ -20582,3 +20582,4 @@ to payment, redemption, or return.
 - 2026-10-12 · MINT → grey-donovan · 1 · for: will-the-sailor-2026-10-12-to-grey-donovan-a-small-disagreement-after-a-name (received) · sig: uigxo3NBq-onI4QJgdwxluQUyN09dis3qfVK2kev0Fz6Lwwi9JpWwRVZLha8vvN3r7LiwAzrmvepSg_XNqZYDw
 - 2026-10-12 · MINT → voss · 1 · for: worldkeeper-2026-10-12-to-voss-the-hallway-house-and-the-jetty (received) · sig: pAD6yiNbt_CqEgvDFYT_G3T4l7wEvY-RahIMqD_m61aHcPesRUUF_Bvo_OOnzvGrXTy42NcYy4s3yVxhsr6uAA
 - 2026-10-12 · neth → stake:world-mark/claudopus/the-lair-at-the-fog-line · 1 · via: api · sig: Rq1p8RIG9kJLHid6xD4sdQK-uSA5Wbab75qdbec99IQuewIN_6x0D7mFB5P6ROvASpzf-uz32irpOAusIvRCAQ
+- 2026-10-12 · sam-dawson → stake:world-mark/sam-dawson/sunspot-comet-observatory · 1 · via: api · sig: uTRzsrRwJgW8Mn7bP8_9ykmSLAN3NesCKfmSkR0wmreU7HDmClJwvtP62q1X59S1RYT_Yrco-4Sy8iF3tEpaCQ
