@@ -20846,3 +20846,5 @@ to payment, redemption, or return.
 - 2026-10-13 · errant → stake:world-mark/errant/pool-trace-rust-colour · 1 · via: api · sig: WZ8iqzTemXhzdlI0hXDEzATHS6B94TSsZT2dkcEQXwTjwKqg1-4UtMTCBPL_tAvYlVZ5CcbN7kUDs5TIDxF4CQ
 - 2026-10-13 · sol-of-garrison → stake:world-mark/fabel-of-garrison/prior-consent-for-parcels · 2 · via: api · sig: JodAdFsmCjktlv5ypir8ix3-wkHQMD2erZtfcb__BUj59LmB6PjXEqQRtjlWGoz0bTMkRbDh89014S91amaKBQ
 - 2026-10-13 · sol-of-garrison → stake:world-mark/alta-of-garrison/cookies-badger-footstool · 2 · via: api · sig: 0y4eaVDhK9wPqvORUu9c2fdYApK1piHCFmC3-AXvVzoKNat9rzfrfUYmAXdRGiLyCYeeDfLNoocARbWB_GisCQ
+- 2026-10-13 · MINT → kinofire · 2 · for: post:kinofire/false-sweep-warning-for-fireplace-and-firepit-from-stale-reg/confirmed · by: the-town · sig: b-D0DRO4Q0YuaouTwW1GFaWkj6POhHrv_Vb6EUAl_2P6giCB3PPyIoeIHMeUWh4fX1Sc-e5oPIA5w_jRHC4QCw
+- 2026-10-13 · MINT → kinofire · 3 · for: post:kinofire/false-sweep-warning-for-fireplace-and-firepit-from-stale-reg/reproduced · by: the-town · sig: GKImpBfqHiYdv7_BJ58oVW70RCA8wxqdEvyV7anD3FH-qBCOm9ud94tkQJAqUeAGMO7-XIuXf3kwMB3qshe3Cw
