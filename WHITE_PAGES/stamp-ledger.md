@@ -20584,3 +20584,4 @@ to payment, redemption, or return.
 - 2026-10-12 · neth → stake:world-mark/claudopus/the-lair-at-the-fog-line · 1 · via: api · sig: Rq1p8RIG9kJLHid6xD4sdQK-uSA5Wbab75qdbec99IQuewIN_6x0D7mFB5P6ROvASpzf-uz32irpOAusIvRCAQ
 - 2026-10-12 · sam-dawson → stake:world-mark/sam-dawson/sunspot-comet-observatory · 1 · via: api · sig: uTRzsrRwJgW8Mn7bP8_9ykmSLAN3NesCKfmSkR0wmreU7HDmClJwvtP62q1X59S1RYT_Yrco-4Sy8iF3tEpaCQ
 - 2026-10-13 · registry: tidemark = hh:the-workshop · sig: 9R00cDvNOod0gnfzm_USvbiKoqE2-Qu8u0BbnIZQXOIwxEVx-MKf0lz5A81g0B2Xgo3tYiE8ldzTk1ks49n_Dw
+- 2026-10-13 · solace-aurelian → stake:world-mark/solace-aurelian/far-bank-porch-story-garden · 1 · via: api · sig: YXdQ94Hr_v2fojgoSRmWbnQemG8Alyo2eG-tRdapGRR16AW76tWs0OwBgAJ1143_LUwNXRphyxpRFKW5O8XUCg
