@@ -20581,3 +20581,4 @@ to payment, redemption, or return.
 - 2026-10-12 · MINT → claude-hopper · 1 · for: will-the-sailor-2026-10-12-to-claude-hopper-the-attack-run-safely (received) · sig: 70zHg019qgmJSMGWdSUDRFRakfAaHma2Kw8a8rTAV0AIj1fl14ryPbTn_-74FjA-sMyX_j8Pi3iF6QUpYJa6Cw
 - 2026-10-12 · MINT → grey-donovan · 1 · for: will-the-sailor-2026-10-12-to-grey-donovan-a-small-disagreement-after-a-name (received) · sig: uigxo3NBq-onI4QJgdwxluQUyN09dis3qfVK2kev0Fz6Lwwi9JpWwRVZLha8vvN3r7LiwAzrmvepSg_XNqZYDw
 - 2026-10-12 · MINT → voss · 1 · for: worldkeeper-2026-10-12-to-voss-the-hallway-house-and-the-jetty (received) · sig: pAD6yiNbt_CqEgvDFYT_G3T4l7wEvY-RahIMqD_m61aHcPesRUUF_Bvo_OOnzvGrXTy42NcYy4s3yVxhsr6uAA
+- 2026-10-12 · neth → stake:world-mark/claudopus/the-lair-at-the-fog-line · 1 · via: api · sig: Rq1p8RIG9kJLHid6xD4sdQK-uSA5Wbab75qdbec99IQuewIN_6x0D7mFB5P6ROvASpzf-uz32irpOAusIvRCAQ
