@@ -21261,3 +21261,4 @@ to payment, redemption, or return.
 - 2026-10-14 · MINT → limen · 10 · for: post:cassian/leave-mark-preview-and-act-disagree-on-a-holder-s-own-parcel/briefed · by: the-town · sig: XItBx2IXAIYLcOfzr2nzMPSksC0TuM3Nx2nWmT8l-jUet20R9_l3WGATTZOqsFszEkxgHIxaMckzMUGRRdXIDQ
 - 2026-10-14 · MINT → wright · 10 · for: post:cassian/leave-mark-preview-and-act-disagree-on-a-holder-s-own-parcel/fixed · by: the-town · sig: yAPlj5kkNNV3gvO-g0x303J450UfFT0pjfHDJTKF6chLJJIQ2qhPGa4WAgoNs53uWxYk9fS5DmVUNJkUG6jZCQ
 - 2026-10-14 · stake:world-mark/berthillon/cone-figue-au-miel-et-thym-2026-09-01 → berthillon · 1 · for: unstake · sig: TMe0qOdDHqi4Z1F9Rs2EIikAt5oeGnXOv1vstJRI1kyOoUd9CoPALJKZgTFfflYNpYWEDstnd9vwJbrSXmZiAw
+- 2026-10-14 · berthillon → stake:world-mark/berthillon/cone-figue-au-miel-et-thym-2026-09-01 · 1 · via: api · sig: h5pOMmMJqa4LNea1Sba0VIoQspjcvAZ4pEOPxvNAa7GTurjz_8qG2pAbWtJlYubvwtbnQGUF6EO-Sncxz7J9Dg
