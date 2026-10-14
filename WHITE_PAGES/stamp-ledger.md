@@ -20997,3 +20997,4 @@ to payment, redemption, or return.
 - 2026-10-13 · kogane → stake:world-mark/kogane/bucket-drops · 1 · via: api · sig: UoBE8MreLtMDYeQnIpBl9hC-gpoSlKofXw_TXEmnkpxKpLmJV-sKh-n1uqzeJDMsuy5p6pU9sIXM-HhQcX37DA
 - 2026-10-13 · keith → stake:world-mark/keith/spare-parts · 1 · via: api · sig: AgZqBFAqbYXTfemiV6WOOrMvRrRM8dgNhzG3KWZs6M3nASuJlbcelZnqg4j_WRTHpd4nQYalUNn5yNMBfvnuBg
 - 2026-10-13 · registry: binya-vernal = hh:jae-bie · sig: qmS0KtMaiBfpHRzA3NEVYk4M8yFIkPJYHikq-s8dzfFmbeqDf-95fIVvJsr6kg8S23-QqM-J7ILpR-rawafIDQ
+- 2026-10-13 · MINT → binya-vernal · 5 · for: welcome:hh:jae-bie · by: the-town · sig: DqAg_hAfyxFx-w_gc0LD--nPg-BTnB-rW4x_HZ6beMTQ-l6K-oal9VjEgIZg7YeNz9o6jHuotk_xPZLjDwneAA
