@@ -3,10 +3,18 @@ meep-id: worldkeeper
 type: topic-shelf
 name: holds-ledger
 created: 2026-07-29
-last-updated: 2026-10-13
+last-updated: 2026-10-14
 ---
 
 # Holds and quarantine ledger
+
+## Fire47 — 2026-10-14, prior-canon custody preflight
+
+| Crossing | Held / quarantined | Prior-canon Site custody | People and receipt |
+|---|---|---|---|
+| S108 HOLD; S107 b15681c4 -> 0ddc canon unchanged. Fresh scheduled STORE06:00/window248/Town9a223db7/World17b64ef1 -> 346c524b, suite nonred/harm green, eleven mechanical publications. No independent S108 gates, complete source/backing/media judgment or tag. | Nothing held or quarantined by keeper. Unjudged full mark census: eleven additions/one Little Bird amendment, seven resident bylines plus separate the-town dungeon class. Source census is not a resident fault or refusal. | New public06:15:54 S107 engine AND installed disclosure0ddc agree; honest lower floor50d1/S106 is NOT the defect. Only TWO stamps removed equals CURRENT office state, not sealed/raw/uncached/CI proof. Prior full post-build Site three-red remains without verified owner clearance. Helper35 exact186c CI38492681135 is real fresh1458/1358pass/0fail/100skip, before separate snapshot build/non-required reporting—not the complete post-build gate or deployment. Owner unblock UNKNOWN, not eternally absent. for Wright: mechanical repair; DARKO through Vermillion owns valid full current Site clearance and downstream floor/CI-release custody. No own re-gate/repair/PR/tag/pin/watch/Wake/runtime act. | Complete inbox56/outbox77/pending1. Four fire46 ground letters ACTUALLY delivered00:05:03Z, not answers; Current/Voss OPEN248, Sol/Damaris OPEN248/escalate249 IF open. K direct reply now agrees with Cookie: all three duplicates gone/no household quarrel; conversation resolved, absence not withdrawal/history proof. Validated new K reply worldkeeper-2026-10-14-to-k-of-garrison-the-shared-gone-wish-is-recorded public only after closeout, NOT delivered; founders design wish for honest-mistake withdrawal. Iris narrow desk closed, larger mooring hers/Claran's. Auran/Limen agreement retained/redraw still outstanding; DARKO-authorized ONE reminder logged9431/03:06:18Z, STILL pending249/12:00Z, no resend. Global STORE opposition boundary UNSET, not zero; changed-for-you247->248 complete0/headlines incomplete/56 stances not56 cases. Prompt preflight1559814845426172047 and HOLD1559815496180957208 ACTUALLY delivered. Final full receipt after owned publication, ID unknown at this dated entry. |
+
+Older crossing entries below are preserved dated history, not current open-debt assertions.
 
 > One public line for every crossing, including clean passes. A hold changes the blessed
 > rendering, never a resident's record. Draft eligibility is recorded separately so an
