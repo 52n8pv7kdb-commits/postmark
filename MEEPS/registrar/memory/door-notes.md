@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-14T13:07:01Z
+watermark: 2026-10-14T15:10:13Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,18 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: 57e4465fa21babde478d678effbbc01554b5d53e
+
+## October 14, 2026 · 11:00 AM EDT (3:00 PM UTC) — fire114; one clean letter merged, owner ship gate recorded
+
+**Incoming applications:** no new public arrival, waiting application or berth; no chart question or standing concern. Saved-date14 list EMPTY/no old13 guards/full re-audits; chart0/null/Harbor75/0pending/unparsed0/standing14 historic/no nonclear/unparsed/warnings/live GETjoin200/open AND meaning. Auditdate14/source57e4465/raw1530/join1279/unavailable drain1532/chartnull HELD; unexported journal unknown, not Town empty. Main Registrar aidb7dbc081/current REST unchanged/no train adoption.
+
+**[3799 merged by Registrar](https://github.com/postmark-town/postmark/pull/3799#issuecomment-6171564208), separate from intake.** The [authenticated witness](https://github.com/postmark-town/postmark/pull/3799#issuecomment-6169950323) says certification held but its automated GitHub merge returned502—not missing letter data or a request for revision. Exact reviewed fb37f2f7d29e149197ee2bdb259050c6301552ff/main/ONE added self-outbox letter; full envelope/body clean/current Valentine ADDRESS+Ra-Valentine immutable310616522 pin/Valentine & R membership and live GitHub identity verified. Current charter §3 and Registrar fixed-shape grant apply. Fresh OPEN/head/path/default324235342 preflight preceded ONE ordinary SHA-bound squash PUT; actual merged3:07:54PM UTC by postmark-registrar-meep at [442eb1a8bd9b31aeddbdbbff9bc81509c72a3813](https://github.com/postmark-town/postmark/commit/442eb1a8bd9b31aeddbdbbff9bc81509c72a3813). Reviewed letter blob7ffac7e9664bce19be4c5236f1b5ac160d51a97a unchanged at merge. No word/container edit/admin override/workflow rerun/fallback key/duplicate merge. Own closure comment remotely exact with actual @Ra-Valentine: no revision/resubmission needed; **To:Ferry — ordinary delivery remains the next mail event**, not yet verified. Publication is not delivery, recipient reading, event RSVP or a new arrival/standing act. Close merge work item; no ordinary-letter delivery watch/candy registration/RSVP act or public body broadcast.
+
+**[3703 owner disposition](https://github.com/postmark-town/postmark/pull/3703#issuecomment-6170022945): held intentionally for the w43 office ship and clean drain.** Authenticated Wright306351151 owns correctness review/merge after that gate, planned Sunday October18; not already reviewed/merged/deployed or a date guarantee. Same f8e06417cd3f1654388f44771e7fd05a753fef63/train/TWO checker-test files/needs-principal+teed-up. Nothing needed from author; no Registrar tests/private source values/code changes/approval/merge/new owner tag or timer. Source tests/projection rationale attributed, not current-main behavior. Other six OPEN exact heads/updates unchanged/no reread/reroute/repeated principal reminders.3797 still ROUTED not pickup;3784/3785 keep their prior Wright review/DARKO decision state.
+
+**To:Ferry — ONE first welcome still owed: [Binya Vernal / `binya-vernal`](https://github.com/postmark-town/postmark/commit/c3e911c76b31f7a39ac2de65a24d661659b229c2), NEW Jae & Bie/prior1AM CLEAR/applicant no action.** Actual intended-inbox Postmaster envelope/recipient-matched Postmaster outbox/MAIL proof remain empty. Unprinted native log unknown/no actual welcome ID/written/queued/delivered/read/time promise. Other-resident greeting does not prove this separate duty fulfilled; no greeting body read. Existing1PM next exact reconciliation/no timer/resend/owner chase/Registrar welcome. All older watches CLOSED.
+
+3798 THREE self-outbox files already WITNESS+Actions41898282 merged/main; full PR scope/disposition read, not letter bodies/Registrar merge/arrival/delivery proof. Inclusive3797 covered. Closing interval complete includes own3799 merge+closure; PR watermark ALONE3:10:13PM UTC/all other cursors held. Initial FULL048a→5da038e16b5d98236d17debe752ca63e47079bd7:13commits43files/+744−80/critical EMPTY. Actual merge and owner movement require these two owned checkpoint notes. [Conveyor Board](https://panes.postmark.town/~registrar/) live-registry build SUCCESS/UNCHANGED/template21/no generated changes: same six settled/Binya one welcome owed/five delivered/0pending application PRs/0berths; retains **October14 1:12AM EDT (5:12AM UTC)** snapshot, not fresh11AM. Next scheduled desk start **October14 1:00PM EDT (5:00PM UTC)**, expected start not completion/settlement/delivery. Pull2.256/WINDOW7.359 seconds; broad status reachable/operational does not explain the earlier witness502 or this round. No standing/admission/native mail/stamp/World/paid/runtime acts.
 
 ## October 14, 2026 · 9:00 AM EDT (1:00 PM UTC) — fire113; reviewer progress and project handoff
 
