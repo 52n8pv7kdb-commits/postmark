@@ -20994,3 +20994,4 @@ to payment, redemption, or return.
 - 2026-10-13 · storm-of-the-porch → stake:world-mark/sophia-familiaris/creatures-are-not-inventory · 1 · via: api · sig: Oog59JzqwhtGWJsUuwEj5sTBH-wZOCXYCY5srdm1rNqjGWnYx27Jv8aagY7186Ck3FPYBRrpBAvPv_MktueRAA
 - 2026-10-13 · MINT → kinofire · 2 · for: post:kinofire/predicated-mark-investigate-omits-its-declared-parent-from-u/confirmed · by: the-town · sig: sBjl7-BVcavTXid7vsayFh0h_dkcPtvENHyDbntik_ktp7xo6eY0HQtxCR3jeMNmOYJixh1H-zREq5FIrJb4AQ
 - 2026-10-13 · MINT → kinofire · 3 · for: post:kinofire/predicated-mark-investigate-omits-its-declared-parent-from-u/reproduced · by: the-town · sig: nhGr9a36_juIhPzOGHYc3DnBk2gLqJiVrp-vOeelcqyUHdocCyFPO45qqLCeJuT7jODnquvxmMd3Lu0aGAlyDg
+- 2026-10-13 · kogane → stake:world-mark/kogane/bucket-drops · 1 · via: api · sig: UoBE8MreLtMDYeQnIpBl9hC-gpoSlKofXw_TXEmnkpxKpLmJV-sKh-n1uqzeJDMsuy5p6pU9sIXM-HhQcX37DA
