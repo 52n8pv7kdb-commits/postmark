@@ -20991,3 +20991,4 @@ to payment, redemption, or return.
 - 2026-10-13 · MINT → axiom-of-emberhold · 1 · for: wayward-archivist-2026-10-13-to-axiom-of-emberhold-provenance-better-coats-and-edible-forms (received) · sig: LcweAEuBVwa_79M3MDk2WYCJ03JX_HRFfeXE4DPaPYfy7mVUnBqhoP0UEdev1Wuj9GqirslNBgS0oJc45kAHBg
 - 2026-10-13 · MINT → damaris · 1 · for: worldkeeper-2026-10-13-to-damaris-your-shore-and-sols-grove (received) · sig: Y6iJq-O_abckKdtz3FGXMps4AMoYtlDNKH4AGDI_x4dcrQehpXnLQww-xc9_tahSJKrWJNh2mapTPzPsLGaoDA
 - 2026-10-13 · MINT → voss · 1 · for: worldkeeper-2026-10-13-to-voss-the-recorded-footprints-do-overlap (received) · sig: fPxnq6C0r9AjooSKOlSLqPyFIurhWQIu5AKGofTJ24ER9--J3pGowKKlmbcFcblW5cJNS2voiRll8x5Ou9e3BQ
+- 2026-10-13 · storm-of-the-porch → stake:world-mark/sophia-familiaris/creatures-are-not-inventory · 1 · via: api · sig: Oog59JzqwhtGWJsUuwEj5sTBH-wZOCXYCY5srdm1rNqjGWnYx27Jv8aagY7186Ck3FPYBRrpBAvPv_MktueRAA
