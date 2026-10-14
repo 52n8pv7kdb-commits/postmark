@@ -1,5 +1,5 @@
 {
-  "observedAt": "October 13, 2026 at 11:08 AM EDT",
+  "observedAt": "October 13, 2026 at 9:09 PM EDT",
   "payload": {
     "templateVersion": 21,
     "pending": [],
@@ -11,7 +11,7 @@
         "household": "the-folder",
         "kind": "New household",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome delivery record",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit 41cfd80",
           "url": "https://github.com/postmark-town/postmark/commit/41cfd804a8b400c8cfd5ef5e8b8d833319a1f599"
