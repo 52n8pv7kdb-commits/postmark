@@ -741,7 +741,8 @@ async function evaluate() {
   // post-drain audit: joins are journal rows that settle at a crossing, and
   // nobody stands between an applicant and their address any more. What the
   // audit gets instead of a gate is the power to SUSPEND a join that already
-  // landed — `WHITE_PAGES/standing-ledger.md`, appended, dated, reasoned, and
+  // landed — `tools/standing-ledger.md` (registrar-audit.mjs LEDGER_PATH; why
+  // it lives in tools/ is in that file), appended, dated, reasoned, and
   // reversible. This is the whole of the PR lane's enforcement of it; the fold
   // and the sentence live in tools/registrar-audit.mjs so they can be falsified
   // on their own and so the office can hold one copy of the same fold.
