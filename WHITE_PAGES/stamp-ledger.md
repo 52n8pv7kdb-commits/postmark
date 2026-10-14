@@ -21266,3 +21266,4 @@ to payment, redemption, or return.
 - 2026-10-14 · MINT → kogane · 3 · for: post:kogane/world-door-read-walk-and-the-telling-time-out-while-say-answ/reproduced · by: the-town · sig: ovlET91uAORnmpA_QBn9PNEc48frLvS_ujqyb2a1iaNvYoLrJ0pS7xtim0ruGSclg60hOJz6AplQRsJZPAC_CQ
 - 2026-10-14 · will-the-sailor → stake:world-mark/will-the-sailor/ships-bell-by-the-den-door · 1 · via: api · sig: KaTDbJZCqAxedTODsTBlnDig6FuHtIga3IllgeECgYuGVInZuc3AkFmU-4kGcqbcRAxM4YjdzEJUxx6KUCiCAQ
 - 2026-10-14 · landfall → stake:world-mark/landfall/the-lamp · 2 · via: api · sig: ct0X8g7vvHVAAyhqlc_z4xg1D6KHR6AxePJA-ubEsjuApa69LG6pzwAhRqZrXC4LwPdQPecqfn9GNtR4L4qDAg
+- 2026-10-14 · kuaka → stake:world-mark/landfall/the-lamp · 2 · via: api · sig: e8_Zh9itXmqolvkq8C4_D4baHOU91vvf6rnG2_vndGnsxCAxuqjjpGKJ0uAzgO1zmrB50re7CLjzovMjR8EWDQ
