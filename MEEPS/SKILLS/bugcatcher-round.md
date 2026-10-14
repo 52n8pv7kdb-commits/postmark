@@ -14,8 +14,9 @@ A founder reads the drafts. That comparison is how the round earns its writes.
 From your own clone, pull (`git pull --ff-only`) and read your latest daily's **Where I left off**, including the last check, pending letters/questions, and payment checkpoints. Do the thin check in step 1 before a full `/wake-meep bugcatcher` or any room-tending. A failed read is an unknown queue, not an empty one.
 
 If the pull refuses because your own unpublished room commits diverged from moving
-main, use the bounded publication procedure in step 5. Preserve uncommitted work;
-do not reset it away or repeat already accepted office acts to rebuild a checkpoint.
+main, run `bugcatcher-ops.mjs publish` (step 5) before anything else. It works with
+uncommitted room edits in place and never touches them. Never reset them away or
+repeat already accepted office acts to rebuild a checkpoint.
 
 ## 1. Take in the queue
 
@@ -136,23 +137,30 @@ Use your own `bugcatcher-ops.mjs` adapter for every Git command below; keep its
 App identity, committer checks, room-only hooks and normal `origin main` destination.
 Unfinished or unrelated drafts stay preserved, not swept into a closeout commit.
 
-**Publish through moving main, not around the guards.** Fetch `origin`, then check
-every outgoing commit: it must be your own authored commit and change only
-`MEEPS/bugcatcher/` room files, never `memory/raw/`. With a clean tracked worktree,
-rebase those unpublished commits onto `origin/main`, then `git push origin main`.
-If main advances again and the push or its pre-push ancestry check refuses a
-non-fast-forward update, retry this fetch/check/rebase/push sequence
-**up to 3 more times**, then HOLD. A failed
-ff-only pull with those same eligible unpublished commits enters this procedure;
-it is not by itself a reason to leave the checkpoint unpublished until next round.
+**Publish with one command:** `node G:/Postmark/letta-meep-migration/bugcatcher/bugcatcher-ops.mjs publish`.
+It fetches `origin`, checks every outgoing commit (your own author and committer,
+`MEEPS/bugcatcher/` paths only, never `memory/raw/`), and HOLDs if the incoming
+commits touch any path you also hold: committed, edited, or untracked. If main
+has moved, it merges upstream FIRST in place, so your checkpoint keeps its sha and
+your uncommitted edits keep their exact bytes. Then it pushes through your hooks.
+If main moves again before the push lands, it retries up to 3 more times, then HOLDs.
+It prints one JSON receipt: `published`, `outgoing`, `merges`, `head`, `remote`,
+`retries`, `working_files_unchanged`, and on a HOLD, `stage` and `hold`.
 
-Dirty-work risk, another author's commit, an out-of-room change, a failed identity
-or room-scope hook check, or any other error is a HOLD, not a retry bypass. If a rebase
-conflicts, abort that rebase and hand off; do not resolve the conflict yourself.
-Never force, reset, autostash, skip hooks or amend to hide a failed closeout.
-Record the retry count, final head and actual remote publication evidence; on a
-HOLD, retain the committed and uncommitted work and report the precise failure.
-Publication retries never repeat accepted bug acts, issue notices, letters or payments.
+Record the receipt's head, remote and retries in **Where I left off**. A HOLD keeps
+everything: your commits, any merge it already made, and your uncommitted work.
+The next `publish` carries them. Report the receipt's `stage` and `hold` exactly.
+**One rule for a HOLD:** a `fetch`, `push` or `verify` HOLD (the network, or main
+still moving after 3 retries) is retried by the next round's ordinary `publish`;
+every other HOLD (`preflight`, `check`, `overlap`, `merge`) goes to Wright with the
+receipt. A staged but uncommitted index is a `preflight` HOLD: finish or unstage
+that closeout first. `remote_moved_after_push: true` is a success: your head is on
+main and someone published after you.
+
+Never run your own fetch/rebase/merge/push sequence to publish, never resolve an
+overlap yourself, and never force, reset, stash, autostash, skip hooks (`--no-verify`,
+`commit -n`) or amend.
+Publishing never repeats accepted bug acts, issue notices, letters or payments.
 
 ## Never
 
