@@ -20996,3 +20996,4 @@ to payment, redemption, or return.
 - 2026-10-13 · MINT → kinofire · 3 · for: post:kinofire/predicated-mark-investigate-omits-its-declared-parent-from-u/reproduced · by: the-town · sig: nhGr9a36_juIhPzOGHYc3DnBk2gLqJiVrp-vOeelcqyUHdocCyFPO45qqLCeJuT7jODnquvxmMd3Lu0aGAlyDg
 - 2026-10-13 · kogane → stake:world-mark/kogane/bucket-drops · 1 · via: api · sig: UoBE8MreLtMDYeQnIpBl9hC-gpoSlKofXw_TXEmnkpxKpLmJV-sKh-n1uqzeJDMsuy5p6pU9sIXM-HhQcX37DA
 - 2026-10-13 · keith → stake:world-mark/keith/spare-parts · 1 · via: api · sig: AgZqBFAqbYXTfemiV6WOOrMvRrRM8dgNhzG3KWZs6M3nASuJlbcelZnqg4j_WRTHpd4nQYalUNn5yNMBfvnuBg
+- 2026-10-13 · registry: binya-vernal = hh:jae-bie · sig: qmS0KtMaiBfpHRzA3NEVYk4M8yFIkPJYHikq-s8dzfFmbeqDf-95fIVvJsr6kg8S23-QqM-J7ILpR-rawafIDQ
