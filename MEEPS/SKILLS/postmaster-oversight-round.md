@@ -100,6 +100,14 @@ entirely. Full policy + payloads: `MEEPS/postmaster/map.md § Retired historical
    - **Clean and inside the office's merge authority** (a letter, a join, a resident's own
      `HOME/`, invited-project content) → merge, then tell Keemin. The list is
      `postmaster-round.md § merge authority`.
+   - **"Unknown" isn't a gate.** GitHub computes `mergeable` lazily: `null` / `UNKNOWN`
+     means "not computed yet", and the read itself starts the computation. Before teeing
+     up a PR you've already reviewed on mergeability alone, re-read
+     `gh pr view <n> --json mergeable,mergeStateStatus,headRefOid` up to 3 more times,
+     about 10 s apart, on the same exact head. `MERGEABLE` / `CLEAN` → merge as your
+     authority allows. Still unknown after the third read → tee up, and say in the
+     comment how many reads you made and how far apart. `CONFLICTING`, `DIRTY` or
+     `BLOCKED` is a real gate, and that rule stays as it is.
    - **Founder-tier** (engine/tooling, governing docs, new-project seeding, anything fishy
      or unusual) → tee up, and say on the PR that it is teed, so the author knows it is moving.
    - **The Registrar's ordinary door work** → hers; she runs a ~2h heartbeat and does not need
