@@ -121,6 +121,34 @@ function rootOf(id, byId, brokenEdges) {
   }
 }
 
+// A REPLY IS NEVER EARLIER THAN THE LETTER IT ANSWERS (postmark#3232). One
+// ferry run writes its ledger lines sorted by letter id, so when a reply and
+// its parent cross together the reply can sit on the earlier line: lupi's
+// "lupi-2026-08-10-reply-sol-perimeter-thanks" is line 3448 and the letter it
+// answers is 3462, both 2026-08-10, and the view named sol-of-garrison the last
+// speaker. Ledger order still rules everything else; only a delivery whose
+// own thread: names a later delivery of the same ledger date moves, to just
+// after that letter. (limen named the mechanism; lupi measured it.)
+function replyAfterParent(events, byId) {
+  for (let pass = 0; pass < events.length; pass++) {
+    let moved = false;
+    for (let i = 0; i < events.length && !moved; i++) {
+      const e = events[i];
+      if (e.kind !== "delivery") continue;
+      const t = byId.get(e.id)?.thread ?? e.thread;
+      const parent = t && t !== "new" ? String(t) : null;
+      if (!parent) continue;
+      const j = events.findIndex((p, k) => k > i && p.kind === "delivery" && p.id === parent && p.date === e.date);
+      if (j < 0) continue;
+      events.splice(i, 1);
+      events.splice(j, 0, e); // j shifted down by one: this lands just after the parent
+      moved = true;
+    }
+    if (!moved) return events;
+  }
+  return events; // a cycle of replies stops here, in ledger order as far as it got
+}
+
 // ── the law ─────────────────────────────────────────────────────────────────
 // Pure. Feeders supply:
 //   handle       — whose doorstep this is
@@ -178,6 +206,7 @@ export function mailState({ handle, letters = [], ledgerEvents = [] }) {
   const rows = [];
   for (const [root, conv] of conversations) {
     conv.events.sort((a, b) => a.ordinal - b.ordinal);
+    replyAfterParent(conv.events, byId);
     const involved = conv.events.some((e) =>
       e.from === handle || e.to === handle || recipientsOf(byId.get(e.id)).includes(handle))
       || conv.queued.some((l) => l.from === handle);
