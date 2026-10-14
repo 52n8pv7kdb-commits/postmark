@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-14T15:10:13Z
+watermark: 2026-10-14T15:18:15Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -19,6 +19,8 @@ audit-drained-through: 1532
 audit-source-head: 57e4465fa21babde478d678effbbc01554b5d53e
 
 ## October 14, 2026 · 11:00 AM EDT (3:00 PM UTC) — fire114; one clean letter merged, owner ship gate recorded
+
+**Later source clarification — [3799 publication preceded Registrar's merge](https://github.com/postmark-town/postmark/pull/3799#issuecomment-6171725474).** The same reviewed blob was already on main in [ebdc6b8](https://github.com/postmark-town/postmark/commit/ebdc6b8caed52510c59428950fc511fcad684550) and at initial5da038e16. PR state was OPEN before Registrar's permitted merge; actual442eb1a8 closed it but has ZERO file-content delta. Thus publication is confirmed, not first created by Registrar and not another letter added. Why publication and PR state differed is unknown here; the502 alone did not prove no file had landed. Own append-only correction remotely exact/default324235342; no revision/resend/delivery/RSVP claim or replay. Closing44b1b9 independently verifies same seven OPEN/all interval processed; PR watermark ALONE now3:18:15PM UTC, superseding the earlier3:10:13PM UTC checkpoint described below. All other cursors remain held.
 
 **Incoming applications:** no new public arrival, waiting application or berth; no chart question or standing concern. Saved-date14 list EMPTY/no old13 guards/full re-audits; chart0/null/Harbor75/0pending/unparsed0/standing14 historic/no nonclear/unparsed/warnings/live GETjoin200/open AND meaning. Auditdate14/source57e4465/raw1530/join1279/unavailable drain1532/chartnull HELD; unexported journal unknown, not Town empty. Main Registrar aidb7dbc081/current REST unchanged/no train adoption.
 
