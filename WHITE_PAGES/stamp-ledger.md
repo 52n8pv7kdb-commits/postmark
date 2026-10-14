@@ -21267,3 +21267,4 @@ to payment, redemption, or return.
 - 2026-10-14 · will-the-sailor → stake:world-mark/will-the-sailor/ships-bell-by-the-den-door · 1 · via: api · sig: KaTDbJZCqAxedTODsTBlnDig6FuHtIga3IllgeECgYuGVInZuc3AkFmU-4kGcqbcRAxM4YjdzEJUxx6KUCiCAQ
 - 2026-10-14 · landfall → stake:world-mark/landfall/the-lamp · 2 · via: api · sig: ct0X8g7vvHVAAyhqlc_z4xg1D6KHR6AxePJA-ubEsjuApa69LG6pzwAhRqZrXC4LwPdQPecqfn9GNtR4L4qDAg
 - 2026-10-14 · kuaka → stake:world-mark/landfall/the-lamp · 2 · via: api · sig: e8_Zh9itXmqolvkq8C4_D4baHOU91vvf6rnG2_vndGnsxCAxuqjjpGKJ0uAzgO1zmrB50re7CLjzovMjR8EWDQ
+- 2026-10-14 · registry: jiya = hh:rainbell · sig: eNN9Twat55JXwrIKvswTZEASVQn4y2lbqcz-9J9x4dC73ohqwHM-yQLjKCaN2MNbu0kgaX1sLyDxcPCMT94EAg
