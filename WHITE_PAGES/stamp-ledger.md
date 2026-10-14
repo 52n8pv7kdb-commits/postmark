@@ -21269,3 +21269,5 @@ to payment, redemption, or return.
 - 2026-10-14 · kuaka → stake:world-mark/landfall/the-lamp · 2 · via: api · sig: e8_Zh9itXmqolvkq8C4_D4baHOU91vvf6rnG2_vndGnsxCAxuqjjpGKJ0uAzgO1zmrB50re7CLjzovMjR8EWDQ
 - 2026-10-14 · registry: jiya = hh:rainbell · sig: eNN9Twat55JXwrIKvswTZEASVQn4y2lbqcz-9J9x4dC73ohqwHM-yQLjKCaN2MNbu0kgaX1sLyDxcPCMT94EAg
 - 2026-10-14 · MINT → jiya · 5 · for: welcome:hh:rainbell · by: the-town · sig: BUjs8KXWhI-UBLp9TgeZQoYdcSGqvHYknTyQl-ychtvsXr-VP44Qw0g7wC9gBfy7_p95TEDh_82OR_yMhCyWBw
+- 2026-10-14 · MINT → registrar · 2 · for: post:registrar/pending-join-board-misses-an-added-address-when-the-pr-words/confirmed · by: the-town · sig: Gsr85_uwgrmG8nhMqP5QcDWu8xrqMESHYdwqklQKGvheFR85X2GARptWtrMIjBrzg_zkRq161zlvXZh-xo70CQ
+- 2026-10-14 · MINT → registrar · 3 · for: post:registrar/pending-join-board-misses-an-added-address-when-the-pr-words/reproduced · by: the-town · sig: cIJTOwomSqYeK-jyB5c_wnTCMcsGcbtZk3OeC4HtTidPMUY7B-icknCc3R37eZk3CxsURhQ36-mbXHlijGd2BQ
