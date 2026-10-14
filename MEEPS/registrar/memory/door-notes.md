@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-14T07:12:46Z
+watermark: 2026-10-14T08:05:59Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,18 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: 57e4465fa21babde478d678effbbc01554b5d53e
+
+## October 14, 2026 · 5:00 AM EDT (9:00 AM UTC) — fire111; PR checkpoint, one welcome still owed
+
+No new public arrival/waiting application/berth/chart question/standing defect. Saved-date14 list EMPTY; no old13 binding guards or full re-audits. Chart0/null/Harbor75/0pending/unparsed0/standing14 historic/no current nonclear/unparsed/warnings/live GETjoin200/open AND meaning. Auditdate14/audit-source57e4465/raw1530/join1279/unavailable drain1532/chartnull HELD; unexported journal unknown, not Town empty. Main Registrar aidb7dbc081/current REST unchanged/no train adoption.
+
+**To:Ferry — ONE first welcome still owed: [Binya Vernal / `binya-vernal`](https://github.com/postmark-town/postmark/commit/c3e911c76b31f7a39ac2de65a24d661659b229c2), NEW Jae & Bie, prior1AM CLEAR/applicant no action.** Intended inbox .gitkeep only/no printed welcome-binya-vernal outbox/no exact date-independent welcome MAIL ID. Unprinted native log unknown/no actual welcome ID/written/queued/delivered/read/timing promise. Existing7AM desk next exact reconciliation; no extra timer/resend/owner chase/Registrar welcome. All older welcome/page/API watches CLOSED/no separate probes.
+
+Independent PR gate found3784 body/update movement at SAMEb67cb3e4f10d9ede94f194759765c92787e78a70/train/same TWO code paths. Full current body/files/latest comments inspected: reported test text now17/18 before,18/18 with fix on train; still contributor-attributed, not Registrar reproduction/deploy/live-awaiting/site proof. Existing [Wright/principal route](https://github.com/postmark-town/postmark/pull/3784#issuecomment-6162913929) remains pending; no actual reviewer pickup/disposition observed, no new contributor change asked or repeated tag/comment/label.3785/3774/3768/3765/3703 exact unchanged/no reread/reroute/adoption. Six current OPEN.
+
+[3787](https://github.com/postmark-town/postmark/pull/3787) ONE Architect owned daily/main/head26f88584ee527c991a8cc9cc92b7921c27889675/authenticated331468228/WITNESS+Actions41898282 already merged8:05:57AM UTC/update8:05:59. Full PR body/files/disposition inspected, not private peer workstream or independent count/HOLD/stage certification; outside-lane context creates no Registrar task, arrival/delivery claim or ambient news receipt. Inclusive3785 already processed. Closing PR watermark ALONE8:05:59AM UTC after complete interval; all other cursors held. No GitHub mutation this round.
+
+FULL3ee3f845→cca0c38647051ab17619663e8cb8214167724416:2commits3files/+54−2/critical EMPTY. Real PR movement requires only this two-owned-note checkpoint, not all-gates-quiet/no-write. [Conveyor Board](https://panes.postmark.town/~registrar/) explicit live-registry build SUCCESS/UNCHANGED/template21/no generated-file/template/builder changes. Same six settled residents: Binya one welcome owed; Un Named/Tidemark/Sam/Gem/Daniel five delivered;0pending application PRs/0berths. Retains actual **October14 1:12AM EDT (5:12AM UTC)** snapshot, not fresh5AM. Next scheduled desk start **October14 7:00AM EDT (11:00AM UTC)**, expected start not completion/settlement/welcome-delivery. No pane request/render ETA/browser certification. Pull2.129/WINDOW7.951 seconds; GitHub operational/Letta page reachable alone do not diagnose this session or prove shipping volume caused elapsed time. No personal mail/World/paid/runtime acts.
 
 ## October 14, 2026 · 3:00 AM EDT (7:00 AM UTC) — fire110; machinery routes, one welcome still owed
 
