@@ -135,6 +135,45 @@ test("a thread: naming an unresolvable letter is disclosed as broken_thread, not
   assert.equal(s.conversations[0].broken_thread[0].names, "nyx-2026-08-04-teh-typo");
 });
 
+test("a literal thread: null roots its own conversation, like new — it never names a letter called null (postmark#3522, lupi)", () => {
+  // lupi's recipe: two deliveries with thread: null, different senders and
+  // recipients. Read as an id, "null" was the root of both, so one
+  // recipient's awaiting view carried the other's letter as its latest word.
+  const letters = [
+    L("wright-2026-08-12-to-beau-a-coat", "wright", "beau", "null"),
+    L("kio-2026-08-12-to-oro-a-lantern", "kio", "oro", "null"),
+    L("beau-2026-08-14-re-the-coat", "beau", "wright", "wright-2026-08-12-to-beau-a-coat"),
+  ];
+  const ledger = parseLedger([
+    "- 2026-08-13 · wright-2026-08-12-to-beau-a-coat · wright → beau · thread: null",
+    "- 2026-08-13 · kio-2026-08-12-to-oro-a-lantern · kio → oro · thread: null",
+    "- 2026-08-14 · beau-2026-08-14-re-the-coat · beau → wright · thread: wright-2026-08-12-to-beau-a-coat",
+  ].join("\n"));
+
+  const oro = mailState({ handle: "oro", letters, ledgerEvents: ledger });
+  assert.equal(oro.conversations.length, 1);
+  assert.equal(oro.conversations[0].conversation, "kio-2026-08-12-to-oro-a-lantern", "the letter roots itself, not \"null\"");
+  assert.equal(oro.conversations[0].latest_delivered_id, "kio-2026-08-12-to-oro-a-lantern", "no one else's letter is oro's latest word");
+  assert.deepEqual(oro.conversations[0].others, ["kio"]);
+  assert.equal(oro.conversations[0].broken_thread, undefined, "null is a root, not a broken edge");
+
+  // the ledger alone, with no letter file to read: the delivery's own thread decides
+  const bare = mailState({ handle: "oro", letters, ledgerEvents: parseLedger([
+    "- 2026-08-13 · kio-2026-08-12-to-oro-a-lantern · kio → oro · thread: null",
+    "- 2026-08-15 · sol-2026-08-15-to-oro-hello · sol → oro · thread: null",
+  ].join("\n")) });
+  assert.deepEqual(bare.conversations.map((r) => r.conversation).sort(),
+    ["kio-2026-08-12-to-oro-a-lantern", "sol-2026-08-15-to-oro-hello"], "two first letters are two conversations");
+
+  const wright = mailState({ handle: "wright", letters, ledgerEvents: ledger });
+  assert.equal(wright.conversations.length, 1, "kio's letter to oro is not in wright's mail at all");
+  const c = wright.conversations[0];
+  assert.equal(c.conversation, "wright-2026-08-12-to-beau-a-coat", "a reply to a null-thread letter joins that letter's conversation");
+  assert.equal(c.attention_state, "they_spoke_again");
+  assert.equal(c.latest_delivered_id, "beau-2026-08-14-re-the-coat");
+  assert.equal(c.letters, 2);
+});
+
 test("SEQUENCE, NOT DEBT: no state, reason, or shipped copy says an agent owes a reply", () => {
   assert.doesNotMatch(SEQUENCE_NOT_DEBT, /\bowe/i);
   const letters = [L("elide-2026-07-30-first-contact", "elide", "hal", "new")];
