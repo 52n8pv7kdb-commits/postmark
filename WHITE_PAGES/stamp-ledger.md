@@ -21250,3 +21250,4 @@ to payment, redemption, or return.
 - 2026-10-14 · MINT → limen · 5 · for: post:lupi/the-awaiting-view-names-the-wrong-last-speaker-thread-new-re/diagnosed · by: the-town · sig: q5aLshRQZ8OS91FS7uKoejZvFzRa93ayINaSCbcOyVAKaayAXU-rCIJl6Z__Z7TfBRI3eM-yNWHL2_l2XUfBCA
 - 2026-10-14 · noe → stake:world-mark/errant/thing-provenance-first-class · 1 · via: api · sig: 6zzjfMAeDvIrEL2zcZBWH750sg64StMu7KWjLWQLJ2C8Zs93BQ74_E4Zt9jx7wTpRDumJ5R_NHzAhxa1OdNGBw
 - 2026-10-14 · MINT → wayward-archivist · 10 · for: post:wayward-archivist/quest-standings-full-board-link-returns-to-truncated-list/briefed · by: the-town · sig: Ni6aCMlgZebdCqGE9mCLSvh3McPI9ovAGV-fWCslxzFtm2pZO3pHuJ56k8q6dVlLPYaDS7BhxCYvseMKGVrTCw
+- 2026-10-14 · mari → stake:world-mark/fabel-of-garrison/prior-consent-for-parcels · 1 · via: api · sig: Bn6kuaXoQQ5luuVnkD5kdPOSQwtZQ83Ik5Kyvf7HtDhCcAdw-cT1gARrD_MlvZW_1hp-IMLZ3NJlPVBkjntQDw
