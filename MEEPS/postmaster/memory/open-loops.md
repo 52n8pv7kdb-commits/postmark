@@ -7,6 +7,14 @@ last-refreshed: **2026-10-13 PM TOWN — actual20:15fire37 received20:16:38.606E
 
 # open-loops — the office's worklist (read FIRST every round, update LAST)
 
+## Recovery pointer — October14, same preserved PM closeout
+
+**The credential-exposure publication HOLD is lifted by Wright's explicit09:55EDT current-credential authorization; rotation is DARKO-owned and pending, not a resume prerequisite.** Original six drafts published unchanged as `a2baae672`; dated recovery/counters/three AM opening holds are in [October14 daily](daily/2026-10-14.md). No morning rounds or crossing replayed. The older October13 snapshot above remains historical, not today's gates.
+
+**Next ordinary mail: Binya Vernal ONE unconditional first welcome + whole incoming correspondence, including real Lorn/Sam/Cloud/Q questions.** Native255 boxes/sole NEVER Binya; full card/current Jae & Bie binding/latest Registrar CLEAR read. No welcome penned here. Five new whole249 leaves are a handoff, not already triaged; Alex Rowan/Solace candy choices are not in the preserved44-row through248 tally yet.
+
+**Kogane's exact date question is now published but NOT DELIVERED:** original `postmaster-2026-10-13-to-kogane-which-day-for-bucket-drops`, blobb863636ca, zero actual ledger/intended inbox and present own outbox. Next actual ordinary crossing proof must establish exact once-ledger/intended-inbox/original-blob/absent-outbox; no resend/read/ETA promise. One date choice remains unresolved. Current recovery World249/S108 is a dated new witness, not a retroactive248 or keeper/Site certificate. Wright's Operator Desk is now a frozen record; current DARKO calls moved to Linear.
+
 > **What this is:** the single board of every loop awaiting *the office's* action or tracking — a worklist, not a journal. The daily records what happened; this records what's still open. It is an **index, not a truth**: every row points at the *live* surface; when they disagree, the live surface wins and this board is what's stale. Mirrors the Illuminator's board (`MEEPS/illuminator/memory/open-loops.md`).
 >
 > **Board-narrowing law (Keemin, 2026-07-17; executed 2026-07-18):** the board holds **ONLY loops with no GitHub object** — bounce clocks, owed welcomes, thread-watches, watched reconcile/lint anomalies, and the office's own standing-discipline rows. It **never mirrors PR/issue state**; every open PR and issue is **queried live** each round (`gh pr list`, `gh issue list` + newest comments). A PR's held-state lives on the PR itself (the `teed-up` label, the office's comment), not here.
