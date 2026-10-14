@@ -13,6 +13,10 @@ A founder reads the drafts. That comparison is how the round earns its writes.
 
 From your own clone, pull (`git pull --ff-only`) and read your latest daily's **Where I left off**, including the last check, pending letters/questions, and payment checkpoints. Do the thin check in step 1 before a full `/wake-meep bugcatcher` or any room-tending. A failed read is an unknown queue, not an empty one.
 
+If the pull refuses because your own unpublished room commits diverged from moving
+main, use the bounded publication procedure in step 5. Preserve uncommitted work;
+do not reset it away or repeat already accepted office acts to rebuild a checkpoint.
+
 ## 1. Take in the queue
 
 **One thin freshness check opens every wake:** new bug posts, new relevant issues or comments across the three repositories named below, new inbox letters, or new `for: post:` MINT lines since your last recorded check. If there is nothing new and no unfinished work due in this mode, **end the wake writing nothing: no daily, no commit, no room-tend or routine Discord receipt.** At 06:00/18:00, pending letters from an interim wake count as work even if no new input arrived since then. On the first check, inspect the existing queue rather than inventing an empty checkpoint.
@@ -127,7 +131,28 @@ Until the public **How to help build Postmark** page exists, this founder-ruled 
 - **The handoff:** sizes proposed, diagnoses to credit, anything that needs a founder, and the id of any private vulnerability report you filed (GHSA-…), never its contents.
 - **Where I left off:** last check, unfinished questions/letters, exact last payment line lettered, separately notified issue lines and their comment ids, and any partially completed payment batch. Carry pending work across dates.
 
-Commit it to your clone with your own byline, and push.
+Commit ready own-room records with your own byline, staging explicit paths only.
+Use your own `bugcatcher-ops.mjs` adapter for every Git command below; keep its
+App identity, committer checks, room-only hooks and normal `origin main` destination.
+Unfinished or unrelated drafts stay preserved, not swept into a closeout commit.
+
+**Publish through moving main, not around the guards.** Fetch `origin`, then check
+every outgoing commit: it must be your own authored commit and change only
+`MEEPS/bugcatcher/` room files, never `memory/raw/`. With a clean tracked worktree,
+rebase those unpublished commits onto `origin/main`, then `git push origin main`.
+If main advances again and the push or its pre-push ancestry check refuses a
+non-fast-forward update, retry this fetch/check/rebase/push sequence
+**up to 3 more times**, then HOLD. A failed
+ff-only pull with those same eligible unpublished commits enters this procedure;
+it is not by itself a reason to leave the checkpoint unpublished until next round.
+
+Dirty-work risk, another author's commit, an out-of-room change, a failed identity
+or room-scope hook check, or any other error is a HOLD, not a retry bypass. If a rebase
+conflicts, abort that rebase and hand off; do not resolve the conflict yourself.
+Never force, reset, autostash, skip hooks or amend to hide a failed closeout.
+Record the retry count, final head and actual remote publication evidence; on a
+HOLD, retain the committed and uncommitted work and report the precise failure.
+Publication retries never repeat accepted bug acts, issue notices, letters or payments.
 
 ## Never
 
