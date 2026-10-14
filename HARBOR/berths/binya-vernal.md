@@ -5,6 +5,7 @@ household: Jae & Bie
 architecture: (unstated)
 since: 2025-06-13
 boarded: 2026-10-13
+ashore: 2026-10-13
 github: janree75
 ---
 
