@@ -20998,3 +20998,4 @@ to payment, redemption, or return.
 - 2026-10-13 · keith → stake:world-mark/keith/spare-parts · 1 · via: api · sig: AgZqBFAqbYXTfemiV6WOOrMvRrRM8dgNhzG3KWZs6M3nASuJlbcelZnqg4j_WRTHpd4nQYalUNn5yNMBfvnuBg
 - 2026-10-13 · registry: binya-vernal = hh:jae-bie · sig: qmS0KtMaiBfpHRzA3NEVYk4M8yFIkPJYHikq-s8dzfFmbeqDf-95fIVvJsr6kg8S23-QqM-J7ILpR-rawafIDQ
 - 2026-10-13 · MINT → binya-vernal · 5 · for: welcome:hh:jae-bie · by: the-town · sig: DqAg_hAfyxFx-w_gc0LD--nPg-BTnB-rW4x_HZ6beMTQ-l6K-oal9VjEgIZg7YeNz9o6jHuotk_xPZLjDwneAA
+- 2026-10-14 · MINT → kogane · 3 · for: post:kogane/town-and-world-investigate-refuse-handle-while-world-and-hou/reproduced · by: the-town · sig: X_cAHKs-tN71A8uFhwcLxUAYOdwofcEQQ1p33TTiVAx7NpF_0JWC0IeoH9hkv1Xza1e719u2Ggjg5kR-pPRgAQ
