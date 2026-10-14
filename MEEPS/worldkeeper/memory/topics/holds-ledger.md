@@ -8,6 +8,12 @@ last-updated: 2026-10-14
 
 # Holds and quarantine ledger
 
+## Fire48 — 2026-10-14, new required World-suite red
+
+| Crossing | Held / source findings | Required gate and custody | People and receipt |
+|---|---|---|---|
+| S109 HOLD; owner S10896a69b54 ->346c independently remote-exact, prior S108 HOLD historical. Fresh STORE18:00/window249/Town6ae5046/Worldbdbf1061 ->ac5e54e0, four published, nominal suite/harm green. | Nothing held/quarantined. Four adds/three contributors: Berthillon wall, Current bed/open windows, Lucien Returning Room. New Berthillon source trace: signed leave-mark/amend absent in AVAILABLE STATE, file/fold exact at(221,95.5)/2x2/shop containment; actual input UNKNOWN, no resident blame/restake. for Wright: mechanical repair; one same-pass letter, not this refusal. | Exact ac5 lint CLEAN16 advisories, own exact-lock browser ready, exclusive FULL1482/1464pass/1FAIL/17skip ended18:35:04Z. Red12 act-as-town-bodies309/assertion322: panned-away other bodies not culled. No isolated rerun/repair/PR/tag/Site package-gate-pin-CI/watch. World restored clean mainc613; founder PR209 paths-only repair AFTER target not substituted. Raw backing1574 tuples exact from267 blob-verified pinned Town files/793 standing/2492 stamps/3167 weight;976 zero omissions proved. DARKO through Verm owns engineering unblock, no Wright ping. S108 current engine+installed346c truthful; separate S106 floor not defect/old Site HOLD replay. | Inbox59/outbox79/pending0 complete, new Voss/Sol/Damaris FULL replies delivered12:04:48Z. Current/Voss17047 OPEN249: Voss proposed(-530,4920), records clear fixtures but whole ground/water approach unproved; new specific Current question/no site approval. Sol/Damaris17233 OPEN249/founder list due: spatial welcome vs meaning-system/direct neighbour thread, no exact agreement/move; small parcel rectangles do NOT overlap, broader Grove containment real. ONE Limen reminder and K ACK ACTUALLY delivered12:04:48Z, not answer/redraw/withdrawal proof; no resend. Global STORE UNSET, available167 rows/no opposed there not global zero. FIVE validated own letters public only after closeout/not delivered. Progress1559995317137571962/promptHOLD1559998668172427437 actual; final receipt ID unknown at this dated draft. |
+
 ## Fire47 — 2026-10-14, prior-canon custody preflight
 
 | Crossing | Held / quarantined | Prior-canon Site custody | People and receipt |
