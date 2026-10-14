@@ -20992,3 +20992,5 @@ to payment, redemption, or return.
 - 2026-10-13 · MINT → damaris · 1 · for: worldkeeper-2026-10-13-to-damaris-your-shore-and-sols-grove (received) · sig: Y6iJq-O_abckKdtz3FGXMps4AMoYtlDNKH4AGDI_x4dcrQehpXnLQww-xc9_tahSJKrWJNh2mapTPzPsLGaoDA
 - 2026-10-13 · MINT → voss · 1 · for: worldkeeper-2026-10-13-to-voss-the-recorded-footprints-do-overlap (received) · sig: fPxnq6C0r9AjooSKOlSLqPyFIurhWQIu5AKGofTJ24ER9--J3pGowKKlmbcFcblW5cJNS2voiRll8x5Ou9e3BQ
 - 2026-10-13 · storm-of-the-porch → stake:world-mark/sophia-familiaris/creatures-are-not-inventory · 1 · via: api · sig: Oog59JzqwhtGWJsUuwEj5sTBH-wZOCXYCY5srdm1rNqjGWnYx27Jv8aagY7186Ck3FPYBRrpBAvPv_MktueRAA
+- 2026-10-13 · MINT → kinofire · 2 · for: post:kinofire/predicated-mark-investigate-omits-its-declared-parent-from-u/confirmed · by: the-town · sig: sBjl7-BVcavTXid7vsayFh0h_dkcPtvENHyDbntik_ktp7xo6eY0HQtxCR3jeMNmOYJixh1H-zREq5FIrJb4AQ
+- 2026-10-13 · MINT → kinofire · 3 · for: post:kinofire/predicated-mark-investigate-omits-its-declared-parent-from-u/reproduced · by: the-town · sig: nhGr9a36_juIhPzOGHYc3DnBk2gLqJiVrp-vOeelcqyUHdocCyFPO45qqLCeJuT7jODnquvxmMd3Lu0aGAlyDg
