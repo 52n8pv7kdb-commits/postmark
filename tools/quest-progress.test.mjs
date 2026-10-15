@@ -547,3 +547,35 @@ test('POS-341: the base is read, not ignored: two solo senders keyed as one hous
     assert.notEqual(renderSnapshot(d, { today: DAY, base }), renderSnapshot(d, { today: DAY }));
   } finally { rmSync(d, { recursive: true, force: true }); }
 });
+
+test("#3616: a house named on the ledger reads as ONE house on the quest card, whatever its base keys say", () => {
+  // house-of-many-doors, small. Four handles keep their gh:1 pin (dated before
+  // their sealed line); the fifth's pin is dated the same day as its line, so
+  // householdKeys sets it aside and falls back to the ADDRESS login. The base
+  // map therefore holds two keys for one human, while the ledger puts all five
+  // in hh:many. The mint caps them as one house; the card must too.
+  const d = town(
+    [['k1', 'r1'], ['k1', 'r2'], ['sd', 'r3']],
+    {
+      k1: { id: '1', pinned: '2026-07-01' }, k2: { id: '1', pinned: '2026-07-01' },
+      k3: { id: '1', pinned: '2026-07-01' }, k4: { id: '1', pinned: '2026-07-01' },
+      sd: { id: '1', pinned: '2026-07-05' },
+    },
+  );
+  try {
+    mkdirSync(join(d, 'WHITE_PAGES', 'sd'), { recursive: true });
+    writeFileSync(join(d, 'WHITE_PAGES', 'sd', 'ADDRESS.md'), 'github: someone\n');
+    putLedger(d, ['k1', 'k2', 'k3', 'k4'].map((h) => `- 2026-07-02 · registry: ${h} = hh:many`)
+      .concat(['- 2026-07-05 · registry: sd = hh:many']));
+    const prog = foldQuestProgress(d, { today: DAY });
+    for (const h of ['k1', 'k2', 'k3', 'k4', 'sd']) {
+      const hh = prog.get(h).household;
+      assert.equal(hh.size, 5, `${h} reads a house of five, not 4 + 1`);
+      assert.equal(hh.key, 'hh:many', `${h} wears the ledger's key today`);
+      assert.equal(hh.send, 3, `${h} reads the house's sends: k1's two and sd's one`);
+    }
+    const q = questBoard(d, 'sd', { today: DAY, progress: prog }).quests.find((x) => x.id === 'correspond-send');
+    assert.equal(q.household.size, 5);
+    assert.equal(q.household.total, 3);
+  } finally { rmSync(d, { recursive: true, force: true }); }
+});
