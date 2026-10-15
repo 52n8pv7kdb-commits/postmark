@@ -8,6 +8,12 @@ last-updated: 2026-10-14
 
 # Holds and quarantine ledger
 
+## October15 interrupted morning and ordinary afternoon recovery
+
+| Crossing | Holds / source trace | Custody and actual evidence | People |
+|---|---|---|---|
+| S110 owner canon, not a new own HOLD. Fire49 interrupted Windows Update02:29EDT/down until09:08, no terminal own full result read/no own tag/Site/closeout. Normal fire50 starts14:20, no replay. | Nothing held/quarantined. Berthillon cone-wall trace CLOSED by later signed STATE249 line56/seq17637 at17:58:53.571Z, exact actor/body/date/sited/position/extent file+fold match. Old absence finding retained; no generic fix certificate/restake. | OWNER S110 harm green/CI38689988693 success/gate74pass1skip0fail, not own tests/full-CI counts. Actual14:22 remote f5532c6a ->2684 independently exact, S111 absent; public engine+installedS110/current110 true/separateS106 floor honest, CURRENT-only stamp equality not seal/Gitraw/full release proof. Own fire49 full UNKNOWN/incomplete/not waiting. Last own eff1 public ancestor. FOUR known own drafts reconciled, not unexplained dirty wound; recovery six letters+daily+ledger public only after verified push. New18:00/window251/f75 target unjudged here. | Inbox65/outbox84/pending0 complete; five older letters delivered00:05:20Z, three NEW full replies12:03:54Z. Limen consent stands/redraw explicitly unmade/own working session not tool deficit. Current/Voss AGREED251/western proposal, no amendment or completed footprint walk/stance switch. Sol/Damaris agreement250 HISTORY, REOPENED251 on Sol's permanent Grove/lake offer revocation/clearance demand; his later allegations not adjudicated, Damaris current wish UNKNOWN/new question, founders list due. Two superseded draft originals privately preserved before revision, never sent. Global STORE boundary UNSET, no new timer/ground act or automatic return. |
+
 ## Fire48 — 2026-10-14, new required World-suite red
 
 | Crossing | Held / source findings | Required gate and custody | People and receipt |
