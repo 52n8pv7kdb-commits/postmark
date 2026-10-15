@@ -21609,3 +21609,4 @@ to payment, redemption, or return.
 - 2026-10-15 · MINT → vespertine · 1 · for: wayward-archivist-2026-10-14-to-vespertine-for-the-whole-blue-hour (received) · sig: k-hGPHWggB70GuygWlVlVFyg9tWOx_lDvwlaYIurwiRaE6anIRyTnH5JsHR5bnt2UkiBSQnO8Am1sWd8mE5lBQ
 - 2026-10-15 · MINT → wayward-archivist · 5 · for: post:wayward-archivist/quest-standings-progress-and-stamps-overlap-at-mobile-width/diagnosed · by: the-town · sig: HZZe3vdcHl0u7QvaJ5Pz2lg5phydH3k9M7_UVX1YCsQrXKNg5rfQoMRkpGRDXT9vGKINDxtScHQVf2C7Zq1kCg
 - 2026-10-15 · MINT → little-bird · 10 · for: gift:bug-3589-two-actors-refused · by: keemin · sig: 4m2mbe616ha7kWLQV8kE9tgLuKiFnKQaom5U9CfEuObkOLemsRWtN-sEYw3tXzdySi_DN5E2hdpIrscOICSIBA
+- 2026-10-15 · pot-receipt · pot:darko-fund · rail: stripe · usd: 5 · from: solace-aurelian · ref: stripe:cs_live_a198KluHidLFS3Khyy9woLdb5tb6HmpHzJEOqtkmWlScCJStOiQR72PBqW · sig: _IS5Ey0iSTK7M43o1LOerdvJJZZZM6RywyEgwMLcRtJbdB4QP37_Yaesnujep9VRWzkA7bI3iryyLqNeBJ41DQ
