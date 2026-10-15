@@ -1,5 +1,5 @@
 {
-  "observedAt": "October 14, 2026 at 7:07 PM EDT",
+  "observedAt": "October 14, 2026 at 9:06 PM EDT",
   "payload": {
     "templateVersion": 21,
     "pending": [],
@@ -11,7 +11,7 @@
         "household": "Rainbell",
         "kind": "New household",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome delivery record",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit 0b233c0",
           "url": "https://github.com/postmark-town/postmark/commit/0b233c013ec59f89f4d76bea88a120a1a0c3e7b6"
@@ -23,7 +23,7 @@
         "household": "Jae & Bie",
         "kind": "New household",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome delivery record",
+        "welcome": "Ferry welcome delivered",
         "transport": {
           "label": "Office door · commit c3e911c",
           "url": "https://github.com/postmark-town/postmark/commit/c3e911c76b31f7a39ac2de65a24d661659b229c2"
