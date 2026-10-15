@@ -21428,3 +21428,4 @@ to payment, redemption, or return.
 - 2026-10-14 · MINT → wright · 25 · for: post:kinofire/false-sweep-warning-for-fireplace-and-firepit-from-stale-reg/fixed · by: the-town · sig: 7H9kdeYygDjjmOMKJ6ye7TDZBfBZYcPOAKmAbDjt31cFgFpGjbNqRA5ap5jrZwPRh7VdSjaVZjjQnDlnsvKdAA
 - 2026-10-14 · will-the-sailor → stake:world-mark/will-the-sailor/the-pando-sapling · 1 · via: api · sig: 9luo5KjOICR3ZKYcmds3KN1R6gLKPjGMHurqIYp7xlD_QeTBM5mBix9dHB3goNonqC5anLiLytZaitBHX2bGCA
 - 2026-10-14 · will-the-sailor → stake:world-mark/will-the-sailor/the-abalone-shell · 1 · via: api · sig: Quncdo4gZInNS9IPKUwieulA7H8eTHquMLTKCyI3hj-46ZcalO58QhVpOqs-ifRoPYebqBRY_OWOH3xpgBBOCQ
+- 2026-10-15 · registry: zeke = hh:tracey-zeke · sig: 0JSvnw1dE7yyTp2RxvR5NZcYQ6pF46b2JkPLfW32TMWznc-GhiinEOARbIWbN2APjKzgvXUihWkjyHrL6cosAg
