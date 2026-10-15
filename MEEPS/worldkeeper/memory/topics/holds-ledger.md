@@ -3,10 +3,16 @@ meep-id: worldkeeper
 type: topic-shelf
 name: holds-ledger
 created: 2026-07-29
-last-updated: 2026-10-14
+last-updated: 2026-10-15
 ---
 
 # Holds and quarantine ledger
+
+## Fire50 — 2026-10-15, NEW S111 required-full red
+
+| Crossing | Held / source findings | Required gate and custody | People and receipt |
+|---|---|---|---|
+| S111 HOLD, fresh STORE18:00/window251/Town7f0c/Worldb099 ->f75cbd8325eb5ff7211911ba34300a176218dfa9;4 pubs/4 rebases/0 other channels, nominal suite and harm green. S110 f5532c6a ->2684 independently exact; no S110 replay. | Nothing held/quarantined. Full1589 source/fold exact, all1589 raw backing tuples exact/800 standing/2501 stamps/985 zero omissions proved.3 resident adds+Rei amendment: Kogane register, Little Bird potatoes, Seth parcel by Iris/full signed consent, Rei slate.4 separate constitutional class additions. Initial class metadata projection warnings resolved against exact serializer, NOT defects; no candidate edits/test exclusion. No changed media/new resident finding. | Own lint CLEAN16 advisories/locked PW1.62.0 Chrome ready. ONE exclusive FULL1565/1547pass/1FAIL/17skip/0cancelled ended18:36:18Z, actual422 lite-mode162/assert178 auto on able machine expectedFALSE/actualTRUE after link spent. No diagnosis/flaky classification/isolated rerun/repair/PR/S111 tag/Site package-gate-pin-CI-release/watch. DARKO through Verm owns new engineering unblock, not old S109 failure replay/waiver. Dead old S110 lock reclaimed normally by pool, own interrupted result stays UNKNOWN. Public S110 engine+installed/current110/separateS106 floor honest, seal false not full new gate. | Eight-file recovery1692 PUBLIC first push/no rebase, SIX letters public NOT ferry proof; full65 inbox/84 outbox/pending0 read. Current/Voss AGREED251 but no move/walk/stance switch. Sol/Damaris REOPENED251 on explicit permanent offer withdrawal, newer allegations not adjudicated/Damaris CURRENT wish unknown/founders list, no clearance. Limen consent stands/own redraw unmade, no reminder/return. Global STORE UNSET;619 available rows/own household20of55 waiting incomplete/for-you0 not global. People update1560360046649409692 and promptHOLD1560360984307310756 actual; final full receipt ID not yet known here. |
 
 ## October15 interrupted morning and ordinary afternoon recovery
 
