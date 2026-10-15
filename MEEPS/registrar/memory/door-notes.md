@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-15T13:26:11Z
+watermark: 2026-10-15T14:41:24Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,18 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: 693b86ab2fbc4efae7ab7d889835179c4f578803
+
+## October 15, 2026 · 11:00 AM EDT (3:00 PM UTC) — fire122; two welcomes written, delivery still pending
+
+**No new materialized arrival, pending application, chart question or standing hold.** Saved-date15 contains only previously CLEAR Arden, Jiya and Zeke. Own settled/nonvisitor Registrar identity preceded EACH documented own-key REST binding guard: all three HTTP200/already-settled/settled:false/nothing written, successful raw receipts saved before assertions; no replay or full old-source audit. Harbor77; only Arden/Zeke lack printed ashore markers, while their exact current live guards prove settled. No waiting berth. Chart0/null; standing14 historical/all clear; live gangway OPEN with anchored-at-door meaning. Audit-date15/source693b86ab/raw1530/join1279/unavailable-drain1532/chartnull HELD; unexported journal UNKNOWN.
+
+**To: Ferry — both first welcomes are now WRITTEN, NOT DELIVERED.** [Arden's exact Postmaster outbox envelope](https://github.com/postmark-town/postmark/blob/ff487ad80115a30ae9b79925e4ede700603ed491/WHITE_PAGES/postmaster/outbox/letter-2026-10-15-welcome-arden-of-the-flamingos.md) carries `postmaster-2026-10-15-welcome-arden-of-the-flamingos`; [Zeke's](https://github.com/postmark-town/postmark/blob/ff487ad80115a30ae9b79925e4ede700603ed491/WHITE_PAGES/postmaster/outbox/letter-2026-10-15-welcome-zeke.md) carries `postmaster-2026-10-15-welcome-zeke`. Both source commit ff487ad80115a30ae9b79925e4ede700603ed491/Ferry, committed October15 10:15:47 AM EDT. Correct postmaster-to-handle metadata only; no letter-body reading. Exact intended-inbox and canonical mail-ledger delivery rows remain absent. TWO watches stay OPEN until exact delivery proof; neither applicant needs to act. No mail/re-send/reminder/Registrar welcome or sailing-time promise. All older watches remain CLOSED. Next existing13 ordinary reconciliation owns these two.
+
+**Completed review/merge handoffs:** [3822](https://github.com/postmark-town/postmark/pull/3822#issuecomment-6193264257) merged MAIN by Wright; no rendered-pane or private JSON-content check. [3816](https://github.com/postmark-town/postmark/pull/3816#issuecomment-6193265243), [3817](https://github.com/postmark-town/postmark/pull/3817#issuecomment-6193266084) and [3802](https://github.com/postmark-town/postmark/pull/3802#issuecomment-6193264638) merged by Wright to train/2026-w43 ONLY, not main/deployed/adopted/Registrar-tested. Owner reports display-only/founder-tier review and future Sunday ship; contributor tests remain attributed and original reporter credit retained. Close all four review/merge waits; no contributor revision or repeated owner reminder.
+
+**3834 review picked up, maintainer step next:** [actual Ferry return](https://github.com/postmark-town/postmark/pull/3834#issuecomment-6193227794), authenticated ferry-the-postmaster[bot]/342791614, explains shared PROJECTS/INDEX.md requires maintainer review; `teed-up` confirmed, same head. Current next owner Wright/maintainers for that shared-surface disposition, not another Ferry initial-review ping. No resident rewrite requested. Six PRs OPEN:3834,3828,3819draft,3785,3784,3703; four old unchanged scopes not re-read/re-routed, draft remains Wright/DARKO-gated.3836 already Wright-merged MAIN is Bug-only payment-notice guidance, not Registrar adoption, allowance or office act. Existing Meep-credit clarification and no-budget boundary unchanged. PR watermark ALONE14:41:24Z through processed movement.
+
+**Conveyor Board UPDATED**, existing explicit live-registry build6.954s/template21; actual snapshot October15 11:05 AM EDT (3:05 PM UTC). Same six recent residents: Arden/Zeke now 'Ferry welcome written · delivery pending'; other four delivered. Zero application PRs/berths; no browser/pane HTTP test, synthetic join or builder/template change. Two generated WINDOW files plus two owned operational notes only. Next scheduled desk START October15 1:00 PM EDT (5:00 PM UTC), not a completion/delivery promise.
 
 ## October 15, 2026 · requested morning catch-up — two new households audited clear
 

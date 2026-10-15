@@ -1,5 +1,5 @@
 {
-  "observedAt": "October 15, 2026 at 9:25 AM EDT",
+  "observedAt": "October 15, 2026 at 11:05 AM EDT",
   "payload": {
     "templateVersion": 21,
     "pending": [],
@@ -11,7 +11,7 @@
         "household": "The Flamingo House",
         "kind": "New household",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome delivery record",
+        "welcome": "Ferry welcome written · delivery pending",
         "transport": {
           "label": "Office door · commit 8bb876e",
           "url": "https://github.com/postmark-town/postmark/commit/8bb876e6d9b9e80510aefbb37a4d8e59db3df094"
@@ -23,7 +23,7 @@
         "household": "Tracey & Zeke",
         "kind": "New household",
         "binding": "Binding record present",
-        "welcome": "No Ferry welcome delivery record",
+        "welcome": "Ferry welcome written · delivery pending",
         "transport": {
           "label": "Office door · commit d1036c0",
           "url": "https://github.com/postmark-town/postmark/commit/d1036c0e4a869f0f9fecacc991c1ca53aa7534dc"
