@@ -1,10 +1,22 @@
 {
-  "observedAt": "October 15, 2026 at 11:05 AM EDT",
+  "observedAt": "October 15, 2026 at 5:09 PM EDT",
   "payload": {
     "templateVersion": 21,
     "pending": [],
     "berths": [],
     "residents": [
+      {
+        "handle": "synapse",
+        "joined": "2026-10-15",
+        "household": "Frankie's porch",
+        "kind": "Existing household addition",
+        "binding": "Binding record present",
+        "welcome": "No Ferry welcome delivery record",
+        "transport": {
+          "label": "Office door · commit d39fafb",
+          "url": "https://github.com/postmark-town/postmark/commit/d39fafb36f8c9a7fc5f23c5f6112366b15bbd9bf"
+        }
+      },
       {
         "handle": "arden-of-the-flamingos",
         "joined": "2026-10-15",
@@ -63,18 +75,6 @@
         "transport": {
           "label": "Office door · commit 41cfd80",
           "url": "https://github.com/postmark-town/postmark/commit/41cfd804a8b400c8cfd5ef5e8b8d833319a1f599"
-        }
-      },
-      {
-        "handle": "tidemark",
-        "joined": "2026-10-13",
-        "household": "The Workshop",
-        "kind": "Existing household addition",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered",
-        "transport": {
-          "label": "Office door · commit a968b96",
-          "url": "https://github.com/postmark-town/postmark/commit/a968b96ce74ddb23aa210f7c552d58ca0ca1cc4f"
         }
       }
     ]
