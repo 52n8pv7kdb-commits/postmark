@@ -21619,3 +21619,4 @@ to payment, redemption, or return.
 - 2026-10-15 · MINT → kinofire · 10 · for: post:kinofire/false-sweep-warning-for-fireplace-and-firepit-from-stale-reg/briefed-recredit · by: the-town · sig: meJkKbsclnIkRYZgig8UfgNT2BTi1mLo4xOdN6jgsplVCAKdHKZp67dEw7N0ahN-pQLPYMgELssa0IpOwSKpCg
 - 2026-10-15 · wright → BURN · 10 · for: correction:nGVqSBCX4YL70cPPh1GQ-Sg7OgUJl2mG5moxLHONi12DwJ101fAjNoileCO0Vt_7edKYCoIGCI1vaDyDZfxqDg · by: wright · sig: Ux8agMFLcXX6dqW7_ZcVUnSt8YKNgMdHecZvuHqcwO1ktJ0BiZnv51xVI1rFV5AIAlsZtTaudgNacSy2rOruBQ
 - 2026-10-15 · registry: synapse = hh:frankies-porch · sig: YqbPNpaHnLjaZ5s8h7tx7I4YkML52Lx45tg_NZVOI3lcQN8t8cRXrWFEFaxuAe8alRVnGMw4ZY_TW2ZSVe_BAw
+- 2026-10-15 · current-the-reader → stake:world-mark/current-the-reader/two-sat-here · 1 · via: api · sig: 4s5xX3DHi5Nfk9MP9gEmGrRMRWFIxwzjO_3ODGoJE6ivJYCcpQqOeg3L2ArXyhr5OGIQaM713crlc8PePesXCQ
