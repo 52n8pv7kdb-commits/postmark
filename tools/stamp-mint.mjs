@@ -437,6 +437,36 @@ export const HOUSEHOLD_KEY_RE = new RegExp(String.raw`^${HOUSEHOLD_KEY}$`);
 // this mint is paid to ONE resident on behalf of a whole house: the line has to
 // say which house was paid, or the roll cannot be read back.
 const WELCOME_RE = new RegExp(String.raw`^- (\d{4}-\d{2}-\d{2}) · MINT → (\S+) · ([1-9]\d*) · for: welcome:(${HOUSEHOLD_KEY}) · by: (\S+)$`);
+// QUEST PAY — a quest the town pays by hand-reviewed pass (POS-632; Darko
+// 2026-10-14 20:48 "quests are always paid by the town mint"; the shape is
+// Wright's Q2 of the same night):
+//   - <date> · MINT → <handle> · <n> · for: quest:<quest-id>/<household-key> · by: the-town
+// One generic grammar for every such quest: a new one adds a row to QUEST_PAY,
+// never a grammar. Movement-shaped (MINT → handle), so conservation folds it
+// structurally. NOT replay-derived: what earned it (a feedback discussion, for
+// the first row) lives outside this repo, so like a welcome the line is asserted
+// in place, written by the office's reviewed pass (postmark-office
+// tools/quest-pay-plan.mjs, plan + digest + --apply, by hand) through
+// --quest-mint. It cannot collide with the grammars above it: GIFT wants
+// `for: gift:`, FIRST_IDEA `for: first-idea:`, WELCOME `for: welcome:`, STAGE
+// and AWARD `for: post:`; this one alone says `for: quest:`.
+//
+// The verifier holds what a signature cannot, from the sealed table below and
+// never from the registry (the registry stays documentation, as its note says):
+// the quest is in QUEST_PAY; the amount is exactly its amount; the line's date
+// is inside its window; `by:` is the-town; the meep law; the named key IS the
+// recipient's household at the line's date; and ONE line per quest and
+// household, ever.
+//
+// ⚑ ONCE PER HOUSEHOLD IS PENDING DARKO (POS-632 Q1: per household or per
+// resident). The line carries the household key because a discussion's author
+// binding names a household; if he rules per resident, the unit changes here
+// and in the verifier, and the row's `once_per` says which.
+export const QUEST_PAY = Object.freeze({
+  'read-v2-feedback': Object.freeze({ amount: 5, once_per: 'household', from: '2026-10-15', until: null }),
+});
+export const QUEST_ID_RE = /^[a-z0-9][a-z0-9-]*$/;
+const QUEST_PAY_RE = new RegExp(String.raw`^- (\d{4}-\d{2}-\d{2}) · MINT → (\S+) · ([1-9]\d*) · for: quest:([a-z0-9][a-z0-9-]*)\/(${HOUSEHOLD_KEY}) · by: (\S+)$`);
 // POST STAGE — a bug's stage stamps (the Posts project, phase 2, Keemin
 // 2026-09-29: "Bugs pay the flat ladder, with no staking"). The town pays the
 // resident who did a stage of a bug post: confirmed 2 (the reporter),
@@ -772,6 +802,8 @@ export function classifyEntry(canonical) {
     return { kind: 'first-idea', date: m[1], handle: m[2], n: Number(m[3]), mark: m[4], by: m[5] };
   if ((m = WELCOME_RE.exec(canonical)))
     return { kind: 'welcome', date: m[1], handle: m[2], n: Number(m[3]), household: m[4], by: m[5] };
+  if ((m = QUEST_PAY_RE.exec(canonical)))
+    return { kind: 'quest-pay', date: m[1], handle: m[2], n: Number(m[3]), quest: m[4], household: m[5], by: m[6] };
   if ((m = STAGE_RE.exec(canonical)))
     return { kind: 'post-stage', date: m[1], handle: m[2], n: Number(m[3]), post: m[4], stage: m[5], by: m[6] };
   if ((m = AWARD_RE.exec(canonical)))
@@ -986,6 +1018,7 @@ export function deriveTransfers(deliveries, households, { laws = [], revisions =
     else if (c.kind === 'gift') add(c.handle, c.n);     // founder gift — recorded before any settlement we'd append, so it funds later pays
     else if (c.kind === 'first-idea') add(c.handle, c.n); // first-idea quest mint — same in-place assertion class as a gift
     else if (c.kind === 'welcome') add(c.handle, c.n);  // welcome bundle — the same in-place assertion class, paid once per household at its first resident
+    else if (c.kind === 'quest-pay') add(c.handle, c.n); // a hand-reviewed quest the town pays (POS-632) — the same in-place assertion class
     // THE FOURTH ARM, and the fix REQUIRED it (2026-09-17). Town issuance is the
     // same in-place assertion class as a gift — `MINT → <treasury> · n · for:
     // issuance:…` — and it was missing here. It went unnoticed because it
@@ -1128,6 +1161,17 @@ export const welcomeLine = ({ date, handle, household }) => {
   if (!HOUSEHOLD_KEY_RE.test(String(household ?? '')))
     throw new Error(`welcome: the household must be a key of the form <prefix>:<value> ([a-z0-9-]:[a-z0-9._-]), got ${JSON.stringify(household)}`);
   return `- ${date} · MINT → ${handle} · 5 · for: welcome:${household} · by: the-town`;
+};
+
+// A quest pay's canonical line. The amount and `the-town` are PINNED here from
+// QUEST_PAY, and the quest id and the household key are checked against their
+// classes before they are written (a `·` in either would forge the fields behind it).
+export const questPayLine = ({ date, handle, quest, household }) => {
+  const terms = QUEST_PAY[quest];
+  if (!terms) throw new Error(`quest pay: "${quest}" is not a paid quest (${Object.keys(QUEST_PAY).join(', ')})`);
+  if (!HOUSEHOLD_KEY_RE.test(String(household ?? '')))
+    throw new Error(`quest pay: the household must be a key of the form <prefix>:<value>, got ${JSON.stringify(household)}`);
+  return `- ${date} · MINT → ${handle} · ${terms.amount} · for: quest:${quest}/${household} · by: the-town`;
 };
 
 // A bug stage's canonical line. `the-town` is PINNED here the way welcomeLine
@@ -2445,6 +2489,70 @@ function main(registrySource = null) {
     const canonical = welcomeLine({ date, handle, household });
     appendSigned(repo, [canonical], readFileSync(keyPath, 'utf8'));
     console.log(`stamp-ledger: welcome bundle minted\n  ${canonical}`);
+    return;
+  }
+
+  if (has('--quest-mint')) {
+    // A QUEST THE TOWN PAYS (POS-632). Same ceremony as --welcome — signed by the
+    // office pen, appended onto a settled tail, forward-dated — with the quest's
+    // terms held here AND at verify, from QUEST_PAY: the amount (no --amount),
+    // authority the-town (no --by), the window, the meep law, the named household
+    // IS the recipient's at this date, and ONE line per quest and household, ever.
+    // The writer is the office's reviewed quest pass (quest-pay-plan.mjs --apply),
+    // run by hand; this verb is that ceremony, never a second law.
+    const keyPath = arg('--key');
+    const date = arg('--date');
+    const handle = arg('--quest-mint');
+    const quest = arg('--quest');
+    const household = arg('--household');
+    if (!keyPath || !existsSync(keyPath) || !date || !handle || !quest || !household) {
+      console.error('--quest-mint <handle> needs --quest <id> --household <key> --date YYYY-MM-DD --key FILE'); process.exit(1);
+    }
+    const terms = QUEST_PAY[quest];
+    if (!terms) { console.error(`FATAL: "${quest}" is not a paid quest (${Object.keys(QUEST_PAY).join(', ')})`); process.exit(1); }
+    if (date < terms.from || (terms.until && date > terms.until)) {
+      console.error(`FATAL: ${quest} pays from ${terms.from}${terms.until ? ` until ${terms.until}` : ''}, not on ${date}`); process.exit(1);
+    }
+    if (!HOUSEHOLD_KEY_RE.test(household)) {
+      console.error(`--household must be a household key, <prefix>:<value> (got "${household}")`); process.exit(1);
+    }
+    const rooms = keyBase() ?? householdKeys(repo);
+    if (!rooms.has(handle)) { console.error(`FATAL: no WHITE_PAGES room for "${handle}" — a quest pays a resident`); process.exit(1); }
+    const { laws, revisions } = parseLaws(existing);
+    if (meepChecker(laws)(handle, date)) { console.error(`FATAL: "${handle}" is a meep at ${date} — meeps stay outside the currency`); process.exit(1); }
+    const keyOf = (h, d) => {
+      let k = null;
+      for (const r of revisions) if (r.handle === h && r.date <= d) k = r.key;
+      if (k) return k;
+      const base = rooms.get(h);
+      return base ? base.key : `solo:${h}`;
+    };
+    const mine = keyOf(handle, date);
+    if (household !== mine) {
+      console.error(`FATAL: --household ${household} is not "${handle}"'s household at ${date} (${mine}) — the quest is paid to a house, and the line must name the house it paid`); process.exit(1);
+    }
+    for (const e of existing) {
+      const c = classifyEntry(e.canonical);
+      if (c.kind === 'quest-pay' && c.quest === quest && (c.household === mine || keyOf(c.handle, c.date) === mine)) {
+        console.error(`FATAL: household already paid for quest:${quest} (${c.date}, ${c.handle}) — one line per quest and household, ever`); process.exit(1);
+      }
+    }
+    const recorded = existing.map((e) => e.canonical);
+    const { problems, owed } = walkLedger(recorded.slice(1), mints, 1);
+    if (existing.length > 0 && problems.length) {
+      console.error(`FATAL: recorded ledger diverges from derivation — run stamp-verify.mjs; nothing minted\n${problems[0]}`); process.exit(1);
+    }
+    if (existing.length === 0 || owed.length) {
+      console.error(`FATAL: ledger is behind the mail (${owed.length} mint(s) owed${existing.length === 0 ? ', or not yet founded' : ''}) — run --append first, then mint onto the settled tail`); process.exit(1);
+    }
+    const maxDate = existing.reduce((mx, e) => {
+      const d = /^- (\d{4}-\d{2}-\d{2}) /.exec(e.canonical)?.[1];
+      return d && d > mx ? d : mx;
+    }, '0000-00-00');
+    if (date < maxDate) { console.error(`FATAL: quest date ${date} precedes the ledger tail (${maxDate}) — the ledger is append-only, forward-dated`); process.exit(1); }
+    const canonical = questPayLine({ date, handle, quest, household });
+    appendSigned(repo, [canonical], readFileSync(keyPath, 'utf8'));
+    console.log(`stamp-ledger: quest paid\n  ${canonical}`);
     return;
   }
 

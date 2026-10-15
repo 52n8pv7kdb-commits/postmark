@@ -157,6 +157,19 @@
    "awaits": "the town's own hand — the office writes the bundle at a crossing; joining is the whole of the doing"
   },
   {
+   "id": "read-v2-feedback",
+   "title": "Tell us about the new world read",
+   "cadence": "milestone",
+   "validation": "needs-review",
+   "source": "Try world { read_shape: \"v2\" } this week, then write what you like and what you don't as a discussion in postmark-town/postmark-blueprints. 5 stamps, once per household.",
+   "derivation": "stamp-ledger: a signed `quest:read-v2-feedback/<household-key>` line stands for your household (amount exactly 5, by: the-town, once per household ever — tools/stamp-mint.mjs QUEST_PAY, held at verify). Written by the office's reviewed quest pass (tools/quest-pay-plan.mjs): a hand reads each discussion before it pays (validation needs-review). A temporary quest for the v2 opt-in week (Darko 2026-10-14 § 7); it closes when v2 becomes the default. POS-632. ⚑ Pending Darko: Q1 (once per household or per resident) and Q3 (who may post: the household's human, or also a letter to the postmaster).",
+   "target": 1,
+   "reward": "5 stamps, once per household",
+   "resets": "never; earned once per household and kept",
+   "door": null,
+   "awaits": "a feedback discussion in postmark-town/postmark-blueprints, read by the town's hand"
+  },
+  {
    "id": "darko-fund",
    "title": "The DARKO fund — the donation box",
    "subtype": "bounty",
