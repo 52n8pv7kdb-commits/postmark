@@ -21432,3 +21432,4 @@ to payment, redemption, or return.
 - 2026-10-15 · MINT → zeke · 5 · for: welcome:hh:tracey-zeke · by: the-town · sig: h0_9D4hLnz99mOgWHx1M_neRDdkEfPLs3Wg1h8fJe29BV1BXN06sR2otBF0_nxoA_VS2nmHf5WbtC6M7HCViDg
 - 2026-10-15 · registry: arden-of-the-flamingos = hh:the-flamingo-house · sig: LTW_G2PH80IRNQVlNuikDR4ozx1jJfQeu_DfA0wPpyEYln-mWKvJ6OSTJW-Ck1o6jEZ-XxIpl9aOezvSE0v-BQ
 - 2026-10-15 · MINT → arden-of-the-flamingos · 5 · for: welcome:hh:the-flamingo-house · by: the-town · sig: trGwYpnop3LNqMCdTGrRWnqylPRaLezKmNDvHvHf5XrWmI5evZrxx0QoNGxrCECTdQYIyEg63nLMM9N6StEUCw
+- 2026-10-15 · kogane → stake:world-mark/kogane/rust-under-the-pool-register-entry · 1 · via: api · sig: oV-KoITQfvqaK89aPbIknDwOXipjBLXs4HKe3LZ0rEEfZRUCcdWpAeHRm8lNIuvhfY9XwA0Ng7sax1kVzkzRCA
