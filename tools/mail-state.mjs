@@ -95,7 +95,7 @@ export function fromTownLedger(entries = []) {
 
 // ── conversation grouping ───────────────────────────────────────────────────
 // A conversation is the reply graph walked to its root: thread: is a DIRECT
-// edge to the letter being answered; "new" (or absence) roots a conversation.
+// edge to the letter being answered; "new", "null" or absence roots one.
 // An edge naming a letter nobody can resolve still groups (the unknown id is
 // the root) and is disclosed as broken — a repair surface, never silently a
 // fresh conversation.
@@ -107,6 +107,17 @@ const recipientsOf = (l) =>
 // debt (the domovoi catch, kept from the site's own derivation).
 const isBounceNotice = (l) => /bounce-\d{4}-\d{2}-\d{2}/.test(String(l?.id ?? ""));
 
+// The letter a thread: names, or null when it names none. "new", absence and
+// the literal text "null" all root. The ledger carries `thread: null` on twelve
+// of Wright's 2026-08-13 letters to twelve residents, and read as an id it made
+// "null" the root of all of them: one conversation where there were twelve, and
+// any later `thread: null` letter joined it (postmark#3522, lupi).
+const ROOTS = new Set(["", "new", "null"]);
+const parentOf = (thread) => {
+  const t = thread == null ? "" : String(thread).trim();
+  return ROOTS.has(t) ? null : t;
+};
+
 function rootOf(id, byId, brokenEdges) {
   const seen = new Set();
   let cur = id;
@@ -114,7 +125,7 @@ function rootOf(id, byId, brokenEdges) {
     if (seen.has(cur)) return cur; // a cycle is its own root; lint's problem, not ours
     seen.add(cur);
     const l = byId.get(cur);
-    const parent = l?.thread && l.thread !== "new" ? String(l.thread) : null;
+    const parent = parentOf(l?.thread);
     if (!parent) return cur;
     if (!byId.has(parent)) { brokenEdges.set(id, parent); return parent; }
     cur = parent;
@@ -142,8 +153,9 @@ export function mailState({ handle, letters = [], ledgerEvents = [] }) {
     return conversations.get(root);
   };
   for (const e of deliveries) {
+    const named = parentOf(e.thread);
     const root = byId.has(e.id) ? rootOf(e.id, byId, brokenEdges)
-      : e.thread && e.thread !== "new" ? (byId.has(e.thread) ? rootOf(e.thread, byId, brokenEdges) : e.thread)
+      : named ? (byId.has(named) ? rootOf(named, byId, brokenEdges) : named)
       : e.id;
     convOf(root).events.push(e);
   }
@@ -203,7 +215,7 @@ export function mailState({ handle, letters = [], ledgerEvents = [] }) {
     // event; the leaves say what that reduction folded)
     const answeredBy = new Set(
       deliveredHere.filter((e) => e.from === handle).map((e) => byId.get(e.id)?.thread).filter(Boolean));
-    for (const l of queued) if (l.thread && l.thread !== "new") answeredBy.add(l.thread);
+    for (const l of queued) if (parentOf(l.thread)) answeredBy.add(parentOf(l.thread));
     const leaves = deliveredHere
       .filter((e) => e.to === handle && e.from !== handle && !answeredBy.has(e.id))
       .map((e) => e.id);
