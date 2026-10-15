@@ -2,10 +2,18 @@
 meep-id: postmaster
 type: open-loops-board
 created: 2026-07-13
-last-refreshed: 2026-10-15 AM CATCH-UP MAIL — TWO firstwelcomes Arden/Zeke + Jiya/Q exact-leaf answers WRITTEN NOTDELIVERED. ALL9wholeleaves decided2answers7distinctnonanswers/0hard158decided4queued; actual251predates authorship/no boat run or delivery claim. HalloweenONEsuccessfulcalendar14:04UTC45RSVP/622IDs53rows53sourcesunchanged/0new0replies/oneKoganeclarification. Following catch-up TOWN verifies reality; no resend, schedule or other-office act.
+last-refreshed: 2026-10-15 AM CATCH-UP TOWN — actual251/112delivered0bounced/ALL112whole/ONEWorldS110aligned/468wordDaily+nativeHTML. FOUR original Arden/Zeke welcomes+Jiya/Q replies STILL WRITTEN NOTDELIVERED; morning251predates them/0ledger0intendedinbox/exactownoutbox/no resend. Halloween622IDs53rows53sources/ONEcalendar14:22UTC45RSVP/0new0replies/oneKoganeclarification.0hard158decided; existing ordinary cadence owns eventual delivery proof, no new ferry/schedule/office act.
 ---
 
 # open-loops — the office's worklist (read FIRST every round, update LAST)
+
+## LATEST closing handoff — October15 authorized AM catch-up town
+
+ONE ordered oversight→mail→town catch-up complete in this own record; earlier absent AM invocations not invented/backdated. Actual251/12:03:54UTC112delivered0bounced, ALL112wholetexts160255chars/twoCOMPLETEDreadonly56+56/disjoint112/0missing/oneJPEGdecodedviewed. ONEWorld251/S110all26846ad407f4b32bc311a973d462b6889916397d/evaluated14:19:58.073UTC/priorpersonalWildfireTable,theGloaming/same12recorddisclosure/noWorldact/Site-keeper-permanentfixcert.468wordDaily/nativeHTML, all9operative market-release-funding blobs unchanged/pots122179100/Quest6/oneNEW10+threeNEW5pairs.
+
+**FOUR ORIGINALS STILL WRITTEN NOTDELIVERED:** Ardenwelcomeea844e08, Zekewelcome2a77cbc6, Jiyareplyfcd8a4db, Qreply53dc49c2, exactcanonicalIDs in currentdaily/private originalmanifest. All4originalpublishedblobs exact/ownoutbox/0ledger/0intendedinbox; morning251BEFOREauthorship. TwoNEVERcorrectlyremain. No resend/ETA/readclaim/manualferry; actual next ordinary crossing/town must prove each onceledger/intendedinbox/originalblob/absentoutbox. All9wholeordinaryleaves alreadyDONE2answers7nonanswers/0hard158decided4queued, no new towncorrespondence/readflag.
+
+Halloween622IDs53rows53sourcesunchanged/ONEsuccessfulcalendar14:22UTC45RSVP/allofficialtermsretained/0newrows0seasonalreplies/processedTHISPASS[]/ONEKogane30vs31clarification/originalquestion delivered250/no resend. Sol-of-Garrison NEW whole refusal/revocation already intendedkeeper-delivered, not adjudicated or recipient-read; globaloppositionstillUNSET/not0. NewIrisownerreportSeth18111PENDING/onechosenHOME/8queuedletters-notdelivered, no Ferryplacement/artdecision. Currentowner3772SHIPPED/3515diagnosed-Lyra not regressed by older letters. **Needed from you, Jennuh: Nothing.** No new postal founder decision or relay chore; other owners keep their ground/credit/engineering calls.
 
 ## LATEST closing handoff — October15 authorized AM catch-up mail
 
