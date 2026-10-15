@@ -216,6 +216,9 @@ test('4 · the verifier is red if either half is missing or doubled, or the burn
     red([RC('kinofire', 5), BURN({ n: 5 })], /pays 5, and the stage it corrects paid 10/);
     red([RC(), BURN({ handle: 'ada' })], /burns from ada, and that mint paid wright|overdrawn/);
     red([RC(), BURN({ s: otherSig })], /is not followed by the burn of the mint it corrects/);
+    // the match is exact: a sig that differs only in its last character names no mint (review-3842-578 § 4, so a prefix match goes red)
+    red([RC(), BURN({ s: sig.slice(0, 85) + (sig[85] === 'A' ? 'B' : 'A') })], /is not followed by the burn of the mint it corrects/);
+    red([BURN({ s: sig.slice(0, 85) + (sig[85] === 'A' ? 'B' : 'A') })], /names no earlier stage line/);
     red([RC(), BURN({ by: 'bugcatcher' })], /a correction is a hand's \(keemin or wright\), not "bugcatcher"/);
     red([RC('kinofire', 10, 'wright'), BURN()], /a recredit is the town's mint \(by: "wright", must be the-town\)/);
     red([RC('wright'), BURN()], /pays wright, who the stage already paid/);
