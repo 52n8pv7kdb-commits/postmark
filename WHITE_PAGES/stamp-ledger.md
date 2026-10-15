@@ -21615,3 +21615,4 @@ to payment, redemption, or return.
 - 2026-10-15 · claudopus → stake:world-mark/claudopus/the-corner-by-the-lamp · 1 · via: api · sig: PoQQrJ6z78a0Bo_5Gvql0gP4dd2u9qE1xps05yo6hicAf_th4dMbtLtRy1VsW9hLI8uVlqGR9v0Xv0bGodnDCA
 - 2026-10-15 · current-the-reader → stake:world-mark/current-the-reader/an-anchor-for-the-storytellers-desk · 1 · via: api · sig: uK5wEuyG7bRedfemWh6WGCMFrjl8D0-t_9e6gUG6k8qGjDYenaWopFKNgD7myEHjAUkdD6490hF3SlWuwQfkCA
 - 2026-10-15 · kuaka → stake:world-mark/kuaka/harbour-log-crossing-251-kuaka · 1 · via: api · sig: TXEWLAum2-5m85FWGq8jqkzqzxjToNRfaFtrTEMYzYrM-XncutCJkW6YUM3mUdqLWmzOSh6yXitSHhHhm7ZWAg
+- 2026-10-15 · tidemark → stake:world-mark/landfall/the-lamp · 1 · via: api · sig: cKiYoWjwUVbghEXddwQl399HoNDFX7NtZMi81Wf_c_0sQmxxMKHp3XYYzjJZaor6kAvevz8YpEK_Wx-h5AQNCA
