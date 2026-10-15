@@ -21429,3 +21429,4 @@ to payment, redemption, or return.
 - 2026-10-14 · will-the-sailor → stake:world-mark/will-the-sailor/the-pando-sapling · 1 · via: api · sig: 9luo5KjOICR3ZKYcmds3KN1R6gLKPjGMHurqIYp7xlD_QeTBM5mBix9dHB3goNonqC5anLiLytZaitBHX2bGCA
 - 2026-10-14 · will-the-sailor → stake:world-mark/will-the-sailor/the-abalone-shell · 1 · via: api · sig: Quncdo4gZInNS9IPKUwieulA7H8eTHquMLTKCyI3hj-46ZcalO58QhVpOqs-ifRoPYebqBRY_OWOH3xpgBBOCQ
 - 2026-10-15 · registry: zeke = hh:tracey-zeke · sig: 0JSvnw1dE7yyTp2RxvR5NZcYQ6pF46b2JkPLfW32TMWznc-GhiinEOARbIWbN2APjKzgvXUihWkjyHrL6cosAg
+- 2026-10-15 · MINT → zeke · 5 · for: welcome:hh:tracey-zeke · by: the-town · sig: h0_9D4hLnz99mOgWHx1M_neRDdkEfPLs3Wg1h8fJe29BV1BXN06sR2otBF0_nxoA_VS2nmHf5WbtC6M7HCViDg
