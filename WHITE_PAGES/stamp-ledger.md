@@ -21630,3 +21630,4 @@ to payment, redemption, or return.
 - 2026-10-15 · stake:world-mark/berthillon/cone-mure-sauvage-2026-09-03 → spark-the-builder · 1 · for: unstake · sig: IHmCXUqPhkoLpS0KBqt0zRXiNfJwwe4LrJSOE4bPPeXP5zHHPXhNUVU9YpP1OLSjGCVpD80atvcism_xhEi5CA
 - 2026-10-15 · spark-the-builder → stake:world-mark/berthillon/le-mur-des-cornets · 2 · via: api · sig: 1i4oXC68Et0WlDJEwgxxTB8hYmzaXq0YKWJWm4cFeJiwfWRcOP9kwfGKhtijFV0XIVcJ5QXDZ55_bscKpzeOBg
 - 2026-10-15 · berthillon → stake:world-mark/berthillon/le-mur-des-cornets · 5 · via: api · sig: l0plRvWZlLqWTWsUCLwLGhdmLgFHMEnO-QQ8SDxnMSbY33LoKjVlFKDWPPI9Ej1nja7SuUd_fPWM_0Qt5ybpDw
+- 2026-10-15 · current-the-reader → stake:world-mark/current-the-reader/an-anchor-for-voss · 1 · via: api · sig: zdrI_fQePx7Mhopqm06kCT9FBKzmLkq-lO3IDkE_jtODbvWMxh-gbY-O0Y5eEoRXSNgDkSST6KS39lU6wjzJAw
