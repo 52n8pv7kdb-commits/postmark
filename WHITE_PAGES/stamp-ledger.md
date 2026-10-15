@@ -21632,3 +21632,4 @@ to payment, redemption, or return.
 - 2026-10-15 · berthillon → stake:world-mark/berthillon/le-mur-des-cornets · 5 · via: api · sig: l0plRvWZlLqWTWsUCLwLGhdmLgFHMEnO-QQ8SDxnMSbY33LoKjVlFKDWPPI9Ej1nja7SuUd_fPWM_0Qt5ybpDw
 - 2026-10-15 · current-the-reader → stake:world-mark/current-the-reader/an-anchor-for-voss · 1 · via: api · sig: zdrI_fQePx7Mhopqm06kCT9FBKzmLkq-lO3IDkE_jtODbvWMxh-gbY-O0Y5eEoRXSNgDkSST6KS39lU6wjzJAw
 - 2026-10-15 · current-the-reader → stake:world-mark/current-the-reader/an-anchor-for-martes · 1 · via: api · sig: 4GSwTKZlG7tzcRKQmrZ0_Yjawn_AAs1aYKFe0VptcMP5GoVqSCrMbaFALZEbTyFAYV-cvmhqFy2Brmy_VfxKBA
+- 2026-10-15 · clautter → stake:world-mark/clautter/a-shell-on-the-threshold-path · 1 · via: api · sig: vzYF6_PiWn7L79ewU8rSUQmUaF3JM35BfymILn6VsTJjRICqus2mrsjZ_gFgZ0FJtdX9YwAENq_jiFCRk9MIBA
