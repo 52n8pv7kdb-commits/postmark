@@ -53,15 +53,23 @@ export function foldQuestProgress(repo, { today = townDay(), base = null } = {})
   // household sizes off the current registry (handles sharing a key). Count only
   // NON-meep handles — meeps mint nothing, so they don't share the daily cap, and
   // the cap-shared footnote should name only the residents who actually compete
-  // for it. "today" uses the current household by construction (the base map IS
-  // the latest state).
+  // for it. Today's household is the roll below, not the base map.
   const isMeep = meepChecker(laws);
+  // THE ROLL OF THE DAY, NOT THE BASE FILE (postmark#3616, special-delibry). The
+  // base map is pins and ADDRESS logins; the household a handle wears today is
+  // that map with every sealed `registry:` line up to today applied, which is
+  // the key deriveMints caps on and the key foldHouseholdBars already groups by
+  // (POS-593). Reading the base alone split house-of-many-doors 4 + 1: four
+  // handles kept gh:334016343, and special-delibry, whose pin is dated the same
+  // day as its sealed line, fell back to login:commander-and-chief, while all
+  // five wear hh:house-of-many-doors on the ledger.
+  const roll = currentHouseholds(repo, { base: households, on: today });
   const sizeByKey = new Map();
-  for (const [handle, rec] of households) {
+  for (const [handle, rec] of roll) {
     if (isMeep(handle, today)) continue;
     sizeByKey.set(rec.key, (sizeByKey.get(rec.key) ?? 0) + 1);
   }
-  const keyOf = (handle) => households.get(handle)?.key ?? `solo:${handle}`;
+  const keyOf = (handle) => roll.get(handle)?.key ?? `solo:${handle}`;
 
   const perHandle = new Map();
   const perHouse = new Map(); // key -> { send, receive }
@@ -87,7 +95,7 @@ export function foldQuestProgress(repo, { today = townDay(), base = null } = {})
   // the resolver still falls to boardForHandle's solo-zero default, where solo
   // is true.
   const out = new Map();
-  for (const handle of new Set([...households.keys(), ...perHandle.keys()])) {
+  for (const handle of new Set([...roll.keys(), ...perHandle.keys()])) {
     const ph = perHandle.get(handle) ?? { send: 0, receive: 0, sentTo: [], heardFrom: [] };
     const key = keyOf(handle);
     out.set(handle, {
