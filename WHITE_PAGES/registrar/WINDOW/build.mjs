@@ -108,7 +108,7 @@ const residents = readdirSync(pages, { withFileTypes:true })
 const openPRs = fields => JSON.parse(execFileSync("gh", ["pr", "list", "--repo", "postmark-town/postmark", "--state", "open", "--limit", "100", "--json", fields], { encoding:"utf8" }));
 let open = [];
 try {
-  open = openPRs("number,title,body,url,files");
+  open = openPRs("number,title,body,url,baseRefName,files");
 } catch {
   // Without the file lists, the words decide (pending.mjs).
   try { open = openPRs("number,title,body,url"); } catch { /* The last generated board remains honest if GitHub is temporarily unreachable. */ }
