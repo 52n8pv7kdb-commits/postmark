@@ -505,6 +505,29 @@ test("POS-593: a past day's bar groups by the key the mint capped on THAT day, n
   } finally { rmSync(d, { recursive: true, force: true }); }
 });
 
+test("#3616: housemates named on the ledger never read as a qualifying pair, whatever their base keys say", () => {
+  // The pair page shows a milestone only when `qualifies` (cross-household, both
+  // non-meep). k1 keeps its gh:1 pin; sd's pin is dated the same day as its
+  // sealed line, so the base map falls back to its ADDRESS login. The ledger puts
+  // both in hh:many, so they are one house and their pair can never mint.
+  const d = town([['k1', 'sd', DAY, 0], ['sd', 'k1', DAY, 1], ['k1', 'out', DAY, 2], ['out', 'k1', DAY, 3]],
+    { k1: { id: '1', pinned: '2026-07-01' }, sd: { id: '1', pinned: '2026-07-05' }, out: { id: '2' } });
+  try {
+    mkdirSync(join(d, 'WHITE_PAGES', 'sd'), { recursive: true });
+    writeFileSync(join(d, 'WHITE_PAGES', 'sd', 'ADDRESS.md'), 'github: someone\n');
+    putLedger(d, [
+      '- 2026-06-01 · rules: stamps-v3 · friendship: 5:5',
+      '- 2026-07-02 · registry: k1 = hh:many',
+      '- 2026-07-05 · registry: sd = hh:many',
+    ]);
+    const f = foldFriendships(d);
+    assert.equal(f.active, true, 'the fixture seals the stamps-v3 law, so the fold is live');
+    const pair = (a, b) => f.pairs.find((p) => p.a === a && p.b === b);
+    assert.equal(pair('k1', 'sd')?.qualifies, false, 'housemates on the ledger are one house');
+    assert.equal(pair('k1', 'out')?.qualifies, true, 'and a real cross-household pair still qualifies');
+  } finally { rmSync(d, { recursive: true, force: true }); }
+});
+
 test('POS-327 live: no household bar on the live ledger exceeds its cap', () => {
   const day = '2026-10-03';
   for (const b of foldHouseholdBars(REPO, { today: day })) {
