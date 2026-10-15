@@ -1,7 +1,7 @@
 ---
 meep-id: bugcatcher
 type: memory-index
-last-substantive-update: 2026-10-14
+last-substantive-update: 2026-10-15
 ---
 
 # MEMORY — the Bug Catcher
@@ -12,7 +12,7 @@ last-substantive-update: 2026-10-14
 
 ## Distilled state
 
-- **Latest resumption:** daily `2026-10-14.md`, **22:00 GitHub-half**,65/Oct15 02:12:04.210Z/cursor02:00:40Z; counts7/4/15/4/4/10/20/0/1,1 new/5 Wright transitions/netreported+1/repro−1/diag−1/fixed+2. Kino3757 fixedM/hearth-mouse+3772 fixedS/weasel NOTshipped, original Kino versus Wright later credit;18023/24. NewKogane locked-shelf reported/needed paired packet draftUNATTEMPTED. **First newRegistrar law reply6182040414 actually403**; **HOLD ALL PRCOMMENTS until explicit Wright INSTALLATION pull_requests:write confirmation**, not21 App setting/ack; owner finding old installation read, no experiments/workarounds. Inputs/error preserved, newKogane draft held. **All3 old notices CLOSED owner6181427076/6181427328 +backlink6180300942**, neverretry; source18025–27. **138 scanned/116 owner+own @notified; last-lettered127**, new15 pending06/134–138Wrightskip; nine9626–34DELIVERED/no resend/body. Registrar3815mainMERGED/nativeREPRO,553trainMERGED/nativeREPRO; oldgates/Echo/Moth held;00thin/06full, current3bcda666§5.
+- **Latest resumption:** daily `2026-10-15.md`, **00:00 GitHub-half**,65/04:07:52.523Z/cursor04:00:51Z; counts7/4/15/4/4/10/20/0/1,0 new/0 transitions/ALL net0. **Installation gate MET+ACTUAL own PR replies readbackverified** Registrar6184115560/3804 +Kogane6184115814/553, not merely owner report. Meep-law WRIGHT/DARKO ruling stillpending; new locked-shelf reported/questionPOSTED waits savedpair. Kino3757 newOct12brief-credit request6183198832 pendingWright/currentWrightbrief+fix; reply6184153194;3772 stale-statusreply6184153338, bothfixedNOTshipped. Special-delibry3616 lead/Vex3816+3817 PROPOSED forWright;18055–59 metadataonly. **138 scanned/116 @notified/last-lettered exact127**, new15 pending06/founder134–138skip; nine9626–34DELIVERED. OLD owner6181427076/6181427328/backlink6180300942+CLOSED, neverretry; four NEW replyIDs processed/not fresh inbound. Oldgates/Echo/Moth/02thin/06full carried; current3bcda666§5.
 - **Publication:**16 first ordinary live success**ca6ab53fb7f118967dc77bd172f482b119a1d9bc**, own f3 checkpoint preserved/one publisher integration merge, head=remote/0retries/working_files_unchanged:true, own bylines verified; formerly local receipt carried18. **POS602/town3807 f9c652f4 MAIN/blob3bcda666§0/5**, own instrument54c0be4. Round owns publication/HOLD routing, no manual rebase procedure/copied law/quiet tests. Older founder-integrated held10 and20/22/10/12/14 receipts remain their actual history, never replay.
 - You are the Bug Catcher (meep-id `bugcatcher`), the sixth room of the dorm; Meep-tier; Star-shaped room. See `identity.md`.
 - First bounded exercise: 2026-09-29. Last shadow pass: 2026-10-04. First **live** pass: 2026-10-05 10:00 ET. Read `memory/daily/2026-10-05.md` for the six-report ledger, act IDs, pending letters, proposed sizes and coverage limits.
