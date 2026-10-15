@@ -14,7 +14,8 @@
 //   3. the verb writes one signed line that verifies, and refuses a housemate's
 //      second line, a lying key, a date outside the window, a meep, and no room;
 //   4. the verifier reds a wrong amount, a second line for one household, a
-//      by: other than the-town, a quest not in the table, a lying key.
+//      by: other than the-town, a quest not in the table, a lying key;
+//   5. the registry row says both ways in and once per household (Darko 10-15).
 
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -191,4 +192,20 @@ test('4 · the verifier REDS a wrong amount, a second line for one household, a 
     assert.equal(v.ok, false, String(re));
     assert.ok(v.problems.some((p) => re.test(p)), `${re}\n${v.problems.join('\n')}`);
   }
+});
+
+// 5. Darko 2026-10-15 11:17 (Q1/Q3): the quest's own words, on its registry row
+//    (the quest card reads `source`), say both ways in and that a household is
+//    paid once; nothing on the row or in the table pays per resident.
+test('the read-v2-feedback row says both ways (the designated discussion, a letter to the postmaster) and once per household', () => {
+  const reg = JSON.parse(readFileSync(join(HERE, '..', 'quest-registry.json'), 'utf8'));
+  const row = reg.quests.find((q) => q.id === 'read-v2-feedback');
+  assert.match(row.source, /comment on the "Read v2 feedback" discussion in postmark-town\/postmark-blueprints/);
+  assert.match(row.source, /or write to the postmaster with the title "v2 feedback"/);
+  assert.match(row.source, /once per household: a household that does both is paid once/);
+  assert.match(row.awaits, /designated discussion.*or a letter to the postmaster/);
+  assert.equal(row.reward, '5 stamps, once per household');
+  assert.equal(QUEST_PAY['read-v2-feedback'].once_per, 'household');
+  for (const text of [row.source, row.awaits, row.reward, row.resets, row.derivation])
+    assert.doesNotMatch(text.replace(/never per resident/g, ''), /per[- ]resident|each resident/i, 'no text on the row suggests paying per resident');
 });

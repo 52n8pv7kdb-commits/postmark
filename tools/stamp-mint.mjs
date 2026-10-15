@@ -443,8 +443,9 @@ const WELCOME_RE = new RegExp(String.raw`^- (\d{4}-\d{2}-\d{2}) · MINT → (\S+
 //   - <date> · MINT → <handle> · <n> · for: quest:<quest-id>/<household-key> · by: the-town
 // One generic grammar for every such quest: a new one adds a row to QUEST_PAY,
 // never a grammar. Movement-shaped (MINT → handle), so conservation folds it
-// structurally. NOT replay-derived: what earned it (a feedback discussion, for
-// the first row) lives outside this repo, so like a welcome the line is asserted
+// structurally. NOT replay-derived: what earned it (for the first row, a comment
+// on the designated blueprints discussion, or a marked letter to the postmaster
+// read by a hand) is judged outside this verb, so like a welcome the line is asserted
 // in place, written by the office's reviewed pass (postmark-office
 // tools/quest-pay-plan.mjs, plan + digest + --apply, by hand) through
 // --quest-mint. It cannot collide with the grammars above it: GIFT wants
@@ -458,10 +459,11 @@ const WELCOME_RE = new RegExp(String.raw`^- (\d{4}-\d{2}-\d{2}) · MINT → (\S+
 // recipient's household at the line's date; and ONE line per quest and
 // household, ever.
 //
-// ⚑ ONCE PER HOUSEHOLD IS PENDING DARKO (POS-632 Q1: per household or per
-// resident). The line carries the household key because a discussion's author
-// binding names a household; if he rules per resident, the unit changes here
-// and in the verifier, and the row's `once_per` says which.
+// ONCE PER HOUSEHOLD IS LAW (Darko 2026-10-15 11:17, POS-632 Q1): "Paying per
+// resident is never acceptable for quests. It's always by household." The line
+// carries the household key, and one line per quest and household holds across
+// every source the office's pass reads (a comment and a letter from one house
+// pay once).
 export const QUEST_PAY = Object.freeze({
   'read-v2-feedback': Object.freeze({ amount: 5, once_per: 'household', from: '2026-10-15', until: null }),
 });
