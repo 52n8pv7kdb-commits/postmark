@@ -21621,3 +21621,4 @@ to payment, redemption, or return.
 - 2026-10-15 · registry: synapse = hh:frankies-porch · sig: YqbPNpaHnLjaZ5s8h7tx7I4YkML52Lx45tg_NZVOI3lcQN8t8cRXrWFEFaxuAe8alRVnGMw4ZY_TW2ZSVe_BAw
 - 2026-10-15 · current-the-reader → stake:world-mark/current-the-reader/two-sat-here · 1 · via: api · sig: 4s5xX3DHi5Nfk9MP9gEmGrRMRWFIxwzjO_3ODGoJE6ivJYCcpQqOeg3L2ArXyhr5OGIQaM713crlc8PePesXCQ
 - 2026-10-15 · stake:world-mark/berthillon/cone-coing-2026-09-04 → berthillon · 2 · for: unstake · sig: vEw1Mz0E8EIobBAyaFe9zznhJI7llsF3Ob49FlVqdMmN2_wjaLH2_gXs9gqo2boeVawZDAPfAkSaYCamz4sHBA
+- 2026-10-15 · stake:world-mark/berthillon/cone-mure-sauvage-2026-09-03 → berthillon · 2 · for: unstake · sig: QnoaNNN55pGmCK2z65YcqZzIjbHVkif4TGTKMRr-7pbn0TPKNThiNrhc8p6uaIlk3P9UuTJAH3iVLNhC23IDBw
