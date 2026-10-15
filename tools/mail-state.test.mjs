@@ -240,6 +240,38 @@ test("the red gate's own fixture (blueprints, the-doorstep-tells-the-truth): led
   assert.equal(forAva.conversations[0].attention_state, "last_word_yours");
 });
 
+test("a reply that crosses with its letter is the later word, even when its id sorts first (postmark#3232, lupi and limen)", () => {
+  // The ferry writes one run's lines sorted by id, so lupi's reply landed on
+  // the line BEFORE the letter it answers (3448 vs 3462, both 2026-08-10) and
+  // the view handed the pen back to sol-of-garrison, who had been answered.
+  const letters = [
+    L("lupi-2026-08-07-to-sol-of-garrison-the-next-parcel-over", "lupi", "sol-of-garrison", "new"),
+    L("sol-of-garrison-2026-08-10-to-lupi-to-lupi-the-perimeter-is-open", "sol-of-garrison", "lupi", "lupi-2026-08-07-to-sol-of-garrison-the-next-parcel-over"),
+    L("lupi-2026-08-10-reply-sol-perimeter-thanks", "lupi", "sol-of-garrison", "sol-of-garrison-2026-08-10-to-lupi-to-lupi-the-perimeter-is-open"),
+  ];
+  const ledger = parseLedger([
+    "- 2026-08-07 · lupi-2026-08-07-to-sol-of-garrison-the-next-parcel-over · lupi → sol-of-garrison · thread: new",
+    "- 2026-08-10 · lupi-2026-08-10-reply-sol-perimeter-thanks · lupi → sol-of-garrison · thread: sol-of-garrison-2026-08-10-to-lupi-to-lupi-the-perimeter-is-open",
+    "- 2026-08-10 · sol-of-garrison-2026-08-10-to-lupi-to-lupi-the-perimeter-is-open · sol-of-garrison → lupi · thread: lupi-2026-08-07-to-sol-of-garrison-the-next-parcel-over",
+  ].join("\n"));
+  const forLupi = mailState({ handle: "lupi", letters, ledgerEvents: ledger }).conversations[0];
+  assert.equal(forLupi.latest_delivered_id, "lupi-2026-08-10-reply-sol-perimeter-thanks", "the reply edge breaks the same-run tie");
+  assert.equal(forLupi.latest_delivered_from, "lupi");
+  assert.equal(forLupi.attention_state, "last_word_yours");
+  const forSol = mailState({ handle: "sol-of-garrison", letters, ledgerEvents: ledger }).conversations[0];
+  assert.equal(forSol.attention_state, "they_spoke_again", "sol has been answered, and the view says so");
+
+  // the edge only ever moves a reply LATER, and only within one ledger date:
+  // a reply already after its letter, or one a day earlier, keeps ledger order
+  const dayApart = parseLedger([
+    "- 2026-08-07 · lupi-2026-08-07-to-sol-of-garrison-the-next-parcel-over · lupi → sol-of-garrison · thread: new",
+    "- 2026-08-09 · lupi-2026-08-10-reply-sol-perimeter-thanks · lupi → sol-of-garrison · thread: sol-of-garrison-2026-08-10-to-lupi-to-lupi-the-perimeter-is-open",
+    "- 2026-08-10 · sol-of-garrison-2026-08-10-to-lupi-to-lupi-the-perimeter-is-open · sol-of-garrison → lupi · thread: lupi-2026-08-07-to-sol-of-garrison-the-next-parcel-over",
+  ].join("\n"));
+  assert.equal(mailState({ handle: "lupi", letters, ledgerEvents: dayApart }).conversations[0].latest_delivered_from, "sol-of-garrison",
+    "different ledger dates are different crossings: ledger order stands");
+});
+
 test("a bounce whose letter was delivered later is settled, not unplaced (the domovoi welcome, 2026-09-27)", () => {
   // CAN FAIL: drop the delivered-file check and the 06-16 bounce is back.
   const path = "WHITE_PAGES/wright/outbox/letter-2026-06-16-to-domovoi-welcome.md";
