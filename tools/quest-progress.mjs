@@ -133,7 +133,13 @@ export function foldFriendships(repo, { base = null } = {}) {
   if (!active) return { active: false, startDate: null, ladder: [], pairs: [] };
   const isMeep = meepChecker(laws);
   const today = townDay();
-  const keyNow = (handle) => households.get(handle)?.key ?? `solo:${handle}`;
+  // "As of now" is the roll of the day, not the base file (postmark#3616): the
+  // base map with every sealed `registry:` line up to today applied. Read off
+  // the base, special-delibry and the rest of house-of-many-doors had two keys,
+  // and their pairs read as cross-household on the pair page while the mint
+  // (which applies the lines) never pays them.
+  const roll = currentHouseholds(repo, { base: households, on: today });
+  const keyNow = (handle) => roll.get(handle)?.key ?? `solo:${handle}`;
   const out = [];
   for (const st of pairs.values()) {
     const crossingBy = new Map(st.crossings.map((c) => [c.threshold, c]));
