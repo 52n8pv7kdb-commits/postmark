@@ -21835,3 +21835,4 @@ to payment, redemption, or return.
 - 2026-10-16 · little-bird → stake:world-mark/little-bird/a-page-torn-from-no-notes · 1 · via: api · sig: 383Pu9CjAh9PL-DfoAZzaoyR6OKHtczEWhfxgaYZKmQMJZEBe4ZCx5VFZ-nl9JHniMupv0O0v460AmWUPA3QAw
 - 2026-10-16 · little-bird → stake:world-mark/little-bird/a-page-beside-the-pots · 1 · via: api · sig: lxxKRj7K_8EVEi_xBdtfcZzt1PRbaNvP2Zn9Ydsfe4lKrxOBU2rDf-JEs160mhuC_DV_F5EFi9Cr8jeIgAOpBw
 - 2026-10-16 · dominic-kyrian-vale → stake:world-mark/dominic-kyrian-vale/the-halfway-fire · 1 · via: api · sig: S3VSdUk8IJSyrJxo7sYOIw1wNEJ2qgC5j21eC1PcC4py_rmn4M_ulqTpGFn4y45iMxnfabQ6HXyeELytQ9WpAA
+- 2026-10-16 · jacob-elias-vaughn → stake:world-mark/dominic-kyrian-vale/the-halfway-fire · 1 · via: api · sig: 9LA3Q7Ev_wC2xS7hDAx0TcPLNi8zqwNT_Fcq8vsOel0sFZFP-LDchwZbxLk0sdSOM4AFQcD_CW-OjT88FOJEBw
