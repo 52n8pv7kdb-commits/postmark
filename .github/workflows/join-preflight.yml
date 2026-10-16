@@ -42,15 +42,11 @@ jobs:
     name: join preflight (read-only)
     if: ${{ github.repository == 'postmark-town/postmark' && !(github.event_name == 'pull_request_target' && github.event.pull_request.draft) }}
     runs-on: ubuntu-latest
+    # No token at the job level: only the two gh steps below carry GH_TOKEN, so the base's node
+    # tools, which read the proposed pages, never see it.
     env:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       PR: ${{ github.event.pull_request.number || inputs.pr }}
-      # The head a push's run was started for: the report is of that commit or of nothing.
-      EVENT_HEAD: ${{ github.event.pull_request.head.sha }}
       BASE_REF: ${{ github.event.pull_request.base.ref || github.event.repository.default_branch }}
-      PREFLIGHT_BASE_REF: ${{ github.event.pull_request.base.ref || github.event.repository.default_branch }}
-      PREFLIGHT_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
-      PREFLIGHT_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
     steps:
       - name: Checkout the base branch (never the PR)
         uses: actions/checkout@v4
@@ -66,21 +62,44 @@ jobs:
         with:
           node-version: 24
 
-      - name: Preflight the PR and post its report
+      - name: Which head (the API)
+        id: pr
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # The head a push's run was started for: the report is of that commit or of nothing.
+          EVENT_HEAD: ${{ github.event.pull_request.head.sha }}
         run: |
           case "$PR" in ''|*[!0-9]*) echo "::error::not a PR number: '$PR'"; exit 1 ;; esac
           read -r head base <<< "$(gh pr view "$PR" --repo "$GITHUB_REPOSITORY" --json headRefOid,baseRefName -q '.headRefOid + " " + .baseRefName')"
           if [ "$base" != "$BASE_REF" ]; then echo "::warning::PR #$PR targets $base, not $BASE_REF: nothing checked"; exit 0; fi
           [ -z "$EVENT_HEAD" ] || head="$EVENT_HEAD"
-          # the head as git objects, data only: fetched, never checked out
+          echo "head=$head" >> "$GITHUB_OUTPUT"
+
+      - name: Preflight with the base's own tools (no token)
+        id: check
+        if: steps.pr.outputs.head != ''
+        env:
+          HEAD_SHA: ${{ steps.pr.outputs.head }}
+          PREFLIGHT_BASE_REF: ${{ github.event.pull_request.base.ref || github.event.repository.default_branch }}
+          PREFLIGHT_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+          PREFLIGHT_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          # the head as git objects, data only: fetched, never checked out (the repo is public)
           git fetch -q --no-tags origin "+refs/pull/${PR}/head:refs/preflight/${PR}"
           got=$(git rev-parse "refs/preflight/${PR}")
-          if [ "$got" != "$head" ]; then echo "PR #$PR: the head is now ${got}, not ${head}; the run for that push reports"; exit 0; fi
+          if [ "$got" != "$HEAD_SHA" ]; then echo "PR #$PR: the head is now ${got}, not ${HEAD_SHA}; the run for that push reports"; exit 0; fi
           code=0
-          node tools/join-preflight.mjs --pr "$PR" --head "$head" --md "$RUNNER_TEMP/preflight.md" > /dev/null || code=$?
+          node tools/join-preflight.mjs --pr "$PR" --head "$HEAD_SHA" --md "$RUNNER_TEMP/preflight.md" > /dev/null || code=$?
           if [ "$code" = 3 ]; then echo "PR #$PR: not a join PR"; exit 0; fi
           if [ "$code" != 0 ]; then echo "::error::PR #$PR: the preflight could not run (exit $code)"; exit 1; fi
           cat "$RUNNER_TEMP/preflight.md"
+          echo "report=true" >> "$GITHUB_OUTPUT"
+
+      - name: Post the report (the API)
+        if: steps.check.outputs.report == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
           # one report per PR, replaced in place: only this workflow's own comment is ever edited
           id=$(gh api "repos/$GITHUB_REPOSITORY/issues/$PR/comments" --paginate -q '.[] | select(.user.login == "github-actions[bot]" and (.body | startswith("<!-- join-preflight -->"))) | .id' | tail -1)
           if [ -n "$id" ]; then gh api -X PATCH "repos/$GITHUB_REPOSITORY/issues/comments/$id" -F "body=@$RUNNER_TEMP/preflight.md" > /dev/null

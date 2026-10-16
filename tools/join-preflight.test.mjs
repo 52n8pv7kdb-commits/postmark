@@ -175,6 +175,81 @@ test('the report is of the base it names or of nothing: a checkout that is not t
   assert.match(r.err, /not the base/);
 });
 
+// ── what a PR controls never shapes the comment, nor where a page is written ──
+
+/** The head's tree with one blob put at `segs` (raw names: `..`, a line break, anything git's own tree holds). */
+function graft(t, commit, segs, text) {
+  const run = (args, input) => execFileSync('git', ['-C', t.dir, ...args], { encoding: 'utf8', input, windowsHide: true }).trim();
+  const ls = (tree) => run(['ls-tree', '-z', tree]).split('\0').filter(Boolean).map((l) => { const [meta, name] = l.split('\t'); const [mode, type, sha] = meta.split(' '); return { mode, type, sha, name }; });
+  const mk = (ents) => run(['mktree', '-z'], ents.map((e) => `${e.mode} ${e.type} ${e.sha}\t${e.name}\0`).join(''));
+  const blob = run(['hash-object', '-w', '--stdin'], text);
+  const put = (tree, [first, ...rest]) => {
+    const ents = tree ? ls(tree) : [];
+    const old = ents.find((e) => e.name === first);
+    const keep = ents.filter((e) => e.name !== first);
+    if (!rest.length) return mk([...keep, { mode: '100644', type: 'blob', sha: blob, name: first }]);
+    return mk([...keep, { mode: '040000', type: 'tree', sha: put(old?.type === 'tree' ? old.sha : null, rest), name: first }]);
+  };
+  const tree = put(run(['rev-parse', `${commit}^{tree}`]), segs);
+  return run(['-c', 'user.name=applicant', '-c', 'user.email=a@a.invalid', 'commit-tree', tree, '-p', t.base, '-m', 'a graft']);
+}
+/** Every table row has exactly the four column bars (unescaped `|`), and no line is markdown the PR wrote. */
+function oneRowEach(out, checks) {
+  const rows = out.split('\n').filter((l) => l.startsWith('| ') && !l.startsWith('| check |') && !l.startsWith('|---'));
+  assert.equal(rows.length, checks, `one table row per check:\n${out}`);
+  for (const r of rows) assert.equal((r.match(/(?<!\\)\|/g) ?? []).length, 4, `a row with stray column bars: ${r}`);
+  const lines = out.split('\n');
+  assert.equal(lines.filter((l) => /^#/.test(l)).length, 1, 'one heading, the report\'s own');
+  assert.equal(lines[0], '<!-- join-preflight -->');
+  assert.ok(!lines.slice(1).some((l) => /^\s*@|^\s*</.test(l)), 'no other line begins with a mention or HTML');
+}
+
+test('a path with a line break or a `|`, and a letter whose id holds a `|`, each stay one table row: no heading, mention or HTML gets out', () => {
+  const t = town();
+  let h = head(t, { ...FERN,
+    'WHITE_PAGES/fern/outbox/fern-2026-10-15-to-wren-x.md': LETTER('fern|<b>@wright-starforge</b>', 'fern', 'wren'),
+  });
+  h = graft(t, h, ['WHITE_PAGES', 'fern', 'HOME', 'a|b.md'], 'pipe\n'); // git refuses `|` in an index on Windows, not in a tree
+  h = graft(t, h, ['WHITE_PAGES', 'fern', 'HOME', 'x\n# CERTIFIED by the witness\n@wright-starforge <img src=x>.md'], 'newline\n');
+  const r = preflight(t, h);
+  assert.equal(r.code, 0, r.err);
+  oneRowEach(r.out, r.report.checks.length);
+  assert.doesNotMatch(r.out, /^#+ CERTIFIED/m);
+  const kinds = check(r.report, 'file kinds').evidence.join('\n');
+  assert.match(kinds, /`WHITE_PAGES\/fern\/HOME\/a\\\|b\.md` has a character no page name needs/);
+  assert.match(kinds, /`WHITE_PAGES\/fern\/HOME\/x ⏎ # CERTIFIED by the witness ⏎ @wright-starforge <img src=x>\.md` has a character/);
+  assert.match(check(r.report, 'envelope').evidence.join('\n'), /unsafe id for delivery filename: "fern\\\|<b>@wright-starforge<\/b>"/);
+  assert.equal(git(t.dir, ['status', '--porcelain', '--untracked-files=all']), '', 'nothing of it stays on disk');
+});
+
+test('a page is written only inside its own room: `..` and `.git` components and an unsafe room name are named, never followed', () => {
+  const t = town();
+  let h = head(t, FERN);
+  h = graft(t, h, ['WHITE_PAGES', 'fern', '..', '..', 'ESCAPED.md'], 'climbed out\n');
+  h = graft(t, h, ['WHITE_PAGES', 'fern', '.GIT', 'config.md'], 'into git\n');
+  const r = preflight(t, h);
+  assert.equal(r.code, 0, r.err);
+  const scope = check(r.report, 'scope').evidence.join('\n');
+  assert.match(scope, /`WHITE_PAGES\/fern\/\.\.\/\.\.\/ESCAPED\.md` has a path component that climbs or reaches into git/);
+  assert.match(scope, /`WHITE_PAGES\/fern\/\.GIT\/config\.md` has a path component that climbs or reaches into git/);
+  assert.ok(!existsSync(join(t.dir, 'ESCAPED.md')), 'nothing was written outside the room');
+  assert.equal(check(r.report, 'envelope').result, 'pass', 'the room itself is still checked');
+
+  // a "room" named `..`: WHITE_PAGES/../ADDRESS.md would make the room the checkout itself
+  const bad = graft(t, head(t, {}), ['WHITE_PAGES', '..', 'ADDRESS.md'], ADDRESS('dots'));
+  const b = preflight(t, bad);
+  assert.equal(b.code, 0, b.err);
+  assert.equal(check(b.report, 'scope').result, 'fail');
+  assert.match(check(b.report, 'scope').evidence.join('\n'), /`WHITE_PAGES\/\.\.\/` is not a room name the town can hold/);
+  assert.deepEqual(b.report.checks.slice(1).map((c) => c.result), ['unrun', 'unrun', 'unrun', 'unrun']);
+  assert.ok(existsSync(join(t.dir, 'README.md')) && existsSync(join(t.dir, 'tools', 'lint.mjs')), 'the checkout is whole');
+  assert.equal(git(t.dir, ['status', '--porcelain', '--untracked-files=all']), '');
+});
+
+test('the preflight never imports the witness: no module with a CLI branch runs on the way to a verdict', () => {
+  assert.doesNotMatch(readFileSync(join(HERE, 'join-preflight.mjs'), 'utf8'), /^import[^\n]*\.\/witness\.mjs/m);
+});
+
 // ── the workflow ─────────────────────────────────────────────────────────────
 
 const WF = join(REPO, '.github', 'workflows');
@@ -193,6 +268,16 @@ test('the join preflight workflow runs base tooling only, never the PR\'s code, 
   const on = y.slice(y.indexOf('\non:\n') + 5, y.indexOf('\npermissions:')).split('\n').filter((l) => /^  [a-z_]+:/.test(l)).map((l) => l.trim().slice(0, -1));
   assert.deepEqual(on, ['pull_request_target', 'workflow_dispatch'], 'its only triggers: a PR push, and by hand');
   assert.match(y, /^  workflow_dispatch:\n    inputs:\n      pr:\n        description: [^\n]+\n        required: true\n/m, 'the rerun is by hand, for one PR');
+  // the token rides only on the two steps that call the API; the step that runs the base's
+  // tools over the proposed pages never has it
+  const steps = y.split('\n      - name: ');
+  assert.doesNotMatch(y.slice(y.indexOf('\n    env:\n'), y.indexOf('\n    steps:\n')), /GH_TOKEN/, 'no token at the job level');
+  assert.equal((y.match(/GH_TOKEN: \$\{\{ secrets\.GITHUB_TOKEN \}\}/g) ?? []).length, 2, 'two steps hold the token');
+  for (const s of steps.slice(1).filter((x) => /GH_TOKEN/.test(x))) {
+    assert.match(s, /\bgh (api|pr) /, `a token step calls the API: ${s.split('\n')[0]}`);
+    assert.doesNotMatch(s, /\bnode /, `a token step runs no node: ${s.split('\n')[0]}`);
+  }
+  assert.doesNotMatch(steps.find((x) => x.includes('node tools/join-preflight.mjs')), /GH_TOKEN/, 'the preflight step has no token');
   const runs = [...y.matchAll(/\bnode (\S+)/g)].map((m) => m[1]);
   assert.deepEqual([...new Set(runs)], ['tools/join-preflight.mjs'], 'the only program it runs is the base\'s preflight');
   assert.doesNotMatch(y, /witness\.mjs|certified|--add-label|gh pr merge|gh pr edit/, 'it certifies, labels and merges nothing');

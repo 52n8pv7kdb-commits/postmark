@@ -15,7 +15,8 @@
 // THE SHAPE, and why each part is safe:
 //   · It runs from the BASE checkout (.github/workflows/join-preflight.yml checks out the base
 //     branch, never the PR). Every tool it runs is the base's own: tools/lint.mjs,
-//     tools/envelope-check.mjs, and witness.mjs's own file-kind judgment.
+//     tools/envelope-check.mjs, and the witness's file-kind rules (5 and 5e, restated here so
+//     that no module with a CLI branch is ever imported).
 //   · The PR head is git objects in that checkout, read as data: `git diff --raw` for what
 //     changed and its file mode, `git cat-file` for sizes, `git show` for a page's bytes.
 //   · Only plain files of a kind the witness certifies (prose and pictures), inside a proposed
@@ -40,14 +41,21 @@
 
 import { execFileSync, spawnSync } from 'node:child_process';
 import { existsSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
-import { dirname, join, resolve } from 'node:path';
+import { basename, dirname, join, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { modeJudgment } from './witness.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 export const MARKER = '<!-- join-preflight -->';
 export const SIZE_LIMIT = 1_500_000; // witness.yml § Size courtesy
 const OK_EXT = /\.(md|txt|png|jpg|jpeg|webp|gif)$/i; // witness.mjs rule 5: prose and pictures
+// witness.mjs rule 5e's plain-file modes. This tool does not import witness.mjs: a module with a
+// CLI branch is never loaded here, so nothing but this file's own code runs on the way to a verdict.
+const PLAIN_FILE_MODES = new Set(['100644', '100755']);
+// A room is one safe path segment (as a delivery id must be: envelope.mjs § classify), and no
+// path component may climb or reach into git: `.`, `..` and `.git` (any case) are never written.
+const SAFE_ROOM = /^[A-Za-z0-9][A-Za-z0-9._-]*$/;
+const BAD_COMPONENT = (c) => c === '' || c === '.' || c === '..' || c.toLowerCase() === '.git';
+export const unsafePath = (p) => p.split('/').some(BAD_COMPONENT);
 const git = (args, opts = {}) => execFileSync('git', ['-C', ROOT, ...args], { encoding: opts.encoding ?? 'utf8', maxBuffer: 256 * 1024 * 1024, stdio: ['ignore', 'pipe', 'pipe'] });
 
 /** What changed from the merge base to the head: [{ status, mode, path }], from git's own tree diff. */
@@ -68,16 +76,30 @@ const onBase = (base, path) => spawnSync('git', ['-C', ROOT, 'cat-file', '-e', `
 
 /** The rooms this PR proposes: each new WHITE_PAGES/<handle>/ADDRESS.md whose room is not on the base. */
 export function proposedRooms(base, entries) {
-  const rooms = new Set();
+  const rooms = new Set(), unsafe = new Set();
   for (const e of entries) {
     const m = /^WHITE_PAGES\/([^/]+)\/ADDRESS\.md$/.exec(e.path);
-    if (m && e.status === 'A' && !onBase(base, `WHITE_PAGES/${m[1]}`)) rooms.add(m[1]);
+    if (!m || e.status !== 'A') continue;
+    if (!SAFE_ROOM.test(m[1]) || BAD_COMPONENT(m[1])) { unsafe.add(m[1]); continue; }
+    if (!onBase(base, `WHITE_PAGES/${m[1]}`)) rooms.add(m[1]);
   }
-  return [...rooms].sort();
+  return { rooms: [...rooms].sort(), unsafe: [...unsafe].sort() };
 }
 
 const REGISTRY_ROWS = new Set(['tools/households.json', 'tools/github-ids.json']);
-const tick = (s) => `\`${String(s).replace(/`/g, 'ʼ')}\``;
+// Everything a PR controls (a path, a letter's id, a tool's message) reaches the comment only
+// through tick(): one code span, on one line, in one table cell. A backtick cannot end the span,
+// a line break cannot end the row or the table, and a `|` cannot end the cell, so no heading,
+// mention or HTML can be written into the bot's comment.
+export const tick = (s) => `\`${String(s).replace(/`/g, 'ʼ').replace(/[\r\n]+/g, ' ⏎ ').replace(/\|/g, '\\|')}\``;
+// A table cell of our own words around ticked parts: line breaks and bare `|` neutralized again (idempotent).
+const cell = (s) => String(s).replace(/[\r\n]+/g, ' ⏎ ').replace(/(?<!\\)\|/g, '\\|');
+function modeJudgment(path, mode) {
+  if (PLAIN_FILE_MODES.has(mode)) return null;
+  if (mode === '120000') return `${tick(path)} is a symbolic link: not a plain file, so it is never laid in`;
+  if (mode === '160000') return `${tick(path)} is a submodule: not a plain file, so it is never laid in`;
+  return `${tick(path)} is not a plain file (git mode ${tick(mode)}): never laid in`;
+}
 
 /** The judgment of every changed file, pure: scope, kind, and whether it may be laid in. */
 export function judgeEntries(rooms, entries, sizeOf) {
@@ -85,12 +107,14 @@ export function judgeEntries(rooms, entries, sizeOf) {
   for (const e of entries) {
     const room = rooms.find((h) => e.path.startsWith(`WHITE_PAGES/${h}/`));
     if (REGISTRY_ROWS.has(e.path)) { registry.push(e.path); continue; }
+    if (unsafePath(e.path)) { scope.push(`${tick(e.path)} has a path component that climbs or reaches into git (\`.\`, \`..\` or \`.git\`): never laid in`); continue; }
     if (!room) { scope.push(`${tick(e.path)} is outside the proposed room${rooms.length > 1 ? 's' : ''} (${rooms.map((h) => tick(`WHITE_PAGES/${h}/`)).join(', ')}): a join brings only its own pages`); continue; }
     if (e.status !== 'A' && e.status !== 'M') { scope.push(`${tick(e.path)} is ${e.status === 'D' ? 'deleted' : `changed (${e.status})`}: a join only adds its own pages`); continue; }
     const tail = e.path.slice(`WHITE_PAGES/${room}/`.length);
     if (/^inbox\/(?!\.gitkeep$)/.test(tail)) { scope.push(`${tick(e.path)} is in the inbox: received mail is the ferry's to write (witness rule 4)`); continue; }
+    if (/[\x00-\x1f\x7f<>:"|?*\\]/.test(tail)) { kinds.push(`${tick(e.path)} has a character no page name needs (a control character or one of \`<>:"|?*\\\`): never laid in`); continue; }
     const modeWhy = modeJudgment(e.path, e.mode);
-    if (modeWhy) { kinds.push(modeWhy.replace(/ — the witness certifies.*$/, ': not a plain file, so it is never laid in')); continue; }
+    if (modeWhy) { kinds.push(modeWhy); continue; }
     if (e.mode === '100755') { kinds.push(`${tick(e.path)} is marked executable: nothing in a room runs, so it is never laid in`); continue; }
     if (/^WINDOW\/window\.html$/.test(tail)) { kinds.push(`${tick(e.path)} is a window pane: rule 5c's own law (size and reach) is a person's to read here`); continue; }
     if (!OK_EXT.test(e.path) && !/\.gitkeep$/.test(e.path)) { kinds.push(`${tick(e.path)} is not prose or a picture (.md .txt .png .jpg .jpeg .webp .gif)${/\.svg$/i.test(e.path) ? '; SVG can carry scripts' : ''}: never laid in`); continue; }
@@ -116,8 +140,16 @@ export function preflight({ head, base = null, pr = null }) {
   const dirty = git(['status', '--porcelain', '--untracked-files=no']).trim();
   if (dirty) throw new Error('the checkout has changes: the base tools must run as the base has them');
   const { mergeBase, entries } = changedEntries(base, head);
-  const rooms = proposedRooms(base, entries);
-  if (!rooms.length) return null;
+  const { rooms, unsafe } = proposedRooms(base, entries);
+  if (!rooms.length && !unsafe.length) return null;
+  const baseDate = git(['log', '-1', '--format=%cI', base]).trim();
+  if (!rooms.length) {
+    const why = unsafe.map((h) => `${tick(`WHITE_PAGES/${h}/`)} is not a room name the town can hold (one segment of letters, digits and \`._-\`, not starting with a dot)`);
+    return { pr, head, base, baseDate, mergeBase, rooms: unsafe, checks: [
+      { name: 'scope: only the proposed room changes', result: 'fail', evidence: why },
+      ...['file kinds', 'size courtesy', 'lint', 'envelope pre-flight'].map((name) => ({ name, result: 'unrun', evidence: ['no safe room to check'] })),
+    ] };
+  }
 
   const sizeOf = (p) => Number(git(['cat-file', '-s', `${head}:${p}`]).trim());
   const j = judgeEntries(rooms, entries, sizeOf);
@@ -132,11 +164,15 @@ export function preflight({ head, base = null, pr = null }) {
   // Lay in the safe pages, run the base's lint and envelope check, take them out again.
   const baseline = runTool([join('tools', 'lint.mjs')]);
   // The proposed rooms are new on the base, so their folders are made here and removed whole after.
-  const roomDirs = rooms.map((h) => join(ROOT, 'WHITE_PAGES', h));
+  const pages = resolve(ROOT, 'WHITE_PAGES');
+  const roomDirs = rooms.map((h) => resolve(pages, h));
+  for (const d of roomDirs) if (dirname(d) !== pages || !SAFE_ROOM.test(basename(d))) throw new Error(`${d} is not a room under WHITE_PAGES`);
   for (const d of roomDirs) if (existsSync(d)) throw new Error(`${d} already exists in the base checkout`);
   try {
     for (const p of j.overlay) {
-      const abs = join(ROOT, ...p.split('/'));
+      // Confined: the resolved path must sit inside its own room, whatever the PR named it.
+      const abs = resolve(ROOT, ...p.split('/'));
+      if (unsafePath(p) || !roomDirs.some((d) => abs.startsWith(d + sep))) throw new Error(`${p} would be written outside its room`);
       mkdirSync(dirname(abs), { recursive: true });
       writeFileSync(abs, git(['show', `${head}:${p}`], { encoding: 'buffer' }));
     }
@@ -165,7 +201,6 @@ export function preflight({ head, base = null, pr = null }) {
   add('identity: the account behind the proposed ADDRESS.md', 'not-applicable', ['a person verifies it at admission; the pin is written then, so a missing pin is not missing applicant input']);
   add('registry rows (tools/households.json, tools/github-ids.json)', j.registry.length ? 'unrun' : 'not-applicable',
     j.registry.length ? j.registry.map((p) => `${tick(p)} changes in this PR: a person judges it at admission; not checked here`) : ['written at admission, not by the applicant']);
-  const baseDate = git(['log', '-1', '--format=%cI', base]).trim();
   return { pr, head, base, baseDate, mergeBase, rooms, checks };
 }
 
@@ -176,7 +211,7 @@ export function toMarkdown(r, { runUrl = null, at = new Date().toISOString(), ba
     `Bound to head ${tick(r.head.slice(0, 12))} and base ${tick(r.base.slice(0, 12))} (merge base ${tick(r.mergeBase.slice(0, 12))}), checked ${at}${runUrl ? ` in [this run](${runUrl})` : ''}. It is evidence for exactly that pair. A push to this PR runs it again. Proposed room${r.rooms.length > 1 ? 's' : ''}: ${r.rooms.map((h) => tick(h)).join(', ')}.`, '',
     `**Base:** ${tick(baseRef)} at ${tick(r.base)}, committed ${r.baseDate ?? 'at an unknown time'}${compare}. Rerun via workflow_dispatch if ${tick(baseRef)} has moved (Actions → join preflight → Run workflow, PR ${r.pr ?? 'number'}).`, '',
     '| check | result | evidence |', '|---|---|---|'];
-  for (const c of r.checks) out.push(`| ${c.name} | **${c.result}** | ${c.evidence.length ? c.evidence.join('<br>') : '—'} |`);
+  for (const c of r.checks) out.push(`| ${c.name} | **${c.result}** | ${c.evidence.length ? c.evidence.map(cell).join('<br>') : '—'} |`);
   out.push('', 'Admission stays a person\'s decision (Wright owns PR joins). Nothing here certifies, merges, labels or writes the registry, and only the base branch\'s own tools ran: no code from this PR.');
   return out.join('\n') + '\n';
 }
