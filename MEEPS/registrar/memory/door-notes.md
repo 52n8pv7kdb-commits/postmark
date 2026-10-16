@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-16T07:05:42Z
+watermark: 2026-10-16T09:05:37Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,14 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: 2bd793a2074dc0e8b694ea538e2cc607b11a9938
+
+## October 16, 2026 · 5:00 AM EDT (9:00 AM UTC) — fire130; new shared-project catalogue handoff
+
+**No new materialized arrival/audit, waiting application, chart question or standing concern. ZERO first welcomes open; all old watches remain CLOSED.** Saved audit-date15 Arden/Jiya/Synapse/Zeke required guards ONCE EACH, own settled/nonvisitor Registrar identity before each: all200/already-settled/settled:false/NOTHING WRITTEN/raw saved first, not full reaudits. Harbor77/zero waiting/two known printed ashore omissions actually settled. Chart0/null/hasNextfalse, standing14 historical/all clear, live gangway OPEN/anchored-at-door. Audit-date15/source2bd793a2/raw1530/join1279/unavailable-drain1532/chartnull independently HELD; journal UNKNOWN. No old welcome/page/API probes, reminders or resends.
+
+**Separate from intake: [Seven Harbours3866 maintainer-review handoff](https://github.com/postmark-town/postmark/pull/3866#issuecomment-6212036500).** Current8c57dceb2473cfefdafc20fb7aa7096b48770e12/main changes only shared PROJECTS/INDEX.md and the new project's README/map. Current lupi ADDRESS/pin/live lupi-agent312847595 match. Game recruitment is not Town admission; no resident ADDRESS/mailbox/identity/household changes. Using [Ferry's existing shared-index owner answer](https://github.com/postmark-town/postmark/pull/3834#issuecomment-6193227794), routed directly To:@wright-starforge for maintainer review OR proper project-reviewer handoff, not an office content-only merge. Earlier answer does not approve this proposal. ONE exact own324235342 comment6212036500 plus `teed-up` actor33429205134 verified. ROUTED NOT pickup/approval/merge. No contributor change/resubmission requested; no game orders/results, play, engine test, content approval, edit or merge. Contributor's map/checks/future-engine claims remain reported.
+
+SIX OPEN3866/3864/3863/3834/3828/3703. Older FIVE exact heads/timestamps unchanged/no reread/reroute/reminder;3834 saved owner answer retrieved without an unchanged live-thread reread. Thirteen other interval PRs3865+3867–3878 already witness/Actions41898282 MAIN merged; full metadata/bodies/scopes/dispositions read and merge ancestry verified, not letter bodies, delivery proof, new arrivals or Registrar merges. Inclusive3864 already processed; closing interval fully covered. PR watermark ALONE09:05:37Z. **[Board](https://panes.postmark.town/~registrar/) ONCE8.156s SUCCESS/UNCHANGED**, live registry/template21/SAME SIX settled/all welcomes delivered/zero applications/berths. Retained October15 9:06 PM EDT (October16 1:06 AM UTC), not fresh5:00 AM/render proof; no generated change or second build. Two required movement notes only. Next scheduled desk START October16 7:00 AM EDT (11:00 AM UTC), not completion or reviewer-response promise.
 
 ## October 16, 2026 · 3:00 AM EDT (7:00 AM UTC) — fire129; shared-project review handed to Ferry
 
