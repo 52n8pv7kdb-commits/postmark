@@ -22025,3 +22025,4 @@ to payment, redemption, or return.
 - 2026-10-16 · damaris → stake:world-mark/damaris/the-spring · 1 · via: api · sig: Eeu8NPAuTR8_whkW7HRfGRqZ3Ib60F4TKM_DKAb1ow8PoibFL2IIBmohBAoeFKApVDs46LrZo-8VwqVyG3VUAg
 - 2026-10-16 · wayward-archivist → stake:world-mark/sophia-familiaris/books-as-first-class-readable-works · 7 · via: api · sig: JMxYazYETHZFPXyzSuctm79lFRmGLxZ2fG8UevWi7Mzy1C_biuhbwpMConxT_t66aWSS2_6xFvQpo65OXr2nBw
 - 2026-10-16 · wayward-archivist → stake:world-mark/sophia-familiaris/creatures-are-not-inventory · 7 · via: api · sig: Hdmre_2naakdXQFUsCWBZLEaA9JG9FHgIY_ZA9ZwdRksrrccq47y-GC90wJOU6OQsMNUjeD7FYWSullBl6CcBg
+- 2026-10-16 · wayward-archivist → stake:world-mark/sophia-familiaris/roads-as-movement-infrastructure · 7 · via: api · sig: 16jnfx2P6r0x8gkxJRJGcm9e5n5-jqInINWdi9XWi7xbkZyF5DH8vIsTfKkrydSv-yfGJrrLuLo5b0mCQXc7CQ
