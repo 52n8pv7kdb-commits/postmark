@@ -20,17 +20,13 @@ name: join preflight
 on:
   pull_request_target:
     types: [opened, synchronize, reopened, ready_for_review]
-  # A newer base can make a report unsafe to reuse (#3806's base-validity
-  # clarification): every hour, each open join PR is checked again against the base
-  # as it stands, and its report replaced. Off the hour on purpose (the town's crons
-  # fire at :00, the witness's sweep at :17).
-  schedule:
-    - cron: '41 * * * *'
+  # By hand, for one PR: the rerun the report asks for when main has moved past the base
+  # it read (#3806's base-validity clarification). Nothing here runs on a schedule.
   workflow_dispatch:
     inputs:
       pr:
-        description: "one PR number to check now (blank: every open PR)"
-        required: false
+        description: "the join PR to check again, against main as it stands now"
+        required: true
         type: string
 
 permissions:
@@ -38,7 +34,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: join-preflight-${{ github.event.pull_request.number || inputs.pr || 'sweep' }}
+  group: join-preflight-${{ github.event.pull_request.number || inputs.pr }}
   cancel-in-progress: true
 
 jobs:
@@ -48,9 +44,12 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      ONE_PR: ${{ github.event.pull_request.number || inputs.pr }}
-      # The head this run was started for: the report is of that commit or of nothing.
+      PR: ${{ github.event.pull_request.number || inputs.pr }}
+      # The head a push's run was started for: the report is of that commit or of nothing.
       EVENT_HEAD: ${{ github.event.pull_request.head.sha }}
+      BASE_REF: ${{ github.event.pull_request.base.ref || github.event.repository.default_branch }}
+      PREFLIGHT_BASE_REF: ${{ github.event.pull_request.base.ref || github.event.repository.default_branch }}
+      PREFLIGHT_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
       PREFLIGHT_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
     steps:
       - name: Checkout the base branch (never the PR)
@@ -67,25 +66,22 @@ jobs:
         with:
           node-version: 24
 
-      - name: Preflight each join PR and post its report
+      - name: Preflight the PR and post its report
         run: |
-          if [ -n "$ONE_PR" ]; then prs="$ONE_PR"
-          else prs=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --limit 200 --json number,isDraft -q '.[] | select(.isDraft | not) | .number'); fi
-          for n in $prs; do
-            head="$EVENT_HEAD"
-            [ -n "$head" ] || head=$(gh pr view "$n" --repo "$GITHUB_REPOSITORY" --json headRefOid -q .headRefOid)
-            # the head as git objects, data only: fetched, never checked out
-            if ! git fetch -q --no-tags origin "+refs/pull/${n}/head:refs/preflight/${n}"; then echo "PR #$n: its head could not be fetched"; continue; fi
-            got=$(git rev-parse "refs/preflight/${n}")
-            if [ "$got" != "$head" ]; then echo "PR #$n: the head is now ${got}, not ${head}; the run for that push reports"; continue; fi
-            code=0
-            node tools/join-preflight.mjs --pr "$n" --head "$head" --md "$RUNNER_TEMP/preflight-${n}.md" > /dev/null || code=$?
-            if [ "$code" = 3 ]; then echo "PR #$n: not a join PR"; continue; fi
-            if [ "$code" != 0 ]; then echo "::warning::PR #$n: the preflight could not run (exit $code)"; continue; fi
-            cat "$RUNNER_TEMP/preflight-${n}.md"
-            # one report per PR, replaced in place: only this workflow's own comment is ever edited
-            id=$(gh api "repos/$GITHUB_REPOSITORY/issues/$n/comments" --paginate \
-              -q '.[] | select(.user.login == "github-actions[bot]" and (.body | startswith("<!-- join-preflight -->"))) | .id' | tail -1)
-            if [ -n "$id" ]; then gh api -X PATCH "repos/$GITHUB_REPOSITORY/issues/comments/$id" -F "body=@$RUNNER_TEMP/preflight-${n}.md" > /dev/null
-            else gh api "repos/$GITHUB_REPOSITORY/issues/$n/comments" -F "body=@$RUNNER_TEMP/preflight-${n}.md" > /dev/null; fi
-          done
+          case "$PR" in ''|*[!0-9]*) echo "::error::not a PR number: '$PR'"; exit 1 ;; esac
+          read -r head base <<< "$(gh pr view "$PR" --repo "$GITHUB_REPOSITORY" --json headRefOid,baseRefName -q '.headRefOid + " " + .baseRefName')"
+          if [ "$base" != "$BASE_REF" ]; then echo "::warning::PR #$PR targets $base, not $BASE_REF: nothing checked"; exit 0; fi
+          [ -z "$EVENT_HEAD" ] || head="$EVENT_HEAD"
+          # the head as git objects, data only: fetched, never checked out
+          git fetch -q --no-tags origin "+refs/pull/${PR}/head:refs/preflight/${PR}"
+          got=$(git rev-parse "refs/preflight/${PR}")
+          if [ "$got" != "$head" ]; then echo "PR #$PR: the head is now ${got}, not ${head}; the run for that push reports"; exit 0; fi
+          code=0
+          node tools/join-preflight.mjs --pr "$PR" --head "$head" --md "$RUNNER_TEMP/preflight.md" > /dev/null || code=$?
+          if [ "$code" = 3 ]; then echo "PR #$PR: not a join PR"; exit 0; fi
+          if [ "$code" != 0 ]; then echo "::error::PR #$PR: the preflight could not run (exit $code)"; exit 1; fi
+          cat "$RUNNER_TEMP/preflight.md"
+          # one report per PR, replaced in place: only this workflow's own comment is ever edited
+          id=$(gh api "repos/$GITHUB_REPOSITORY/issues/$PR/comments" --paginate -q '.[] | select(.user.login == "github-actions[bot]" and (.body | startswith("<!-- join-preflight -->"))) | .id' | tail -1)
+          if [ -n "$id" ]; then gh api -X PATCH "repos/$GITHUB_REPOSITORY/issues/comments/$id" -F "body=@$RUNNER_TEMP/preflight.md" > /dev/null
+          else gh api "repos/$GITHUB_REPOSITORY/issues/$PR/comments" -F "body=@$RUNNER_TEMP/preflight.md" > /dev/null; fi

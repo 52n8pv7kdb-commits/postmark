@@ -23,8 +23,11 @@
 //     would sit once merged. A symbolic link, a submodule, an executable script, an SVG or
 //     anything outside the proposed room is never written: it is named in the report instead.
 //     They are removed again when the checks are done.
-//   · The report names the exact head and base it read. A push to the PR or a newer base makes
-//     it stale; the workflow runs again on either and replaces it.
+//   · The report names the exact head and base it read. A push to the PR runs it again and
+//     replaces it. A newer base is not watched (no schedule): the report says that it is stale
+//     against the base branch once that branch's tip is no longer the base it read, links the
+//     comparison, and names the rerun (the workflow's workflow_dispatch, for this PR). The
+//     admitting person reads it then.
 //   · What the applicant proposes stays proposed: the new ADDRESS.md counts as a room only for
 //     the envelope check (as it would once merged), and the outputs admission writes (the
 //     identity pin, the household row, the INDEX row) are not-applicable here, never missing
@@ -166,9 +169,10 @@ export function preflight({ head, base = null, pr = null }) {
 }
 
 /** The report as a PR comment. */
-export function toMarkdown(r, { runUrl = null, at = new Date().toISOString() } = {}) {
+export function toMarkdown(r, { runUrl = null, at = new Date().toISOString(), baseRef = 'main', repoUrl = null } = {}) {
+  const compare = repoUrl ? ` ([what has landed since](${repoUrl}/compare/${r.base}...${encodeURIComponent(baseRef)}))` : '';
   const out = [MARKER, '### Join preflight: the mechanical checks, read-only', '',
-    `Bound to head ${tick(r.head.slice(0, 12))} and base ${tick(r.base.slice(0, 12))} (merge base ${tick(r.mergeBase.slice(0, 12))}), checked ${at}${runUrl ? ` in [this run](${runUrl})` : ''}. It is evidence for exactly that pair: a push to this PR or a newer base makes it stale, and the next run replaces it. Proposed room${r.rooms.length > 1 ? 's' : ''}: ${r.rooms.map((h) => tick(h)).join(', ')}.`, '',
+    `Bound to head ${tick(r.head.slice(0, 12))} and base ${tick(r.base.slice(0, 12))} (merge base ${tick(r.mergeBase.slice(0, 12))}), checked ${at}${runUrl ? ` in [this run](${runUrl})` : ''}. It is evidence for exactly that pair. A push to this PR runs it again. **If ${tick(baseRef)}'s tip is no longer ${tick(r.base.slice(0, 12))}, this report is stale against ${tick(baseRef)}**${compare}: rerun it before relying on it (Actions → join preflight → Run workflow, PR ${r.pr ?? 'number'}). Proposed room${r.rooms.length > 1 ? 's' : ''}: ${r.rooms.map((h) => tick(h)).join(', ')}.`, '',
     '| check | result | evidence |', '|---|---|---|'];
   for (const c of r.checks) out.push(`| ${c.name} | **${c.result}** | ${c.evidence.length ? c.evidence.join('<br>') : '—'} |`);
   out.push('', 'Admission stays a person\'s decision (Wright owns PR joins). Nothing here certifies, merges, labels or writes the registry, and only the base branch\'s own tools ran: no code from this PR.');
@@ -184,7 +188,7 @@ if (IS_MAIN) {
     if (!opt('--head')) { console.error('usage: join-preflight.mjs --head <sha> [--base <sha>] [--pr <n>] [--md <file>] [--json <file>]'); process.exit(2); }
     const r = preflight({ head: opt('--head'), base: opt('--base') ?? null, pr: opt('--pr') ? Number(opt('--pr')) : null });
     if (!r) { console.log('not a join PR (no new WHITE_PAGES/<handle>/ADDRESS.md): nothing to preflight'); process.exit(3); }
-    const md = toMarkdown(r, { runUrl: process.env.PREFLIGHT_RUN_URL || null });
+    const md = toMarkdown(r, { runUrl: process.env.PREFLIGHT_RUN_URL || null, baseRef: process.env.PREFLIGHT_BASE_REF || 'main', repoUrl: process.env.PREFLIGHT_REPO_URL || null });
     if (opt('--md')) writeFileSync(opt('--md'), md);
     if (opt('--json')) writeFileSync(opt('--json'), JSON.stringify(r, null, 2) + '\n');
     process.stdout.write(md);

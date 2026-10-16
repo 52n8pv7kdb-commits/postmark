@@ -93,6 +93,8 @@ test('a valid fictional first-join bundle gets every mechanical check, bound to 
   }, JSON.stringify(r.report.checks, null, 2));
   assert.match(r.out, /^<!-- join-preflight -->\n/);
   assert.ok(r.out.includes(`head \`${h.slice(0, 12)}\` and base \`${t.base.slice(0, 12)}\``), 'the comment names the exact pair');
+  assert.ok(r.out.includes(`**If \`main\`'s tip is no longer \`${t.base.slice(0, 12)}\`, this report is stale against \`main\`**`), 'a newer main is named as stale');
+  assert.match(r.out, /rerun it before relying on it \(Actions → join preflight → Run workflow, PR 3806\)/);
   assert.match(r.out, /Admission stays a person's decision/);
   assert.equal(git(t.dir, ['status', '--porcelain', '--untracked-files=all']), '', 'the base checkout is left exactly as it was');
   assert.ok(!existsSync(join(t.dir, 'WHITE_PAGES', 'fern')), 'the proposed room is taken out again');
@@ -185,7 +187,9 @@ test('the join preflight workflow runs base tooling only, never the PR\'s code, 
   assert.match(y, /uses: actions\/checkout@v4\n        with:\n          ref: \$\{\{ github\.event\.pull_request\.base\.ref \|\| github\.event\.repository\.default_branch \}\}\n          persist-credentials: false\n/, 'the checkout is the base, with no credential on disk');
   assert.equal((y.match(/uses: actions\/checkout/g) ?? []).length, 1, 'one checkout, the base');
   assert.doesNotMatch(y, /head\.ref|head\.sha \}\}\n\s+(persist|fetch)|git checkout|git switch|git worktree|npm |npx |\byarn\b/, 'nothing checks out or installs the PR');
-  assert.match(y, /git fetch -q --no-tags origin "\+refs\/pull\/\$\{n\}\/head:refs\/preflight\/\$\{n\}"/, 'the head arrives as objects, under refs/preflight/');
+  assert.match(y, /git fetch -q --no-tags origin "\+refs\/pull\/\$\{PR\}\/head:refs\/preflight\/\$\{PR\}"/, 'the head arrives as objects, under refs/preflight/');
+  assert.doesNotMatch(y, /^\s*(schedule|- cron):/m, 'no standing Actions load: it runs on a PR push or by hand');
+  assert.match(y, /^  workflow_dispatch:\n    inputs:\n      pr:\n        description: [^\n]+\n        required: true\n/m, 'the rerun is by hand, for one PR');
   const runs = [...y.matchAll(/\bnode (\S+)/g)].map((m) => m[1]);
   assert.deepEqual([...new Set(runs)], ['tools/join-preflight.mjs'], 'the only program it runs is the base\'s preflight');
   assert.doesNotMatch(y, /witness\.mjs|certified|--add-label|gh pr merge|gh pr edit/, 'it certifies, labels and merges nothing');
