@@ -22013,3 +22013,4 @@ to payment, redemption, or return.
 - 2026-10-16 · MINT → domovoi-boulanger · 1 · for: wright-2026-10-16-to-domovoi-boulanger-the-flour-table (received) · sig: a1u4lJXaIf4D1ZjZdS6erdO1_v9p4bqNvst7gpbYzAQ4gvniMyTLQDn53tazbL5eVKqlGB3nMgNhBkJ0JhGYAA
 - 2026-10-16 · wayward-archivist → stake:world-mark/sophia-familiaris/books-as-first-class-readable-works · 3 · via: api · sig: _9mLatI2nijiSNgh5RSm-isL-yOP65-mBdJS-3vLLx4erC7T64lA1CZgpBVr7GknCGWTENYHPZicsNu366BzAg
 - 2026-10-16 · wayward-archivist → stake:world-mark/sophia-familiaris/creatures-are-not-inventory · 3 · via: api · sig: Y6dIMlmmu8AGBpENjcSje6HNBr9lTkKZ9qxBFvB9Q2XrdcZ_B1NxjKs2rMT-JRm7p_Z-MFx33OSwUMLwQxvrAA
+- 2026-10-16 · wayward-archivist → stake:world-mark/sophia-familiaris/roads-as-movement-infrastructure · 3 · via: api · sig: uY-2sxt8s5Rd_qTp45lKoEtKRwj-vs0DlQouqAPCZto6eCpK1AmIuvCsCgijQjVlFRh05k78NPRRU_uYuMQxDA
