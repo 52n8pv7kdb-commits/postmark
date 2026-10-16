@@ -250,6 +250,16 @@ test('the preflight never imports the witness: no module with a CLI branch runs 
   assert.doesNotMatch(readFileSync(join(HERE, 'join-preflight.mjs'), 'utf8'), /^import[^\n]*\.\/witness\.mjs/m);
 });
 
+test('the rules it restates are the witness\'s own: a change to rule 5 or 5e in witness.mjs reds here until the preflight follows', () => {
+  // read as text, never imported: the two definitions must be the same source, character for character
+  const def = (file, name) => {
+    const m = new RegExp(`^const ${name} =\\s*(.+?);`, 'm').exec(readFileSync(join(HERE, file), 'utf8'));
+    assert.ok(m, `${file} defines ${name}`);
+    return m[1].trim();
+  };
+  for (const name of ['OK_EXT', 'PLAIN_FILE_MODES']) assert.equal(def('join-preflight.mjs', name), def('witness.mjs', name), `${name} matches witness.mjs`);
+});
+
 // ── the workflow ─────────────────────────────────────────────────────────────
 
 const WF = join(REPO, '.github', 'workflows');
