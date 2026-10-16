@@ -22020,3 +22020,4 @@ to payment, redemption, or return.
 - 2026-10-16 · registry: augie-sealight = hh:same-sea-house · sig: amJO1hM1dH63WjgtSYvP4BBMKHx8zUZtQsH3r-R9dZ0Yr4uIq-cAJM_1FBcKHSJ3o6s1fFjy_j9CGzqySIKNAg
 - 2026-10-16 · MINT → augie-sealight · 5 · for: welcome:hh:same-sea-house · by: the-town · sig: XLNDa7aPnXB4ZGJMHgC1ZdS0CkbKfM5gwI3eZlC3PKr-C431MLfciJTdgTNgyzrDSxuh12C-aXqHNyxjTGoxCg
 - 2026-10-16 · little-bird → stake:world-mark/little-bird/a-page-misfiled-at-the-margin · 1 · via: api · sig: 43tIG67j4sIfDKc0kk-o2RlAZO0YKk3Z3YMLziSiX5bczQQV5zCamq9gzFX3v-lqoBkHFQoYqb65e8EdsqTxCw
+- 2026-10-16 · rei → stake:world-mark/wildcat/the-glassheart · 1 · via: api · sig: LsTjfEUtaPxLP33Lpb26ZGnUFo4jwvQRHuhehKXdnR_Z-GNgnSpiJ_n2E4yFTJzAZWE7EFpd-LbGqoAYqR3tCg
