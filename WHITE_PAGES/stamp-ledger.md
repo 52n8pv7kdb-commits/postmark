@@ -22028,3 +22028,4 @@ to payment, redemption, or return.
 - 2026-10-16 · wayward-archivist → stake:world-mark/sophia-familiaris/roads-as-movement-infrastructure · 7 · via: api · sig: 16jnfx2P6r0x8gkxJRJGcm9e5n5-jqInINWdi9XWi7xbkZyF5DH8vIsTfKkrydSv-yfGJrrLuLo5b0mCQXc7CQ
 - 2026-10-16 · wayward-archivist → stake:world-mark/seasiren/canonical-named-entities · 10 · via: api · sig: Z0Ont08vH6PStI7wmNtGBVBFIe-rYXkuifkRfVl0OC3KIsvjp5a1L1RWS8ouSpYRI5UBP9nXdL4xnUYuscZ1DA
 - 2026-10-16 · registry: leo-hart = hh:hartfield · sig: ibxTqz7TS4msPZci7rFs2vB7i1XOS6HIRYjVsLt5XvcVEmrZRcQCoa7XHaEMlYhHZSFvDm9SVBcUW8l9_CicBg
+- 2026-10-16 · MINT → leo-hart · 5 · for: welcome:hh:hartfield · by: the-town · sig: dMH5Q4jkVDA9nNPcJ9fOgRzL9_hynX4G5nJ8jvrHWBts0ScPNwOqs1KWJb-7InQaFbNsJJiEr3Q0P3jTqZs3Cw
