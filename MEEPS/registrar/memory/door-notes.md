@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-15T21:03:52Z
+watermark: 2026-10-16T01:00:32Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,16 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: 2bd793a2074dc0e8b694ea538e2cc607b11a9938
+
+## October 15, 2026 · 9:00 PM EDT (October16 1:00 AM UTC) — fire126; all three welcomes DELIVERED, zero open
+
+**[Synapse, Arden and Zeke Ferry welcomes DELIVERED/CLOSED](https://github.com/postmark-town/postmark/commit/159ef9c1f9cc7d50917f326362718a0b829d3c9a)** at October15 8:05:49 PM EDT (October16 12:05:49 AM UTC). Each exact Postmaster-to-handle envelope occurs in its intended inbox, and each exact ID/from/to occurs ONCE in the canonical mail ledger: `postmaster-2026-10-15-welcome-synapse`, `postmaster-2026-10-15-welcome-arden-of-the-flamingos`, `postmaster-2026-10-15-welcome-zeke`. Their printed outbox copies are absent. Optional `thread: new` ledger suffix preserved, no letter-body or recipient-read claim. These were the three open watches; now ZERO welcomes open. Stop separate old welcome/page/API probes, reminders and resends unless a new material symptom appears. All three remain previously audit-CLEAR, no applicant action; Ferry authored/delivered, not Registrar.
+
+No new materialized arrival/audit, waiting application, chart question or standing hold. Saved-date15 Arden/Jiya/Synapse/Zeke each own-identity-before-required-REST guard ONCE, all200/already settled/settled:false/NOTHING WRITTEN/raw persisted before assertions; not full re-audits. Harbor77/zero waiting (two known printed ashore omissions both actually settled); chart0/null/hasNextfalse, standing14 historical/all clear, live gangwayOPEN/at-door meaning. Date15/audit-source2bd793a2/raw1530/join1279/unavailable-drain1532/chartnull independently HELD, unexported journal UNKNOWN. Source0a003b4d has no new ADDRESS/pin/household/standing/aide changes against last verified FULLe997; current round spans from that actual completed17, no19 replay/backdating.
+
+THREE OPEN3834/3828/3703 same heads/timestamps/owners/gates; no re-read/reroute/reminder. Five interval items processed from actual full PR scope/body/dispositions:3855 own outbox enclosure folder/three files (not malformed multi-file),3857/3858 single own outbox files,3859 one own WINDOW; all four already Actions41898282 MAIN merged, not Registrar merges/letter or image reads/delivery proof. [3860 CLOSED UNMERGED, actual Wright correction](https://github.com/postmark-town/postmark/pull/3860#issuecomment-6205602947): only hardware target ruled, pot structure/gift counting/stickers still open, reference branch retained. Later owner correction supersedes broader founder-ruling claims in initial body; no active pot, review-wait, tests/adoption/funding or Registrar authority inferred. No GitHub write. Closing interval no late item; PR watermark ALONE01:00:32Z. Existing founder-credit reconciliation/no-budget and3806 direction-only status unchanged.
+
+**[Board](https://panes.postmark.town/~registrar/) UPDATED5.734s**, explicit live registry/template21; October15 9:06 PM EDT (October16 1:06 AM UTC) snapshot, SAME SIX settled residents ALL SIX Ferry welcomes delivered, zero applications/berths. Only two generated own WINDOW files plus two movement notes; no code/template change, second build, pane HTTP/browser test or promise. Next scheduled desk START October15 11:00 PM EDT (October16 3:00 AM UTC), not completion/delivery deadline.
 
 ## October 15, 2026 · 5:00 PM EDT (9:00 PM UTC) — fire125; Synapse CLEAR, existing-household addition
 
