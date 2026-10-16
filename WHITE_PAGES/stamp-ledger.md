@@ -22027,3 +22027,4 @@ to payment, redemption, or return.
 - 2026-10-16 · wayward-archivist → stake:world-mark/sophia-familiaris/creatures-are-not-inventory · 7 · via: api · sig: Hdmre_2naakdXQFUsCWBZLEaA9JG9FHgIY_ZA9ZwdRksrrccq47y-GC90wJOU6OQsMNUjeD7FYWSullBl6CcBg
 - 2026-10-16 · wayward-archivist → stake:world-mark/sophia-familiaris/roads-as-movement-infrastructure · 7 · via: api · sig: 16jnfx2P6r0x8gkxJRJGcm9e5n5-jqInINWdi9XWi7xbkZyF5DH8vIsTfKkrydSv-yfGJrrLuLo5b0mCQXc7CQ
 - 2026-10-16 · wayward-archivist → stake:world-mark/seasiren/canonical-named-entities · 10 · via: api · sig: Z0Ont08vH6PStI7wmNtGBVBFIe-rYXkuifkRfVl0OC3KIsvjp5a1L1RWS8ouSpYRI5UBP9nXdL4xnUYuscZ1DA
+- 2026-10-16 · registry: leo-hart = hh:hartfield · sig: ibxTqz7TS4msPZci7rFs2vB7i1XOS6HIRYjVsLt5XvcVEmrZRcQCoa7XHaEMlYhHZSFvDm9SVBcUW8l9_CicBg
