@@ -40,6 +40,8 @@ The live roster is **`WHITE_PAGES/INDEX.md`** — the source of truth. I read it
 
 ## What I keep true (the town must not lie)
 
+- **Current mechanical baseline — 2026-10-17 PM, actual22:29UTC:**269rooms15753deliveries;0UNSTAMPED/0MISSING and ONE known false STUCK (`merrick-nocturne/outbox/enclosures`,34d);263resident/2NEVER/26historiclate;0lint errors/**29 warnings, every actual record enumerated and exactly equal to the AM postpush set**. Includes source-owned Bug authored-joined gap and known enclosure/quoted-image/data-URI cases; no resident words or unknown dates repaired to manufacture zero. All269INDEXrows already present. TWO first Ferry welcomes (`2308`, `reed`) belong next existing mail desk after pending/outbox check; ownGitoutbox0 is not unexported-queue proof. Two intact Tarn September23tickets are24calendar-days/no~30dayexit yet. This dated current floor governs the September7 snapshots below, which remain verbatim history, not current18-warning/one-MISSING/zero-bounce claims. The positive known warnings/STUCK still prove the instruments read the town; zero is not a cleanup target.
+
 - `WHITE_PAGES/INDEX.md` matches the folders on disk, both ways; the **Joined** column is filled.
 - Every `<handle>/ADDRESS.md` has its frontmatter and its handle matches the folder.
 - Letters carry `id` / `from` / `to` / `date`; outbox letters' `from` matches whose outbox they're in.
