@@ -1248,6 +1248,24 @@ export const stageRecreditLines = ({ date, handle, wrong, by }) => {
   ];
 };
 
+/**
+ * A meep's stage mints, burned (POS-655; Darko 2026-10-16 20:04 EDT: "meeps
+ * are credited, not paid"). `wrongs` are the post's stage lines paid to the
+ * meep, classified, each with its `sig`: one burn per mint, in their order,
+ * the same line a stage correction's burn is. There is no recredit: the meep's
+ * finding and credit stay on the post, and no one else earned the stage.
+ */
+export const meepCorrectionLines = ({ date, wrongs, by }) => {
+  if (!Array.isArray(wrongs) || !wrongs.length) throw new Error('meep correction: no stage mint to burn');
+  if (!CORRECTION_HANDS.includes(by)) throw new Error(`meep correction: by: must be one of the hands (${CORRECTION_HANDS.join(', ')}), got ${JSON.stringify(by)}`);
+  return wrongs.map((w) => {
+    if (!RECREDIT_STAGES.includes(w.stage) && !Object.hasOwn(STAGE_LADDER, w.stage)) throw new Error(`meep correction: ${JSON.stringify(w.stage)} is no bug stage`);
+    if (!SIG_RE.test(String(w.sig ?? ''))) throw new Error(`meep correction: a mint is named by its full signature, got ${JSON.stringify(w.sig)}`);
+    if (!/^[^\s·]+$/.test(String(w.handle ?? ''))) throw new Error('meep correction: a handle is one token with no "·"');
+    return `- ${date} · ${w.handle} → BURN · ${w.n} · for: correction:${w.sig} · by: ${by}`;
+  });
+};
+
 // The idea posts' four lines (POS-290). Each builder refuses what would forge or
 // misfile its line: a post id or a channel carrying the field separator, a label
 // that is a stage's name (it would be read as a stage line), an amount outside
@@ -2741,6 +2759,74 @@ function main(registrySource = null) {
     if (date < maxDate) { console.error(`FATAL: recredit date ${date} precedes the ledger tail (${maxDate}) — the ledger is append-only, forward-dated`); process.exit(1); }
     appendSigned(repo, lines, readFileSync(keyPath, 'utf8'));
     console.log(`stamp-ledger: stage re-credited, the wrong mint burned\n  ${lines.join('\n  ')}`);
+    return;
+  }
+
+  if (has('--meep-correction')) {
+    // A MEEP'S STAGE MINTS, BURNED (POS-655). Every stage line of the post
+    // that paid the meep is burned, exactly, by its full signature, in ONE
+    // append, or none is. The meep must be a meep by the law in force at the
+    // burn's date (a rules line names it), the burns come from liquid stamps
+    // only, and a mint already burned refuses. The ceremony is --stage-
+    // recredit's: signed by the office pen, onto a settled tail, forward-dated.
+    // --amount is the caller's bind: the total it expects to burn.
+    const keyPath = arg('--key');
+    const date = arg('--date');
+    const handle = arg('--meep-correction');
+    const post = arg('--post');
+    const by = arg('--by');
+    if (!keyPath || !existsSync(keyPath) || !date || !handle || !post || !by) {
+      console.error('--meep-correction <meep> needs --post <author>/<slug> --by <hand> --date YYYY-MM-DD --key FILE [--amount N]'); process.exit(1);
+    }
+    if (!STAGE_POST_ID_RE.test(post)) { console.error(`--post must be a post id, <author>/<slug> (got "${post}")`); process.exit(1); }
+    const { laws } = parseLaws(existing);
+    if (!meepChecker(laws)(handle, date)) {
+      console.error(`FATAL: "${handle}" is not a meep at ${date} — the law in force names no such meep; declare the meep set first (--declare-rules), then burn`); process.exit(1);
+    }
+    const wrongs = [];
+    for (const e of existing) {
+      const c = classifyEntry(e.canonical);
+      if (c.kind === 'post-stage' && c.post === post && c.handle === handle) wrongs.push({ ...c, sig: e.sig });
+    }
+    if (!wrongs.length) { console.error(`FATAL: no stage line of post:${post} paid "${handle}" — there is nothing to burn`); process.exit(1); }
+    for (const e of existing) {
+      const c = classifyEntry(e.canonical);
+      if (c.kind === 'correction-burn' && wrongs.some((w) => w.sig === c.sig)) {
+        console.error(`FATAL: a stage mint of post:${post} (${c.sig.slice(0, 16)}…) was already burned (${c.date}) — one burn per mint, ever`); process.exit(1);
+      }
+    }
+    const total = wrongs.reduce((a, w) => a + w.n, 0);
+    if (arg('--amount') != null && Number(arg('--amount')) !== total) {
+      console.error(`FATAL: the caller expects to burn ${arg('--amount')} and post:${post} paid ${handle} ${total} — refusing to burn a set the caller did not read`); process.exit(1);
+    }
+    let lines;
+    try { lines = meepCorrectionLines({ date, wrongs, by }); }
+    catch (e) { console.error(`FATAL: ${e.message}`); process.exit(1); }
+    const liquid = foldBalances(existing).get(handle) ?? 0;
+    if (liquid < total) {
+      console.error(`FATAL: ${handle} holds ${liquid} liquid stamp(s) and the burn is ${total} — a correction burns liquid stamps only, never escrow; nothing written`); process.exit(1);
+    }
+    const recorded = existing.map((e) => e.canonical);
+    const { problems, owed } = walkLedger(recorded.slice(1), mints, 1);
+    if (existing.length > 0 && problems.length) {
+      console.error(`FATAL: recorded ledger diverges from derivation — run stamp-verify.mjs; nothing burned\n${problems[0]}`); process.exit(1);
+    }
+    const settledIds = new Set();
+    for (const e of existing) {
+      const c = classifyEntry(e.canonical);
+      if (c.kind === 'transfer' || c.kind === 'void') settledIds.add(c.id);
+    }
+    const owedSettlements = transfers.filter((t) => !settledIds.has(t.id));
+    if (owed.length || owedSettlements.length) {
+      console.error(`FATAL: ledger is behind the mail (${owed.length} mint(s), ${owedSettlements.length} settlement(s) owed) — run --append first, then burn onto the settled tail`); process.exit(1);
+    }
+    const maxDate = existing.reduce((mx, e) => {
+      const d = /^- (\d{4}-\d{2}-\d{2}) /.exec(e.canonical)?.[1];
+      return d && d > mx ? d : mx;
+    }, '0000-00-00');
+    if (date < maxDate) { console.error(`FATAL: burn date ${date} precedes the ledger tail (${maxDate}) — the ledger is append-only, forward-dated`); process.exit(1); }
+    appendSigned(repo, lines, readFileSync(keyPath, 'utf8'));
+    console.log(`stamp-ledger: ${handle}'s stage mints of post:${post} burned (${total}; the meep law)\n  ${lines.join('\n  ')}`);
     return;
   }
 
