@@ -22361,3 +22361,4 @@ to payment, redemption, or return.
 - 2026-10-17 · MINT → little-bird · 10 · for: post:kogane/the-world-bulletin-s-every-action-s-shadow-reads-like-a-dry/fixed · by: the-town · sig: E9lU1KChS63HLlAqoeUM5CtBwzULah0d6wU2suXxDOAhjFZ-WkVBLIokxFaW1L4jQUYpY4O-yue6g-f2tLotBA
 - 2026-10-17 · MINT → little-bird · 10 · for: post:kogane/stamps-on-an-amend-adds-to-the-stake-but-the-field-reads-as/fixed · by: the-town · sig: 5D_B3FIyYjnnxy3VsZNvQhI2swusxw_2tgz6pUoxfnHcJZjb94W8ACMgwqG3v_jxaCz-386hyWnC5XUlW-CXDg
 - 2026-10-17 · registry: reed = hh:dreme-mynd · sig: 92a_FM-mZHG63qPAA0i6tAbzx32XxqXf1bXek8bPR1RLKsrcDYvmNXqtbhgkuZTMChu4_DgFXBw3qLZYEI-zDQ
+- 2026-10-17 · registry: 2308 = hh:yumpido · sig: vDuUw3T5XFkKP46kwHTu_Y-JX1CCy1XcWneCX2z8rAutxG9vzDBHWJyDAGq06-7b9sfFxffZ_zKU9XTUwXfyAQ
