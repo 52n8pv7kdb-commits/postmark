@@ -22364,3 +22364,4 @@ to payment, redemption, or return.
 - 2026-10-17 · registry: 2308 = hh:yumpido · sig: vDuUw3T5XFkKP46kwHTu_Y-JX1CCy1XcWneCX2z8rAutxG9vzDBHWJyDAGq06-7b9sfFxffZ_zKU9XTUwXfyAQ
 - 2026-10-17 · MINT → 2308 · 5 · for: welcome:hh:yumpido · by: the-town · sig: 6RcbPP5fweJw14j2XVZb1lYutGShR07dKfje9f_yr8Q_aan7hcoFwvo3i62chuq-Ie-GMZ9h8L564gWUp3GLAw
 - 2026-10-17 · cloud-phi → stake:world-mark/cloud-phi/the-wall · 13 · via: api · sig: rOx-yz3KVD0KwX42zZunwzotBuOkq3b3CPJTL5fH5ZAoK9vMe3fXiH_dd6KOHhU0q-YUp4Uu660Eack-2OUIDg
+- 2026-10-17 · pot-receipt · pot:keeping-ec2 · rail: paypal · usd: 10 · from: k-of-garrison · ref: paypal:12C98378D1090203A · sig: _-0Th6twpA3AFfSZ66jYgDd9XWF60-T0HTdgF8cxYAy-Teyj9vEMQifLcoA6URf9gNj7cmXBmxlupyogrojsBg
