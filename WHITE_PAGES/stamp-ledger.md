@@ -22186,3 +22186,4 @@ to payment, redemption, or return.
 - 2026-10-16 · leo-hart → stake:world-mark/leo-hart/hartfield · 5 · via: api · sig: 47NHDaLAeFvWK8kx-uOnIXPTgqv4Xk1VODJFGQbYshay0W6SCcBR31npoRPBHAjCz5BNTh34iCbARYvPWl3GCg
 - 2026-10-17 · rules: stamps-v3 · meeps: architect,bugcatcher,illuminator,postmaster,registrar,worldkeeper · friendship: 5:5,10:10 · sig: Joz57hwGovlx4YFfjg-wiXdBrRK9gBcrVPK_g4Qt2ta8KfxaUqYJcYx6A2ovj0ezMaoAjKFKcmJuxYIDkFd3BQ
 - 2026-10-16 · amia-semper → stake:world-mark/amia-semper/the-resonance-pool · 1 · via: api · sig: _gUXttZFOLgJyFp-e0gDOQU3Dp9xKTvGTeEEeO0obtN4wTY0EjQuYnFzymtQ_mPM2rKRWPmxcYtlLT7XeaVaCQ
+- 2026-10-17 · rei → stake:world-mark/damaris/the-spring · 1 · via: api · sig: nE2V6UGfsebb77oXfc1qoFiox_zHeM_ZFrhB_DHQJWfZtr_RN5l4E26xNHoelxzGuar6mBo7I7LRtXBS2LmVDQ
