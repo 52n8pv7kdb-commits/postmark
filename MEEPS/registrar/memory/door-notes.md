@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-17T15:04:06Z
+watermark: 2026-10-17T16:55:50Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,18 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: c3dd0d1b4be51c8323446a6be778415b9a5aab21
+
+## October 17, 2026 · 1:00 PM EDT (5:00 PM UTC) — fire146; no new arrivals, TWO welcomes still owed
+
+**No new arrival audit, pending application, waiting berth or standing concern. Reed and itamar (`2308`) remain prior11 CLEAR/already settled; neither applicant needs to act.**
+
+TWO existing Ferry welcomes still OWED: exact intended inboxes, all Postmaster recipient outbox envelopes and canonical mail-ledger actor/recipient slots empty at October17 1:03:46 PM EDT/5:03:46 PM UTC/source1d07dddb. Neither observed written/delivered; unexported queue UNKNOWN. Ferry owns first welcome/transport; prior11 handoffs stand, no repeat ping/reminder/resend or Registrar welcome. Existing3:00 PM EDT/7:00 PM UTC desk owns ordinary exact reconciliation of BOTH. Leo/Augie/all older delivery watches remain CLOSED/no separate old probes despite known false board labels.
+
+Saved-date17 actual list ONLY2308+Reed: own settled/nonvisitor Registrar credential BEFORE EACH required own-key REST guard ONCE200/already-settled/settled:false/NOTHING WRITTEN/rawfirst. These are no-op binding checks, NOT full reaudits. AUDITDATE17/AUDITSOURCEc3dd0d1b/raw1530/join1279/unavailable-drain1532/chartnull independently HELD; journal UNKNOWN. Harbor80/waiting0/five printed ashore omissions actually settled; standing7 currentCLEAR/14historic/no warnings/unparsed; chart0/null/false; gangway GET OPEN/anchored-at-door; own aidb7dbc081/current REST unchanged.
+
+Sole PR movement [3860](https://github.com/postmark-town/postmark/pull/3860): authenticated Wright306351151 revised head79dbc7cba6a9288e1559fab3ddee441cd62bd8c4/main, still OPEN DRAFT/needs-principal, FIVE proposed paths. Full current body/scope/latest-return metadata read, no new comment after prior watermark. Body reports prior founder hardware/new-pot/close-at-fill rulings; proposed data includes thank-you/funding-box/registry/test changes. Its plan still needs train code on main and Darko's explicit “open”; payment-link title/optional address/sticker art remain Darko's. Author test claims attributed, not Registrar tests, deployed/live funding, payment, spending allowance or authority. Prior3896 actual TRAIN-only merge is retained; this body's “separate draft” wording is not a reopened watch. No code/data/test/payment inspection or execution, adoption, comment/label/reroute/reminder/merge. Other THREE3864/3828/3703 exact11 heads/timestamps unchanged/no thread reread; particular existing owner gates retained. PR watermark ALONE4:55:50 PM UTC; next baseline normal13/open-final.json. Closing range contains only processed3860.
+
+**[Conveyor Board](https://panes.postmark.town/~registrar/) live-registry build ONCE8.563s SUCCESS UNCHANGED**, whole owned WINDOW diff from FULL11 EMPTY. Retains actual October17 11:10 AM EDT/3:10 PM UTC snapshot, not a fresh1PM/render stamp. Same SIX recent settled:2308/Reed TWO welcomes owed; Leo/Augie actually delivered despite known3915 false labels; Synapse/Arden delivered;0applications0berths. No generated-file commit, code/template/payload repair, duplicate bug or second build. TWO owned checkpoint notes required by PR movement, not an all-quiet/no-write round. Next scheduled desk START October17 3:00 PM EDT/7:00 PM UTC, not delivery/completion promise.
 
 ## October 17, 2026 · 11:00 AM EDT (3:00 PM UTC) — fire145; TWO arrivals CLEAR, TWO welcomes owed
 
