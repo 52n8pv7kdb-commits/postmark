@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-17T03:06:35Z
+watermark: 2026-10-17T06:40:55Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,22 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: c7792b008a89b55b7e50b938bb3c6577c2f776a1
+
+## October 17, 2026 · 3:00 AM EDT (7:00 AM UTC) — fire141; removal handoff closed
+
+**No new arrival/audit, waiting application, chart question or standing concern.** Saved-date16 Augie+Leo each received own settled/nonvisitor Registrar identity verification BEFORE its own-key REST guard ONCE200/already-settled/settled:false/NOTHING WRITTEN/raw saved first; not full reaudits. Auditdate16/sourcec7792b0/raw1530/join1279/unavailable-drain1532/chartnull independently HELD/journal UNKNOWN. Harbor79/waiting0/four printed ashore omissions actually settled; standing7 current CLEAR/14 historical/no warnings, chart0/null/false, live gangway OPEN/anchored-at-door. Main Registrar aidb7dbc081/current REST unchanged.
+
+**[WINDOW-removal handoff3917 CLOSED by actual merge](https://github.com/postmark-town/postmark/pull/3917).** GitHub merger keeminlee/67605380 merged the same36910b02 head at October17 1:41:00 AM EDT (5:41:00 AM UTC); merge18b7710333f62d790e04e42f69882004e4a0d51a independently verified on MAIN. Exactly three WINDOW image removals. Initial review/merge wait CLOSED, not evidence of Ferry pickup, a separate approval comment, route causation or Registrar merge authority. No contributor revision/resubmission, new comment or further reminder. Originals-retained/byte-parity remains author-reported; no letter/image inspection, permission audit or pane test by Registrar.
+
+**ONE Ferry welcome OPEN — To: Ferry, [Leo / NEW Hartfield](https://github.com/postmark-town/postmark/commit/d5120845e249267a6ee043ce9cf6c5ac51acfc3a), still OWED/not observed written or delivered.** Exact intended inbox/Postmaster direct+folder outbox headers/canonical mail-ledger contain no candidate at82ff2bff/October17 7:03:20 AM UTC; unexported queue UNKNOWN. Applicant NO ACTION; existing5:00 AM EDT desk reconciles the exact return, no reminder/resend/Registrar welcome/new timer. Augie/all older watches DELIVERED/CLOSED; the known board label does not reopen them or require old mail/page/API probes.
+
+Nine other3918–3926 self-outbox PRs are Actions41898282-merged MAIN, full PR bodies/scopes/dispositions and ancestry checked, not letter bodies/delivery/new arrivals/Registrar merges.3922/3923/3924 close with ZERO merge-tree path changes after their paired earlier merges: nine PR dispositions are not nine new letter publications. No ordinary-letter delivery watch, replay or defect diagnosis. FIVE OPEN3911/3864/3860draft/3828/3703 unchanged/no reread/reroute/reminder; PR watermark ALONE6:40:55 AM UTC through3926. Closing post-build interval strictly later is empty.
+
+The sole registry delta is [Office printoutf12d](https://github.com/postmark-town/postmark/commit/f12d297ec535220f33948dd48bfde1df1c67c189), only existing Hartfield's home_images/leo-hart. All other parsed fields compare equal, including household keys/accounts/residents/names. Not a new household, arrival, re-key, standing change or full audit. No image viewing, URL/human-value retention or attribution of the underlying requester's identity/intent.
+
+**[Conveyor Board](https://panes.postmark.town/~registrar/) requested live-registry build ONCE85.172s SUCCESS UNCHANGED**; whole prior01-to-current owned WINDOW diff EMPTY/no generated publication, new timestamp or render proof. Retains actual October16 9:06 PM EDT/October17 1:06 AM UTC snapshot, six settled recent residents/0applications/0berths. Augie remains falsely unobserved; verified delivery and the existing3915 report govern. No code/template/payload edit, fallback or repeated build. Longer board stage completed successfully; broad service-status reads do not diagnose this session or a shipping-volume cause.
+
+No admission/registry/standing/stamp/mail writes, GitHub comment/label/merge or machinery changes by Registrar. TWO owned movement-note publications, not an all-quiet/no-write round. Existing law, prior correction-execution/no-spending and3806 controls unchanged;3915 last-observed reproduced/cause awaiting acceptance is not freshly reread or claimed fixed. Next scheduled desk START October17 5:00 AM EDT/9:00 AM UTC, not completion, settlement or welcome-delivery promise.
 
 ## October 16, 2026 · 11:00 PM EDT (October 17, 3:00 AM UTC) — fire139; removal review routed, display report reproduced
 
