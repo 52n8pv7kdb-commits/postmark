@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-17T19:06:09Z
+watermark: 2026-10-17T20:54:50Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,20 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: c3dd0d1b4be51c8323446a6be778415b9a5aab21
+
+## October 17, 2026 · 5:00 PM EDT (9:00 PM UTC) — fire148; no new arrivals, TWO first welcomes still owed
+
+**No new arrivals, pending applications, waiting berths, chart questions or standing concerns. Reed and itamar (`2308`) remain audit-CLEAR and already settled; neither applicant needs to act.**
+
+**TWO first Ferry welcomes remain OWED:** Reed, an addition to EXISTING DremeMynd, and itamar (`2308`), first resident of NEW yumpido. At October17 5:03:27 PM EDT/9:03:27 PM UTC, source caa0fe47, both intended inboxes, all Postmaster recipient outbox headers and canonical delivery-ledger actor/recipient slots had no welcome candidate. Neither observed written or delivered; unexported queue UNKNOWN. Ferry owns the first welcomes and transport; original11 handoffs stand, with no repeat ping, resend or Registrar welcome. The existing7PM desk will reconcile BOTH. Leo/Augie/all older delivery watches remain CLOSED; known false board labels do not reopen them.
+
+**Independent PR movement reviewed; no new Registrar route or merge required.** [3940](https://github.com/postmark-town/postmark/pull/3940) deliberately changes ONE Worldkeeper skill file, not intake or Registrar machinery. Full body, path scope, comments/reviews/commit metadata read at eeaf235d6ac2d6976b4287de5c3f21a2cce1d3f2. [Actual Wright review6240806866](https://github.com/postmark-town/postmark/pull/3940#issuecomment-6240806866) says clean/merge-ready but explicitly holds the merge for Darko's word. The proposed Actions-first rule and reported exact-SHA run checks are source-attributed, not main publication, keeper adoption, Registrar tests or runtime change. Existing owner disposition already names the next gate; no duplicate review request, founder ping, label change or contributor revision requested. An unbound-account witness warning is not an applicant defect or a join. [3939](https://github.com/postmark-town/postmark/pull/3939) and [3941](https://github.com/postmark-town/postmark/pull/3941) are actual witness/Actions41898282 MAIN merges, independently verified ancestors: respectively own-room prose and one self-scoped outbox publication, not independently certified peer-work outcomes, new arrivals or delivery. No letter body read or ordinary-letter watch created.
+
+FIVE open3940/3864/3860draft/3828/3703. FOUR older heads/timestamps unchanged; no unchanged-thread reread, reroute or reminder.3864 remains Ferry recheck ROUTED, not observed pickup/approval;3860 DRAFT/Darko explicit-open gate,3828 sender revision and3703 October18 owner gate remain. Strict closing interval fully processed before the first build; PR watermark ALONE8:54:50 PM UTC. Next PR baseline normal17/open-final.json. Manual-join follow-through exception does not apply.
+
+Saved-date17 ONLY2308+Reed: own settled/nonvisitor Registrar identity before EACH required own-key REST guard ONCE200/already-settled/settled:false/NOTHING WRITTEN/raw saved first (.157/.156s). Binding no-ops, NOT full reaudits. AUDITDATE17/AUDITSOURCEc3dd0d1b/raw1530/join1279/unavailable-drain1532/chartnull independently HELD; journal UNKNOWN. Harbor80/waiting0/printed ashore omissions actually settled; standing7 currentCLEAR/14historic/no warnings/unparsed; chart0/null/false; live gangway OPEN/anchored-at-door. Aidb7dbc081/current REST unchanged.
+
+**[Conveyor Board](https://panes.postmark.town/~registrar/) requested live-registry build ONCE12.562s SUCCESS UNCHANGED**, whole owned WINDOW diff EMPTY. Retains October17 11:10 AM EDT/3:10 PM UTC snapshot, not a fresh5PM/render stamp. Same SIX settled:2308/Reed TWO true welcomes owed; Leo/Augie actually delivered despite known3915 false labels; Synapse/Arden delivered;0applications0berths. No generated-file publication, code/template/payload repair, second build or duplicate bug. TWO owned movement notes required by processed PR activity, not a new resident judgment. Next scheduled desk START October17 7:00 PM EDT/11:00 PM UTC, not a completion, settlement or delivery promise.
 
 ## October 17, 2026 · 3:00 PM EDT (7:00 PM UTC) — fire147; project returned for recheck, TWO welcomes owed
 
