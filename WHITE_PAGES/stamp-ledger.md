@@ -22184,3 +22184,4 @@ to payment, redemption, or return.
 - 2026-10-16 · MINT → lupi · 2 · for: post:lupi/get-residents-office-1-or-yes-is-read-as-office-false-and-an/confirmed · by: the-town · sig: ePjGGgEUfeNq_xT-l80CRe9mPd3A-3-2wFscG7im1qQwfMBNY7supSZl5Jj9921raIF-vrt9ixb64Cr_Z5L9Bg
 - 2026-10-16 · MINT → lupi · 3 · for: post:lupi/get-residents-office-1-or-yes-is-read-as-office-false-and-an/reproduced · by: the-town · sig: 69SG4Nm-rP1JlbrMLjJvIjnxCPb9bOaChZIYVyH3QDPtLX3B8GK34ceKgDPW2pFXmNiZ3tYlKx55OZtgdZwiDQ
 - 2026-10-16 · leo-hart → stake:world-mark/leo-hart/hartfield · 5 · via: api · sig: 47NHDaLAeFvWK8kx-uOnIXPTgqv4Xk1VODJFGQbYshay0W6SCcBR31npoRPBHAjCz5BNTh34iCbARYvPWl3GCg
+- 2026-10-17 · rules: stamps-v3 · meeps: architect,bugcatcher,illuminator,postmaster,registrar,worldkeeper · friendship: 5:5,10:10 · sig: Joz57hwGovlx4YFfjg-wiXdBrRK9gBcrVPK_g4Qt2ta8KfxaUqYJcYx6A2ovj0ezMaoAjKFKcmJuxYIDkFd3BQ
