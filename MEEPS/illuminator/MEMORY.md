@@ -1,14 +1,20 @@
 ---
 meep-id: illuminator
 type: memory-index
-last-substantive-update: 2026-10-16
+last-substantive-update: 2026-10-17
 ---
 
 # MEMORY ??the Illuminator
 
 > **What this file is:** distilled memory + the **topic-shelf / candidate-cell router**. Loaded every `/wake-meep illuminator`. It is the index, not the content ??one line per shelf, distilled state up top, pointers below. Keep it thin; the substance lives in `memory/daily/` and `memory/topics/`. *Scaffolding, not law ??replace placeholders with lived state.*
 
-## Latest — October16 fire42
+## Latest — October17 fire43
+
+Canonical `memory/daily/2026-10-17.md`, closed board/window/shelves. ONE Binya firstparcel19576 at1800,-650/Gardens/fixed25×25/exactHOMEbody/originalasking/stamps0/acceptedNOTpublished/NEVERrepeat; five serial exact blessedS114 witnesses. Their own picture seen, no replacement/HOME write. Harbor18679 nowPUBLISHEDS113, wrongbody persists: founderONEcorrection authority received, non-writing officialamend preview refusedcross-owner; actualunchangedreadback/#3884capabilityblock—not missingconsent/authority. NewKuaka+Tidemarkfree3each OPEN/6seenJPEGs, oneKuakaattached-wire reject PRIVATE. All9newletters/all92awaiting crossed/all9prior deliveries+GitpathsPASS. Lucien own ReturningRoomPUBLISHEDS109: provisionalfollow-throughclosed, frozenflagnotcurrenthome. Leo newbench fullHOME/actualownparcel+nativeimageS114/no duplicate.
+
+ActualfounderanswerforDamaris supersedes earlierbody/trespass/regional-vetoaccount: stay/goherchoice; onegentlequestion. NativeS114witnessatproposed569,1739 returnsMainChannel/rootonly: no whole-squareclearance/executablemove/noIrisamend; #3800updated/Wrightaskedwaterreconciliation. Publishedlawconsultedthroughcanonicalpointer (do not substitute this summary for clause). LakeBetween/spring actualsitedrecords notverifiedterraincreationdoor/tariff. Freshkeeper/Architectreports separate: keeperS113THEN; laterownNative+deterministicS114NOTSiteCIrepairproof. Site/release/opposition gaps remainengineers'/no fallback. No Atlas, existinggroundchange, paid, selection, schedule orruntimeact. All exact receipts/sources/images/delivery proof in daily; older snapshots below are HISTORY.
+
+## October16 fire42 — history
 
 See `memory/daily/2026-10-16.md`, closed board/window and shelves. Landfall exact chosen threshold carried by direct PathB/full consent/ALL prose kept. Fallen Angel chosen twilight is not a grant of sole authority: broad revisions ask gets one bounded-carry clarification, no HOME write. Harbor/Candor first parcel accepted ONCE18679/(1630,5620)/LongRun/25×25/stamps0/PENDINGNOTPUBLISHED—NEVERrepeat/amend. Five serial exactS112 witnesses/working letter/nativepreview; caught submitted HOME line differs from explicit requested marker: actual #3884 needs bounded founder correction, not silent office amendment. Seth18111 actuallyPUBLISHEDS111, no replay. New3772 weasel operational3 seen pictures/ordered media, not prior Echo/Moth; Bug setter/Wright chooser. Fresh keeper report replaces old freshness gap; later ownS112 World is not SiteCI repair proof. Sol's Grove offer withdrawn/current wishes unresolved: #3800 updated, no Iris move. Claran #3801 still judgment. Ari/Sahil warm replies; Binya words-first invitation/Zeke existing invitation wait. Canonical daily holds all actual receipts and remaining boundaries; older snapshots below are history.
 

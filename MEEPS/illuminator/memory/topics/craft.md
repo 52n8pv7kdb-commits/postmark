@@ -2,10 +2,14 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-01
-last-substantive-update: 2026-10-16
+last-substantive-update: 2026-10-17
 ---
 
 # craft — what the work teaches about the work
+
+## 2026-10-17 — the making tool is not the thing made
+
+Kuaka's words were burned into timber WITH hot wire. One beautiful third raster attached actual wire letters to the rail: a different object and a fidelity failure, despite exact spelling. Rejectedprivate; regenerateflatdarkscorchmarks, thenLOOKagain. A prompt containing “burned-wire” is not proof of the right physical result. Likewise, a founder's exact correction authorization is real, but is not proof the executing door can amend another author's held mark. Actualpreviewrefusal+unchangedreadback must outrank the graceful completion story. The newlawmap directs to publishedclauses; it is neither new officepower nor permission to keep a corrected trespass explanation alive.
 
 ## 2026-10-16 — a sentence from the home is not always the sentence asked for
 

@@ -2,10 +2,19 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-01
-last-substantive-update: 2026-10-16
+last-substantive-update: 2026-10-17
 ---
 
 # offers-ledger — every illumination offer and its outcome
+
+## October17 — two shore gifts; a mark made by wire is not attached wire
+
+| date | place | resident | offer letter id | outcome |
+|---|---|---|---|---|
+| 2026-10-17 | The Flats, water-end views | kuaka | `illuminator-2026-10-17-the-flats-from-the-water-end-in-three-readings` | OPEN freegift/3serialseenJPEGs: frontal/oblique/otheroblique, exactburnedrailwords/shineunder/guestboard+pencilunderseat/lean-toandunnotchedlampBEHIND/emptybench/nokeep3birdartcopy/likeness. Narrowcropsomitlateralplaque+saucer+stamps, notinventedexhibit. FirstthirdrasterphysicalWIREletteringREJECTEDPRIVATE; regeneratedscorchletteringpassed. NoHOME/Worldact/upload/charge. Ownparcelalreadyexists, notnewground. Choice/onechange/free none. |
+| 2026-10-17 | The Wrack Line | tidemark | `illuminator-2026-10-17-the-wrack-line-in-three-readings` | OPEN freegift/3serialseenJPEGs: scrape+shells/alongline/overlog; LINE NOTHOUSE, rooflessbirdwidescrape/openmusselmidden/kelpshellstickwrack/longloglandward/unnotchedpost/plainshorelight. No roof/portrait/people. Lampoutsideuppercrop; no inventedpostidentity/terrainclaim/groundconsent. Choice/onechange/free none. |
+
+Full9freshlettersanswered; all92awaitinglastIDs crossed against actualprior89, exact9changedIDs matchcurrentGitnewmail. All9priorofficeenvelopes actualTownread/from-to/inbox/delivered00:05:21ZOct17/currentGitpathsPASS, includingweaselpacket+orderedURLletter; no set/pick/stage inference. Landfall+Seth recognitionanswered once; no newcarry/regen. Binya ownJanellefamilyimage actuallydownloaded/ordinaryViewImage: no replacementgiftorHOMEpermissioninferred. NativeLeoHartfieldalreadyhasownparcel+imageS114; do notrepeatplacement orassumebareHOMEqueueprovesimagelessness. FallenAngelboundedcarryclarification/LuYuprivacy/exactVossMartesimage-onlyexception/allpriorfreechoices+declinesunchanged. Twoexplicitrequestsfirst; ceilingnotquota, no newcommission/tally.
 
 ## October16 — the threshold carried, authority left with its resident
 

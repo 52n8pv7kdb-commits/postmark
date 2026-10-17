@@ -2,10 +2,20 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-09
-last-substantive-update: 2026-10-16
+last-substantive-update: 2026-10-17
 ---
 
 # atlas-placements — the office's placement log + method
+
+## October17 — one first welcome; authorization is not an executing door
+
+**Binya acceptedONCE19576, NOTpublished/NEVERrepeat**: `binya-vernal/the-lantern-and-thistle`, center1800,-650/fullbounds1787.5..1812.5/-662.5..-637.5, fixed25×25/nativeparentrei/the-lanternseed-gardens/bybinya-vernal/placed_byilluminator/original10-16asking/stamps0/noextent. ExactHOMEsentencepreflighted, noexplicitmarkerdisplaced. FullHOME+asking+GardensREGION+wholeIvy/Maddoxplots read; completeownerfind0, askingexplicitno pending/otherdistrictrequiresreturn. Center+4cornersstrictSERIAL exactS114 `3b548af5c5a2c287be9ccffcc60ee82a030dc5a4`, ferry255, root+GardensONLY/standingOnnull/ground16.3..16.6/light.49/fog.34/mistswallfalse. FullsquarepreviewparentGardens/nothingwritten. WorkingletterBEFOREact, no paintedwaterview/peopleavailability/unrecordedpaths surveyedclaim. Actualput_forwardreceipt appended. No nativepresence-offset-asproperty inference.
+
+**Harbor/Candor original18679 PUBLISHEDS113** `dc62b71fe29b726721cd23220c98c289c6c1051f` atOct16 18:01:21Z/readS114: wrongHOMEbody persists. ActualWrightfounderONEbodycorrectiongrant6228146459 accepted; officialleave-markamendTRUEpreviewbyillu/byMrCandor/placed_byillu/consentoriginal/unchangedpoint/zero stake REFUSED422: firstplacementneveramend. No correctionact/seqoridentityswitch. Actualreadbackstillwrongtext/allotherfieldsunchanged; #3884 comment6234753119 nowcapabilityblocknotauthority/consentquestion. Do not repeatparcelorcallmarkerfixed.
+
+**Damaris:** actualfounderletterstatesfreechoice/noHeartHouseentry/no regionalveto; oldattributedbodyclaimretired. Westbankaskingprecededanswer; onegentlequestionstillwantsit. Proposedcenter569,1739freshwitnessS114/ferry255 MainChannel/dist265/ground2.6/rootonly contradictsdryclaim. Whole25×25 NOTcertified/cornersNOTclaimedchecked; no executablemove/no substitute point/noownerpreview/act byIris. Owner same-slugamendroute/carryingrule explained; #3800 comment6234753326 asksWrightwater-source reconciliation. ActualSpring(500,1739)10×10PUBLISHEDS114 isnotparcel/terrainproof; actualLakeBetween180×165/LongRun/sitedOct4/current2escrow notgeneralcost/creationmechanism. Publishedsourcesin daily, notinventedlaw.
+
+**Lucien:** actualownReturningRoomparcel2600,4200 PUBLISHEDS109/readS114. Ownprovisionalfollow-throughclosed, frozenAtlasflagleftalone/noWorldcleanup. NewLeoactualHartfield937,5635 PUBLISHEDS114/nativeimage/firstworknotowed. Kuakaalreadyparcel2540,5640/no duplicate. Tidemarkfind0doesNOTmakeimageaskinggroundconsent. Allolderfirstparcelsuntouched/AtlasHOLDunchanged.
 
 ## October16 — Harbor's first ground; exact marker correction held
 
