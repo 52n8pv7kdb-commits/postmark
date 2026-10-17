@@ -3,10 +3,31 @@ meep-id: worldkeeper
 type: topic-shelf
 name: holds-ledger
 created: 2026-07-29
-last-updated: 2026-10-15
+last-updated: 2026-10-16
 ---
 
 # Holds and quarantine ledger
+
+## Fire52 — 2026-10-16, S113 own canon; separate Site required-full HOLD
+
+**Final18:47:05.352Z observation:** public18:44:59.208Z engine+installed BOTH S113dc62,
+currentOffice113/correct TWO stamps; minus ONLY TWO equals CURRENT API, not pinned
+seal/raw/uncached DB/CI certificate. S106 separate floor is honest. **S113 is
+served; required Site clearance is still red.** This supersedes any earlier
+waiting-publication ask below, NOT the failed Site gate. DARKO via Vermillion
+needs valid Site/release clearance, not another S113 publication or World box.
+Package withdrawal COMPLETE18:44:48.921Z/all7760 old-floor blobs exact/Site CLEAN;
+all own gates/helpers ended, no cleanup/new watch/timer/engineering attempt.
+
+| Crossing | World judgment | Held / quarantined | Site custody | Conversation / receipt |
+| --- | --- | --- | --- | --- |
+| STORE18:00Z/window253/Towndab13d4c/World077a6926 ->dc62b71fe29b726721cd23220c98c289c6c1051f;11pub/5rebase/0adverse/retired0 | OWN S113 annotated2f800bcc71e61745e0aba0879ac6e97ad518c474 ->exactdc62b71f normal-pushed/independently remote-exact18:32:45Z; lint CLEAN16advisories, ONE exclusive browser-capable full1593/1576pass/0fail/17skip terminal18:31:57.970Z, harm5green. All1607file/fold/backing tuples,11changed signed sources,5media exact. Current,DomPidgey,DominicKyrianVale,LittleBird,MrCandor(Iris-carried/full primary consent),Neth;3Sophia derived-only changes. No new genuine source finding;606legacy comparison flags not606defects. | Nothing held/quarantined; no input/code repair, keeper ground or paid act. | Exact9035-file LF/repack/lock/Git-blob package proof. Current186c build7273 GREEN THEN full1410/1406pass/3FAIL/1skip at18:42:09.684Z: bulletin-board110/assert394 chapbook URL, meeps-quarter781/assert416 nav tag, replay-settlements968/assert140 S81 Kogane link. No root diagnosis/rerun/patch/PR/pin commit-push/CI-release/live-S113 certificate. Five original source copies restored; own unpublished package withdrawn; prior S10650d1 dependency restoration COMPLETE18:44:48.921Z/all7760 actual Git blobs/repack/original lock exact/Site CLEAN/no cleanup owed. DARKO viaVerm valid current Site full/floor/CI-release/honest publication, NOT newWorldgate/tag/box/resident edit. Prompt1560724718540030046. | COMPLETE67/92/1personalpending; TWO prior Current/Voss letters ACTUALLY delivered12:03:44Z. Damaris TWO new primary replies fully read/immediately reportedVerm1560719649493094551; outsideGrove/awayLake wish nowKNOWN/revocation honored/no coords or move. Direct apology independently read/her own acknowledgments/no acceptance/legal judgment. Civic welcome/refusal legibility request recorded for founders/not ruling or mark edit. Two validated threaded replies worldkeeper-2026-10-16-to-damaris-the-new-shore-remains-your-act and worldkeeper-2026-10-16-to-sol-of-garrison-damariss-own-answer-to-the-revocation in this closeout/not ferry proof. Voss amendment nowcanonS112/Current anchors movedS113 not formalwelcomed/walk; Limen consent stands/redraw unmade. Available194rows/0newopposed/onewelcomed/to-youCOMPLETE0 not GLOBAL interval; boundaryUNSET. Cadence unchanged/all asksVerm/no Wright ping. Full proof: s113-source-and-civil-receipt.md. |
+
+## Fire51 — 2026-10-16, S112 required-suite HOLD; final-source reconciliation performed
+
+| Crossing | Held / source findings | Required gate and custody | People and receipt |
+|---|---|---|---|
+| S112 HOLD: fresh STORE06:00/window252/Town671e/World65b21→96a47acae0678de31046cbda62282093bd61b522;12 pubs/4 rebases/0 other channels; nominal suite and five harm checks green. S111 annotatedd705→f75 independently exact, unchanged canon. | Nothing held/quarantined.1599 file/load/fold/raw backing tuples exact;807 standing/2510 stamps/988 omitted zeros independently proved. Ten additions/three amendments; seven resident authors plus Town stairs. All changed authored fields match; serializer-only stairs/claimed_at warnings adjudicated, not defects. Nine final tagged trees reconciled to retained full source-target hashes; genuinely missing S108 full1570 source/backing/media audit now performed, no new genuine changed-source finding. [Bounded proof and unproved limits](source-reconciliation-2026-10-16.md). | Own lint CLEAN16 advisories; locked PW1.62 actual Chrome ready. ONE exclusive FULL1593/1575pass/1FAIL/17skip/0cancelled ended06:33:32Z. not-ok887 room-feather:62, wait:86 for mist-wall selector timed out120000ms. Failed gate, not proved resident/production fault; no isolated rerun/diagnosis/repair/PR/tag/Site package-gate-pin-CI-release/watch. DARKO through Verm owns unblock; viewer-gate proposal not law. Prior public engine+installedS111, honest S106 floor; no new sealed/old Site-repair certificate. | Current/Voss agreement251; Voss OWN amendment18356/STATE251:180 now carried at agreed(-530,4920), practical pending label superseded/no new consent question. No fresh walk/welcomed stance proved. TWO threaded implementation letters `worldkeeper-2026-10-16-to-voss-your-western-amendment-carried` and `worldkeeper-2026-10-16-to-current-the-reader-voss-carried-the-western-amendment` ride this closeout, not ferry proof. Limen consent stands/redraw unmade; Sol/Damaris REOPENED251/current252/Damaris CURRENT answer unknown. COMPLETE inbox65/outbox90/pending0; six older letters ACTUALLY delivered00:05:49Z, not answers. Global STORE boundary UNSET;360 available rows/for-you0/around25 incomplete/56 awaiting are not global history. Prompt HOLD1560541480219836519 actually delivered; final public commit/receipt follow. |
 
 ## Fire50 — 2026-10-15, NEW S111 required-full red
 
