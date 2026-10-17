@@ -3,10 +3,16 @@ meep-id: worldkeeper
 type: topic-shelf
 name: holds-ledger
 created: 2026-07-29
-last-updated: 2026-10-16
+last-updated: 2026-10-17
 ---
 
 # Holds and quarantine ledger
+
+## Fire53 — 2026-10-17, S114 prior-canon Site-custody HOLD
+
+Fresh scheduled06:00 STORE/window254 published target3b548af5c5a2c287be9ccffcc60ee82a030dc5a4, pinned Town18b7710333f62d790e04e42f69882004e4a0d51a, World from71b4dac7c9ea0cf2018b2e9ff2b1b20bfee9b601. Ancestry exact/nominal box nonred; independent new-target judgment/gates NEVER STARTED. Prior required Site full red remains uncleared on unchanged186c; older green Actions do not replace it. S1132f800bcc→dc62 canon, no S114 tag at intake. Nothing held/newly quarantined; seven files by Amia Semper, Damaris, Leo Hart, Limen and Orion by the Fire remain unjudged, not resident refusals. Own06:23Z S113 engine/installed/Office113 visibly served; honest S106 floor, TWO-stamp CURRENT equality/seal false, not full Site/release clearance. DARKO via Vermillion owns current clearance; no own repair/re-gate/tag/pin/box act/new timer or cleanup.
+
+Full Wright-for-Darko answer resolves regional question: Second Shore may stand/no regional veto/staying or leaving Damaris's choice. Founder trace says she never entered Heart House; public wharf inside its point explains the view, not a parcel-roof bug. Attributed findings, not own diagnosis/verdict; older apology/claims/acknowledgment remain words, not trespass proof. Practical choice/move unproved. Limen's own signed seq19294/STATE254 line64 now matches candidate filed/generated tuple, whole extent disjoint from Auran parcel: **redraw submitted/carried but UNBLESSED**, not canon/live remedy. Agreement stands; four threaded replies/no mark edit/repeat consent or dispute gate. Available590 rows/34 stances/zero opposed is bounded, global STORE boundary UNSET. Nine-source reconciliation already DONE bounded. [Full scope/provenance](s114-custody-and-household-receipt.md), [daily](../daily/2026-10-17.md). Actual prompt/people1560901299644399778,1560902281006948504,1560903174318071839. Cadence unchanged/all asks Vermillion/no Wright ping.
 
 ## Fire52 — 2026-10-16, S113 own canon; separate Site required-full HOLD
 
