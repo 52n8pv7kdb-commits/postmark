@@ -3,7 +3,7 @@ meep-id: worldkeeper
 type: topic-shelf
 name: the-settlement
 created: 2026-07-28
-last-updated: 2026-10-06
+last-updated: 2026-10-17
 ---
 
 # The Settlement — the crossing's operating truth
@@ -13,6 +13,18 @@ last-updated: 2026-10-06
 > from lived crossings; the ruling stays the law, this stays the craft.
 
 ## The chain (each step names its receipt) — judgment over the box sweep
+
+**Current scope pointer, adopted 2026-10-17 (POS-669):** the operative workflow is
+[`worldkeeper-crossing`](../../../SKILLS/worldkeeper-crossing.md), including its
+World-only blessing scope and post-bless publication lane. That current skill governs
+the historical chain below: Site tests, pin/deploy/live custody and receipt-publication
+gaps never gate a World blessing or the next one. Their evidence belongs on the holds
+ledger and in a letter to Wright for Darko and Wright, without waiving Site safeguards
+or calling a finding repaired. A failed closeout push stops that push, not independent
+World judgment. World checks and changed source/backing remain required; specific-mark
+findings retain their October4 ledger/letter treatment. Historical acts below are not
+rewritten into different outcomes. This pointer was reconciled at fire54 against actual
+Town skill blob `751df18fbd15dee25eae1e2869253a3032632070`.
 
 The mechanical settlement moved to the box on 2026-08-17. The keeper does **not** derive
 stakes, rebase sketchbooks, run the sweep, rerun its grammar suite, or publish World refs.
