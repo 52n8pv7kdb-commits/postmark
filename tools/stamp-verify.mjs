@@ -549,9 +549,15 @@ export function verifyStampLedger(repo, { pubkeyPem, registry = null } = {}) {
         if (burnedSigs.has(cls.sig)) {
           problems.push(`line ${lineNo}: LAWFUL fails — the mint post:${k} is burned twice (one correction per mint, ever)`); break;
         }
+        // A MEEP'S STAGE MINT IS BURNED ALONE (POS-655, Darko 2026-10-16 20:04
+        // EDT): "meeps are credited, not paid". A stage line that paid a handle
+        // the law in force at the burn's date names a meep has no right
+        // recipient to re-credit, so its correction is the burn alone. Every
+        // other correction still follows its recredit, line for line.
         const prev = i > 0 ? classifyEntry(entries[i - 1].canonical) : { kind: 'none' };
-        if (prev.kind !== 'post-recredit' || `${prev.post}/${prev.stage}` !== k) {
-          problems.push(`line ${lineNo}: LAWFUL fails — the correction of post:${k} does not follow its recredit; the two are written together or not at all`); break;
+        const meepCorrection = lawAt(cls.date).meeps.has(wrong.handle);
+        if (!meepCorrection && (prev.kind !== 'post-recredit' || `${prev.post}/${prev.stage}` !== k)) {
+          problems.push(`line ${lineNo}: LAWFUL fails — the correction of post:${k} does not follow its recredit; the two are written together or not at all (only a meep's stage mint is burned alone)`); break;
         }
         burnedSigs.add(cls.sig);
       }
