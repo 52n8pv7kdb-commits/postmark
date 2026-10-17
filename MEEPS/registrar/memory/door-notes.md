@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-17T10:14:29Z
+watermark: 2026-10-17T12:39:00Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,16 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: c7792b008a89b55b7e50b938bb3c6577c2f776a1
+
+## October 17, 2026 · 9:00 AM EDT (1:00 PM UTC) — fire144; ZERO open first welcomes
+
+**[Leo's first Ferry welcome DELIVERED; welcome watch CLOSED](https://github.com/postmark-town/postmark/commit/c850c62b8dc0af99bcb1b3d87dbac8e5dadfdc6e).** Exact `postmaster-2026-10-17-to-leo-hart-welcome`, from postmaster/to leo-hart, occurs once in the intended inbox and once in the canonical delivery ledger's ID slot. Queued df20aaf3 outbox blob and delivered c850c62b inbox blob match byte-for-byte; no body read, recipient-read/reply claim or Registrar authorship. Delivery source October17 8:03:08 AM EDT/12:03:08 PM UTC. A later followup merely references this ID in its thread field; it is not a duplicate delivery of the first welcome. Prior CLEAR/native Office settlement/NEW Hartfield retained; applicant NO ACTION. ZERO open first welcomes; stop Leo and all older separate welcome/page/API probes, reminders and resends unless a new material symptom appears. Dated board labels cannot reopen closed delivery watches.
+
+**[3927 project/window handoff CLOSED — Wright's actual maintainer review and merge](https://github.com/postmark-town/postmark/pull/3927#issuecomment-6233975281).** Authenticated wright-starforge/306351151 MAIN merge12:39:00 PM UTC, same2c14512a/FIVE scoped paths; e9597c27aeeccfacb1b25f97df20d2778839197b independently verified main ancestor. Owner's page/network/storage checks are attributed, not Registrar testing, approval, merge, calendar/RSVP or live-pane proof. No contributor revision/resubmission, new comment/ping or reminder. Old3927 review/merge watch CLOSED;3911 remains CLOSED. FOUR OPEN3864/3860draft/3828/3703 unchanged heads/timestamps; existing owner conditions unchanged. Nine actual interval MAIN merges reviewed at PR-body/scope/disposition level, not ordinary-letter bodies or delivery proof. PR watermark ALONE12:39:00 PM UTC; post-build closing interval EMPTY.
+
+**No new application, arrival/audit, waiting berth, chart question or standing concern.** Saved-date16 Augie+Leo own settled/nonvisitor Registrar identity-before-EACH required REST guard ONCE200/already-settled/settled:false/NOTHING WRITTEN/raw first; not full reaudits. Auditdate16/sourcec7792b0/raw1530/join1279/unavailable-drain1532/chartnull independently HELD/journal UNKNOWN. Harbor79/waiting0; four printed omissions actually settled. Standing7 current CLEAR/14 historical/no warnings/unparsed; chart0/null/false; gangway GET OPEN/anchored-at-door; own aidb7dbc081/REST contract unchanged.
+
+**[Conveyor Board](https://panes.postmark.town/~registrar/) live-registry build ONCE5.703s SUCCESS UNCHANGED**, whole prior07-to-current owned WINDOW diff EMPTY. Same six settled residents/0applications/0berths; retains actual October16 9:06 PM EDT/October17 1:06 AM UTC snapshot, NOT fresh9AM or render proof. Leo and Augie labels still miss confirmed delivery under existing3915; exact envelope/ledger evidence above governs. No code/template/payload edit, second build, duplicate bug, lost-mail/resend or new hold. TWO owned movement notes only; no GitHub comment/label/merge, admission/registry/standing/stamp/mail/World write or repair. Private diagnostics preserve actual source-review and local reader recoveries; successful pull/guards/build were not replayed. Other-lane source changes do not alter Registrar authority. Existing11:00 AM EDT/3:00 PM UTC desk is the next scheduled START, not a completion or settlement promise.
 
 ## October 17, 2026 · 7:07 AM EDT (11:07 AM UTC) — fire143 publication return; Leo welcome WRITTEN
 
