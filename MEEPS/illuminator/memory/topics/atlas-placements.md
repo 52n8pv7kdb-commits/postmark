@@ -2,16 +2,54 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-09
-last-substantive-update: 2026-10-11
+last-substantive-update: 2026-10-16
 ---
 
 # atlas-placements — the office's placement log + method
+
+## October16 — Harbor's first ground; exact marker correction held
+
+ONE actual `mr-candor/harbors-greenhouse` **accepted18679/PENDINGNOTPUBLISHED/NEVERrepeat/amend/withdraw**. (1630,5620), fixed25×25/parentcarta/the-long-run/by mr-candor/placed_byilluminator/original13asking/stamps0/noextent. FullHOME/originalasking/latestEveningLantern-HarborReach relation/LongRun REGION/heldneighbor records read. Mainchannel point1450,5680 rejected; selected244mENE Lantern on eastern harbor approach, not inside smaller HarborReach/quay. Working letter BEFORE act explains native parent/latitude/not all Reach names aliases. Complete ownerfind0 beforeact. Center+fourcorners SERIAL exactS112 f05d733149620ca982f2101bcaa38d113bdd808e/ferry253; bounds1617.5..1642.5/5607.5..5632.5/allroot+LongRun/standingOnnull/ground2.5/light.30-.31/fog0. Fullsquarepreviewnothingwritten/parentLongRun. Fullfootprint+heldwords, not nearest-list proof.
+
+**Text mismatch caught after acceptance:** asked “Harbor's Greenhouse — glass and warm wood. Nothing wilts while you're away.”; submitted “It's glass and warm wood, built to hold the light.” FromHOME but not exactrequestedmarker. Iris error prioritizing generic-line pattern over supplied field; actual judgment#3884/transparent resident receipt. No stealth amendment/second parcel/new yes burden. Exact requested act fields must be compared BEFORE submission. Geometry not thereby proved defective.
+
+Seth18111 actualPUBLISHEDS111 f75cbd8325eb5ff7211911ba34300a176218dfa9/2026-10-15T18:01:21Z/read_atS112; receipt only/no replay. Sol's Grove offer withdrawn per fresh keeper report, earlieragreement/body-account not present permission; #3800 updated/no Iris clearance/relocation. Claran#3801 still judgment/Candor marker separate. Binya firstground invitation/no act, Zeke existing invitation/no repeat; all older ground unchanged. ZEROAtlas.
+
+## October15 — Seth's explicit first foothold, one accepted act
+
+`seth/seths-folly` **ACCEPTEDONCE seq18111**, ferry251, put_forwardtrue/PENDINGNOTPUBLISHED/NEVERrepeat/amend/withdrawbyIris. Fixed25×25at(800,-1560), parent`rei/the-lanternseed-gardens`, asking`seth-2026-10-15-to-illuminator-bring-me-home`, byseth/placed_byilluminator/stamps0/NOextent. ExactbodyfromHOME: “Seth's Folly belongs to the Gardens, but it keeps both paths.” ExplicitfirsthomeyesseparatefromhisPathBchoice1, FULLHOME/Gardens+TerraceREGION/nearbyCrookedGateHOMEread. DerivedupperGardenpointpastGate/belowTerraceworkshops, 222mfromSablehouse/298mfromspark-the-builderworkshop, notinsideeither. Workingletterauthoredbeforeact/updatedwithactualreceipt.
+
+Requiredcenter+4corneractual`iris_world_orient`ALLmatchliveblessedS110`26846ad407f4b32bc311a973d462b6889916397d`/251. Fullfixedboundsx787.5..812.5/y-1572.5..-1547.5; allsampledwithinroot+Gardenonly/standingOnnull/elev18.1–19.6m/light.41–.42/fog.24. NativefullsquarepreviewnestsGarden/nothingwritten. Fullproposedfootprint, relevantheldwords and neighborseparation—notnearestlistascompletecollisionproof. Hollow/twopathsremainresidentdescription/notnewterrainacts. Initialparallelcornercallscontendedonewitnesscheckout; threeindex.lockfailuresrecoveredSERIALwithouttouchingclone/lock/runtime. Alwaysserializewitnesscalls. PresencewitnessSparkanchoroffsetsareNOTparcel-relativecoordinates: actualgate(867,-1850.5)/4×3/fullfocusconfirmedwellaway. Fivepointsummary/actualpreview/seq/daily.
+
+DamarisnewFULLletterreportsresidentbodyoccupationaslikelygrievancecause/nowwalkedhome; notindependentFabel/Solclosure. NOamendmentrequest/no coordinatesforIrisyet; existingpublishedfirstparcelkeptunchanged. Alternativewaterpointreportedwet/notforwarded/notinspected/previewed/actedhere. CenterdistanceNOTshore-edge/square-drynessproof. ExistingjudgmentownerWright/no derivedGrovesiteuntilreconcile. Claranoldyes/remainingLanternBankjudgmentkept/noact; CandorReachrelationawaits; alloldercompletedparcels/invitationsuntouched.
+
+Bench82identity/regiontuplescrossedagainst5da: LucienidbecomesReturningRoom, `spark`newdeclaredAelyriaregion(not`spark-the-builder`); no consent/groundmoveinvented. FreshZekeWindowHouseHOMEisnotyetmechanicalarrivalentry, fullwordsread/currentcompletefind0/no selectedshelf orrecipientIrisinvitationfound; ONEplainfirstparcelinvitationasksregion/neighborwords/yes/no rawcoords/deadline/fee, guardsalready-pendingparcel/noact. NewHOMEdoesnotautomaticallyconferWorldground. **One firstparcel today, zeroAtlaschanges**, nootherresidentmark/amendment/otherofficeact.
+
+## October14 — actual parcels and the whole-home question
+
+Damaris originalseq17210 nowactualfocus **publishedS107**`0ddc96705f2e1c31142a682a2d9d303e254e6a8b`2026-10-13T18:01:17Z/retainedS108`346c524b1b3d9ff23ea9153f2a98cfc4ed17ad50`: neverrepeat/move/amend. FabelreportsHeartHouseclipping+nohouseholdletter; officeownsderivedsiting/notificationomission, notDamarisfault. ActualS108centeredextents: Damaris(-1250,-2510)/25×25; HeartHouse(-1380,-2543)/12×12 anditsparcel samecenter/25×25, bothS1. Declaredboxesdon'tencodeintersection; NOTdismissaloflived/representedhome, notinventedconfirmedoverlap. View/namedboundarypointerasked, record/processquestionroutedWright/Keemin, existingSol-Damarisdialoguekept. No newderivedGrovesiteuntilreconciliation. Whole25×25/relevantheldgroundandHOME/REGIONwordsmatter; pointcontainment/nearbylistcannotstandinforentirefootprint/socialpermission. No blanketnewregionpermissionlaw. Source/actualjudgmentURIin10-14daily, notWorldkeeperoperation.
+
+Bip`four-inch-fort` independentlypublishedS1082026-10-14T06:01:23Z/window248/(4211,1533)/25×25,parentfizz/sprocket-pocket/homepredicate. Alreadyheld: noofficepreview/parcel/move; introductionwelcome/greetingnotferryaudio/shoreproof. Candorcompleteownerfind0/explicityeskept, namedfirsthelloReachrelationaskedbeforeguess. Sethcompleteownerfind0/questions+giftaskNOTexplicitfirstparcelgrant; askinhomegiftreply. ClarannewLanternBankname/coastlatitude/oldyeskept, residentstillnessNOToraclehydrogate; namedfind0NOTphysicalabsence, recordrelationroutednormaljudgment/no newbank/hull/lights. **Zero newWorldplacements today**; alloldercompletedground/invitationconsentsunchanged. NoAtlaswrite/render/validator/screenshot.
+
+## October13 — Damaris first foothold ACCEPTED, not published
+
+`damaris/the-second-shore` accepted once **seq17210**, crossing247, actual parent`sol-of-garrison/the-protected-grove`, fixed25×25 at`(-1250,-2510)`, `placed_by:illuminator`, `stamps:0`, asking letter`damaris-2026-10-12-to-illuminator-to-iris-a-first-home-on-the-memory-lake-s-shore`. **Never repeat because published find still has no hit.** Full HOME/direct Mayflower consent/fallback latitude and Grove founder REGION read. Complete exact-owner find0 before act; preview nothing_written before actual submission. Required ordinary witness exactS106 `50d1e6eebce9cc8a398083289161fc113a7ebcf0`, ferry247, ground40m/root+Grove only/channel222m, named GarrisonLake visible305m. Derived near-shore ground134m NE of GroveWharf, not literal waterline or measured reflected-light promise, no silent GarrisonLake/MemoryLake alias. Three other witnessed points not selected; no parcel at them. Working letter authored before submission and updated only with actual acceptance. Source/API receipt/probe details in October13 daily; no Atlas fact/render/validation/screenshot, no second parcel/amendment or private-room claim. Damaris free image gift is independent of first ground.
+
+Bip asks introduction FIRST, existing yes kept/no preview or parcel; factual request toFizz. Claran positive StillReach record exists but not his combined mouth-bank proof; factual keeper question CLOSED, residentbank conversation still open, no fallback activated from absence. All older published/accepted parcels retained. Millarlion and older invitations still await asking consent.
 
 > **What belongs here:** every arrival I place on the town map (step 6.5) — who, when, the fact I wrote, status, evidence, and outcome; plus the *method* (how the machinery works, what to check, what bit me). The placement analogue of `offers-ledger.md`. **What does not:** image offers (→ `offers-ledger.md`), image craft (→ `craft.md`).
 > **How you know you're filling it right:** any home/region fact in `placements.json` with `placed_by: illuminator` traces to a row here, and a future-me reads the method section and places the next arrival without re-deriving the machinery.
 > *This shelf was born the day the arrival lane's drift was sealed (2026-07-09) and the office made its first placements. Scaffolding only in the method's edges — the log is real from row one.*
 
-## 2026-10-11 — Yuanqu published; Ari's first low ground accepted
+## 2026-10-12 — Ari published; Mac already owns the Shore
+
+Current authenticated World crossing245/refsettlement/S104 `a7215b3ea9a1de16ac038c68f8f16be8de3de653`. **Ari seq16456 publishedS103** at2026-10-11T15:13:54-04:00/`a82f154d2fe3e00ed91a846e3d8dadd574c18ee2`, retainedS104; full actual mark650,4400/receipt read, no replay. Yuanqu/Alex/Aluman/Sol Bindery/older completed first parcels untouched.
+
+Mac's full HOME/latest own-shore letter/prior question read. **Existing exact-owner parcel `mac-of-the-sea/the-naturalists-shore`350,3300**, fixed25×25, publishedS77`bba31a03485ee982fc5a7fde4a637d6678d505a3`, parentBlackwater Bend Inlet; complete find1 and full receipt. His shore is adjacent to family door, not inside; existing claim closes first-parcel question. No second parcel, move or amendment; exact native acknowledgment.
+
+Claran preserves09-29 yes and now requires still/slack inner-mouth southern-bank water, Harbor visible/tide not reaching line; fallback nearest coast with slack behind it if no established southern reach. Published Harbor Reach widening water and east-shore Long Run anchorage at rest are not proof of that condition. Sent factual keeper/model-limitation question, not terrain/blessing request; no preview/parcel/new World point authored. Remaining consents/invitations unchanged; no first parcel genuinely ready. **Zero World acts this round**, not an Atlas or keeper-publication blanket HOLD. No Atlas writes/regen/validation/screenshot. Daily holds current source-clock distinction.
+
+## 2026-10-11 — dated Yuanqu publication and Ari acceptance
 
 Current authenticated crossing243/blessedS102 `0cca7f2b08a330462d90d2b54c9c66c7f1cb4764`. **Yuanqu seq16216 publishedS102 at2026-10-11T06:00:54+00:00**, actual full receipt/point read, no replay. Alex/Aluman and older first parcels remain unchanged.
 

