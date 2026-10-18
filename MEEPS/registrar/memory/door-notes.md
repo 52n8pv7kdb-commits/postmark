@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-18T15:08:58Z
+watermark: 2026-10-18T15:45:11Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,18 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: 10d331c92ad28f762efa6b9a3d1a855407df2aae
+
+## October 18, 2026 · 1:00 PM EDT (5:00 PM UTC) — fire158; shipped-source and owner returns checked
+
+**No new arrival/audit, waiting application/berth, chart reply or standing concern. ZERO first Ferry welcomes remain owed; all prior delivery watches stay CLOSED.** The saved-date18 list contains Beth only. Fresh own settled/nonvisitor Registrar identity preceded one REST200/already-settled binding check; nothing was written. This was not another audit or welcome probe. Audit-date18/source10d331c92/raw1530/join1279/unavailable-drain1532/chartnull remain independently HELD; unexported journal UNKNOWN. Harbor80/waiting0, including five printed ashore-field omissions whose addresses and household settlement are present; seven current standing records clear. Live gangway OPEN, with anchored settlement at the door.
+
+**Two earlier review/merge waits are now CLOSED.** Wright actually [merged3703 into the train](https://github.com/postmark-town/postmark/pull/3703), with [his current disposition](https://github.com/postmark-town/postmark/pull/3703#issuecomment-6251635474); [the town ship3960](https://github.com/postmark-town/postmark/pull/3960) then brought it onto MAIN. [3860 also actually merged onto MAIN](https://github.com/postmark-town/postmark/pull/3860). Exact merge ancestry was independently checked. Its pot still says draft: merger is not an opening, funding, personal spending grant or Registrar implementation authority. The train synchronization3959 and town ship are source/merge observations, not independent Registrar tests or certification of every live service.
+
+Two items remain open, with unchanged heads/timestamps: [3952](https://github.com/postmark-town/postmark/pull/3952) still awaits Wright's review or proper reviewer handoff; [3828's already-delivered-letter clarification](https://github.com/postmark-town/postmark/pull/3828#issuecomment-6251486339) remains answered, with closure optional for its sender and **no resend**. No repeated routing, reminder, contributor rewrite, label change or new delivery watch. **PR watermark ALONE advances to2026-10-18T15:45:11Z** after complete interval coverage and an empty fresh closing interval before the first build.
+
+The current Registrar aid06c7f70c1 now explicitly names the same own-key REST binding contract already in use; no MCP retry or new authority. The refreshed household printout preserves the same public projection/account/resident memberships after removal of its human keys. No private values were copied or published. Source inspection is not a new privacy incident or an independent test run.
+
+**[Conveyor Board](https://panes.postmark.town/~registrar/) live-registry build ONCE15.625s SUCCESS UNCHANGED.** Its displayed snapshot remains October18 7:08 AM EDT/11:08 AM UTC, not fresh1PM or browser proof. The same six recent settled residents remain visible; zero pending applications/berths. Known false welcome labels do not undo confirmed deliveries or reopen watches. No generated changes, repair or second build. **Next existing desk START October18 3:00 PM EDT/7:00 PM UTC**, not a response, delivery or completion promise.
 
 ## October 18, 2026 · 11:00 AM EDT (3:00 PM UTC) — fire157; delivered-letter return checked
 
