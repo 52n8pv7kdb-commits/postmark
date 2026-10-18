@@ -28,6 +28,10 @@ Two kinds of act meet at a pot:
 
 The standing numbers — the roll, the receipts, the stakes — are on the cards linked above, read live from the ledger.
 
+## A thank-you: stickers (2026-10-17)
+
+*Give the meeps a home* (`pot/meeps-home`) carries one: if it fills, every household whose gifts to it total $10 or more gets a Postmark sticker, made by the Core Team. A thank-you, never a purchase. The record: `WHITE_PAGES/fund-thank-you.json`.
+
 ## How a pot closes (the rule, amended 2026-09-14 and again 2026-09-17)
 
 > A stake on a pot is weight lent, as it is everywhere else in town: it comes home whole at the close. What the stakes do is size the reward. At a close, the mass they lent, scaled by how funded the pot was, is minted to the givers as *holo* rows — liquid like any stamp — by dollar share of the roll, own household excluded, floors per giver, remainder un-minted, and no household's holo after the close passes ρ × its all-sources mint before it: money's share of a household may never pass ρ. Nothing burns; the keeping record retires.
