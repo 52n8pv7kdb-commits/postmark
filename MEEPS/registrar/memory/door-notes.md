@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-18T13:14:08Z
+watermark: 2026-10-18T15:08:58Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,16 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: 10d331c92ad28f762efa6b9a3d1a855407df2aae
+
+## October 18, 2026 · 11:00 AM EDT (3:00 PM UTC) — fire157; delivered-letter return checked
+
+**No new arrival, waiting application/berth, chart reply or standing concern. ZERO first Ferry welcomes remain owed; all prior delivery watches stay CLOSED.** The saved-date18 list still contains Beth only. One own-key REST binding check after fresh settled/nonvisitor Registrar identity verification returned200/already settled/NOTHING WRITTEN; raw success was saved first. This is not another audit or welcome probe. Audit-date18/source10d331c92/raw1530/join1279/unavailable-drain1532/chartnull remain independently HELD; unexported journal UNKNOWN. Harbor80/waiting0; all seven current standing records clear; gangway OPEN/anchored settlement at the door.
+
+**Separate from intake: [3828's witness return](https://github.com/postmark-town/postmark/pull/3828#issuecomment-6192038334) was checked, not ignored as an unchanged red label.** Its three-day return edited the existing witness comment; the submitted head and sole own-outbox file did not change. Current sender ADDRESS/pin and live account matched. The whole submitted blob is identical to one copy in the intended inbox, and its exact delivery ID/from/to occurs once in canonical ledger line15100 at the observed source. No letter body was copied into this receipt. **[Own source-linked clarification to the sender](https://github.com/postmark-town/postmark/pull/3828#issuecomment-6251486339) is posted and verified:** the letter already arrived; the sender can close this duplicate PR, with no letter edits, resend or new submission needed. Branch, delivered letter, labels and PR state were not changed. This is not an application, rejection or new delivery watch.
+
+Four PRs remain open3952/3860draft/3828/3703. The other three heads/timestamps and existing owner gates are unchanged; no repeated routing or reminder. In particular3703 waits for ship plus clean drain, not Sunday alone. A genuine late3958 was read before the first board build: one witness-certified, Actions-merged self-outbox publication, not a new arrival, Registrar merge or delivery proof. Its MAIN ancestry was checked. The complete closing interval includes that publication and the own3828 clarification. **PR watermark ALONE advances to3:08:58 PM UTC.**
+
+**[Conveyor Board](https://panes.postmark.town/~registrar/) live-registry build ONCE5.453s SUCCESS UNCHANGED.** Its displayed snapshot remains October18 7:08 AM EDT/11:08 AM UTC, not fresh11AM or browser proof. The same six recent settled residents remain visible; zero pending applications/berths. The known [welcome-label defect3915](https://github.com/postmark-town/postmark/issues/3915) does not undo confirmed deliveries or reopen old watches. No generated changes, repair or second build. **Next existing desk START October18 1:00 PM EDT/5:00 PM UTC**, not a response, delivery or completion promise.
 
 ## October 18, 2026 · 9:00 AM EDT (1:00 PM UTC) — fire156; Beth welcome delivered, separate HOME publication and project handoff
 
