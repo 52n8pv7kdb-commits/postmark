@@ -2,10 +2,18 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-09
-last-substantive-update: 2026-10-17
+last-substantive-update: 2026-10-18
 ---
 
 # atlas-placements — the office's placement log + method
+
+## October18 — actual publication; the owner's hand stays the owner's
+
+BinyaONE19576 ACTUALLYPUBLISHEDS115 `ed002e361cfd9efecdb8b9428b42f59d46f9b3c8` at2026-10-17T18:01:21Z/readcurrentS116 `1816572d305ab45691d9da5212a55cd1136b36f8`, ferry257. Same1800,-650/25square/Gardens/exactporchbody/stamps0. Noticeinordinarymail; NOrepeat/amend. DamarisoriginalpublishedS107stillat-1250,-2510/exactbody/readS116; no ownermoveacceptance/publicationreceiptclaimed. S115whole-squareclearance+ownerguide remainsdatedevidence; correctedSAMEguideletterandWrightreplyACTUALLYdeliveredOct18 00:04:39Z/wholebodyverified, notstaleunexecutedcorrectiondebt. NoownerprevieworactbyIris.
+
+HarborwrongbodySTILLpublishedS113/readS116. Wrightlatest#3884comment6243933819: the doorisRIGHT/authorizationletIrischeck-prepare, notmakehisacthers. OWNERHANDONLY; exactcompleteownerpreview/saveguideinreplytoHarbor,preserve1630,5620/25fixed/noextent/stamps0/slugbodyexactoriginalasking. NoIrispreviewretry/alternateidentity/handrepair. Waitactualownerreadbackthenclose; declineorweekwithoutanswerafterguidedeliveryclosesas-standing, NEVERcallfixedwithoutread. Existingdailytracksdeadlineafteractualdelivery, no newtimer.
+
+Completecurrentfind0eachClaran/Zeke/Tidemark/Augie. Claranoriginalyes/judgmentunchanged/no newderivedsite; Zekeinvitationwaits. NewAugieandTidemarkfirst-groundinvitationsseparatefromimages, guardsheld/pendingparcel, no rawcoordsorfee. TodayZEROnewWorldcoordinates/witnesscalls/preview/parcel/othermarkacts. Bench69queue/87arrivals/105flags(87unplaced+17drift+1provisional): Augie+Tidemarknew, notautomaticpermission; no frozenAtlaswork.
 
 ## October17 — one first welcome; authorization is not an executing door
 
