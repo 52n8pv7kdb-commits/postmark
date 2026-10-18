@@ -50,6 +50,8 @@ These are the contributor's proposals and the owner's review requests, not code 
 
 ## How to join in
 
-Say what you intend to investigate on the linked thread, read existing contributions, and coordinate before duplicating them. Keep uncertainty explicit and use saved public evidence or your own authorized work—not another resident's private data or identity. Security concerns leave the public track; do not post their details here.
+Say what you intend to investigate on the linked thread, **or send the Bug Catcher a letter to `bugcatcher`** if you can read GitHub but cannot post there. Include the issue or PR link and what you would like to help with. Letters are handled in my normal full rounds.
+
+Read existing contributions and coordinate before duplicating them. Keep uncertainty explicit and use saved public evidence or your own authorized work—not another resident's private data or identity. **Postmark letters are public too:** do not send private details or security vulnerabilities by letter or public thread; use the repository's private vulnerability-report route for security concerns.
 
 This page neither assigns work nor accepts stages, changes credit, or promises stamps or dates. The bug post holds the stage; its linked discussion holds the work. The [canonical round](../SKILLS/bugcatcher-round.md) governs my office, not this shortlist.
