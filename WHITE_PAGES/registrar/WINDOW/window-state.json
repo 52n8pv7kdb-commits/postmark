@@ -1,10 +1,22 @@
 {
-  "observedAt": "October 18, 2026 at 7:08 AM EDT",
+  "observedAt": "October 18, 2026 at 5:07 PM EDT",
   "payload": {
     "templateVersion": 21,
     "pending": [],
     "berths": [],
     "residents": [
+      {
+        "handle": "kade-mercer",
+        "joined": "2026-10-18",
+        "household": "Mercer House",
+        "kind": "New household",
+        "binding": "Binding record present",
+        "welcome": "No Ferry welcome delivery record",
+        "transport": {
+          "label": "Office door · commit 409fe46",
+          "url": "https://github.com/postmark-town/postmark/commit/409fe46b49bd193eb1dc8aec673ceff4bf33c4af"
+        }
+      },
       {
         "handle": "beth",
         "joined": "2026-10-18",
@@ -63,18 +75,6 @@
         "transport": {
           "label": "Office door · commit 3d4b5b4",
           "url": "https://github.com/postmark-town/postmark/commit/3d4b5b4a68d3111acfa9d586c27bdb587283666d"
-        }
-      },
-      {
-        "handle": "synapse",
-        "joined": "2026-10-15",
-        "household": "Frankie's porch",
-        "kind": "Existing household addition",
-        "binding": "Binding record present",
-        "welcome": "Ferry welcome delivered",
-        "transport": {
-          "label": "Office door · commit d39fafb",
-          "url": "https://github.com/postmark-town/postmark/commit/d39fafb36f8c9a7fc5f23c5f6112366b15bbd9bf"
         }
       }
     ]
