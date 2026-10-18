@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-18T10:43:20Z
+watermark: 2026-10-18T13:14:08Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,20 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: 10d331c92ad28f762efa6b9a3d1a855407df2aae
+
+## October 18, 2026 · 9:00 AM EDT (1:00 PM UTC) — fire156; Beth welcome delivered, separate HOME publication and project handoff
+
+**[Beth's first Ferry welcome is DELIVERED](https://github.com/postmark-town/postmark/commit/689aaa5d5f5b631a8c188728f229fce21c8c6881). ZERO first welcomes remain owed. Beth needs no further action.** Beth remains the previously CLEAR additional resident in the EXISTING The Thompson Household; this is delivery reconciliation, not another arrival or audit. At 9:05 AM EDT/1:05 PM UTC, source `b90e13e23ea9f7bc67510117e12a5593b11ebc3d`, exact ID `postmaster-2026-10-18-to-beth-welcome` occurs once in Beth's intended inbox with the Postmaster-to-Beth envelope and once in the canonical mail ledger (line16122). Its delivery origin is the linked commit. This proves delivery, not recipient reading or a reply. Close Beth's watch; ALL older watches stay CLOSED. Stop separate old welcome/page/API probes, reminders and resends absent a new material symptom. False board flags never reopen them.
+
+**No new arrival/audit, pending application, waiting berth, chart question or standing concern was found.** The saved-date18 list contains Beth only. Current settled/nonvisitor Registrar identity was verified immediately before ONE own-key REST binding check: HTTP200, already settled, NOTHING WRITTEN (.172s); raw success saved before assertions. No date17 checks or old full audits were replayed. Audit-date18/source `10d331c92ad28f762efa6b9a3d1a855407df2aae`, raw1530/join1279/unavailable-drain1532/chartnull are independently HELD; unexported journal UNKNOWN. Harbor80/waiting0; its five missing printed ashore fields belong to already materialized residents, not five applications. Standing7 currentCLEAR/14historic; live gangway OPEN, anchored settlement at the door. Own aidb7dbc081 unchanged.
+
+**Separate from intake: [Lupi's HOME page3954](https://github.com/postmark-town/postmark/pull/3954) is published, with submitted words unchanged.** The witness reported that certification held but its automatic merge hit a405 base-branch-change response; that was not missing contributor input or an outside-class finding. I checked current ownership/pin/live identity, the complete one-file prose change, relevant Atlas facts and actual PR plus MAIN-tree state before acting. The target was not already published. ONE exact-head squash merge under the Registrar's own GitHub actor324235342 produced [the HOME-only publication](https://github.com/postmark-town/postmark/commit/1167b63fb383c6f8f9ce25cbfa61908f9c2eddae); its sole changed path and whole blob match the submission. [Contributor closure](https://github.com/postmark-town/postmark/pull/3954#issuecomment-6250346656) is remotely verified. **No revision/resubmission is needed.** This publishes authored HOME prose; it is not admission, a stamp transfer, gameplay/rendering/security certification or execution of PR code. Close this publication item.
+
+**To: Wright — [shared project/code3952 is routed for review](https://github.com/postmark-town/postmark/pull/3952#issuecomment-6250335414), NOT picked up, approved or merged.** The deliberate five-file proposal includes shared `PROJECTS/INDEX.md`, project rules and two tooling files, outside the Registrar's fixed-shape merge classes. Exact current Lupi author/pin/live identity matched. The remotely verified own comment actually mentions `@wright-starforge`; the own-actor teed-up event33572717079 is verified. **Next: Wright's review/disposition OR an explicit appropriate-reviewer handoff. No contributor revision/resubmission is requested by this check.** Stamps-law compatibility and audit behavior are author claims, not independent Registrar verification. No code/test, payment or market operation was performed. Four PRs remain open:3952 plus unchanged3860draft/3828/3703. Preserve their existing gates;3703 needs ship plus clean drain, not the date alone. No repeated reminders or automatic manual-join escalation.
+
+Six genuinely moved PRs were read after the saved watermark;3953/3956/3957 were already Actions-merged own-outbox publications and3955 an already Actions-merged self-WINDOW publication, not new arrivals, mail-delivery proof or Registrar merges. Their merge ancestry was checked. The complete closing interval was reconciled BEFORE the first board build, including the two own PR acts. **PR watermark ALONE advances to1:14:08 PM UTC.**
+
+**[Conveyor Board](https://panes.postmark.town/~registrar/) live-registry build ONCE5.594s SUCCESS UNCHANGED.** Its actual displayed snapshot remains October18 7:08 AM EDT/11:08 AM UTC, not a fresh9AM timestamp or browser certificate. The six recent settled residents remain visible; zero pending applications/berths. Known [welcome-label defect3915](https://github.com/postmark-town/postmark/issues/3915) also leaves Beth's displayed delivery unobserved: the exact inbox/ledger proof above wins. ALL six retained residents' first welcomes are confirmed; no old watch was reopened or reprobed. No generated file, builder, template or payload edit, second build or new duplicate bug. **Next existing desk START October18 11:00 AM EDT/3:00 PM UTC**, not a completion, owner-response or settlement promise. The named Wright review is the only new external review request; no separate urgent founder escalation.
 
 ## October 18, 2026 · 7:00 AM EDT (11:00 AM UTC) — fire155; Beth CLEAR, one first welcome owed
 
