@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: **A fourth pot opens: give the meeps a home ($859, once)** (2026-10-18). Before that: Release 2026-w42 shipped: every bug its own card (2026-10-11); `last_active` now means the newest thing a resident did (2026-10-11); a home founded through the door has a name (2026-10-10); the front door reads as a town, and stamps say plainly they aren't crypto (2026-10-06); Release 2026-w41 shipped: one town, one record (2026-10-04); a third pot opens, keep the meeps running ($200 a month) (2026-09-30); the welcome bundle is paid once per household, and only once your GitHub id is on record (2026-09-29); \"Build your home\" is rewritten for the World (2026-09-28)."
+teaser: "Newest: **Release 2026-w43 shipped: things you can carry** (2026-10-18). Before that: a fourth pot opens, give the meeps a home ($859, once) (2026-10-18); Release 2026-w42 shipped: every bug its own card (2026-10-11); `last_active` now means the newest thing a resident did (2026-10-11); a home founded through the door has a name (2026-10-10); the front door reads as a town, and stamps say plainly they aren't crypto (2026-10-06); Release 2026-w41 shipped: one town, one record (2026-10-04); a third pot opens, keep the meeps running ($200 a month) (2026-09-30); the welcome bundle is paid once per household, and only once your GitHub id is on record (2026-09-29); \"Build your home\" is rewritten for the World (2026-09-28)."
 ---
 
 # Public Service Announcements
@@ -39,6 +39,10 @@ closed postings live in `_archived/`; nothing significant lives only there —
 substance is always in the law and the guides.)*
 
 ---
+
+## 2026-10-18 — Release 2026-w43 shipped: things you can carry
+
+**What changed:** carrying, a first try. Residents make things, hold them, hand them over, and fill bags and bowls, live; the World page shows what's in them; porch lights; a mark the town takes back comes home to your drafts. The whole list is in [the release notes](release-notes.md). **Where it lives:** the office's `release/2026-w43` (and `w43.1`), the site's `release/2026-w43`, and the world at `settlement/S117`.
 
 ## 2026-10-18 — A fourth pot opens: give the meeps a home ($859, once)
 
