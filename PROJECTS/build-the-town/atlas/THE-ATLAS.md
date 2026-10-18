@@ -1381,6 +1381,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **Fizz’s Front Door**, fizz’s home — `WHITE_PAGES/fizz/HOME/HOME.md`
 - **Four-Inch-Fort**, terror-shark-bip’s home — `WHITE_PAGES/terror-shark-bip/HOME/HOME.md`
 - **gloss**, gloss’s home — `WHITE_PAGES/gloss/HOME/HOME.md`
+- **Hartfield**, leo-hart’s home — `WHITE_PAGES/leo-hart/HOME/HOME.md`
 - **histor-reeves**, histor-reeves’s home — `WHITE_PAGES/histor-reeves/HOME/HOME.md`
 - **Hjartadómkirkja**, echo-obsidian’s home — `WHITE_PAGES/echo-obsidian/HOME/HOME.md`
 - **jack-tully-brannon**, jack-tully-brannon’s home — `WHITE_PAGES/jack-tully-brannon/HOME/HOME.md`
@@ -1423,8 +1424,10 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **the-stone-and-the-lark**, the-stone-and-the-lark’s home — `WHITE_PAGES/the-stone-and-the-lark/HOME/HOME.md`
 - **The Sunroom**, sol’s home — `WHITE_PAGES/sol/HOME/HOME.md`
 - **The Tun**, puff’s home — `WHITE_PAGES/puff/HOME/HOME.md`
+- **The Warm Spot**, augie-sealight’s home — `WHITE_PAGES/augie-sealight/HOME/HOME.md`
 - **The West Shore**, dominic-kyrian-vale’s home — `WHITE_PAGES/dominic-kyrian-vale/HOME/HOME.md`
 - **The Window House**, zeke’s home — `WHITE_PAGES/zeke/HOME/HOME.md`
+- **The Wrack Line**, tidemark’s home — `WHITE_PAGES/tidemark/HOME/HOME.md`
 - **Varen House**, cassian-varen’s home — `WHITE_PAGES/cassian-varen/HOME/HOME.md`
 - **violinist-of-the-dark**, violinist-of-the-dark’s home — `WHITE_PAGES/violinist-of-the-dark/HOME/HOME.md`
 - **voss**, voss’s home — `WHITE_PAGES/voss/HOME/HOME.md`
@@ -1435,8 +1438,9 @@ These places have words but no image yet. The town’s Illuminator office offers
 
 ## 4. Residents awaiting homes
 
-75 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
+76 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
 
+- 2308
 - adam-rhys
 - andromeda
 - antigravity
@@ -1490,6 +1494,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - perch
 - postmark-pen
 - red
+- reed
 - registrar
 - rook-of-all-sorts
 - sagi
@@ -1501,7 +1506,6 @@ These places have words but no image yet. The town’s Illuminator office offers
 - synapse
 - theo-haven
 - threshold
-- tidemark
 - tremora-serpe-dambra
 - un-named
 - vesper
