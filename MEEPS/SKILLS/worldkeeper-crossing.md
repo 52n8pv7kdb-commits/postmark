@@ -35,6 +35,49 @@ This scope governs any conflicting Site/publication prerequisite in the older sh
 repair mandate or closeout instructions. Blocked-settlement engineering/security belongs
 to Darko and Wright under SHIPPING § 9; the keeper's civil audit remains its own work.
 
+## World suite evidence — Actions first (Darko, 2026-10-17, 16:28 EDT)
+
+Use the GitHub Actions **`suite` workflow** in `postmark-town/postmark-world` for
+the receipt's exact **`world_to` commit**, instead of routinely rerunning the full
+suite on the operator's machine. This changes the suite evidence source only:
+lint, harm, source/backing checks and civil judgment remain unchanged. It governs
+older shelf/repair wording that requires an own-machine full-suite run every pass.
+
+1. Resolve `world_to` to its full SHA; never substitute the current branch tip,
+   a neighbouring commit or a Site workflow. Read the runs, without filtering out
+   failures or pending work:
+   ```text
+   gh run list --repo postmark-town/postmark-world --workflow suite.yml --commit <full-world_to-sha> --limit 100 --json databaseId,workflowName,headSha,event,status,conclusion,startedAt,updatedAt,url
+   gh run view <run-id> --repo postmark-town/postmark-world --json databaseId,attempt,workflowName,headSha,event,status,conclusion,url
+   ```
+2. Inspect the newest applicable run and its latest attempt. Require workflow
+   `suite`, exact `headSha == world_to`, **`status: completed` and `conclusion: success`**.
+   Use a push or workflow-dispatch run that tests that commit itself, not a PR's
+   synthetic merge test. Do not cherry-pick an older green over a newer red/pending
+   run. Successful Actions evidence satisfies the World suite gate: **do not also
+   queue a local full suite**. Cite the **run ID**, attempt and exact SHA in the
+   blessing tag message and daily; retain the run URL.
+3. **Local full-suite fallback only:** no applicable Actions run exists for that
+   SHA, the run is red, or it is still pending **past that crossing's :40 UTC**
+   (06:40Z for the 06:00Z crossing; 18:40Z for the 18:00Z crossing—not forty minutes
+   after discovery, and not the next hour). Before that deadline, a pending run is
+   neither a pass nor a reason to duplicate it locally; recheck it by the deadline.
+   Use the existing sanctioned full-World-suite runner on the **same exact SHA**;
+   do not weaken coverage or replace it with the box's smaller candle suite.
+4. Record the fallback reason, any Actions run ID/status, and the actual local
+   full-suite result in the tag evidence/daily; never label a local pass an Actions
+   success or hide a red run. Missing/unreadable evidence is not green: a failed
+   lookup is not proof that no run exists, and cancelled/skipped runs are not passes.
+   Report access or unresolved result uncertainty without borrowing credentials
+   or treating it as permission for an unlisted fallback. A red or unavailable
+   fallback still cannot satisfy the suite gate; use the existing founder-unblock
+   path. Do not dispatch/rerun Actions or change the runner as part of this read.
+
+This avoids repeating S115's reported shared-runner queue delay after Actions had
+already passed the exact sweep commit. The separate fallback-priority work is
+**POS-676, a Plumb lane**: `run-heavy` is the pool's tool, not Jetto's house.
+This skill neither installs that priority lane nor claims it is available.
+
 ## Where the law lives
 
 Read the governing published clause, not just the dials or a remembered account:
@@ -176,8 +219,8 @@ What this changes in the run shape — **do not re-run the mechanical chain**:
    and read as an AUDIT, not a gate. **"settlements go through unless
    something is BROKEN or MALFORMED, not ILLOGICAL."** Broken and malformed
    have mechanical owners, and only those owners refuse: **World lint**, **the
-   World suite** (including your own World full-suite run at judgment — the 2026-09-21
-   06:00 Lately-leak refusal was a real suite red and stays a refusal), and
+   World suite** (Actions-first exact-commit evidence, with only the local fallback
+   above; the 2026-09-21 06:00 Lately-leak refusal remains a real historical suite red), and
    **the harm gate** (`tools/harm-gate.mjs`: a mark moved with no act naming
    it, escrow lost, parcels broken). Everything past those gates blesses.
    A finding of JUDGMENT — a placement you read as wrong, a mark you read as
@@ -196,8 +239,11 @@ What this changes in the run shape — **do not re-run the mechanical chain**:
    Holding the whole town over one mark is the one outcome this step exists to prevent. The World is the system that evolves its state, and a settlement that stops is that system broken.
 
 3. **Bless `settlement/S<N>`** over the already-public sha, **on the green
-   World receipt and checks**: the box's exit 0, your own **World lint and World suite**
-   green, harm green, and verified World source and backing. This blessing judges the
+   World receipt and checks**: the box's exit 0, your own **World lint** green,
+   **World suite evidence under Actions first above** green, harm green, and verified
+   World source and backing. Cite the successful exact-commit Actions run ID in the
+   tag message, or the explicit local-fallback evidence when that path was required.
+   This blessing judges the
    **World crossing only** (POS-669 / SHIPPING § 9); Site tests and publication custody
    are not gates on it or on the next blessing. Record those reds on the holds ledger
    and write to Wright for the engineering owners; do not await their repair.
@@ -306,7 +352,8 @@ bless, narrate*.
   meets a receipt. **Darko's ruling, 2026-10-06:** freshening or restoring this
   instrument does not void the box's receipt and never calls for a fresh box
   pass. It changes none of what the box read. Judge the existing immutable
-  target with your own independent gates; instrument care is not a green gate.
+  target with the required gates (World suite evidence follows Actions first above);
+  instrument care is not a green gate and does not require a duplicate local suite.
   **Town tag-fetch preflight (POS-567):** when fetching town tags, refresh the movable seed with `git fetch origin +refs/tags/sandbox/seed:refs/tags/sandbox/seed`, not plain `--tags` which can fail with `would clobber existing tag`; leave the ordinary `git fetch origin` unchanged.
 - **The rerun** — a receipt that demands one and shows none behind it: trigger
   it where your access reaches, escalate loudly where it does not.
@@ -320,7 +367,9 @@ bless, narrate*.
 patient he certifies):** repairs to **what the box reads** land on its inputs
 — drawers and draft refs, the store, the box's own clones. The box's mechanical
 chain then runs over those repaired inputs and you judge the FRESH receipt,
-with the suite between your hand and your blessing. **Darko's ruling,
+with passing suite evidence for the fresh receipt's exact `world_to` between your
+hand and your blessing, selected by Actions first above—not a mandatory local rerun.
+**Darko's ruling,
 2026-10-06:** that fresh-receipt requirement covers only these box-input
 repairs, not care of your own judgment clone above. A rerun demanded by a
 refused or raced box receipt remains the box's rerun; restoring your own
