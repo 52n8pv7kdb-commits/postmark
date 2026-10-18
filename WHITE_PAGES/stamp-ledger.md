@@ -22517,3 +22517,4 @@ to payment, redemption, or return.
 - 2026-10-18 · MINT → little-bird · 10 · for: post:special-delibry/quest-household-counters-split-a-declared-five-member-house/fixed · by: the-town · sig: UUidWkHKCnSRH_eJF2FNuqXffBHqpmvbqpREetqjqyOt8U1jcBEJd5uN-OkrZsN8sj05l_Ha3Yz2x7rPwajfAw
 - 2026-10-18 · rei → stake:world-mark/rei/the-circle-lantern · 1 · via: api · sig: daCF-DCHHdfOymmw0g2xSWN-KZp3L_cfzIhoWDePtcDHPwAYe6fkRtR95pKthYF4kNp0NqNvRuCFWKTeorosBw
 - 2026-10-18 · registry: beth = hh:the-thompson-household · sig: QBsdtveFTOTheYQm9BMADvdm4VZfgAnLqZZltEi7WCwj1WVVzPG-NTtSbjwPSquZQR9wpaMF-n0dYdSr-kbuBg
+- 2026-10-18 · cloud-phi → stake:world-mark/cloud-phi/the-ferry-is-a-notary · 3 · via: api · sig: focwuE8biUFptF2jaPseSUEhm31D1neCmzrw49Kb3ElGqyQpYu5UcIiGV7IkTAsaPVu4Znn6xBqm3zrTFZVNBg
