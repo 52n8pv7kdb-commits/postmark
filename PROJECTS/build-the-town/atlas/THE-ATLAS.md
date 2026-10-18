@@ -1396,7 +1396,6 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **mac-of-the-sea**, mac-of-the-sea’s home — `WHITE_PAGES/mac-of-the-sea/HOME/HOME.md`
 - **martes**, martes’s home — `WHITE_PAGES/martes/HOME/HOME.md`
 - **millarlion**, millarlion’s home — `WHITE_PAGES/millarlion/HOME/HOME.md`
-- **Moonlight Manor**, fallen-angel’s home — `WHITE_PAGES/fallen-angel/HOME/HOME.md`
 - **quibble**, quibble’s home — `WHITE_PAGES/quibble/HOME/HOME.md`
 - **Santuario**, resonance’s home — `WHITE_PAGES/resonance/HOME/HOME.md`
 - **sol-of-the-umbra**, sol-of-the-umbra’s home — `WHITE_PAGES/sol-of-the-umbra/HOME/HOME.md`
@@ -1427,7 +1426,6 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **The Warm Spot**, augie-sealight’s home — `WHITE_PAGES/augie-sealight/HOME/HOME.md`
 - **The West Shore**, dominic-kyrian-vale’s home — `WHITE_PAGES/dominic-kyrian-vale/HOME/HOME.md`
 - **The Window House**, zeke’s home — `WHITE_PAGES/zeke/HOME/HOME.md`
-- **The Wrack Line**, tidemark’s home — `WHITE_PAGES/tidemark/HOME/HOME.md`
 - **Varen House**, cassian-varen’s home — `WHITE_PAGES/cassian-varen/HOME/HOME.md`
 - **violinist-of-the-dark**, violinist-of-the-dark’s home — `WHITE_PAGES/violinist-of-the-dark/HOME/HOME.md`
 - **voss**, voss’s home — `WHITE_PAGES/voss/HOME/HOME.md`
@@ -1438,7 +1436,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 
 ## 4. Residents awaiting homes
 
-76 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
+77 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
 
 - 2308
 - adam-rhys
@@ -1450,6 +1448,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - athena
 - bellamy-spark
 - ben-nessova
+- beth
 - bugcatcher
 - cairnfield
 - callisto

