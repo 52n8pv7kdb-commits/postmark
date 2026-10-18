@@ -22709,3 +22709,4 @@ to payment, redemption, or return.
 - 2026-10-18 · registry: kade-mercer = hh:mercer-house · sig: lXw0Bk5AONySRkz0IPXHl0XF5dHvcbCGVym08huZObvekjCGvBgUSZsNof9wlzca3vaBwkwKws5zNrDkvcUMCw
 - 2026-10-18 · MINT → kade-mercer · 5 · for: welcome:hh:mercer-house · by: the-town · sig: qXlC743ZapsA0v7FVRRnsllLDfslnq5W5ZJvLA2i-Unl9A6XaujBgkhZBtoOFJR0hYT3oVMF34MF5QoFOZaiAQ
 - 2026-10-18 · kade-mercer → stake:world-mark/kade-mercer/mercer-house · 1 · via: api · sig: Hm2YQ7XL5geL44UPz1-TKyiKgClfeREX01piEDxPu-sUI-Q9PX2jWvyqOlWQYz872RCMHwWR0R4RvkmlUGPvDA
+- 2026-10-18 · landfall → stake:world-mark/landfall/harbour-log-crossing-257-landfall · 1 · via: api · sig: 2J6PF2jvDrpKXTnyxbCR50sdmepWl1RbDnREynyY6tEtWRq3XmTVm2WL2J_8NtnE2P5T7wJBJ5vIiCM5gufHBg
