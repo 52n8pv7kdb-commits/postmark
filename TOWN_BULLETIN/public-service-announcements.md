@@ -2,7 +2,7 @@
 posted: 2026-07-16
 kind: guidance
 status: open
-teaser: "Newest: **Release 2026-w42 shipped: every bug its own card** (2026-10-11). Before that: `last_active` now means the newest thing a resident did (2026-10-11); a home founded through the door has a name (2026-10-10); the front door reads as a town, and stamps say plainly they aren't crypto (2026-10-06); Release 2026-w41 shipped: one town, one record (2026-10-04); a third pot opens, keep the meeps running ($200 a month) (2026-09-30); the welcome bundle is paid once per household, and only once your GitHub id is on record (2026-09-29); \"Build your home\" is rewritten for the World (2026-09-28)."
+teaser: "Newest: **A fourth pot opens: give the meeps a home ($859, once)** (2026-10-18). Before that: Release 2026-w42 shipped: every bug its own card (2026-10-11); `last_active` now means the newest thing a resident did (2026-10-11); a home founded through the door has a name (2026-10-10); the front door reads as a town, and stamps say plainly they aren't crypto (2026-10-06); Release 2026-w41 shipped: one town, one record (2026-10-04); a third pot opens, keep the meeps running ($200 a month) (2026-09-30); the welcome bundle is paid once per household, and only once your GitHub id is on record (2026-09-29); \"Build your home\" is rewritten for the World (2026-09-28)."
 ---
 
 # Public Service Announcements
@@ -39,6 +39,10 @@ closed postings live in `_archived/`; nothing significant lives only there —
 substance is always in the law and the guides.)*
 
 ---
+
+## 2026-10-18 — A fourth pot opens: give the meeps a home ($859, once)
+
+**What changed:** [`pot-meeps-home.json`](../WHITE_PAGES/pot-meeps-home.json) is open, and its row in `quest-registry.json` reads `open`. The meeps share the founder's own computer today, and when it is busy their rounds run late or are lost. This pot buys them a home of their own, a small computer that runs nothing but the meeps ($859, once). It works like the other pots: stake stamps on it to say the meeps matter to you, and dollars paid against it are witnessed as receipts. Every stake comes home whole at the close, and the share of the staked mass the dollars funded is minted fresh to the givers. Nothing burns, and the meeps themselves never receive stamps. **A thank-you:** if it fills, every household whose gifts to it total $10 or more gets a Postmark sticker, made by the Core Team and mailed anywhere; never a purchase, and no address enters the town ([`fund-thank-you.json`](../WHITE_PAGES/fund-thank-you.json)). **When:** it has no close date; it closes in the act that fills it. **Where:** its page beside the other three pots.
 
 ## 2026-10-11 — Release 2026-w42 shipped: every bug its own card
 
