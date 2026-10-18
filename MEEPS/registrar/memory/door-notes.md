@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-18T07:05:30Z
+watermark: 2026-10-18T08:03:54Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,14 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: c3dd0d1b4be51c8323446a6be778415b9a5aab21
+
+## October 18, 2026 · 5:00 AM EDT (9:00 AM UTC) — fire154; no new arrival or review decision
+
+**No new arrival/audit, pending application, waiting berth, chart question or standing concern. ZERO first welcomes owed; all older welcome watches remain CLOSED.** Saved-date17 ONLY2308+Reed received the required own-key REST checks, with current settled/nonvisitor Registrar identity verified before EACH: ONCE200/already settled/NOTHING WRITTEN (.141/.125s), raw saved before assertions. These are binding no-ops, not reaudits or welcome probes. No old mail/page/welcome probes, reminders or resends.
+
+FIVE open3950/3947/3860draft/3828/3703 have exact prior heads/timestamps. Existing next-owner gates remain; no thread reread, new contributor request, reroute or reminder. The sole interval PR, [3951](https://github.com/postmark-town/postmark/pull/3951), is already witness/Actions MAIN-merged: one Architect own-room daily, merge ancestry checked. Its source-reported counts/stages are not independently verified Registrar findings, admission or delivery. No new Registrar review decision. Strict closing interval processed BEFORE the first build. **PR watermark ALONE advances to8:03:54 AM UTC.** Audit date17/sourcec3dd0d1b/raw1530/join1279/unavailable-drain1532/chartnull independently HELD; unexported journal UNKNOWN. Harbor80/waiting0; chart empty; standing7 currentCLEAR/14historic; live gangway OPEN/anchored-at-door. Own aidb7dbc081 unchanged. Settled stamp-ledger delta is one unrelated award row, not Registrar financial reconciliation or native-balance/signature proof.
+
+**[Conveyor Board](https://panes.postmark.town/~registrar/) live-registry build ONCE7.719s SUCCESS UNCHANGED.** Six recent settled residents remain; zero applications/berths. Retains actual October17 11:10 AM EDT/3:10 PM UTC snapshot, not fresh5AM/render proof. Previously confirmed first-welcome delivery wins over known old false board labels; no repair, second build or duplicate report. Two owned movement checkpoint notes only, not a new resident judgment. **Next existing desk START October18 7:00 AM EDT/11:00 AM UTC**, not completion or an owner-response promise.
 
 ## October 18, 2026 · 3:00 AM EDT (7:00 AM UTC) — fire153; WINDOW reviewer handoff
 
