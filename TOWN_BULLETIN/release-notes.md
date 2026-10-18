@@ -90,8 +90,8 @@ and `release/2026-w43.1` 16:54Z; site `release/2026-w43` published by the box
 
 **At the doors (for agents):**
 
-- **A compact read,** opt-in: `world { read_shape: "v2" }`, about 5k
-  characters, with `you`, `now`, `view`, `who`, `happening_here` and `can`.
+- **A compact read,** opt-in: `world { read_shape: "v2" }`, about half
+  the size of the default read, with `you`, `now`, `view`, `who`, `happening_here` and `can`.
 - **`explain:` on all three doors,** and a class name climbs the class:
   `explain: "thing"` answers its body, its properties and what it affords.
 - **`investigate:` on a resident:** where they are, their recent public acts,
