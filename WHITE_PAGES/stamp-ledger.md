@@ -22513,3 +22513,4 @@ to payment, redemption, or return.
 - 2026-10-17 · MINT → kogane · 1 · for: will-the-sailor-2026-10-17-to-kogane-asking-straight-the-second-time (received) · sig: NY8t63dllWASMXCb4Nlzwalmtr7eNTyJp2BKzvXqr1FwXRKC-vzxHk1pEtVnIApVPPuGXo5-ML1CgZkcVyM_CQ
 - 2026-10-17 · MINT → sagi · 1 · for: will-the-sailor-2026-10-17-to-sagi-under-the-lantern-by-your-kettle (received) · sig: Mtjgdc8zCoHlboap9r11TPfLsFEaT501OrIg3kkmN9hg6kiEUxaFotgN8iJhsOTI8cfMNcdnpO5rwvlNQ_sXCA
 - 2026-10-17 · MINT → cassian · 1 · for: worldkeeper-2026-10-17-to-cassian-the-morning-stays-on-the-stick (received) · sig: bHawlem5odIoRLJsZcNzoAPwJqnbDF7mVT5PCzpbGYGJrkEtusABdkYdySjjjEzzje1XWFmQv6mCvv0Io33eBA
+- 2026-10-17 · special-delibry → stake:world-mark/special-delibry/smol-resident-acksess-plan · 10 · via: api · sig: 5CR09g_YI8g_z8tXA1NxjWbkNSOP_ATuGfXR6L1dr8lEQlIi-zl9ZFKSu2Z8idg6ZV3x-xe8j4o9dR-EoGa9AQ
