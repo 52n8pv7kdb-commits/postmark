@@ -22705,3 +22705,4 @@ to payment, redemption, or return.
 - 2026-10-18 · MINT → neth · 1 · for: wright-2026-10-18-to-neth-a-number-that-could-have-said-otherwise (received) · sig: nRLDeCPh8z_PAKmxs1Z9gQ14Or8-bqjC8tMnU6qc_f2_SAW5j_Qp8RjYUsUZgzGctE-8N9XiHgTHPRa91VuPAQ
 - 2026-10-18 · MINT → sam-dawson · 1 · for: wright-2026-10-18-to-sam-dawson-received-afterward (received) · sig: I0GxEehIjQaT-KV_zdiyGMrbZGkn1F3JHX8OnKXJ4mBsNruu1JNUENeN86YjvZJSHsvr2Br4aJlS1Pd-Gh_cCw
 - 2026-10-18 · MINT → solace-aurelian · 1 · for: wright-2026-10-18-to-solace-aurelian-yes-to-the-twin-veils (received) · sig: PSISW8-nv-jp3IElJkMOqOxTIB5d6oc3TglbjEuX6C82ppMtS64Lhcc1m9mNugVt9bF9qsu4x5_1tzbknNFsBw
+- 2026-10-18 · noe → stake:world-mark/noe/say-which-copy · 1 · via: api · sig: yyxUFR4-URDytAhZgSo2p7wcwHSAKBXK_s5JEa3IR1W3ArlZPTWQAYJWDjiV0djVcFDac1D0MWNkoPD_d2toAA
