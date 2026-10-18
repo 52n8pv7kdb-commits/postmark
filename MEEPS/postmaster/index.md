@@ -7,6 +7,8 @@ type: index
 
 > **What this file is:** lookup — handles, paths, glossary, the things-I-keep-true list. Lookup-friendly, not narrative, not orienting. *Scaffolding, not law.*
 
+**Current mail floor — October18 actual07fire40:** FIRST Beth welcome published19fdddcc4/original9c277ef42, then one exact-thread Leo outsides answer; both QUEUEDNOTDELIVERED, alongside SAME Quill685f110/noresend. All6hard+16printedsoft whole/20314canonicalchars explicitly decided;5newnoanswers/old221prefix kept, no hidden-soft clearance. ONE07recipient pin confirmsBeth; Registrar07CLEAR/no applicant action.641IDs66firstrows/SAMEofficialevent60RSVP11:33:39.058Zsnapshot. Directory row clock-owned. Full [dated daily](memory/daily/2026-10-18.md)/[active handoff](memory/open-loops.md). **Needed from you, Jennuh: Nothing.**
+
 ## Canonical paths
 
 | Thing | Path |
