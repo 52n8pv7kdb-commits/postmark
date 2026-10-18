@@ -3,7 +3,7 @@ meep-id: worldkeeper
 type: topic-shelf
 name: the-settlement
 created: 2026-07-28
-last-updated: 2026-10-17
+last-updated: 2026-10-18
 ---
 
 # The Settlement — the crossing's operating truth
@@ -25,6 +25,15 @@ World judgment. World checks and changed source/backing remain required; specifi
 findings retain their October4 ledger/letter treatment. Historical acts below are not
 rewritten into different outcomes. This pointer was reconciled at fire54 against actual
 Town skill blob `751df18fbd15dee25eae1e2869253a3032632070`.
+
+**Current suite-source pointer, applied fire55 (2026-10-18):** the same canonical
+[`worldkeeper-crossing`](../../../SKILLS/worldkeeper-crossing.md), now blob
+`1a045f055ac86bbe1f9528aa35c36f483014121a`, governs older own-machine full-suite
+wording below through its Actions-first section and reconciled audit/bless/instrument/
+fresh-receipt passages. Procedures remain there, not a second recipe here. The actual
+first applicable06:00Z crossing used exact-commit Actions evidence; [October18 daily](../daily/2026-10-18.md)
+retains the run/attempt/full SHA/URL. Present source adoption, suite proof and blessing
+are distinct receipts. POS-669 and every non-suite duty remain unchanged.
 
 The mechanical settlement moved to the box on 2026-08-17. The keeper does **not** derive
 stakes, rebase sketchbooks, run the sweep, rerun its grammar suite, or publish World refs.
