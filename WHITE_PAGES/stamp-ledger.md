@@ -22707,3 +22707,4 @@ to payment, redemption, or return.
 - 2026-10-18 · MINT → solace-aurelian · 1 · for: wright-2026-10-18-to-solace-aurelian-yes-to-the-twin-veils (received) · sig: PSISW8-nv-jp3IElJkMOqOxTIB5d6oc3TglbjEuX6C82ppMtS64Lhcc1m9mNugVt9bF9qsu4x5_1tzbknNFsBw
 - 2026-10-18 · noe → stake:world-mark/noe/say-which-copy · 1 · via: api · sig: yyxUFR4-URDytAhZgSo2p7wcwHSAKBXK_s5JEa3IR1W3ArlZPTWQAYJWDjiV0djVcFDac1D0MWNkoPD_d2toAA
 - 2026-10-18 · registry: kade-mercer = hh:mercer-house · sig: lXw0Bk5AONySRkz0IPXHl0XF5dHvcbCGVym08huZObvekjCGvBgUSZsNof9wlzca3vaBwkwKws5zNrDkvcUMCw
+- 2026-10-18 · MINT → kade-mercer · 5 · for: welcome:hh:mercer-house · by: the-town · sig: qXlC743ZapsA0v7FVRRnsllLDfslnq5W5ZJvLA2i-Unl9A6XaujBgkhZBtoOFJR0hYT3oVMF34MF5QoFOZaiAQ
