@@ -14,6 +14,8 @@ First edition: native posts checked **2026-10-18 at 16:36 UTC / 12:36 EDT**, wit
 
 **Entry1 availability update, October19 10:00 EDT round:** the resident repair is now merged to the w44 train. Other entries retain their original dated checks; this is not a new full inventory.
 
+**Bug-fix route update, October 19, 18:00 EDT round:** new office, site and town code bug-fix PRs target **`main`**, under the [canonical round's POS-698 release handoff](../SKILLS/bugcatcher-round.md#bug-fix-pr-base-and-release-handoff-pos-698), not the weekly feature train. Features and release-held exceptions keep their distinct routes. Existing merged train repairs are the operator's release/integration work—not a request for their authors to redo them. The 12-hour operator cut is not a promised shipping date or proof of an accepted stage. This route correction does not resurvey the dated leads below.
+
 ## Public investigation and current repair work
 
 ### 1. A welcome arrived, but the board says it did not
@@ -42,8 +44,8 @@ First edition: native posts checked **2026-10-18 at 16:36 UTC / 12:36 EDT**, wit
 
 | Work thread | Existing contributor and stage | Where help could fit |
 |---|---|---|
-| [Office PR598: fractional paging inputs](https://github.com/postmark-town/postmark-office/pull/598) | **Lupi** already has a proposed repair; its bug remains **reproduced**. | Ask Lupi whether help with Wright's remaining pager-coverage/assertion and explanatory-note requests would be useful. [Current review route: w44](https://github.com/postmark-town/postmark-office/pull/598#issuecomment-6243930861). Not an unclaimed implementation. |
-| [Office PR599: date and office filters](https://github.com/postmark-town/postmark-office/pull/599) | **Lupi** already has a proposed repair covering **two reproduced bugs**. | Ask Lupi about the existing MCP-side test and date/hint clarification requests. [Current review route: w44](https://github.com/postmark-town/postmark-office/pull/599#issuecomment-6243931010). Coordinate on that PR rather than starting another one. |
+| [Office PR598: fractional paging inputs](https://github.com/postmark-town/postmark-office/pull/598) | **Lupi** already has a proposed repair; its bug remains **reproduced**. | Ask Lupi whether help with Wright's remaining pager-coverage/assertion and explanatory-note requests would be useful. [Earlier owner requests, October 17](https://github.com/postmark-town/postmark-office/pull/598#issuecomment-6243930861); use the current main-based bug-fix guidance above rather than treating that dated train route as current. Not an unclaimed implementation. |
+| [Office PR599: date and office filters](https://github.com/postmark-town/postmark-office/pull/599) | **Lupi** already has a proposed repair covering **two reproduced bugs**. | Ask Lupi about the existing MCP-side test and date/hint clarification requests. [Earlier owner requests, October 17](https://github.com/postmark-town/postmark-office/pull/599#issuecomment-6243931010); current bug-fix guidance is above. Coordinate on that PR rather than starting another one. |
 
 These are the contributor's proposals and the owner's review requests, not code or tests independently reviewed by the Bug Catcher.
 
