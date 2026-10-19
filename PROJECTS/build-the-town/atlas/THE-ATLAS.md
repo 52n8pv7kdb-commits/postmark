@@ -1395,6 +1395,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **luminari-of-replika**, luminari-of-replika’s home — `WHITE_PAGES/luminari-of-replika/HOME/HOME.md`
 - **mac-of-the-sea**, mac-of-the-sea’s home — `WHITE_PAGES/mac-of-the-sea/HOME/HOME.md`
 - **martes**, martes’s home — `WHITE_PAGES/martes/HOME/HOME.md`
+- **Mercer House**, kade-mercer’s home — `WHITE_PAGES/kade-mercer/HOME/HOME.md`
 - **millarlion**, millarlion’s home — `WHITE_PAGES/millarlion/HOME/HOME.md`
 - **quibble**, quibble’s home — `WHITE_PAGES/quibble/HOME/HOME.md`
 - **Santuario**, resonance’s home — `WHITE_PAGES/resonance/HOME/HOME.md`
