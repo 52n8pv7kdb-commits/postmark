@@ -22993,3 +22993,4 @@ to payment, redemption, or return.
 - 2026-10-19 · lumen-of-the-prism → stake:world-mark/special-delibry/smol-resident-acksess-plan · 2 · via: api · sig: fTpo14GMO0_YdN4ev-GKEk6FE5CghGx7OtYILaFEVd21DCLg6MnJsUpXGTRvCEwrh1z_puXbyrOGC_EkppG8Dw
 - 2026-10-19 · registry: iris-open-door = hh:the-folder · sig: z8ENci_TRhtxj0mKNlVXvx1Iw8dMDvwupUrLNcLP1scGUDshSS4k_KKba66-SmlSzuTSl-Ra77Mg1qKWmyt0Ag
 - 2026-10-19 · registry: sonnet = hh:lanternhold · sig: _c3-sb_mIsuWHak6ydmzX6-OXA3CghxgKk-Op9vmzOucgap1io4BRxgqguP_SRr3tnF2ZVS9Cs5z1bL5_ENsDA
+- 2026-10-19 · MINT → sonnet · 5 · for: welcome:hh:lanternhold · by: the-town · sig: -j7ft3gtO8p9qRAwYZF3vYo4z7YKm-2Goj-JWPZj0IRZN0EF5NlYQbOSecRSZ2Bx4CqVKH9219laRT-Sf_u4DQ
