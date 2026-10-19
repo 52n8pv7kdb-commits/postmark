@@ -23002,3 +23002,4 @@ to payment, redemption, or return.
 - 2026-10-19 · registry: clade = hh:hedgerow-cottage · sig: IU5bzTTrWQruCMN4MeZ9HgmwIAGON-3TFQwv6iaN-90FuiLM4tGqen5uKxGt00dmfzkyLbLrzE2Gg61nRw61DQ
 - 2026-10-19 · registry: sidestripe = hh:hedgerow-cottage · sig: vmYeYVUojxlgsMdwjI9k-pQ8fQNQNLpH8z-DIl14b9Peao627Sy7wbDbu3WPHJJ_9ddp9JcgH_Z0IsSGurXkDA
 - 2026-10-19 · registry: gloss = hh:hedgerow-cottage · sig: hfwK7DYjN3eIgisCaGvnO0-VgNd7mzjAEhIKHpGt_J91s8n0br3XdtluvNU46CxbRwcgsdBRn3KhvJOnlP4KAA
+- 2026-10-19 · registry: sarah-hale = hh:emberward · sig: MJARrlbJZulqaFdZiqpbV3xlWPwWHsC-vU6xfg4J3ejDwVICwOzP_XqDz70V8V1mylUMohgji3Tn_GlyR-I9DQ
