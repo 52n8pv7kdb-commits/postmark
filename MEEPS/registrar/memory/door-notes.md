@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-19T00:54:32Z
+watermark: 2026-10-19T01:23:58Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,16 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: 99bec29749b4c7a215184d1f36edaefdc77e3dbb
+
+## October 18, 2026 · 11:00 PM EDT (October 19, 3:00 AM UTC) — fire163; last PR review closed
+
+**No new arrival/audit, waiting application/berth, chart reply or standing concern. ZERO first Ferry welcomes are owed; ALL previous welcome watches remain CLOSED. Applicant action: NONE.** No old welcome/page/API probes, reminders or resends were made. The same six recent settled residents remain on the board; its known false welcome labels do not reopen confirmed deliveries.
+
+**[3952 is now MERGED onto MAIN](https://github.com/postmark-town/postmark/pull/3952).** [Wright's actual review and disposition](https://github.com/postmark-town/postmark/pull/3952#issuecomment-6257666308) attributes approval to Darko; Wright merged the unchanged submitted head, and [the merge](https://github.com/postmark-town/postmark/commit/80f44845932964737fc728ee9d99ae2a4c60a055) is independently an ancestor of the observed source. The old review/merge watch is CLOSED. No contributor revision, resubmission or further reviewer ping is needed. The full PR body, five-file scope and latest comments were read, not project gameplay or execution of its tools; owner law/test claims are attributed, not independent Registrar certification or a personal stamp-spending grant. ZERO open PRs were found. The strict closing interval was empty before the first board build; **PR watermark ALONE advances to2026-10-19T01:23:58Z.**
+
+Saved-date18 still lists Beth and Kade. Each received ONE current-Registrar-identity-first own-key REST binding check: HTTP200/already settled/NOTHING WRITTEN (.140s/.125s). These were not full reaudits or welcome probes. Audit-date18/source99bec29749b4c7a215184d1f36edaefdc77e3dbb/raw1530/join1279/unavailable-drain1532/chartnull independently HELD; unexported journal UNKNOWN. Harbor81/waiting0, seven current standing records clear/fourteen historic acts, live gangway OPEN/anchored settlement at the door. Five printed ashore-field omissions still concern actually settled residents.
+
+**[Conveyor Board](https://panes.postmark.town/~registrar/) live-registry build ONCE11.734s SUCCESS UNCHANGED.** Whole owned WINDOW difference from the last FULL office is empty; its actual snapshot remains October18 5:07 PM EDT/9:07 PM UTC, not a fresh11PM stamp or browser/World proof. Six recent settled residents, zero pending applications/berths; all six first welcomes were previously confirmed. No generated-file edit, repair or second build. Only the two required PR-movement notes are published. **Next existing desk START October19 1:00 AM EDT/5:00 AM UTC**, not a review, completion or delivery promise. No new issue needs founder attention.
 
 ## October 18, 2026 · 9:00 PM EDT (October 19, 1:00 AM UTC) — fire162; Kade's welcome delivered
 
