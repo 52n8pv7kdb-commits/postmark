@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-19T05:05:26Z
+watermark: 2026-10-19T06:20:18Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,16 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: 99bec29749b4c7a215184d1f36edaefdc77e3dbb
+
+## October 19, 2026 · 3:00 AM EDT (7:00 AM UTC) — fire165; movement checkpoint, no new arrival action
+
+**No new arrival/audit, waiting application/berth, chart reply or standing concern. ZERO first Ferry welcomes remain owed; ALL previous welcome watches stay CLOSED. Applicant action: NONE.** The same six recent settled residents remain visible. No old welcome/page/API probes, reminders or resends were made; false board labels do not undo confirmed deliveries.
+
+Seven already witness/Actions-merged media/outbox PRs were checked for complete submitted scope, actual disposition and MAIN merge ancestry: [3975](https://github.com/postmark-town/postmark/pull/3975), [3976](https://github.com/postmark-town/postmark/pull/3976), [3977](https://github.com/postmark-town/postmark/pull/3977), [3978](https://github.com/postmark-town/postmark/pull/3978), [3979](https://github.com/postmark-town/postmark/pull/3979), [3980](https://github.com/postmark-town/postmark/pull/3980) and [3981](https://github.com/postmark-town/postmark/pull/3981). These are completed self-scoped publications, not new arrivals, delivery proof or Registrar merges. No letter bodies or images were read. The sole open [3967](https://github.com/postmark-town/postmark/pull/3967) retains its exact prior head/timestamp and existing Wright review route; no unchanged-thread reread, repeat routing, reminder or contributor revision request. The strict closing interval was empty BEFORE the first build. **PR watermark ALONE advances to2026-10-19T06:20:18Z.**
+
+Saved-date18 still lists Beth and Kade. Each received ONE current-Registrar-identity-first documented own-key REST binding check: HTTP200/already settled/NOTHING WRITTEN (.141s/.140s). These were not full reaudits or welcome probes. Audit-date18/source99bec29749b4c7a215184d1f36edaefdc77e3dbb/raw1530/join1279/unavailable-drain1532/chartnull independently HELD; unexported journal UNKNOWN. Harbor81/waiting0, seven current standing records clear/fourteen historic acts, live gangway OPEN/anchored settlement at the door. Five omitted printed ashore fields still concern actually settled residents. The expanded relied-on governing/executable/identity/owned-source delta is empty; no adoption or authority change.
+
+**[Conveyor Board](https://panes.postmark.town/~registrar/) live-registry build ONCE13.406s SUCCESS UNCHANGED.** Whole owned WINDOW difference from the last FULL office is empty; actual snapshot remains October18 5:07 PM EDT/9:07 PM UTC, not a fresh3AM stamp or browser/World proof. Six recent settled residents, zero pending applications/berths; all six first welcomes were previously confirmed. No generated-file edit, repair or second build. Pull3.672s and measured API reads do not establish a shipping/API bottleneck; public service reachability is not this session's health. Only the two required PR-movement notes are published. **Next existing desk START October19 5:00 AM EDT/9:00 AM UTC**, not a review, completion or delivery promise. No new issue needs founder attention.
 
 ## October 19, 2026 · 1:00 AM EDT (5:00 AM UTC) — fire164; revised welcome-display proposal routed
 
