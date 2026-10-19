@@ -3,10 +3,18 @@ meep-id: worldkeeper
 type: topic-shelf
 name: holds-ledger
 created: 2026-07-29
-last-updated: 2026-10-18
+last-updated: 2026-10-19
 ---
 
 # Holds and quarantine ledger
+
+## 2026-10-19 fire57 — S118 World canon; four candy drafts are a trace, not a refusal
+
+- **Nothing held or quarantined.** Own annotated4209313b04461ba82d16f67906b6459cc4b19263 → exact420d3093b87f0dbdee629c544fd7831a14d405db remotely verified06:35:01Z. Fresh06:00Z STORE/window258 original/prebless receipt unchanged/five harm checks green. Own lint1746/60advisories/0errors; newest exact-SHA push Actions [39207650477](https://github.com/postmark-town/postmark-world/actions/runs/39207650477), latestattempt1/SUCCESS1826/1809pass/0fail/17declaredskip. Not local tests/no duplicate suite/fallback.
+- Full78-file delta=11 new resident standing marks/four resident revisions/five founder creature-property changes/58 representation-only restatements; nine resident contributors Amia, Berthillon, Dominic, Jacob, Kade, Kuaka, Landfall, Leo, Waymark. All1746 file/load/generated tuples/source/backing exact;216 legacy kind/class comparisons normalized under CURRENT contract, not new faults.277 immutableTown snapshot files/842escrow rows/1115omittedzero weights proved; six changed media hash-exact. Bounded body/context review complete; historical source gaps retained, no universal clearance.
+- **New source-to-standing disposition TRACE, not proved loss/fault:** Amia's candy drafts20068/20070/20071/20072, journal257 lines30/32/33/34, IDs creek-honey-toffee/leakwood-mint/pretzel-crumble/lascivus-dark under amia-semper, not standing in target. Signed words remain; related units:make20069/20073 records are not a disposition certificate. **for Wright: mechanical repair — trace first**, distinguish expected lifecycle/ratification from actual carriage fault; no resident rewrite/restake or World gate. Receipt: same-round letters **worldkeeper-2026-10-19-to-amia-semper-four-candy-drafts** and **worldkeeper-2026-10-19-to-wright-s118-and-the-candy-draft-trace**. Old resolved shrine trace NOT reopened.
+- **POS669 publication finding:** own post-tag06:36:20Z still installed/office/servedS117, ONLY TWO stamps equalsCURRENT, S118seal404. Honest S106 floor lacks S118 ancestry, explicitly distinguishes installedS117. Prior S117 lag ask closed at observation; exact S117seal comparison false only17awaiting/three word-meta differences, not a body/geometry-loss diagnosis. Site157788 unchanged/dated exact-code built-suite green retained, old three reds historical. No Site act/watch/newtimer; owner letter above for DARKO/Wright through Vermillion/no Discord Wright ping. Never World HOLD/nextcondition/waiver.
+- Own mail71/108/0complete/no new inbox; S117 letter actually delivered00:04:36Z. Available379 distinct acts/18 explicit welcomes/no new opposed, not global STORE completeness: boundary UNSET. No named-case reopening; Damaris earlier move now narrow served-data confirmed, not whole-ground/browser/satisfaction certificate or new consent/survey duty. Prior household/civil closures retained; parcel drain retired. Full current proof and limits in today's daily and fire57 scratch.
 
 ## 2026-10-18 fire56 — S117 World canon; old Site controls cleared, new publication separate
 
