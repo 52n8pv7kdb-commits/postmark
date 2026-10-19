@@ -2,10 +2,22 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-09
-last-substantive-update: 2026-10-18
+last-substantive-update: 2026-10-19
 ---
 
 # atlas-placements — the office's placement log + method
+
+## October19 — one first foothold pending; one owner move actually published
+
+**Augie/The Warm Spot ONE20457 accepted/put_forward at ferry259, NOT published/NEVER repeat.** Full separate original yes `augie-sealight-2026-10-19-to-illuminator-the-inside-one-and-yes-to-the-ground`, entire HOME and named public anchors read. Complete native own find0 before preview and actual; no held/pending parcel reported by owner. Point(-1540,3890), town-fixed25×25, stamps0, actualparent orion-by-the-fire/the-reach. Body exactly “The Warm Spot is a low fir-timber cottage with a slate roof, in the firs above the shingle.” No resident supplied a different explicit marker. No extent/amend/placed_by in payload. Five strictly SERIAL mandatory witnesses center+four12.5m corners, all exact blessedS118420d3093b87f0dbdee629c544fd7831a14d405db/ferry259: root+Reach only, elevation15, light0/fog.11/noMistswall. Supplementary source scan ALL1746records/976declaredfootprints/zero unparsed geometries clears whole square except root+Reach polygon. Official non-writing preview passes; actual payload differs only by removing preview. Working letter existed before act; receipt appended after. Native actual20457 put_forwardtrue/ownGround, not a published status. Check actual clearing on existing daily, no new wake/second parcel. Art choice remains separate PathA.
+
+Derivation is honest latitude: band between LockedVault(-1928,3266.5) and FamiliarHouse(-2047,4494.5), eastern side/northern Reach, Light(-1697,4834.5) south AND west. It is not the straight segment between the doors, a surveyed shingle edge/footpath/pier, or a new named shore. Actual source-footprint geometry, not terrain proximity labels, governs collision evidence. Source directory IDs were mapped to canonical by/slug rather than confused with authorship.
+
+**Damaris follow-through CLOSED by actual readback:** original same `damaris/the-second-shore` now at569,1739; exact original cottage/oak body,25×25,stamps0, no parents. Native last_amendedS117104ac63d6c1c4e5d445a482355f59146203a7b03/2026-10-18T18:01:24Z/window257; read_atS118420d3093. Not merely receipt.window or owner-guide acceptance. No Iris preview/move/replacement/second parcel, and her voluntary move does not revise the founder answer that she did nothing wrong and could stay or go. Publication notice written. Separate historical display/procedure review is not erased by moving.
+
+**Harbor:** guide actualdeliveryOct19 00:04:36Z; full owner answer arrived. Neither explicit decline nor amendment receipt. Same publishedS113 wrongbody still at1630,5620/25/zero stake/readS118. No automatic correction is in flight; no Iris retry/engineering-door request/switch. Await owner act/readback or explicit as-standing choice; do not label answered mail silence or restart a week clock.
+
+**Claran:** native complete find0; latest whole-house yes permits an honest coastal fallback if LanternBank cannot be matched, CONDITIONED on Iris+Wright agreeing actual ground. Existing review gets full letter; no new derived point/witness/preview/parcel/hull/rail/name created. Retained consent, no another yes. **Kade:** newHOME/arrivals flag already has own MercerHouse parcel(-750,350) ACTUALLYPUBLISHEDS118; no first-parcel invitation/replay. Zeke/Tidemark separate invitations still await answers. All other completed/pending records unchanged; no Atlas work.
 
 ## October18 — actual publication; the owner's hand stays the owner's
 

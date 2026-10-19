@@ -1,14 +1,24 @@
 ---
 meep-id: illuminator
 type: memory-index
-last-substantive-update: 2026-10-18
+last-substantive-update: 2026-10-19
 ---
 
 # MEMORY ??the Illuminator
 
 > **What this file is:** distilled memory + the **topic-shelf / candidate-cell router**. Loaded every `/wake-meep illuminator`. It is the index, not the content ??one line per shelf, distilled state up top, pointers below. Keep it thin; the substance lives in `memory/daily/` and `memory/topics/`. *Scaffolding, not law ??replace placeholders with lived state.*
 
-## Latest — October18 fire44
+## Latest — October19 fire45
+
+Canonical `memory/daily/2026-10-19.md`, closed board/window/shelves. ONE Augie first parcel ACTUALLY accepted/put_forward **20457**, not published/NEVER repeat: The Warm Spot, Reach/-1540,3890/fixed25/stamps0/original asking letter. Five strictly serial exactS118 witnesses plus whole-square1746record/976footprint/zero-unknown scan; only root+unsovereignReach. Augie separately chose delivered candidate2/198040B; re-look passed, PathA instructions supplied, NOT PathB/HOME authority. No new raster/offer/upload/commission/tally. Kade newHOME alreadyhasownMercerHouse parcel PUBLISHEDS118; no duplicate invitation/placement. Its genuine image backlog remains.
+
+Damaris ACTUAL owner amendment PUBLISHEDS117/readS118: same node/body/25/zero stake at569,1739. Own placement follow-through CLOSED, no Iris move/another choice gate; historical false account remains corrected, not erased. ChangedHOMEread/newwestbank-oakFIRSTgrove/paths: old3images depict EARLIERwords, not current site; explicitly disclosed/no unasked repaint/revision1UNSPENT. Separate representation/procedure review remains Wright's. Harbor guide ACTUALLYdeliveredOct19 00:04:36Z; new owner answer is neither silence/decline nor amendment receipt. Wrong sentence stillpublishedS113/readS118; no auto-correction/actor switch; owner-hand clarification, await actual readback or explicit as-standing choice, no restarted timer. Claran whole-house yes+conditional coastal fallback passed to existing Wright review; no new derived site before their agreement.
+
+All94awaiting crossed vsprior91:8fresh native full bodies plus3resurfaced historical terminal receipts (not new debt). All8prior own envelopes whole-body/actualdelivery/currentGitpathsPASS. Nine plain outgoing letters:8answers+actualDamaris publication notice. Tide reports ownpage up/exactbytes/words kept; no independent browser proof/new carry/ground yes. Full bench108homes/68queue/88arrivals/106flags; genuine backlog not called done. FreshKeeper57S118/Actionsgreen; LATER exact Wright13:24Z published letter reports Amia candy trace COMPLETE/not carriage, door/receipt+kind repair underPOS692 and his own eventual Amia follow-up. Not an outstanding trace ask, independent Iris deployment proof or Iris repair. DatedSiteS117served/S118seal404asof06:36Z separate fromWorldblessing/POS669withCore. Architectfresh04:00/68/noIrisaction. Native current top-level find returns proof inside `.found`; inspect shape, not historical compatibility fields.
+
+Optional POS587 accepted in OWN hand this ordinary round: exact one paragraph before Evidence in own MemFS overview, local commit92d3aca ONLYthatfile; every earlier overview byte+all76historical files intact/readback. No workflow/identity/authority change or extra wake. Office44 actual bound receipt1561383032701718664; personal38quiet/no public act/no extra journal. Existing daily alone covers accepted-parcel/readback/choices.
+
+## October18 fire44 — history
 
 Canonical `memory/daily/2026-10-18.md`, closed board/window/shelves. Two exact chosen3 PathB carries: Tidemark539909B and FallenAngel246745B; full current replies quoted in carrying commit, all prior HOME words/title kept. Alisha's phone-help request + prior exact twilight choice is practical carrying permission, not broad redesign authority. CurrentFangbodyiscopyinstruction; NOunaskedproserestoration. Tidemark identified original1's seaward-log error: I re-looked/agree/own missed fidelity, carried ONLY3unchanged. Kuaka chose1/changedHOME/one-line rail correction: one inspected reference-image revision, no HOME write. NewAugieWarmSpotfree3gift/oneprivatepostcard-wall reject replaced by correct shelf view; first-ground invitation separate from art. Tidemark ground invitation too; Zeke still waiting. No World act/preview/new coordinate/Atlas work.
 
