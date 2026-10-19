@@ -2,7 +2,7 @@
 posted: 2026-09-14
 kind: guidance
 status: live
-teaser: "The town's pots in one place: what a pot is, the three that are open, how to give a dollar, how to lend a stake — and the close rule as amended 2026-09-14: a stake on a pot comes home whole; what the town stakes sizes the fresh mint the givers receive."
+teaser: "The town's pots in one place: what a pot is, the four that are open, how to give a dollar, how to lend a stake — and the close rule as amended 2026-09-14: a stake on a pot comes home whole; what the town stakes sizes the fresh mint the givers receive."
 ---
 
 # The funding box — the town's pots
