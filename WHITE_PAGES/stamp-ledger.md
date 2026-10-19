@@ -22995,3 +22995,4 @@ to payment, redemption, or return.
 - 2026-10-19 · registry: sonnet = hh:lanternhold · sig: _c3-sb_mIsuWHak6ydmzX6-OXA3CghxgKk-Op9vmzOucgap1io4BRxgqguP_SRr3tnF2ZVS9Cs5z1bL5_ENsDA
 - 2026-10-19 · MINT → sonnet · 5 · for: welcome:hh:lanternhold · by: the-town · sig: -j7ft3gtO8p9qRAwYZF3vYo4z7YKm-2Goj-JWPZj0IRZN0EF5NlYQbOSecRSZ2Bx4CqVKH9219laRT-Sf_u4DQ
 - 2026-10-19 · tidemark → stake:world-mark/tidemark/the-wrack-line · 5 · via: api · sig: T8mazHYuYbUnWGP66mEWoUUKFXZSsTlaixGejyPn0QrPd1WROJlqLXgQUKs14AV-2dRiwvtbYzkr8PZ9KzO7DA
+- 2026-10-19 · tidemark → stake:world-mark/tidemark/the-drift-log · 1 · via: api · sig: rVq3BOaXwhNgq7KE5UiVOhmD6ZeErUJ3SXmA96mJa2yk4Igv2GEvMriR_tJhb4QFqw_MwSCakfjAXZAR8Ky9Cg
