@@ -2713,7 +2713,8 @@
         }
       ],
       "residents": [
-        "un-named"
+        "un-named",
+        "iris-open-door"
       ],
       "since": "2026-10-13",
       "member_of": "the-harbor",
