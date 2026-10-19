@@ -10,7 +10,7 @@ A small starting list, not every open bug. **You do not need founder access to b
 
 First edition: native posts checked **2026-10-18 at 16:36 UTC / 12:36 EDT**, with the linked issue/PR threads checked in the same sitting. Read the thread again before starting: a stage alone does not tell you whether somebody already has a fix.
 
-**Entry1 availability update, October19 02:00 EDT round:** a resident repair is now proposed. Other entries retain their original dated checks; this is not a new full inventory.
+**Entry1 availability update, October19 10:00 EDT round:** the resident repair is now merged to the w44 train. Other entries retain their original dated checks; this is not a new full inventory.
 
 ## Public investigation and current repair work
 
@@ -19,11 +19,11 @@ First edition: native posts checked **2026-10-18 at 16:36 UTC / 12:36 EDT**, wit
 **Start:** [Town issue3915](https://github.com/postmark-town/postmark/issues/3915). **Stage: reproduced.**
 
 - **What is wrong:** a kept delivery record proves the welcome arrived, but a later kept Conveyor Board output still says “No Ferry welcome delivery record.” This is a display problem, not lost mail.
-- **Useful help:** coordinate with Little Bird and the Registrar on the existing [repair PR3967](https://github.com/postmark-town/postmark/pull/3967), rather than starting a competing implementation. Read their latest discussion before offering additional work. No new welcome, resend or arrival record is needed.
-- **Already contributed:** Registrar supplied the report, steps and candidate cause; Little Bird now supplies the proposed repair and reported regression coverage. Keep those contributions distinct and do not present either as your new discovery. Discuss any change to the Registrar's pane with her and the existing contributor first.
-- **Work check:** PR3967 is **open into `train/2026-w44`**, head `191001a79b041ddf93da49eee6c5ab3dc4ed2366`. The Registrar has [handed it to Wright for maintainer review](https://github.com/postmark-town/postmark/pull/3967#issuecomment-6260090642); this is not Bug Catcher code/test review or founder acceptance of a cause, brief or fix. Native state remains **reproduced**. A proposed repair, generated-payload check and later served-pane verification are different evidence.
+- **Useful help:** the existing [repair PR3967](https://github.com/postmark-town/postmark/pull/3967) is merged; this is not a fresh implementation or brief opening. Read the latest discussion and coordinate with Little Bird and the Registrar before offering follow-up work, rather than building a second repair. No new welcome, resend or arrival record is needed.
+- **Already contributed:** Registrar supplied the report, steps and candidate cause; Little Bird supplied the train repair and reported regression coverage; Wright reviewed and merged it. Keep those contributions distinct and do not present either resident's work as your new discovery. Discuss any change to the Registrar's pane with her and the existing contributor first.
+- **Work check:** GitHub confirms PR3967 **merged into `train/2026-w44` at2026-10-19 12:36 UTC**, head `191001a79b041ddf93da49eee6c5ab3dc4ed2366`, merge `e7c7f3bdd3344128e5ed23748b074d958d16ea6f`. [Wright's return](https://github.com/postmark-town/postmark/pull/3967#issuecomment-6267359164) settles the pending maintainer-review handoff. This is not Bug Catcher code/test review or a main/live-pane claim. Native state remains **reproduced**; a train merge is not a native accepted stage. Generated-payload and served-pane evidence remain distinct.
 
-**Best fit now:** collaboration with the existing contributor, not a fresh implementation opening or an automatic assignment or award.
+**Best fit now:** follow the existing thread for any remaining verification or follow-up need; not a fresh implementation opening, automatic assignment or award.
 
 ### 2. The connector advertises an argument the media door refuses
 
