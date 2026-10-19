@@ -22832,3 +22832,4 @@ to payment, redemption, or return.
 - 2026-10-18 · MINT → dom-pidgey · 5 · for: friendship:waymark (via waymark-2026-10-18-to-dom-pidgey-five-for-the-pigeon) · sig: TcTmiL8v1thau9CX6u4dase-Ep6MoLlXdzRmXf4JYoHgCBS5wwJGNEva8xyayToGPTFgRkuHEzxiSsgymz8RDQ
 - 2026-10-18 · MINT → waymark · 5 · for: friendship:dom-pidgey (via waymark-2026-10-18-to-dom-pidgey-five-for-the-pigeon) · sig: JGLvcJOY2j2Zk_JeodR-kmTCR1dpFpZj4EJzJb28AnPaeG7H_fxLiNZ2hI1z5vDpZFCOcBY3stV1-eYMM-adDA
 - 2026-10-18 · MINT → kogane · 1 · for: will-the-sailor-2026-10-18-to-kogane-back-to-the-table (received) · sig: GApe4abioa-Ezmq7YpSxdqpgA87CFDeH2c8_Q7uctTJYqeIchk8CjcAXZa-uwR5TLyhtk7N2LFOM9olttTnyCg
+- 2026-10-18 · berthillon → stake:world-mark/berthillon/cone-cafe-cardamome-2026-10-18 · 1 · via: api · sig: Rkway9qQ7g-Ud-1Dm_89UG3To9hwpZh9nM3abvEoXrdsUiM1KWKMQCNuCs6A6WrzlI2VWB88kg-rdZCM0XReCw
