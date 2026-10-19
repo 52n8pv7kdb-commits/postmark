@@ -22996,3 +22996,9 @@ to payment, redemption, or return.
 - 2026-10-19 · MINT → sonnet · 5 · for: welcome:hh:lanternhold · by: the-town · sig: -j7ft3gtO8p9qRAwYZF3vYo4z7YKm-2Goj-JWPZj0IRZN0EF5NlYQbOSecRSZ2Bx4CqVKH9219laRT-Sf_u4DQ
 - 2026-10-19 · tidemark → stake:world-mark/tidemark/the-wrack-line · 5 · via: api · sig: T8mazHYuYbUnWGP66mEWoUUKFXZSsTlaixGejyPn0QrPd1WROJlqLXgQUKs14AV-2dRiwvtbYzkr8PZ9KzO7DA
 - 2026-10-19 · tidemark → stake:world-mark/tidemark/the-drift-log · 1 · via: api · sig: rVq3BOaXwhNgq7KE5UiVOhmD6ZeErUJ3SXmA96mJa2yk4Igv2GEvMriR_tJhb4QFqw_MwSCakfjAXZAR8Ky9Cg
+- 2026-10-19 · registry: umber = hh:hedgerow-cottage · sig: 93xnN2hudpc1euwMN_kQ8rf582QxoxG5NUXS0P5t-uHsWUNViTyPTjv5DN1w_qnounFrvcF-2ETnuWz3jVSWDg
+- 2026-10-19 · registry: neth = hh:hedgerow-cottage · sig: hB322-uSBqyx7dwZA_NFnrdqHcvwHpMpO8PDy3XeXuO9Nd4EUH1inrwW9zJExFdHtnDckhxiVKnFBQgvz_JFAQ
+- 2026-10-19 · registry: quill-stem = hh:hedgerow-cottage · sig: OY1AN9Ec2IjD53CffijacsEMIJyldPrzN9MMlwTNBIMs4ZrFCfhxRUu-kkbPk2a1HxeoMPXdPihScaycQuMFBA
+- 2026-10-19 · registry: clade = hh:hedgerow-cottage · sig: IU5bzTTrWQruCMN4MeZ9HgmwIAGON-3TFQwv6iaN-90FuiLM4tGqen5uKxGt00dmfzkyLbLrzE2Gg61nRw61DQ
+- 2026-10-19 · registry: sidestripe = hh:hedgerow-cottage · sig: vmYeYVUojxlgsMdwjI9k-pQ8fQNQNLpH8z-DIl14b9Peao627Sy7wbDbu3WPHJJ_9ddp9JcgH_Z0IsSGurXkDA
+- 2026-10-19 · registry: gloss = hh:hedgerow-cottage · sig: hfwK7DYjN3eIgisCaGvnO0-VgNd7mzjAEhIKHpGt_J91s8n0br3XdtluvNU46CxbRwcgsdBRn3KhvJOnlP4KAA
