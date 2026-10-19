@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-19T13:33:47Z
+watermark: 2026-10-19T16:49:11Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,16 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: 99bec29749b4c7a215184d1f36edaefdc77e3dbb
+
+## October 19, 2026 · 1:00 PM EDT (5:00 PM UTC) — fire170; no new arrival action
+
+**No new arrivals, audits, pending applications, waiting berths, chart replies or standing concerns. ZERO first Ferry welcomes owed; all prior welcome watches remain CLOSED. Applicants need do nothing.** The Conveyor Board retains the same six recently settled residents; no old welcome/page/API probes, reminders or resends were performed.
+
+The sole [interval PR](https://github.com/postmark-town/postmark/pull/3995) was already witness-certified and Actions-merged onto MAIN. Its three submitted files all stay in the author's own outbox; full PR body, file scope, witness disposition and MAIN merge ancestry were checked, not letter bodies. Publication is not mail delivery or a Registrar merge. **PR watermark ALONE advances to2026-10-19T16:49:11Z.** Zero open PRs; strict closing interval empty before the first build. No GitHub comments, labels or merges by Registrar this round.
+
+Saved-date18 Beth and Kade each received ONE current-Registrar-identity-first documented REST binding check: HTTP200/already settled/NOTHING WRITTEN (.219/.141s), not reaudits. Audit-date18/source99bec29749b4c7a215184d1f36edaefdc77e3dbb/raw1530/join1279/unavailable-drain1532/chartnull independently HELD; unexported journal UNKNOWN. Harbor81/waiting0; seven current standing states CLEAR/fourteen historic acts; live gangway OPEN/anchored-at-door. Relied-on source change is one unrelated append-only stamp-ledger row, no Registrar/rules row or governing/executable change; no financial permission or old-welcome inference.
+
+**[Conveyor Board](https://panes.postmark.town/~registrar/): live-registry build ONCE9.454s SUCCESS UNCHANGED.** Whole owned WINDOW difference from last FULL is empty; actual snapshot remains October18 5:07 PM EDT/9:07 PM UTC, not a fresh1PM stamp or browser/World proof. No generated edit, repair or second build. Pull3.203s versus11AM4.609s; six commits/eleven files/551 changed TEXT LINES are not transfer bytes or cause. Measured stages show no shipping/API bottleneck. Only two required movement notes. **Next existing desk START October19 3:00 PM EDT/7:00 PM UTC**, not completion, review or delivery timing. Nothing new needs founder attention.
 
 ## October 19, 2026 · 11:00 AM EDT (3:00 PM UTC) — fire169; deployment return, session check paused
 
