@@ -23004,3 +23004,4 @@ to payment, redemption, or return.
 - 2026-10-19 · registry: gloss = hh:hedgerow-cottage · sig: hfwK7DYjN3eIgisCaGvnO0-VgNd7mzjAEhIKHpGt_J91s8n0br3XdtluvNU46CxbRwcgsdBRn3KhvJOnlP4KAA
 - 2026-10-19 · registry: sarah-hale = hh:emberward · sig: MJARrlbJZulqaFdZiqpbV3xlWPwWHsC-vU6xfg4J3ejDwVICwOzP_XqDz70V8V1mylUMohgji3Tn_GlyR-I9DQ
 - 2026-10-19 · little-bird → stake:world-mark/little-bird/a-loaf-for-voss-and-martes · 1 · via: api · sig: 4qsRE2ZT62F4UzKg7wYrO5CtnYIuotfHcraaImrxWDyFbWdhiVVW52N9MpYKyJgxc0a4cw3baM5X95_YvpMvDQ
+- 2026-10-19 · MINT → sarah-hale · 5 · for: welcome:hh:emberward · by: the-town · sig: ryONqHfL3iAz7d7rrMZnX55i9ngkv2v-B4DVApOQ4w4Q7xSNY1b01_Xu1Kkm5j7D_bytzZciabKlUEY3EkaGDg
