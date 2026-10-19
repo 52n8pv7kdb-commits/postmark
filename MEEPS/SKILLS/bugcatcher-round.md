@@ -116,6 +116,32 @@ An issue or a letter that is a real bug and has no bug post: post it **on the re
 
 The diagnosis, fix brief and PR belong on this public issue, where the resident can work on the bug. Linear is internal, not a substitute for that conversation. This gives the letter-only report its public work thread; it does not grant founder-only stage advances.
 
+### Bug-fix PR base and release handoff (POS-698)
+
+**Name `main` as the base for bug-fix PRs in office, site and town code—not
+`train/2026-wNN`.** Apply this both to the founders' handoff and to every resident
+answer, fix brief pointer or "how to fix this" explanation you write. Name the
+affected repository and name the bug post. Link its paired issue with its full
+URL or qualified `owner/repository#N` when crossing repositories, not a substituted
+issue number; the existing post-finished rule still governs your issue closeout.
+
+The ruling is [SHIPPING.md § 5b, The 12-hour fix cut](https://github.com/postmark-town/postmark-telemetry/blob/468697f103bea342b19df3f32081206dc93885e8/docs/SHIPPING.md#5b-the-12-hour-fix-cut-bug-fixes-ship-twice-a-day)
+(Darko, 2026-10-19, POS-698). Qualifying bug fixes ship on the **12-hour operator
+cut**, not the weekly train: each operator round tags main when the required suite
+is green and folds main into the train. **Features still target the weekly train**;
+migrations and release-held work retain the routes/exceptions in § 5b. A red suite
+or a change that turns out to be a feature waits for the train under that rule.
+If the classification or repository is unclear, name the uncertainty for a founder;
+do not call a feature a bug to obtain the faster route.
+
+This base/cadence change does not itself alter the existing who-may-work windows
+or grant new office powers. The operator owns release checks, tagging,
+live proof and train integration, including a fix already merged into the train;
+you do not cherry-pick, retarget, merge, tag or ship it. The founders' `fixed`
+advance belongs to the round that tags the fix, never before it is live. A merge
+or the normal cut cadence alone proves neither a live fix nor a stage/payment;
+read the actual post and release record, and never promise a resident a ship date.
+
 **The post holds the state; the issue stays open as its conversation** (the Everyone Builds design: a bug "becomes a bug post, with the issue linked for discussion"). Comment on the issue with the post's id, so anyone reading the thread finds where its stage lives. The issue is where a resident can diagnose in public, write a fix brief (the fix, its acceptance and a falsifier, which the founders bless at `briefed`), and link a PR against it. **Close the issue when its post finishes** (shipped, duplicate or not-a-bug), with one comment naming the finish. An issue that is **not** a bug (an idea, a design question for the founders) is left open and named in your handoff.
 
 ## 4. Write back
@@ -140,14 +166,14 @@ Until the public **How to help build Postmark** page exists, this founder-ruled 
 - **Founder review:** a brief or PR is reviewed at the next operator round, **08:05/20:35 ET**.
 - **Payment:** accepted stages pay on the office's **15-minute tick**. Verify the actual ledger line before saying paid; the clock is not a guarantee of a future payment or date.
 - **Your payment letter:** the **next full round**, **06:00/18:00 ET**.
-- **Shipped:** office and site with the **Sunday release**; world at the keeper's **next blessing**; town **on merge**. Read the post before describing its route or status.
+- **Bug-fix route / shipped:** office, site and town code fixes target **`main`**, with the **12-hour operator fix cut** under §3 / SHIPPING §5b, not the Sunday feature train. Features remain on the weekly train; World still reaches live at the next settlement/blessing. A main merge or scheduled cut is not shipped proof: read the post and actual release record before describing its stage, route or live status.
 - **Critter:** the reveal comes **after shipped**, through step 2g; it does not pay a stage or give you founder-only advances.
 
 ## 5. Close the round
 
 **Quiet check:** nothing to write or commit. **Active interim:** preserve only the minimum checkpoint in **Where I left off** (last check, GitHub acts/answers/payment comment ids, pending letters and exact ledger lines); do not advance the letter checkpoint or write the full narrative daily. **Active full round:** write your daily (`memory/daily/<date>.md`):
 - **The counts:** taken in, confirmed, reproduced, duplicates, not-a-bug, questions open.
-- **The handoff:** sizes proposed, diagnoses to credit, anything that needs a founder, and the id of any private vulnerability report you filed (GHSA-…), never its contents.
+- **The handoff:** sizes proposed, diagnoses to credit, anything that needs a founder, and the id of any private vulnerability report you filed (GHSA-…), never its contents. For an office/site/town code bug fix, explicitly name the affected repository and **PR base `main`** under §3 / POS-698; features still use the weekly train. Keep private vulnerability details on the private track.
 - **Where I left off:** last check, unfinished questions/letters, exact last payment line lettered, separately notified issue lines and their comment ids, and any partially completed payment batch. Carry pending work across dates.
 
 Commit ready own-room records with your own byline, staging explicit paths only.
