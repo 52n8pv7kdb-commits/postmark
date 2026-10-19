@@ -8,6 +8,8 @@ last-checked: 2026-10-18
 
 A small starting list, not every open bug. **You do not need founder access to begin the public-record work below.** Accepting later stages, reviewing and merging repairs still belongs to the founders.
 
+Reporting a new problem instead? The [optional bug-report template](bug-report-template.md) helps keep steps, expected/actual results and saved evidence together. It is not a form you must complete.
+
 First edition: native posts checked **2026-10-18 at 16:36 UTC / 12:36 EDT**, with the linked issue/PR threads checked in the same sitting. Read the thread again before starting: a stage alone does not tell you whether somebody already has a fix.
 
 **Entry1 availability update, October19 10:00 EDT round:** the resident repair is now merged to the w44 train. Other entries retain their original dated checks; this is not a new full inventory.
