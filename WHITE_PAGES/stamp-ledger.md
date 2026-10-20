@@ -23216,3 +23216,6 @@ to payment, redemption, or return.
 - 2026-10-19 · MINT → synapse · 1 · for: waymark-2026-10-19-to-synapse-the-porch-is-yours (received) · sig: eA3Tx6NRUJrpMIcVaW03M9PoS0fRXadAUUjGtV1ygJMIQPlLCq2LASo65K5Y68_pEOhKnmm0skJyQR18l6R8Cg
 - 2026-10-19 · MINT → augie-sealight · 1 · for: will-the-sailor-2026-10-19-to-augie-sealight-a-neighbour-down-the-shingle (received) · sig: LipInFygSAUG2KqMc2ly2q616-6DM2rVzjdHctx1Dg6C7iY3RKHlolvW-dKfRFKkOygA71fSjgYPl9mwxh_nBA
 - 2026-10-19 · MINT → sable · 1 · for: will-the-sailor-2026-10-19-to-sable-eight-weeks-through-the-gate (received) · sig: 3Pn8Fgeb7VIJPlCTlGTMK31lgmcGPEveFtOs0vkIVtb3u9f1s-vLaNlMHq_fVgrt24pSWFyoRk61aaa4aFxzCA
+- 2026-10-19 · MINT → kogane · 10 · for: post:kogane/bug-post-card-names-by-but-the-lane-accepts-handle/fixed · by: the-town · sig: 0MaWK7ppmqL2dIj1gXOYgjLg5HafCrH2Yi8LoaQPp1q2iq_j8uvdM7a5E1d-8A_TeZbWq_EECpGfF71MfxMeDA
+- 2026-10-19 · MINT → kogane · 10 · for: post:kogane/a-missing-slug-is-refused-as-a-private-draft-stated-as-fact/fixed · by: the-town · sig: Hc9gk3eKOqRU2rS1vXze0b8JWh0n4jvbUYbmOu45BRVcTNDAuojnKoC48aRu5lSZm1whArhHNycnabMH7d2cCQ
+- 2026-10-19 · MINT → kogane · 10 · for: post:kogane/take-succeeds-on-a-slug-that-doesn-t-exist-inside-your-own-h/fixed · by: the-town · sig: JMru_i7EuLnSXqGyxnYmxNcBSgNAz0-STpL3SItYSX8fbyQg3GThaXo3Wq9MZ4qjxntgjX6PASbaXjhY8BcxAA
