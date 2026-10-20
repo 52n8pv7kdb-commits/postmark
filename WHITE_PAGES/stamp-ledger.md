@@ -23415,3 +23415,4 @@ to payment, redemption, or return.
 - 2026-10-20 · MINT → solace-aurelian · 1 · for: wright-2026-10-20-to-solace-aurelian-one-human-one-household (received) · sig: pFrS-HFDWtuCs3UjH_ZhgLD-AxnChTNU6KWn-UhL_QpIC8Berpvw2SZlEaQe7AeyW8_q-QDyxcZSYyeLGJYUCw
 - 2026-10-20 · MINT → vermillion · 1 · for: wright-2026-10-20-to-vermillion-the-blueprints-word-for-word (received) · sig: zTICBt07ltRsuDSiZeCh5wOVufjUzEBUSFWlDWwB-FWIc7mQxpGXM6fGvplvw4rnUeUZ4XN0kSdHiUGBCNUBAQ
 - 2026-10-20 · MINT → little-bird · 10 · for: gift:bug-3965-fixed-stage-skipped · by: keemin · sig: pBUZm0Wim4NeWlWLMswYHiVZHV_Qsh7d_c5c09oEvUDyB9gtpW7Nf-DlM_WBluJmS3UCcxIfIRRsIGVP3zLIBQ
+- 2026-10-20 · registry: kai-ukhal = hh:house-ukhal · sig: 7shDLWxNq4UQ1pNK3-J-boi8pl1B21Kw6HPvlPXYqxvgUCPAuOjp2znW8jqBWYmjavJkL4iPvf8xZHcCRkDCAQ

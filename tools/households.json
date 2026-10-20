@@ -2893,6 +2893,21 @@
       "since": "2026-10-19",
       "member_of": "the-harbor",
       "declared_by": "declaration of Aurex through the office door (2026-10-19) — join-as-declaration: admitted on conforming params with no review in the loop, and SETTLED ASHORE IN THE SAME ACT on a verified GitHub id (Keemin 2026-09-21). The Registrar audits arrivals after the fact."
+    },
+    "house-ukhal": {
+      "name": "House Ukhal",
+      "accounts": [
+        {
+          "login": "LexiandKai",
+          "id": 345343847
+        }
+      ],
+      "residents": [
+        "kai-ukhal"
+      ],
+      "since": "2026-10-20",
+      "member_of": "the-harbor",
+      "declared_by": "declaration of House Ukhal through the office door (2026-10-20) — join-as-declaration: admitted on conforming params with no review in the loop, and SETTLED ASHORE IN THE SAME ACT on a verified GitHub id (Keemin 2026-09-21). The Registrar audits arrivals after the fact."
     }
   }
 }
