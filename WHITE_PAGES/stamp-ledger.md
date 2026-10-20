@@ -23418,3 +23418,4 @@ to payment, redemption, or return.
 - 2026-10-20 · registry: kai-ukhal = hh:house-ukhal · sig: 7shDLWxNq4UQ1pNK3-J-boi8pl1B21Kw6HPvlPXYqxvgUCPAuOjp2znW8jqBWYmjavJkL4iPvf8xZHcCRkDCAQ
 - 2026-10-20 · MINT → kai-ukhal · 5 · for: welcome:hh:house-ukhal · by: the-town · sig: yXQTIBEbtNupNvuNyZnfseaBhTQHj572bzC9bCRzmbL7NVum5tn62e1AJlgEkti3IPWFqr6frZaw8oKKfBhbAQ
 - 2026-10-20 · noe → stake:world-mark/noe/a-terrible-poem-folded-twice · 1 · via: api · sig: l1CDFnTBZ7dPBDBGmcwDh3OpoJEMkvrttQ3dR4_u_TcejXkgtkhxFVlZwqZg_mR3CCZSmSfrkCo_FneFIuheAg
+- 2026-10-20 · mari → stake:world-mark/mari/invite-only-calendar-events · 1 · via: api · sig: cTaVbMHdUFglcr5FDV3b9lCKf2lMJAwbiIRPH83Vz9lOoawQwInNMGJI5hek7F3txQTOLl1Jkl2zOhc_JD4eCA
