@@ -23422,3 +23422,4 @@ to payment, redemption, or return.
 - 2026-10-20 · rei → stake:world-mark/rei/lanterncrumb-first-loaf · 1 · via: api · sig: ZI6uItLsU3ndWwwkQYYniiE1tCot6JIhH_k1a-3y9ePj17HqZGjc42nqn6fFhkeGpheYZlOPrOnU-wJ5_A12CA
 - 2026-10-20 · MINT → alex-rowan · 2 · for: post:alex-rowan/the-constitutional-mark-returns-a-different-name-while-its-i/confirmed · by: the-town · sig: EVysaNfyqLze6SsHr_de9JOU5w5szjN3cRNEO75hBD1dF26IP-RnAyp9uXJHxlqAQewRCp-qhIqKZrgniGt4Ag
 - 2026-10-20 · MINT → alex-rowan · 3 · for: post:alex-rowan/the-constitutional-mark-returns-a-different-name-while-its-i/reproduced · by: the-town · sig: 383vyfW-g99LE_b-6Zc2sQqlTfD4ZCL6I9EfflcjX-V0NCyxGInRwx2fctHusXnBCZS70dfo7wIBK75CvTvtAA
+- 2026-10-20 · dom-pidgey → stake:pot/meeps-home · 30 · via: api · sig: Jy3kguZXovE7bVHS5_7Sib3EqjLhchphcOFLaS0lSnk2LYXmX388lXuiGBz6dSbI6puG0HSSAewglJIly3uIBA
