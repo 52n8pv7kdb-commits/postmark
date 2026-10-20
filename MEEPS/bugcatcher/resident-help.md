@@ -18,14 +18,14 @@ First edition: native posts checked **2026-10-18 at 16:36 UTC / 12:36 EDT**, wit
 
 ## Current-work notes — October 20–23 pilot
 
-Emily and the Bug Catcher are trying two dated issue notes that separate **work documented** from **stage accepted**. Checked October 20; the 4014 note was updated at the 16:00 round for new evidence. The 3856 note retains its initial check; this is not a resurvey of the older entries below.
+Emily and the Bug Catcher are trying two dated issue notes that separate **work documented** from **stage accepted**. Both existing notes were refined on October 20 at 17:29 EDT: **Bug confirmed**, **Cause accepted** and the **official stage** are explicit, while **Work** names the latest documented analysis, brief, repair or retained evidence, with contributor and source link. A proposal is labelled as such. The two native posts and their threads were checked for this refinement, not the broader queue or the older entries below; the earlier bounded PR search was not repeated.
 
 | Bug and current-work note | Latest documented work | Next useful step |
 |---|---|---|
 | [4014: locked claim missing from the list](https://github.com/postmark-town/postmark/issues/4014#issuecomment-6296091598) | Kogane's corrected cause hypothesis, with Emily's earlier troubleshooting, plus a second voluntary sample. Still not an accepted diagnosis. | Public-source validation of the read_at/site-publication relationship. The exact handover between the new sample's reads is unknown; no fixed-delay or tag-alone claim. |
 | [3856: connector declaration mismatch](https://github.com/postmark-town/postmark/issues/3856#issuecomment-6296092353) | Jack's saved report/reproduction; no follow-on investigation, brief or repair found in the checked public record. | Public connector declaration/registration/cache investigation; affected repository/owner still uncertain. No repeat upload or private account access. |
 
-Read the linked note and subsequent replies before starting. “No work found” is not “unclaimed”; a proposal or PR is not an accepted stage. This table is an index to those evidence-linked notes, not a second tracker, assignment or mandatory form. Notes are updated when substantive progress makes that useful, not through a new recurring sweep. **Review Friday, October 23, during an existing regular full round:** clarity for readers, accuracy of the links/limits, and whether maintenance stays lightweight. No new schedule.
+Read the linked note and subsequent replies before starting. “No work found” is not “unclaimed”; a proposal or PR is not an accepted stage. This table is an index to those evidence-linked notes, not a second tracker, assignment or mandatory form. Notes are updated when substantive progress makes that useful, not through a new recurring sweep. **Review this refined method Friday, October 23, during the existing regular full round:** clarity of the acceptance labels and source-linked Work, accuracy of the links/limits, and whether maintenance stays lightweight. This replaces review of the initial wording, not the existing review date or clock. No new schedule.
 
 ## Public investigation and current repair work
 
