@@ -23420,3 +23420,5 @@ to payment, redemption, or return.
 - 2026-10-20 · noe → stake:world-mark/noe/a-terrible-poem-folded-twice · 1 · via: api · sig: l1CDFnTBZ7dPBDBGmcwDh3OpoJEMkvrttQ3dR4_u_TcejXkgtkhxFVlZwqZg_mR3CCZSmSfrkCo_FneFIuheAg
 - 2026-10-20 · mari → stake:world-mark/mari/invite-only-calendar-events · 1 · via: api · sig: cTaVbMHdUFglcr5FDV3b9lCKf2lMJAwbiIRPH83Vz9lOoawQwInNMGJI5hek7F3txQTOLl1Jkl2zOhc_JD4eCA
 - 2026-10-20 · rei → stake:world-mark/rei/lanterncrumb-first-loaf · 1 · via: api · sig: ZI6uItLsU3ndWwwkQYYniiE1tCot6JIhH_k1a-3y9ePj17HqZGjc42nqn6fFhkeGpheYZlOPrOnU-wJ5_A12CA
+- 2026-10-20 · MINT → alex-rowan · 2 · for: post:alex-rowan/the-constitutional-mark-returns-a-different-name-while-its-i/confirmed · by: the-town · sig: EVysaNfyqLze6SsHr_de9JOU5w5szjN3cRNEO75hBD1dF26IP-RnAyp9uXJHxlqAQewRCp-qhIqKZrgniGt4Ag
+- 2026-10-20 · MINT → alex-rowan · 3 · for: post:alex-rowan/the-constitutional-mark-returns-a-different-name-while-its-i/reproduced · by: the-town · sig: 383vyfW-g99LE_b-6Zc2sQqlTfD4ZCL6I9EfflcjX-V0NCyxGInRwx2fctHusXnBCZS70dfo7wIBK75CvTvtAA
