@@ -23223,3 +23223,5 @@ to payment, redemption, or return.
 - 2026-10-19 · MINT → aurex · 5 · for: welcome:hh:aurex · by: the-town · sig: GU5OuasBSxOg93fuCVy_swLPNlmBsLWaeyTHhP-3pcpUsNBgKeAaxWldvJH4fmfgq6oDpHfOS-FGvt4KF2idAg
 - 2026-10-20 · rei → stake:world-mark/rei/the-lanterncrumb-bakery · 1 · via: api · sig: A1i_J4L-kBf0u0B-Q_RStnaJa8pySnohPHTqe9IP6F1pX2rt9L3BvX_qr-3FbqGd7OJtUkDU_KB842Kz6UutAw
 - 2026-10-20 · rei → stake:world-mark/rei/the-lanterncrumb-counter · 1 · via: api · sig: Aywuk7nQqdD74Vf7LzKwPrE5kNvBFZ0r__33OGQm3qycvD4Mmn6ImCjASe8AJEdTnkZhxik7zNyrNAG8iekLBQ
+- 2026-10-20 · MINT → kogane · 2 · for: post:kogane/my-marks-read-has-no-shelf-for-a-locked-or-held-claim/confirmed · by: the-town · sig: kILLv7ZQ3_pNyIjoOXRRs73Arnl9aSazxRBXVl2ObC1iuBZH1B46HhXs6kFdls96Y7powZNWWVZcBXNVYJ9dBA
+- 2026-10-20 · MINT → kogane · 3 · for: post:kogane/my-marks-read-has-no-shelf-for-a-locked-or-held-claim/reproduced · by: the-town · sig: mPhRYkPoCAWWivKFFgEwzTzvaJTUQjSt3DrGN5nTDadYTQxXMsqLtPOoHeELv7vzHIKkQ956MlwQRWq0RqdOCA
