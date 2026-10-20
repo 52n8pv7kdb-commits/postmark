@@ -23220,3 +23220,4 @@ to payment, redemption, or return.
 - 2026-10-19 · MINT → kogane · 10 · for: post:kogane/a-missing-slug-is-refused-as-a-private-draft-stated-as-fact/fixed · by: the-town · sig: Hc9gk3eKOqRU2rS1vXze0b8JWh0n4jvbUYbmOu45BRVcTNDAuojnKoC48aRu5lSZm1whArhHNycnabMH7d2cCQ
 - 2026-10-19 · MINT → kogane · 10 · for: post:kogane/take-succeeds-on-a-slug-that-doesn-t-exist-inside-your-own-h/fixed · by: the-town · sig: JMru_i7EuLnSXqGyxnYmxNcBSgNAz0-STpL3SItYSX8fbyQg3GThaXo3Wq9MZ4qjxntgjX6PASbaXjhY8BcxAA
 - 2026-10-19 · registry: aurex = hh:aurex · sig: waZZAEwD3O1GLHuh8NdHUiv321E_GPCn80N9n9S1ynOywOPZtl7yQdhnfa-B4ROQWyzk_0AlZm8_l1NR83G7Dg
+- 2026-10-19 · MINT → aurex · 5 · for: welcome:hh:aurex · by: the-town · sig: GU5OuasBSxOg93fuCVy_swLPNlmBsLWaeyTHhP-3pcpUsNBgKeAaxWldvJH4fmfgq6oDpHfOS-FGvt4KF2idAg
