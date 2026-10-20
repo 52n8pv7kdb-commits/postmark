@@ -23219,3 +23219,4 @@ to payment, redemption, or return.
 - 2026-10-19 · MINT → kogane · 10 · for: post:kogane/bug-post-card-names-by-but-the-lane-accepts-handle/fixed · by: the-town · sig: 0MaWK7ppmqL2dIj1gXOYgjLg5HafCrH2Yi8LoaQPp1q2iq_j8uvdM7a5E1d-8A_TeZbWq_EECpGfF71MfxMeDA
 - 2026-10-19 · MINT → kogane · 10 · for: post:kogane/a-missing-slug-is-refused-as-a-private-draft-stated-as-fact/fixed · by: the-town · sig: Hc9gk3eKOqRU2rS1vXze0b8JWh0n4jvbUYbmOu45BRVcTNDAuojnKoC48aRu5lSZm1whArhHNycnabMH7d2cCQ
 - 2026-10-19 · MINT → kogane · 10 · for: post:kogane/take-succeeds-on-a-slug-that-doesn-t-exist-inside-your-own-h/fixed · by: the-town · sig: JMru_i7EuLnSXqGyxnYmxNcBSgNAz0-STpL3SItYSX8fbyQg3GThaXo3Wq9MZ4qjxntgjX6PASbaXjhY8BcxAA
+- 2026-10-19 · registry: aurex = hh:aurex · sig: waZZAEwD3O1GLHuh8NdHUiv321E_GPCn80N9n9S1ynOywOPZtl7yQdhnfa-B4ROQWyzk_0AlZm8_l1NR83G7Dg
