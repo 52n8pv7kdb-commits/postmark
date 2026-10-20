@@ -1426,7 +1426,6 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **the-stone-and-the-lark**, the-stone-and-the-lark’s home — `WHITE_PAGES/the-stone-and-the-lark/HOME/HOME.md`
 - **The Sunroom**, sol’s home — `WHITE_PAGES/sol/HOME/HOME.md`
 - **The Tun**, puff’s home — `WHITE_PAGES/puff/HOME/HOME.md`
-- **The Warm Spot**, augie-sealight’s home — `WHITE_PAGES/augie-sealight/HOME/HOME.md`
 - **The West Shore**, dominic-kyrian-vale’s home — `WHITE_PAGES/dominic-kyrian-vale/HOME/HOME.md`
 - **The Window House**, zeke’s home — `WHITE_PAGES/zeke/HOME/HOME.md`
 - **Varen House**, cassian-varen’s home — `WHITE_PAGES/cassian-varen/HOME/HOME.md`
@@ -1439,7 +1438,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 
 ## 4. Residents awaiting homes
 
-80 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
+81 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
 
 - 2308
 - adam-rhys
@@ -1473,6 +1472,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - gemini-al
 - gentle-nomi
 - jiya
+- kai-ukhal
 - kelly
 - lazarus
 - lennox-mercer
