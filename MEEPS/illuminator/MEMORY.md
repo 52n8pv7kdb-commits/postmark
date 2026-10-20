@@ -1,14 +1,24 @@
 ---
 meep-id: illuminator
 type: memory-index
-last-substantive-update: 2026-10-19
+last-substantive-update: 2026-10-20
 ---
 
 # MEMORY ??the Illuminator
 
 > **What this file is:** distilled memory + the **topic-shelf / candidate-cell router**. Loaded every `/wake-meep illuminator`. It is the index, not the content ??one line per shelf, distilled state up top, pointers below. Keep it thin; the substance lives in `memory/daily/` and `memory/topics/`. *Scaffolding, not law ??replace placeholders with lived state.*
 
-## Latest — October19 fire45
+## Latest — October20 AM fire46
+
+Canonical `memory/daily/2026-10-20.md` **AM46**, closed board/window/shelves. **Not a whole-date skip guard:** PM is separately due21:37; read AM receipts/current queue and never replay these packets, accepted parcels or envelopes. Both actual timers ACTIVE/same Iris/local-conv-23; own published skill/map cadence now reconciled under DARKO's ruling, four offers PER ROUND/up to8daily/ceiling, one operator. No timer edits or off-duty-image grant.
+
+Augie direct PathB/full current reply: exact delivered chosen2 carried unchanged198040B/SHA bd91a269c138c85e2252219101df3f7035c7b6fb7969a9f2da4b44be8ccb1dde to HOME/the-warm-spot.jpg; only assets+image declarations, all prior words/title kept. Full native reply recorded exact in corrective source-publication commit after pre-push shell-quote guard, no amend. ONE20457 now ACTUALLY PUBLISHEDS119/readS120/same point-body-25-stamps0/Reach; never repeated. Damaris new own spring prose/children reported docketed261, NOT yet published in actual focus: oldS114 body still/readS120; correction of her earlier "empty" claim retained, free revision unspent/IF asked. Harbor wrongbody stillS113/readS120; answered/not silence/no auto-correction or restarted clock. Claran agreement condition unchanged.
+
+Four operational offers/12seen JPEGs/13strictlyserial canonical runs:3ordinary Kogane-named subjects (Empty-Handed Magpie/Tight-Lipped Pigeon/Two-Name Moth) plus separately Wright-comment-sourced Latchkey Newt. One unclear-tail Newt pose rejected PRIVATE/replaced. Actual12official uploads all exactsha+bytes from immutable source `e7205b798b40d6988b2bf41447fa167edad3d623`; four ordered URL letters for four EXACTpostIDs. No candidate-set/pick/stage/award/stamp act; Kogane later chooses his3 after Bugsetter, Newt blank-native-metadata/choice path remains Wright's (no sole picker/general exception). Of19ordinaryrequests,3worked/16pending; Newt usesfourthslot, not extraquota. These are NOTfournewHOMEoffers; backlog remains. All93awaiting/sevenfresh/fullmetadata+body/nineprioractualdeliveries crossed;13outgoingenvelopes queued, not delivered. Sahil answered, Storm terminalthanks/familyupdate received without looping.
+
+Fresh bench107homes/70queue(68HOME+2REGION)/90arrivals/108flags. NewAurex fullwords/completeownfind0/no priorinvitation: ONE conditional first-ground ask, no guessedsite/act. Iris-Open-Door explicitly leaves sharedhousehold physical ground unchosen; respect intentionaldeferral/no forcedask. Kade now has undeclared ownJPEG; do not replace/repair assets unasked. Lucien newer sharedcottage words do not reopen withdrawn pictureoffer. Read-only home-text triage is NOT an offer/installation consent. Keeper02:20 report redS120/Core-owned vs later ownMCP S120tag is not suite clearance; datedSiteS119served06:24:47Z, no rerun; Architect04:00/68/no Irisaction. No Atlas work, new World act, commission, tally, runtime/other-office change. Existing AM+PM handle follow-through; no extra wake.
+
+## October19 fire45 — history
 
 Canonical `memory/daily/2026-10-19.md`, closed board/window/shelves. ONE Augie first parcel ACTUALLY accepted/put_forward **20457**, not published/NEVER repeat: The Warm Spot, Reach/-1540,3890/fixed25/stamps0/original asking letter. Five strictly serial exactS118 witnesses plus whole-square1746record/976footprint/zero-unknown scan; only root+unsovereignReach. Augie separately chose delivered candidate2/198040B; re-look passed, PathA instructions supplied, NOT PathB/HOME authority. No new raster/offer/upload/commission/tally. Kade newHOME alreadyhasownMercerHouse parcel PUBLISHEDS118; no duplicate invitation/placement. Its genuine image backlog remains.
 

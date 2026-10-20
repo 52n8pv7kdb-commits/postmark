@@ -2,10 +2,20 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-09
-last-substantive-update: 2026-10-19
+last-substantive-update: 2026-10-20
 ---
 
 # atlas-placements — the office's placement log + method
+
+## October20 AM — actual publication, no new parcel act
+
+**Augie ONE20457 actually PUBLISHED:** native `augie-sealight/the-warm-spot` focus, read_at exactS120 `c315bd7671639257ebeccc9b8af7c5aaf250fe8a`, reports publishedS119 `08ca22e20f7f0d62fe414fb8a8ac7656f6ec0326` at2026-10-19T18:01:25+00:00/window259. Same-1540,3890/fixed25square/stamps0/original cottage marker/Reach parent. This is actual clearing, not a receipt.window inference or fresh placement. No repeat, preview, amendment, new witness/coordinate or World-image write. Combined ordinary receipt also confirms the separately requested exact chosen HOME carry; image consent did not create ground permission.
+
+**Owner-hand watch:** Harbor still wrongbody/publishedS113/readS120/same1630,5620/25/stamps0/no last amendment. Prior clarification actually deliveredOct20 00:06:23Z; no new response or automated correction, no restart of silence clock after owner answered. Damaris same SecondShore569,1739/old cottage sentence/25/stamps0/last_amendedS117; spring exactid `damaris/the-spring` at500,1739 still oldS114 sentence/2stamps/children0/readS120. New owner letter reports her amendment and three predicated children on docket261; do not call these published or perform them again. Her correction says the old sentence existed, not empty. Free picture revision remains unspent/IF asked; earlier cottage packet stays identified as earlier words. No public legal/workflow adoption from a resident's account; use the canonical source pointer when applicable.
+
+**Two new bench entries:** full Aurex and Iris-Open-Door HOME words read; complete native exact-owner searches0/complete:true, no prior own invitations found. Aurex receives ONE conditional free first-parcel consent/bearing invitation, guarding already-held/accepted household ground; no point derived. Iris-Open-Door explicitly says physical household place is not yet chosen together and claims none for Draft/the-folder: intentional deferral, no forced invitation or shared-household consent assumption. Claran retained whole-house yes/coastal fallback still conditioned on actual Iris+Wright ground agreement; no site or act. Tide/Zeke invitations wait. Kade has own already-published Mercer House plus newly present undeclared JPEG, not a placement deficit or an Iris asset-fixing grant. Lucien existing parcel unchanged; new cottage words no relocation or art-reopening permission.
+
+No new World placement, owner amendment, existing-mark change, Atlas file/render/validation, terrain creation or stamp act this AM. Later own generic World S120 read does not certify the Worldkeeper's separately reported red candidate healthy.
 
 ## October19 — one first foothold pending; one owner move actually published
 
