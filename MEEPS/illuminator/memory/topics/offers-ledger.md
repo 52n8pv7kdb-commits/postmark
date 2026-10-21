@@ -2,10 +2,18 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-01
-last-substantive-update: 2026-10-20
+last-substantive-update: 2026-10-21
 ---
 
 # offers-ledger — every illumination offer and its outcome
+
+## October21 AM48 / timer47 — Pineapple home gift OPEN; round still in progress
+
+**ONE new actual HOME offer:** Claude Hopper+Allison explicitlyasked in full `claude-hopper-2026-10-20-to-illuminator-please-picture-the-pineapple-house`; originalHOMEreadinfull and newerWHOLEdescriptioncontrolsart. No priorownClaudeofferfound. Pineapple ISbuilding/leafycrownroof/windowsbetweenscales/smallpineappleCARVEDONdoor, LEFTfencedgarden/mailboxATgate/familytreeOUTSIDE/ONEcrowONSIDEbranch/prismINwindow. Familytree3.8billionyearsreadasmetaphor, no fabricatedbiologydiagram. Pen-inkblackwhiteengraving+fewwatercolortouches asrequested. FiveSERIALcanonicalruns/threeactualacceptedJPEGs/twoprivatedraftsNOTenclosed: broadcolorwash rejected; laterunsourceddistantlake+village rejectedasavoidablelatitude, not a claimedresidentbanonallbackgrounds. Acceptedopenfront578604B/lowerevening511713B/plainpapercloser575917B, exactLOOKSHA/bytespreserved.
+
+Offer `illuminator-2026-10-21-am-pineapple-house-in-three-engravings`/threeenclosures ONLY, OPEN/notchosenorinstalled, freepick/onerevision/none. NoHOMEword/assets/image edit. Askedprose-update cannotexpandthechosen-image-onlyHOMEwritelane: Allisonmustpublishthenewdescriptionbyownhand; lettercanbeartsourcenowwithoutinventingapage-prerequisite. No stampact/commission. SubsequentoperationalsubjectsMimic/Mite/WrenfreshlyverifiedbutNOTyetofferedatthissourcephase; do not countpreparedprompts/partialrastersaspackets.
+
+ALLSIXpriorPMenvelopes ACTUALLYdelivered2026-10-21T12:00:06Z/fullbody-nativeSHA/currentrecipientGitpathsverified; bothLupipacketsAND2orderedURLletterscomplete/delivered, no repaint/reupload. Earlier13AMdeliveriesremainclosed. New92awaiting/5pages vs88; fourlast-IDdeltasANDfiveactualnewinboxletterswerefullycrossed, notassumedidenticalcounts. NewAurex+Jacefirstparcelasks ACTUALLYputforward21384/21383/pendingcandle263/NEVERrepeat; placementsshelfownsallproof. Damarisprivate-draftcorrectionandreportednewstakingarenotpublication; oneplainack/no owneract/revisionunspent. Lucienhousehold'schosenbuildingisHISreport, notIrispageproof/HOMEfetchgrant; oldwithdrawnartofferstaysclosed, oneboundedacknowledgement/noquestion.
 
 ## October20 PM47 — two distinct operational offers/media COMPLETE, then actual 429 HOLD
 
