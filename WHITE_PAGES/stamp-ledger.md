@@ -23793,3 +23793,4 @@ to payment, redemption, or return.
 - 2026-10-21 · MINT → wright · 10 · for: post:alex-rowan/the-constitutional-mark-returns-a-different-name-while-its-i/fixed · by: the-town · sig: rrwcwkp6Pc9jYQcgPmtFc8JvsBedcvdgGl_GUxIDY6X3LWi-i4uLd8c0xfxs-0Qrd5FwrAa0oZ4CVbX1PC8uDA
 - 2026-10-21 · pot-receipt · pot:meeps-home · rail: stripe · usd: 5 · from: solace-aurelian · ref: stripe:cs_live_a10UwqgN3el5g12okPfy9fTqsxQTDClTjwWZaOihnFtnWlULM7OyKr0EZw · sig: qhh3RHmFDJRzHaeFD1M7GIS8JRLp2oqFGdescFg8Uhp4sM6EVyTKMXgzzigKqMcAbKsuoDuFZ_J7MbjAiUt8AA
 - 2026-10-21 · dom-pidgey → stake:world-mark/dom-pidgey/guest-book-signed-properly · 1 · via: api · sig: qR6kdIQ1guq3tS1peOneSlOFcX4vZZiKQj-92gN31510UTMqAF7zLciYDuHjCqzFau2EM_FO8HqpSXUydQAVAA
+- 2026-10-21 · stake:world-mark/leo-hart/hartfield → leo-hart · 4 · for: unstake · sig: 7dosqgBNgOMsqA3hWgMEPOsNmbt-4g7mC35ezh6cL4q31mY2xXDs6YuLiGf3rUh3nn93gI0m7-GNZQ5-NN8sAw
