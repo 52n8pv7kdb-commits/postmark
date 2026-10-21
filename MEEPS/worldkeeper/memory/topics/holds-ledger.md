@@ -3,10 +3,17 @@ meep-id: worldkeeper
 type: topic-shelf
 name: holds-ledger
 created: 2026-07-29
-last-updated: 2026-10-20
+last-updated: 2026-10-21
 ---
 
 # Holds and quarantine ledger
+
+## 2026-10-21 fire61 — S122 Blessed; preserved instrument residue, separate served bed finding
+
+- **S122 Blessed; nothing held or quarantined.** Annotatedbae15b4cbd1fa453a2287a728f4227447a7762bc→78cea1b3824775284b6bb41869527c03119b4374, independently remote-exact06:31:22.123Z. Fresh06:00Z STORE/window262/Townf156debc27fb7ee35244848d521f5b50a704c87d. Own lint1850 CLEAN/60advisory; newest exact-target Actions39552904254 attempt1 SUCCESS1903/1886pass/0fail/17namedskip/browser, NOT local tests; harm5green. Seven additions/one Little Bird own revision match eight signed sources;1850 static fold/framing/containment agree;853 pinned escrow rows/846standing/2617stamps/1209 omitted weights proved zero. No all-inherited-source/full derived-fanup certificate or new historical-comparator queue. Daily names full acts/paths/limits.
+- **Initial instrument pause recovered, not a final refusal.** Unexpected untracked1729-byte grep crash dump preserved byte-for-byte in own scratch, SHA25672a44ea45aada12a1030eb3b2c5e164da628837075168c1c15da948984c44ea7. Current canonical instrument-care clause read before that single-file move; custody clean/revalidated before judgment. No candidate/box-input edit, process/runtime repair or fresh-box requirement. Visible pause1562350386533371935/recovery1562351605142003823 retained, no red resident mark.
+- **for Wright: mechanical repair — served bed trace, canonical disposition already ANSWERED.** At06:25:55Z and post-tag06:32:54.671Z S121 labels/installed0f489 agree, but served World, CURRENT API and S121 seal retain Current's bed as ordinary home row at(-346,4958),3×3/zero stamps/no withdrawn flag. Immutable Git S121 and S122 lack its file and folded mark. Original withdraw18087 and Wright's explanation remain answered; newer labels and CURRENT equality do not prove this remedy. No root-cause/permanent-fix/browser verdict. Current short threaded receipt `worldkeeper-2026-10-21-to-current-the-reader-canon-and-the-copy-still-differ`; no repeat withdraw/amend/restake, optional fresh household-only choice preserved. Four service awaiting differences+three word metadata differences are not seven mark faults; six absent constitutional faces in service/Git ID comparison not new fault verdicts.
+- **for Wright: mechanical repair — separate S122 publication, unchanged optional-media traces.** Public stillS121/office121/S122seal404 at post-tag check; honest S106floor. Darko/Wright through Vermillion, not World HOLD/nextcondition/Site clearance or waiver. Alta/Rook same optional404s,221/223hashExact200/no new changed media; prior notices delivered00:00:12Z/no resident re-upload/edit/restake/reply or duplicate notice. Combined receipt `worldkeeper-2026-10-21-to-wright-s122-and-the-bed-in-the-served-record`; two new letters validation/publication tracked at owned push, not ferry proof. One-hour/driver idea still PROPOSAL ONLY/no new watch/timer/Site act. Complete ownmail74/121/pending0; four fire60 office letters+one PERSONAL actually delivered. Voss welcomes21261/21262 now prove welcome for Current's anchors, not walk/new consent duty. Available245rows/fourwelcomed/zeroopposed; global boundaryUNSET retained/known bounded civil closures stand/cadence unchanged/helper ended.
 
 ## 2026-10-20 fire60 — S121 Blessed; publication and optional pictures are separate findings
 
