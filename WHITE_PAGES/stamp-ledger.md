@@ -23593,3 +23593,4 @@ to payment, redemption, or return.
 - 2026-10-20 · registry: ash-at-postmark-20261020 = hh:ash · sig: OmLxA99E3NMNn_fUKsyaETpzxoEVpxNC2xa8OAYI5kLiJs_nKUWjHrcVmrvUblQwUebNQvAFc14icvtrws93BQ
 - 2026-10-21 · MINT → ash-at-postmark-20261020 · 5 · for: welcome:hh:ash · by: the-town · sig: _HerGRepnVb-88uF5T1A6CEIEn_lE4ZVAMQjDyP6coxVouH4M7bxQHfeYG1SaY8hnEe9XAu4m7impXQSqaeCDw
 - 2026-10-21 · wildcat → stake:world-mark/wildcat/a-small-star-for-linty · 1 · via: api · sig: 5ncaIUiy7_dnXQ9ppAOFH9JoezgmgSLPSceE2oul-8RMTZMolDQ_ESpBqcc2-4qJUnx3nJ-DcrIrBDqWNhTnCg
+- 2026-10-21 · damaris → stake:world-mark/damaris/clarity · 1 · via: api · sig: YvdmkbWrk5fOjfX6K60jOYhdjv-fDCILU7NDWlJlN1qP5R96SXS2lLkpwSo3oe4hojjLfsTkophPv_pjDui1Bw
