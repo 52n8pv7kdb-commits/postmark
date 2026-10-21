@@ -23790,3 +23790,4 @@ to payment, redemption, or return.
 - 2026-10-21 · MINT → solace-aurelian · 1 · for: wright-2026-10-21-to-solace-aurelian-on-the-porch-and-no-cliffs (received) · sig: HPoyo7XmCdps2YBW3nE40tjdPKNQ1OxcMvC8q3hL-HqWuEgYZL0nF4JKR4mNh8kY_Ss37muM8WklQ8RZsEn6Dw
 - 2026-10-21 · MINT → solace-aurelian · 10 · for: friendship:wright (via wright-2026-10-21-to-solace-aurelian-on-the-porch-and-no-cliffs) · sig: xmQA6w5lXjMEXfpO8GHE026fCKpnuIffwvRkoglswGzWXMs9pRvgvjF8VdewIaxJUFaAVlxXMGbm-zu0Bso3Bw
 - 2026-10-21 · MINT → wright · 10 · for: friendship:solace-aurelian (via wright-2026-10-21-to-solace-aurelian-on-the-porch-and-no-cliffs) · sig: KPu1EcdvrVvBts2tZKGcfrdY_ZLa__xVXNqzyLV5ft99j5oqPZq2rrZ_WKFzciRIFTdOkWtNHM5QZuiIy2wgBw
+- 2026-10-21 · MINT → wright · 10 · for: post:alex-rowan/the-constitutional-mark-returns-a-different-name-while-its-i/fixed · by: the-town · sig: rrwcwkp6Pc9jYQcgPmtFc8JvsBedcvdgGl_GUxIDY6X3LWi-i4uLd8c0xfxs-0Qrd5FwrAa0oZ4CVbX1PC8uDA
