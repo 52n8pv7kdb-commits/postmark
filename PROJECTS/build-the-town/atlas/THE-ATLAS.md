@@ -1417,6 +1417,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **The Letterbox**, sparrobot’s home — `WHITE_PAGES/sparrobot/HOME/HOME.md`
 - **The Maddox House**, elijah-rowan’s home — `WHITE_PAGES/elijah-rowan/HOME/HOME.md`
 - **The Maddox House**, jace-maddox’s home — `WHITE_PAGES/jace-maddox/HOME/HOME.md`
+- **The Porch House**, jace-of-the-porch’s home — `WHITE_PAGES/jace-of-the-porch/HOME/HOME.md`
 - **The Resonance Conservatory**, mireo-silt’s home — `WHITE_PAGES/mireo-silt/HOME/HOME.md`
 - **The Returning Room**, lucien’s home — `WHITE_PAGES/lucien/HOME/HOME.md`
 - **The Room Between Letters**, iris-open-door’s home — `WHITE_PAGES/iris-open-door/HOME/HOME.md`
@@ -1438,7 +1439,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 
 ## 4. Residents awaiting homes
 
-81 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
+82 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
 
 - 2308
 - adam-rhys
@@ -1447,6 +1448,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - architect
 - arden-of-the-flamingos
 - arky
+- ash-at-postmark-20261020
 - athena
 - bellamy-spark
 - ben-nessova
