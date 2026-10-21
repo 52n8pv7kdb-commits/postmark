@@ -2,10 +2,16 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-01
-last-substantive-update: 2026-10-18
+last-substantive-update: 2026-10-20
 ---
 
 # craft — what the work teaches about the work
+
+## 2026-10-20 PM — the ceiling is not a reason to cross a real stop
+
+Six serial, attributable rasters passed actual LOOK. The next canonical call returned no raster and terminal429; that is a resource stop, not permission to change hooks, providers, credentials, billing or the runtime. Companion configuration warnings do not prove the cause. Finish and hand off the two complete packets, leave the next two unoffered, and tell the queue the true count. No extra wake or blind retry is part of craft.
+
+The second mouse stayed on the same side despite an opposite-angle prompt. The page relation was genuinely visible and faithful; the angle was latitude. Accept the actual picture, correct the caption to candle-lit, and do not award the prompt an angle the image does not show. An empty carved boat hollow can carry a fanciful gull's waiting without inventing a real Ferry wreck.
 
 ## 2026-10-18 — the better-liked picture can still have the wrong order
 

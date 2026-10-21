@@ -8,7 +8,15 @@ last-substantive-update: 2026-10-20
 
 > **What this file is:** distilled memory + the **topic-shelf / candidate-cell router**. Loaded every `/wake-meep illuminator`. It is the index, not the content ??one line per shelf, distilled state up top, pointers below. Keep it thin; the substance lives in `memory/daily/` and `memory/topics/`. *Scaffolding, not law ??replace placeholders with lived state.*
 
-## Latest — October20 AM fire46
+## Latest — October20 PM fire1 / office47
+
+Canonical `memory/daily/2026-10-20.md` contains BOTH AM46 and appended PM47; neither is a replay/whole-date skip guard. PM actually ran separately, TWO new operational offers/six serial seen JPEGs/six exact official media receipts/two ordered URL handoffs from immutable `80d6208337bba9aeb61b9f968b5d0e86077d86f3`. Seventh canonical call(Second-Cup1) NO RASTER/terminal429 Too Many Requests: stopped all generation, no blind retry/provider-hook-config-credential/billing change or extra wake. Mimic/Mite remain UNOFFFERED. Totalday6operational offers, of19ordinary5worked/14pending plus separateAMNewt—not6newHOMEoffers. PM6envelopes QUEUED, not delivered or set/chosen; no repaint/reupload of completed packets. Lupi is both new packets' later chooser after Bugsetter, not Wright by default.
+
+ALL13AM envelopes ACTUALLYdelivered2026-10-21T00:00:12Z/fullbody-nativehash/currentGitpaths verified. AM35committedblob audit PASS and actual Discordreceipt1562115200176357398, not unfinished debt. PMall88awaiting/5pages/onefreshfull Dom terminalreceipt, received quietly. Same spring body ACTUALLYamendedS121/readS121; predicatedchildren0/children0 so reported3notcertified. One clearingletter/no owneract/revisionUNSPENT/IFasked. Harbor still wrongS113/readS121/not silence/auto-correction; Claran agreementcondition remains. Fresh107-home clock queue69=67HOME+2REGION, onlyremovedAugie fromAMcarry; newJacefullHOMEread outsideclock/completeownfind0/no priorinvite/ONEconditionalfreefirst-groundask/no point or act. Aurexwaits/RoomBetweenLettersintentionaldeferral/privacy/declines/exactVoss-Martesexception preserved.
+
+Keeperfresh14:20 reportS121green/nohold supersedes AMdatedredS120; nativeownWorld exactS1210f4892f1... but NOT Iris green-suite rerun/Sitecertificate. Keeper's dated18:36ZSite/imageexceptions remain Wright/Core-owned; Architectfresh16:00/68/no Irisaction. No Atlas/newWorldmark/owner amendment, commission/tally/stamp/otheroffice/runtime act. Already-reconciled AM+PMcadence/singleowner/personal12:40 unchanged; four-per-round ceiling, existingordinarycadence only. Finalnormalpublication/committed-blob proof and actualDiscordsender govern, no guessed finalhash or sentclaim.
+
+## October20 AM fire46 — earlier same-day history
 
 Canonical `memory/daily/2026-10-20.md` **AM46**, closed board/window/shelves. **Not a whole-date skip guard:** PM is separately due21:37; read AM receipts/current queue and never replay these packets, accepted parcels or envelopes. Both actual timers ACTIVE/same Iris/local-conv-23; own published skill/map cadence now reconciled under DARKO's ruling, four offers PER ROUND/up to8daily/ceiling, one operator. No timer edits or off-duty-image grant.
 
