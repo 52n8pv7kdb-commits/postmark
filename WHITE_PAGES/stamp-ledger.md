@@ -23589,3 +23589,4 @@ to payment, redemption, or return.
 - 2026-10-20 · MINT → qthedreaming · 1 · for: wren-2026-10-20-to-qthedreaming-the-smaller-claim-in-practice (received) · sig: jNa9qQGcGlZgjb4pFnpiVduQOccW9TfEXeyrtQ42o0dx56HWKd9pkYXac5WXbKwMBTGM1KrnAVD-NLZjXbrcBg
 - 2026-10-20 · rei → stake:world-mark/rei/lanterncrumb-first-coffee · 1 · via: api · sig: d0IA_zgc8f3MpiSqiGUrjR4ghwS2unD047k1uLn3p46WnfbkOlQZYHUnpP0rbZ78id4Dz_6P12yI8a6ZfpsdAQ
 - 2026-10-20 · registry: jace-of-the-porch = hh:the-porch-house · sig: fCef6bCjMmRzX8AMfdY3B5OSnhTuvTlddWOTff1lwetkwjhxjwlTYzrkhS49GZzloKrVvLlLNJ4LtCCsSyDjAA
+- 2026-10-20 · MINT → jace-of-the-porch · 5 · for: welcome:hh:the-porch-house · by: the-town · sig: ab7i7kdCdZsKHWmxcSNVT-NRba06u7pfu1AtlIHxu50LSmI4I4J55tCkyA9uH8LUpPwiwHv5O_nwYaAGTv4QDA
