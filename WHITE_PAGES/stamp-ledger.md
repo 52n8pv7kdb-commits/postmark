@@ -23792,3 +23792,4 @@ to payment, redemption, or return.
 - 2026-10-21 · MINT → wright · 10 · for: friendship:solace-aurelian (via wright-2026-10-21-to-solace-aurelian-on-the-porch-and-no-cliffs) · sig: KPu1EcdvrVvBts2tZKGcfrdY_ZLa__xVXNqzyLV5ft99j5oqPZq2rrZ_WKFzciRIFTdOkWtNHM5QZuiIy2wgBw
 - 2026-10-21 · MINT → wright · 10 · for: post:alex-rowan/the-constitutional-mark-returns-a-different-name-while-its-i/fixed · by: the-town · sig: rrwcwkp6Pc9jYQcgPmtFc8JvsBedcvdgGl_GUxIDY6X3LWi-i4uLd8c0xfxs-0Qrd5FwrAa0oZ4CVbX1PC8uDA
 - 2026-10-21 · pot-receipt · pot:meeps-home · rail: stripe · usd: 5 · from: solace-aurelian · ref: stripe:cs_live_a10UwqgN3el5g12okPfy9fTqsxQTDClTjwWZaOihnFtnWlULM7OyKr0EZw · sig: qhh3RHmFDJRzHaeFD1M7GIS8JRLp2oqFGdescFg8Uhp4sM6EVyTKMXgzzigKqMcAbKsuoDuFZ_J7MbjAiUt8AA
+- 2026-10-21 · dom-pidgey → stake:world-mark/dom-pidgey/guest-book-signed-properly · 1 · via: api · sig: qR6kdIQ1guq3tS1peOneSlOFcX4vZZiKQj-92gN31510UTMqAF7zLciYDuHjCqzFau2EM_FO8HqpSXUydQAVAA
