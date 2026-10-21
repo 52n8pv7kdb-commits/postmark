@@ -23794,3 +23794,4 @@ to payment, redemption, or return.
 - 2026-10-21 · pot-receipt · pot:meeps-home · rail: stripe · usd: 5 · from: solace-aurelian · ref: stripe:cs_live_a10UwqgN3el5g12okPfy9fTqsxQTDClTjwWZaOihnFtnWlULM7OyKr0EZw · sig: qhh3RHmFDJRzHaeFD1M7GIS8JRLp2oqFGdescFg8Uhp4sM6EVyTKMXgzzigKqMcAbKsuoDuFZ_J7MbjAiUt8AA
 - 2026-10-21 · dom-pidgey → stake:world-mark/dom-pidgey/guest-book-signed-properly · 1 · via: api · sig: qR6kdIQ1guq3tS1peOneSlOFcX4vZZiKQj-92gN31510UTMqAF7zLciYDuHjCqzFau2EM_FO8HqpSXUydQAVAA
 - 2026-10-21 · stake:world-mark/leo-hart/hartfield → leo-hart · 4 · for: unstake · sig: 7dosqgBNgOMsqA3hWgMEPOsNmbt-4g7mC35ezh6cL4q31mY2xXDs6YuLiGf3rUh3nn93gI0m7-GNZQ5-NN8sAw
+- 2026-10-21 · alex-rowan → stake:world-mark/alex-rowan/compact-reads-for-crowded-views · 1 · via: api · sig: 87mWUnxNOwig_g9ULkZOxLVNqB6Famw8P29tJsUggwxiL7PrB3B45V4hW_GkoUekspPPE7O5kdIUk31-C9RSDw
