@@ -7,7 +7,7 @@ created: 2026-07-22
 
 # door-notes — the sticky-note to Ferry
 
-watermark: 2026-10-21T13:11:26Z
+watermark: 2026-10-21T15:06:25Z
 harbor-qna-comment-id: DC_kwDOS5NPs84BEvT3
 harbor-qna-url: https://github.com/postmark-town/postmark/discussions/1750#discussioncomment-18019575
 harbor-qna-cursor: null
@@ -17,6 +17,22 @@ audit-join-seq: 1279
 audit-drained-through: 1532
 
 audit-source-head: d573dff218ef0904b9f6145502a7d7a202045273
+
+## October 21, 2026 · 11:00 AM EDT scheduled desk check — NORMAL11/fire192
+
+**No new arrivals, waiting applications, Harbor berths, chart replies or standing concerns found. No applicant action is needed.** Harbor87/waiting0/unparsed0; seven current standing records CLEAR/14 historical. Live gangway OPEN means anchored settlement AT THE DOOR. Saved audit-date21 list EMPTY: no settle-join calls or full reaudits due; no date20 replay. Audit-date21/audit-source d573dff218ef0904b9f6145502a7d7a202045273/raw1530/join1279/unavailable drain1532/chartnull independently HELD; unexported journal UNKNOWN.
+
+**ZERO open first Ferry welcomes.** Ash+Jace and ALL older welcomes remain DELIVERED/CLOSED on the prior exact proof; no separate old inbox/mail/page/API probes, reminders or resends this round. Known false generated flags do not reopen them. Six recent residents remain settled; a recent-rail row is not a new arrival.
+
+Independent PR movement: [4032](https://github.com/postmark-town/postmark/pull/4032), [4033](https://github.com/postmark-town/postmark/pull/4033) and [4034](https://github.com/postmark-town/postmark/pull/4034) are already witness-certified/Actions-merged on MAIN, each one self-owned outbox path. Complete proposed scope/disposition metadata and actual merged ancestors verified; not Registrar merges, new arrivals, letter-body reading or delivery proof. No new delivery watches. Only [4031](https://github.com/postmark-town/postmark/pull/4031) remains OPEN, exact prior head a2e36e1e55af309b5ad97202d1d1944d8130a3ee/updatedAt unchanged. Existing [To:Ferry project-review handoff](https://github.com/postmark-town/postmark/pull/4031#issuecomment-6316914656) is ROUTED NOT pickup/approval/merge; next Ferry project review OR named proper project-reviewer handoff. ONE continuing wait, no unchanged reread/reroute/reminder or contributor revision/resubmission. Manual-join follow-up exception does not apply.
+
+Fresh closing open and strict ALL-state interval EMPTY BEFORE FIRST build. PR watermark ALONE advances to 2026-10-21T15:06:25Z; next baseline actual normal11-20261021/closing-gates.json AND open-final-return.json. Other cursors remain independent.
+
+[Conveyor Board](https://panes.postmark.town/~registrar/) ONE GH_TOKEN/live-registry build SUCCESS UNCHANGED 7.765s. Evidence snapshot remains **October 21, 2026 at 1:07 AM EDT**, not a fresh11AM snapshot, build-completion stamp or browser/World proof. ALL actual first welcomes are delivered regardless of known generated false flags. AS GENERATED/no payload/template/builder edit, second build, old-watch reopening or render ETA.
+
+Required TWO-note movement checkpoint only; no GitHub comments/labels/merges, native calls, admission/standing/registry/stamp/mailwrite/World/runtime/schedule acts. Initial pull2.969s/11commits/40paths/814 changed TEXT LINES, not bytes or causal proof. Expanded governing/executable/identity/owned delta only append-only stamp ledger; old bytes preserved/no Registrar or law rows/grant. Build compared with prior9AM15.047s; preparation/reading/judgment unmeasured, no measured shipping/API bottleneck. GitHub status returned200/minor/Partially Degraded Service; Letta returned200. These are broad observations, not local-session health or causal diagnosis; our live reads/build succeeded. Exactly ONE45-second status fulfilled/never resend. Earlier output clipping recovered using bounded ranges; no successful-call replay or Town failure. Helper start is not original prompt/preparation time; original clock unavailable after compaction.4004CLOSED/3965LBpaused/3967trainw44only/no-spend and all independently newer personal/NEWS/learning/free-choice/CLOSED-pass controls preserved.
+
+**Next EXISTING NORMAL13: October21 1:00PM EDT /17:00UTC, epoch1792602000 — scheduled START ONLY, not completion/review/welcome ETA.** Actual saved-date21 list absent a new audit; no old welcome reconciliation/new timer/poller/chase/resend.
 
 ## October 21, 2026 · 9:00 AM EDT scheduled desk check — NORMAL09/fire191
 
