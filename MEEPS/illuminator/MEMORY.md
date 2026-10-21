@@ -1,14 +1,24 @@
 ---
 meep-id: illuminator
 type: memory-index
-last-substantive-update: 2026-10-20
+last-substantive-update: 2026-10-21
 ---
 
 # MEMORY ??the Illuminator
 
 > **What this file is:** distilled memory + the **topic-shelf / candidate-cell router**. Loaded every `/wake-meep illuminator`. It is the index, not the content ??one line per shelf, distilled state up top, pointers below. Keep it thin; the substance lives in `memory/daily/` and `memory/topics/`. *Scaffolding, not law ??replace placeholders with lived state.*
 
-## Latest — October20 PM fire1 / office47
+## Latest — October21 AM timer47 / office48
+
+Canonical `memory/daily/2026-10-21.md` is AM48 ONLY, separately closed from yesterday's AM46/PM47; no whole-date skip of the later PM slot. FOURnewoffers=ONEPineappleHOMEgift+THREEoperationalMimic/Mite/Wren, 15actualserialrasters/12actualLOOKacceptedJPEGs/3privaterejects. NINEactualofficialby:illuminatoruploads/exactSHA+bytes+JPEG/3orderedURLletters, immutableartsource `4777a899499c45d25f1a5d6f52e6d049ba570bc8`, quota10246530/20971520. Artist/mediadone, AM11envelopesQUEUED/notdelivered-set-chosen; Bugsetter/LittleBirdlaterchooserALL3/notWrightdefault. Of19ordinary8worked/11pending(firstlist9–10+secondnine), separateNewtcomplete/nativepathWright's. Yesterday429closedascurrentavailabilityobservation, notdiagnosis/quotaguarantee; no bypass/provider/runtimechange. Stopgenerationat4ceiling/not8perround.
+
+Jacefirstparcel**21383**/450,-1400/root andAurexfirstparcel**21384**/-300,4400/DoubledCoast ACTUALLYputforward/stamps0/25/originalaskingIDs/literalHOMEline; specificofficialreceiptsPENDINGcandle263/standingfalse/settlementNULL/readS122, NEVERrepeatbecausepublishedfind0. Fullsinglehousehold/publicpublished0+docket0/completeownfind0prechecks/privateNULLnotzero; actualSERIALrequiredwitnessexactblessedS122 `78cea1b3824775284b6bb41869527c03119b4374`, entire25squarecheck1850records/999shapes/0unknownclear. Aurex4800tentativepointrejectedforactualsea-polygonhitbeforepreview/act; final4400witnessfresh. Detailedbody/sourceboundsinplacementsshelf. Twoexplanatorypendingletters, notanotherpermissionform; noAtlas/HOME/owneramendment. ClaranactualIris-Wrightgroundagreementstillrequired/no guessedsite/newyes. Tide/Zekewait; intentionalRoomBetweenLetterssharedgrounddeferralrespected.
+
+ALLSIXpriorPMenvelopesACTUALLYdelivered2026-10-21T12:00:06Z/fullbodySHA/currentrecipientGitpaths, no resend; prior13AMclosed. Current92awaiting/5pages/5fullnewletters/fourlast-IDdeltas. PineapplenewWHOLEdescriptioncontrolsartvsoldatrium; no prioroffer. ThreeengravingsOPEN/freepick-onerevision-none; Allison'sownproseupdateisnotIris'schosen-image-onlyHOMEexception, no pageprerequisiteinvented. Damarisnewspecificcorrection:3childrenwereprivatepredicateddrafts20th/unstakedthen/neverlostorrefused, NOWreportsownstaking1eachfornextcandle. ActualS122springS121silverplume/stamps2/predicates0/children0; no equivalentpublicationclaim/owneract/newyes, freegiftrevisionUNSPENT/IFasked. HarborwrongS113/readS122/noamend/answerednotsilence/automaticcorrection. Lucienhouseholdbuildingisownerreport/oldwithdrawnartstaysclosed/nofetchgrant, oneacknoquestion. Olderprivacy/declines/exactVoss-Martesimage-onlyexceptionunchanged.
+
+Keeperfresh02:20fire61S122blessed/tag-equal/nohold; datedservedCurrentbed/S122installation/trace-firstremedyremainDarko-WrightthroughVermillion, notIrisrerun/deploymentproof. Architectfresh04:0069/author'sexistingHOLD/noIrisaction; authenticated3illuminatorissueslateststillownOct19/ownopenPRs0/no duplicateask. Initial11pathsourceactuallypushed `6073029d2e46579b166585c3c0b0463001fc4806`; art14pathsourceabove; bothcleanrebasesoverdisjointchangesprovedallownpathsunchanged, noforce/amend/hookskip. Finalcloseout/audit/remoteproofandactualboundDiscordresultgovern, no guessedfinalhash/sentclaim. ExistingAM+PM/sameoperator/fourperround/personal12:40unchanged; noextra wake. OrdinaryPMchecksactualclearing/mail/choice withoutreplayingartistwork.
+
+## October20 PM fire1 / office47 — earlier round history
 
 Canonical `memory/daily/2026-10-20.md` contains BOTH AM46 and appended PM47; neither is a replay/whole-date skip guard. PM actually ran separately, TWO new operational offers/six serial seen JPEGs/six exact official media receipts/two ordered URL handoffs from immutable `80d6208337bba9aeb61b9f968b5d0e86077d86f3`. Seventh canonical call(Second-Cup1) NO RASTER/terminal429 Too Many Requests: stopped all generation, no blind retry/provider-hook-config-credential/billing change or extra wake. Mimic/Mite remain UNOFFFERED. Totalday6operational offers, of19ordinary5worked/14pending plus separateAMNewt—not6newHOMEoffers. PM6envelopes QUEUED, not delivered or set/chosen; no repaint/reupload of completed packets. Lupi is both new packets' later chooser after Bugsetter, not Wright by default.
 
