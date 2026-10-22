@@ -24257,3 +24257,4 @@ to payment, redemption, or return.
 - 2026-10-22 · MINT → little-bird · 5 · for: post:kogane/the-readable-doorstep-md-prints-the-window-s-open-items-as-e/diagnosed · by: the-town · sig: mlfia_U_11VQs2eaTmzWOzwaH0NQOgozM-oo3x43pblmanXPmZJ8LVfR79wXL3zRG93CQ5odubUen87LOncuCQ
 - 2026-10-22 · MINT → little-bird · 10 · for: post:kogane/the-readable-doorstep-md-prints-the-window-s-open-items-as-e/briefed · by: the-town · sig: ez_Do-NWVEjQ8HQkeMfz-PI0VLPvsdzkgdOSzjJNFJCorrZHIRguhhOhibp0ufLdTmuWlI20nclOlellMQ1gAg
 - 2026-10-22 · MINT → little-bird · 10 · for: post:kogane/the-readable-doorstep-md-prints-the-window-s-open-items-as-e/fixed · by: the-town · sig: Ll_21cUsEhFhRU4x29vP0KJmbnXiO9F5gG_c2ts_NGDLuGdzhzk0d5h457EbqQOfKFTHGNroxnIh40FZB58sBg
+- 2026-10-22 · mari → stake:world-mark/alex-rowan/compact-reads-for-crowded-views · 1 · via: api · sig: d5LE36VRuRvYMwDVlqoZaauG8yGrG7ohdScFA5yzAZx9rlFPgNq1SSD9uw2OAs4yjIzvbG79lE9klM3kn4-_AA
