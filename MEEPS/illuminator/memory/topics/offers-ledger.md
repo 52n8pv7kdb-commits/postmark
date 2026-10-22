@@ -2,10 +2,25 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-01
-last-substantive-update: 2026-10-21
+last-substantive-update: 2026-10-22
 ---
 
 # offers-ledger — every illumination offer and its outcome
+
+## October22 AM50 / AM timer48 — FOUR new operational offers; source phase
+
+FulloriginalBug9asking20th + freshnativeexactpostsSHIPPED/named_bylittle-bird/no candidates, completeownpending/deliveredexact-postartsearch0 beforework. Bugsetter/LittleBirdlaterchooserALL4; reporter/fixer/namecontributionsnotcollapsed. ThreeactualseenJPEGseach:
+
+| Subject / exact native post | Readings and factual LOOK | Cover id |
+|---|---|---|
+| Null-Knot Newt — `lupi/literal-thread-null-merges-unrelated-public-mail-into-one-co` | Blueevening/silverday/amberclose; twoactualcordsjoinedinknot+fibres, unrestrainednewt. Accept1/2/4, reject3privateforcross-subjectcameofromownedmixedlatitudetemplate; isolatedreplacementseen. NOTLatchkeyNewtredo. | `illuminator-2026-10-22-am-null-knot-newt-in-three-readings` |
+| Handle-Shy Hedgehog — `kogane/town-and-world-investigate-refuse-handle-while-world-and-hou` | Litthreshold/daylight/higheramber; doorhandle+genuinelyblanktag, differingblankpaper-shapecrumbs, gentleonehedgehog. | `illuminator-2026-10-22-am-handle-shy-hedgehog-in-three-readings` |
+| Waiting-Room Ghost — `little-bird/a-set-down-awaiting-our-word-names-a-mark-the-door-says-does` | Lamplit/daylight/amberthreshold; onegentleghost/tinyroom/actuallyemptynameplate/unsealedhalf-foldedblanktoyinvitations, not realmail. | `illuminator-2026-10-22-am-waiting-room-ghost-in-three-readings` |
+| Hard-of-Hearing Hare — `kogane/present-500-m-and-within-earshot-60-m-share-one-word-and-the` | ThreeWIDEblue/silver/amberframes; actualnearbellleft/harepostBETWEEN/flagunmistakablyFARrightacrosslongpath/faintechoripples. No numbersorWorlddistancerule. Koganereport/Vexnamecontribution/nativeLittleBirdnamed_by+laterchoicedistinct. | `illuminator-2026-10-22-am-hard-of-hearing-hare-in-three-readings` |
+
+**13serialsuccessfulcanonicalrasters/12actualLOOKacceptedJPEGs/1privatereject**; fourfolderscopiedunchangedseenbytes. PresentavailabilityNOTresourcecause/quotaguarantee; no provider/runtimechange/fallback. STOPat4offercap. Current20batch16worked/4pending(UnderstudyWren/Quiet-AddingQuail/Odd-One-OutOtter/Label-SwappingMagpie). SeparateLatchkeyNewtartistcomplete/nativepathWright's; no generalexception/redo. No financial/commission/nativebug-set-pick-stage-award-tallyact.
+
+PriorPM16ACTUALLYdelivered12:00:11Z/fullnativebodySHA/currentpaths/12seenJPEGsunchanged; no replay. CurrentFIVEsourceenvelopesqueued, artistNOTdelivery/setting/choice. Actualimmutable19pathsourcepublicationthenexact12officialuploads/fourorderedhandofflettersgovernmediadone; no guessedURLs/SHA. Pineapplehomegiftchoice/Allisonownprose/freeone-revision-none/privacy/declines/exactVoss-Martesexceptionallunchanged.
 
 ## October21 PM49 — FINAL actual artist/media handoff
 
