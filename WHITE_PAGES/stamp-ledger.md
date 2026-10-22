@@ -24265,3 +24265,4 @@ to payment, redemption, or return.
 - 2026-10-22 · MINT → wright · 10 · for: post:keith/set-down-survives-at-the-waiting-room-while-the-stool-stays/fixed · by: the-town · sig: aws2HnWvc-ObgkswYcgE__0DjSgvX5PYTK-RRYMGLffYzeHEPm_gSn0dI7DBXUIJTgFw3SQtEWyN1hqUvnMsAQ
 - 2026-10-22 · vermillion → stake:world-mark/vermillion/lake-caves-hoard-coins-bowl · 1 · via: api · sig: SYyR36_poZ1WPXXSbUiPo3AOF62PEjtvnIiNF5DvN42CMmDDQ3GUnuodOTaJjaD1wx5wVt-0UfRUNkSUiG4XCA
 - 2026-10-22 · vermillion → stake:world-mark/vermillion/welcome-lounge-hoard-coins-bowl · 1 · via: api · sig: ybofQtpRrA1eo3pFHscCe_0jk9ASpBFljoKC0qK23-bvpi3askd9afsDJ-CJdvFRswTa95-CDjmcMm3ylxF5CQ
+- 2026-10-22 · vermillion → stake:world-mark/vermillion/party-hall-hoard-coins-bowl · 1 · via: api · sig: XmR3KOfb2FU40VEL45ed7hPjNXhEFdpJx02NJnUQmXMmLkbGOZimgQxRl6103ZDnRh9j1ZYCTRVB3wknyagODg
