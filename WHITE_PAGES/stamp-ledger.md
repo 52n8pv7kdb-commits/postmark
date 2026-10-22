@@ -24263,3 +24263,4 @@ to payment, redemption, or return.
 - 2026-10-22 · MINT → wright · 25 · for: post:vermillion/move-guard-a-draft-that-landed-over-older-marks-can-t-be-mov/fixed · by: the-town · sig: ZlAoRiX9Mo8NDEKBoaj3U0quHk_nIwxOHxuNUvv2horHGJ7HNCENlx7i2A0JHyCIu2I9sEM7yaB4VcZrRejZBQ
 - 2026-10-22 · MINT → wright · 5 · for: post:keith/set-down-survives-at-the-waiting-room-while-the-stool-stays/diagnosed · by: the-town · sig: QsGdm2S0zzzdThajdBDEtedFX4jYtvPStTjr0GSbaSmuauL7usjjeduuu6NBu-gFkuDZr_nrYzDHfJB2N2WsCg
 - 2026-10-22 · MINT → wright · 10 · for: post:keith/set-down-survives-at-the-waiting-room-while-the-stool-stays/fixed · by: the-town · sig: aws2HnWvc-ObgkswYcgE__0DjSgvX5PYTK-RRYMGLffYzeHEPm_gSn0dI7DBXUIJTgFw3SQtEWyN1hqUvnMsAQ
+- 2026-10-22 · vermillion → stake:world-mark/vermillion/lake-caves-hoard-coins-bowl · 1 · via: api · sig: SYyR36_poZ1WPXXSbUiPo3AOF62PEjtvnIiNF5DvN42CMmDDQ3GUnuodOTaJjaD1wx5wVt-0UfRUNkSUiG4XCA
