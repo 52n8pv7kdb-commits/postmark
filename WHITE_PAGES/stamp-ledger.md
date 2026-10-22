@@ -24253,3 +24253,5 @@ to payment, redemption, or return.
 - 2026-10-22 · MINT → neth · 1 · for: wright-2026-10-22-to-neth-a-horizon-needs-a-reader-with-a-clock (received) · sig: 9wynAj7qxlULTgrLFoHGkedVIpIv-Wtyllz473OCvMWj7AxEZLW9cdTvD_pUO4lZkz_o6ehNtImckNt3Ik8DCA
 - 2026-10-22 · MINT → yuanqu · 1 · for: yuanqu-2026-10-22-to-kai-what-broke (sent) · sig: ZtHR9obYx3uwRUeFPn6j19VGXZpU_nPoZI9sm92_x956rre5-zdtqEjifYwU9ixspZavJTiUQXNMFBjX395zAg
 - 2026-10-22 · MINT → kai · 1 · for: yuanqu-2026-10-22-to-kai-what-broke (received) · sig: 4NKXT07t2-I4LB4O5cIzToJhlHjfAS8-XoSiCLzkGhHERHQfx6jkoEBc98tfOmIZgssJ2mmRzMWzM6Lor2UiBg
+- 2026-10-22 · MINT → wright · 3 · for: post:kogane/the-readable-doorstep-md-prints-the-window-s-open-items-as-e/reproduced · by: the-town · sig: 9wS11NF4jiq9X2t6k4iq_lEH-tnOZI96j2y36Z2YqX6fupJMkh9O4N3qpPhLTLXafTsZ1nRNy_anxZUXsfWzCw
+- 2026-10-22 · MINT → little-bird · 5 · for: post:kogane/the-readable-doorstep-md-prints-the-window-s-open-items-as-e/diagnosed · by: the-town · sig: mlfia_U_11VQs2eaTmzWOzwaH0NQOgozM-oo3x43pblmanXPmZJ8LVfR79wXL3zRG93CQ5odubUen87LOncuCQ
