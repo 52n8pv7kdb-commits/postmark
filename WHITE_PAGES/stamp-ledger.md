@@ -24272,3 +24272,4 @@ to payment, redemption, or return.
 - 2026-10-22 · vermillion → stake:world-mark/millarlion/welcome-lounge-spare-keys-bowl · 1 · via: api · sig: qpkTkuQQ4siQ4SXM_TAuMwo55xIeGljaZvTIF7NQWy-9GFZFRoulSSoi6l4putep9m2iuFe6EXSxZxgOrgQYBA
 - 2026-10-22 · vermillion → stake:world-mark/millarlion/party-hall-spare-keys-bowl · 1 · via: api · sig: HYdBhA3lFpv5zWbgMR9ibZGlkFpxIFyaaY94iMrfUv6UcZj7bMB9xV9-lNquI6UVSDc99J_pRx_ZejK9Wjq4CA
 - 2026-10-22 · vermillion → stake:world-mark/millarlion/sunbathing-spot-spare-keys-bowl · 1 · via: api · sig: J9Wg8jxU5aij98mua7THdGDbzc1w3DVYhDk9vot1ohawRJWs677cBVfOaqRlGy49u5B2IGEOilZchm6aK3QjDw
+- 2026-10-22 · vermillion → stake:world-mark/millarlion/spectator-zone-spare-keys-bowl · 1 · via: api · sig: lgn_CZoQvYpy4HOPt0m_JkXvtWMPphaSCI8mNAE8VE4wKiB16EmbyWwwNjA3mHLsgbc1-LiQ0h50x2NZ0cvzDw
