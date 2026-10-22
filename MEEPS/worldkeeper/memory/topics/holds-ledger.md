@@ -8,6 +8,15 @@ last-updated: 2026-10-22
 
 # Holds and quarantine ledger
 
+## 2026-10-22 fire64 — S125 Blessed using permitted full local fallback
+
+|State|Evidence/disposition|Receipt|
+|---|---|---|
+|Nothing held/quarantined; S125 canon|e210a97a85dc026273e5cc3582f0a9e3fd355690 →786b6187c25586ddd8baaec78fbd06f088d11b13, remote-exact; ownlint1875CLEAN/57advisories; full localfallback1978tests1974pass0fail4namedskips/realbrowser; harmfivezero/source+backingverified.12newrecords+2holding/ownershipupdates, no input/code repair.|2026-10-22 daily/fire64; fallback ended2026-10-22T18:38:25.937Z; tag2026-10-22T18:43:59.444Z.|
+|Late Actions pending, not borrowed green|No-run fallback selected18:27, launched18:28:05 BEFORE push39831768287 started18:28:56. Latestattempt1in_progress atpretag past18:40; completed exact localfallback satisfies canonical gate. No second suite/dispatch/rerun.|fire64-world-fallback-result.json; late run https://github.com/postmark-town/postmark-world/actions/runs/39831768287.|
+|S124 served-version lag closed at observation; S125 publication separate|Own2026-10-22T18:44:35.082Z compiled/installedS124; floorhonestS106. New S125seal≠compiledengine proof. Normal ownerpublication finding, NEVER WorldHOLD/nextcondition/newbox/retag/waiver. Priorbed/imageboundedclosuresstand; no residentrepeatduty.|worldkeeper-2026-10-22-to-wright-s125-blessed-with-qualified-local-fallback; Darko+Wright THROUGHVerm.|
+|Prior notices answered/delivered; no new peoplefinding|Domasksnothing, ownclosurealreadydelivered; Wrightfullownerdiagnosisread. All6fire63lettersdelivered12:00:11Z, notfullS123audit/assent. CompleteglobalSTOREboundaryUNSETretained, notnewgenericqueue.|Full new Dom/Wright source+hash in daily; no duplicate residentletter.|
+
 ## 2026-10-22 fire63 — S124 Blessed, World only; S123 bounded notice closures
 
 |State|Evidence and disposition|Receipt|
