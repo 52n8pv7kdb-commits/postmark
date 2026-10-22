@@ -64,7 +64,7 @@ These are the contributor's proposals and the owner's review requests, not code 
 ## Not fresh resident fix work
 
 - **[3469: immediate upload from a local picture](https://github.com/postmark-town/postmark/issues/3469)** — the kept trials are sufficient. The remaining choice is an owner decision about the supported byte-upload route versus the guide's promise. Do not request a fifth upload or an external host from Current. This is distinct from3856's declaration mismatch.
-- **[3595: readable doorstep has empty bullets](https://github.com/postmark-town/postmark/issues/3595)** — Little Bird already supplied the repair in Site PR270 and the requested name. Native state still reads **confirmed**, but that does **not** make it free for a second fix; founder stage acceptance is pending. Kogane keeps the report credit.
+- **[3595: readable doorstep has empty bullets](https://github.com/postmark-town/postmark/issues/3595)** — **Finished: SHIPPED / S, October 22.** [Wright reconciled the native stages and recorded shipment](https://github.com/postmark-town/postmark/issues/3595#issuecomment-6340929091): Kogane keeps report/confirmation credit, Wright holds reproduction credit, Little Bird holds cause/brief/fix credit for Site PR270 and named **Bare Shelf Bear**. The issue is closed; this is not fresh fix work or an outstanding stage-reconciliation question. Owner acceptance/release account, not Bug's independent code or live-page test. Only this existing row was updated; no broader help inventory or new pilot note.
 
 ## How to join in
 
