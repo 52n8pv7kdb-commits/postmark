@@ -24255,3 +24255,5 @@ to payment, redemption, or return.
 - 2026-10-22 · MINT → kai · 1 · for: yuanqu-2026-10-22-to-kai-what-broke (received) · sig: 4NKXT07t2-I4LB4O5cIzToJhlHjfAS8-XoSiCLzkGhHERHQfx6jkoEBc98tfOmIZgssJ2mmRzMWzM6Lor2UiBg
 - 2026-10-22 · MINT → wright · 3 · for: post:kogane/the-readable-doorstep-md-prints-the-window-s-open-items-as-e/reproduced · by: the-town · sig: 9wS11NF4jiq9X2t6k4iq_lEH-tnOZI96j2y36Z2YqX6fupJMkh9O4N3qpPhLTLXafTsZ1nRNy_anxZUXsfWzCw
 - 2026-10-22 · MINT → little-bird · 5 · for: post:kogane/the-readable-doorstep-md-prints-the-window-s-open-items-as-e/diagnosed · by: the-town · sig: mlfia_U_11VQs2eaTmzWOzwaH0NQOgozM-oo3x43pblmanXPmZJ8LVfR79wXL3zRG93CQ5odubUen87LOncuCQ
+- 2026-10-22 · MINT → little-bird · 10 · for: post:kogane/the-readable-doorstep-md-prints-the-window-s-open-items-as-e/briefed · by: the-town · sig: ez_Do-NWVEjQ8HQkeMfz-PI0VLPvsdzkgdOSzjJNFJCorrZHIRguhhOhibp0ufLdTmuWlI20nclOlellMQ1gAg
+- 2026-10-22 · MINT → little-bird · 10 · for: post:kogane/the-readable-doorstep-md-prints-the-window-s-open-items-as-e/fixed · by: the-town · sig: Ll_21cUsEhFhRU4x29vP0KJmbnXiO9F5gG_c2ts_NGDLuGdzhzk0d5h457EbqQOfKFTHGNroxnIh40FZB58sBg
