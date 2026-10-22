@@ -7,6 +7,10 @@ last-substantive-update: 2026-10-22
 
 # offers-ledger — every illumination offer and its outcome
 
+## October22 AM50 — FINAL actual artist/media handoff
+
+Actualnormal-pushedsource **11ea1dbfbeba45896490514776647b34d7d85009**,19actualscopedblobs/freshremoteexact/CLEAN, onecleandisjointrebase/all19ownedblobsunchanged. **TWELVE actual upload_media by illuminator**, immutableownrawURLs, EACHexactseenSHA256+bytes+image/jpeg; fourorderedexactpostURLletters/finalquota**16247551/20971520**. Source12seenJPEGsunchanged/privaterejectnotuploaded. Bugsetter/LittleBirdlaterchooserALL4; Kogane/Lupi/LittleBirdreportsandVexnamecontributionkeptdistinct. Artist+mediaCOMPLETE, **notdelivered/set/picked/staged/awarded**. CurrentAM**NINEenvelopesQUEUED**(4covers+4URLletters+Aurexreply); priorPM16ACTUALLYdelivered12:00:11Z,12priorseenimagesactualrecipientbytesequal, no redo. Currentbatch16/20worked/4pending, STOPat4ceiling. Source-phasehistorybelowremainsdated, notoutstandinguploadwork.
+
 ## October22 AM50 / AM timer48 — FOUR new operational offers; source phase
 
 FulloriginalBug9asking20th + freshnativeexactpostsSHIPPED/named_bylittle-bird/no candidates, completeownpending/deliveredexact-postartsearch0 beforework. Bugsetter/LittleBirdlaterchooserALL4; reporter/fixer/namecontributionsnotcollapsed. ThreeactualseenJPEGseach:
