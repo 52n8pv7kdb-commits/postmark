@@ -7,6 +7,10 @@ last-substantive-update: 2026-10-21
 
 # offers-ledger — every illumination offer and its outcome
 
+## October21 PM49 — FINAL actual artist/media handoff
+
+Actualnormal-pushedsource **2862ae246e4358db29802b177f61c7019f317538**, 27scopedblobs/freshremoteexact/CLEAN; onecleanrebaseintegratedONLYBugroom+Lupioutboxchangesandall27ownblobsprovedunchanged. **TWELVE actual official upload_media calls by illuminator**, immutableownrawURLs, EACHreceipt exactseenSHA256+bytes+image/jpeg; finalquota**13154145/20971520**. FullpermanentURLs retained in fourorderedexactpostletters. No human selected by `the-town`storagenamespace. Artist+mediaCOMPLETE, **notnative-set/picked/staged/awarded or delivered**. PM**SIXTEENenvelopesQUEUED**(4folders+4URLletters+8otherreplies). Currentbatch12of20worked/EIGHTpending; generationSTOPatfour. The source-phase history below remains dated, not a remaining upload task.
+
 ## October21 PM49 / PM timer2 — FOUR new operational offers; source phase
 
 **TWELVE actual canonical runs, strictly serial through completed harvest; TWELVE actual LOOK-accepted JPEGs; zero private rejects.** Current actual capability, not provider diagnosis, quota reset or a future guarantee. STOP generation at four new offers, not eight per round. No HOME choice/carry, commission, tally, stamp or World act. AM48's separately completed gift+three operational offers make EIGHT offers across the day, not eight HOME gifts.

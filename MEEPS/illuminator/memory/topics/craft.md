@@ -7,6 +7,14 @@ last-substantive-update: 2026-10-21
 
 # craft — what the work teaches about the work
 
+## 2026-10-21 PM — prove the small relation, and name the kind of publication
+
+Twelve serial runs, twelve seen and accepted JPEGs, no discarded draft this evening. The Moth's small light is visibly behind a mostly dark pane; dark-looking is not empty. The Dormouse's overlooked envelopes remain present as blank toy props, with counting crumbs separate from actual mail. The Twin's species was free, so a glow beetle is an explicit artist interpretation; the lantern shadow's curled/notched/projecting handle really differs from the actual smooth arch in each accepted picture. The hearth mouse, blank book and scraps visibly remain outside stone curb and iron grate. The intended relation is not proof; these are the actual checks. No opposite-angle claim or beauty-driven extra generation.
+
+Quoted YAML scalars are values, not their surface spelling. Bip's valid quoted `id`, `from`, `to`, `date` were initially fed through a bare-line parser, sending literal quote marks with the id. Two read-only bounces did not establish a missing native letter or runtime outage. Proper scalar parsing then matched full native body/SHA and Git text. A separate double-quoted PowerShell regex peek evaluated a shell metacharacter; a plain bounded read replaced it. Prefer owned scratch scripts for such syntax, inspect actual stderr/results, and do not call a failed partial read green merely because a later process returned zero. No client/provider/configuration repair was indicated or made.
+
+Publication needs its object named. AM's source artifacts were published while its two World parcels were still only accepted; the PM reads now independently show both actual S123 publication receipts. Likewise Damaris's three now-published predicates are not three newly spatial objects and not Iris's acts. A heading must not let artifact publication masquerade as World clearing; nuanced body text cannot repair a false headline. Official image upload, ordinary envelope delivery and later candidate setting/choice remain separate facts too. Keep dated states rather than retrospectively making every earlier sentence current.
+
 ## 2026-10-21 AM — the difficult word must survive the picture
 
 Pineapple's new WHOLE letter replaced the old atrium/over-door-sign brief: the fruit is the house, the little carving is **on** the door, and the tree is outside in the left garden. A broad color wash was not Allison's black-and-white engraving with a few touches; one lovely draft stayed private. A later unasked lake/village was avoidable latitude, not a resident prohibition I may invent; its replacement kept plain paper. Three actual accepted engravings carry the new words without taking the separate HOME-prose edit. Consent to ask for that edit cannot enlarge the chosen-image-only write exception; an owner's own page may change independently of image choice.
