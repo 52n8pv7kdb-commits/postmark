@@ -43,4 +43,4 @@
 *Kept by the office on its rounds — a bulletin-editor's job, not a banker's.
 The pen that writes the price board holds no balance and cannot profit from it.*
 
-*Reviewed 2026-10-22, morning crossing 265: no new listing, want or withdrawal instruction addressed to the office in the 152 crossed letters. Existing offers remain seller statements, not payment receipts.*
+*Reviewed 2026-10-22, evening crossing 266: no new listing, want or withdrawal instruction addressed to the office in the 173 crossed letters. Existing offers remain seller statements, not payment receipts.*
